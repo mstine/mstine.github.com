@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Aws on Matt Stine</title>
+    <link>https://www.mattstine.com/categories/aws/</link>
+    <description>Recent content in Aws on Matt Stine</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Matt Stine</copyright>
+    <lastBuildDate>Fri, 02 Aug 2013 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.mattstine.com/categories/aws/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>bosh and cloud api compatibility</title>
+      <link>https://www.mattstine.com/2013/08/02/bosh-and-cloud-api-compatibility/</link>
+      <pubDate>Fri, 02 Aug 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2013/08/02/bosh-and-cloud-api-compatibility/</guid>
+      <description>The gauntlet has again been dropped in the world of cloud interoperability. The dueling factions include those asserting that competitors to Amazon&amp;rsquo;s web services (principally OpenStack) must adopt AWS&amp;rsquo;s API&amp;rsquo;s in order to remain viable, and those that believe such &amp;ldquo;API cloning&amp;rdquo; will do nothing more than stunt innovation. If you were to ask me, I&amp;rsquo;d say that we&amp;rsquo;ve seen this play out before. Remember the &amp;ldquo;Clone Wars&amp;rdquo; that began in the late 1980&amp;rsquo;s and that persisted for the better part of two decades?</description>
+    </item>
+    
+  </channel>
+</rss>

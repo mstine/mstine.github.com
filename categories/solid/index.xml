@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Solid on Matt Stine</title>
+    <link>https://www.mattstine.com/categories/solid/</link>
+    <description>Recent content in Solid on Matt Stine</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Matt Stine</copyright>
+    <lastBuildDate>Mon, 30 Jun 2014 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.mattstine.com/categories/solid/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>microservices are solid</title>
+      <link>https://www.mattstine.com/2014/06/30/microservices-are-solid/</link>
+      <pubDate>Mon, 30 Jun 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2014/06/30/microservices-are-solid/</guid>
+      <description>Microservices are often described as small, loosely coupled applications that follow the UNIX philosophy of &amp;#8220;doing one thing well.&amp;#8221; They have also been related to the Single Responsibility Principle, the first of the five principles making up SOLID. A microservices-based architecture is typically constructed around a set of common patterns. This set of patterns is actually consistent with all of the SOLID principles when thought of at the architectural rather than the class/module level.</description>
+    </item>
+    
+  </channel>
+</rss>

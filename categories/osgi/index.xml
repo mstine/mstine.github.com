@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Osgi on Matt Stine</title>
+    <link>https://www.mattstine.com/categories/osgi/</link>
+    <description>Recent content in Osgi on Matt Stine</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Matt Stine</copyright>
+    <lastBuildDate>Thu, 29 Apr 2010 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.mattstine.com/categories/osgi/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>osgi on rails</title>
+      <link>https://www.mattstine.com/2010/04/29/osgi-on-rails/</link>
+      <pubDate>Thu, 29 Apr 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2010/04/29/osgi-on-rails/</guid>
+      <description>I&amp;rsquo;ve seen quite a few blogs/articles/etc. lately related to the adoption (or lack thereof) of OSGi in the mainstream web application/enterprise application space. A nice summation of these is encapsulated in this excerpt from a comment by Peter Kriens on DZone (you&amp;rsquo;ll find it in the comments section for http://java.dzone.com/articles/osgi-perspectives:
+ Yes, one of the next frontiers is to make OSGi easier to use for the web app developers. The solid foundation is there, so stop whining and help us create the tools, books, and tutorials that will make OSGi palatable in those markets.</description>
+    </item>
+    
+  </channel>
+</rss>

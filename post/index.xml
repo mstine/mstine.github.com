@@ -1,0 +1,1271 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Matt Stine</title>
+    <link>https://www.mattstine.com/post/</link>
+    <description>Recent content in Posts on Matt Stine</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Matt Stine</copyright>
+    <lastBuildDate>Sun, 14 May 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.mattstine.com/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Upcoming Cloud Native Architecture Training on O&#39;Reilly&#39;s Safari</title>
+      <link>https://www.mattstine.com/2017/05/14/upcoming-cloud-native-architecture-training-on-oreillys-safari/</link>
+      <pubDate>Sun, 14 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2017/05/14/upcoming-cloud-native-architecture-training-on-oreillys-safari/</guid>
+      <description>I&amp;#8217;m offering online training in Cloud Native Architecture via O&amp;#8217;Reilly&amp;#8217;s amazing Safari platform. Several dates still have openings:
+   September 6-7, 2017: 12:00pm - 4:00pm EDT
+  September 13-14, 2017: 12:00pm - 4:00pm EDT
+  October 4-5, 2017: 12:00pm - 4:00pm EDT
+   More dates will be announced soon.
+ Designed for software architects and senior developers working on medium-to-large scale enterprise systems, this two-day, hands-on course will introduce you to the cloud native architectural pattern language and give you practice applying it.</description>
+    </item>
+    
+    <item>
+      <title>cloud native app arch training</title>
+      <link>https://www.mattstine.com/2015/02/18/cloud-native-app-arch-training/</link>
+      <pubDate>Wed, 18 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2015/02/18/cloud-native-app-arch-training/</guid>
+      <description>I&amp;#8217;m offering a two-day, intensive, hands-on training course at the upcoming O&amp;#8217;Reilly Software Architecture Conference in Boston, MS. The class is entitled Cloud-Native Application Architectures with Spring and Cloud Foundry. In this class you will have the opportunity to implement an easy-to-understand storefront system (complete with product search, details, reviews, and recommendations) as a cloud-native architecture using Spring and Cloud Foundry. In addition, you&amp;#8217;ll get hands-on exposure to the Netflix OSS family of technologies.</description>
+    </item>
+    
+    <item>
+      <title>learning to go part i interfaces</title>
+      <link>https://www.mattstine.com/2014/07/08/learning-to-go-part-i-interfaces/</link>
+      <pubDate>Tue, 08 Jul 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2014/07/08/learning-to-go-part-i-interfaces/</guid>
+      <description>This article was originally published in the April 2014 issue of NFJS the Magazine.
+ This article begins an introductory series on the Go programming language. Go is a language optimized for large-scale software engineering and is rapidly becoming the language of choice for building cloud services. It does this in a very interesting way, optimizing for simplicity rather than complexity and taking a &amp;#8220;less is exponentially more&amp;#8221; approach.</description>
+    </item>
+    
+    <item>
+      <title>wip microservices reading list</title>
+      <link>https://www.mattstine.com/2014/07/02/wip-microservices-reading-list/</link>
+      <pubDate>Wed, 02 Jul 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2014/07/02/wip-microservices-reading-list/</guid>
+      <description>I&amp;#8217;ve started curating a Microservices Reading List. It&amp;#8217;s still work in progress, but there&amp;#8217;s some good stuff there. Watch for more!
+ </description>
+    </item>
+    
+    <item>
+      <title>microservices are solid</title>
+      <link>https://www.mattstine.com/2014/06/30/microservices-are-solid/</link>
+      <pubDate>Mon, 30 Jun 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2014/06/30/microservices-are-solid/</guid>
+      <description>Microservices are often described as small, loosely coupled applications that follow the UNIX philosophy of &amp;#8220;doing one thing well.&amp;#8221; They have also been related to the Single Responsibility Principle, the first of the five principles making up SOLID. A microservices-based architecture is typically constructed around a set of common patterns. This set of patterns is actually consistent with all of the SOLID principles when thought of at the architectural rather than the class/module level.</description>
+    </item>
+    
+    <item>
+      <title>bosh and cloud api compatibility</title>
+      <link>https://www.mattstine.com/2013/08/02/bosh-and-cloud-api-compatibility/</link>
+      <pubDate>Fri, 02 Aug 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2013/08/02/bosh-and-cloud-api-compatibility/</guid>
+      <description>The gauntlet has again been dropped in the world of cloud interoperability. The dueling factions include those asserting that competitors to Amazon&amp;rsquo;s web services (principally OpenStack) must adopt AWS&amp;rsquo;s API&amp;rsquo;s in order to remain viable, and those that believe such &amp;ldquo;API cloning&amp;rdquo; will do nothing more than stunt innovation. If you were to ask me, I&amp;rsquo;d say that we&amp;rsquo;ve seen this play out before. Remember the &amp;ldquo;Clone Wars&amp;rdquo; that began in the late 1980&amp;rsquo;s and that persisted for the better part of two decades?</description>
+    </item>
+    
+    <item>
+      <title>blue green deployments on cloudfoundry</title>
+      <link>https://www.mattstine.com/2013/07/10/blue-green-deployments-on-cloudfoundry/</link>
+      <pubDate>Wed, 10 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2013/07/10/blue-green-deployments-on-cloudfoundry/</guid>
+      <description>One of the great things about Cloud Foundry is that it is a great enabler. Tall words. But what do they mean? Essentially, Cloud Foundry (and any other well-designed PaaS) enables us to do things as developers and operators that would be extremely difficult in a traditional deployment environments. One particularly valuable area of enablement is our new found ability to practice Continous Delivery, meaning that we continuously prove our ability to deliver working software by continuously treating each code commit to a system as if it could be deployed to a production environment.</description>
+    </item>
+    
+    <item>
+      <title>clojure on cloud foundry</title>
+      <link>https://www.mattstine.com/2013/05/29/clojure-on-cloud-foundry/</link>
+      <pubDate>Wed, 29 May 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2013/05/29/clojure-on-cloud-foundry/</guid>
+      <description>I was inspired by Brian McClain&amp;rsquo;s post on bringing Haskell to Cloud Foundry using Cloud Foundry v2 buildpacks, so I decided to go on a buildpack journey of my own. Since Clojure is the language I most enjoying &amp;ldquo;toying around with,&amp;rdquo; I thought I&amp;rsquo;d try to deploy a simple Clojure web application using the Heroku Clojure Buildpack.
+To reiterate some of the coolness around buildpacks, they are what allows a PaaS like Cloud Foundry or Heroku to support various runtimes without first building that support into the core platform.</description>
+    </item>
+    
+    <item>
+      <title>into the crucible</title>
+      <link>https://www.mattstine.com/2013/05/29/into-the-crucible/</link>
+      <pubDate>Wed, 29 May 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2013/05/29/into-the-crucible/</guid>
+      <description>Wow&amp;hellip;it seems I only post to this blog toward the end of May. Well, that all changes now. You see, as of June 3, 2013, this blog is going to become one of many aspects of my new &amp;ldquo;day job.&amp;rdquo; On Monday, I start my life as a Community Engineer with Cloud Foundry by Pivotal. What&amp;rsquo;s a Community Engineer? Quite honestly, I&amp;rsquo;m not completely sure of the answer to that question yet.</description>
+    </item>
+    
+    <item>
+      <title>the relaunch</title>
+      <link>https://www.mattstine.com/2012/05/24/the-relaunch/</link>
+      <pubDate>Thu, 24 May 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2012/05/24/the-relaunch/</guid>
+      <description>I have rebooted this blog many times over the last several years. If you&amp;rsquo;ve been a reader of my blog in the past, you will have noticed significant changes. If you&amp;rsquo;re new here, welcome!
+This reboot has been in the works for several months now, even though I&amp;rsquo;ve probably spent far less than 24 active hours working on it. Life as an &amp;ldquo;itinerant&amp;rdquo; consultant and conference speaker is extremely busy compared to what I was doing on May 16, 2012 (the date of my last blog posting).</description>
+    </item>
+    
+    <item>
+      <title>design meeting patterns/antipatterns</title>
+      <link>https://www.mattstine.com/2011/05/16/design-meeting-patternsantipatterns/</link>
+      <pubDate>Mon, 16 May 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2011/05/16/design-meeting-patternsantipatterns/</guid>
+      <description>For those of you that don&amp;rsquo;t know, I recently returned to the technical ranks as a Software Architect after a three-year stint in management. To make a long story short, I now love my job again. Perhaps I&amp;rsquo;ll write the long story in a future blog entry. On to the topic at hand. Today I led the first significant design discussion that I have led in quite a long time. A few minutes afterward, I was already reflecting on what had occurred and how.</description>
+    </item>
+    
+    <item>
+      <title>selenium conference 2011</title>
+      <link>https://www.mattstine.com/2011/01/05/selenium-conference-2011/</link>
+      <pubDate>Wed, 05 Jan 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2011/01/05/selenium-conference-2011/</guid>
+      <description>I completed an interest survey for a potential Selenium-focused conference several weeks ago, and I&amp;rsquo;m excited to let you know that the &amp;ldquo;powers that be&amp;rdquo; have decided that the conference is going to happen! I have already submitted my &amp;ldquo;Executable Specifications: Automating Your Requirements Document with Geb and Spock&amp;rdquo; talk as a potential session. Whether it makes the conference program or not, I plan on attending the event. Here are the details:</description>
+    </item>
+    
+    <item>
+      <title>2010 in review the automated analysis</title>
+      <link>https://www.mattstine.com/2011/01/02/2010-in-review-the-automated-analysis/</link>
+      <pubDate>Sun, 02 Jan 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2011/01/02/2010-in-review-the-automated-analysis/</guid>
+      <description>The stats helper monkeys at WordPress.com mulled over how this blog did in 2010, and here&amp;rsquo;s a high level summary of its overall blog health:
+The Blog-Health-o-Meter™ reads Fresher than ever.
+Crunchy numbers A helper monkey made this abstract painting, inspired by your stats.
+A Boeing 747-400 passenger jet can hold 416 passengers. This blog was viewed about 6,600 times in 2010. That&amp;rsquo;s about 16 full 747s.
+In 2010, there were 15 new posts, growing the total archive of this blog to 115 posts.</description>
+    </item>
+    
+    <item>
+      <title>selenium 2.0 refcard</title>
+      <link>https://www.mattstine.com/2010/11/29/selenium-2-0-refcard/</link>
+      <pubDate>Mon, 29 Nov 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2010/11/29/selenium-2-0-refcard/</guid>
+      <description>Today DZone released my first Refcard: &amp;ldquo;Selenium 2.0: Using the WebDriver API to Create Robust User Acceptance Tests.&amp;rdquo; I have been interested in writing a Refcard for a long time but have never pulled the trigger. For whatever reason, I decided to jump on the bandwagon last month. Writing this card was quite a challenge, as it&amp;rsquo;s difficult to boil down a big topic into only six pages while keeping it useful.</description>
+    </item>
+    
+    <item>
+      <title>agile zone roundup</title>
+      <link>https://www.mattstine.com/2010/11/10/agile-zone-roundup/</link>
+      <pubDate>Wed, 10 Nov 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2010/11/10/agile-zone-roundup/</guid>
+      <description>I&amp;rsquo;ve been really quiet on this blog lately. There have been multiple reasons for that. I&amp;rsquo;ve been extremely busy preparing for conferences this Fall including SpringOne/2GX and The Rich Web Experience. I&amp;rsquo;ve also stayed busy writing for DZone. I have my first DZone Refcard coming out soon, which is focused on Web Driver/Selenium 2. I&amp;rsquo;ve also been writing my regular articles for Agile Zone. Here&amp;rsquo;s a roundup:
+ Modular Agile: Loosely coupled, highly cohesive ceremonies</description>
+    </item>
+    
+    <item>
+      <title>the seven wastes of software development</title>
+      <link>https://www.mattstine.com/2010/11/10/the-seven-wastes-of-software-development/</link>
+      <pubDate>Wed, 10 Nov 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2010/11/10/the-seven-wastes-of-software-development/</guid>
+      <description>In late September I completed an eight-part article series for Agile Zone entitled &amp;ldquo;The Seven Wastes of Software Development.&amp;rdquo; This series discussed Mary and Tom Poppendieck&amp;rsquo;s mapping of Shigeo Shingo&amp;rsquo;s &amp;ldquo;Seven Wastes of Lean Manufacturing&amp;rdquo; into the software development world. This has been a very popular series, having been viewed a total of 57,887 times at this writing. Here&amp;rsquo;s a set of links to the series:
+ The Seven Wastes of Software Development - Introduction Waste #1 - Partially Done Work Waste #2 - Extra Features Waste #3 - Relearning Waste #4 - Handoffs Waste #5 - Delays Waste #6 - Task Switching Waste #7 - Defects  </description>
+    </item>
+    
+    <item>
+      <title>the agile guerilla series</title>
+      <link>https://www.mattstine.com/2010/09/05/the-agile-guerilla-series/</link>
+      <pubDate>Sun, 05 Sep 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2010/09/05/the-agile-guerilla-series/</guid>
+      <description>I recently completed a series of articles for Agile Zone entitled &amp;ldquo;The Agile Guerilla.&amp;rdquo; Those of you that have seen me on the No Fluff Just Stuff tour this year may recognize a talk by the same name. They are one and the same concept: my attempt to reach the masses with strategies for introducing change, specifically moving to agility, into organizations from the grassroots level.
+Here&amp;rsquo;s a list of the complete set of articles for your convenience!</description>
+    </item>
+    
+    <item>
+      <title>more agile zone articles</title>
+      <link>https://www.mattstine.com/2010/08/02/more-agile-zone-articles/</link>
+      <pubDate>Mon, 02 Aug 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2010/08/02/more-agile-zone-articles/</guid>
+      <description>Just to prove that I am writing, just not here, I thought I&amp;rsquo;d post another collection of links to my latest Agile Zone articles:
+ Yes You Kanban!
+ The Guerilla&amp;rsquo;s Workflow Feedback is the Key! Going Guerilla: Where to Start  In the near future you can look forward to a few more episodes of &amp;ldquo;The Agile Guerilla&amp;rdquo; series, as well as a brand new series I&amp;rsquo;ll be starting entitled &amp;ldquo;The Seven Wastes of Software Development.</description>
+    </item>
+    
+    <item>
+      <title>i&#39;m in the zone...agile zone</title>
+      <link>https://www.mattstine.com/2010/07/20/im-in-the-zone-agile-zone/</link>
+      <pubDate>Tue, 20 Jul 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2010/07/20/im-in-the-zone-agile-zone/</guid>
+      <description>My apologies to my colleagues down the street at AutoZone, but I just had to do that. :-)
+I recently accepted the role of Agile Zone Leader at DZone.com. For the past few weeks I&amp;rsquo;ve been publishing a couple of articles a week on various agile development topics. I&amp;rsquo;m very happy to get the extra exposure and I hope that folks are getting some value out of my posts. On the downside, I have virtually zero time to write anything here, but on the upside I&amp;rsquo;m definitely writing more regularly.</description>
+    </item>
+    
+    <item>
+      <title>two new nfjs talks for this fall</title>
+      <link>https://www.mattstine.com/2010/07/06/two-new-nfjs-talks-for-this-fall/</link>
+      <pubDate>Tue, 06 Jul 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2010/07/06/two-new-nfjs-talks-for-this-fall/</guid>
+      <description>I&amp;rsquo;m excited to announce that I am working up two brand new talks for this Fall to go along side my regular fare. Both of these talks are already scheduled for shows in Boston, MA and Seattle, WA.
+The first talk is entitled &amp;ldquo;The Seven Wastes of Software Development.&amp;rdquo; We&amp;rsquo;ll begin by examining one of the key tenets of Lean Software Development, that of eliminating waste. We&amp;rsquo;ll then walk through the seven wastes identified by Mary and Tom Poppendieck in their books:</description>
+    </item>
+    
+    <item>
+      <title>nfjs fall 2010 what do you want to learn</title>
+      <link>https://www.mattstine.com/2010/06/22/nfjs-fall-2010-what-do-you-want-to-learn/</link>
+      <pubDate>Tue, 22 Jun 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2010/06/22/nfjs-fall-2010-what-do-you-want-to-learn/</guid>
+      <description>Hi everyone! I&amp;rsquo;m currently in the process of developing new talks for my Fall 2010 NFJS tour dates. While I don&amp;rsquo;t know yet where I&amp;rsquo;ll be speaking, I can tell you that I&amp;rsquo;ve registered availability for the following shows:
+ Boston, MA
+ Seattle, WA
+ Atlanta, GA
+ Minneapolis, MN
+ Chicago, IL
+ Denver, CO
+  So, if you&amp;rsquo;re in one of those cities and you&amp;rsquo;re thinking about attending NFJS when it comes your way (see here for the schedule), I&amp;rsquo;d like to know what you want to hear about assuming I come your way.</description>
+    </item>
+    
+    <item>
+      <title>dont build software thats too smart</title>
+      <link>https://www.mattstine.com/2010/06/03/dont-build-software-thats-too-smart/</link>
+      <pubDate>Thu, 03 Jun 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2010/06/03/dont-build-software-thats-too-smart/</guid>
+      <description>I had an extremely successful meeting with one of our clients yesterday. We were discussing how we wanted to go about migrating her laboratory from its current system (one that we built several years ago) to our new lab management platform. At some point during the discussion I made the statement, &amp;ldquo;We tried to make the previous system too smart! We&amp;rsquo;re not repeating that mistake this time.&amp;rdquo; Of course, she was in complete agreement with that principle.</description>
+    </item>
+    
+    <item>
+      <title>announcing nosql summer memphis</title>
+      <link>https://www.mattstine.com/2010/05/28/announcing-nosql-summer-memphis/</link>
+      <pubDate>Fri, 28 May 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2010/05/28/announcing-nosql-summer-memphis/</guid>
+      <description>I recently stumbled across the NOSQL Summer website via my friend Alex Miller&amp;rsquo;s blog. The idea is to setup a summer reading club focused around databases and distributed systems. Groups will gather &amp;ldquo;worldwide&amp;rdquo; to discuss various papers and the hopefully submit the substance of their discussions back to the NOSQL Summer website in the form of annotated papers.
+This sounded like a great idea to me, so I decided that we&amp;rsquo;d co-locate a NOSQL Summer discussion with our monthly Memphis JUG meetings.</description>
+    </item>
+    
+    <item>
+      <title>first thoughts on seven languages in seven weeks</title>
+      <link>https://www.mattstine.com/2010/05/06/first-thoughts-on-seven-languages-in-seven-weeks/</link>
+      <pubDate>Thu, 06 May 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2010/05/06/first-thoughts-on-seven-languages-in-seven-weeks/</guid>
+      <description>I recently started reading the beta copy of Bruce Tate&amp;rsquo;s Seven Languages in Seven Weeks from the Pragmatic Bookshelf. While I&amp;rsquo;m certainly NOT on pace to actually complete the book in seven weeks, I have been steadily plodding along. Reading this book takes me back to my days as an undergraduate computer science student at the University of Mississippi. As with most CS programs, we were all required to take a &amp;ldquo;Survey of Programming Languages&amp;rdquo; course toward the end of the curriculum.</description>
+    </item>
+    
+    <item>
+      <title>osgi on rails</title>
+      <link>https://www.mattstine.com/2010/04/29/osgi-on-rails/</link>
+      <pubDate>Thu, 29 Apr 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2010/04/29/osgi-on-rails/</guid>
+      <description>I&amp;rsquo;ve seen quite a few blogs/articles/etc. lately related to the adoption (or lack thereof) of OSGi in the mainstream web application/enterprise application space. A nice summation of these is encapsulated in this excerpt from a comment by Peter Kriens on DZone (you&amp;rsquo;ll find it in the comments section for http://java.dzone.com/articles/osgi-perspectives:
+ Yes, one of the next frontiers is to make OSGi easier to use for the web app developers. The solid foundation is there, so stop whining and help us create the tools, books, and tutorials that will make OSGi palatable in those markets.</description>
+    </item>
+    
+    <item>
+      <title>jug leadership lessons learned on slideshare</title>
+      <link>https://www.mattstine.com/2010/04/02/jug-leadership-lessons-learned-on-slideshare/</link>
+      <pubDate>Fri, 02 Apr 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2010/04/02/jug-leadership-lessons-learned-on-slideshare/</guid>
+      <description>I&amp;rsquo;ve been playing a bit with SlideShare today and I took the opportunity to upload the slides from my Java.net Community Corner interview with Kevin Farnham at JavaOne 2009. SlideShare has a nice feature that allows you to sync up the audio from an MP3 file with your slides, and since both were available, I thought I&amp;rsquo;d give it a try. The interface is extremely easy to use and I&amp;rsquo;m very happy with the outcome.</description>
+    </item>
+    
+    <item>
+      <title>dead programmers society</title>
+      <link>https://www.mattstine.com/2010/02/16/dead-programmers-society/</link>
+      <pubDate>Tue, 16 Feb 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2010/02/16/dead-programmers-society/</guid>
+      <description>A local Pastor once gave the advice of introducing ourselves and our kids to dead people. It is his belief that if his kids grow up idolizing the likes of Eric Liddell, Jim Elliot, and Hudson Taylor, they would be far better off than by looking up to many of our so-called &amp;ldquo;heroes&amp;rdquo; of today. I happen to agree with his advice, but that&amp;rsquo;s not the subject of tonight&amp;rsquo;s blog entry.</description>
+    </item>
+    
+    <item>
+      <title>lotytoty for 2010</title>
+      <link>https://www.mattstine.com/2010/01/06/lotytoty-for-2010/</link>
+      <pubDate>Wed, 06 Jan 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2010/01/06/lotytoty-for-2010/</guid>
+      <description>If anyone&amp;rsquo;s interested, here&amp;rsquo;s a clue as to what I&amp;rsquo;m working on in 2010:</description>
+    </item>
+    
+    <item>
+      <title>securing grails plugin artifacts with filters</title>
+      <link>https://www.mattstine.com/2009/11/10/securing-grails-plugin-artifacts-with-filters/</link>
+      <pubDate>Tue, 10 Nov 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2009/11/10/securing-grails-plugin-artifacts-with-filters/</guid>
+      <description>So you&amp;rsquo;ve just installed the handy dandy Spring Security plugin (http://grails.org/plugin/acegi), which makes it incredibly easy to secure entire Grails controllers and/or controller actions with annotations, such as the following:
+This is enabled by turning on controller annotations in your SecurityConfig.groovy file:
+So all is now good in our project. We can secure either controllers or actions with annotations, enabling us to declaratively setup security side-by-side with the code that we&amp;rsquo;re securing in a very straightforward manner.</description>
+    </item>
+    
+    <item>
+      <title>pomodoro the first iteration</title>
+      <link>https://www.mattstine.com/2009/11/04/pomodoro-the-first-iteration/</link>
+      <pubDate>Wed, 04 Nov 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2009/11/04/pomodoro-the-first-iteration/</guid>
+      <description>I spent about an hour last night reading through Francesco Cirillo&amp;rsquo;s e-book The Pomodoro Technique. Up until this point I knew the basics of the technique, but I really wanted to drill down and get the details. I won&amp;rsquo;t explain those here - visit http://www.pomodorotechnique.com/ to get the lowdown. What I want to talk about is my experience applying the technique this morning.
+I managed to complete two Pomodoros. Each of the Pomodoros was filled with internal interruptions of various kinds.</description>
+    </item>
+    
+    <item>
+      <title>hi im matt stine and i have technology add</title>
+      <link>https://www.mattstine.com/2009/11/03/hi-im-matt-stine-and-i-have-technology-add/</link>
+      <pubDate>Tue, 03 Nov 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2009/11/03/hi-im-matt-stine-and-i-have-technology-add/</guid>
+      <description>Yes, it&amp;rsquo;s true. I came to the realization that there is such a thing as TADD&amp;hellip;technology attention deficit disorder. Ironically, I came to this realization while reading a sample chapter from the upcoming book from the Prags, Pomodoro Technique Illustrated: Can You Focus - Really Focus - for 25 Minutes? You see, it&amp;rsquo;s Pragmatic Programmer Writing Month (follow the trail that begins here), and I finally set aside an hour today to begin writing.</description>
+    </item>
+    
+    <item>
+      <title>thoughts so far on springone2gx</title>
+      <link>https://www.mattstine.com/2009/10/21/thoughts-so-far-on-springone2gx/</link>
+      <pubDate>Wed, 21 Oct 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2009/10/21/thoughts-so-far-on-springone2gx/</guid>
+      <description>It&amp;rsquo;s now Wednesday night, day 2.5 of SpringOne/2GX in New Orleans, LA. Normally I like to blog about each session that I attend when I make it to SpringOne, but as this has been my first year here as a speaker, I&amp;rsquo;ve spent practically all of my free time tweaking my presentation and demos. So, I wanted to summarize my reflections thus far before I forget them.
+First of all, my talk went off fantastically.</description>
+    </item>
+    
+    <item>
+      <title>making java groovier with lambdaj</title>
+      <link>https://www.mattstine.com/2009/10/09/making-java-groovier-with-lambdaj/</link>
+      <pubDate>Fri, 09 Oct 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2009/10/09/making-java-groovier-with-lambdaj/</guid>
+      <description>I spent the better part of yesterday tracing my way through the codebase for a large-scale enterprise application that my team is building right now, and I happened upon the following piece of code:
+//...imports excluded for clarity public class BusinessActivityBinMetaClassHelper { //... public static List&amp;lt;Long&amp;gt; getSrmMetaClassIdListJava(List&amp;lt;BusinessActivityBinMetaClass&amp;gt; businessActivityBinMetaClassList) { List&amp;lt;Long&amp;gt; srmMetaClassIdList = new ArrayList&amp;lt;Long?(); if(businessActivityBinMetaClassList != null) { for(BusinessActivityBinMetaClass businessActivityBinMetaClass : businessActivityBinMetaClassList) { if(businessActivityBinMetaClass.getSrmMetaClass() != null &amp;amp;&amp;amp; businessActivityBinMetaClass.getSrmMetaClass().getSrmMetaClassId() != null) { srmMetaClassIdList.</description>
+    </item>
+    
+    <item>
+      <title>test driven development worked for me</title>
+      <link>https://www.mattstine.com/2009/10/03/test-driven-development-worked-for-me/</link>
+      <pubDate>Sat, 03 Oct 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2009/10/03/test-driven-development-worked-for-me/</guid>
+      <description>Our team got to spend a few days with Jared Richardson this week, talking tech leadership, agile, and automated testing. At some point during the opening day&amp;rsquo;s discussion, I related the story of how I initially got into Test Driven Development (TDD) and how it seriously ramped up my productivity and decreased my defect count.
+In early 2003, we were slowly dragging through development of the first version of our Shared Resource Management system.</description>
+    </item>
+    
+    <item>
+      <title>isabella featured on totally tots</title>
+      <link>https://www.mattstine.com/2009/06/25/isabella-featured-on-totally-tots/</link>
+      <pubDate>Thu, 25 Jun 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2009/06/25/isabella-featured-on-totally-tots/</guid>
+      <description>Isabella, my second oldest daughter, just made the cutoff to be featured on one of the very popular &amp;ldquo;Mommy Blogs&amp;rdquo; out there, Totally Tots. Way to go Bella!</description>
+    </item>
+    
+    <item>
+      <title>javaone brain dump resources from memphis jug meeting</title>
+      <link>https://www.mattstine.com/2009/06/19/javaone-brain-dump-resources-from-memphis-jug-meeting/</link>
+      <pubDate>Fri, 19 Jun 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2009/06/19/javaone-brain-dump-resources-from-memphis-jug-meeting/</guid>
+      <description>I promised that I would post the links I mentioned in my talk last night at the Memphis JUG&amp;hellip;here they are:
+General Session Replays: http://java.sun.com/javaone/2009/general_sessions.jsp
+BlogTalkRadio: http://www.blogtalkradio.com/JavaOne
+JavaOne Minute: http://channelsun.sun.com/video/channel-you/javaone+minute/23867338001  Technical Sessions 2008-2009: http://developers.sun.com/learning/javaoneonline/ (Must be SDN Member - FREE!)
+The Da Vinci Machine Project: http://openjdk.java.net/projects/mlvm/  Groovy: http://groovy.codehaus.org
+Java.net Community Corner: http://wiki.java.net/bin/view/Javaone/CommunityCorner  JUGS Community: http://community.java.net/jugs/
+Scala: http://scala-lang.org
+SpringSource: http://www.springsource.com
+JUG-USA: https://jug-usa.dev.java.net/
+OpenSolaris: http://opensolaris.org
+Neal Ford: http://nealford.com (Can download his slides here)</description>
+    </item>
+    
+    <item>
+      <title>book review career 20 take control of your life</title>
+      <link>https://www.mattstine.com/2009/06/17/book-review-career-20-take-control-of-your-life/</link>
+      <pubDate>Wed, 17 Jun 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2009/06/17/book-review-career-20-take-control-of-your-life/</guid>
+      <description>I&amp;rsquo;ve finally published my review of the EXCELLENT book by Jared Richardson and Matthew Bass at DZone. Check it out here: http://books.dzone.com/reviews/career-20-take-control-your.</description>
+    </item>
+    
+    <item>
+      <title>javaone 2009 return of the puzzlers schlock and awe</title>
+      <link>https://www.mattstine.com/2009/06/09/javaone-2009-return-of-the-puzzlers-schlock-and-awe/</link>
+      <pubDate>Tue, 09 Jun 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2009/06/09/javaone-2009-return-of-the-puzzlers-schlock-and-awe/</guid>
+      <description>For several years now, Neal Gafter (Microsoft) and Joshua Block (Google), have made a habit of presenting various incarnations of this technical session, focused on what they call &amp;ldquo;Java Puzzlers.&amp;rdquo; Java Puzzlers are nothing more than short Java programs with curious behavior. It is a somewhat interactive session, with each puzzler&amp;rsquo;s code listing followed by a four possible choices (A,B,C,D) to answer the question: &amp;ldquo;What does it print?&amp;rdquo; Neal and Joshua &amp;ldquo;require&amp;rdquo; that every attendee vote for their answer.</description>
+    </item>
+    
+    <item>
+      <title>jug usa meeting with james gosling at javaone</title>
+      <link>https://www.mattstine.com/2009/06/05/jug-usa-meeting-with-james-gosling-at-javaone/</link>
+      <pubDate>Fri, 05 Jun 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2009/06/05/jug-usa-meeting-with-james-gosling-at-javaone/</guid>
+      <description>On Wednesday morning, JUG-USA was fortunate enough to get about 45 minutes with the &amp;ldquo;Father of Java&amp;rdquo; himself, James Gosling. Each year at JavaOne, Sun distributes registration discount codes to interested JUG&amp;rsquo;s. The JUG with the most registrations using their code gets this meeting. JUG-USA&amp;rsquo;s founding allowed us to use a bit of strength in numbers to wrestle this crown from the bigger European JUG&amp;rsquo;s for the first time that I know of.</description>
+    </item>
+    
+    <item>
+      <title>more connecting at javaone 2009</title>
+      <link>https://www.mattstine.com/2009/06/04/more-connecting-at-javaone-2009/</link>
+      <pubDate>Thu, 04 Jun 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2009/06/04/more-connecting-at-javaone-2009/</guid>
+      <description>I happened to catch Guillaume LaForge&amp;rsquo;s tweet this morning about a &amp;ldquo;Groovy lunch&amp;rdquo; at JavaOne today. After our JUG-USA meeting with James Gosling(blog entry on this one to come), I made my way over to the &amp;ldquo;cafeteria&amp;rdquo; and found Guillaume, James Williams (of the Griffon team), and John Smart in exactly the location that Guillaume specified. We were shortly joined by Grails in Action (a.k.a. San Gria) co-author Glen Smith. Topics ranged from things we can do better with Groovy/Grails testing, the differences between the Groovy and other dynamic/scripting language communities, Groovy&amp;rsquo;s victory in the ScriptBowl, and none other than the differences in public transportation between the southeastern US and the Bay Area.</description>
+    </item>
+    
+    <item>
+      <title>javaone 2009 script bowl</title>
+      <link>https://www.mattstine.com/2009/06/03/javaone-2009-script-bowl/</link>
+      <pubDate>Wed, 03 Jun 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2009/06/03/javaone-2009-script-bowl/</guid>
+      <description>The JavaOne 2009 Script Bowl was quite a delight to watch. The players were Jython (Frank Wierzbecki), Groovy (Guillaume LaForge), Clojure (Rich Hickey), Scala (Dick Wall), and JRuby (Thomas Enebo). The event was divided into two rounds:
+ Demonstrating Language Features
+ Demonstrating Community Contributions
+  Each of the players focused on different angles during the language feature round. The Jython focus was squarely on the readability of the language.</description>
+    </item>
+    
+    <item>
+      <title>jug leadership lessons learned javaone javanet community corner podcast</title>
+      <link>https://www.mattstine.com/2009/06/03/jug-leadership-lessons-learned-javaone-javanet-community-corner-podcast/</link>
+      <pubDate>Wed, 03 Jun 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2009/06/03/jug-leadership-lessons-learned-javaone-javanet-community-corner-podcast/</guid>
+      <description>Here&amp;rsquo;s the link to my slides from my podcast Wednesday morning from the Java.net Community Corner: Download PDF.</description>
+    </item>
+    
+    <item>
+      <title>java technology on google app engine communityone 2009 lightning talk</title>
+      <link>https://www.mattstine.com/2009/06/02/java-technology-on-google-app-engine-communityone-2009-lightning-talk/</link>
+      <pubDate>Tue, 02 Jun 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2009/06/02/java-technology-on-google-app-engine-communityone-2009-lightning-talk/</guid>
+      <description>My second lightning talk at Community One West 2009 revolved around the still relatively recent announcement that Java is now supported on Google&amp;rsquo;s App Engine.
+What exactly is Google App Engine? It&amp;rsquo;s none other than a way that you can run your Java technology-based applications on Google&amp;rsquo;s massive infrastructure.
+As far as the &amp;ldquo;Geekxecutive Summary,&amp;rdquo; Google has provided:
+ A Java 6 Virtual Machine with a Class Whitelist. Not all classes in the standard JDK library are available.</description>
+    </item>
+    
+    <item>
+      <title>reactions from javaone 2009 opening keynote</title>
+      <link>https://www.mattstine.com/2009/06/02/reactions-from-javaone-2009-opening-keynote/</link>
+      <pubDate>Tue, 02 Jun 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2009/06/02/reactions-from-javaone-2009-opening-keynote/</guid>
+      <description>The morning session opened with a HUGE elephant under the rug - &amp;ldquo;Where is Oracle?&amp;rdquo; There&amp;rsquo;s no booth in the Pavilion - super strange.
+Things kicked off very slowly. Jonathan Schwartz, Sun CEO, for all of his ponytail excellence, wasn&amp;rsquo;t exactly inspiring a great deal of excitement in the crowd. In fact, the loudest applause from the audience was initially for the tech support guy who fixed the projection for one of the demos.</description>
+    </item>
+    
+    <item>
+      <title>connecting with people at javaone</title>
+      <link>https://www.mattstine.com/2009/06/01/connecting-with-people-at-javaone/</link>
+      <pubDate>Mon, 01 Jun 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2009/06/01/connecting-with-people-at-javaone/</guid>
+      <description>So far one of the greatest things about JavaOne for me has been the opportunity to connect face-to-face with so many people that I&amp;rsquo;ve only communicated with digitally. I&amp;rsquo;ve also been able to catch up with folks that I&amp;rsquo;ve run into through other conferences, the JUG, and work:
+ Finally met Aaron Houston and Mark DeHart from Sun JUG Programs. These guys have supported the Memphis JUG from the very beginning and have kept us supplied with tons of cool swag, as well as a Sun SPOT that continues to be a hit.</description>
+    </item>
+    
+    <item>
+      <title>deploying grails to morph appspace communityone 2009 lightning talk</title>
+      <link>https://www.mattstine.com/2009/06/01/deploying-grails-to-morph-appspace-communityone-2009-lightning-talk/</link>
+      <pubDate>Mon, 01 Jun 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2009/06/01/deploying-grails-to-morph-appspace-communityone-2009-lightning-talk/</guid>
+      <description>I gave two lightning talks at CommunityOne today, the first of which described deploying Grails applications to Morph AppSpace.
+For the uninitiated, Grails is a Ruby on Rails inspired full stack web development framework which brings &amp;ldquo;convention over configuration&amp;rdquo; and &amp;ldquo;DRY&amp;rdquo; into the Java web development arena. Unlike Rails, it is not an effort from scratch, but rather stands on the shoulders of proven giants in the Java world like the Spring framework and Hibernate.</description>
+    </item>
+    
+    <item>
+      <title>on the ground in san francisco</title>
+      <link>https://www.mattstine.com/2009/06/01/on-the-ground-in-san-francisco/</link>
+      <pubDate>Mon, 01 Jun 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2009/06/01/on-the-ground-in-san-francisco/</guid>
+      <description>&amp;hellip;for my second trip to JavaOne. This is going to be an extremely busy week.
+Just as a quick update to those who thought I have fallen off of the face of the earth, I&amp;rsquo;ve been very busy these past few weeks finishing up a lot of loose ends. First off, May is a busy month for our family. With Mother&amp;rsquo;s Day, Wendy&amp;rsquo;s 30th Birthday, and Grant&amp;rsquo;s 1st Birthday, we&amp;rsquo;ve been doing quite a lot as a family.</description>
+    </item>
+    
+    <item>
+      <title>career 20 toastmasters</title>
+      <link>https://www.mattstine.com/2009/05/11/career-20-toastmasters/</link>
+      <pubDate>Mon, 11 May 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2009/05/11/career-20-toastmasters/</guid>
+      <description>I&amp;rsquo;m currently making my second trip through Jared Richardson&amp;rsquo;s excellent book Career 2.0: Take Control of Your Life. In the &amp;ldquo;Public Speaking&amp;rdquo; chapter, one of the recommended avenues for public speaking practice is Toastmasters. I first heard of Toastmasters&amp;hellip;you guessed it, on my first trip through the book. Shortly after returning home from NFJS St. Louis, I decided to see if I could find a local club. Lo and behold, a Toastmasters club already meets on the St.</description>
+    </item>
+    
+    <item>
+      <title>grails paypal plugin update</title>
+      <link>https://www.mattstine.com/2009/05/11/grails-paypal-plugin-update/</link>
+      <pubDate>Mon, 11 May 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2009/05/11/grails-paypal-plugin-update/</guid>
+      <description>Since I last posted on my fork of the Grails PayPal Plugin, I&amp;rsquo;ve been invited to be a committer on the Grails Plugins project at the Codehaus. I&amp;rsquo;ll be incorporating my changes into the SVN repository there and updating the documentation on the main Grails Plugins website. Look for these updates coming soon!!!</description>
+    </item>
+    
+    <item>
+      <title>ive forked the grails paypal plugin</title>
+      <link>https://www.mattstine.com/2009/05/02/ive-forked-the-grails-paypal-plugin/</link>
+      <pubDate>Sat, 02 May 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2009/05/02/ive-forked-the-grails-paypal-plugin/</guid>
+      <description>I&amp;rsquo;m currently completing the finishing touches on a new e-commerce site for my wife&amp;rsquo;s stationary business. We decided a long time ago to use PayPal for all of the payment processing since we&amp;rsquo;ve had a great experience using it for our eBay selling. About a year ago Graeme Rocher polished off the last release of a PayPal plugin that is available in the Grails Plugin repository. It really is a very nice plugin, yet I had a couple of problems with it:</description>
+    </item>
+    
+    <item>
+      <title>functional programming blog aggregator in the works</title>
+      <link>https://www.mattstine.com/2009/04/30/functional-programming-blog-aggregator-in-the-works/</link>
+      <pubDate>Thu, 30 Apr 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2009/04/30/functional-programming-blog-aggregator-in-the-works/</guid>
+      <description>So I&amp;rsquo;m in the midst of planning my next toy project, specifically with an aim to build something for the cloud, be it Google App Engine, Mor.ph, EC2, etc. (that part is still up for grabs). What I&amp;rsquo;d like to do is an opt-in blog aggregation site focused around functional programming. It would be very similar to what Glen Smith has done with groovyblogs.org. Groovyblogs is currently my number one referral site and is generating about 20% of the traffic for this blog.</description>
+    </item>
+    
+    <item>
+      <title>joels builderbuilder in groovy</title>
+      <link>https://www.mattstine.com/2009/04/27/joels-builderbuilder-in-groovy/</link>
+      <pubDate>Mon, 27 Apr 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2009/04/27/joels-builderbuilder-in-groovy/</guid>
+      <description>Joel Neely started a series of posts over the weekend detailing a proposed exploration of what Functional Programming means &amp;ldquo;to me as a practicing OO software developer?&amp;rdquo; The task at hand is to look at the generation of Data Transfer Objects which include a static inner class that functions as a builder. Since I&amp;rsquo;m exploring both Clojure and Scala right now, Joel has asked me to play along.
+After reading the task definition today, I couldn&amp;rsquo;t resist taking a crack at the problem in Groovy, especially since tackling a Builder DSL is not something I&amp;rsquo;ve gone after before.</description>
+    </item>
+    
+    <item>
+      <title>grails prototype scriptaculous persistent grid sorting goodness</title>
+      <link>https://www.mattstine.com/2009/04/25/grails-prototype-scriptaculous-persistent-grid-sorting-goodness/</link>
+      <pubDate>Sat, 25 Apr 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2009/04/25/grails-prototype-scriptaculous-persistent-grid-sorting-goodness/</guid>
+      <description>Ever wanted to do drag-n-drop sorting of a grid of images on a page and persist it? Here&amp;rsquo;s my solution using Grails, Prototype, and Script.aculo.us.
+Basically what prompted this was the need for my wife to be able to sort the various product images that she had on a screen at any given time in any way that she pleased, and it had to be easy to work with. What follows is by no means a complete solution to this problem, but it represents where I am in the development process and may be useful to you, my hapless reader.</description>
+    </item>
+    
+    <item>
+      <title>groovy post to a url</title>
+      <link>https://www.mattstine.com/2009/04/25/groovy-post-to-a-url/</link>
+      <pubDate>Sat, 25 Apr 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2009/04/25/groovy-post-to-a-url/</guid>
+      <description>If you&amp;rsquo;ve ever worked with the brilliant Recaptcha service, you&amp;rsquo;ll know that their REST API requires an HTTP POST rather than a GET. As I had only used GET requests thus far, I googled around and found a pretty easy solution:
+private def evaluateCaptcha(def remoteIp, def challenge, def response) { def config = recaptchaService.getRecaptchaConfig() def urlString = &amp;quot;http://api-verify.recaptcha.net/verify&amp;quot; def queryString = &amp;quot;privatekey=${config.recaptcha.privateKey}&amp;amp;remoteip=${remoteIp}&amp;amp;challenge=${challenge}&amp;amp;response=${URLEncoder.encode(response)}&amp;quot; def url = new URL(urlString) def connection = url.</description>
+    </item>
+    
+    <item>
+      <title>hello clojure</title>
+      <link>https://www.mattstine.com/2009/04/24/hello-clojure/</link>
+      <pubDate>Fri, 24 Apr 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2009/04/24/hello-clojure/</guid>
+      <description>; Hello World! (defn hello name)
+(hello &amp;quot;World!&amp;quot;)  </description>
+    </item>
+    
+    <item>
+      <title>latest wordle</title>
+      <link>https://www.mattstine.com/2009/04/24/latest-wordle/</link>
+      <pubDate>Fri, 24 Apr 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2009/04/24/latest-wordle/</guid>
+      <description>Alex Miller&amp;rsquo;s Twitter background inspired me to generate a Wordle from my feed. How fitting that &amp;ldquo;Code&amp;rdquo; is more prominent than anything.</description>
+    </item>
+    
+    <item>
+      <title>lotypart deux</title>
+      <link>https://www.mattstine.com/2009/04/06/lotypart-deux/</link>
+      <pubDate>Mon, 06 Apr 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2009/04/06/lotypart-deux/</guid>
+      <description>A few days ago I pontificated on my need to choose a new &amp;ldquo;Language of the Year.&amp;rdquo; Right now I&amp;rsquo;m attempting to choose between Scala and Clojure. If nothing else, I&amp;rsquo;ve learned from this exercise that asking the community for feedback is a GOOD thing. Your comments have been very helpful.
+To summarize:
+ As far as the polls go, Scala is in the lead by a margin of 4 to 2.</description>
+    </item>
+    
+    <item>
+      <title>loty time again scala or clojure</title>
+      <link>https://www.mattstine.com/2009/04/02/loty-time-again-scala-or-clojure/</link>
+      <pubDate>Thu, 02 Apr 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2009/04/02/loty-time-again-scala-or-clojure/</guid>
+      <description>In 2007 I established several professional development goals (and later reported my progress on these), one of which was to learn Groovy and Grails. This goal stemmed from the continually referenced idea from The Pragmatic Programmer to &amp;ldquo;learn a new language every year.&amp;rdquo; This idea has become so ubiquitous that it even has it&amp;rsquo;s own four-letter acronym, LOTY (Language of the Year).
+Since establishing and reporting on these goals, I&amp;rsquo;ve had several things get in the way of fully realizing all of them.</description>
+    </item>
+    
+    <item>
+      <title>awesome april fools joke</title>
+      <link>https://www.mattstine.com/2009/04/01/awesome-april-fools-joke/</link>
+      <pubDate>Wed, 01 Apr 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2009/04/01/awesome-april-fools-joke/</guid>
+      <description>I didn&amp;rsquo;t have one this year, but Expedia did. Check it out!</description>
+    </item>
+    
+    <item>
+      <title>the developer iteration</title>
+      <link>https://www.mattstine.com/2009/04/01/the-developer-iteration/</link>
+      <pubDate>Wed, 01 Apr 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2009/04/01/the-developer-iteration/</guid>
+      <description>I recently gave a 90 minute talk at work covering quite a bit of ground related to Agile Software Development. If I had to sum up agile development in one word, it would be FEEDBACK. Venkat Subramaniam and Andy Hunt give one of the best definitions of agile I&amp;rsquo;ve ever seen in their book, Practices of an Agile Developer:
+ Agile development uses feedback to make constant adjustments in a highly collaborative environment.</description>
+    </item>
+    
+    <item>
+      <title>deploying grails with groovy</title>
+      <link>https://www.mattstine.com/2009/03/29/deploying-grails-with-groovy/</link>
+      <pubDate>Sun, 29 Mar 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2009/03/29/deploying-grails-with-groovy/</guid>
+      <description>Interesting title, eh? Maybe this one will make it through Glen&amp;rsquo;s filter at GroovyBlogs.org.
+On to the meat. I&amp;rsquo;ve been steadily working on a couple of Grails applications, one being the website for the Memphis JUG, and another being the e-commerce site for my wife&amp;rsquo;s soon to be launched designer stationery business. Just like your average Grails developer, I&amp;rsquo;ve been happily coding away at 127.0.0.1 using the good old development Jetty+MySQL stack.</description>
+    </item>
+    
+    <item>
+      <title>need a textile engine look no further than plextile</title>
+      <link>https://www.mattstine.com/2009/03/26/need-a-textile-engine-look-no-further-than-plextile/</link>
+      <pubDate>Thu, 26 Mar 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2009/03/26/need-a-textile-engine-look-no-further-than-plextile/</guid>
+      <description>In finishing up the first release of JUG Nexus, the open source engine (http://github.com/mstine/jug-nexus/tree/master) behind the new Memphis JUG website, I needed to put a good Textile engine in place. I really don&amp;rsquo;t care for writing actual HTML in a content management system, and JUG Nexus being a lightweight CMS, I wanted a lightweight markup syntax for entering the details of upcoming JUG meetings. Textile is exactly that, and is also used for entering content into the very useful JUGEvents system produced by JUG Padova for the Java User Group community at large.</description>
+    </item>
+    
+    <item>
+      <title>the manifesto for software craftsmanship</title>
+      <link>https://www.mattstine.com/2009/03/15/the-manifesto-for-software-craftsmanship/</link>
+      <pubDate>Sun, 15 Mar 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2009/03/15/the-manifesto-for-software-craftsmanship/</guid>
+      <description>So as I&amp;rsquo;m sitting here thumbing through my InfoQ feed on Google Reader, I come across the following posting: Software Craftsmanship Manifesto: A Call to Arms. It seems that a group of &amp;ldquo;programming patriots&amp;rdquo; has struck again (see the Manifesto for Agile Software Development - circa 2001), complete with a &amp;ldquo;founding document&amp;rdquo; look and feel. Clicking through the source link, one finds the following:
+ As aspiring Software Craftsmen we are raising the bar of professional software development by practicing it and helping others learn the craft.</description>
+    </item>
+    
+    <item>
+      <title>grailsdojo ajax file upload</title>
+      <link>https://www.mattstine.com/2009/03/13/grailsdojo-ajax-file-upload/</link>
+      <pubDate>Fri, 13 Mar 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2009/03/13/grailsdojo-ajax-file-upload/</guid>
+      <description>I&amp;rsquo;m currently working on a Grails application with a requirement for uploading product images, which are subsequently resized into thumbnails of various sizes for different shopping screens. Since it took a bit of doing to get this done, I thought I&amp;rsquo;d post my solution here in case anyone could benefit from it.
+First, to set the stage, I&amp;rsquo;ve upgraded the application all the way to the newly released Grails 1.1.</description>
+    </item>
+    
+    <item>
+      <title>im speaking at the march memphis jug meeting</title>
+      <link>https://www.mattstine.com/2009/03/13/im-speaking-at-the-march-memphis-jug-meeting/</link>
+      <pubDate>Fri, 13 Mar 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2009/03/13/im-speaking-at-the-march-memphis-jug-meeting/</guid>
+      <description>I learned a great deal about JMS from Mark Richards at last weekend&amp;rsquo;s NFJS Gateway Software Symposium, and I thought I&amp;rsquo;d share it with the Memphis Java community. Take a look at http://www.memphisjug.org for details!</description>
+    </item>
+    
+    <item>
+      <title>my ipod is on rice</title>
+      <link>https://www.mattstine.com/2009/03/13/my-ipod-is-on-rice/</link>
+      <pubDate>Fri, 13 Mar 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2009/03/13/my-ipod-is-on-rice/</guid>
+      <description>Let me set the stage for you. I&amp;rsquo;m driving home happily listening to Ted Neward discuss the merits of Scala on the Javaworld podcast. As I pull into the driveway I see my wife waving frantically in the window. As geek brain struggles to process this, home brain kicks into gear. She needs me in the house now! I jump out of the car and slam the door shut, leaving all of the belongings I typically carry in the house.</description>
+    </item>
+    
+    <item>
+      <title>its been a long time</title>
+      <link>https://www.mattstine.com/2009/03/12/its-been-a-long-time/</link>
+      <pubDate>Thu, 12 Mar 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2009/03/12/its-been-a-long-time/</guid>
+      <description>&amp;hellip;since I actively spent any time blogging. What you don&amp;rsquo;t know is that it has been a long time since I&amp;rsquo;ve done any writing whatsoever. The last two posts on this blog revolved around the birth of my first son, Grant Dawson, on May 16, 2009. This was one of several events that took place almost a year ago that sent me directly into a whirlwind of activity that found me barely keeping my head above water.</description>
+    </item>
+    
+    <item>
+      <title>little man</title>
+      <link>https://www.mattstine.com/2008/08/14/little-man/</link>
+      <pubDate>Thu, 14 Aug 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2008/08/14/little-man/</guid>
+      <description>Here&amp;rsquo;s little man Grant himself smiling for the camera!</description>
+    </item>
+    
+    <item>
+      <title>introducing grant dawson stine</title>
+      <link>https://www.mattstine.com/2008/05/18/introducing-grant-dawson-stine/</link>
+      <pubDate>Sun, 18 May 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2008/05/18/introducing-grant-dawson-stine/</guid>
+      <description>So I haven&amp;rsquo;t blogged in quite awhile. I&amp;rsquo;ve been rather busy - here&amp;rsquo;s one VERY important reason why. Grant was born Friday, May 16, 2008, weighing in at 9 pounds 4 ounces and 22 inches long. Mom and baby are doing wonderfully, but as you can see, Dad is in a bit of shock!</description>
+    </item>
+    
+    <item>
+      <title>on our way to the gateway software symposium</title>
+      <link>https://www.mattstine.com/2008/02/08/on-our-way-to-the-gateway-software-symposium/</link>
+      <pubDate>Fri, 08 Feb 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2008/02/08/on-our-way-to-the-gateway-software-symposium/</guid>
+      <description>We&amp;rsquo;re taking most of our team to the St. Louis, Missouri, edition of the No Fluff Just Stuff 2008 tour. This will be my first actual NFJS event. I attended the Spring Experience in 2007, which was put on by the NFJS guys, so I expect this event in St. Louis to be great. Since we&amp;rsquo;re based in Memphis, St. Louis is only about a 4 1&amp;frasl;2 hour drive. We&amp;rsquo;re all going to pile in a van and road trip.</description>
+    </item>
+    
+    <item>
+      <title>grails 10 released</title>
+      <link>https://www.mattstine.com/2008/02/05/grails-10-released/</link>
+      <pubDate>Tue, 05 Feb 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2008/02/05/grails-10-released/</guid>
+      <description>Grails, by far my favorite of the JVM dynamic language frameworks, was released this morning, with a snazzy, new, &amp;ldquo;Web 2.0 style&amp;rdquo; website to boot. Congratulations Graeme and company on all of your hard work!</description>
+    </item>
+    
+    <item>
+      <title>set conditional breakpoints in idea</title>
+      <link>https://www.mattstine.com/2008/02/05/set-conditional-breakpoints-in-idea/</link>
+      <pubDate>Tue, 05 Feb 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2008/02/05/set-conditional-breakpoints-in-idea/</guid>
+      <description>So yesterday I was attempting to debug an issue in a batch processing module within one of our applications. In short, an assertion was failing deep within Hibernate as it attempted to flush the session. Using a combination of various log statements, I had isolated the problem down to a particular record that the batch process was attempting to update. (BTW: I know you shouldn&amp;rsquo;t be using Hibernate for batch processing - however, we&amp;rsquo;re talking about batches of at most 1000 records here, not millions!</description>
+    </item>
+    
+    <item>
+      <title>a javascript code prettifier</title>
+      <link>https://www.mattstine.com/2008/02/04/a-javascript-code-prettifier/</link>
+      <pubDate>Mon, 04 Feb 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2008/02/04/a-javascript-code-prettifier/</guid>
+      <description>I came across a link today that would allow you to post &amp;ldquo;pretty&amp;rdquo; code in any HTML page. I&amp;rsquo;ve had plenty of problems (as have others) posting well-formatted source code to my Blogger-based blog. I&amp;rsquo;ve wanted to correct this problem for some time, and this project appears to be a decent solution. Here&amp;rsquo;s an example:
+function chooseWinner() {&amp;lt;br&amp;gt;&amp;lt;/br&amp;gt; $(&#39;p3&#39;).removeClassName(&#39;winner&#39;);&amp;lt;br&amp;gt;&amp;lt;/br&amp;gt; participantBo.chooseWinnerForEvent(eventId, function(data) {&amp;lt;br&amp;gt;&amp;lt;/br&amp;gt; people = $A(data);&amp;lt;br&amp;gt;&amp;lt;/br&amp;gt; updateDivs();&amp;lt;br&amp;gt;&amp;lt;/br&amp;gt; intervalId = setInterval(doShift, 500);&amp;lt;br&amp;gt;&amp;lt;/br&amp;gt; });&amp;lt;br&amp;gt;&amp;lt;/br&amp;gt;}  Now that isn&amp;rsquo;t too bad is it?</description>
+    </item>
+    
+    <item>
+      <title>the spring experience 2007 videos on the way</title>
+      <link>https://www.mattstine.com/2008/02/04/the-spring-experience-2007-videos-on-the-way/</link>
+      <pubDate>Mon, 04 Feb 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2008/02/04/the-spring-experience-2007-videos-on-the-way/</guid>
+      <description>I got an awesome email today&amp;hellip;
+ We are happy to announce that the video/audio streaming from TSE 2007 will be available online the week of February 11th for you. You will have the opportunity to see/hear the TSE 2007 presentations you were not able to make at TSE 2007 due to all of the great sessions available per time period. We have captured the entire session length including any demos/live coding.</description>
+    </item>
+    
+    <item>
+      <title>practical jruby on rails web 20 projects</title>
+      <link>https://www.mattstine.com/2008/01/25/practical-jruby-on-rails-web-20-projects/</link>
+      <pubDate>Fri, 25 Jan 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2008/01/25/practical-jruby-on-rails-web-20-projects/</guid>
+      <description>Are Java&amp;rsquo;s days numbered as a web development technology? With buzzwords like Ruby, Rails, and Web 2.0 zipping around the web development community, one may begin to wonder. Could Java&amp;rsquo;s lifespan be extended by finding synergy between Java and Ruby? On the scene comes JRuby, the definitive implementation of Ruby for the JVM. In his new book from Apress, Ola Bini guides the reader through the development of four Web 2.</description>
+    </item>
+    
+    <item>
+      <title>mid year review my professional development goals for 2007 2008</title>
+      <link>https://www.mattstine.com/2008/01/02/mid-year-review-my-professional-development-goals-for-2007-2008/</link>
+      <pubDate>Wed, 02 Jan 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2008/01/02/mid-year-review-my-professional-development-goals-for-2007-2008/</guid>
+      <description>Back in July I posted my professional development goals for the year (My performance review is annually in July, so it&amp;rsquo;s a good time to set goals.), and it seemed like a good idea to take a look at my progress while doing the &amp;ldquo;New Year&amp;rsquo;s Resolution&amp;rdquo; thing.
+ Learn Groovy and Grails
+  Andy and Dave suggest learning a new language every year, so this seemed like a good goal for me.</description>
+    </item>
+    
+    <item>
+      <title>web application data access patterns keith donald</title>
+      <link>https://www.mattstine.com/2007/12/21/web-application-data-access-patterns-keith-donald/</link>
+      <pubDate>Fri, 21 Dec 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2007/12/21/web-application-data-access-patterns-keith-donald/</guid>
+      <description>Well, after a short hiatus of getting back to &amp;ldquo;real&amp;rdquo; work, I&amp;rsquo;m going to attempt to squeeze in another Spring Experience 2007 entry. This particular session was my first of Friday morning. I&amp;rsquo;ve always enjoyed Keith Donald as a speaker, having first heard him at TheServerSide.com&amp;rsquo;s Java In Action conference in 2005, and again during his Java University session at JavaOne 2007.
+Keith began with a discussion of why we need patterns.</description>
+    </item>
+    
+    <item>
+      <title>goodbye spring experience 2007</title>
+      <link>https://www.mattstine.com/2007/12/15/goodbye-spring-experience-2007/</link>
+      <pubDate>Sat, 15 Dec 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2007/12/15/goodbye-spring-experience-2007/</guid>
+      <description>Well it had to end eventually. As you can see, I&amp;rsquo;m hopelessly behind on my blog entries, having only made it through my first day of sessions. I&amp;rsquo;ve still got several more I intend to cover (I probably won&amp;rsquo;t do the last two as I started blanking out - I think my brain was pretty much melted by this afternoon). Look for those entries in the coming days. Many thanks go out to No Fluff Just Stuff and SpringSource for putting on an awesome conference!</description>
+    </item>
+    
+    <item>
+      <title>the state of the art in dependency injection rod johnson</title>
+      <link>https://www.mattstine.com/2007/12/15/the-state-of-the-art-in-dependency-injection-rod-johnson/</link>
+      <pubDate>Sat, 15 Dec 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2007/12/15/the-state-of-the-art-in-dependency-injection-rod-johnson/</guid>
+      <description>This was a truly fascinating talk. If you ever wanted to learn the entire history and landscape of dependency injection (DI), this was your opportunity. I really didn&amp;rsquo;t realize how deep of a topic DI really is.
+According to Rod, DI had its beginnings in 2002, in the Interface 21 Framework that was born from his seminal work, Expert One-on-One J2EE Design and Development. In the beginning, DI was done solely through setter injection (SI), with external metadata (usually in XML).</description>
+    </item>
+    
+    <item>
+      <title>ajax integration guide for 2008 jeremy grelle</title>
+      <link>https://www.mattstine.com/2007/12/14/ajax-integration-guide-for-2008-jeremy-grelle/</link>
+      <pubDate>Fri, 14 Dec 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2007/12/14/ajax-integration-guide-for-2008-jeremy-grelle/</guid>
+      <description>This talk looked really exciting going in. Jeremy is a member of the Spring Web Products team and the lead of Spring Faces, as well as a member of the JSF 2.0 Expert Group. He describes himself as the resident Ajax freak at SpringSource. Jeremy began by discussing the current Ajax landscape, highlighting what he believes are the important features a successful framework must deliver, and then identifying the frameworks he considers to be the cream of the crop.</description>
+    </item>
+    
+    <item>
+      <title>whats new in spring 25 juergen hoeller</title>
+      <link>https://www.mattstine.com/2007/12/14/whats-new-in-spring-25-juergen-hoeller/</link>
+      <pubDate>Fri, 14 Dec 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2007/12/14/whats-new-in-spring-25-juergen-hoeller/</guid>
+      <description>This was my second talk of TSE 2007. I have to admit I chose it by process of elimination - none of the second session talks particularly jumped out and grabbed me like Chris Richardson&amp;rsquo;s talk.
+Juergen is the project lead for the Spring Framework, so he was the obvious choice to give this talk. Juergen split it up into three sections:
+ Platforms Annotation Configuration AspectJ Support To break down part one as quickly as possible, Spring supports virtually EVERYTHING.</description>
+    </item>
+    
+    <item>
+      <title>enterprise java and the changing of the guard</title>
+      <link>https://www.mattstine.com/2007/12/13/enterprise-java-and-the-changing-of-the-guard/</link>
+      <pubDate>Thu, 13 Dec 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2007/12/13/enterprise-java-and-the-changing-of-the-guard/</guid>
+      <description>Greetings from The Spring Experience 2007 in Hollywood, FL. So far this has been a great conference - I&amp;rsquo;m currently waiting for my third session of the day to start. As much as I enjoy all of the hype and eye candy at JavaOne, I really get a lot more out of these smaller conferences as you&amp;rsquo;re not running around stressed out trying to weave through thousands of geeks as you move from session to session (or more accurately, from session to queue!</description>
+    </item>
+    
+    <item>
+      <title>improving application design with a rich domain model chris richardson</title>
+      <link>https://www.mattstine.com/2007/12/13/improving-application-design-with-a-rich-domain-model-chris-richardson/</link>
+      <pubDate>Thu, 13 Dec 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2007/12/13/improving-application-design-with-a-rich-domain-model-chris-richardson/</guid>
+      <description>This was my very first session of the conference. I&amp;rsquo;ve really been looking forward to it. I became pretty excited about object-oriented programming when I first really learned it in my computer simulation course at Ole Miss. In that course we built discrete event simulation programs using collaborating Java threads. Each thread implemented an object from the domain model representing a particular simulation problem. Once I got into the &amp;ldquo;working world,&amp;rdquo; I found that the architecture described by Rod Johnson as the &amp;ldquo;J2EE stove pipe&amp;rdquo; had made my OO skills essentially unusable in the projects on which I was required to work on a day-to-day basis.</description>
+    </item>
+    
+    <item>
+      <title>pair programming with the official rod johnson bobblehead</title>
+      <link>https://www.mattstine.com/2007/12/13/pair-programming-with-the-official-rod-johnson-bobblehead/</link>
+      <pubDate>Thu, 13 Dec 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2007/12/13/pair-programming-with-the-official-rod-johnson-bobblehead/</guid>
+      <description>As you can see, Rod really likes my Spring MVC configuration. :-)</description>
+    </item>
+    
+    <item>
+      <title>13949712720901forosx</title>
+      <link>https://www.mattstine.com/2007/11/08/13949712720901forosx/</link>
+      <pubDate>Thu, 08 Nov 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2007/11/08/13949712720901forosx/</guid>
+      <description>Here&amp;rsquo;s my vote for Java 6 on Mac OS X Leopard!
+13949712720901ForOSX</description>
+    </item>
+    
+    <item>
+      <title>ajax construction kit building plug and play ajax applications</title>
+      <link>https://www.mattstine.com/2007/10/12/ajax-construction-kit-building-plug-and-play-ajax-applications/</link>
+      <pubDate>Fri, 12 Oct 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2007/10/12/ajax-construction-kit-building-plug-and-play-ajax-applications/</guid>
+      <description>My first book review for Javalobby was published today!</description>
+    </item>
+    
+    <item>
+      <title>please support me in the 2007 walk to cure diabetes</title>
+      <link>https://www.mattstine.com/2007/09/05/please-support-me-in-the-2007-walk-to-cure-diabetes/</link>
+      <pubDate>Wed, 05 Sep 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2007/09/05/please-support-me-in-the-2007-walk-to-cure-diabetes/</guid>
+      <description>This year, I&amp;rsquo;ll be taking part in JDRF&amp;rsquo;s Walk to Cure Diabetes, along with one-half million other walkers across the country, as we try to reach our goal of raising $90 million.
+Type 1, or juvenile, diabetes, is a devastating disease that affects millions of people - a large and growing percentage of them children. One of them is my oldest daughter, Abby, who is three years old.
+Since Abby&amp;rsquo;s diagnosis, she&amp;rsquo;s had her fingers pricked over 800 times already.</description>
+    </item>
+    
+    <item>
+      <title>welcome to matts mac paradise</title>
+      <link>https://www.mattstine.com/2007/08/29/welcome-to-matts-mac-paradise/</link>
+      <pubDate>Wed, 29 Aug 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2007/08/29/welcome-to-matts-mac-paradise/</guid>
+      <description>I&amp;rsquo;ve been wanting to post a picture of my new work setup for awhile, but I wanted to wait until I finished getting setup over at 160 Shadyac Avenue. Just for fun, I thought I&amp;rsquo;d go VMWare Fusion crazy and boot up every virtual machine I&amp;rsquo;ve got - you&amp;rsquo;re actually looking at 7 OS&amp;rsquo;s booted concurrently between two machines. To the left I&amp;rsquo;ve got my 15&amp;rdquo; MacBook Pro (2.2 GHz Intel Core 2 Duo processor, 4 GB 667 MHz DDR2 SDRAM) running Mac OS 10.</description>
+    </item>
+    
+    <item>
+      <title>havent had much time to blog lately</title>
+      <link>https://www.mattstine.com/2007/08/17/havent-had-much-time-to-blog-lately/</link>
+      <pubDate>Fri, 17 Aug 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2007/08/17/havent-had-much-time-to-blog-lately/</guid>
+      <description>&amp;hellip;.because we&amp;rsquo;ve been packing to move on top of all of our regular projects. St. Jude has nicely renovated a new building for us, so we developers are moving. This is where I&amp;rsquo;m headed on Monday:
+I&amp;rsquo;m both loving it and a little sad - I&amp;rsquo;ve been sitting in my desk for nearly my entire career as a software developer. I just know I&amp;rsquo;m going to park in the garage and come downstairs one morning to find my office gone.</description>
+    </item>
+    
+    <item>
+      <title>stjude srm 10 released</title>
+      <link>https://www.mattstine.com/2007/07/27/stjude-srm-10-released/</link>
+      <pubDate>Fri, 27 Jul 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2007/07/27/stjude-srm-10-released/</guid>
+      <description>From http://sourceforge.net/forum/forum.php?forum_id=719803:
+ On July 27, 2007, STJUDE-SRM 1.0 was released.
+ STJUDE-SRM is a laboratory management system designed to support shared resource facility (or core lab) activities. It was designed and developed by the Hartwell Center for Bioinformatics and Biotechnology at St. Jude Children&amp;rsquo;s Research Hospital.
+Shared resources supported include DNA synthesis, Peptide synthesis, DNA sequencing, Functional Genomics (spotted microarray laboratory), and Affymetrix (commercial microarrays) laboratories. STJUDE-SRM was also designed so that it is sufficiently modular and scalable to support other laboratory activities as needed.</description>
+    </item>
+    
+    <item>
+      <title>my professional development goals for 2007 2008</title>
+      <link>https://www.mattstine.com/2007/07/10/my-professional-development-goals-for-2007-2008/</link>
+      <pubDate>Tue, 10 Jul 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2007/07/10/my-professional-development-goals-for-2007-2008/</guid>
+      <description>I posted earlier on my desire to become a better programmer. Well, I&amp;rsquo;ve since put together a plan of action for the next twelve months. I&amp;rsquo;ve based some of these goals on suggestions from The Pragmatic Programmer by Andy Hunt and Dave Thomas.
+ Learn Groovy and Grails
+  Andy and Dave suggest learning a new language every year. I had already informally started learning Groovy and Grails after JavaOne 2007.</description>
+    </item>
+    
+    <item>
+      <title>on agile why you wont fix it later</title>
+      <link>https://www.mattstine.com/2007/07/09/on-agile-why-you-wont-fix-it-later/</link>
+      <pubDate>Mon, 09 Jul 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2007/07/09/on-agile-why-you-wont-fix-it-later/</guid>
+      <description>Ryan Cooper writes a brilliant essay on why quick fixes today turn into tomorrow&amp;rsquo;s code rot. I believe every word of this article. Unfortunately, I&amp;rsquo;m all too often my own worst enemy when it comes to implementing these ideas. Thanks for the reminder, Ryan!
+On Agile: Why You Won&amp;rsquo;t Fix It Later</description>
+    </item>
+    
+    <item>
+      <title>graeme rochers blog 5 more misconceptions about grails</title>
+      <link>https://www.mattstine.com/2007/07/06/graeme-rochers-blog-5-more-misconceptions-about-grails/</link>
+      <pubDate>Fri, 06 Jul 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2007/07/06/graeme-rochers-blog-5-more-misconceptions-about-grails/</guid>
+      <description>Graeme Rocher, founder of the Grails project, answers five more misconceptions about Groovy/Grails vs. Ruby/Rails. I&amp;rsquo;ve grown to be quite fond of both of these languages/frameworks; however, given the amount of investment I&amp;rsquo;ve placed into learning and applying Spring and Hibernate to the applications I&amp;rsquo;ve developed over the past two years, I have to say that Grails just makes sense for me as the next step toward becoming more &amp;ldquo;dynamic&amp;rdquo; in my approach to development projects.</description>
+    </item>
+    
+    <item>
+      <title>help me become a better programmer</title>
+      <link>https://www.mattstine.com/2007/07/02/help-me-become-a-better-programmer/</link>
+      <pubDate>Mon, 02 Jul 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2007/07/02/help-me-become-a-better-programmer/</guid>
+      <description>I have decided to embark upon a quest to become a better programmer. I would really like to improve my understanding of the computer science that underlies my day-to-day tasks, particularly as it relates to programming language design as well as algorithm design and complexity analysis. I would also like to improve my analytical and problem solving skills. I&amp;rsquo;ve found that I&amp;rsquo;m really good at learning new technologies and quickly bringing them to bear on web application development problems, but take me out of that problem space and I get nervous rather quickly.</description>
+    </item>
+    
+    <item>
+      <title>how to implement form level validation in jsf</title>
+      <link>https://www.mattstine.com/2007/06/27/how-to-implement-form-level-validation-in-jsf/</link>
+      <pubDate>Wed, 27 Jun 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2007/06/27/how-to-implement-form-level-validation-in-jsf/</guid>
+      <description>Recently I was faced with the challenge of implementing form-level (or page-level) validation in a JSF-based application. What I mean by form-level validation is the need to evaluate a subset of a form&amp;rsquo;s fields as a unit, rather than simply validating each field in isolation. An example of this type of validation can be found on a user registration form where one has to select a password in one text field, and then retype the same password in another text field for confirmation.</description>
+    </item>
+    
+    <item>
+      <title>the grove coffee house rocks</title>
+      <link>https://www.mattstine.com/2007/06/22/the-grove-coffee-house-rocks/</link>
+      <pubDate>Fri, 22 Jun 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2007/06/22/the-grove-coffee-house-rocks/</guid>
+      <description>It&amp;rsquo;s Friday night, and what am I doing but coding. My wife&amp;rsquo;s night out is spent at the scrapbook store working on her latest layouts - mine is at my new favorite coffee shop, working on open source. I discovered this place on a date with Wendy a couple of months ago. The nice thing about it is the distinctly Christian atmosphere. A good friend of mine and I meet here on Friday mornings for accountability.</description>
+    </item>
+    
+    <item>
+      <title>migrated</title>
+      <link>https://www.mattstine.com/2007/06/19/migrated/</link>
+      <pubDate>Tue, 19 Jun 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2007/06/19/migrated/</guid>
+      <description>I recently migrated all of my Java/Development related posts from http://www.analienandastranger.com. I want to make this a PRIMARILY Java/Development-related blog. When I was splitting my efforts between Christianity and Software Development, I was quickly getting burned out and not writing anything. If you want to read any of my old devotional posts, I will be keeping the other blog alive for awhile. Since the hosting is being provided to me free (as well as the domain), I will in good conscience need to shut it down eventually.</description>
+    </item>
+    
+    <item>
+      <title>and then it was over</title>
+      <link>https://www.mattstine.com/2007/05/11/and-then-it-was-over/</link>
+      <pubDate>Fri, 11 May 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2007/05/11/and-then-it-was-over/</guid>
+      <description>I really enjoyed &amp;ldquo;The Toy Show&amp;rdquo; this morning. James Gosling went through a flurry of different demos from around the &amp;ldquo;cool&amp;rdquo; Java world. I was especially impressed with Project Wonderland (http://lg3d-wonderland.dev.java.net/), a virtual workplace environment, and with the real-time robotics demos. Unfortunately I was so sucked in that I didn&amp;rsquo;t get any good photos.
+If anything you could call this my day on the back end. I attended four sessions, two of which were focused on that.</description>
+    </item>
+    
+    <item>
+      <title>thursday was slow</title>
+      <link>https://www.mattstine.com/2007/05/11/thursday-was-slow/</link>
+      <pubDate>Fri, 11 May 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2007/05/11/thursday-was-slow/</guid>
+      <description>for me, not for JavaOne. Of course I was a good little programmer and used the schedule builder to sign up for all of my sessions. I edited them a bit after the first two keynotes. Even then, I had one lone session scheduled for Thursday morning (that wasn&amp;rsquo;t really directly applicable to my work, it just looked interesting), and then two sessions in the afternoon, the first starting at 4:10.</description>
+    </item>
+    
+    <item>
+      <title>wednesday was ajax day</title>
+      <link>https://www.mattstine.com/2007/05/10/wednesday-was-ajax-day/</link>
+      <pubDate>Thu, 10 May 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2007/05/10/wednesday-was-ajax-day/</guid>
+      <description>Not officially, but nearly every session I attended had something to do with AJAX:
+ Creating Amazing Web Interfaces with Ajax
+ jMaki: Web 2.0 App Building Made Easy
+ Fast, Beautiful, Easy: Pick Three - Building Web User Interfaces in the Java Programming Language with Google Web Toolkit
+ Killer JavaScript Technology Frameworks for Java Platform Developers: An Exploration of Prototype, Script.aculo.us, and Rico
+  I have to say that I was rather impressed by what I saw.</description>
+    </item>
+    
+    <item>
+      <title>it seems to be the year of the dynamicscripting language</title>
+      <link>https://www.mattstine.com/2007/05/08/it-seems-to-be-the-year-of-the-dynamicscripting-language/</link>
+      <pubDate>Tue, 08 May 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2007/05/08/it-seems-to-be-the-year-of-the-dynamicscripting-language/</guid>
+      <description>It has been a whirlwind of a day. I&amp;rsquo;ve been to two keynotes (close to 5 hours of information there) and one technical session. Couple that information with what I heard at Java University yesterday, and you find many common themes. One that keeps coming up is the emerging trend of making other languages, particularly dynamic/scripting languages, first-class citizens on the JVM.
+According to Wikipedia, &amp;ldquo;Dynamic programming language is a term used broadly in computer science to describe a class of high level programming languages that execute at runtime many common behaviors that other languages might perform during compilation, if at all.</description>
+    </item>
+    
+    <item>
+      <title>java university developing enterprise applications with the spring framework</title>
+      <link>https://www.mattstine.com/2007/05/07/java-university-developing-enterprise-applications-with-the-spring-framework/</link>
+      <pubDate>Mon, 07 May 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2007/05/07/java-university-developing-enterprise-applications-with-the-spring-framework/</guid>
+      <description>This was the first session that I attended at Java University. You could take either a full-day course or two half-day courses - I elected to do the latter. Keith Donald, project lead for Spring WebFlow, presented. I have quite a bit of Spring experience already through AppFuse, but I was hoping to get a more complete view of Spring as most of what I have learned is from tinkering with existing systems.</description>
+    </item>
+    
+    <item>
+      <title>java university rapid web site development with groovy and grails</title>
+      <link>https://www.mattstine.com/2007/05/07/java-university-rapid-web-site-development-with-groovy-and-grails/</link>
+      <pubDate>Mon, 07 May 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2007/05/07/java-university-rapid-web-site-development-with-groovy-and-grails/</guid>
+      <description>I&amp;rsquo;m currently sitting in this session - Graeme Rocher is the presenter. He is the creator of Grails, which is Groovy&amp;rsquo;s answer to the Ruby on Rails like development experience. He&amp;rsquo;s currently doing Q&amp;amp;A, so I thought I&amp;rsquo;d take the opportunity to write a short entry. So far this session is awesome! Graeme is a great presenter and has had the perfect balance of slides and live coding. Unfortunately they ran out of slides before I got to the presentation (more on the sometimes laughable logistics at JavaOne later), so I&amp;rsquo;m having trouble remember details to write about (they&amp;rsquo;ve promised to email me the slides).</description>
+    </item>
+    
+    <item>
+      <title>greetings from san francisco</title>
+      <link>https://www.mattstine.com/2007/05/05/greetings-from-san-francisco/</link>
+      <pubDate>Sat, 05 May 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2007/05/05/greetings-from-san-francisco/</guid>
+      <description>This is the view from my quaint little hotel room at the Hotel Nikko in downtown San Francisco, California. I arrived here after a long morning of travel. First ~4 hours of flight from Memphis, TN to San Francisco International, followed by traversing the airport maze to find the BART (Bay Area Rapid Transit) train station. Once I found the right station, it was another 15 minutes of waiting on a train followed by a 40 minute train ride.</description>
+    </item>
+    
+    <item>
+      <title>siam thai restaurant doesnt disappoint</title>
+      <link>https://www.mattstine.com/2007/05/05/siam-thai-restaurant-doesnt-disappoint/</link>
+      <pubDate>Sat, 05 May 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2007/05/05/siam-thai-restaurant-doesnt-disappoint/</guid>
+      <description>I ended up at the restaurant across the street from the one pictured in my last entry. I found out from reading the reviews that it was the original, and then opened an additional location across the street. Strange, huh? At any rate, the Chicken Satay was definitely a 5-star dish for me. Even better than Bhan Thai back home in Memphis. I followed that up w/ the Thai Fried Rice w/ Beef.</description>
+    </item>
+    
+    <item>
+      <title>welcome</title>
+      <link>https://www.mattstine.com/2007/04/30/welcome/</link>
+      <pubDate>Mon, 30 Apr 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2007/04/30/welcome/</guid>
+      <description>I plan to start posting here on Saturday, May 5, 2007. Look for photos, videos, and session synopses, as well as miscellaneous banter about JavaOne 2007 in San Francisco, CA!</description>
+    </item>
+    
+    <item>
+      <title>matt rtfm commons collections has closures</title>
+      <link>https://www.mattstine.com/2006/08/17/matt-rtfm-commons-collections-has-closures/</link>
+      <pubDate>Thu, 17 Aug 2006 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2006/08/17/matt-rtfm-commons-collections-has-closures/</guid>
+      <description>Thanks to everyone who pointed me to Commons Collections and its Functor package yesterday. To me, this is just one step below having closures natively present in the language. FYI, I was able to remove all duplication from my class and reduce the LOC from 211 to 136 - in other words, 75 lines of useless code GONE.
+Here is what I did. First, I defined Predicates for each of my conditions.</description>
+    </item>
+    
+    <item>
+      <title>java needs closures</title>
+      <link>https://www.mattstine.com/2006/08/16/java-needs-closures/</link>
+      <pubDate>Wed, 16 Aug 2006 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2006/08/16/java-needs-closures/</guid>
+      <description>I’m sure everyone is sick of reading this same rant over and over, but I just had to add more fuel to the fire. I’m attempting to implement access privilege delegation in a JSF application - basically, users can delegate their ability to do “stuff” in our application to other users. I have a backing bean that has several methods that are called by the JSF components, returning whether or not to render that component based on security privileges.</description>
+    </item>
+    
+    <item>
+      <title>it seems that appfuse has a competitor</title>
+      <link>https://www.mattstine.com/2006/08/15/it-seems-that-appfuse-has-a-competitor/</link>
+      <pubDate>Tue, 15 Aug 2006 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2006/08/15/it-seems-that-appfuse-has-a-competitor/</guid>
+      <description>I found Project Able while reading Raible’s blog this morning. While it doesn’t claim to duplicate everything that AppFuse does (i.e. they pick a framework and stick with it instead of providing choice), they are doing some neat things. I may take a look at it if I ever have time.  Project Able is a full Java-based web development stack designed to make web development painless. In a sense, it is an attempt to bring together quality opensource tools in one cohesive stack, similar to what Rails has done for Ruby, while also encouraging common practices I’ve used in software engineering for a long time.</description>
+    </item>
+    
+    <item>
+      <title>raiblee28099s wiki appfuseroadmap</title>
+      <link>https://www.mattstine.com/2006/08/15/raiblee28099s-wiki-appfuseroadmap/</link>
+      <pubDate>Tue, 15 Aug 2006 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2006/08/15/raiblee28099s-wiki-appfuseroadmap/</guid>
+      <description>Raible updated the AppFuseRoadmap yesterday. I’m really excited about where the project is going. XDoclet has been a good friend, but I’m really happy to see its demise in favor of annotations. JDK 5 and JSP 2.0 will also be really helpful - I’ve wanted to leverage these technologies for a long time, but haven’t had an easy way to do so. I think the most interesting thing for me will be the switch over to Maven 2.</description>
+    </item>
+    
+    <item>
+      <title>seven simple reasons to use appfuse</title>
+      <link>https://www.mattstine.com/2006/08/09/seven-simple-reasons-to-use-appfuse/</link>
+      <pubDate>Wed, 09 Aug 2006 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2006/08/09/seven-simple-reasons-to-use-appfuse/</guid>
+      <description>I’ve wanted for some time now to write a blog entry promoting my favorite open source project - AppFuse. Since I started developing web applications using AppFuse as a base, I can truly say that I’ve rediscovered the joy of software development. I’ve found no other technology or methodology that has allowed me to place as much focus as I now do on solving business problems and not on technology ramp-up or figuring out the eccentricities of “framework X.</description>
+    </item>
+    
+    <item>
+      <title>i made raibles blog</title>
+      <link>https://www.mattstine.com/2006/07/25/i-made-raibles-blog/</link>
+      <pubDate>Tue, 25 Jul 2006 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2006/07/25/i-made-raibles-blog/</guid>
+      <description>Apparently Matt Raible thought my JSF modifications to the AppFuse-Compass tutorial were good enough to merit a mention on his blog: AppFuse Videos updated for 1.9.3. Check out the bottom of the entry.
+Compass really is a nice tool - I was able to provide search capabilities for an app I&amp;rsquo;m working on right now with about 2 days worth of work (having never worked w/ Compass before), and man is it fast!</description>
+    </item>
+    
+    <item>
+      <title>jfreechart appfuse integration</title>
+      <link>https://www.mattstine.com/2006/07/25/jfreechart-appfuse-integration/</link>
+      <pubDate>Tue, 25 Jul 2006 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2006/07/25/jfreechart-appfuse-integration/</guid>
+      <description>I recently finished integrating JFreeChart with AppFuse for a project I&amp;rsquo;m working on. JFreeChart is a really powerful Java chart library. If your application has any requirements for charts/graphs, I highly recommend it. The user manual and demo code come with a price tag ($39.95 for a single developer), but they are well worth the purchase - especially the demo code. If you don&amp;rsquo;t have the $$$, the support forum is also very helpful.</description>
+    </item>
+    
+    <item>
+      <title>stiff asks matt answers</title>
+      <link>https://www.mattstine.com/2006/07/24/stiff-asks-matt-answers/</link>
+      <pubDate>Mon, 24 Jul 2006 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2006/07/24/stiff-asks-matt-answers/</guid>
+      <description>I found an interesting article this morning by way of Digg.com Programming: Stiff asks, great programmers answer. The author posed 5 questions to some of the more well-known programmers of today, and their answers made for very interesting reading. Not to say that I&amp;rsquo;m a great programmer or anything, but I thought it might be a fun thought exercise to answer these questions myself. Here we go:
+How did you learn programming?</description>
+    </item>
+    
+    <item>
+      <title>abby in costume</title>
+      <link>https://www.mattstine.com/2005/11/16/abby-in-costume/</link>
+      <pubDate>Wed, 16 Nov 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2005/11/16/abby-in-costume/</guid>
+      <description>Abby in Costume
+Originally uploaded by javasage1978.
+I realized I haven&amp;rsquo;t posted any pictures of the girls - here is Abby before the fall fun festival at Bellevue.</description>
+    </item>
+    
+    <item>
+      <title>flickr</title>
+      <link>https://www.mattstine.com/2005/11/16/flickr/</link>
+      <pubDate>Wed, 16 Nov 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2005/11/16/flickr/</guid>
+      <description>This is a test post from , a fancy photo sharing thing.</description>
+    </item>
+    
+    <item>
+      <title>isabella in costume</title>
+      <link>https://www.mattstine.com/2005/11/16/isabella-in-costume/</link>
+      <pubDate>Wed, 16 Nov 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2005/11/16/isabella-in-costume/</guid>
+      <description>Isabella in Costume
+Originally uploaded by javasage1978.
+Here&amp;rsquo;s Isabella right before we went in to the fun festival&amp;hellip;isn&amp;rsquo;t she cute?</description>
+    </item>
+    
+    <item>
+      <title>my spiritual father goes home</title>
+      <link>https://www.mattstine.com/2005/11/15/my-spiritual-father-goes-home/</link>
+      <pubDate>Tue, 15 Nov 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2005/11/15/my-spiritual-father-goes-home/</guid>
+      <description>This morning, Dr. Adrian Rogers walked into glory. Dr. Rogers was my first pastor. I never had the opportunity to share this with him, but he is ultimately the man who led me to a saving knowledge of Jesus Christ. I experienced false conversion as a child, was never baptized, and never experienced the true change of heart that comes from the new birth. Shortly after our marriage, my wife and I joined Bellevue Baptist Church, where I was then baptized.</description>
+    </item>
+    
+    <item>
+      <title>ruby on rails dev framework on track for growth</title>
+      <link>https://www.mattstine.com/2005/11/02/ruby-on-rails-dev-framework-on-track-for-growth/</link>
+      <pubDate>Wed, 02 Nov 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2005/11/02/ruby-on-rails-dev-framework-on-track-for-growth/</guid>
+      <description>It appears that Ruby on Rails is changing the WORLD of software development - I wasn&amp;rsquo;t aware of just how much influence it was having in the world of other languages. Here Marc Fleury (JBoss CEO) says that it had a huge influence on Seam - JBoss&amp;rsquo;s venture into the Java web framework space. And then the list of RoR clones: Biscuit (PHP), Grails (Java), Monorail (.NET), Turbo Gears (Python), Cake PHP, Subway (Python), Catalyst (Perl)&amp;hellip;.</description>
+    </item>
+    
+    <item>
+      <title>nbc2 news online the mystery of the eye</title>
+      <link>https://www.mattstine.com/2005/10/31/nbc2-news-online-the-mystery-of-the-eye/</link>
+      <pubDate>Mon, 31 Oct 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2005/10/31/nbc2-news-online-the-mystery-of-the-eye/</guid>
+      <description>This is pretty wild&amp;hellip;.the number 2 appears in the eye of Hurricane Wilma. They insist that the image and video were not altered&amp;hellip;.in fact you can barely see it at this NOAA link as well: http://www.srh.noaa.gov/data/radar/archive/Tue/kamx/241002.gif.
+NBC2 News Online - The mystery of the eye</description>
+    </item>
+    
+    <item>
+      <title>it observer a glimpse at the future of programming languages oreilly releases beyond java</title>
+      <link>https://www.mattstine.com/2005/10/17/it-observer-a-glimpse-at-the-future-of-programming-languages-oreilly-releases-beyond-java/</link>
+      <pubDate>Mon, 17 Oct 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2005/10/17/it-observer-a-glimpse-at-the-future-of-programming-languages-oreilly-releases-beyond-java/</guid>
+      <description>The Ruby on Rails hype continues - Bruce Tate considers the possibility that it may be &amp;ldquo;the next big thing,&amp;rdquo; as well as letting us know that &amp;ldquo;It&amp;rsquo;s time to start paying attention again. It&amp;rsquo;s time to look at the horizon, beyond Java.&amp;rdquo; I&amp;rsquo;ve been thinking about this issue a lot lately - I mean, even 10 years ago none of us could have predicted that we&amp;rsquo;d be using Java as much and in the way we are now.</description>
+    </item>
+    
+    <item>
+      <title>foxnewscom the oreilly factor talking points the aclu exposed</title>
+      <link>https://www.mattstine.com/2005/10/14/foxnewscom-the-oreilly-factor-talking-points-the-aclu-exposed/</link>
+      <pubDate>Fri, 14 Oct 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2005/10/14/foxnewscom-the-oreilly-factor-talking-points-the-aclu-exposed/</guid>
+      <description>Bill O&amp;rsquo;Reilly slams the ACLU for being what it is - not a defender of Constitutional rights, but a militant organization fighting for its own radical, secular, progressive agenda. BO states:
+&amp;ldquo;The ACLU simply wants a different country, a nation where conduct it approves of, public sexual displays, child molestation literature is allowed. But the ACLU wants to inhibit conduct it disagrees with, like protesting the border and celebrating the birth of Jesus.</description>
+    </item>
+    
+    <item>
+      <title>onlampcom what is ruby on rails</title>
+      <link>https://www.mattstine.com/2005/10/14/onlampcom-what-is-ruby-on-rails/</link>
+      <pubDate>Fri, 14 Oct 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2005/10/14/onlampcom-what-is-ruby-on-rails/</guid>
+      <description>What Is Ruby on Rails by Curt Hibbs &amp;ndash; Ruby on Rails is an impressive web development framework that will soon reach version 1.0. While there&amp;rsquo;s a lot of buzz, it can sometimes be difficult to discern the steak beneath the sizzle. Curt Hibbs walks through the features and pieces of Ruby on Rails to show how it fits together and where its big benefits come from.
+I read this article this morning and I have to say it makes me even more impressed with Rails.</description>
+    </item>
+    
+    <item>
+      <title>spurgeon morning and evening</title>
+      <link>https://www.mattstine.com/2005/10/14/spurgeon-morning-and-evening/</link>
+      <pubDate>Fri, 14 Oct 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2005/10/14/spurgeon-morning-and-evening/</guid>
+      <description>Spurgeon&amp;rsquo;s evening devotional for today packs a punch. I can&amp;rsquo;t get over the last few sentences:
+O professor, too little separated from sinners, you know not what you lose by your conformity to the world. It cuts the tendons of your strength, and makes you creep where you ought to run. Then, for your own comfort&amp;rsquo;s sake, and for the sake of your growth in grace, if you be a Christian, be a Christian, and be a marked and distinct one.</description>
+    </item>
+    
+    <item>
+      <title>apache ibatis</title>
+      <link>https://www.mattstine.com/2005/10/12/apache-ibatis/</link>
+      <pubDate>Wed, 12 Oct 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2005/10/12/apache-ibatis/</guid>
+      <description>One technology that I picked up on in the last session of the Java In Action conference was Apache iBATIS. It is a really cool framework that maps SQL queries to Java objects. It provides the capability to do really AWESOME things with dynamic SQL, and eliminates the N+1 query problem. I&amp;rsquo;ve been playing with it on a project the last couple of days and I&amp;rsquo;m VERY satisfied with what I&amp;rsquo;ve seen so far.</description>
+    </item>
+    
+    <item>
+      <title>supernatural regeneration</title>
+      <link>https://www.mattstine.com/2005/10/12/supernatural-regeneration/</link>
+      <pubDate>Wed, 12 Oct 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2005/10/12/supernatural-regeneration/</guid>
+      <description>I am about halfway through reading an interview with Ravi Zacharias in the Fall 2005 issue of Just Thinking from Ravi Zacharias International Ministries. The interview was conducted by Major John Carter of the Salvation Army, and concerned Leadership and Calling. I was extremely taken by a quote by RZ in the interview which I&amp;rsquo;ll reproduce below:
+I really think that today, as Christian apologists, that the biggest challenge to the faith is not an intellectual question.</description>
+    </item>
+    
+    <item>
+      <title>post 1</title>
+      <link>https://www.mattstine.com/2005/10/10/post-1/</link>
+      <pubDate>Mon, 10 Oct 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2005/10/10/post-1/</guid>
+      <description>This is my first post to this blog. I&amp;rsquo;ve just returned to work after spending the last week at TheServerSide.com&amp;rsquo;s Java in Action conference in Orlando, FL. Got to take the family with me and spend a day at Magic Kingdom. A good trip, and learned a lot of new technologies.</description>
+    </item>
+    
+    <item>
+      <title>ruby on rails</title>
+      <link>https://www.mattstine.com/2005/10/10/ruby-on-rails/</link>
+      <pubDate>Mon, 10 Oct 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2005/10/10/ruby-on-rails/</guid>
+      <description>I&amp;rsquo;ve spent quite a bit of time playing with this Ruby on Rails thing. It&amp;rsquo;s amazing that I was able to build such a nice basic CRUD app w/ only 57 lines of code. Now, I know this app didn&amp;rsquo;t do much - just manage an Online Cookbook (i.e. the OnLAMP.com Rolling on Rails tutorial). I&amp;rsquo;m going to go through &amp;ldquo;Four Days on Rails&amp;rdquo; next since it purports to be a tutorial with a &amp;ldquo;Real App.</description>
+    </item>
+    
+  </channel>
+</rss>

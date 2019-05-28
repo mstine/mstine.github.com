@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Java on Matt Stine</title>
+    <link>https://www.mattstine.com/categories/java/</link>
+    <description>Recent content in Java on Matt Stine</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Matt Stine</copyright>
+    <lastBuildDate>Thu, 29 Apr 2010 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.mattstine.com/categories/java/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>osgi on rails</title>
+      <link>https://www.mattstine.com/2010/04/29/osgi-on-rails/</link>
+      <pubDate>Thu, 29 Apr 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2010/04/29/osgi-on-rails/</guid>
+      <description>I&amp;rsquo;ve seen quite a few blogs/articles/etc. lately related to the adoption (or lack thereof) of OSGi in the mainstream web application/enterprise application space. A nice summation of these is encapsulated in this excerpt from a comment by Peter Kriens on DZone (you&amp;rsquo;ll find it in the comments section for http://java.dzone.com/articles/osgi-perspectives:
+ Yes, one of the next frontiers is to make OSGi easier to use for the web app developers. The solid foundation is there, so stop whining and help us create the tools, books, and tutorials that will make OSGi palatable in those markets.</description>
+    </item>
+    
+    <item>
+      <title>jug leadership lessons learned on slideshare</title>
+      <link>https://www.mattstine.com/2010/04/02/jug-leadership-lessons-learned-on-slideshare/</link>
+      <pubDate>Fri, 02 Apr 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2010/04/02/jug-leadership-lessons-learned-on-slideshare/</guid>
+      <description>I&amp;rsquo;ve been playing a bit with SlideShare today and I took the opportunity to upload the slides from my Java.net Community Corner interview with Kevin Farnham at JavaOne 2009. SlideShare has a nice feature that allows you to sync up the audio from an MP3 file with your slides, and since both were available, I thought I&amp;rsquo;d give it a try. The interface is extremely easy to use and I&amp;rsquo;m very happy with the outcome.</description>
+    </item>
+    
+    <item>
+      <title>making java groovier with lambdaj</title>
+      <link>https://www.mattstine.com/2009/10/09/making-java-groovier-with-lambdaj/</link>
+      <pubDate>Fri, 09 Oct 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2009/10/09/making-java-groovier-with-lambdaj/</guid>
+      <description>I spent the better part of yesterday tracing my way through the codebase for a large-scale enterprise application that my team is building right now, and I happened upon the following piece of code:
+//...imports excluded for clarity public class BusinessActivityBinMetaClassHelper { //... public static List&amp;lt;Long&amp;gt; getSrmMetaClassIdListJava(List&amp;lt;BusinessActivityBinMetaClass&amp;gt; businessActivityBinMetaClassList) { List&amp;lt;Long&amp;gt; srmMetaClassIdList = new ArrayList&amp;lt;Long?(); if(businessActivityBinMetaClassList != null) { for(BusinessActivityBinMetaClass businessActivityBinMetaClass : businessActivityBinMetaClassList) { if(businessActivityBinMetaClass.getSrmMetaClass() != null &amp;amp;&amp;amp; businessActivityBinMetaClass.getSrmMetaClass().getSrmMetaClassId() != null) { srmMetaClassIdList.</description>
+    </item>
+    
+    <item>
+      <title>im speaking at the march memphis jug meeting</title>
+      <link>https://www.mattstine.com/2009/03/13/im-speaking-at-the-march-memphis-jug-meeting/</link>
+      <pubDate>Fri, 13 Mar 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2009/03/13/im-speaking-at-the-march-memphis-jug-meeting/</guid>
+      <description>I learned a great deal about JMS from Mark Richards at last weekend&amp;rsquo;s NFJS Gateway Software Symposium, and I thought I&amp;rsquo;d share it with the Memphis Java community. Take a look at http://www.memphisjug.org for details!</description>
+    </item>
+    
+    <item>
+      <title>on our way to the gateway software symposium</title>
+      <link>https://www.mattstine.com/2008/02/08/on-our-way-to-the-gateway-software-symposium/</link>
+      <pubDate>Fri, 08 Feb 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2008/02/08/on-our-way-to-the-gateway-software-symposium/</guid>
+      <description>We&amp;rsquo;re taking most of our team to the St. Louis, Missouri, edition of the No Fluff Just Stuff 2008 tour. This will be my first actual NFJS event. I attended the Spring Experience in 2007, which was put on by the NFJS guys, so I expect this event in St. Louis to be great. Since we&amp;rsquo;re based in Memphis, St. Louis is only about a 4 1&amp;frasl;2 hour drive. We&amp;rsquo;re all going to pile in a van and road trip.</description>
+    </item>
+    
+    <item>
+      <title>grails 10 released</title>
+      <link>https://www.mattstine.com/2008/02/05/grails-10-released/</link>
+      <pubDate>Tue, 05 Feb 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2008/02/05/grails-10-released/</guid>
+      <description>Grails, by far my favorite of the JVM dynamic language frameworks, was released this morning, with a snazzy, new, &amp;ldquo;Web 2.0 style&amp;rdquo; website to boot. Congratulations Graeme and company on all of your hard work!</description>
+    </item>
+    
+    <item>
+      <title>practical jruby on rails web 20 projects</title>
+      <link>https://www.mattstine.com/2008/01/25/practical-jruby-on-rails-web-20-projects/</link>
+      <pubDate>Fri, 25 Jan 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2008/01/25/practical-jruby-on-rails-web-20-projects/</guid>
+      <description>Are Java&amp;rsquo;s days numbered as a web development technology? With buzzwords like Ruby, Rails, and Web 2.0 zipping around the web development community, one may begin to wonder. Could Java&amp;rsquo;s lifespan be extended by finding synergy between Java and Ruby? On the scene comes JRuby, the definitive implementation of Ruby for the JVM. In his new book from Apress, Ola Bini guides the reader through the development of four Web 2.</description>
+    </item>
+    
+    <item>
+      <title>mid year review my professional development goals for 2007 2008</title>
+      <link>https://www.mattstine.com/2008/01/02/mid-year-review-my-professional-development-goals-for-2007-2008/</link>
+      <pubDate>Wed, 02 Jan 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2008/01/02/mid-year-review-my-professional-development-goals-for-2007-2008/</guid>
+      <description>Back in July I posted my professional development goals for the year (My performance review is annually in July, so it&amp;rsquo;s a good time to set goals.), and it seemed like a good idea to take a look at my progress while doing the &amp;ldquo;New Year&amp;rsquo;s Resolution&amp;rdquo; thing.
+ Learn Groovy and Grails
+  Andy and Dave suggest learning a new language every year, so this seemed like a good goal for me.</description>
+    </item>
+    
+    <item>
+      <title>the state of the art in dependency injection rod johnson</title>
+      <link>https://www.mattstine.com/2007/12/15/the-state-of-the-art-in-dependency-injection-rod-johnson/</link>
+      <pubDate>Sat, 15 Dec 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2007/12/15/the-state-of-the-art-in-dependency-injection-rod-johnson/</guid>
+      <description>This was a truly fascinating talk. If you ever wanted to learn the entire history and landscape of dependency injection (DI), this was your opportunity. I really didn&amp;rsquo;t realize how deep of a topic DI really is.
+According to Rod, DI had its beginnings in 2002, in the Interface 21 Framework that was born from his seminal work, Expert One-on-One J2EE Design and Development. In the beginning, DI was done solely through setter injection (SI), with external metadata (usually in XML).</description>
+    </item>
+    
+    <item>
+      <title>whats new in spring 25 juergen hoeller</title>
+      <link>https://www.mattstine.com/2007/12/14/whats-new-in-spring-25-juergen-hoeller/</link>
+      <pubDate>Fri, 14 Dec 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2007/12/14/whats-new-in-spring-25-juergen-hoeller/</guid>
+      <description>This was my second talk of TSE 2007. I have to admit I chose it by process of elimination - none of the second session talks particularly jumped out and grabbed me like Chris Richardson&amp;rsquo;s talk.
+Juergen is the project lead for the Spring Framework, so he was the obvious choice to give this talk. Juergen split it up into three sections:
+ Platforms Annotation Configuration AspectJ Support To break down part one as quickly as possible, Spring supports virtually EVERYTHING.</description>
+    </item>
+    
+    <item>
+      <title>enterprise java and the changing of the guard</title>
+      <link>https://www.mattstine.com/2007/12/13/enterprise-java-and-the-changing-of-the-guard/</link>
+      <pubDate>Thu, 13 Dec 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2007/12/13/enterprise-java-and-the-changing-of-the-guard/</guid>
+      <description>Greetings from The Spring Experience 2007 in Hollywood, FL. So far this has been a great conference - I&amp;rsquo;m currently waiting for my third session of the day to start. As much as I enjoy all of the hype and eye candy at JavaOne, I really get a lot more out of these smaller conferences as you&amp;rsquo;re not running around stressed out trying to weave through thousands of geeks as you move from session to session (or more accurately, from session to queue!</description>
+    </item>
+    
+    <item>
+      <title>improving application design with a rich domain model chris richardson</title>
+      <link>https://www.mattstine.com/2007/12/13/improving-application-design-with-a-rich-domain-model-chris-richardson/</link>
+      <pubDate>Thu, 13 Dec 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2007/12/13/improving-application-design-with-a-rich-domain-model-chris-richardson/</guid>
+      <description>This was my very first session of the conference. I&amp;rsquo;ve really been looking forward to it. I became pretty excited about object-oriented programming when I first really learned it in my computer simulation course at Ole Miss. In that course we built discrete event simulation programs using collaborating Java threads. Each thread implemented an object from the domain model representing a particular simulation problem. Once I got into the &amp;ldquo;working world,&amp;rdquo; I found that the architecture described by Rod Johnson as the &amp;ldquo;J2EE stove pipe&amp;rdquo; had made my OO skills essentially unusable in the projects on which I was required to work on a day-to-day basis.</description>
+    </item>
+    
+    <item>
+      <title>13949712720901forosx</title>
+      <link>https://www.mattstine.com/2007/11/08/13949712720901forosx/</link>
+      <pubDate>Thu, 08 Nov 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2007/11/08/13949712720901forosx/</guid>
+      <description>Here&amp;rsquo;s my vote for Java 6 on Mac OS X Leopard!
+13949712720901ForOSX</description>
+    </item>
+    
+    <item>
+      <title>my professional development goals for 2007 2008</title>
+      <link>https://www.mattstine.com/2007/07/10/my-professional-development-goals-for-2007-2008/</link>
+      <pubDate>Tue, 10 Jul 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2007/07/10/my-professional-development-goals-for-2007-2008/</guid>
+      <description>I posted earlier on my desire to become a better programmer. Well, I&amp;rsquo;ve since put together a plan of action for the next twelve months. I&amp;rsquo;ve based some of these goals on suggestions from The Pragmatic Programmer by Andy Hunt and Dave Thomas.
+ Learn Groovy and Grails
+  Andy and Dave suggest learning a new language every year. I had already informally started learning Groovy and Grails after JavaOne 2007.</description>
+    </item>
+    
+    <item>
+      <title>how to implement form level validation in jsf</title>
+      <link>https://www.mattstine.com/2007/06/27/how-to-implement-form-level-validation-in-jsf/</link>
+      <pubDate>Wed, 27 Jun 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2007/06/27/how-to-implement-form-level-validation-in-jsf/</guid>
+      <description>Recently I was faced with the challenge of implementing form-level (or page-level) validation in a JSF-based application. What I mean by form-level validation is the need to evaluate a subset of a form&amp;rsquo;s fields as a unit, rather than simply validating each field in isolation. An example of this type of validation can be found on a user registration form where one has to select a password in one text field, and then retype the same password in another text field for confirmation.</description>
+    </item>
+    
+    <item>
+      <title>matt rtfm commons collections has closures</title>
+      <link>https://www.mattstine.com/2006/08/17/matt-rtfm-commons-collections-has-closures/</link>
+      <pubDate>Thu, 17 Aug 2006 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2006/08/17/matt-rtfm-commons-collections-has-closures/</guid>
+      <description>Thanks to everyone who pointed me to Commons Collections and its Functor package yesterday. To me, this is just one step below having closures natively present in the language. FYI, I was able to remove all duplication from my class and reduce the LOC from 211 to 136 - in other words, 75 lines of useless code GONE.
+Here is what I did. First, I defined Predicates for each of my conditions.</description>
+    </item>
+    
+    <item>
+      <title>java needs closures</title>
+      <link>https://www.mattstine.com/2006/08/16/java-needs-closures/</link>
+      <pubDate>Wed, 16 Aug 2006 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2006/08/16/java-needs-closures/</guid>
+      <description>I’m sure everyone is sick of reading this same rant over and over, but I just had to add more fuel to the fire. I’m attempting to implement access privilege delegation in a JSF application - basically, users can delegate their ability to do “stuff” in our application to other users. I have a backing bean that has several methods that are called by the JSF components, returning whether or not to render that component based on security privileges.</description>
+    </item>
+    
+    <item>
+      <title>it seems that appfuse has a competitor</title>
+      <link>https://www.mattstine.com/2006/08/15/it-seems-that-appfuse-has-a-competitor/</link>
+      <pubDate>Tue, 15 Aug 2006 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2006/08/15/it-seems-that-appfuse-has-a-competitor/</guid>
+      <description>I found Project Able while reading Raible’s blog this morning. While it doesn’t claim to duplicate everything that AppFuse does (i.e. they pick a framework and stick with it instead of providing choice), they are doing some neat things. I may take a look at it if I ever have time.  Project Able is a full Java-based web development stack designed to make web development painless. In a sense, it is an attempt to bring together quality opensource tools in one cohesive stack, similar to what Rails has done for Ruby, while also encouraging common practices I’ve used in software engineering for a long time.</description>
+    </item>
+    
+    <item>
+      <title>raiblee28099s wiki appfuseroadmap</title>
+      <link>https://www.mattstine.com/2006/08/15/raiblee28099s-wiki-appfuseroadmap/</link>
+      <pubDate>Tue, 15 Aug 2006 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2006/08/15/raiblee28099s-wiki-appfuseroadmap/</guid>
+      <description>Raible updated the AppFuseRoadmap yesterday. I’m really excited about where the project is going. XDoclet has been a good friend, but I’m really happy to see its demise in favor of annotations. JDK 5 and JSP 2.0 will also be really helpful - I’ve wanted to leverage these technologies for a long time, but haven’t had an easy way to do so. I think the most interesting thing for me will be the switch over to Maven 2.</description>
+    </item>
+    
+    <item>
+      <title>seven simple reasons to use appfuse</title>
+      <link>https://www.mattstine.com/2006/08/09/seven-simple-reasons-to-use-appfuse/</link>
+      <pubDate>Wed, 09 Aug 2006 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2006/08/09/seven-simple-reasons-to-use-appfuse/</guid>
+      <description>I’ve wanted for some time now to write a blog entry promoting my favorite open source project - AppFuse. Since I started developing web applications using AppFuse as a base, I can truly say that I’ve rediscovered the joy of software development. I’ve found no other technology or methodology that has allowed me to place as much focus as I now do on solving business problems and not on technology ramp-up or figuring out the eccentricities of “framework X.</description>
+    </item>
+    
+    <item>
+      <title>jfreechart appfuse integration</title>
+      <link>https://www.mattstine.com/2006/07/25/jfreechart-appfuse-integration/</link>
+      <pubDate>Tue, 25 Jul 2006 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2006/07/25/jfreechart-appfuse-integration/</guid>
+      <description>I recently finished integrating JFreeChart with AppFuse for a project I&amp;rsquo;m working on. JFreeChart is a really powerful Java chart library. If your application has any requirements for charts/graphs, I highly recommend it. The user manual and demo code come with a price tag ($39.95 for a single developer), but they are well worth the purchase - especially the demo code. If you don&amp;rsquo;t have the $$$, the support forum is also very helpful.</description>
+    </item>
+    
+  </channel>
+</rss>

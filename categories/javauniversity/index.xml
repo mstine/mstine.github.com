@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Javauniversity on Matt Stine</title>
+    <link>https://www.mattstine.com/categories/javauniversity/</link>
+    <description>Recent content in Javauniversity on Matt Stine</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Matt Stine</copyright>
+    <lastBuildDate>Mon, 07 May 2007 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.mattstine.com/categories/javauniversity/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>java university developing enterprise applications with the spring framework</title>
+      <link>https://www.mattstine.com/2007/05/07/java-university-developing-enterprise-applications-with-the-spring-framework/</link>
+      <pubDate>Mon, 07 May 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2007/05/07/java-university-developing-enterprise-applications-with-the-spring-framework/</guid>
+      <description>This was the first session that I attended at Java University. You could take either a full-day course or two half-day courses - I elected to do the latter. Keith Donald, project lead for Spring WebFlow, presented. I have quite a bit of Spring experience already through AppFuse, but I was hoping to get a more complete view of Spring as most of what I have learned is from tinkering with existing systems.</description>
+    </item>
+    
+    <item>
+      <title>java university rapid web site development with groovy and grails</title>
+      <link>https://www.mattstine.com/2007/05/07/java-university-rapid-web-site-development-with-groovy-and-grails/</link>
+      <pubDate>Mon, 07 May 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2007/05/07/java-university-rapid-web-site-development-with-groovy-and-grails/</guid>
+      <description>I&amp;rsquo;m currently sitting in this session - Graeme Rocher is the presenter. He is the creator of Grails, which is Groovy&amp;rsquo;s answer to the Ruby on Rails like development experience. He&amp;rsquo;s currently doing Q&amp;amp;A, so I thought I&amp;rsquo;d take the opportunity to write a short entry. So far this session is awesome! Graeme is a great presenter and has had the perfect balance of slides and live coding. Unfortunately they ran out of slides before I got to the presentation (more on the sometimes laughable logistics at JavaOne later), so I&amp;rsquo;m having trouble remember details to write about (they&amp;rsquo;ve promised to email me the slides).</description>
+    </item>
+    
+  </channel>
+</rss>

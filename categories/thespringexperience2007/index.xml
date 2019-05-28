@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Thespringexperience2007 on Matt Stine</title>
+    <link>https://www.mattstine.com/categories/thespringexperience2007/</link>
+    <description>Recent content in Thespringexperience2007 on Matt Stine</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Matt Stine</copyright>
+    <lastBuildDate>Mon, 04 Feb 2008 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.mattstine.com/categories/thespringexperience2007/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>the spring experience 2007 videos on the way</title>
+      <link>https://www.mattstine.com/2008/02/04/the-spring-experience-2007-videos-on-the-way/</link>
+      <pubDate>Mon, 04 Feb 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2008/02/04/the-spring-experience-2007-videos-on-the-way/</guid>
+      <description>I got an awesome email today&amp;hellip;
+ We are happy to announce that the video/audio streaming from TSE 2007 will be available online the week of February 11th for you. You will have the opportunity to see/hear the TSE 2007 presentations you were not able to make at TSE 2007 due to all of the great sessions available per time period. We have captured the entire session length including any demos/live coding.</description>
+    </item>
+    
+    <item>
+      <title>the state of the art in dependency injection rod johnson</title>
+      <link>https://www.mattstine.com/2007/12/15/the-state-of-the-art-in-dependency-injection-rod-johnson/</link>
+      <pubDate>Sat, 15 Dec 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2007/12/15/the-state-of-the-art-in-dependency-injection-rod-johnson/</guid>
+      <description>This was a truly fascinating talk. If you ever wanted to learn the entire history and landscape of dependency injection (DI), this was your opportunity. I really didn&amp;rsquo;t realize how deep of a topic DI really is.
+According to Rod, DI had its beginnings in 2002, in the Interface 21 Framework that was born from his seminal work, Expert One-on-One J2EE Design and Development. In the beginning, DI was done solely through setter injection (SI), with external metadata (usually in XML).</description>
+    </item>
+    
+    <item>
+      <title>ajax integration guide for 2008 jeremy grelle</title>
+      <link>https://www.mattstine.com/2007/12/14/ajax-integration-guide-for-2008-jeremy-grelle/</link>
+      <pubDate>Fri, 14 Dec 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2007/12/14/ajax-integration-guide-for-2008-jeremy-grelle/</guid>
+      <description>This talk looked really exciting going in. Jeremy is a member of the Spring Web Products team and the lead of Spring Faces, as well as a member of the JSF 2.0 Expert Group. He describes himself as the resident Ajax freak at SpringSource. Jeremy began by discussing the current Ajax landscape, highlighting what he believes are the important features a successful framework must deliver, and then identifying the frameworks he considers to be the cream of the crop.</description>
+    </item>
+    
+    <item>
+      <title>whats new in spring 25 juergen hoeller</title>
+      <link>https://www.mattstine.com/2007/12/14/whats-new-in-spring-25-juergen-hoeller/</link>
+      <pubDate>Fri, 14 Dec 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2007/12/14/whats-new-in-spring-25-juergen-hoeller/</guid>
+      <description>This was my second talk of TSE 2007. I have to admit I chose it by process of elimination - none of the second session talks particularly jumped out and grabbed me like Chris Richardson&amp;rsquo;s talk.
+Juergen is the project lead for the Spring Framework, so he was the obvious choice to give this talk. Juergen split it up into three sections:
+ Platforms Annotation Configuration AspectJ Support To break down part one as quickly as possible, Spring supports virtually EVERYTHING.</description>
+    </item>
+    
+    <item>
+      <title>enterprise java and the changing of the guard</title>
+      <link>https://www.mattstine.com/2007/12/13/enterprise-java-and-the-changing-of-the-guard/</link>
+      <pubDate>Thu, 13 Dec 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2007/12/13/enterprise-java-and-the-changing-of-the-guard/</guid>
+      <description>Greetings from The Spring Experience 2007 in Hollywood, FL. So far this has been a great conference - I&amp;rsquo;m currently waiting for my third session of the day to start. As much as I enjoy all of the hype and eye candy at JavaOne, I really get a lot more out of these smaller conferences as you&amp;rsquo;re not running around stressed out trying to weave through thousands of geeks as you move from session to session (or more accurately, from session to queue!</description>
+    </item>
+    
+    <item>
+      <title>improving application design with a rich domain model chris richardson</title>
+      <link>https://www.mattstine.com/2007/12/13/improving-application-design-with-a-rich-domain-model-chris-richardson/</link>
+      <pubDate>Thu, 13 Dec 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2007/12/13/improving-application-design-with-a-rich-domain-model-chris-richardson/</guid>
+      <description>This was my very first session of the conference. I&amp;rsquo;ve really been looking forward to it. I became pretty excited about object-oriented programming when I first really learned it in my computer simulation course at Ole Miss. In that course we built discrete event simulation programs using collaborating Java threads. Each thread implemented an object from the domain model representing a particular simulation problem. Once I got into the &amp;ldquo;working world,&amp;rdquo; I found that the architecture described by Rod Johnson as the &amp;ldquo;J2EE stove pipe&amp;rdquo; had made my OO skills essentially unusable in the projects on which I was required to work on a day-to-day basis.</description>
+    </item>
+    
+    <item>
+      <title>pair programming with the official rod johnson bobblehead</title>
+      <link>https://www.mattstine.com/2007/12/13/pair-programming-with-the-official-rod-johnson-bobblehead/</link>
+      <pubDate>Thu, 13 Dec 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2007/12/13/pair-programming-with-the-official-rod-johnson-bobblehead/</guid>
+      <description>As you can see, Rod really likes my Spring MVC configuration. :-)</description>
+    </item>
+    
+  </channel>
+</rss>

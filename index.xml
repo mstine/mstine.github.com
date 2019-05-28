@@ -1,0 +1,2005 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Matt Stine on Matt Stine</title>
+    <link>https://www.mattstine.com/</link>
+    <description>Recent content in Matt Stine on Matt Stine</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Matt Stine</copyright>
+    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Learning Path: Cloud Native Architecture Brick and Mortar Pattern Language</title>
+      <link>https://www.mattstine.com/publication/lp-cna-bam-pl/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/publication/lp-cna-bam-pl/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;What you’ll learn—and how you can apply it&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Understand what pattern languages are, their history, and their use in defining new systems&lt;/li&gt;
+&lt;li&gt;Discover what the Brick and Mortar pattern language is and how it was developed&lt;/li&gt;
+&lt;li&gt;Learn how the Brick and Mortar language can explain the power of cloud architecture&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;This learning path is for you because…&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;You&amp;rsquo;re a software architect or senior developer working on medium-to-large scale enterprise systems and want to learn the Brick and Mortar pattern language&lt;/li&gt;
+&lt;li&gt;You&amp;rsquo;re an experienced application architect, lead engineer, or senior developer building medium-to-large scale enterprise applications, and you need to start leveraging cloud infrastructure for your solutions&lt;/li&gt;
+&lt;li&gt;You&amp;rsquo;re an experienced application architect, lead engineer, or senior developer building medium-to-large scale enterprise applications, and you want to understand how to create systems optimized for DevOps and Continuous Delivery practices&lt;/li&gt;
+&lt;li&gt;You&amp;rsquo;re an experienced application architect, lead engineer, or senior developer building medium-to-large scale enterprise applications, and you need to start migrating your existing applications to cloud native architectures&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Learning Path: Cloud Native Architecture Patterns Fundamentals</title>
+      <link>https://www.mattstine.com/publication/lp-cna-fundmentals/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/publication/lp-cna-fundmentals/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;What you’ll learn—and how you can apply it&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;What DevOps is and what are its uses&lt;/li&gt;
+&lt;li&gt;What Continuous Delivery is and its usability and testability&lt;/li&gt;
+&lt;li&gt;How DevOps, Continuous Delivery, and Cloud Infrastructure are tied together&lt;/li&gt;
+&lt;li&gt;How to articulate the high-level narrative of cloud-native architecture and understand why it is important to your business&lt;/li&gt;
+&lt;li&gt;How to articulate the paradigm shift involved in cloud-native architectural thinking&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;This learning path is for you because…&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;You are an experienced application architect, lead engineer, or senior developer building medium- to large-scale enterprise applications and you need to begin integrating cloud infrastructure into your solutions&lt;/li&gt;
+&lt;li&gt;You want to understand how to create systems optimized for DevOps and Continuous Delivery (CD) environments&lt;/li&gt;
+&lt;li&gt;You need to begin migrating your existing applications to cloud-native architectures&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Upcoming Cloud Native Architecture Training on O&#39;Reilly&#39;s Safari</title>
+      <link>https://www.mattstine.com/2017/05/14/upcoming-cloud-native-architecture-training-on-oreillys-safari/</link>
+      <pubDate>Sun, 14 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2017/05/14/upcoming-cloud-native-architecture-training-on-oreillys-safari/</guid>
+      <description>&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;I&amp;#8217;m offering online training in Cloud Native Architecture via O&amp;#8217;Reilly&amp;#8217;s amazing Safari platform. Several dates still have openings:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;ulist&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.safaribooksonline.com/live-training/courses/cloud-native-architecture-patterns/0636920082057/&#34;&gt;September 6-7, 2017: 12:00pm - 4:00pm EDT&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.safaribooksonline.com/live-training/courses/cloud-native-architecture-patterns/0636920082118/&#34;&gt;September 13-14, 2017: 12:00pm - 4:00pm EDT&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.safaribooksonline.com/live-training/courses/cloud-native-architecture-patterns/0636920082231/&#34;&gt;October 4-5, 2017: 12:00pm - 4:00pm EDT&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;More dates will be announced soon.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Designed for software architects and senior developers working on medium-to-large scale enterprise systems, this two-day, hands-on course will introduce you to the cloud native architectural pattern language and give you practice applying it. By the end of this course, you’ll be able to articulate the high-level narrative of cloud native architecture and why it is so important to your company. You’ll also be able to apply cloud native architecture patterns to various practice “katas” to prepare for future use on real projects.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Join us!&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Secure Hybrid Banking Reference Architectures for Cloud-Native Applications</title>
+      <link>https://www.mattstine.com/publication/shb-refarch-cna/</link>
+      <pubDate>Wed, 01 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/publication/shb-refarch-cna/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://www.mattstine.com/about/</link>
+      <pubDate>Sat, 20 Jun 2015 14:02:37 +0200</pubDate>
+      
+      <guid>https://www.mattstine.com/about/</guid>
+      <description>&lt;p&gt;Matt is a technical product manager at Pivotal. He is a 15 year veteran of the enterprise IT industry, with experience spanning numerous business domains. He is the author of recently published Migrating to Cloud-Native Application Architectures from O&amp;rsquo;Reilly, available as a free e-book download.&lt;/p&gt;
+
+&lt;p&gt;Matt is obsessed with the idea that enterprise IT “doesn’t have to suck,” and spends much of his time thinking about lean/agile software development methodologies, DevOps, architectural principles/patterns/practices, and programming paradigms, in an attempt to find the perfect storm of techniques that will allow corporate IT departments to not only function like startup companies, but also create software that delights users while maintaining a high degree of conceptual integrity. His current focus is driving Pivotal’s solutions around supporting microservices architectures with Cloud Foundry and Spring.&lt;/p&gt;
+
+&lt;p&gt;Matt has spoken at conferences ranging from JavaOne to OSCON to YOW!, is a five-year member of the No Fluff Just Stuff tour, and serves as Technical Editor of NFJS the Magazine. Matt is also the founder and past president of the Memphis Java User Group.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Migrating to Cloud Native Application Architectures</title>
+      <link>https://www.mattstine.com/publication/migrating-to-cloud-native/</link>
+      <pubDate>Fri, 20 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/publication/migrating-to-cloud-native/</guid>
+      <description>&lt;p&gt;Author Matt Stine also examines the cultural, organizational, and technical changes necessary to migrate traditional monolithic applications and service-oriented architectures to cloud-native architectures. You’ll also find a Migration Cookbook, with recipes for decomposing monolithic applications into microservices, implementing fault-tolerant patterns, and performing automated testing of cloud-native services.&lt;/p&gt;
+
+&lt;p&gt;This report discusses application architectures that include:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;The Twelve-Factor App:&lt;/strong&gt; a collection of cloud-native app architecture patterns&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Microservices:&lt;/strong&gt; independently deployable services that do one thing well&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Self-Service Agile Infrastructure:&lt;/strong&gt; platforms for rapid, repeatable, and consistent provisioning of app environments and backing services&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;API-based Collaboration:&lt;/strong&gt; published and versioned APIs that allow interaction between services in a cloud-native app architecture&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Anti-Fragility:&lt;/strong&gt; systems that get stronger when subjected to stress&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>cloud native app arch training</title>
+      <link>https://www.mattstine.com/2015/02/18/cloud-native-app-arch-training/</link>
+      <pubDate>Wed, 18 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2015/02/18/cloud-native-app-arch-training/</guid>
+      <description>&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;I&amp;#8217;m offering a two-day, intensive, hands-on training course at the upcoming O&amp;#8217;Reilly Software Architecture Conference in Boston, MS.
+The class is entitled &lt;a href=&#34;http://softwarearchitecturecon.com/sa2015/public/schedule/detail/39989&#34;&gt;Cloud-Native Application Architectures with Spring and Cloud Foundry&lt;/a&gt;.
+In this class you will have the opportunity to implement an easy-to-understand storefront system (complete with product search, details, reviews, and recommendations) as a cloud-native architecture using Spring and Cloud Foundry.
+In addition, you&amp;#8217;ll get hands-on exposure to the Netflix OSS family of technologies.
+All of this will happen over the course of 8 90-minute training sessions with 26 self-guided hands-on labs.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Use the discount code &lt;strong&gt;SPRING&lt;/strong&gt; for a 20% discount on your pass!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Join us!&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>learning to go part i interfaces</title>
+      <link>https://www.mattstine.com/2014/07/08/learning-to-go-part-i-interfaces/</link>
+      <pubDate>Tue, 08 Jul 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2014/07/08/learning-to-go-part-i-interfaces/</guid>
+      <description>&lt;div class=&#34;quoteblock abstract&#34;&gt;
+&lt;blockquote&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;&lt;em&gt;This article was originally published in the &lt;a href=&#34;https://nofluffjuststuff.com/home/magazine_subscribe?id=52&#34;&gt;April 2014 issue&lt;/a&gt; of NFJS the Magazine.&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;This article begins an introductory series on the &lt;a href=&#34;http://golang.org&#34;&gt;Go programming language&lt;/a&gt;.
+Go is a language optimized for large-scale software engineering and is rapidly becoming the language of choice for building cloud services.
+It does this in a very interesting way, optimizing for simplicity rather than complexity and taking a &amp;#8220;less is exponentially more&amp;#8221; approach.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Three ways in which this really stands out are:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;ulist&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;A pragmatic approach to component design (through implicitly satisfied interfaces)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The need to forget much of what you&amp;#8217;ve learned about object-oriented programming (and to prefer composition over inheritance)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;A concurrency model that mere mortals can use to great effect (via goroutines and channels)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Overall, it&amp;#8217;s a language with the productivity of a dynamically-typed, interpreted language with the safety and efficiency found in a statically-typed, compiled language.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;This series will focus on learning Go from the perspective of Java developers.
+We&amp;#8217;ll begin with design ideas informed by Go&amp;#8217;s primary method of abstraction: interfaces.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/blockquote&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_what_if_i_told_you_classes_were_unnecessary&#34;&gt;What If I Told You Classes Were Unnecessary?&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Object-oriented programming (OO) has dominated large-scale software engineering for quite some time now.
+While OO finds its roots in simulation programming, it moved into and began to dominate the mainstream of business programming with the advent of languages like C++ and Java.
+When we design programs in an OO language, we usually begin with an object model, defining a taxonomy of objects representing all of the entities, or nouns, in our business domain.
+Languages like C++ and Java support this via the &lt;em&gt;class&lt;/em&gt; construct, with a class defining a &lt;em&gt;template&lt;/em&gt; for creating a particular type of &lt;em&gt;object&lt;/em&gt;.
+Classes normally can be extended, creating &lt;em&gt;subclasses&lt;/em&gt;.
+This allows us to define a hierarchy of types that inherit characteristics and behavior from one another.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;But what if I told you that classes were unnecessary? This may seem like heresy, but we already know it.
+JavaScript has the feel of an OO language, but it does not have classes at all.
+In fact, it utilizes what&amp;#8217;s called &lt;em&gt;prototype-based programming&lt;/em&gt; &lt;a href=&#34;#PBP&#34;&gt;[PBP]&lt;/a&gt;.
+With prototype-based programming, we achieve reuse by cloning existing objects that serve as &lt;em&gt;prototypes&lt;/em&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Those of us that have surfed the wave of &lt;em&gt;functional programming&lt;/em&gt; have discovered that it&amp;#8217;s indeed possible to structure large programs around a very basic set of types (sets, lists, maps, etc.), along with a large collection of behaviors, or &lt;em&gt;functions&lt;/em&gt;, that can operate on those types.
+In these languages, we don&amp;#8217;t really see anything resembling an object!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;The Go programming language is somewhat unique in that it offers many OO-like constructs, but does not offer either classes or prototypes. But it is also not correct to refer to it as a functional language &lt;em&gt;per se&lt;/em&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_favoring_composition_over_inheritance&#34;&gt;Favoring Composition Over Inheritance&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;While the Java programming language has always included a type system featuring inheritance, it has long been considered best practice to favor composition over inheritance.
+When Joshua Bloch, now Chief Java Architect at Google and then Distinguished Engineer at Sun Microsystems, wrote his seminal work &lt;em&gt;Effective Java&lt;/em&gt; &lt;a href=&#34;#EJ&#34;&gt;[EJ]&lt;/a&gt;, he included as Item #16: &amp;#8220;Favor composition over inheritance.&amp;#8221;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;When we use inheritance, we must be careful to implement subclasses such that they are in an &lt;em&gt;is-a&lt;/em&gt; relationship with their parents.
+In other words, any context that expects an instance of the parent type should also work well with an instance of the subtype.
+We call this &lt;em&gt;substitutabilty&lt;/em&gt;, which is expressed well by the Liskov Substitution Principle &lt;a href=&#34;#LSP&#34;&gt;[LSP]&lt;/a&gt;.
+When we don&amp;#8217;t follow this principle, we usually end up creating a lot of code that uses type checking to implement special behaviors.
+In doing so, we create fragile systems that don&amp;#8217;t abide by the Open-Closed Principle &lt;a href=&#34;#OCP&#34;&gt;[OCP]&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;When we instead utilize composition, we build classes that are in a &lt;em&gt;has-a&lt;/em&gt; relationship with their components.
+If we&amp;#8217;d like to encapsulate the relationship between a class and its components, we can apply &lt;em&gt;delegation&lt;/em&gt;, forwarding method calls to the underlying component.
+This makes it appear as if our object &lt;em&gt;is-a&lt;/em&gt; instance of another type in terms of behavior, without the problems associated with inheritance-based reuse.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;The Go programming language also emphasizes composition over inheritance, in that it does not even provide inheritance as a language construct! Instead, it provides the ability to use composition at the type and behavior level.
+Let&amp;#8217;s see how.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_structs_ftw&#34;&gt;Structs FTW!&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;In Go we can define composite data types using &lt;em class=&#34;term&#34;&gt;structs&lt;/em&gt;.
+You may be familiar with structs if you&amp;#8217;ve spent any time programming in C.
+Structs are simply a sequence of fields, each of which has a name and a type.
+If you take a look at &lt;a href=&#34;#pstruct&#34;&gt;A &lt;code&gt;Point&lt;/code&gt; struct&lt;/a&gt;, you&amp;#8217;ll see that we&amp;#8217;ve defined a struct representing a point in Cartesian space.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;pstruct&#34; class=&#34;listingblock&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;A &lt;code&gt;Point&lt;/code&gt; struct&lt;/div&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;pre class=&#34;highlight&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;type Point struct {
+	X, Y float64
+}&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;New Go types are defined using the &lt;code&gt;type&lt;/code&gt; keyword.
+We give our type the name &lt;code&gt;Point&lt;/code&gt;.
+It&amp;#8217;s important to note that we&amp;#8217;ve used uppercase here.
+Visibility in Go is determined by the case of an identifier.
+All code in Go is defined within a package.
+If you&amp;#8217;d like your types and functions to be visible beyond the confines of your package, you need to &lt;em&gt;export&lt;/em&gt; them by starting them with an uppercase letter.
+If you use a lowercase letter or underscore (&lt;code&gt;_&lt;/code&gt;), they will be &lt;em&gt;unexported&lt;/em&gt;, roughly equivalent to the Java concept of &lt;code&gt;private&lt;/code&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;You&amp;#8217;ll quickly notice that we&amp;#8217;ve defined two fields in our struct, &lt;code&gt;X&lt;/code&gt; and &lt;code&gt;Y&lt;/code&gt;, both of which take on the type &lt;code&gt;float64&lt;/code&gt;, representing a 64-bit floating-point number.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;admonitionblock note&#34;&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;td class=&#34;icon&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;Note&lt;/div&gt;
+&lt;/td&gt;
+&lt;td class=&#34;content&#34;&gt;
+Unlike Java, Go places the type declarations &lt;em&gt;after&lt;/em&gt; the field names (the same applies when declaring function arguments) - you&amp;#8217;ll get used to this eventually!
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;del&gt;The keen observer will also note the case of the field names.
+Just as case matters when dealing with type visibility beyond package boundaries, case also matters when dealing with field visibility beyond struct boundaries.
+Because both &lt;code&gt;X&lt;/code&gt; and &lt;code&gt;Y&lt;/code&gt; are uppercase, they are exported from the struct.
+Had they been &lt;code&gt;x&lt;/code&gt; and &lt;code&gt;y&lt;/code&gt;, they would be unexported, and therefore only visible within the struct.
+To find out how we&#39;ll deal with that, hold on until the next section!&lt;/del&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Update (2014-07-09):&lt;/em&gt;&lt;/strong&gt; &lt;em&gt;My understanding of this point &lt;a href=&#34;http://www.reddit.com/r/golang/comments/2a5aui/learning_to_go_part_i_interfaces/cis9bm8&#34;&gt;was corrected&lt;/a&gt; on Reddit. Case only affects visibility with respect to packages, so &lt;code&gt;x&lt;/code&gt; and &lt;code&gt;y&lt;/code&gt; would also be accessible to any code within the package enclosing the struct. See &lt;a href=&#34;http://play.golang.org/p/ySlG9K5yfN&#34;&gt;this example&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;So how do we create one of our &lt;code&gt;Point&lt;/code&gt;s? We have a couple of options. First, we can utilize the &lt;code&gt;new&lt;/code&gt; function:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;pnew&#34; class=&#34;listingblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;pre class=&#34;highlight&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;	p := *new(point.Point)
+	p.X = 1
+	p.Y = 2&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;We prefixed our call to &lt;code&gt;new&lt;/code&gt; with an asterisk (&lt;code&gt;*&lt;/code&gt;) in order to dereference the pointer returned by &lt;code&gt;new&lt;/code&gt;.
+Yes, that&amp;#8217;s right, Go has pointers.
+With that said, there&amp;#8217;s no pointer arithmetic, so they&amp;#8217;re not quite as scary as what we find in languages like C and C++.
+They almost represent a happy medium between C and Java.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;admonitionblock note&#34;&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;td class=&#34;icon&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;Note&lt;/div&gt;
+&lt;/td&gt;
+&lt;td class=&#34;content&#34;&gt;
+You also don&amp;#8217;t have to worry about freeing memory! Go is a garbage collected language.
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Built-in types in Go start &lt;em&gt;zeroed&lt;/em&gt;, rather than &lt;code&gt;nil&lt;/code&gt;.
+In the case of &lt;code&gt;float64&lt;/code&gt;, they take on the value &lt;code&gt;0&lt;/code&gt;.
+It&amp;#8217;s good practice for our types to start zeroed as well, and we get that for free here.
+Our newly initialized &lt;code&gt;Point&lt;/code&gt; represents the Cartesian coordinate &lt;em&gt;(0,0)&lt;/em&gt;. The next two statements move our &lt;code&gt;Point&lt;/code&gt; to &lt;em&gt;(1,2)&lt;/em&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;We can eliminate the two step process by utilizing a composite literal:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;pliteral&#34; class=&#34;listingblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;pre class=&#34;highlight&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;	p = point.Point{X: 1, Y: 2}&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;A composite literal creates a new instance each time it is evaluated, and initializes each field with the given value.
+In addition, this particular &lt;code&gt;Point&lt;/code&gt; starts out dereferenced.
+If we actually want a pointer to it, we need to prefix the literal with an ampersand (&lt;code&gt;&amp;amp;&lt;/code&gt;).&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;admonitionblock note&#34;&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;td class=&#34;icon&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;Note&lt;/div&gt;
+&lt;/td&gt;
+&lt;td class=&#34;content&#34;&gt;
+It is generally considered idiomatic Go to prefer the composite literal style to using &lt;code&gt;new&lt;/code&gt;.
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Enough about structs, on to methods!&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_methods&#34;&gt;Methods&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Go methods are just functions that happen to have a &lt;em&gt;receiver&lt;/em&gt; argument.
+You can find one in &lt;a href=&#34;#trans&#34;&gt;Method for translating &lt;code&gt;Point&lt;/code&gt;s&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;trans&#34; class=&#34;listingblock&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;Method for translating &lt;code&gt;Point&lt;/code&gt;s&lt;/div&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;pre class=&#34;highlight&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;func (p Point) Translate(xDist float64, yDist float64) Point {
+	return Point{p.X + xDist, p.Y + yDist}
+}&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;The &lt;code&gt;Translate&lt;/code&gt; method takes two distances along the &lt;em&gt;x&lt;/em&gt; and &lt;em&gt;y&lt;/em&gt;-axes, and &lt;em&gt;translates&lt;/em&gt; a point from its current position to a new position by returning a new &lt;code&gt;Point&lt;/code&gt; literal that combines the current &lt;em&gt;x&lt;/em&gt; and &lt;em&gt;y&lt;/em&gt; coordinates with those distances.
+We call &lt;code&gt;Translate&lt;/code&gt; in &lt;a href=&#34;#trans-in&#34;&gt;Calling &lt;code&gt;Translate&lt;/code&gt;&lt;/a&gt;, and the output is found in &lt;a href=&#34;#trans-out&#34;&gt;Output of calling &lt;code&gt;Translate&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;trans-in&#34; class=&#34;listingblock&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;Calling &lt;code&gt;Translate&lt;/code&gt;&lt;/div&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;pre class=&#34;highlight&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;	q := p.Translate(5, 5)
+	fmt.Printf(&#34;Translated %v to %v\n&#34;, p, q)&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;trans-out&#34; class=&#34;listingblock&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;Output of calling &lt;code&gt;Translate&lt;/code&gt;&lt;/div&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;pre class=&#34;highlight&#34;&gt;&lt;code class=&#34;language-console&#34; data-lang=&#34;console&#34;&gt;$ go run point.go
+Translated {1 2} to {6 7}&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Because we&amp;#8217;re not operating on a pointer to a &lt;code&gt;Point&lt;/code&gt;, there&amp;#8217;s no way for us to affect the existing instance.
+If we couple this with unexported fields, we&amp;#8217;d have completely controlled access to a &lt;code&gt;Point&lt;/code&gt; instance&amp;#8217;s fields.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;If we want to mutate a &lt;code&gt;Point&lt;/code&gt;, we need our method to use a pointer as the receiver argument rather than a value.
+We do this in &lt;a href=&#34;#pointer&#34;&gt;Method for translating a &lt;code&gt;Point&lt;/code&gt; via a pointer&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;pointer&#34; class=&#34;listingblock&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;Method for translating a &lt;code&gt;Point&lt;/code&gt; via a pointer&lt;/div&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;pre class=&#34;highlight&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;func (p *Point) TranslatePointer(xDist float64, yDist float64) {
+	p.X = p.X + xDist
+	p.Y = p.Y + yDist
+}&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;As you can see, rather than creating a new &lt;code&gt;Point&lt;/code&gt; and returning it, this method returns no value and directly mutates the &lt;code&gt;Point&lt;/code&gt; referred to by the pointer passed in as a receiver.
+Notice that Go conveniently dereferences the pointer automatically when using the dot (&lt;code&gt;.&lt;/code&gt;) operator to access fields. We call this method on a pointer to a &lt;code&gt;Point&lt;/code&gt; in &lt;a href=&#34;#transp-in&#34;&gt;Calling &lt;code&gt;TranslatePointer&lt;/code&gt;&lt;/a&gt; (with output in &lt;a href=&#34;#transp-out&#34;&gt;Output of calling &lt;code&gt;TranslatePointer&lt;/code&gt;&lt;/a&gt;), again using an ampersand (&lt;code&gt;&amp;amp;&lt;/code&gt;) to tell Go we&amp;#8217;d like a pointer to a &lt;code&gt;Point&lt;/code&gt;, not a &lt;code&gt;Point&lt;/code&gt; value.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;transp-in&#34; class=&#34;listingblock&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;Calling &lt;code&gt;TranslatePointer&lt;/code&gt;&lt;/div&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;pre class=&#34;highlight&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;	qP := &amp;amp;point.Point{X: 1, Y: 2}
+	qP.TranslatePointer(5, 5)
+	fmt.Printf(&#34;Translated using pointer to %v\n&#34;, qP)&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;transp-out&#34; class=&#34;listingblock&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;Output of calling &lt;code&gt;TranslatePointer&lt;/code&gt;&lt;/div&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;pre class=&#34;highlight&#34;&gt;&lt;code class=&#34;language-console&#34; data-lang=&#34;console&#34;&gt;$ go run point.go
+Translated using pointer to &amp;amp;{6 7}&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Now that we have the capability to create types with associated methods, let&amp;#8217;s look at how we can compose new composite types from existing ones.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_type_composition_with_structs&#34;&gt;Type composition with structs&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Let&amp;#8217;s imagine that we&amp;#8217;d like to extend the concept of &lt;code&gt;Point&lt;/code&gt; and add the notion of color.
+If we were working in Java, we might do the following:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;pcolor&#34; class=&#34;listingblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;pre class=&#34;highlight&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;public class ColorPoint extends Point {
+  private Color color;
+
+  // rest omitted...
+}&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Since Go doesn&amp;#8217;t have the concept of classes or inheritance, we need to work with structs to accomplish our goal.
+We can compose a type called &lt;code&gt;ColorPoint&lt;/code&gt; by &lt;em&gt;embedding&lt;/em&gt; the &lt;code&gt;Point&lt;/code&gt; type and then adding the additional field representing color (&lt;a href=&#34;#pembed&#34;&gt;Embedding &lt;code&gt;Point&lt;/code&gt; into &lt;code&gt;ColorPoint&lt;/code&gt;&lt;/a&gt;).&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;pembed&#34; class=&#34;listingblock&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;Embedding &lt;code&gt;Point&lt;/code&gt; into &lt;code&gt;ColorPoint&lt;/code&gt;&lt;/div&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;pre class=&#34;highlight&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;const (
+	BLUE  = iota
+	RED   = iota
+	GREEN = iota
+)
+
+type ColorPoint struct {
+	Point Point
+	Color int
+}&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;First note the use of the &lt;code&gt;const&lt;/code&gt; keyword.
+We&amp;#8217;re defining a set of integer constants to represent our colors.
+This is the closest approximation that Go has to an enumerated type (such as Java&amp;#8217;s &lt;code&gt;enum&lt;/code&gt;) and is usually more that sufficient.
+The predeclared identifier &lt;code&gt;iota&lt;/code&gt; represents successive untyped integer constants.
+It is reset to &lt;code&gt;0&lt;/code&gt; whenever &lt;code&gt;const&lt;/code&gt; appears again in the source.
+This has the effect in our code of setting &lt;code&gt;BLUE&lt;/code&gt; to &lt;code&gt;0&lt;/code&gt;, &lt;code&gt;RED&lt;/code&gt; to &lt;code&gt;1&lt;/code&gt;, and &lt;code&gt;GREEN&lt;/code&gt; to &lt;code&gt;2&lt;/code&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Next we define our &lt;code&gt;ColorPoint&lt;/code&gt; type as a &lt;code&gt;struct&lt;/code&gt;.
+We embed &lt;code&gt;Point&lt;/code&gt; as an exported field also called &lt;code&gt;Point&lt;/code&gt;, and we define an additional exported field called &lt;code&gt;Color&lt;/code&gt; that is typed as an &lt;code&gt;int&lt;/code&gt;.
+Now, in &lt;a href=&#34;#color-in&#34;&gt;Creating and printing a &lt;code&gt;ColorPoint&lt;/code&gt;&lt;/a&gt;, we&amp;#8217;ll create an instance of &lt;code&gt;ColorPoint&lt;/code&gt;, and then we&amp;#8217;ll print out both the previously defined &lt;code&gt;Point&lt;/code&gt; instance as well as the &lt;code&gt;ColorPoint&lt;/code&gt; instance (results in &lt;a href=&#34;#color-out&#34;&gt;Output of creating and printing a &lt;code&gt;ColorPoint&lt;/code&gt;&lt;/a&gt;).&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;color-in&#34; class=&#34;listingblock&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;Creating and printing a &lt;code&gt;ColorPoint&lt;/code&gt;&lt;/div&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;pre class=&#34;highlight&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;	r := point.ColorPoint{Point: point.Point{X: 1, Y: 4}, Color: point.BLUE}
+
+	fmt.Printf(&#34;Point: %v\n&#34;, p)
+	fmt.Printf(&#34;Color Point: %v\n&#34;, r)&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;color-out&#34; class=&#34;listingblock&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;Output of creating and printing a &lt;code&gt;ColorPoint&lt;/code&gt;&lt;/div&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;pre class=&#34;highlight&#34;&gt;&lt;code class=&#34;language-console&#34; data-lang=&#34;console&#34;&gt;$ go run point.go
+Point: {1 2}
+Color Point: {{1 4} 0}&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;We&amp;#8217;ve now successfully created a composite type, but we&amp;#8217;re missing something. Let&amp;#8217;s press on.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_houston_we_have_a_problem&#34;&gt;Houston, we have a problem&amp;#8230;&amp;#8203;&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Here&amp;#8217;s a summary of our problem:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;ulist&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;We have &lt;code&gt;Point&lt;/code&gt;s.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;We have &lt;code&gt;ColorPoint&lt;/code&gt;s.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;ColorPoint&lt;/code&gt;s are like &lt;code&gt;Point&lt;/code&gt;s, but they are definitely not &lt;code&gt;Point&lt;/code&gt;s since Go does not have inheritance.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;That said, we&amp;#8217;d like to be able to write methods that can interoperate between them. What do we do?&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;As an example, since both &lt;code&gt;Point&lt;/code&gt; and &lt;code&gt;ColorPoint&lt;/code&gt; have &lt;em&gt;x&lt;/em&gt; and &lt;em&gt;y&lt;/em&gt; coordinates, it might be interesting if we could compute the Euclidean distance &lt;a href=&#34;#EUC&#34;&gt;[EUC]&lt;/a&gt; between them.
+As a reminder, the formula can be found in &lt;a href=&#34;#e-formula&#34;&gt;Euclidean distance formula&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;e-formula&#34; class=&#34;imageblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;img src=&#34;https://www.mattstine.com/images/distance_formula.png&#34; alt=&#34;distance formula&#34;&gt;
+&lt;/div&gt;
+&lt;div class=&#34;title&#34;&gt;Figure 1. Euclidean distance formula&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;As expressed here, you can think of &lt;em&gt;p&lt;sub&gt;1&lt;/sub&gt;&lt;/em&gt; and &lt;em&gt;q&lt;sub&gt;1&lt;/sub&gt;&lt;/em&gt; as the &lt;em&gt;x&lt;/em&gt; coordinates for the two points, and &lt;em&gt;p&lt;sub&gt;2&lt;/sub&gt;&lt;/em&gt; and &lt;em&gt;q&lt;sub&gt;2&lt;/sub&gt;&lt;/em&gt; as the &lt;em&gt;y&lt;/em&gt; coordinates for the two points.
+So how do we implement a method that will allow us to compute this formula in such a way that will work with &lt;code&gt;Point&lt;/code&gt;s, &lt;code&gt;ColorPoint&lt;/code&gt;s, or both?&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_go_interfaces&#34;&gt;Go Interfaces&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Fortunately Go contributes a very powerful version of &lt;em&gt;interfaces&lt;/em&gt; to the abstraction conversation.
+Go interfaces describe groups of behaviors in the form of method signatures that implementors of the interface must implement.
+So far this doesn&amp;#8217;t sound unlike Java interfaces. Let&amp;#8217;s take a look at two Go interfaces in &lt;a href=&#34;#interfaces&#34;&gt;&lt;code&gt;Positioner&lt;/code&gt; and &lt;code&gt;Distancer&lt;/code&gt; interfaces&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;interfaces&#34; class=&#34;listingblock&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;&lt;code&gt;Positioner&lt;/code&gt; and &lt;code&gt;Distancer&lt;/code&gt; interfaces&lt;/div&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;pre class=&#34;highlight&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;type Positioner interface {
+	Coordinates() Point
+}
+
+type Distancer interface {
+	DistanceTo(p Positioner) float64
+}&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Notice that &lt;code&gt;interface&lt;/code&gt;s are themselves types. This is important, because it allows us to define function and method signatures that accept interfaces as arguments. &lt;code&gt;Positioner&lt;/code&gt;&#39;s &lt;code&gt;Coordinates()&lt;/code&gt; method should provide us the position of any implementor in terms of a &lt;code&gt;Point&lt;/code&gt;. &lt;code&gt;Distancer&lt;/code&gt;&#39;s &lt;code&gt;DistanceTo()&lt;/code&gt; method will calculate the distance between any implementor and a &lt;code&gt;Positioner&lt;/code&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;admonitionblock note&#34;&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;td class=&#34;icon&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;Note&lt;/div&gt;
+&lt;/td&gt;
+&lt;td class=&#34;content&#34;&gt;
+It is idiomatic in Go for interface names to be suffixed with &amp;#8220;-er.&amp;#8221;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;However, unlike Java interfaces, where we might write:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;listingblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;pre class=&#34;highlight&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;public class Point implements Positioner, Distancer {
+  // implementation omitted...
+}&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Go does not have an &lt;code&gt;implements&lt;/code&gt; keyword.
+In fact, if you think about the way we&amp;#8217;ve defined structs and methods so far, the only place in which we indicated any attachment between a struct and a method is in the method signature itself, in the form of the receiver parameter.
+So how does this work in Go?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Let&amp;#8217;s talk about how interfaces are &lt;em&gt;satsified&lt;/em&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;In languages like Java, an interfaces is satisfied &lt;em&gt;explicitly&lt;/em&gt;.
+Classes are tagged with &lt;code&gt;implements Interface&lt;/code&gt;.
+The compiler then looks up that interface and identifies all of the method signatures defined by it.
+It then examines the class to ensure that all of those method signatures have a concrete implementation in either the class itself or one of its parents.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;In Go, interfaces are satisfied &lt;em&gt;implicitly&lt;/em&gt;.
+We do not tag structs in any way.
+For a type to implement an interface, it simply needs to implement all of the method signatures defined by that interface.
+When we use a type in the context of an interface (e.g. we pass a type into a function that expects an interface as one of its arguments), the compiler will check to see if that type satisfies the interface.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Let&amp;#8217;s see how this falls out in practice.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;First, let&amp;#8217;s define a function that can calculate the distance between two &lt;code&gt;Positioner&lt;/code&gt;s (&lt;a href=&#34;#distance-between&#34;&gt;Calculates the distance between two &lt;code&gt;Positioner&lt;/code&gt;s&lt;/a&gt;).&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;distance-between&#34; class=&#34;listingblock&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;Calculates the distance between two &lt;code&gt;Positioner&lt;/code&gt;s&lt;/div&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;pre class=&#34;highlight&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;func distanceBetween(a Positioner, b Positioner) float64 {
+	p := a.Coordinates()
+	q := b.Coordinates()
+	sqOfXDist := math.Pow(p.X-q.X, 2)
+	sqOfYDist := math.Pow(p.Y-q.Y, 2)
+	return math.Sqrt(sqOfXDist + sqOfYDist)
+}&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Next, in &lt;a href=&#34;#point-satisfies-int&#34;&gt;&lt;code&gt;Point&lt;/code&gt; satisfies &lt;code&gt;Positioner&lt;/code&gt; and &lt;code&gt;Distancer&lt;/code&gt;&lt;/a&gt;, we satisfy both interfaces for &lt;code&gt;Point&lt;/code&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;point-satisfies-int&#34; class=&#34;listingblock&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;&lt;code&gt;Point&lt;/code&gt; satisfies &lt;code&gt;Positioner&lt;/code&gt; and &lt;code&gt;Distancer&lt;/code&gt;&lt;/div&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;pre class=&#34;highlight&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;func (p Point) Coordinates() Point {
+	return p
+}
+
+func (p Point) DistanceTo(pos Positioner) float64 {
+	return distanceBetween(p, pos)
+}&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;In &lt;a href=&#34;#cp-satisfies-int&#34;&gt;&lt;code&gt;ColorPoint&lt;/code&gt; satisfies &lt;code&gt;Positioner&lt;/code&gt; and &lt;code&gt;Distancer&lt;/code&gt;&lt;/a&gt;, we satisfy both interfaces for &lt;code&gt;ColorPoint&lt;/code&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;cp-satisfies-int&#34; class=&#34;listingblock&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;&lt;code&gt;ColorPoint&lt;/code&gt; satisfies &lt;code&gt;Positioner&lt;/code&gt; and &lt;code&gt;Distancer&lt;/code&gt;&lt;/div&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;pre class=&#34;highlight&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;func (cp ColorPoint) Coordinates() Point {
+	return cp.Point
+}
+
+func (cp ColorPoint) DistanceTo(pos Positioner) float64 {
+	return distanceBetween(cp, pos)
+}&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;This all results in our ability to interchange &lt;code&gt;Point&lt;/code&gt;s and &lt;code&gt;ColorPoint&lt;/code&gt;s in calls to &lt;code&gt;DistanceTo()&lt;/code&gt; (&lt;a href=&#34;#calculating-distance-in&#34;&gt;Calculating the distance between &lt;code&gt;Point&lt;/code&gt; and &lt;code&gt;ColorPoint&lt;/code&gt;&lt;/a&gt;). The output of these calls is found in &lt;a href=&#34;#calculating-distance-out&#34;&gt;Output of calculating the distance between &lt;code&gt;Point&lt;/code&gt; and &lt;code&gt;ColorPoint&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;calculating-distance-in&#34; class=&#34;listingblock&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;Calculating the distance between &lt;code&gt;Point&lt;/code&gt; and &lt;code&gt;ColorPoint&lt;/code&gt;&lt;/div&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;pre class=&#34;highlight&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;	fmt.Printf(&#34;Dist b/w p and q = %v\n&#34;, p.DistanceTo(r))
+	fmt.Printf(&#34;Dist b/w q and p = %v\n&#34;, r.DistanceTo(p))&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;calculating-distance-out&#34; class=&#34;listingblock&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;Output of calculating the distance between &lt;code&gt;Point&lt;/code&gt; and &lt;code&gt;ColorPoint&lt;/code&gt;&lt;/div&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;pre class=&#34;highlight&#34;&gt;&lt;code class=&#34;language-console&#34; data-lang=&#34;console&#34;&gt;$ go run point.go
+Dist b/w p and q = 2
+Dist b/w q and p = 2&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;At first glance this may not seem so impressive, nor may it seem to be that great of an advantage over what&amp;#8217;s available to us in Java.
+The power, however, is hiding just under the surface.
+When we think about implementing an interface in Java, we usually are thinking in terms of taxonomy.
+Classes extend other classes, and as we&amp;#8217;ve previously stated, that means that a child class ought to be substitutable for its parent &lt;a href=&#34;#LSP&#34;&gt;[LSP]&lt;/a&gt;.
+When we implement an interface in Java, we are also usually thinking that the class &lt;em&gt;is a&lt;/em&gt; version of that interface.
+We might have expressed our Cartesian coordinate taxonomy in Java as:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;listingblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;pre class=&#34;highlight&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;public interface Coordinate {
+  double distanceTo(Coordinate c);
+}
+
+public class Point implements Coordinate {
+  // implementation omitted
+}
+
+public class ColorPoint extends Point implements Coordinate {
+  // implementation omitted
+}&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;When we do this, we soon hear ourselves talking about &lt;code&gt;Coordinate&lt;/code&gt;s as things, not as groups of behaviors.
+Let&amp;#8217;s contrast this with Go&amp;#8217;s implicit satisfaction by adding an additional example.
+Perhaps our program&amp;#8217;s purpose is to keep track of animals in a wildlife preserve.
+It&amp;#8217;s quite natural that we&amp;#8217;d have an &lt;code&gt;Animal&lt;/code&gt; type, and that type would have some way of keeping track of the animal&amp;#8217;s current location (&lt;a href=&#34;#animal-struct&#34;&gt;&lt;code&gt;Animal&lt;/code&gt; struct&lt;/a&gt;).&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;animal-struct&#34; class=&#34;listingblock&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;&lt;code&gt;Animal&lt;/code&gt; struct&lt;/div&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;pre class=&#34;highlight&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;type Animal struct {
+	Name string
+	X, Y float64
+}&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;In order to perform our desired distance calculations, we need &lt;code&gt;Animal&lt;/code&gt; to satisfy our two interfaces (&lt;a href=&#34;#animal-dp&#34;&gt;&lt;code&gt;Animal&lt;/code&gt; satisfies &lt;code&gt;Positioner&lt;/code&gt; and &lt;code&gt;Distancer&lt;/code&gt;&lt;/a&gt;).&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;animal-dp&#34; class=&#34;listingblock&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;&lt;code&gt;Animal&lt;/code&gt; satisfies &lt;code&gt;Positioner&lt;/code&gt; and &lt;code&gt;Distancer&lt;/code&gt;&lt;/div&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;pre class=&#34;highlight&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;func (a Animal) Coordinates() point.Point {
+	return point.Point{X: a.X, Y: a.Y}
+}
+
+func (a Animal) DistanceTo(pos point.Positioner) float64 {
+	thing := pos.Coordinates()
+	sqOfXDist := math.Pow(a.X-thing.X, 2)
+	sqOfYDist := math.Pow(a.Y-thing.Y, 2)
+	return math.Sqrt(sqOfXDist + sqOfYDist)
+}&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;admonitionblock note&#34;&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;td class=&#34;icon&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;Note&lt;/div&gt;
+&lt;/td&gt;
+&lt;td class=&#34;content&#34;&gt;
+Because &lt;code&gt;distanceBetween()&lt;/code&gt; was not exported from the &lt;code&gt;point&lt;/code&gt; package, we cannot use it in the &lt;code&gt;animal&lt;/code&gt; package. Sometimes you&amp;#8217;ll run into this situation in Go, which prefers &amp;#8220;dependency hygiene&amp;#8221; over reuse.
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;And now, we can perform our desired calculations (&lt;a href=&#34;#animal-in&#34;&gt;Mixing &lt;code&gt;Animal&lt;/code&gt;s and &lt;code&gt;Point&lt;/code&gt;s using interfaces&lt;/a&gt;).
+We now know the distance between our penguin and our original point &lt;code&gt;p&lt;/code&gt;, and we also know that given the proximity of the seal (&lt;a href=&#34;#animal-out&#34;&gt;Output of mixing &lt;code&gt;Animal&lt;/code&gt;s and &lt;code&gt;Point&lt;/code&gt;s using interfaces&lt;/a&gt;), our penguin needs to start running!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;animal-in&#34; class=&#34;listingblock&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;Mixing &lt;code&gt;Animal&lt;/code&gt;s and &lt;code&gt;Point&lt;/code&gt;s using interfaces&lt;/div&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;pre class=&#34;highlight&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;	penguin := animal.Animal{Name: &#34;penguin&#34;, X: 1, Y: 1}
+	seal := animal.Animal{Name: &#34;seal&#34;, X: 1, Y: 4}
+
+	fmt.Printf(&#34;Dist b/w penguin and seal = %v\n&#34;, penguin.DistanceTo(seal))
+	fmt.Printf(&#34;Dist b/w penguin and point = %v\n&#34;, penguin.DistanceTo(p))&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;animal-out&#34; class=&#34;listingblock&#34;&gt;
+&lt;div class=&#34;title&#34;&gt;Output of mixing &lt;code&gt;Animal&lt;/code&gt;s and &lt;code&gt;Point&lt;/code&gt;s using interfaces&lt;/div&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;pre class=&#34;highlight&#34;&gt;&lt;code class=&#34;language-console&#34; data-lang=&#34;console&#34;&gt;$ go run point.go
+Dist b/w penguin and seal = 3
+Dist b/w penguin and point = 1&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Now for the test.
+Is it proper to think of an &lt;code&gt;Animal&lt;/code&gt; as being a &lt;code&gt;Distancer&lt;/code&gt; or &lt;code&gt;Positioner&lt;/code&gt; in terms of taxonomy?
+Not really.
+In fact, that seems like a coupling of concerns.
+And if we were implementing this program in Java, a naive translation would probably cause us to do the following:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;listingblock&#34;&gt;
+&lt;div class=&#34;content&#34;&gt;
+&lt;pre class=&#34;highlight&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;public class Animal implements Positioner, Distancer&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;So to summarize, Go interfaces allow us to use arbitrary types in contexts expecting a particular interface type, as long as the type in question implements all of the methods defined by that interface.
+Since interfaces are satisfied implicitly, we&amp;#8217;re no longer pressured toward treating interfaces as part of a type taxonomy.
+Instead, we&amp;#8217;re able to focus on them as groups of related behaviors.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;This may seem like a concept popularized by dynamic languages called &amp;#8220;duck typing&amp;#8221; &lt;a href=&#34;#DT&#34;&gt;[DT]&lt;/a&gt;.
+In most cases, you call a method &lt;em&gt;blindly&lt;/em&gt;, and allow the runtime dispatch system to determine if the object can &lt;em&gt;respond to&lt;/em&gt; that method.
+While this is a similar concept, it is not a very good description of how Go works.
+Go actually employs &amp;#8220;structural typing&amp;#8221; &lt;a href=&#34;#ST&#34;&gt;[ST]&lt;/a&gt;, which uses the compiler to determine interface satisfaction in a type safe manner.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_conclusion&#34;&gt;Conclusion&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;I hope you&amp;#8217;ve enjoyed this brief introduction to the Go programming language, as well as one of its most powerful features: interfaces.
+With interfaces we&amp;#8217;re able to take a more pragmatic approach to component design, as we&amp;#8217;re not forced to think in terms of taxonomies and deep type hierarchies.
+In the next installment we&amp;#8217;ll explore Go&amp;#8217;s approach to concurrency.
+Until next time my fellow gophers!&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_references&#34;&gt;References&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;ulist bibliography&#34;&gt;
+&lt;ul class=&#34;bibliography&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a id=&#34;EJ&#34;&gt;&lt;/a&gt;[EJ] Bloch, Joshua. &lt;em&gt;Effective Java: Programming Language Guide&lt;/em&gt;. Addison-Wesley, 2001.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a id=&#34;EUC&#34;&gt;&lt;/a&gt;[EUC] Euclidean distance, Wikipedia. &lt;a href=&#34;http://en.wikipedia.org/wiki/Euclidean_distance&#34; class=&#34;bare&#34;&gt;http://en.wikipedia.org/wiki/Euclidean_distance&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a id=&#34;DT&#34;&gt;&lt;/a&gt;[DT] Duck typing, Wikipedia. &lt;a href=&#34;http://en.wikipedia.org/wiki/Duck_typing&#34; class=&#34;bare&#34;&gt;http://en.wikipedia.org/wiki/Duck_typing&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a id=&#34;LSP&#34;&gt;&lt;/a&gt;[LSP] Liskov substitution principle, Wikipedia. &lt;a href=&#34;http://en.wikipedia.org/wiki/Liskov_substitution_principle&#34; class=&#34;bare&#34;&gt;http://en.wikipedia.org/wiki/Liskov_substitution_principle&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a id=&#34;PBP&#34;&gt;&lt;/a&gt;[PBP] Prototype-based programing, Wikipedia. &lt;a href=&#34;http://en.wikipedia.org/wiki/Prototype-based_programming&#34; class=&#34;bare&#34;&gt;http://en.wikipedia.org/wiki/Prototype-based_programming&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a id=&#34;ST&#34;&gt;&lt;/a&gt;[ST] Structural type system, Wikipedia. &lt;a href=&#34;http://en.wikipedia.org/wiki/Structural_type_system&#34; class=&#34;bare&#34;&gt;http://en.wikipedia.org/wiki/Structural_type_system&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Microservices Reading List</title>
+      <link>https://www.mattstine.com/microservices/</link>
+      <pubDate>Wed, 02 Jul 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/microservices/</guid>
+      <description>&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_welcome&#34;&gt;Welcome!&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Given the huge amount of buzz around Microservices right now, as well as the huge amount of content being generated, I thought I&amp;#8217;d begin curating a &amp;#8220;Microservices Reading List.&amp;#8221;
+With that said, the main reason for the creation of this page is the continual question: &amp;#8220;Great talk/article/etc. Where can I learn more?&amp;#8221;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Below you&amp;#8217;ll find articles, blogs, videos, slide decks, etc.
+I&amp;#8217;m going to try to categorize them a bit as well.
+This is by no means a complete catalog. Continue to check back for updates!&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_start_here&#34;&gt;Start Here&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;ulist&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://martinfowler.com/articles/microservices.html&#34;&gt;Microservices&lt;/a&gt;: overview by James Lewis and Martin Fowler&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.infoq.com/articles/microservices-intro&#34;&gt;Microservices: Decomposing Applications for Deployability and Scalability&lt;/a&gt;: overview by Chris Richardson&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_it_s_not_all_roses&#34;&gt;It&amp;#8217;s Not All Roses&amp;#8230;&amp;#8203;&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Here you&amp;#8217;ll find posts acknowledging the challenges associated with Microservices:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;ulist&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://highscalability.com/blog/2014/4/8/microservices-not-a-free-lunch.html&#34;&gt;Microservices - Not A Free Lunch!&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://michaelfeathers.silvrback.com/microservices-and-the-failure-of-encapsulaton&#34;&gt;Microservices and the Failure of Encapsulation&lt;/a&gt; - interesting opinion piece&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_field_reports&#34;&gt;Field Reports&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Enough with the theory.
+Who&amp;#8217;s doing this?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;ulist&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://developers.soundcloud.com/blog/building-products-at-soundcloud-part-1-dealing-with-the-monolith&#34;&gt;Building Products at SoundCloud —Part I: Dealing with the Monolith&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://developers.soundcloud.com/blog/building-products-at-soundcloud-part-2-breaking-the-monolith&#34;&gt;Building Products at SoundCloud—Part II: Breaking the Monolith&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://developers.soundcloud.com/blog/building-products-at-soundcloud-part-3-microservices-in-scala-and-finagle&#34;&gt;Building Products at SoundCloud—Part III: Microservices in Scala and Finagle&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://blog.yourkarma.com/building-microservices-at-karma&#34;&gt;How we build microservices at Karma&lt;/a&gt;: &amp;#8220;Forget the hype, we&amp;#8217;re using microservices in production.&amp;#8221;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://lonelycode.com/2014/04/08/microservices-the-blind-leading-the-blind/&#34;&gt;Microservices – the blind leading the blind&lt;/a&gt; - Field Report from &lt;a href=&#34;http://www.loadzen.com/&#34;&gt;Loadzen&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_it_s_not_about_size&#34;&gt;It&amp;#8217;s Not About Size&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Don&amp;#8217;t get caught up in the &lt;strong&gt;micro&lt;/strong&gt; of Microservices:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;ulist&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.tigerteam.dk/2014/micro-services-its-not-only-the-size-that-matters-its-also-how-you-use-them-part-1/&#34;&gt;Micro services: It’s not (only) the size that matters; it’s (also) how you use them – part 1&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.tigerteam.dk/2014/micro-services-its-not-only-the-size-that-matters-its-also-how-you-use-them-part-2/&#34;&gt;Micro services: It’s not (only) the size that matters; it’s (also) how you use them – part 2&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.tigerteam.dk/2014/microservices-its-not-only-the-size-that-matters-its-also-how-you-use-them-part-3/&#34;&gt;Microservices: It’s not (only) the size that matters; it’s (also) how you use them – part 3&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.tigerteam.dk/2014/microservices-its-not-only-the-size-that-matters-its-also-how-you-use-them-part-4/&#34;&gt;Microservices: It’s not (only) the size that matters; it’s (also) how you use them – part 4&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_organization_process_governance&#34;&gt;Organization/Process/Governance&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Microservices is far from being only a technical architecture pattern. There are huge issues associated with culture, team organization, process, data ownership, governance, etc.
+Here are some relevant pieces:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;ulist&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://genehughson.wordpress.com/2014/05/23/carving-it-up-microservices-monoliths-conways-law/&#34;&gt;Carving it up: Microservices Monoliths &amp;amp; Conway’s Law&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://genehughson.wordpress.com/2014/06/04/more-on-microservices-boundaries-governance-reuse-complexity/&#34;&gt;More on Microservices: Boundaries Governance Reuse &amp;amp; Complexity&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://genehughson.wordpress.com/2014/06/16/coordinating-microservices-playing-well-with-others/&#34;&gt;Coordinating Microservices – Playing Well with Others&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://genehughson.wordpress.com/2014/06/20/microservices-and-data-architecture-who-owns-what-data/&#34;&gt;Microservices and Data Architecture – Who Owns What Data?&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://blog.apigee.com/detail/api_centric_architecture_services_governance_does_not_scale&#34;&gt;API-Centric Architecture: Services Governance Does Not Scale&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_antifragile&#34;&gt;Antifragile&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;My new friend Russ Miles is deep into Microservices. He&amp;#8217;s primarily focused on the meme of &lt;em&gt;antifragility&lt;/em&gt; in software. Here&amp;#8217;s some of his stuff:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;ulist&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://leanpub.com/antifragilesoftware&#34;&gt;Antifragile Software:
+Building Adaptable Software with Microservices&lt;/a&gt; - eBook in progress&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.infoq.com/articles/russ-miles-antifragility-microservices&#34;&gt;Russ Miles on Antifragility and Microservices&lt;/a&gt; - InfoQ Interview&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_useful_architectural_patterns&#34;&gt;Useful Architectural Patterns&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;A lot of patterns are cropping up in the microservices space, many of which are described very well on Martin Fowler&amp;#8217;s site:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;ulist&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://martinfowler.com/bliki/BoundedContext.html&#34;&gt;Bounded Context&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://martinfowler.com/eaaDev/EventCollaboration.html&#34;&gt;Event Collaboration&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://martinfowler.com/bliki/CircuitBreaker.html&#34;&gt;Circuit Breaker&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://martinfowler.com/bliki/PolyglotPersistence.html&#34;&gt;Polyglot Persistence&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://martinfowler.com/bliki/TolerantReader.html&#34;&gt;Tolerant Reader&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://martinfowler.com/articles/consumerDrivenContracts.html&#34;&gt;Consumer-Driven Contracts&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://martinfowler.com/bliki/PublishedInterface.html&#34;&gt;Published Interface&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://martinfowler.com/eaaDev/EventSourcing.html&#34;&gt;Event Sourcing&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_netflix&#34;&gt;Netflix!&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Netflix is well known for employing microservices and talking about it. Here are several technical blogs that touch the subject in various ways:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;ulist&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://techblog.netflix.com/2012/02/fault-tolerance-in-high-volume.html&#34;&gt;Fault Tolerance in a High Volume Distributed System&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://techblog.netflix.com/2012/07/embracing-differences-inside-netflix.html&#34;&gt;Embracing the Differences : Inside the Netflix API Redesign&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://techblog.netflix.com/2012/11/hystrix.html&#34;&gt;Introducing Hystrix for Resilience Engineering&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://techblog.netflix.com/2013/01/optimizing-netflix-api.html&#34;&gt;Optimizing the Netflix API&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://techblog.netflix.com/2013/08/deploying-netflix-api.html&#34;&gt;Deploying the Netflix API&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://techblog.netflix.com/2013/11/preparing-netflix-api-for-deployment.html&#34;&gt;Preparing the Netflix API for Deployment&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://techblog.netflix.com/2014/03/the-netflix-dynamic-scripting-platform.html&#34;&gt;The Netflix Dynamic Scripting Platform&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_general_good_reads&#34;&gt;General Good Reads&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Things that didn&amp;#8217;t really fit into a category of their own, but still tasty:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;ulist&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://blog.apigee.com/detail/api_centric_architecture_all_development_is_api_development&#34;&gt;API-Centric Architecture: All Development is API Development&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://blog.apigee.com/detail/api_centric_architecture_soa_gives_way_to_micro_services&#34;&gt;API-Centric Architecture: SOA Gives Way to Micro Services&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://dejanglozic.com/2014/06/16/soundcloud-is-reading-my-mind/&#34;&gt;SoundCloud is Reading My Mind&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://dejanglozic.com/2014/06/25/micro-service-apis-with-some-swag-part-1/&#34;&gt;Micro-service APIs With Some Swag (part 1)&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://dejanglozic.com/2014/07/01/micro-service-apis-with-some-swag-part-2/&#34;&gt;Micro-service APIs With Some Swag (part 2)&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_conference_presentations&#34;&gt;Conference Presentations&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;ulist&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.infoq.com/presentations/Micro-Services&#34;&gt;Micro Services: Java the Unix Way&lt;/a&gt; - James Lewis&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.slideshare.net/mstine/microservices-cf-summit&#34;&gt;Cloud Foundry and Microservices: A Mutualistic Symbiotic Relationship&lt;/a&gt; - Matt Stine (slides only, video coming soon)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://qconlondon.com/dl/qcon-london-2014/slides/AdrianCockcroft_MigratingToMicroservices.pdf&#34;&gt;Migrating to Microservices&lt;/a&gt; - Adrian Cockcroft (slides only)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://thoughtworks.wistia.com/medias/gvb1mgw4r3&#34;&gt;Microservices: Adaptive Systems for Innovative Organizations&lt;/a&gt; - James Lewis&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://yow.eventer.com/yow-2012-1012/micro-services-architecture-by-fred-george-1286&#34;&gt;Microservices Architecture&lt;/a&gt; - Fred George&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.slideshare.net/adrianco/flowcon-added-to-for-cmg-keynote-talk-on-how-speed-wins-and-how-netflix-is-doing-continuous-delivery&#34;&gt;Now Playing on Netflix: Adeventurs in a Cloudy Future&lt;/a&gt; - Adrian Cockcroft (slides only)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_other_microservices_landing_sites&#34;&gt;Other Microservices Landing Sites&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;ulist&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://microservices.io/&#34;&gt;Microservice Architecture&lt;/a&gt; site by Chris Richardson&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>wip microservices reading list</title>
+      <link>https://www.mattstine.com/2014/07/02/wip-microservices-reading-list/</link>
+      <pubDate>Wed, 02 Jul 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2014/07/02/wip-microservices-reading-list/</guid>
+      <description>&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;I&amp;#8217;ve started curating a &lt;a href=&#34;https://www.mattstine.com/microservices&#34;&gt;Microservices Reading List&lt;/a&gt;. It&amp;#8217;s still work in progress, but there&amp;#8217;s some good stuff there. Watch for more!&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>microservices are solid</title>
+      <link>https://www.mattstine.com/2014/06/30/microservices-are-solid/</link>
+      <pubDate>Mon, 30 Jun 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2014/06/30/microservices-are-solid/</guid>
+      <description>&lt;div class=&#34;quoteblock abstract&#34;&gt;
+&lt;blockquote&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;http://martinfowler.com/articles/microservices.html&#34;&gt;Microservices&lt;/a&gt; are often described as small, loosely coupled applications that follow the UNIX philosophy of &amp;#8220;doing one thing well.&amp;#8221; They have also &lt;a href=&#34;http://www.infoq.com/articles/microservices-intro&#34;&gt;been related&lt;/a&gt; to the &lt;a href=&#34;http://en.wikipedia.org/wiki/Single_responsibility_principle&#34;&gt;Single Responsibility Principle&lt;/a&gt;, the first of the five principles making up &lt;a href=&#34;http://en.wikipedia.org/wiki/SOLID_(object-oriented_design)&#34;&gt;SOLID&lt;/a&gt;. A microservices-based architecture is typically constructed around a set of common patterns. This set of patterns is actually consistent with all of the SOLID principles when thought of at the architectural rather than the class/module level. In this article, we&amp;#8217;ll gain an understanding of each of the SOLID principles and how they relate to microservices.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/blockquote&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_a_solid_architecture&#34;&gt;A SOLID Architecture?&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;I have spent a significant portion of the last three years speaking and writing about the SOLID principles of object-oriented design.
+I spent the first year teaching SOLID much as expressed by Robert C. &amp;#8220;Uncle Bob&amp;#8221; Martin in his foundational book, &lt;em&gt;&lt;a href=&#34;http://www.amazon.com/Software-Development-Principles-Patterns-Practices/dp/0135974445&#34;&gt;Agile Software Development: Principles, Patterns, and Practices&lt;/a&gt;&lt;/em&gt;.
+About the same time I was embarking on a reintroduction to and exploration of functional programming, spending a significant amount of time with &lt;a href=&#34;http://clojure.org&#34;&gt;Clojure&lt;/a&gt;.
+Retraining my mind for functional thinking while simultaneously teaching the SOLID principles resulted in a perfect thought storm in my mind, resulting in the following question:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;quoteblock&#34;&gt;
+&lt;blockquote&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Is there an overlap between functional programming and the SOLID principles?&lt;/p&gt;
+&lt;/div&gt;
+&lt;/blockquote&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;The thought journey that followed led me to start giving the talk entitled &amp;#8220;Functional SOLID&amp;#8221; on August 25, 2012.
+That same month I began publishing a &lt;a href=&#34;https://nofluffjuststuff.com/m/article/functional_solid_part_1&#34;&gt;four-part&lt;/a&gt; &lt;a href=&#34;https://nofluffjuststuff.com/m/article/functional_solid_part_2&#34;&gt;series&lt;/a&gt; &lt;a href=&#34;https://nofluffjuststuff.com/m/article/functional_solid_part_3&#34;&gt;of&lt;/a&gt; &lt;a href=&#34;https://nofluffjuststuff.com/m/article/functional_solid_part_2&#34;&gt;articles&lt;/a&gt; by the same name.
+In both of these presentations of my ideas, I related a couple of foundational memes:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;ulist&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Functional programming, especially within the Clojure programming language, provides wonderful constructs for building programs consistent with the SOLID principles.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The SOLID principles actually transcend all of programming, regardless of the particular programming paradigm (structured, object-oriented, functional) employed.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;It is this second meme that provides the impetus for this particular article.
+At the conclusion of both presentations, I refer to Rich Hickey&amp;#8217;s seminal Strange Loop keynote, &lt;a href=&#34;http://www.infoq.com/presentations/Simple-Made-Easy&#34;&gt;&amp;#8220;Simple Made Easy&amp;#8221;&lt;/a&gt;.
+In his presentation, Hickey decries our continual conflation of the ideas of simplicity and ease by tracing the origins of both words:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;ulist&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Simple, from the Latin &lt;em&gt;simplex&lt;/em&gt;, meaning &amp;#8220;one fold or braid&amp;#8221; (opposed to &lt;em&gt;complex&lt;/em&gt;, meaning &amp;#8220;many folds or braids,&amp;#8221;) is an objective concept.
+In software we can relate it to the degree of interleaving of concerns in software components.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Easy, from the Latin &lt;em&gt;adjacens&lt;/em&gt;, means &amp;#8220;to lie near.&amp;#8221; While &amp;#8220;hard&amp;#8221; does not trace to a root meaning &amp;#8220;to lie far,&amp;#8221; we can still understand that &amp;#8220;easy&amp;#8221; is a relative concept.
+What lies near, or is easy to me, is not necessarily easy or near to you.
+In software we can relate it to the programming languages, paradigms, framweworks, technologies, etc. with which we are intimately familiar.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;This analysis led me to restate the SOLID principles in terms of another Rich Hickey word, &lt;em&gt;complectedness&lt;/em&gt;, or the degree to which software concerns are interleaved:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;dlist&#34;&gt;
+&lt;dl&gt;
+&lt;dt class=&#34;hdlist1&#34;&gt;Single Responsibility Principle&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;Complecting responsibilities leads to rigid and/or fragile design.&lt;/p&gt;
+&lt;/dd&gt;
+&lt;dt class=&#34;hdlist1&#34;&gt;Open-Closed Principle&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;Complecting concretions of an abstraction in such a way that new concretions adversely affect existing, working concretions is problemmatic.&lt;/p&gt;
+&lt;/dd&gt;
+&lt;dt class=&#34;hdlist1&#34;&gt;Liskov Substitution Principle&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;Reuse via inheritance is dangerous.
+It often complects entities not in a true “is-a” relationship, which leads to non-substitutability.&lt;/p&gt;
+&lt;/dd&gt;
+&lt;dt class=&#34;hdlist1&#34;&gt;Interface Segregation Principle&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;Don’t complect clients with uninteresting operations by complecting unrelated groups of operations in a single entity!&lt;/p&gt;
+&lt;/dd&gt;
+&lt;dt class=&#34;hdlist1&#34;&gt;Dependency Inversion Principle&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;Transitive dependency leads to transitive complectedness!&lt;/p&gt;
+&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;As you can see, we&amp;#8217;ve now stated the principles independently of any programming-paradigm specific language.
+It is this restatement that cemented in my mind the idea that SOLID actually transcends all of software engineering&amp;#8201;&amp;#8212;&amp;#8201;software engineering principles that are &lt;em&gt;universally true&lt;/em&gt;, regardless of the context in which they are applied.
+So, we can easily walk these principles up the abstraction ladder into the world of architecture.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_microservices_introduced&#34;&gt;Microservices Introduced&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;With businesses built around software now disrupting multiple industries that appeared to have stable leaders, the need has emerged for enterprises to create &amp;#8220;software factories&amp;#8221; built around the following principles:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;ulist&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Streaming customer feedback directly into rapid, iterative cycles of application development;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Horizontally scaling applications to meet user demand;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Compatibility with an enormous diversity of clients, with mobility (smartphones, tablets, etc.) taking the lead;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Continuous delivery of value, shrinking the cycle time from concept to cash.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Infrastructure has taken the lead in adapting to meet these needs with the move to the cloud, and Platform as a Service (PaaS) has raised the level of abstraction to a focus on an ecosystem of applications and services.
+However, most applications are still developed as if we&amp;#8217;re living in the previous generation of both business and infrastructure: the monolithic application.
+Microservices&amp;#8201;&amp;#8212;&amp;#8201;small, loosely coupled applications that follow the Unix philosophy of &#34;doing one thing well&#34;&amp;#8201;&amp;#8212;&amp;#8201;represent the application development side of enabling rapid, iterative development, horizontal scale, polyglot clients, and continuous delivery.
+They also enable us to scale application development and eliminate long term commitments to a single technology stack.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;I won&amp;#8217;t belabor the introduction to microservices anymore, as a wealth of reading is already available all over the web.
+As a jumping off point, I invite the reader to dive into James Lewis&#39; and Martin Fowler&amp;#8217;s &lt;a href=&#34;http://martinfowler.com/articles/microservices.html&#34;&gt;excellent coverage of the topic&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_solid_microservices&#34;&gt;SOLID Microservices&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Let&amp;#8217;s now get to the heart of the matter: how do the patterns associated with a microservices architecture overlap with the SOLID principles?
+Let&amp;#8217;s walk through each, briefly relating them in their natural context, and then swinging them into our microservices discussion.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_single_responsibility_principle&#34;&gt;Single Responsibility Principle&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;The Single Responsibility Principle (SRP) is stated by Martin as &amp;#8220;each software module should have one and only one reason to change&amp;#8221; &lt;a href=&#34;#SRP&#34;&gt;[SRP]&lt;/a&gt;.
+Of all of the SOLID principles, the SRP is the one I&amp;#8217;ve &lt;a href=&#34;http://byterot.blogspot.com/2014/04/reactive-cloud-actors-no-nonsense-microservice-beehive-restful-evolvable-web-events-orleans-framework.html&#34;&gt;most&lt;/a&gt; &lt;a href=&#34;http://www.slideshare.net/joshlong/microservices-with-spring-boot&#34;&gt;often&lt;/a&gt; &lt;a href=&#34;http://www.tigerteam.dk/2014/microservices-its-not-only-the-size-that-matters-its-also-how-you-use-them-part-4/&#34;&gt;seen&lt;/a&gt; cited in the context of microservices.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;One common thread between how Martin relates SOLID and microservices is &lt;em&gt;change&lt;/em&gt;.
+Change in software is inevitable and constant. Requirements are realized as responsibilities doled out to various software modules.
+Requirements change leads to changes in responsibilities.
+If we couple responsibilities in a single module, then change to one responsibility can affect another unrelated responsibility simply due to its location.
+In other words, change one thing, sometimes another unrelated thing breaks.
+Risk goes up; change velocity goes down.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;A monolithic architecture, no matter how modular on the inside, couples responsibilities together.
+Change cycles are coupled, increasing the risk associated with frequent deployments.
+Effective continuous delivery is far more difficult, as the release management process reimposes the waterfall process on the agile development team.
+If we instead separate architectural responsibilities into different microservices, we can decouple those change cycles, thus decreasing the risks associated with frequent deployments. Continuous delivery becomes more easily attainable.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;The most common technique I&amp;#8217;ve seen applied to decomposing a monolith into microservices is the &lt;a href=&#34;http://martinfowler.com/bliki/BoundedContext.html&#34;&gt;bounded context&lt;/a&gt; from &lt;a href=&#34;http://en.wikipedia.org/wiki/Domain-driven_design&#34;&gt;Domain-Driven Design&lt;/a&gt;.
+We identify discrete business capabilities, each of which owns and governs its own discrete segment of the overall data model for an organization.
+A microservice implements each business capability, encapsulating its data segment behind an often RESTful API.
+Overlaps between the capabilities (e.g. a shipping service and ordering service will both likely have the notion of customer, likely governed by a customer service) are realized by mappings in higher-order microservices or by utilizing hypermedia.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_open_closed_principle&#34;&gt;Open-Closed Principle&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;The Open-Closed Principle (OCP), first coined by Bertrand Meyer &lt;a href=&#34;#OOSC&#34;&gt;[OOSC]&lt;/a&gt;, states that &amp;#8220;software entities should be open for extension, but closed for modification.&amp;#8221;
+Again we relate this principle to change.
+We should be able to change what a module does as software requirements change, but we should be able to do so without modifying any existing, working code.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;At face value this looks impossible.
+How can we change the behavior of a module without changing its code?
+The key is in how we define the facade of the module, thinking at the appropriate level of abstraction.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Let&amp;#8217;s draw an example from Java&amp;#8217;s standard library.
+What if my client code is provided an instance of &lt;code&gt;java.util.HashMap&lt;/code&gt;, and I instead want sorted keys?
+I would need to not only provide an instance of &lt;code&gt;java.util.TreeMap&lt;/code&gt; to my client, but I would also need to change all of the existing references.
+If I instead refer to the map abstraction as &lt;code&gt;java.util.Map&lt;/code&gt; (a Java interface), then I can provide my client with the new &lt;code&gt;Map&lt;/code&gt; type without changing any code.
+By utilizing the appropriate module facade, we can decouple an abstraction from the its larger set of derivative behaviors.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;What is our microservice facade?
+The API of course! As long as a given microservice continues to fulfill the contract expressed by its API, it should be possible to swap in new behaviors without changing any existing client code.
+This becomes supremely important when we consider the term of our commitment to a particular technology stack. Monolithic architectures are not closed to this particular type of modification, and the risk of incorporating new technology into an existing monolith can be very high.
+Microservices drastically reduce the risk associated with experimenting, even in production, with new technology stacks, and increase our ability to use the right tool for the job.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Another important technique enabled by the open-closed nature of microservices is &lt;a href=&#34;http://martinfowler.com/bliki/PolyglotPersistence.html&#34;&gt;polyglot persistence&lt;/a&gt;.
+By encapsulating the data store technology used for a particular business capability behind its facade (e.g. a recommendations service is very amenable to graph databases), we can hide the presence of that data store behind a microservice API.
+This enables us to both experiment with and utilize various data stores in advantageous contexts without polluting the overall service ecosystem with the semantics of each store.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_liskov_substitution_principle&#34;&gt;Liskov Substitution Principle&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;The Liskov Substitution Principle (LSP) was born the same year as Meyer&amp;#8217;s OCP, written down by Barbara Liskov.
+The LSP is concerned with types and subtypes, focused on the idea that &amp;#8220;subtypes must be substitutable for their base types.&amp;#8221;
+In object-oriented terms, drawing again from the Java language, if a class &lt;code&gt;extends&lt;/code&gt; from a parent class or &lt;code&gt;implements&lt;/code&gt; a parent interface, we should be able to use that class in the context of any code expecting an instance of the parent.
+If at any time that code context exhibits aberrant behavior, we have violated the LSP with our class.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Extending the idea of object-oriented inheritance to logical architecture is a bit of a stretch, but let&amp;#8217;s give it a try.
+We&amp;#8217;ll start by again considering the microservice&amp;#8217;s facade, or its API.
+From the client&amp;#8217;s perspective, the API represents the &amp;#8220;base type&amp;#8221; for our microservice.
+So long as any microservice we swap in properly fulfills this API, we can say it&amp;#8217;s consistent with the LSP.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;It&amp;#8217;s unlikely that we&amp;#8217;ll often substitute different implementations of the same API at runtime, and it&amp;#8217;s unclear to me what a child microservice might look like.
+However, consider the case of services that implement the same API, but that must implement different business rules or policies given the legal jurisdiction governing the data.
+Further, consider that regulatory compliance dicates that those services actually are deployed and run in the same geographic location governed by that legal jurisdiction.
+We could implement each instance of this API as a separate microservice and deploy each of them in the appropriate geography.
+From the client&amp;#8217;s perspective, the substitution would be transparent (thus abiding by the LSP), and the &amp;#8220;polymorphic&amp;#8221; substitution could be performed by another higher-order microservice or global site-selection mechanism.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_interface_segregation_principle&#34;&gt;Interface Segregation Principle&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;The Interface Segregation Principle (ISP) is stated in Martin&amp;#8217;s book as &amp;#8220;clients should not be forced to depend on methods they do not use.&amp;#8221;
+Martin introduces the concept of so-called &amp;#8220;fat interfaces,&amp;#8221; or interfaces whose method set is not cohesive.
+One can divide their method sets into multiple groups, each group serving a different set of interested clients.
+The primary reason for seeking to separate these groups into different modules is to prevent change driven by one set of clients from affecting other distinct groups of clients.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;API&amp;#8217;s implemented via monolithic architectures cannot abide by the ISP.
+Adding or improving capabilities to serve one group of clients must involve minimally a redeployment of all of the capabilities affecting all clients.
+More likely, a lengthy regression test phase will also be required, as we must ensure that these additional or improved capabilities have not damaged the system&amp;#8217;s other capabilities.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Microservices, when designed well around bounded contexts, also abide by the ISP, as we enforce a hard boundary between interfaces by separating them into discrete, independently deployable units.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_dependency_inversion_principle&#34;&gt;Dependency Inversion Principle&lt;/h3&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;The Dependency Inversion Principle (DIP) tells us that &amp;#8220;abstractions should not depend upon details. Details should depend upon abstractions.&amp;#8221;
+Stated another way, &amp;#8220;high-level modules should not depend on low-level modules.&amp;#8221;
+Our abstractions, or higher-level modules, are what codify the important business knowledge inherent in a body of software, whereas our details, or lower-level modules, represent the mechanical recipes for carrying them out.
+One of the promises of the other principles is the ability to &amp;#8220;swap out&amp;#8221; the details beneath the abstractions when it becomes advantageous.
+However, when our higher-level modules have direct dependency on our lower-level modules, swapping out details often causes the abstraction itself to have to change.
+&amp;#8220;Absurd&amp;#8221; is Uncle Bob&amp;#8217;s description of this situation.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;The DIP typically deals with this scenario by defining &lt;em&gt;service interfaces&lt;/em&gt; for each module.
+If a module requires services that are not relevant to its bounded context, rather than implementing them itself or directly delegating to a dependency, it instead declares a &lt;em&gt;signature&lt;/em&gt; for that service within its service interface.
+This interface then becomes a secondary abstraction expressing all of the collaboration a module intends to do.
+Possible collaborators then cooperate with the module by implementing its service interface.
+In this way, they become &lt;em&gt;dependent&lt;/em&gt; on the module, rather than the module becoming dependent on the collaborator!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;In a microservices architecture, the DIP finds its realization in the &lt;em&gt;API Gateway&lt;/em&gt; pattern.
+An API Gateway acts as a single point of entry into a microservices architecture for a given client.
+It plays a multi-faceted role in serving the diverse clients (i.e. disparate mobile device platforms) of the architecture by:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;ulist&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;reducing the chattiness of the network by reducing the number of services consulted;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;performing protocol translation (e.g. AMQP to HTTP) when a particular protocol is not well supported by the client;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;aggregating service responses concurrently to reduce response latency;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;transforming service responses to service the needs of specific devices, screen sizes, and use cases.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;The important thing to note is that the &amp;#8220;API&amp;#8221; defined by the API Gateway is owned by the client in much the same way as the &lt;em&gt;service interface&lt;/em&gt; is owned by a higher-level module. In this way, we invert the dependency between clients and the microservices themselves.
+Consult &lt;a href=&#34;http://techblog.netflix.com/2013/01/optimizing-netflix-api.html&#34;&gt;&amp;#8220;Optimizing the Netflix API&amp;#8221;&lt;/a&gt; for a fantastic example of this architectural pattern.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_conclusion&#34;&gt;Conclusion&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Experience has taught me that ease is often cheap but illusory, but that simplicity is a pearl of great price.
+Microservices &lt;a href=&#34;http://highscalability.com/blog/2014/4/8/microservices-not-a-free-lunch.html&#34;&gt;are not easy&lt;/a&gt;, but they are simple.
+One of the reasons for their simplicity is what I see as their strong compatibility with the SOLID principles, not only of object-oriented design, but of all of software engineering.
+By resisting the temptation to interleave distinct business capabilities, we retain the ability to develop and deploy them in an agile manner.
+I hope you&amp;#8217;ve found some value in this article, and I even hope you&amp;#8217;ve found some things with which you disagree.
+Please sound off in the blogosphere, the Twitterverse, or wherever suits your fancy.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Cheers!&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_references&#34;&gt;References&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;ulist bibliography&#34;&gt;
+&lt;ul class=&#34;bibliography&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a id=&#34;OOSC&#34;&gt;&lt;/a&gt;[OOSC] Meyer, Bertrand (1988). &lt;em&gt;Object-Oriented Software Construction&lt;/em&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a id=&#34;SRP&#34;&gt;&lt;/a&gt;[SRP] Martin, Robert C. &amp;#8220;The Single Responsibility Principle.&amp;#8221; &lt;a href=&#34;http://blog.8thlight.com/uncle-bob/2014/05/08/SingleReponsibilityPrinciple.html&#34; class=&#34;bare&#34;&gt;http://blog.8thlight.com/uncle-bob/2014/05/08/SingleReponsibilityPrinciple.html&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>bosh and cloud api compatibility</title>
+      <link>https://www.mattstine.com/2013/08/02/bosh-and-cloud-api-compatibility/</link>
+      <pubDate>Fri, 02 Aug 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2013/08/02/bosh-and-cloud-api-compatibility/</guid>
+      <description>&lt;p&gt;The gauntlet has again been dropped in the world of cloud interoperability. The dueling factions include those asserting that competitors to Amazon&amp;rsquo;s web services (principally OpenStack) must adopt AWS&amp;rsquo;s API&amp;rsquo;s in order to remain viable, and those that believe such &amp;ldquo;API cloning&amp;rdquo; will do nothing more than stunt innovation. If you were to ask me, I&amp;rsquo;d say that we&amp;rsquo;ve seen this play out before. Remember the &amp;ldquo;Clone Wars&amp;rdquo; that began in the late 1980&amp;rsquo;s and that persisted for the better part of two decades? A huge cast of competitors battled for the title of &amp;ldquo;best PC that&amp;rsquo;s not manufactured by IBM.&amp;rdquo; How did that play out? For a relatively short period of time, having the best PC &amp;ldquo;designed for Microsoft Windows,&amp;rdquo; along with the leanest supply chain (see Dell), paved a golden path to victory. And then Steve Jobs returns to Apple, and now better than 50% of the laptops running in the Starbucks in which I&amp;rsquo;m writing this blog have a shiny white fruit on their lids. As it turns out, &amp;ldquo;going your own way&amp;rdquo; can work out awfully well.&lt;/p&gt;
+
+&lt;p&gt;But that&amp;rsquo;s not the angle I want to take in this discussion. Let&amp;rsquo;s dig deeper into what the two sides have to say.&lt;/p&gt;
+
+&lt;p&gt;The battle was first renewed with Cloud Scaling CTO Randy Bias&amp;rsquo; &lt;a href=&#34;http://www.cloudscaling.com/blog/cloud-computing/openstack-aws&#34;&gt;Open Letter to the OpenStack Community&lt;/a&gt;. Randy adopts the position that full-compatibility with the AWS API&amp;rsquo;s is necessary for OpenStack&amp;rsquo;s survival. The gist of his argument is that Amazon currently dominates public cloud, supporting this via a comparison between Amazon&amp;rsquo;s and Rackspace&amp;rsquo;s growth rates since 2009, and that they also &amp;ldquo;control the innovation curve&amp;rdquo; as they push &amp;ldquo;new features into production at a breathtaking pace.&amp;rdquo; Furthermore, he asserts that any hope for survival with respect to competing cloud platforms is limited to the hybrid cloud space, providing enterprises with the capability to seamlessly migrate workloads between the public cloud and private, on-premises clouds. Therefore, OpenStack must adopt API compatibility with AWS in order to become the enterprise choice for hybrid cloud.&lt;/p&gt;
+
+&lt;p&gt;A few days later, Rackspace&amp;rsquo;s &amp;ldquo;Startup Liaison Officer&amp;rdquo; Robert Scoble responded with his own &lt;a href=&#34;https://plus.google.com/+Scobleizer/posts/HQ7Wi4WCQse&#34;&gt;Open Letter&lt;/a&gt;. Scoble makes some interesting counterpoints, most notably the argument that customers don&amp;rsquo;t adopt cloud platforms because of API compatibility with Amazon, but because of the promise of a &amp;ldquo;10x improvement&amp;rdquo; to their own business. In order to provide such improvements, cloud platform competitors must not shackle themselves to a &amp;ldquo;de facto standard&amp;rdquo; API, but rather must focus their limited resources on driving those 10x improvements in infrastructure capability.&lt;/p&gt;
+
+&lt;p&gt;So by now you must be wondering, whose side am I on? I&amp;rsquo;m on the side of innovation. But that doesn&amp;rsquo;t necessarily put me in either camp. I think the end goals of both parties are things that we want:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Freedom:&lt;/strong&gt; the ability to migrate workloads between cloud infrastructure providers without needing to significantly alter the behavior of the workload itself.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Innovation:&lt;/strong&gt; the ability to realize capabilities that don&amp;rsquo;t exist today that will solve emerging problems (particularly those related to the explosion of generated and archived data).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Spending development cycles on API compatibility will certainly slow anyone&amp;rsquo;s ability to innovate. And what is API compatibility anyway? I believe that much of the concern rests on the large investment many enterprises have (or believe they will need to create) in bespoke automation written to a particular vendor&amp;rsquo;s API. Having recently left a large-scale project that generated thousands of lines of such automation to drive consumption of a particular vendor&amp;rsquo;s infrastucture platform, and that was in the near term planning to migrate to another platform, I can tell you that this concern is very real. But simply stating that &amp;ldquo;your existing code will work when you target our API&amp;rdquo; does not compatibility make. As Amazon continues to deploy new features at their breathtaking pace, how will OpenStack and other platforms keep up?&lt;/p&gt;
+
+&lt;p&gt;For API compatibility to be &lt;em&gt;real&lt;/em&gt;, a &amp;ldquo;technology compatibility kit&amp;rdquo; (TCK) is needed. For those in the Java world, TCK&amp;rsquo;s are near and dear. Java itself is not a particular implementation, but a standard API that invites competing implementations and innovation. But for any competing implementation to call itself &amp;ldquo;Java,&amp;rdquo; it must pass the tests contained within the TCK. An AWS TCK is really the only true way to ensure API compatibility. But I think it&amp;rsquo;s hard to argue that Amazon has any real business interest in creating and sharing one.&lt;/p&gt;
+
+&lt;p&gt;There is another way. Perhaps we should stop creating bespoke automation and rally around a common standard toolkit for managing large-scale cloud application deployments. This toolkit could provide mechanisms for configuration management, orchestration, health management, and rolling upgrades. It could further, as part of its architecture, build an adapter layer between its core components and the underlying infrastructure provider. Plugins could then be developed to provide the toolkit with the ability to manage all of the common infrastructure providers.&lt;/p&gt;
+
+&lt;p&gt;Enter BOSH and it&amp;rsquo;s Cloud Provider Interface (CPI) layer. BOSH was initially developed as the means of deploying and managing the Cloud Foundry PaaS platform, but it&amp;rsquo;s much more generally applicable. BOSH can today deploy any distributed system, &lt;em&gt;unchanged&lt;/em&gt;, to any of several popular IaaS providers: VMware vSphere, VMware vCloud Director, Amazon Web Services, and OpenStack. Heresy you say! Not so. Just ask Colin Humphreys of CloudCredo, who recently &lt;a href=&#34;http://blog.cloudfoundry.com/2013/04/30/uk-charity-raises-record-donations-powered-by-cloud-foundry&#34;&gt;described their wildly successful deployment&lt;/a&gt; of Cloud Foundry to a hybrid composition of vSphere and AWS-based clouds. He recently presented a technical deep dive in Pivotal&amp;rsquo;s offices in which he made the statement (paraphrasing) &amp;ldquo;I took the same Cloud Foundry bits that were running on AWS and deployed them unchanged to vSphere using BOSH.&amp;rdquo; As anyone can tell, this isn&amp;rsquo;t just theory, it&amp;rsquo;s production.&lt;/p&gt;
+
+&lt;p&gt;So how then does BOSH make this happen? A trip &lt;a href=&#34;https://github.com/cloudfoundry/bosh/blob/master/bosh_cpi/lib/cloud.rb&#34;&gt;into the code&lt;/a&gt; for the BOSH CPI &amp;ldquo;interface&amp;rdquo; will show a list of core infrastructure capabilities that BOSH requires:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;current_vm_id&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;create_stemcell&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;delete_stemcell&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;create_vm&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;delete_vm&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;has_vm?&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;reboot_vm&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;set_vm_metadata&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;configure_networks&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;create_disk&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;delete_disk&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;attach_disk&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;snapshot_disk&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;delete_snapshot&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;detach_disk&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;get_disks&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;All interactions between BOSH and the underlying infrastructure provider pass through these core methods. As long as a CPI exists that exposes these capabilities to BOSH, BOSH can deploy and manage the lifecycle of Cloud Foundry (or any other distributed system described by a BOSH release) on an infrastructure provider.&lt;/p&gt;
+
+&lt;p&gt;So how hard is it to provide the CPI&amp;rsquo;s for both AWS and OpenStack? If you choose simple metrics like number of classes (NOC) and lines of code (LOC), not that hard.&lt;/p&gt;
+
+&lt;p&gt;You can find the CPI implementations at these links:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/cloudfoundry/bosh/tree/master/bosh_aws_cpi&#34;&gt;https://github.com/cloudfoundry/bosh/tree/master/bosh_aws_cpi&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/cloudfoundry/bosh/tree/master/bosh_openstack_cpi&#34;&gt;https://github.com/cloudfoundry/bosh/tree/master/bosh_openstack_cpi&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;First we&amp;rsquo;ll generate the metrics for AWS:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ find ./bosh_aws_cpi/lib -name &amp;quot;*.rb&amp;quot; -exec wc -l {} \;
+       2 ./bosh_aws_cpi/lib/bosh_aws_cpi.rb
+      68 ./bosh_aws_cpi/lib/cloud/aws/aki_picker.rb
+      39 ./bosh_aws_cpi/lib/cloud/aws/availability_zone_selector.rb
+     651 ./bosh_aws_cpi/lib/cloud/aws/cloud.rb
+      22 ./bosh_aws_cpi/lib/cloud/aws/dynamic_network.rb
+      30 ./bosh_aws_cpi/lib/cloud/aws/helpers.rb
+     171 ./bosh_aws_cpi/lib/cloud/aws/instance_manager.rb
+      25 ./bosh_aws_cpi/lib/cloud/aws/manual_network.rb
+      37 ./bosh_aws_cpi/lib/cloud/aws/network.rb
+      89 ./bosh_aws_cpi/lib/cloud/aws/network_configurator.rb
+     189 ./bosh_aws_cpi/lib/cloud/aws/resource_wait.rb
+      68 ./bosh_aws_cpi/lib/cloud/aws/stemcell.rb
+     114 ./bosh_aws_cpi/lib/cloud/aws/stemcell_creator.rb
+      30 ./bosh_aws_cpi/lib/cloud/aws/tag_manager.rb
+       7 ./bosh_aws_cpi/lib/cloud/aws/version.rb
+      44 ./bosh_aws_cpi/lib/cloud/aws/vip_network.rb
+      43 ./bosh_aws_cpi/lib/cloud/aws.rb
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;We&amp;rsquo;ll also want the total LOC:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ find ./bosh_aws_cpi/lib -name &amp;quot;*.rb&amp;quot; -exec wc -l {} \; | awk &#39;{ sum += $1 } END { print sum }&#39;
+1629
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;And now let&amp;rsquo;s do the same for OpenStack:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ find ./bosh_openstack_cpi/lib -name &amp;quot;*.rb&amp;quot; -exec wc -l {} \;
+       4 ./bosh_openstack_cpi/lib/bosh_openstack_cpi.rb
+     867 ./bosh_openstack_cpi/lib/cloud/openstack/cloud.rb
+      28 ./bosh_openstack_cpi/lib/cloud/openstack/dynamic_network.rb
+     131 ./bosh_openstack_cpi/lib/cloud/openstack/helpers.rb
+      34 ./bosh_openstack_cpi/lib/cloud/openstack/manual_network.rb
+      37 ./bosh_openstack_cpi/lib/cloud/openstack/network.rb
+     159 ./bosh_openstack_cpi/lib/cloud/openstack/network_configurator.rb
+      16 ./bosh_openstack_cpi/lib/cloud/openstack/tag_manager.rb
+       8 ./bosh_openstack_cpi/lib/cloud/openstack/version.rb
+      50 ./bosh_openstack_cpi/lib/cloud/openstack/vip_network.rb
+      39 ./bosh_openstack_cpi/lib/cloud/openstack.rb
+$ find ./bosh_openstack_cpi/lib -name &amp;quot;*.rb&amp;quot; -exec wc -l {} \; | awk &#39;{ sum += $1 } END { print sum }&#39;
+1373
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;So, summarizing:&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;CPI&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;Number of Classes (NOC)&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;Lines of Code (LOC)&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Amazon AWS&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;17&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;1629&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;OpenStack&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;11&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;1373&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;br/&gt;&lt;/p&gt;
+
+&lt;p&gt;Let&amp;rsquo;s make a couple of points about these metrics. First of all, the two CPI&amp;rsquo;s do not use a common foundation. The AWS CPI uses the &lt;a href=&#34;http://aws.amazon.com/sdkforruby&#34;&gt;AWS SDK for Ruby&lt;/a&gt; while the OpenStack CPI uses &lt;a href=&#34;http://fog.io&#34;&gt;Fog&lt;/a&gt;. Fog could also have been used as the foundation for the AWS CPI, but the CPI authors presumably thought it better to stick with the toolkit provided by Amazon. This is a minor point, however, as both of these toolkits essentially provide simple wrappers around the infrastructure providers&amp;rsquo; REST API&amp;rsquo;s. It&amp;rsquo;s doubtful that using a common API wrapper for both CPI&amp;rsquo;s would have substantially changed the metrics presented here.&lt;/p&gt;
+
+&lt;p&gt;Second, obviously NOC and LOC are rather naive metrics. It&amp;rsquo;s incredibly possible to write terse code that is opaque, buggy, and hard to maintain or enhance. In fact, according to Code Climate, both of the top-level implementation classes for these CPI&amp;rsquo;s have quite a lot of room for improvement:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://codeclimate.com/github/cloudfoundry/bosh/Bosh::AwsCloud::Cloud&#34;&gt;https://codeclimate.com/github/cloudfoundry/bosh/Bosh::AwsCloud::Cloud&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://codeclimate.com/github/cloudfoundry/bosh/Bosh::OpenStackCloud::Cloud&#34;&gt;https://codeclimate.com/github/cloudfoundry/bosh/Bosh::OpenStackCloud::Cloud&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;With that said, it is rather amazing that one could encapuslate all of the infrastructure-specific implementation necessary to deploy and manage a distributed system as powerful as Cloud Foundry in &lt;em&gt;less than twenty classes and 1700 lines of code&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;So, to summarize where we&amp;rsquo;ve been, while there&amp;rsquo;s an impressive war of words out there regarding API compatibility with Amazon AWS, Cloud Foundry and BOSH don&amp;rsquo;t necessarily need to take sides. If OpenStack chooses to embrace the AWS API&amp;rsquo;s, the BOSH AWS CPI will be there waiting. However, if OpenStack chooses to follow in the footsteps of Apple and take the road less traveled, the OpenStack CPI is ready and waiting to evolve with it. Should Google Compute Engine or Microsoft&amp;rsquo;s Azure gain a foodhold on the innovation curve, they are presumably a relatively simple CPI away from joining the BOSH ecosystem. So if you really want &amp;ldquo;cloud freedom,&amp;rdquo; BOSH is leading the charge.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>blue green deployments on cloudfoundry</title>
+      <link>https://www.mattstine.com/2013/07/10/blue-green-deployments-on-cloudfoundry/</link>
+      <pubDate>Wed, 10 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2013/07/10/blue-green-deployments-on-cloudfoundry/</guid>
+      <description>&lt;p&gt;One of the great things about Cloud Foundry is that it is a great enabler. Tall words. But what do they mean? Essentially, Cloud Foundry (and any other well-designed PaaS) enables us to do things as developers and operators that would be extremely difficult in a traditional deployment environments. One particularly valuable area of enablement is our new found ability to practice &lt;a href=&#34;http://continuousdelivery.com/&#34;&gt;Continous Delivery&lt;/a&gt;, meaning that we continuously prove our ability to deliver working software by continuously treating each code commit to a system as if it could be deployed to a production environment. We do this by shipping these commits through what&amp;rsquo;s called a &amp;ldquo;deployment pipeline,&amp;rdquo; which consists of a series of build-test-deploy cycles that prove out a commit&amp;rsquo;s suitability for production deployment. At the end of the pipeline we can either deploy automatically to our production environment (i.e. continuous deployment), or we can have a business decision to deploy that &amp;ldquo;deployable artifact&amp;rdquo; or not.&lt;/p&gt;
+
+&lt;p&gt;One particular practice associated with Continuous Delivery is &lt;a href=&#34;http://martinfowler.com/bliki/BlueGreenDeployment.html&#34;&gt;Blue-Green Deployments&lt;/a&gt;. Martin Fowler describes these very well at the link provided, but I&amp;rsquo;ll summarize briefly here:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Cut-over to a new software version is tricky, and must be quick in order to minimize downtime events.&lt;/li&gt;
+&lt;li&gt;Blue-green deployments ensure the parallel existence of two, identical (as possible) production environments.&lt;/li&gt;
+&lt;li&gt;At any given point, only one (e.g. blue) services production traffic.&lt;/li&gt;
+&lt;li&gt;New deploys are made to the other (e.g. green) environment. Final smoke testing is performed here.&lt;/li&gt;
+&lt;li&gt;When green is determined ready, we begin routing traffic to it.&lt;/li&gt;
+&lt;li&gt;We then stop routing traffic to blue.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Of course, there are several concerns that must be dealt with at the application level in order for this to work (datastores should support concurrent usage by two app versions, long running requests may be killed, etc.). What we&amp;rsquo;ll focus on in this post is how Cloud Foundry supports the mechanics summarized above.&lt;/p&gt;
+
+&lt;p&gt;We&amp;rsquo;ll begin with a basic Spring application named &lt;code&gt;ms-spr-demo&lt;/code&gt;. This app takes users to a simple web page announcing the ubiquitous &amp;ldquo;Hello World!&amp;rdquo; message. We&amp;rsquo;ll utilize the &lt;code&gt;cf&lt;/code&gt; command-line interface to push the application:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ cf push --path build/libs/cf-demo.war
+Name&amp;gt; ms-spr-demo
+
+Instances&amp;gt; 1
+
+Memory Limit&amp;gt; 512M
+
+Creating ms-spr-demo... OK
+
+1: ms-spr-demo
+2: none
+Subdomain&amp;gt; ms-spr-demo
+
+1: cfapps.io
+2: mattstine.com
+3: none
+Domain&amp;gt; 1
+
+Creating route ms-spr-demo.cfapps.io... OK
+Binding ms-spr-demo.cfapps.io to ms-spr-demo... OK
+
+Create services for application?&amp;gt; n
+
+Save configuration?&amp;gt; y
+
+Saving to manifest.yml... OK
+Uploading ms-spr-demo... OK
+Starting ms-spr-demo... OK
+-----&amp;gt; Downloaded app package (9.5M)
+Installing java.
+Downloading JDK...
+Copying openjdk-1.7.0_25.tar.gz from the buildpack cache ...
+Unpacking JDK to .jdk
+Downloading Tomcat: apache-tomcat-7.0.41.tar.gz
+Copying apache-tomcat-7.0.41.tar.gz from the buildpack cache ...
+Unpacking Tomcat to .tomcat
+Copying mysql-connector-java-5.1.12.jar from the buildpack cache ...
+Copying postgresql-9.0-801.jdbc4.jar from the buildpack cache ...
+Copying auto-reconfiguration-0.6.8.jar from the buildpack cache ...
+-----&amp;gt; Uploading droplet (48M)
+-----&amp;gt; Uploaded droplet
+Checking ms-spr-demo...
+Staging in progress...
+Staging in progress...
+Staging in progress...
+Staging in progress...
+Staging in progress...
+Staging in progress...
+Staging in progress...
+  0/1 instances: 1 starting
+  0/1 instances: 1 starting
+  0/1 instances: 1 starting
+  0/1 instances: 1 starting
+  0/1 instances: 1 starting
+  0/1 instances: 1 starting
+  0/1 instances: 1 starting
+  0/1 instances: 1 starting
+  0/1 instances: 1 starting
+  1/1 instances: 1 running
+OK
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The end result of this &lt;code&gt;cf push&lt;/code&gt; event is that an application is now serving requests at &lt;code&gt;http://ms-spr-demo.cfapps.io&lt;/code&gt;. The following graphic shows the state of our system, with the CF Router sending traffic to our application:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.mattstine.com/images/blue-green/BlueGreen1.png&#34; alt=&#34;BlueGreen1&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Next, we make a slight change to our application. Rather that saying &amp;ldquo;Hello World!&amp;rdquo; we decide to make it say &amp;ldquo;Goodbye World!&amp;rdquo; We build a new war file for the application. Rather than letting &lt;code&gt;cf&lt;/code&gt; prompt us this time, we&amp;rsquo;ll make use of the &lt;code&gt;manifest.yml&lt;/code&gt; file that we saved from our previous push. However, we&amp;rsquo;ll rename the application and provide a new route. Take a look:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;+++
+applications:
+- name: ms-spr-demo-green
+  memory: 512M
+  instances: 1
+  url: ms-spr-demo-green.cfapps.io
+  path: build/libs/cf-demo.war
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;As you can see, we&amp;rsquo;re calling our new application version &lt;code&gt;ms-spr-demo-green&lt;/code&gt; and we&amp;rsquo;re mapping it to the URL &lt;code&gt;ms-spr-demo-green.cfapps.io&lt;/code&gt;. Let&amp;rsquo;s push the application:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;Using manifest file manifest.yml
+
+Creating ms-spr-demo-green... OK
+
+1: ms-spr-demo-green
+2: none
+Subdomain&amp;gt; ms-spr-demo-green
+
+1: cfapps.io
+2: mattstine.com
+3: none
+Domain&amp;gt; 1
+
+Creating route ms-spr-demo-green.cfapps.io... OK
+Binding ms-spr-demo-green.cfapps.io to ms-spr-demo-green... OK
+Uploading ms-spr-demo-green... OK
+Starting ms-spr-demo-green... OK
+-----&amp;gt; Downloaded app package (9.5M)
+Installing java.
+Downloading JDK...
+Copying openjdk-1.7.0_25.tar.gz from the buildpack cache ...
+Unpacking JDK to .jdk
+Downloading Tomcat: apache-tomcat-7.0.41.tar.gz
+Copying apache-tomcat-7.0.41.tar.gz from the buildpack cache ...
+Unpacking Tomcat to .tomcat
+Copying mysql-connector-java-5.1.12.jar from the buildpack cache ...
+Copying postgresql-9.0-801.jdbc4.jar from the buildpack cache ...
+Copying auto-reconfiguration-0.6.8.jar from the buildpack cache ...
+-----&amp;gt; Uploading droplet (48M)
+-----&amp;gt; Uploaded droplet
+Checking ms-spr-demo-green...
+Staging in progress...
+Staging in progress...
+Staging in progress...
+Staging in progress...
+Staging in progress...
+Staging in progress...
+Staging in progress...
+Staging in progress...
+Staging in progress...
+Staging in progress...
+Staging in progress...
+Staging in progress...
+Staging in progress...
+Staging in progress...
+Staging in progress...
+Staging in progress...
+Staging in progress...
+Staging in progress...
+Staging in progress...
+Staging in progress...
+Staging in progress...
+Staging in progress...
+Staging in progress...
+Staging in progress...
+Staging in progress...
+Staging in progress...
+Staging in progress...
+Staging in progress...
+Staging in progress...
+  0/1 instances: 1 starting
+  0/1 instances: 1 starting
+  0/1 instances: 1 starting
+  0/1 instances: 1 starting
+  0/1 instances: 1 starting
+  0/1 instances: 1 starting
+  0/1 instances: 1 starting
+  1/1 instances: 1 running
+OK
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;We now have two instances of the application running, each of them using distinct routes:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.mattstine.com/images/blue-green/BlueGreen2.png&#34; alt=&#34;BlueGreen2&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Now it&amp;rsquo;s time for the magic to happen. We&amp;rsquo;ll map our original URL route (&lt;code&gt;ms-spr-demo.cfapps.io&lt;/code&gt;) to our &amp;ldquo;green&amp;rdquo; instance. This is accomplished very simply by using &lt;code&gt;cf&lt;/code&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;cf map --app ms-spr-demo-green --host ms-spr-demo --domain cfapps.io
+Binding ms-spr-demo.cfapps.io to ms-spr-demo-green... OK
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The CF router immediately begins to load balance requests between each instance of the application, as shown here:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.mattstine.com/images/blue-green/BlueGreen3.png&#34; alt=&#34;BlueGreen3&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Now our router will send requests to &lt;code&gt;ms-spr-demo.cfapps.io&lt;/code&gt; to both instances of the application, while &lt;code&gt;ms-spr-demo-green.cfapps.io&lt;/code&gt; only services the &amp;ldquo;green&amp;rdquo; instance. Once we determine that all is well, it&amp;rsquo;s time to stop routing requests to the &amp;ldquo;blue&amp;rdquo; instance. This is just as simple using &lt;code&gt;cf&lt;/code&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;cf unmap --url ms-spr-demo.cfapps.io --app ms-spr-demo
+Unbinding ms-spr-demo.cfapps.io from ms-spr-demo... OK
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Our &amp;ldquo;blue&amp;rdquo; instance is now no longer receiving any web traffic:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://www.mattstine.com/images/blue-green/BlueGreen4.png&#34; alt=&#34;BlueGreen4&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;We can now decomission our &amp;ldquo;blue&amp;rdquo; instance, or we can leave it around for a period of time in case we decide we need to roll back our changes. The important thing is that our customers suffered absolutely no downtime!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>clojure on cloud foundry</title>
+      <link>https://www.mattstine.com/2013/05/29/clojure-on-cloud-foundry/</link>
+      <pubDate>Wed, 29 May 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2013/05/29/clojure-on-cloud-foundry/</guid>
+      <description>&lt;p&gt;I was inspired by Brian McClain&amp;rsquo;s &lt;a href=&#34;http://catdevrandom.me/blog/2013/05/16/buildpacks-in-cloud-foundry-v2/&#34;&gt;post on bringing Haskell to Cloud Foundry&lt;/a&gt; using Cloud Foundry v2 buildpacks, so I decided to go on a buildpack journey of my own. Since Clojure is the language I most enjoying &amp;ldquo;toying around with,&amp;rdquo; I thought I&amp;rsquo;d try to deploy a simple Clojure web application using the &lt;a href=&#34;https://github.com/mstine/heroku-buildpack-clojure&#34;&gt;Heroku Clojure Buildpack&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;To reiterate some of the coolness around buildpacks, they are what allows a PaaS like Cloud Foundry or Heroku to support various runtimes without first building that support into the core platform. If your favorite language or framework runtime isn&amp;rsquo;t available, there&amp;rsquo;s absolutely nothing stopping you from providing your own buildpack to support it. Stuff can get crazy &amp;ndash; McClain has even &lt;a href=&#34;https://twitter.com/BrianMMcClain/status/339479905974751232&#34;&gt;hinted at bringing FORTRAN support to Cloud Foundry&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I decided for my experiment to build a VERY basic &amp;ldquo;Hello World&amp;rdquo; style application using &lt;a href=&#34;https://github.com/ring-clojure/ring&#34;&gt;Ring&lt;/a&gt;, which is &amp;ldquo;a Clojure web applications library inspired by Python&amp;rsquo;s WSGI and Ruby&amp;rsquo;s Rack.&amp;rdquo; The easiest way to get started building Ring applications is to utilize the popular Clojure build tool &lt;a href=&#34;http://github.com/technomancy/leiningen&#34;&gt;Leiningen&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;First I started by creating a new project:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ lein new hello-cf
+$ cd hello-cf
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The next task was to add the Ring dependencies to my &lt;code&gt;project.clj&lt;/code&gt; file:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-clojure&#34;&gt;(defproject hello-cf &amp;quot;0.1.0-SNAPSHOT&amp;quot;
+  :min-lein-version &amp;quot;2.0.0&amp;quot;
+  :description &amp;quot;Hello Clojure on Cloud Foundry!&amp;quot;
+  :license {:name &amp;quot;Eclipse Public License&amp;quot;
+            :url &amp;quot;http://www.eclipse.org/legal/epl-v10.html&amp;quot;}
+  :dependencies [[org.clojure/clojure &amp;quot;1.4.0&amp;quot;]
+                 [ring/ring-core &amp;quot;1.1.8&amp;quot;]
+                 [ring/ring-jetty-adapter &amp;quot;1.1.8&amp;quot;]])
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Then it was time to create the Ring application itself, by editing &lt;code&gt;src/hello_cf/core.clj&lt;/code&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-clojure&#34;&gt;(ns hello-cf.core
+  (:use [ring.adapter.jetty :only [run-jetty]]))
+
+(defn handler [request]
+  {:status 200
+   :headers {&amp;quot;Content-Type&amp;quot; &amp;quot;text/html&amp;quot;}
+   :body &amp;quot;Hello Cloud Foundry from heroku-buildpack-clojure!&amp;quot;})
+
+(defn -main [port]
+  (run-jetty handler {:port (Integer. port)}))
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Let&amp;rsquo;s break this down a bit. The &lt;code&gt;handler&lt;/code&gt; function will handle any HTTP request that hits our application, and will return an &amp;ldquo;OK&amp;rdquo; response containing a pleasant message indicating that we&amp;rsquo;ve succeeded. That&amp;rsquo;s really about it. Our application is complete. We can test it out by running the following:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ lein trampoline run -m hello-cf.core 8080
+2013-05-29 22:42:52.576:INFO:oejs.Server:jetty-7.6.1.v20120215
+2013-05-29 22:42:52.804:INFO:oejs.AbstractConnector:Started SelectChannelConnector@0.0.0.0:8080
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Hitting &lt;code&gt;http://localhost:8080&lt;/code&gt; in the browser confirms that we&amp;rsquo;re well on our way. Now it&amp;rsquo;s time to trying pushing the application to Cloud Foundry. As Brian stated in his blog, one of the stellar aspects of Cloud Foundry buildpacks is that they are approximately the same as Heroku buildpacks. Practically, this means that one &lt;em&gt;should&lt;/em&gt; be able to utilize a Heroku buildpack on Cloud Foundry with minimal or no modifications. Let&amp;rsquo;s put that theory to the test, shall we? Before we do, let&amp;rsquo;s create a &lt;code&gt;Procfile&lt;/code&gt; quickly to let the buildpack know what we want to run:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;web: lein with-profile production trampoline run -m hello-cf.core $PORT
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;And on with the push:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;cf push hello-cf --buildpack=git://github.com/heroku/heroku-buildpack-clojure.git
+Using manifest file manifest.yml
+
+Creating hello-cf... OK
+
+1: hello-cf
+2: none
+Subdomain&amp;gt; hello-cf
+
+1: mstine.cf-app.com
+2: none
+Domain&amp;gt; mstine.cf-app.com
+
+Binding hello-cf.mstine.cf-app.com to hello-cf... OK
+Uploading hello-cf... OK
+Starting hello-cf... OK
+-----&amp;gt; Downloaded app package (12K)
+Initialized empty Git repository in /tmp/buildpacks/heroku-buildpack-clojure.git/.git/
+Installing heroku-buildpack-clojure.git.
+-----&amp;gt; Installing OpenJDK 1.6...done
+-----&amp;gt; Installing Leiningen
+       Downloading: leiningen-2.1.2-standalone.jar
+       Writing: lein script
+-----&amp;gt; Building with Leiningen
+       Running: lein with-profile production compile :all
+       Retrieving lein-standalone-repl/lein-standalone-repl/0.1.5/lein-standalone-repl-0.1.5.pom from clojars
+       Retrieving lein-standalone-repl/lein-standalone-repl/0.1.5/lein-standalone-repl-0.1.5.jar from clojars
+       Performing task &#39;compile&#39; with profile(s): &#39;production&#39;
+       Retrieving org/clojure/clojure/1.4.0/clojure-1.4.0.pom from
+       ...
+       Compiling hello-cf.core
+-----&amp;gt; Uploading staged droplet (66M)
+-----&amp;gt; Uploaded droplet
+Checking hello-cf...
+Staging in progress...
+Staging in progress...
+Staging in progress...
+Staging in progress...
+Staging in progress...
+Staging in progress...
+Staging in progress...
+  0/1 instances: 1 starting
+  0/1 instances: 1 down
+  0/1 instances: 1 starting
+  0/1 instances: 1 flapping
+Application failed to start.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Drat. Let&amp;rsquo;s take a quick look at the logs to see what may be awry:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;Reading logs/stderr.log... OK
+/home/vcap/app/.lein/bin/lein: line 42: java: command not found
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Ah-hah! Looks like the existing buildpack is making some assumptions about the structure of our application that no longer hold true on Cloud Foundry. So, I followed in Brian&amp;rsquo;s footsteps and &lt;a href=&#34;https://github.com/mstine/heroku-buildpack-clojure&#34;&gt;forked away&lt;/a&gt;. One small &lt;a href=&#34;https://github.com/mstine/heroku-buildpack-clojure/commit/fd2c46cc23267fa2d808123d2fd58f4295da4b85&#34;&gt;commit&lt;/a&gt; looks like it ought to fix the problem. Let&amp;rsquo;s give it another try:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;cf push hello-cf --buildpack=git://github.com/mstine/heroku-buildpack-clojure.git
+Using manifest file manifest.yml
+
+Not applying manifest changes without --reset
+See `cf diff` for more details.
+
+Uploading hello-cf... OK
+Changes:
+  buildpack: &#39;git://github.com/heroku/heroku-buildpack-clojure.git&#39; -&amp;gt; &#39;git://github.com/mstine/heroku-buildpack-clojure.git&#39;
+Updating hello-cf... OK
+Stopping hello-cf... OK
+
+Starting hello-cf... OK
+-----&amp;gt; Downloaded app package (8.0K)
+-----&amp;gt; Downloaded app buildpack cache (17M)
+Initialized empty Git repository in /tmp/buildpacks/heroku-buildpack-clojure.git/.git/
+Installing heroku-buildpack-clojure.git.
+-----&amp;gt; Installing OpenJDK 1.6...done
+-----&amp;gt; Using cached Leiningen 2.1.2
+       Writing: lein script
+-----&amp;gt; Building with Leiningen
+       Running: lein with-profile production compile :all
+       Performing task &#39;compile&#39; with profile(s): &#39;production&#39;
+       Compiling hello-cf.core
+-----&amp;gt; Uploading staged droplet (66M)
+-----&amp;gt; Uploaded droplet
+Checking hello-cf...
+Staging in progress...
+Staging in progress...
+Staging in progress...
+Staging in progress...
+Staging in progress...
+Staging in progress...
+Staging in progress...
+Staging in progress...
+Staging in progress...
+Staging in progress...
+Staging in progress...
+  0/1 instances: 1 starting
+  0/1 instances: 1 starting
+  0/1 instances: 1 starting
+  0/1 instances: 1 starting
+  0/1 instances: 1 starting
+  0/1 instances: 1 starting
+  0/1 instances: 1 starting
+  0/1 instances: 1 starting
+  0/1 instances: 1 starting
+  0/1 instances: 1 starting
+  0/1 instances: 1 starting
+  0/1 instances: 1 starting
+  0/1 instances: 1 starting
+  0/1 instances: 1 starting
+  0/1 instances: 1 starting
+  0/1 instances: 1 starting
+  0/1 instances: 1 starting
+  1/1 instances: 1 running
+OK
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;BOOM!&lt;/p&gt;
+
+&lt;p&gt;I quickly pointed my browser, and as yesterday&amp;rsquo;s tweet indicates, success:&lt;/p&gt;
+
+&lt;p&gt;&lt;blockquote class=&#34;twitter-tweet&#34; data-partner=&#34;tweetdeck&#34;&gt;&lt;p&gt;Yeah&amp;hellip;that just happened. cc: &lt;a href=&#34;https://twitter.com/cloudfoundry&#34;&gt;@cloudfoundry&lt;/a&gt; &lt;a href=&#34;https://twitter.com/search?q=%23clojure&amp;amp;src=hash&#34;&gt;#clojure&lt;/a&gt; &lt;a href=&#34;https://twitter.com/search?q=%23buildpacks&amp;amp;src=hash&#34;&gt;#buildpacks&lt;/a&gt; &lt;a href=&#34;https://twitter.com/search?q=%23winning&amp;amp;src=hash&#34;&gt;#winning&lt;/a&gt; &lt;a href=&#34;http://t.co/9lJHqmWQPw&#34;&gt;pic.twitter.com/9lJHqmWQPw&lt;/a&gt;&lt;/p&gt;&amp;mdash; Matt Stine (@mstine) &lt;a href=&#34;https://twitter.com/mstine/statuses/339248683151417344&#34;&gt;May 28, 2013&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;Score another win for Cloud Foundry&amp;rsquo;s buildpack support. I&amp;rsquo;m now toying with the idea of doing something of a world tour of LISP on Cloud Foundry. My next candidate may be &lt;a href=&#34;https://github.com/evhan/heroku-buildpack-chicken&#34;&gt;Scheme&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>into the crucible</title>
+      <link>https://www.mattstine.com/2013/05/29/into-the-crucible/</link>
+      <pubDate>Wed, 29 May 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2013/05/29/into-the-crucible/</guid>
+      <description>&lt;p&gt;Wow&amp;hellip;it seems I only post to this blog toward the end of May. Well, that all changes now. You see, as of June 3, 2013, this blog is going to become one of many aspects of my new &amp;ldquo;day job.&amp;rdquo; On Monday, I start my life as a Community Engineer with &lt;a href=&#34;http://cloudfoundry.com&#34;&gt;Cloud Foundry&lt;/a&gt; by &lt;a href=&#34;http://goPivotal.com&#34;&gt;Pivotal&lt;/a&gt;. What&amp;rsquo;s a Community Engineer? Quite honestly, I&amp;rsquo;m not completely sure of the answer to that question yet. But given the many conversations I&amp;rsquo;ve had over the past few weeks, it seemingly fits right in with the bridge-building roles I&amp;rsquo;ve played many times over the course of my career. In this case, I have one foot squarely planted in the world of Cloud Foundry engineering, and one foot squarely planted out in the world with you guys and gals - the community. My job is to help you understand how we are quite literally seeking to &amp;ldquo;build a new platform for a new era.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;Of course, this is a journey that for me started a few years ago. In my previous life as a front-line development manager, I helped lead an agile transformation within my team with &amp;ldquo;ruthless automation&amp;rdquo; playing a central role in everything that our team did. However, it seemed that the better we &amp;ldquo;did agile,&amp;rdquo; the more pain we felt when dealing with those outside of our circle of control. It was only years later, after reading Eliyahu Goldratt&amp;rsquo;s &lt;a href=&#34;http://en.wikipedia.org/wiki/The_Goal_(novel)&#34;&gt;The Goal&lt;/a&gt; and coming to an understanding of his &lt;a href=&#34;http://en.wikipedia.org/wiki/Theory_of_Constraints&#34;&gt;Theory of Constraints&lt;/a&gt;, that I realized what was happening. Our constraints had moved &amp;ldquo;out of the plant,&amp;rdquo; if you will, and landed in the world of operations. Even without this understanding, I developed a keen interest in this newly emerging topic called &amp;ldquo;DevOps&amp;rdquo; and began to explore the ideas emerging around agile operations and infrastructure as code. I started playing with tools like Puppet, Chef, and Vagrant, and taught sessions on all three of them at the Project Automation Experience in 2011.&lt;/p&gt;
+
+&lt;p&gt;You can read my &lt;a href=&#34;http://www.mattstine.com/2012/05/24/the-relaunch/&#34;&gt;last entry&lt;/a&gt; and find out that not much later I joined VMware as a Senior Consultant for its Cloud Application Platform. I was hired into that role based on my extensive background in enterprise Java and the Spring ecosystem, but it was nothing short of a staffing accident that I found myself thrust into a role on a virtualization platform provisioning team helping to build out a private self-service cloud! I was steadily getting carried further away from my role as an application architect, steadily becoming assimilated into that mysterious world of web operations that I knew so little about. These experiences, along with my continued reading and thinking about the worlds of DevOps, Lean, and Kanban, have quite literally changed the way I look at the world of software engineering (or as I prefer to think of it now, value delivery through product engineering that just so happens to involve software!). These experiences have formed around me a &lt;a href=&#34;http://en.wikipedia.org/wiki/Crucible&#34;&gt;crucible&lt;/a&gt;, melting me that I might be poured into a new professional mold.&lt;/p&gt;
+
+&lt;p&gt;So now it&amp;rsquo;s time to plunge into the world of building the leading &lt;a href=&#34;http://wattersjames.com/2013/03/04/my-fork-you-shirt/&#34;&gt;open&lt;/a&gt; platform as a service, and to help YOU experience the &lt;a href=&#34;https://twitter.com/mstine/status/339570787914760195&#34;&gt;HUGE can of @cloudfoundry awesome&lt;/a&gt; that we at Pivotal are about to unleash on the world. Sound good to you? &lt;a href=&#34;http://blog.cloudfoundry.com/2013/05/16/want-to-contribute-to-cloud-foundry-come-on-in/&#34;&gt;Join us!&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Javaone2009 on Matt Stine</title>
+    <link>https://www.mattstine.com/categories/javaone2009/</link>
+    <description>Recent content in Javaone2009 on Matt Stine</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Matt Stine</copyright>
+    <lastBuildDate>Fri, 02 Apr 2010 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.mattstine.com/categories/javaone2009/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>jug leadership lessons learned on slideshare</title>
+      <link>https://www.mattstine.com/2010/04/02/jug-leadership-lessons-learned-on-slideshare/</link>
+      <pubDate>Fri, 02 Apr 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2010/04/02/jug-leadership-lessons-learned-on-slideshare/</guid>
+      <description>I&amp;rsquo;ve been playing a bit with SlideShare today and I took the opportunity to upload the slides from my Java.net Community Corner interview with Kevin Farnham at JavaOne 2009. SlideShare has a nice feature that allows you to sync up the audio from an MP3 file with your slides, and since both were available, I thought I&amp;rsquo;d give it a try. The interface is extremely easy to use and I&amp;rsquo;m very happy with the outcome.</description>
+    </item>
+    
+    <item>
+      <title>javaone brain dump resources from memphis jug meeting</title>
+      <link>https://www.mattstine.com/2009/06/19/javaone-brain-dump-resources-from-memphis-jug-meeting/</link>
+      <pubDate>Fri, 19 Jun 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2009/06/19/javaone-brain-dump-resources-from-memphis-jug-meeting/</guid>
+      <description>I promised that I would post the links I mentioned in my talk last night at the Memphis JUG&amp;hellip;here they are:
+General Session Replays: http://java.sun.com/javaone/2009/general_sessions.jsp
+BlogTalkRadio: http://www.blogtalkradio.com/JavaOne
+JavaOne Minute: http://channelsun.sun.com/video/channel-you/javaone+minute/23867338001  Technical Sessions 2008-2009: http://developers.sun.com/learning/javaoneonline/ (Must be SDN Member - FREE!)
+The Da Vinci Machine Project: http://openjdk.java.net/projects/mlvm/  Groovy: http://groovy.codehaus.org
+Java.net Community Corner: http://wiki.java.net/bin/view/Javaone/CommunityCorner  JUGS Community: http://community.java.net/jugs/
+Scala: http://scala-lang.org
+SpringSource: http://www.springsource.com
+JUG-USA: https://jug-usa.dev.java.net/
+OpenSolaris: http://opensolaris.org
+Neal Ford: http://nealford.com (Can download his slides here)</description>
+    </item>
+    
+    <item>
+      <title>jug usa meeting with james gosling at javaone</title>
+      <link>https://www.mattstine.com/2009/06/05/jug-usa-meeting-with-james-gosling-at-javaone/</link>
+      <pubDate>Fri, 05 Jun 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2009/06/05/jug-usa-meeting-with-james-gosling-at-javaone/</guid>
+      <description>On Wednesday morning, JUG-USA was fortunate enough to get about 45 minutes with the &amp;ldquo;Father of Java&amp;rdquo; himself, James Gosling. Each year at JavaOne, Sun distributes registration discount codes to interested JUG&amp;rsquo;s. The JUG with the most registrations using their code gets this meeting. JUG-USA&amp;rsquo;s founding allowed us to use a bit of strength in numbers to wrestle this crown from the bigger European JUG&amp;rsquo;s for the first time that I know of.</description>
+    </item>
+    
+    <item>
+      <title>more connecting at javaone 2009</title>
+      <link>https://www.mattstine.com/2009/06/04/more-connecting-at-javaone-2009/</link>
+      <pubDate>Thu, 04 Jun 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2009/06/04/more-connecting-at-javaone-2009/</guid>
+      <description>I happened to catch Guillaume LaForge&amp;rsquo;s tweet this morning about a &amp;ldquo;Groovy lunch&amp;rdquo; at JavaOne today. After our JUG-USA meeting with James Gosling(blog entry on this one to come), I made my way over to the &amp;ldquo;cafeteria&amp;rdquo; and found Guillaume, James Williams (of the Griffon team), and John Smart in exactly the location that Guillaume specified. We were shortly joined by Grails in Action (a.k.a. San Gria) co-author Glen Smith. Topics ranged from things we can do better with Groovy/Grails testing, the differences between the Groovy and other dynamic/scripting language communities, Groovy&amp;rsquo;s victory in the ScriptBowl, and none other than the differences in public transportation between the southeastern US and the Bay Area.</description>
+    </item>
+    
+    <item>
+      <title>javaone 2009 script bowl</title>
+      <link>https://www.mattstine.com/2009/06/03/javaone-2009-script-bowl/</link>
+      <pubDate>Wed, 03 Jun 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2009/06/03/javaone-2009-script-bowl/</guid>
+      <description>The JavaOne 2009 Script Bowl was quite a delight to watch. The players were Jython (Frank Wierzbecki), Groovy (Guillaume LaForge), Clojure (Rich Hickey), Scala (Dick Wall), and JRuby (Thomas Enebo). The event was divided into two rounds:
+ Demonstrating Language Features
+ Demonstrating Community Contributions
+  Each of the players focused on different angles during the language feature round. The Jython focus was squarely on the readability of the language.</description>
+    </item>
+    
+    <item>
+      <title>jug leadership lessons learned javaone javanet community corner podcast</title>
+      <link>https://www.mattstine.com/2009/06/03/jug-leadership-lessons-learned-javaone-javanet-community-corner-podcast/</link>
+      <pubDate>Wed, 03 Jun 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2009/06/03/jug-leadership-lessons-learned-javaone-javanet-community-corner-podcast/</guid>
+      <description>Here&amp;rsquo;s the link to my slides from my podcast Wednesday morning from the Java.net Community Corner: Download PDF.</description>
+    </item>
+    
+    <item>
+      <title>java technology on google app engine communityone 2009 lightning talk</title>
+      <link>https://www.mattstine.com/2009/06/02/java-technology-on-google-app-engine-communityone-2009-lightning-talk/</link>
+      <pubDate>Tue, 02 Jun 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2009/06/02/java-technology-on-google-app-engine-communityone-2009-lightning-talk/</guid>
+      <description>My second lightning talk at Community One West 2009 revolved around the still relatively recent announcement that Java is now supported on Google&amp;rsquo;s App Engine.
+What exactly is Google App Engine? It&amp;rsquo;s none other than a way that you can run your Java technology-based applications on Google&amp;rsquo;s massive infrastructure.
+As far as the &amp;ldquo;Geekxecutive Summary,&amp;rdquo; Google has provided:
+ A Java 6 Virtual Machine with a Class Whitelist. Not all classes in the standard JDK library are available.</description>
+    </item>
+    
+    <item>
+      <title>reactions from javaone 2009 opening keynote</title>
+      <link>https://www.mattstine.com/2009/06/02/reactions-from-javaone-2009-opening-keynote/</link>
+      <pubDate>Tue, 02 Jun 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2009/06/02/reactions-from-javaone-2009-opening-keynote/</guid>
+      <description>The morning session opened with a HUGE elephant under the rug - &amp;ldquo;Where is Oracle?&amp;rdquo; There&amp;rsquo;s no booth in the Pavilion - super strange.
+Things kicked off very slowly. Jonathan Schwartz, Sun CEO, for all of his ponytail excellence, wasn&amp;rsquo;t exactly inspiring a great deal of excitement in the crowd. In fact, the loudest applause from the audience was initially for the tech support guy who fixed the projection for one of the demos.</description>
+    </item>
+    
+    <item>
+      <title>connecting with people at javaone</title>
+      <link>https://www.mattstine.com/2009/06/01/connecting-with-people-at-javaone/</link>
+      <pubDate>Mon, 01 Jun 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2009/06/01/connecting-with-people-at-javaone/</guid>
+      <description>So far one of the greatest things about JavaOne for me has been the opportunity to connect face-to-face with so many people that I&amp;rsquo;ve only communicated with digitally. I&amp;rsquo;ve also been able to catch up with folks that I&amp;rsquo;ve run into through other conferences, the JUG, and work:
+ Finally met Aaron Houston and Mark DeHart from Sun JUG Programs. These guys have supported the Memphis JUG from the very beginning and have kept us supplied with tons of cool swag, as well as a Sun SPOT that continues to be a hit.</description>
+    </item>
+    
+    <item>
+      <title>deploying grails to morph appspace communityone 2009 lightning talk</title>
+      <link>https://www.mattstine.com/2009/06/01/deploying-grails-to-morph-appspace-communityone-2009-lightning-talk/</link>
+      <pubDate>Mon, 01 Jun 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2009/06/01/deploying-grails-to-morph-appspace-communityone-2009-lightning-talk/</guid>
+      <description>I gave two lightning talks at CommunityOne today, the first of which described deploying Grails applications to Morph AppSpace.
+For the uninitiated, Grails is a Ruby on Rails inspired full stack web development framework which brings &amp;ldquo;convention over configuration&amp;rdquo; and &amp;ldquo;DRY&amp;rdquo; into the Java web development arena. Unlike Rails, it is not an effort from scratch, but rather stands on the shoulders of proven giants in the Java world like the Spring framework and Hibernate.</description>
+    </item>
+    
+    <item>
+      <title>on the ground in san francisco</title>
+      <link>https://www.mattstine.com/2009/06/01/on-the-ground-in-san-francisco/</link>
+      <pubDate>Mon, 01 Jun 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2009/06/01/on-the-ground-in-san-francisco/</guid>
+      <description>&amp;hellip;for my second trip to JavaOne. This is going to be an extremely busy week.
+Just as a quick update to those who thought I have fallen off of the face of the earth, I&amp;rsquo;ve been very busy these past few weeks finishing up a lot of loose ends. First off, May is a busy month for our family. With Mother&amp;rsquo;s Day, Wendy&amp;rsquo;s 30th Birthday, and Grant&amp;rsquo;s 1st Birthday, we&amp;rsquo;ve been doing quite a lot as a family.</description>
+    </item>
+    
+  </channel>
+</rss>

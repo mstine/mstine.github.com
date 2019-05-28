@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Developer on Matt Stine</title>
+    <link>https://www.mattstine.com/categories/developer/</link>
+    <description>Recent content in Developer on Matt Stine</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Matt Stine</copyright>
+    <lastBuildDate>Tue, 15 Aug 2006 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.mattstine.com/categories/developer/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>raiblee28099s wiki appfuseroadmap</title>
+      <link>https://www.mattstine.com/2006/08/15/raiblee28099s-wiki-appfuseroadmap/</link>
+      <pubDate>Tue, 15 Aug 2006 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2006/08/15/raiblee28099s-wiki-appfuseroadmap/</guid>
+      <description>Raible updated the AppFuseRoadmap yesterday. I’m really excited about where the project is going. XDoclet has been a good friend, but I’m really happy to see its demise in favor of annotations. JDK 5 and JSP 2.0 will also be really helpful - I’ve wanted to leverage these technologies for a long time, but haven’t had an easy way to do so. I think the most interesting thing for me will be the switch over to Maven 2.</description>
+    </item>
+    
+    <item>
+      <title>seven simple reasons to use appfuse</title>
+      <link>https://www.mattstine.com/2006/08/09/seven-simple-reasons-to-use-appfuse/</link>
+      <pubDate>Wed, 09 Aug 2006 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2006/08/09/seven-simple-reasons-to-use-appfuse/</guid>
+      <description>I’ve wanted for some time now to write a blog entry promoting my favorite open source project - AppFuse. Since I started developing web applications using AppFuse as a base, I can truly say that I’ve rediscovered the joy of software development. I’ve found no other technology or methodology that has allowed me to place as much focus as I now do on solving business problems and not on technology ramp-up or figuring out the eccentricities of “framework X.</description>
+    </item>
+    
+    <item>
+      <title>stiff asks matt answers</title>
+      <link>https://www.mattstine.com/2006/07/24/stiff-asks-matt-answers/</link>
+      <pubDate>Mon, 24 Jul 2006 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2006/07/24/stiff-asks-matt-answers/</guid>
+      <description>I found an interesting article this morning by way of Digg.com Programming: Stiff asks, great programmers answer. The author posed 5 questions to some of the more well-known programmers of today, and their answers made for very interesting reading. Not to say that I&amp;rsquo;m a great programmer or anything, but I thought it might be a fun thought exercise to answer these questions myself. Here we go:
+How did you learn programming?</description>
+    </item>
+    
+  </channel>
+</rss>

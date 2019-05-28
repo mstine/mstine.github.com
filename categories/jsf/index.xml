@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jsf on Matt Stine</title>
+    <link>https://www.mattstine.com/categories/jsf/</link>
+    <description>Recent content in Jsf on Matt Stine</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Matt Stine</copyright>
+    <lastBuildDate>Wed, 27 Jun 2007 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.mattstine.com/categories/jsf/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>how to implement form level validation in jsf</title>
+      <link>https://www.mattstine.com/2007/06/27/how-to-implement-form-level-validation-in-jsf/</link>
+      <pubDate>Wed, 27 Jun 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2007/06/27/how-to-implement-form-level-validation-in-jsf/</guid>
+      <description>Recently I was faced with the challenge of implementing form-level (or page-level) validation in a JSF-based application. What I mean by form-level validation is the need to evaluate a subset of a form&amp;rsquo;s fields as a unit, rather than simply validating each field in isolation. An example of this type of validation can be found on a user registration form where one has to select a password in one text field, and then retype the same password in another text field for confirmation.</description>
+    </item>
+    
+    <item>
+      <title>thursday was slow</title>
+      <link>https://www.mattstine.com/2007/05/11/thursday-was-slow/</link>
+      <pubDate>Fri, 11 May 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2007/05/11/thursday-was-slow/</guid>
+      <description>for me, not for JavaOne. Of course I was a good little programmer and used the schedule builder to sign up for all of my sessions. I edited them a bit after the first two keynotes. Even then, I had one lone session scheduled for Thursday morning (that wasn&amp;rsquo;t really directly applicable to my work, it just looked interesting), and then two sessions in the afternoon, the first starting at 4:10.</description>
+    </item>
+    
+    <item>
+      <title>wednesday was ajax day</title>
+      <link>https://www.mattstine.com/2007/05/10/wednesday-was-ajax-day/</link>
+      <pubDate>Thu, 10 May 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2007/05/10/wednesday-was-ajax-day/</guid>
+      <description>Not officially, but nearly every session I attended had something to do with AJAX:
+ Creating Amazing Web Interfaces with Ajax
+ jMaki: Web 2.0 App Building Made Easy
+ Fast, Beautiful, Easy: Pick Three - Building Web User Interfaces in the Java Programming Language with Google Web Toolkit
+ Killer JavaScript Technology Frameworks for Java Platform Developers: An Exploration of Prototype, Script.aculo.us, and Rico
+  I have to say that I was rather impressed by what I saw.</description>
+    </item>
+    
+  </channel>
+</rss>

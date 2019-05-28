@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Programming on Matt Stine</title>
+    <link>https://www.mattstine.com/categories/programming/</link>
+    <description>Recent content in Programming on Matt Stine</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Matt Stine</copyright>
+    <lastBuildDate>Tue, 16 Feb 2010 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.mattstine.com/categories/programming/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>dead programmers society</title>
+      <link>https://www.mattstine.com/2010/02/16/dead-programmers-society/</link>
+      <pubDate>Tue, 16 Feb 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2010/02/16/dead-programmers-society/</guid>
+      <description>A local Pastor once gave the advice of introducing ourselves and our kids to dead people. It is his belief that if his kids grow up idolizing the likes of Eric Liddell, Jim Elliot, and Hudson Taylor, they would be far better off than by looking up to many of our so-called &amp;ldquo;heroes&amp;rdquo; of today. I happen to agree with his advice, but that&amp;rsquo;s not the subject of tonight&amp;rsquo;s blog entry.</description>
+    </item>
+    
+    <item>
+      <title>loty time again scala or clojure</title>
+      <link>https://www.mattstine.com/2009/04/02/loty-time-again-scala-or-clojure/</link>
+      <pubDate>Thu, 02 Apr 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2009/04/02/loty-time-again-scala-or-clojure/</guid>
+      <description>In 2007 I established several professional development goals (and later reported my progress on these), one of which was to learn Groovy and Grails. This goal stemmed from the continually referenced idea from The Pragmatic Programmer to &amp;ldquo;learn a new language every year.&amp;rdquo; This idea has become so ubiquitous that it even has it&amp;rsquo;s own four-letter acronym, LOTY (Language of the Year).
+Since establishing and reporting on these goals, I&amp;rsquo;ve had several things get in the way of fully realizing all of them.</description>
+    </item>
+    
+    <item>
+      <title>mid year review my professional development goals for 2007 2008</title>
+      <link>https://www.mattstine.com/2008/01/02/mid-year-review-my-professional-development-goals-for-2007-2008/</link>
+      <pubDate>Wed, 02 Jan 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2008/01/02/mid-year-review-my-professional-development-goals-for-2007-2008/</guid>
+      <description>Back in July I posted my professional development goals for the year (My performance review is annually in July, so it&amp;rsquo;s a good time to set goals.), and it seemed like a good idea to take a look at my progress while doing the &amp;ldquo;New Year&amp;rsquo;s Resolution&amp;rdquo; thing.
+ Learn Groovy and Grails
+  Andy and Dave suggest learning a new language every year, so this seemed like a good goal for me.</description>
+    </item>
+    
+    <item>
+      <title>my professional development goals for 2007 2008</title>
+      <link>https://www.mattstine.com/2007/07/10/my-professional-development-goals-for-2007-2008/</link>
+      <pubDate>Tue, 10 Jul 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2007/07/10/my-professional-development-goals-for-2007-2008/</guid>
+      <description>I posted earlier on my desire to become a better programmer. Well, I&amp;rsquo;ve since put together a plan of action for the next twelve months. I&amp;rsquo;ve based some of these goals on suggestions from The Pragmatic Programmer by Andy Hunt and Dave Thomas.
+ Learn Groovy and Grails
+  Andy and Dave suggest learning a new language every year. I had already informally started learning Groovy and Grails after JavaOne 2007.</description>
+    </item>
+    
+    <item>
+      <title>help me become a better programmer</title>
+      <link>https://www.mattstine.com/2007/07/02/help-me-become-a-better-programmer/</link>
+      <pubDate>Mon, 02 Jul 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2007/07/02/help-me-become-a-better-programmer/</guid>
+      <description>I have decided to embark upon a quest to become a better programmer. I would really like to improve my understanding of the computer science that underlies my day-to-day tasks, particularly as it relates to programming language design as well as algorithm design and complexity analysis. I would also like to improve my analytical and problem solving skills. I&amp;rsquo;ve found that I&amp;rsquo;m really good at learning new technologies and quickly bringing them to bear on web application development problems, but take me out of that problem space and I get nervous rather quickly.</description>
+    </item>
+    
+  </channel>
+</rss>

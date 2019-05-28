@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Deployment on Matt Stine</title>
+    <link>https://www.mattstine.com/categories/deployment/</link>
+    <description>Recent content in Deployment on Matt Stine</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Matt Stine</copyright>
+    <lastBuildDate>Sun, 29 Mar 2009 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.mattstine.com/categories/deployment/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>deploying grails with groovy</title>
+      <link>https://www.mattstine.com/2009/03/29/deploying-grails-with-groovy/</link>
+      <pubDate>Sun, 29 Mar 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2009/03/29/deploying-grails-with-groovy/</guid>
+      <description>Interesting title, eh? Maybe this one will make it through Glen&amp;rsquo;s filter at GroovyBlogs.org.
+On to the meat. I&amp;rsquo;ve been steadily working on a couple of Grails applications, one being the website for the Memphis JUG, and another being the e-commerce site for my wife&amp;rsquo;s soon to be launched designer stationery business. Just like your average Grails developer, I&amp;rsquo;ve been happily coding away at 127.0.0.1 using the good old development Jetty+MySQL stack.</description>
+    </item>
+    
+  </channel>
+</rss>

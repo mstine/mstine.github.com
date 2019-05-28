@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Groovy on Matt Stine</title>
+    <link>https://www.mattstine.com/categories/groovy/</link>
+    <description>Recent content in Groovy on Matt Stine</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Matt Stine</copyright>
+    <lastBuildDate>Tue, 10 Nov 2009 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.mattstine.com/categories/groovy/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>securing grails plugin artifacts with filters</title>
+      <link>https://www.mattstine.com/2009/11/10/securing-grails-plugin-artifacts-with-filters/</link>
+      <pubDate>Tue, 10 Nov 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2009/11/10/securing-grails-plugin-artifacts-with-filters/</guid>
+      <description>So you&amp;rsquo;ve just installed the handy dandy Spring Security plugin (http://grails.org/plugin/acegi), which makes it incredibly easy to secure entire Grails controllers and/or controller actions with annotations, such as the following:
+This is enabled by turning on controller annotations in your SecurityConfig.groovy file:
+So all is now good in our project. We can secure either controllers or actions with annotations, enabling us to declaratively setup security side-by-side with the code that we&amp;rsquo;re securing in a very straightforward manner.</description>
+    </item>
+    
+    <item>
+      <title>making java groovier with lambdaj</title>
+      <link>https://www.mattstine.com/2009/10/09/making-java-groovier-with-lambdaj/</link>
+      <pubDate>Fri, 09 Oct 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2009/10/09/making-java-groovier-with-lambdaj/</guid>
+      <description>I spent the better part of yesterday tracing my way through the codebase for a large-scale enterprise application that my team is building right now, and I happened upon the following piece of code:
+//...imports excluded for clarity public class BusinessActivityBinMetaClassHelper { //... public static List&amp;lt;Long&amp;gt; getSrmMetaClassIdListJava(List&amp;lt;BusinessActivityBinMetaClass&amp;gt; businessActivityBinMetaClassList) { List&amp;lt;Long&amp;gt; srmMetaClassIdList = new ArrayList&amp;lt;Long?(); if(businessActivityBinMetaClassList != null) { for(BusinessActivityBinMetaClass businessActivityBinMetaClass : businessActivityBinMetaClassList) { if(businessActivityBinMetaClass.getSrmMetaClass() != null &amp;amp;&amp;amp; businessActivityBinMetaClass.getSrmMetaClass().getSrmMetaClassId() != null) { srmMetaClassIdList.</description>
+    </item>
+    
+    <item>
+      <title>ive forked the grails paypal plugin</title>
+      <link>https://www.mattstine.com/2009/05/02/ive-forked-the-grails-paypal-plugin/</link>
+      <pubDate>Sat, 02 May 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2009/05/02/ive-forked-the-grails-paypal-plugin/</guid>
+      <description>I&amp;rsquo;m currently completing the finishing touches on a new e-commerce site for my wife&amp;rsquo;s stationary business. We decided a long time ago to use PayPal for all of the payment processing since we&amp;rsquo;ve had a great experience using it for our eBay selling. About a year ago Graeme Rocher polished off the last release of a PayPal plugin that is available in the Grails Plugin repository. It really is a very nice plugin, yet I had a couple of problems with it:</description>
+    </item>
+    
+    <item>
+      <title>joels builderbuilder in groovy</title>
+      <link>https://www.mattstine.com/2009/04/27/joels-builderbuilder-in-groovy/</link>
+      <pubDate>Mon, 27 Apr 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2009/04/27/joels-builderbuilder-in-groovy/</guid>
+      <description>Joel Neely started a series of posts over the weekend detailing a proposed exploration of what Functional Programming means &amp;ldquo;to me as a practicing OO software developer?&amp;rdquo; The task at hand is to look at the generation of Data Transfer Objects which include a static inner class that functions as a builder. Since I&amp;rsquo;m exploring both Clojure and Scala right now, Joel has asked me to play along.
+After reading the task definition today, I couldn&amp;rsquo;t resist taking a crack at the problem in Groovy, especially since tackling a Builder DSL is not something I&amp;rsquo;ve gone after before.</description>
+    </item>
+    
+    <item>
+      <title>grails prototype scriptaculous persistent grid sorting goodness</title>
+      <link>https://www.mattstine.com/2009/04/25/grails-prototype-scriptaculous-persistent-grid-sorting-goodness/</link>
+      <pubDate>Sat, 25 Apr 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2009/04/25/grails-prototype-scriptaculous-persistent-grid-sorting-goodness/</guid>
+      <description>Ever wanted to do drag-n-drop sorting of a grid of images on a page and persist it? Here&amp;rsquo;s my solution using Grails, Prototype, and Script.aculo.us.
+Basically what prompted this was the need for my wife to be able to sort the various product images that she had on a screen at any given time in any way that she pleased, and it had to be easy to work with. What follows is by no means a complete solution to this problem, but it represents where I am in the development process and may be useful to you, my hapless reader.</description>
+    </item>
+    
+    <item>
+      <title>groovy post to a url</title>
+      <link>https://www.mattstine.com/2009/04/25/groovy-post-to-a-url/</link>
+      <pubDate>Sat, 25 Apr 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2009/04/25/groovy-post-to-a-url/</guid>
+      <description>If you&amp;rsquo;ve ever worked with the brilliant Recaptcha service, you&amp;rsquo;ll know that their REST API requires an HTTP POST rather than a GET. As I had only used GET requests thus far, I googled around and found a pretty easy solution:
+private def evaluateCaptcha(def remoteIp, def challenge, def response) { def config = recaptchaService.getRecaptchaConfig() def urlString = &amp;quot;http://api-verify.recaptcha.net/verify&amp;quot; def queryString = &amp;quot;privatekey=${config.recaptcha.privateKey}&amp;amp;remoteip=${remoteIp}&amp;amp;challenge=${challenge}&amp;amp;response=${URLEncoder.encode(response)}&amp;quot; def url = new URL(urlString) def connection = url.</description>
+    </item>
+    
+    <item>
+      <title>loty time again scala or clojure</title>
+      <link>https://www.mattstine.com/2009/04/02/loty-time-again-scala-or-clojure/</link>
+      <pubDate>Thu, 02 Apr 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2009/04/02/loty-time-again-scala-or-clojure/</guid>
+      <description>In 2007 I established several professional development goals (and later reported my progress on these), one of which was to learn Groovy and Grails. This goal stemmed from the continually referenced idea from The Pragmatic Programmer to &amp;ldquo;learn a new language every year.&amp;rdquo; This idea has become so ubiquitous that it even has it&amp;rsquo;s own four-letter acronym, LOTY (Language of the Year).
+Since establishing and reporting on these goals, I&amp;rsquo;ve had several things get in the way of fully realizing all of them.</description>
+    </item>
+    
+    <item>
+      <title>deploying grails with groovy</title>
+      <link>https://www.mattstine.com/2009/03/29/deploying-grails-with-groovy/</link>
+      <pubDate>Sun, 29 Mar 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2009/03/29/deploying-grails-with-groovy/</guid>
+      <description>Interesting title, eh? Maybe this one will make it through Glen&amp;rsquo;s filter at GroovyBlogs.org.
+On to the meat. I&amp;rsquo;ve been steadily working on a couple of Grails applications, one being the website for the Memphis JUG, and another being the e-commerce site for my wife&amp;rsquo;s soon to be launched designer stationery business. Just like your average Grails developer, I&amp;rsquo;ve been happily coding away at 127.0.0.1 using the good old development Jetty+MySQL stack.</description>
+    </item>
+    
+    <item>
+      <title>need a textile engine look no further than plextile</title>
+      <link>https://www.mattstine.com/2009/03/26/need-a-textile-engine-look-no-further-than-plextile/</link>
+      <pubDate>Thu, 26 Mar 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2009/03/26/need-a-textile-engine-look-no-further-than-plextile/</guid>
+      <description>In finishing up the first release of JUG Nexus, the open source engine (http://github.com/mstine/jug-nexus/tree/master) behind the new Memphis JUG website, I needed to put a good Textile engine in place. I really don&amp;rsquo;t care for writing actual HTML in a content management system, and JUG Nexus being a lightweight CMS, I wanted a lightweight markup syntax for entering the details of upcoming JUG meetings. Textile is exactly that, and is also used for entering content into the very useful JUGEvents system produced by JUG Padova for the Java User Group community at large.</description>
+    </item>
+    
+    <item>
+      <title>grails 10 released</title>
+      <link>https://www.mattstine.com/2008/02/05/grails-10-released/</link>
+      <pubDate>Tue, 05 Feb 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2008/02/05/grails-10-released/</guid>
+      <description>Grails, by far my favorite of the JVM dynamic language frameworks, was released this morning, with a snazzy, new, &amp;ldquo;Web 2.0 style&amp;rdquo; website to boot. Congratulations Graeme and company on all of your hard work!</description>
+    </item>
+    
+    <item>
+      <title>and then it was over</title>
+      <link>https://www.mattstine.com/2007/05/11/and-then-it-was-over/</link>
+      <pubDate>Fri, 11 May 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2007/05/11/and-then-it-was-over/</guid>
+      <description>I really enjoyed &amp;ldquo;The Toy Show&amp;rdquo; this morning. James Gosling went through a flurry of different demos from around the &amp;ldquo;cool&amp;rdquo; Java world. I was especially impressed with Project Wonderland (http://lg3d-wonderland.dev.java.net/), a virtual workplace environment, and with the real-time robotics demos. Unfortunately I was so sucked in that I didn&amp;rsquo;t get any good photos.
+If anything you could call this my day on the back end. I attended four sessions, two of which were focused on that.</description>
+    </item>
+    
+    <item>
+      <title>it seems to be the year of the dynamicscripting language</title>
+      <link>https://www.mattstine.com/2007/05/08/it-seems-to-be-the-year-of-the-dynamicscripting-language/</link>
+      <pubDate>Tue, 08 May 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2007/05/08/it-seems-to-be-the-year-of-the-dynamicscripting-language/</guid>
+      <description>It has been a whirlwind of a day. I&amp;rsquo;ve been to two keynotes (close to 5 hours of information there) and one technical session. Couple that information with what I heard at Java University yesterday, and you find many common themes. One that keeps coming up is the emerging trend of making other languages, particularly dynamic/scripting languages, first-class citizens on the JVM.
+According to Wikipedia, &amp;ldquo;Dynamic programming language is a term used broadly in computer science to describe a class of high level programming languages that execute at runtime many common behaviors that other languages might perform during compilation, if at all.</description>
+    </item>
+    
+    <item>
+      <title>java university rapid web site development with groovy and grails</title>
+      <link>https://www.mattstine.com/2007/05/07/java-university-rapid-web-site-development-with-groovy-and-grails/</link>
+      <pubDate>Mon, 07 May 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2007/05/07/java-university-rapid-web-site-development-with-groovy-and-grails/</guid>
+      <description>I&amp;rsquo;m currently sitting in this session - Graeme Rocher is the presenter. He is the creator of Grails, which is Groovy&amp;rsquo;s answer to the Ruby on Rails like development experience. He&amp;rsquo;s currently doing Q&amp;amp;A, so I thought I&amp;rsquo;d take the opportunity to write a short entry. So far this session is awesome! Graeme is a great presenter and has had the perfect balance of slides and live coding. Unfortunately they ran out of slides before I got to the presentation (more on the sometimes laughable logistics at JavaOne later), so I&amp;rsquo;m having trouble remember details to write about (they&amp;rsquo;ve promised to email me the slides).</description>
+    </item>
+    
+  </channel>
+</rss>

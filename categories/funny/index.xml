@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Funny on Matt Stine</title>
+    <link>https://www.mattstine.com/categories/funny/</link>
+    <description>Recent content in Funny on Matt Stine</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Matt Stine</copyright>
+    <lastBuildDate>Tue, 03 Nov 2009 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.mattstine.com/categories/funny/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>hi im matt stine and i have technology add</title>
+      <link>https://www.mattstine.com/2009/11/03/hi-im-matt-stine-and-i-have-technology-add/</link>
+      <pubDate>Tue, 03 Nov 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2009/11/03/hi-im-matt-stine-and-i-have-technology-add/</guid>
+      <description>Yes, it&amp;rsquo;s true. I came to the realization that there is such a thing as TADD&amp;hellip;technology attention deficit disorder. Ironically, I came to this realization while reading a sample chapter from the upcoming book from the Prags, Pomodoro Technique Illustrated: Can You Focus - Really Focus - for 25 Minutes? You see, it&amp;rsquo;s Pragmatic Programmer Writing Month (follow the trail that begins here), and I finally set aside an hour today to begin writing.</description>
+    </item>
+    
+  </channel>
+</rss>

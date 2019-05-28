@@ -1,0 +1,76 @@
+==================================================================
+https://keybase.io/mstine
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://mattstine.com
+  * I am mstine (https://keybase.io/mstine) on keybase.
+  * I have a public key with fingerprint B704 A54C 845D 005D 1D9D  2775 02B0 8975 E3F0 C764
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0120e3e4d7dbd08919e11246be27b35f686cddaaf126d2587d8bc349fc49bfa72ec50a",
+            "fingerprint": "b704a54c845d005d1d9d277502b08975e3f0c764",
+            "host": "keybase.io",
+            "key_id": "02b08975e3f0c764",
+            "kid": "01014648c6e516c8967dcc80c8719a6a5f47b8856810584bebad8cd48de371504f8f0a",
+            "uid": "d00cad620bdabe3e19f78236b4ab9619",
+            "username": "mstine"
+        },
+        "service": {
+            "hostname": "mattstine.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1461986368,
+    "expire_in": 157680000,
+    "prev": "cc02d20d440c25383183ac1a2860a6dd5127890fe9eac86b3c4d31063515ff0b",
+    "seqno": 13,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.53
+Comment: https://keybase.io/crypto
+
+yMN0AnicZVJtUFRVGF60cNhCvqoRZlK8C0q4wv2+5640YKMpKjijSCHIeu8958IV
+2F127y4gIODoMGhKSSIxNWBgWcMYNHzITMyApJJQNDHqwmSAQlGGX1FqI9Bdil+d
+P2fO+z7P8z7PO+dr36U6vdeS5grnnQdXoVd/T7VT91ZYWFwhJlphAWYqxLLQwoWy
+IXKo5iwFYiYMJ0gcUYiGHBQhDniCRwRB0qyISE6kGJkFrAShIMgEyUKSARwEokTR
+vCzRvCgLHIkkBhcwIyYrlgxkt9kVi6rJihxOCwwtAZqBOM5AAvKQ5DgGJ0VtCMcg
+SsYljqU1YqbV4WFo5kTBgaIUq1bTHuZ/7f0fv+gbJ2iWBhKLGIKVAM9yUJIALgGO
+4AVWYGSaEwFgWEDgDKBFJAoQSJAGEFEcweC0DOQF384FOc2kJECWxEUoiNo+CF7m
+AEmxIi2IPEvwHqAD2S1CDtLQOQ5VsSCs2IhpNZciIc9aPTkW+4KqLkCiJGuORrXZ
+rapVsmZrrUxVtZk8TLXA5oHmIdH8n4hZVCxQ26JGcCG7Q7FaMBOhISVV8ahqcQke
+sBQLjBjKtyl2ZFY8CIZjAa4dzxjk0iQlCSchiUOaxiWSoQBFAEqQCIEELC6wEDIE
+yQEelxGPBAmwIiXRkCJwlmIIRpZxEfPEyrVYNW1K8ylkaJoOJcMiqE67FvpST9pz
+Oi+9zvv5JZ7vpdP7+C9+uovf+evKv8lLCG/oOnfcOBOQ7h26y1QyUnxQqFuTdq13
+55j9fM3mmxHvF/2+tfLx5eqNhkp3WsDER/2XWgurA368qo9Z3ZrcT8a3tXRejPrw
+Qbeh/Kib89V3ZHbXGvZNnk1+pza6rKNiavu6p9fNTZPLPo9Z0fZtV8ryzr1fdIxf
+0H2S57ejfuWWTYfa2iLY3xQytv4y03LiBrem2TTGxkw6C84kfGrftio4O+nlqTDU
+ec9n9Nmxn/L/GDbMjYzcfq0y5XTaflfTscD9Vavya4z3z254e0fZ3b72KveMObBk
+NqkuRej9IP74uWl91UyyM4LcOTeEfbWrop78M3rT663Lev923c68cfdax548V7O7
++MusM6+cXK1/cWiteU9lavGR2O2nG0viHoXvbvz5+r65nsaCIyXYe6UbW9yp22bX
+hT+pWF+06XD6Z35N95J/CM59ODd0YTg3dziyLvaN/mcjfaEnT40fvpK75dWnRVKh
+n1fa+sgD5zO95pN/vWJZakgaLI9vH3PcOnWndIBSuyYGGg5Y4WzEUOqJ1icfD7wb
+aAsKKia7dy/fEFnk7Rv9UqLP1un6g4N/JVjiBw7ZJ+R5n4Zw295bIUcHBgLHRw3T
+ZAnCVo7+Yrsf5ON3Mzij7/vuhyEvmMp9jWGDdVmlKLAmxL2iofZNIap2PjHd/5FS
+3r7WvyxxSowLxR9XdzfamnT/ADVgvyA=
+=Muvp
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/mstine
+
+==================================================================
+

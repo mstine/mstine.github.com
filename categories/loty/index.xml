@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Loty on Matt Stine</title>
+    <link>https://www.mattstine.com/categories/loty/</link>
+    <description>Recent content in Loty on Matt Stine</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Matt Stine</copyright>
+    <lastBuildDate>Wed, 06 Jan 2010 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.mattstine.com/categories/loty/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>lotytoty for 2010</title>
+      <link>https://www.mattstine.com/2010/01/06/lotytoty-for-2010/</link>
+      <pubDate>Wed, 06 Jan 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2010/01/06/lotytoty-for-2010/</guid>
+      <description>If anyone&amp;rsquo;s interested, here&amp;rsquo;s a clue as to what I&amp;rsquo;m working on in 2010:</description>
+    </item>
+    
+    <item>
+      <title>making java groovier with lambdaj</title>
+      <link>https://www.mattstine.com/2009/10/09/making-java-groovier-with-lambdaj/</link>
+      <pubDate>Fri, 09 Oct 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2009/10/09/making-java-groovier-with-lambdaj/</guid>
+      <description>I spent the better part of yesterday tracing my way through the codebase for a large-scale enterprise application that my team is building right now, and I happened upon the following piece of code:
+//...imports excluded for clarity public class BusinessActivityBinMetaClassHelper { //... public static List&amp;lt;Long&amp;gt; getSrmMetaClassIdListJava(List&amp;lt;BusinessActivityBinMetaClass&amp;gt; businessActivityBinMetaClassList) { List&amp;lt;Long&amp;gt; srmMetaClassIdList = new ArrayList&amp;lt;Long?(); if(businessActivityBinMetaClassList != null) { for(BusinessActivityBinMetaClass businessActivityBinMetaClass : businessActivityBinMetaClassList) { if(businessActivityBinMetaClass.getSrmMetaClass() != null &amp;amp;&amp;amp; businessActivityBinMetaClass.getSrmMetaClass().getSrmMetaClassId() != null) { srmMetaClassIdList.</description>
+    </item>
+    
+    <item>
+      <title>functional programming blog aggregator in the works</title>
+      <link>https://www.mattstine.com/2009/04/30/functional-programming-blog-aggregator-in-the-works/</link>
+      <pubDate>Thu, 30 Apr 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2009/04/30/functional-programming-blog-aggregator-in-the-works/</guid>
+      <description>So I&amp;rsquo;m in the midst of planning my next toy project, specifically with an aim to build something for the cloud, be it Google App Engine, Mor.ph, EC2, etc. (that part is still up for grabs). What I&amp;rsquo;d like to do is an opt-in blog aggregation site focused around functional programming. It would be very similar to what Glen Smith has done with groovyblogs.org. Groovyblogs is currently my number one referral site and is generating about 20% of the traffic for this blog.</description>
+    </item>
+    
+    <item>
+      <title>hello clojure</title>
+      <link>https://www.mattstine.com/2009/04/24/hello-clojure/</link>
+      <pubDate>Fri, 24 Apr 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2009/04/24/hello-clojure/</guid>
+      <description>; Hello World! (defn hello name)
+(hello &amp;quot;World!&amp;quot;)  </description>
+    </item>
+    
+    <item>
+      <title>lotypart deux</title>
+      <link>https://www.mattstine.com/2009/04/06/lotypart-deux/</link>
+      <pubDate>Mon, 06 Apr 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2009/04/06/lotypart-deux/</guid>
+      <description>A few days ago I pontificated on my need to choose a new &amp;ldquo;Language of the Year.&amp;rdquo; Right now I&amp;rsquo;m attempting to choose between Scala and Clojure. If nothing else, I&amp;rsquo;ve learned from this exercise that asking the community for feedback is a GOOD thing. Your comments have been very helpful.
+To summarize:
+ As far as the polls go, Scala is in the lead by a margin of 4 to 2.</description>
+    </item>
+    
+  </channel>
+</rss>

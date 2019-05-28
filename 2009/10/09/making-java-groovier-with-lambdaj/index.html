@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme" content="hugo-academic">
+  <meta name="generator" content="Hugo 0.46" />
+  <meta name="author" content="Matt Stine">
+  <meta name="description" content="Global CTO - Architecture">
+
+  <link rel="stylesheet" href="/css/highlight.min.css">
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/css/academicons.min.css">
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,700|Merriweather|Roboto+Mono">
+  <link rel="stylesheet" href="/css/hugo-academic.css">
+  
+
+  <link rel="alternate" href="https://www.mattstine.com/index.xml" type="application/rss+xml" title="Matt Stine">
+  <link rel="feed" href="https://www.mattstine.com/index.xml" type="application/rss+xml" title="Matt Stine">
+
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
+
+  <link rel="canonical" href="https://www.mattstine.com/2009/10/09/making-java-groovier-with-lambdaj/">
+
+  
+
+  <title>making java groovier with lambdaj | Matt Stine</title>
+
+</head>
+<body id="top">
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target=".navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">Matt Stine</a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse" id="#navbar-collapse-1">
+
+      
+      <ul class="nav navbar-nav navbar-right">
+        
+        <li class="nav-item"><a href="/#top">Home</a></li>
+        
+        <li class="nav-item"><a href="/#publications">Publications</a></li>
+        
+        <li class="nav-item"><a href="/#posts">Posts</a></li>
+        
+        <li class="nav-item"><a href="/#videos">Videos</a></li>
+        
+        <li class="nav-item"><a href="/#articles">Articles</a></li>
+        
+        <li class="nav-item"><a href="/#interviews">Interviews</a></li>
+        
+        <li class="nav-item"><a href="/#upcoming">Appearances</a></li>
+        
+        <li class="nav-item"><a href="/#contact">Contact</a></li>
+        
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+<div class="container">
+
+  <article class="article" itemscope itemtype="http://schema.org/Article">
+
+    
+
+    <h1 itemprop="name">making java groovier with lambdaj</h1>
+
+    
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    <time datetime="2009-10-09 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+      Fri, Oct 9, 2009
+    </time>
+  </span>
+
+  
+
+  
+  
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.mattstine.com%2f2009%2f10%2f09%2fmaking-java-groovier-with-lambdaj%2f"
+         target="_blank">
+        <i class="fa fa-facebook"></i>
+      </a>
+    </li>
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=making%20java%20groovier%20with%20lambdaj&amp;url=https%3a%2f%2fwww.mattstine.com%2f2009%2f10%2f09%2fmaking-java-groovier-with-lambdaj%2f"
+         target="_blank">
+        <i class="fa fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fwww.mattstine.com%2f2009%2f10%2f09%2fmaking-java-groovier-with-lambdaj%2f&amp;title=making%20java%20groovier%20with%20lambdaj"
+         target="_blank">
+        <i class="fa fa-linkedin"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fwww.mattstine.com%2f2009%2f10%2f09%2fmaking-java-groovier-with-lambdaj%2f&amp;title=making%20java%20groovier%20with%20lambdaj"
+         target="_blank">
+        <i class="fa fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=making%20java%20groovier%20with%20lambdaj&amp;body=https%3a%2f%2fwww.mattstine.com%2f2009%2f10%2f09%2fmaking-java-groovier-with-lambdaj%2f">
+        <i class="fa fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+
+    <div class="article-style" itemprop="articleBody">
+      <p>I spent the better part of yesterday tracing my way through the codebase for a large-scale enterprise application that my team is building right now, and I happened upon the following piece of code:</p>
+
+<pre><code class="language-java">//...imports excluded for clarity
+public class BusinessActivityBinMetaClassHelper {
+//...
+   public static List&lt;Long&gt; getSrmMetaClassIdListJava(List&lt;BusinessActivityBinMetaClass&gt; businessActivityBinMetaClassList) {
+      List&lt;Long&gt; srmMetaClassIdList = new ArrayList&lt;Long?();
+
+      if(businessActivityBinMetaClassList != null) {
+         for(BusinessActivityBinMetaClass businessActivityBinMetaClass : businessActivityBinMetaClassList) {
+             if(businessActivityBinMetaClass.getSrmMetaClass() != null &amp;&amp; businessActivityBinMetaClass.getSrmMetaClass().getSrmMetaClassId() != null) {
+               srmMetaClassIdList.add
+                  (businessActivityBinMetaClass.getSrmMetaClass().getSrmMetaClassId());
+            }
+         }
+      }
+
+      return srmMetaClassIdList;
+   }
+//...
+}
+</code></pre>
+
+<p>As I read this code, I thought &ldquo;This just SCREAMS a need for Groovy&rsquo;s closure iterators.&rdquo; So, last night I quickly hacked out fully-equivalent Groovy version of the code:</p>
+
+<p>{% codeblock lang:java %}
+class GroovyExample {</p>
+
+<p>static def getSrmMetaClassIdListGroovy(def businessActivityBinMetaClassList) {
+      businessActivityBinMetaClassList?.collect { it?.srmMetaClass?.srmMetaClassId }.findAll { it != null } ?: new ArrayList<Long>();
+   }
+}
+{% endcodeblock %}</p>
+
+<p>Whew! Much nicer. What did we get out of this? Well&hellip;</p>
+
+<ul>
+<li><p>Groovy&rsquo;s dynamic typing cleaned up all of the unnecessary type declarations - the only static typing is where we return an empty ArrayList of Longs if the argument to our method is null (a bit of odd behavior, but required to make this code equivalent to the parent Java code.</p></li>
+
+<li><p>We were saved 4 painful null checks by the use of Groovy&rsquo;s null safe dereferencing operator (?.) and the simplified ternary operator otherwise affectionately known as the &ldquo;Elvis Operator&rdquo; (?:).</p></li>
+
+<li><p>Using Groovy&rsquo;s collect method, we were able to transform the original list into a list containing Long values by passing in a closure that pulls out the property value of interest.</p></li>
+
+<li><p>Because we&rsquo;re using null safe dereferencing, we are actually inserting nulls into our list if any of the dereferencing fails. Therefore, Groovy&rsquo;s findAll Collection filtering method comes to the rescue. We simply provide it with a closure that returns true for all of the values we want to keep - in this case, &ldquo;it != null.&rdquo;</p></li>
+
+<li><p>Perhaps most importantly, we&rsquo;ve shorted our code from 11 lines (including whitespace lines for clarity) to ONE LINE that much more clearly expresses the intent of the code.</p></li>
+</ul>
+
+<p>Great - why don&rsquo;t we just rewrite the entire application is Groovy? Well, hold on just a minute. At the time we started this application, as much as some of us loved Groovy, we just didn&rsquo;t have enough Groovy mindshare to go there yet. On top of that, we were already experimenting with several new architectural ideas and technologies, and Groovy would have added yet one more risk to the puzzle. I say all this to acknowledge that sometimes you just can&rsquo;t move to another language for one reason or another, regardless of how attractive its features may be.</p>
+
+<p>But let&rsquo;s take a queue from the <em>Pragmatic Programmer</em> and explore the LOTY (Language of the Year) concept one more time. One of the reasons that you&rsquo;re encouraged to learn new languages is to change the way you program in your main language. You may learn Groovy, Scala, Clojure, Ruby, etc., etc., etc. and never use them in your day job - and yet the experience of coding in a new language with new constructs and idioms will necessarily change the way you THINK about programming in every other language.</p>
+
+<p>So, let&rsquo;s think about the possibility of coding something that is much more similar to the Groovy version and yet stick with regular Java code. Fortunately, there are several libraries out there that bring much of the flavor and power of Groovy&rsquo;s closure iterators to Java. I&rsquo;d like to focus in on one of them, LambdaJ (<a href="http://code.google.com/p/lambdaj/">http://code.google.com/p/lambdaj/</a>).</p>
+
+<p>LambdaJ provides constructs that allow us to &ldquo;&hellip;manipulate collections in a pseudo-functional and statically typed way.&rdquo; Let&rsquo;s take a look at this example implementing using LambdaJ:</p>
+
+<pre><code class="language-java">//...some imports excluded for clarity
+import ch.lambdaj.function.convert.Converter
+import static ch.lambdaj.Lambda.*
+import static org.hamcrest.Matchers.*
+
+public class BusinessActivityBinMetaClassHelper {
+//...
+   public static List&lt;Long&gt; getSrmMetaClassIdListJava(List&lt;BusinessActivityBinMetaClass&gt; businessActivityBinMetaClassList) {
+      return (businessActivityBinMetaClassList != null) ? filter(notNullValue(),convert(businessActivityBinMetaClassList, new IdExtractor())) : new ArrayList&lt;Long&gt;();
+   }
+
+   class IdExtractor implements Converter&lt;BusinessActivityBinMetaClass,Long&gt; {
+	Long convert(BusinessActivityBinMetaClass from) {
+	   if (from.getSrmMetaClass() != null &amp;&amp; from.getSrmMetaClass().getSrmMetaClassId() != null) {
+	      return from.getSrmMetaClass().getSrmMetaClassId();
+	   }
+   }
+}
+</code></pre>
+
+<p>Not quite as nice as the Groovy code - we got A LOT out of the null-safe dereference and Elvis operators. However, our overall intent is still a bit clearer. Let&rsquo;s analyze:</p>
+
+<ul>
+<li><p>First we need to implement one of LambdaJ&rsquo;s Converters. A Converter is nothing more than a generic Interface that defines one method: T convert(F from), where F is the type we&rsquo;re converting from and T is the type we&rsquo;re converting to. In this case, we want to convert an object of type BusinessActivityBinMetaClass to an object of type Long. Our implementation determines how this conversion takes place, in this case by extracting the id property from its child.</p></li>
+
+<li><p>Next, after statically importing the methods of ch.lambdaj.Lambda, we call the convert method, passing it our List and our newly implemented Converter. This gives us the equivalent of Groovy&rsquo;s collect method, with the Converter taking the place of the closure.</p></li>
+
+<li><p>We&rsquo;re still shoving nulls into our List with this implementation, so we further filter our list using LambdaJ&rsquo;s &ldquo;filter&rdquo; method, passing it the list returned by &ldquo;filter,&rdquo; and a <a href="http://code.google.com/p/hamcrest/">Hamcrest</a> matcher that returns only notNullValue()&rsquo;s.</p></li>
+
+<li><p>Finally, we use our old friend the ternary operator to return the empty ArrayList of Long values if our method argument is null.</p></li>
+</ul>
+
+<p>If you don&rsquo;t count the Converter implementation, we&rsquo;ve gotten ourselves down to 2 lines of code (1 if you don&rsquo;t mind long lines). In this case I implemented IdExtractor as a named inner class - you could do this with an anonymous inner class and it would look a lot more like a closure, but the added noise of all of the null checking made the undesirable for me. Perhaps if your code has less noise (or guarantees that values aren&rsquo;t null), that would be a better approach.</p>
+
+<p>Another alternative is to make IdExtractor a top-level class that, if general enough, could be reused throughout the codebase. The benefit of this is that you now have a nice code unit rather than a battery of static methods in a utility class, and unit testing becomes much more clean and elegant.</p>
+
+<p>So, we&rsquo;ve still made some progress and made our code a bit more Groovy. I encourage you to explore LambdaJ&rsquo;s feature set and see how it might make your code a bit more concise with clearer intent. And just to stir up a little controversy, look what would have happened in Java 7 had the null safe dereference and Elvis operator&rsquo;s made <a href="http://blogs.sun.com/darcy/entry/project_coin_final_five">the Project Coin cut</a>:</p>
+
+<pre><code class="language-java">//...some imports excluded for clarity
+import ch.lambdaj.function.convert.Converter
+import static ch.lambdaj.Lambda.*
+import static org.hamcrest.Matchers.*
+
+public class BusinessActivityBinMetaClassHelper {
+//...
+   public static List&lt;Long&gt; getSrmMetaClassIdListLambdaJ(List&lt;BusinessActivityBinMetaClass&gt; businessActivityBinMetaClassList) {
+      return filter(notNullValue(),convert(businessActivityBinMetaClassList,
+         new Converter&lt;BusinessActivityBinMetaClass,Long&gt; {
+            Long apply(BusinessActivityBinMetaClass from) { return from?.getSrmMetaClass()?.getSrmMetaClassId()}
+         })) ?: new ArrayList&lt;Long&gt;();
+   }
+}
+</code></pre>
+
+<p>Nice, huh? ;-)</p>
+
+    </div>
+
+  </article>
+
+  <nav>
+  <ul class="pager">
+    
+    <li class="previous"><a href="https://www.mattstine.com/2009/10/03/test-driven-development-worked-for-me/"><span
+      aria-hidden="true">&larr;</span> test driven development worked for me</a></li>
+    
+
+    
+    <li class="next"><a href="https://www.mattstine.com/2009/10/21/thoughts-so-far-on-springone2gx/">thoughts so far on springone2gx <span
+      aria-hidden="true">&rarr;</span></a></li>
+    
+  </ul>
+</nav>
+
+  
+<section id="comments">
+  <div id="disqus_thread">
+    <div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "seekingsimplicity" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+  </div>
+</section>
+
+
+
+</div>
+<footer class="site-footer">
+  <div class="container">
+    <p class="powered-by">
+
+      &copy; 2018 Matt Stine &middot; 
+
+      Powered by the <a href="https://github.com/gcushen/hugo-academic" target="_blank">Academic
+      theme</a> for <a href="http://gohugo.io" target="_blank">Hugo</a>.
+
+      <span class="pull-right" aria-hidden="true">
+        <a href="#" id="back_to_top">
+          <span class="button_icon">
+            <i class="fa fa-chevron-up fa-2x"></i>
+          </span>
+        </a>
+      </span>
+
+    </p>
+  </div>
+</footer>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/TweenMax.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/ScrollToPlugin.min.js"></script>
+    <script src="/js/jquery-1.12.3.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/hugo-academic.js"></script>
+    
+
+    
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-8534802-1', 'auto');
+        ga('send', 'pageview');
+
+         
+        var links = document.querySelectorAll('a');
+        Array.prototype.map.call(links, function(item) {
+            if (item.host != document.location.host) {
+                item.addEventListener('click', function() {
+                    var action = item.getAttribute('data-action') || 'follow';
+                    ga('send', 'event', 'outbound', action, item.href);
+                });
+            }
+        });
+    </script>
+    
+
+    
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.3.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
+    
+    
+
+  </body>
+</html>
+

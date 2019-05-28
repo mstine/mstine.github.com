@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme" content="hugo-academic">
+  <meta name="generator" content="Hugo 0.46" />
+  <meta name="author" content="Matt Stine">
+  <meta name="description" content="Global CTO - Architecture">
+
+  <link rel="stylesheet" href="/css/highlight.min.css">
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/css/academicons.min.css">
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,700|Merriweather|Roboto+Mono">
+  <link rel="stylesheet" href="/css/hugo-academic.css">
+  
+
+  <link rel="alternate" href="https://www.mattstine.com/index.xml" type="application/rss+xml" title="Matt Stine">
+  <link rel="feed" href="https://www.mattstine.com/index.xml" type="application/rss+xml" title="Matt Stine">
+
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
+
+  <link rel="canonical" href="https://www.mattstine.com/2009/04/25/grails-prototype-scriptaculous-persistent-grid-sorting-goodness/">
+
+  
+
+  <title>grails prototype scriptaculous persistent grid sorting goodness | Matt Stine</title>
+
+</head>
+<body id="top">
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target=".navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">Matt Stine</a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse" id="#navbar-collapse-1">
+
+      
+      <ul class="nav navbar-nav navbar-right">
+        
+        <li class="nav-item"><a href="/#top">Home</a></li>
+        
+        <li class="nav-item"><a href="/#publications">Publications</a></li>
+        
+        <li class="nav-item"><a href="/#posts">Posts</a></li>
+        
+        <li class="nav-item"><a href="/#videos">Videos</a></li>
+        
+        <li class="nav-item"><a href="/#articles">Articles</a></li>
+        
+        <li class="nav-item"><a href="/#interviews">Interviews</a></li>
+        
+        <li class="nav-item"><a href="/#upcoming">Appearances</a></li>
+        
+        <li class="nav-item"><a href="/#contact">Contact</a></li>
+        
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+<div class="container">
+
+  <article class="article" itemscope itemtype="http://schema.org/Article">
+
+    
+
+    <h1 itemprop="name">grails prototype scriptaculous persistent grid sorting goodness</h1>
+
+    
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    <time datetime="2009-04-25 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+      Sat, Apr 25, 2009
+    </time>
+  </span>
+
+  
+
+  
+  
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.mattstine.com%2f2009%2f04%2f25%2fgrails-prototype-scriptaculous-persistent-grid-sorting-goodness%2f"
+         target="_blank">
+        <i class="fa fa-facebook"></i>
+      </a>
+    </li>
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=grails%20prototype%20scriptaculous%20persistent%20grid%20sorting%20goodness&amp;url=https%3a%2f%2fwww.mattstine.com%2f2009%2f04%2f25%2fgrails-prototype-scriptaculous-persistent-grid-sorting-goodness%2f"
+         target="_blank">
+        <i class="fa fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fwww.mattstine.com%2f2009%2f04%2f25%2fgrails-prototype-scriptaculous-persistent-grid-sorting-goodness%2f&amp;title=grails%20prototype%20scriptaculous%20persistent%20grid%20sorting%20goodness"
+         target="_blank">
+        <i class="fa fa-linkedin"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fwww.mattstine.com%2f2009%2f04%2f25%2fgrails-prototype-scriptaculous-persistent-grid-sorting-goodness%2f&amp;title=grails%20prototype%20scriptaculous%20persistent%20grid%20sorting%20goodness"
+         target="_blank">
+        <i class="fa fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=grails%20prototype%20scriptaculous%20persistent%20grid%20sorting%20goodness&amp;body=https%3a%2f%2fwww.mattstine.com%2f2009%2f04%2f25%2fgrails-prototype-scriptaculous-persistent-grid-sorting-goodness%2f">
+        <i class="fa fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+
+    <div class="article-style" itemprop="articleBody">
+      <p>Ever wanted to do drag-n-drop sorting of a grid of images on a page and persist it? Here&rsquo;s my solution using Grails, Prototype, and Script.aculo.us.</p>
+
+<p>Basically what prompted this was the need for my wife to be able to sort the various product images that she had on a screen at any given time in any way that she pleased, and it had to be easy to work with. What follows is by no means a complete solution to this problem, but it represents where I am in the development process and may be useful to you, my hapless reader.</p>
+
+<p>Here&rsquo;s some GSP code which basically lays out a grid of product images, 3 wide by <em>n</em> deep:</p>
+
+<pre><code>&lt;div id=&quot;productThumbContainer&quot;&gt;
+  &lt;g:set var=&quot;rowIndex&quot; value=&quot;${0}&quot;/&gt;
+&lt;g:each in=&quot;${products}&quot; var=&quot;product&quot; status=&quot;index&quot;&gt;
+  &lt;g:if test=&quot;${index % 3 == 0}&quot;&gt;
+    &lt;div id=&quot;productRow${rowIndex}&quot; class=&quot;span-20 last product-row&quot;&gt;
+  &lt;/g:if&gt;
+  &lt;div id=&quot;product_${product.id}&quot; class=&quot;span-6 product &lt;g:if test=&quot;${(index % 3 == 2) || ((products.size() - index) == 1)}&quot;&gt;last&lt;/g:if&gt;&lt;g:else&gt;append-1&lt;/g:else&gt;&quot;&gt;
+    &lt;img src=&quot;${resource(dir: grailsApplication.config.store.productImages.webPath, file: product?.thumbnailImage?.name)}&quot; width=&quot;230&quot; class=&quot;productImage&quot;&gt;
+    &lt;h3&gt;&lt;g:link controller=&quot;product&quot; action=&quot;show&quot; id=&quot;${product.id}&quot;&gt;${product.name}&lt;/g:link&gt;&lt;/h3&gt;
+  &lt;/div&gt;
+  &lt;g:if test=&quot;${(index % 3 == 2) || ((products.size() - index) == 1)}&quot;&gt;
+    &lt;/div&gt;
+    &lt;g:set var=&quot;rowIndex&quot; value=&quot;${rowIndex + 1}&quot;/&gt;
+  &lt;/g:if&gt;
+&lt;/g:each&gt;
+&lt;/div&gt;
+</code></pre>
+
+<p>Now here&rsquo;s where the magic happens:</p>
+
+<pre><code>document.observe('dom:loaded', function() {
+      var productRows = $$('.product-row');
+
+      var options = {
+        constraint: false,
+        overlap: 'horizontal',
+        containment: productRows,
+        dropOnEmpty: true,
+        tag: 'div',
+</code></pre>
+
+<p>date = &ldquo;&rdquo;
+          };</p>
+
+<pre><code>      productRows.each(function(item) {
+        Sortable.create(item, options);
+      });
+
+      $('persistOrderingButton').observe('click', function(event) {
+          var sortString = '';
+          productRows.each(function(row) {
+              sortString += '&amp;';
+              sortString += Sortable.serialize(row);
+          });
+          &lt;g:remoteFunction action=&quot;sortProducts&quot; params=&quot;sortString&quot; update=&quot;ajaxMessage&quot; onSuccess=&quot;\$('ajaxMessage').show()&quot;/&gt;
+      });
+});
+</code></pre>
+
+<p>What we&rsquo;ve got here is, failure to communicate&hellip;oops, wrong synapse there&hellip;what we&rsquo;ve got here is a Prototype selector that grabs everything with the class &ldquo;.product-row.&rdquo; It then takes these and creates a Scriptaculous Sortable for each of them, providing the object-literal &ldquo;options.&rdquo; Notice the &ldquo;containment&rdquo; option which allows you to drag products back and forth between the various rows.</p>
+
+<p>Delving deeper into the magic is the callback function &ldquo;updateRows.&rdquo; This guy is my favorite Javascript creation in quite some time:</p>
+
+<pre><code>function updateRows(list) {
+      var children = list.childElements();
+
+      if (children.size() &lt; 3) {
+
+        //If I'm the last row, who cares!
+        if (list.next() != null) {
+          var prevRow = list.previous();
+
+          if (prevRow != null) {
+            var lastChild = prevRow.childElements()[prevRow.childElements().size() - 1].remove();
+            list.insert({top:lastChild});
+            updateRows(prevRow);
+          } else {
+            var lastRow = list.up().childElements()[list.up().childElements().size() - 1];
+            var lastChild = lastRow.childElements()[lastRow.childElements().size() - 1].remove();
+            list.insert({top:lastChild});
+            updateRows(lastRow);
+          }
+        }
+      } else if (children.size() == 3) {
+        //Do nothing...gets me out of the recursion I hope!
+      } else {
+        var nextRow = list.next();
+        var lastChild = children[children.size() - 1].remove();
+
+        if (nextRow != null) {
+          nextRow.insert({top:lastChild});
+          updateRows(nextRow);
+        } else {
+          var topRow = list.up().childElements()[0];
+          topRow.insert({top:lastChild});
+          updateRows(topRow);
+        }
+      }
+
+      var i = 0;
+      Sortable.sequence(list).each(function(item) {
+        var productId = 'product_' + item;
+        if (i &lt; 2) {
+          $(productId).removeClassName('last');
+          $(productId).removeClassName('append-1');
+          $(productId).addClassName('append-1');
+        } else {
+          $(productId).removeClassName('last');
+          $(productId).removeClassName('append-1');
+          $(productId).addClassName('last');
+        }
+        i++;
+      });
+}
+</code></pre>
+
+<p>This function is organized around the fact that the only valid state for a grid of n-rows will be n-1 rows of 3 products, followed by one row of 1 &lt;= numProducts &lt;= 3. In most cases, if you drag a product from one row to another, you are violating that rule by creating a row with 2 products and a row with 4 products. This function solves the problem by recursively shifting the products down until reaching a stable state again.</p>
+
+<p>There&rsquo;s a bit of noise there at the bottom of the function. I&rsquo;m using Blueprint CSS to do the layout for this application and I need to shift the various Blueprint classes around once everything is settled.</p>
+
+<p>Finally, here&rsquo;s the persistence of the data when we click save:</p>
+
+<pre><code>def sortProducts = {
+    TreeMap rowMap = new TreeMap()
+
+    params.each {key, value -&gt;
+      def matcher = key =~ /productRow(.*)\[\]/
+      if (matcher.matches()) {
+        def rowId = matcher[0][1]
+        rowMap[rowId] = value
+      }
+    }
+
+    def productIds = []
+    rowMap.values().each { row -&gt;
+      row.each {
+        productIds &lt;&lt; it.toLong()
+      }
+    }
+
+    shoppingService.saveSortOrder(productIds)
+
+    render(&quot;Product sort order saved!&quot;)
+}
+</code></pre>
+
+<p>and the logic from shoppingService.saveSortOrder():</p>
+
+<pre><code>def saveSortOrder(def productIds) {
+    def productsToSort = Product.findAllByIdInList(productIds)
+
+    def productMap = [:]
+    def sortIndexList = []
+
+    productsToSort.each {
+      productMap[it.id] = it
+      sortIndexList &lt;&lt; it.sortIndex
+    }
+
+    sortIndexList.sort()
+    sortIndexList = sortIndexList.reverse()
+
+    productIds.each {
+      productMap[it].sortIndex = sortIndexList.pop()
+    }
+
+    productsToSort.each {
+      it.save()
+    }
+}
+</code></pre>
+
+<p>You might wonder why this is so complex. What I haven&rsquo;t fully described is the way products are organized into a hierarchy of various categories. When you&rsquo;re sorting a screen, you&rsquo;re only sorting a subset of the products that are in that particular category. However, the sort order is maintained across the entire product set in the database. So, this logic basically just shifts around the existing sort indicies, placing them in their new relative order.</p>
+
+<p>Anyway, I don&rsquo;t know how generally applicable this code is, but I had fun writing it and I hope you can get some use out of it. Cheers!</p>
+
+    </div>
+
+  </article>
+
+  <nav>
+  <ul class="pager">
+    
+    <li class="previous"><a href="https://www.mattstine.com/2009/04/25/groovy-post-to-a-url/"><span
+      aria-hidden="true">&larr;</span> groovy post to a url</a></li>
+    
+
+    
+    <li class="next"><a href="https://www.mattstine.com/2009/04/27/joels-builderbuilder-in-groovy/">joels builderbuilder in groovy <span
+      aria-hidden="true">&rarr;</span></a></li>
+    
+  </ul>
+</nav>
+
+  
+<section id="comments">
+  <div id="disqus_thread">
+    <div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "seekingsimplicity" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+  </div>
+</section>
+
+
+
+</div>
+<footer class="site-footer">
+  <div class="container">
+    <p class="powered-by">
+
+      &copy; 2018 Matt Stine &middot; 
+
+      Powered by the <a href="https://github.com/gcushen/hugo-academic" target="_blank">Academic
+      theme</a> for <a href="http://gohugo.io" target="_blank">Hugo</a>.
+
+      <span class="pull-right" aria-hidden="true">
+        <a href="#" id="back_to_top">
+          <span class="button_icon">
+            <i class="fa fa-chevron-up fa-2x"></i>
+          </span>
+        </a>
+      </span>
+
+    </p>
+  </div>
+</footer>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/TweenMax.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/ScrollToPlugin.min.js"></script>
+    <script src="/js/jquery-1.12.3.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/hugo-academic.js"></script>
+    
+
+    
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-8534802-1', 'auto');
+        ga('send', 'pageview');
+
+         
+        var links = document.querySelectorAll('a');
+        Array.prototype.map.call(links, function(item) {
+            if (item.host != document.location.host) {
+                item.addEventListener('click', function() {
+                    var action = item.getAttribute('data-action') || 'follow';
+                    ga('send', 'event', 'outbound', action, item.href);
+                });
+            }
+        });
+    </script>
+    
+
+    
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.3.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
+    
+    
+
+  </body>
+</html>
+

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Writing on Matt Stine</title>
+    <link>https://www.mattstine.com/categories/writing/</link>
+    <description>Recent content in Writing on Matt Stine</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Matt Stine</copyright>
+    <lastBuildDate>Thu, 24 May 2012 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.mattstine.com/categories/writing/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>the relaunch</title>
+      <link>https://www.mattstine.com/2012/05/24/the-relaunch/</link>
+      <pubDate>Thu, 24 May 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2012/05/24/the-relaunch/</guid>
+      <description>I have rebooted this blog many times over the last several years. If you&amp;rsquo;ve been a reader of my blog in the past, you will have noticed significant changes. If you&amp;rsquo;re new here, welcome!
+This reboot has been in the works for several months now, even though I&amp;rsquo;ve probably spent far less than 24 active hours working on it. Life as an &amp;ldquo;itinerant&amp;rdquo; consultant and conference speaker is extremely busy compared to what I was doing on May 16, 2012 (the date of my last blog posting).</description>
+    </item>
+    
+  </channel>
+</rss>

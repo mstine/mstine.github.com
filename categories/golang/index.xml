@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Golang on Matt Stine</title>
+    <link>https://www.mattstine.com/categories/golang/</link>
+    <description>Recent content in Golang on Matt Stine</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Matt Stine</copyright>
+    <lastBuildDate>Tue, 08 Jul 2014 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.mattstine.com/categories/golang/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>learning to go part i interfaces</title>
+      <link>https://www.mattstine.com/2014/07/08/learning-to-go-part-i-interfaces/</link>
+      <pubDate>Tue, 08 Jul 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2014/07/08/learning-to-go-part-i-interfaces/</guid>
+      <description>This article was originally published in the April 2014 issue of NFJS the Magazine.
+ This article begins an introductory series on the Go programming language. Go is a language optimized for large-scale software engineering and is rapidly becoming the language of choice for building cloud services. It does this in a very interesting way, optimizing for simplicity rather than complexity and taking a &amp;#8220;less is exponentially more&amp;#8221; approach.</description>
+    </item>
+    
+  </channel>
+</rss>

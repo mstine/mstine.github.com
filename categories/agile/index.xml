@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Agile on Matt Stine</title>
+    <link>https://www.mattstine.com/categories/agile/</link>
+    <description>Recent content in Agile on Matt Stine</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Matt Stine</copyright>
+    <lastBuildDate>Wed, 05 Jan 2011 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.mattstine.com/categories/agile/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>selenium conference 2011</title>
+      <link>https://www.mattstine.com/2011/01/05/selenium-conference-2011/</link>
+      <pubDate>Wed, 05 Jan 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2011/01/05/selenium-conference-2011/</guid>
+      <description>I completed an interest survey for a potential Selenium-focused conference several weeks ago, and I&amp;rsquo;m excited to let you know that the &amp;ldquo;powers that be&amp;rdquo; have decided that the conference is going to happen! I have already submitted my &amp;ldquo;Executable Specifications: Automating Your Requirements Document with Geb and Spock&amp;rdquo; talk as a potential session. Whether it makes the conference program or not, I plan on attending the event. Here are the details:</description>
+    </item>
+    
+    <item>
+      <title>agile zone roundup</title>
+      <link>https://www.mattstine.com/2010/11/10/agile-zone-roundup/</link>
+      <pubDate>Wed, 10 Nov 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2010/11/10/agile-zone-roundup/</guid>
+      <description>I&amp;rsquo;ve been really quiet on this blog lately. There have been multiple reasons for that. I&amp;rsquo;ve been extremely busy preparing for conferences this Fall including SpringOne/2GX and The Rich Web Experience. I&amp;rsquo;ve also stayed busy writing for DZone. I have my first DZone Refcard coming out soon, which is focused on Web Driver/Selenium 2. I&amp;rsquo;ve also been writing my regular articles for Agile Zone. Here&amp;rsquo;s a roundup:
+ Modular Agile: Loosely coupled, highly cohesive ceremonies</description>
+    </item>
+    
+    <item>
+      <title>the seven wastes of software development</title>
+      <link>https://www.mattstine.com/2010/11/10/the-seven-wastes-of-software-development/</link>
+      <pubDate>Wed, 10 Nov 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2010/11/10/the-seven-wastes-of-software-development/</guid>
+      <description>In late September I completed an eight-part article series for Agile Zone entitled &amp;ldquo;The Seven Wastes of Software Development.&amp;rdquo; This series discussed Mary and Tom Poppendieck&amp;rsquo;s mapping of Shigeo Shingo&amp;rsquo;s &amp;ldquo;Seven Wastes of Lean Manufacturing&amp;rdquo; into the software development world. This has been a very popular series, having been viewed a total of 57,887 times at this writing. Here&amp;rsquo;s a set of links to the series:
+ The Seven Wastes of Software Development - Introduction Waste #1 - Partially Done Work Waste #2 - Extra Features Waste #3 - Relearning Waste #4 - Handoffs Waste #5 - Delays Waste #6 - Task Switching Waste #7 - Defects  </description>
+    </item>
+    
+    <item>
+      <title>the agile guerilla series</title>
+      <link>https://www.mattstine.com/2010/09/05/the-agile-guerilla-series/</link>
+      <pubDate>Sun, 05 Sep 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2010/09/05/the-agile-guerilla-series/</guid>
+      <description>I recently completed a series of articles for Agile Zone entitled &amp;ldquo;The Agile Guerilla.&amp;rdquo; Those of you that have seen me on the No Fluff Just Stuff tour this year may recognize a talk by the same name. They are one and the same concept: my attempt to reach the masses with strategies for introducing change, specifically moving to agility, into organizations from the grassroots level.
+Here&amp;rsquo;s a list of the complete set of articles for your convenience!</description>
+    </item>
+    
+    <item>
+      <title>more agile zone articles</title>
+      <link>https://www.mattstine.com/2010/08/02/more-agile-zone-articles/</link>
+      <pubDate>Mon, 02 Aug 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2010/08/02/more-agile-zone-articles/</guid>
+      <description>Just to prove that I am writing, just not here, I thought I&amp;rsquo;d post another collection of links to my latest Agile Zone articles:
+ Yes You Kanban!
+ The Guerilla&amp;rsquo;s Workflow Feedback is the Key! Going Guerilla: Where to Start  In the near future you can look forward to a few more episodes of &amp;ldquo;The Agile Guerilla&amp;rdquo; series, as well as a brand new series I&amp;rsquo;ll be starting entitled &amp;ldquo;The Seven Wastes of Software Development.</description>
+    </item>
+    
+    <item>
+      <title>i&#39;m in the zone...agile zone</title>
+      <link>https://www.mattstine.com/2010/07/20/im-in-the-zone-agile-zone/</link>
+      <pubDate>Tue, 20 Jul 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2010/07/20/im-in-the-zone-agile-zone/</guid>
+      <description>My apologies to my colleagues down the street at AutoZone, but I just had to do that. :-)
+I recently accepted the role of Agile Zone Leader at DZone.com. For the past few weeks I&amp;rsquo;ve been publishing a couple of articles a week on various agile development topics. I&amp;rsquo;m very happy to get the extra exposure and I hope that folks are getting some value out of my posts. On the downside, I have virtually zero time to write anything here, but on the upside I&amp;rsquo;m definitely writing more regularly.</description>
+    </item>
+    
+    <item>
+      <title>dont build software thats too smart</title>
+      <link>https://www.mattstine.com/2010/06/03/dont-build-software-thats-too-smart/</link>
+      <pubDate>Thu, 03 Jun 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2010/06/03/dont-build-software-thats-too-smart/</guid>
+      <description>I had an extremely successful meeting with one of our clients yesterday. We were discussing how we wanted to go about migrating her laboratory from its current system (one that we built several years ago) to our new lab management platform. At some point during the discussion I made the statement, &amp;ldquo;We tried to make the previous system too smart! We&amp;rsquo;re not repeating that mistake this time.&amp;rdquo; Of course, she was in complete agreement with that principle.</description>
+    </item>
+    
+    <item>
+      <title>pomodoro the first iteration</title>
+      <link>https://www.mattstine.com/2009/11/04/pomodoro-the-first-iteration/</link>
+      <pubDate>Wed, 04 Nov 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2009/11/04/pomodoro-the-first-iteration/</guid>
+      <description>I spent about an hour last night reading through Francesco Cirillo&amp;rsquo;s e-book The Pomodoro Technique. Up until this point I knew the basics of the technique, but I really wanted to drill down and get the details. I won&amp;rsquo;t explain those here - visit http://www.pomodorotechnique.com/ to get the lowdown. What I want to talk about is my experience applying the technique this morning.
+I managed to complete two Pomodoros. Each of the Pomodoros was filled with internal interruptions of various kinds.</description>
+    </item>
+    
+    <item>
+      <title>test driven development worked for me</title>
+      <link>https://www.mattstine.com/2009/10/03/test-driven-development-worked-for-me/</link>
+      <pubDate>Sat, 03 Oct 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2009/10/03/test-driven-development-worked-for-me/</guid>
+      <description>Our team got to spend a few days with Jared Richardson this week, talking tech leadership, agile, and automated testing. At some point during the opening day&amp;rsquo;s discussion, I related the story of how I initially got into Test Driven Development (TDD) and how it seriously ramped up my productivity and decreased my defect count.
+In early 2003, we were slowly dragging through development of the first version of our Shared Resource Management system.</description>
+    </item>
+    
+    <item>
+      <title>career 20 toastmasters</title>
+      <link>https://www.mattstine.com/2009/05/11/career-20-toastmasters/</link>
+      <pubDate>Mon, 11 May 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2009/05/11/career-20-toastmasters/</guid>
+      <description>I&amp;rsquo;m currently making my second trip through Jared Richardson&amp;rsquo;s excellent book Career 2.0: Take Control of Your Life. In the &amp;ldquo;Public Speaking&amp;rdquo; chapter, one of the recommended avenues for public speaking practice is Toastmasters. I first heard of Toastmasters&amp;hellip;you guessed it, on my first trip through the book. Shortly after returning home from NFJS St. Louis, I decided to see if I could find a local club. Lo and behold, a Toastmasters club already meets on the St.</description>
+    </item>
+    
+    <item>
+      <title>lotypart deux</title>
+      <link>https://www.mattstine.com/2009/04/06/lotypart-deux/</link>
+      <pubDate>Mon, 06 Apr 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2009/04/06/lotypart-deux/</guid>
+      <description>A few days ago I pontificated on my need to choose a new &amp;ldquo;Language of the Year.&amp;rdquo; Right now I&amp;rsquo;m attempting to choose between Scala and Clojure. If nothing else, I&amp;rsquo;ve learned from this exercise that asking the community for feedback is a GOOD thing. Your comments have been very helpful.
+To summarize:
+ As far as the polls go, Scala is in the lead by a margin of 4 to 2.</description>
+    </item>
+    
+    <item>
+      <title>the developer iteration</title>
+      <link>https://www.mattstine.com/2009/04/01/the-developer-iteration/</link>
+      <pubDate>Wed, 01 Apr 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2009/04/01/the-developer-iteration/</guid>
+      <description>I recently gave a 90 minute talk at work covering quite a bit of ground related to Agile Software Development. If I had to sum up agile development in one word, it would be FEEDBACK. Venkat Subramaniam and Andy Hunt give one of the best definitions of agile I&amp;rsquo;ve ever seen in their book, Practices of an Agile Developer:
+ Agile development uses feedback to make constant adjustments in a highly collaborative environment.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Codeproject on Matt Stine</title>
+    <link>https://www.mattstine.com/categories/codeproject/</link>
+    <description>Recent content in Codeproject on Matt Stine</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Matt Stine</copyright>
+    <lastBuildDate>Sat, 02 May 2009 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.mattstine.com/categories/codeproject/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>ive forked the grails paypal plugin</title>
+      <link>https://www.mattstine.com/2009/05/02/ive-forked-the-grails-paypal-plugin/</link>
+      <pubDate>Sat, 02 May 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2009/05/02/ive-forked-the-grails-paypal-plugin/</guid>
+      <description>I&amp;rsquo;m currently completing the finishing touches on a new e-commerce site for my wife&amp;rsquo;s stationary business. We decided a long time ago to use PayPal for all of the payment processing since we&amp;rsquo;ve had a great experience using it for our eBay selling. About a year ago Graeme Rocher polished off the last release of a PayPal plugin that is available in the Grails Plugin repository. It really is a very nice plugin, yet I had a couple of problems with it:</description>
+    </item>
+    
+    <item>
+      <title>grails prototype scriptaculous persistent grid sorting goodness</title>
+      <link>https://www.mattstine.com/2009/04/25/grails-prototype-scriptaculous-persistent-grid-sorting-goodness/</link>
+      <pubDate>Sat, 25 Apr 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2009/04/25/grails-prototype-scriptaculous-persistent-grid-sorting-goodness/</guid>
+      <description>Ever wanted to do drag-n-drop sorting of a grid of images on a page and persist it? Here&amp;rsquo;s my solution using Grails, Prototype, and Script.aculo.us.
+Basically what prompted this was the need for my wife to be able to sort the various product images that she had on a screen at any given time in any way that she pleased, and it had to be easy to work with. What follows is by no means a complete solution to this problem, but it represents where I am in the development process and may be useful to you, my hapless reader.</description>
+    </item>
+    
+    <item>
+      <title>groovy post to a url</title>
+      <link>https://www.mattstine.com/2009/04/25/groovy-post-to-a-url/</link>
+      <pubDate>Sat, 25 Apr 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2009/04/25/groovy-post-to-a-url/</guid>
+      <description>If you&amp;rsquo;ve ever worked with the brilliant Recaptcha service, you&amp;rsquo;ll know that their REST API requires an HTTP POST rather than a GET. As I had only used GET requests thus far, I googled around and found a pretty easy solution:
+private def evaluateCaptcha(def remoteIp, def challenge, def response) { def config = recaptchaService.getRecaptchaConfig() def urlString = &amp;quot;http://api-verify.recaptcha.net/verify&amp;quot; def queryString = &amp;quot;privatekey=${config.recaptcha.privateKey}&amp;amp;remoteip=${remoteIp}&amp;amp;challenge=${challenge}&amp;amp;response=${URLEncoder.encode(response)}&amp;quot; def url = new URL(urlString) def connection = url.</description>
+    </item>
+    
+    <item>
+      <title>lotypart deux</title>
+      <link>https://www.mattstine.com/2009/04/06/lotypart-deux/</link>
+      <pubDate>Mon, 06 Apr 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2009/04/06/lotypart-deux/</guid>
+      <description>A few days ago I pontificated on my need to choose a new &amp;ldquo;Language of the Year.&amp;rdquo; Right now I&amp;rsquo;m attempting to choose between Scala and Clojure. If nothing else, I&amp;rsquo;ve learned from this exercise that asking the community for feedback is a GOOD thing. Your comments have been very helpful.
+To summarize:
+ As far as the polls go, Scala is in the lead by a margin of 4 to 2.</description>
+    </item>
+    
+    <item>
+      <title>loty time again scala or clojure</title>
+      <link>https://www.mattstine.com/2009/04/02/loty-time-again-scala-or-clojure/</link>
+      <pubDate>Thu, 02 Apr 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2009/04/02/loty-time-again-scala-or-clojure/</guid>
+      <description>In 2007 I established several professional development goals (and later reported my progress on these), one of which was to learn Groovy and Grails. This goal stemmed from the continually referenced idea from The Pragmatic Programmer to &amp;ldquo;learn a new language every year.&amp;rdquo; This idea has become so ubiquitous that it even has it&amp;rsquo;s own four-letter acronym, LOTY (Language of the Year).
+Since establishing and reporting on these goals, I&amp;rsquo;ve had several things get in the way of fully realizing all of them.</description>
+    </item>
+    
+    <item>
+      <title>the developer iteration</title>
+      <link>https://www.mattstine.com/2009/04/01/the-developer-iteration/</link>
+      <pubDate>Wed, 01 Apr 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2009/04/01/the-developer-iteration/</guid>
+      <description>I recently gave a 90 minute talk at work covering quite a bit of ground related to Agile Software Development. If I had to sum up agile development in one word, it would be FEEDBACK. Venkat Subramaniam and Andy Hunt give one of the best definitions of agile I&amp;rsquo;ve ever seen in their book, Practices of an Agile Developer:
+ Agile development uses feedback to make constant adjustments in a highly collaborative environment.</description>
+    </item>
+    
+    <item>
+      <title>deploying grails with groovy</title>
+      <link>https://www.mattstine.com/2009/03/29/deploying-grails-with-groovy/</link>
+      <pubDate>Sun, 29 Mar 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2009/03/29/deploying-grails-with-groovy/</guid>
+      <description>Interesting title, eh? Maybe this one will make it through Glen&amp;rsquo;s filter at GroovyBlogs.org.
+On to the meat. I&amp;rsquo;ve been steadily working on a couple of Grails applications, one being the website for the Memphis JUG, and another being the e-commerce site for my wife&amp;rsquo;s soon to be launched designer stationery business. Just like your average Grails developer, I&amp;rsquo;ve been happily coding away at 127.0.0.1 using the good old development Jetty+MySQL stack.</description>
+    </item>
+    
+    <item>
+      <title>need a textile engine look no further than plextile</title>
+      <link>https://www.mattstine.com/2009/03/26/need-a-textile-engine-look-no-further-than-plextile/</link>
+      <pubDate>Thu, 26 Mar 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2009/03/26/need-a-textile-engine-look-no-further-than-plextile/</guid>
+      <description>In finishing up the first release of JUG Nexus, the open source engine (http://github.com/mstine/jug-nexus/tree/master) behind the new Memphis JUG website, I needed to put a good Textile engine in place. I really don&amp;rsquo;t care for writing actual HTML in a content management system, and JUG Nexus being a lightweight CMS, I wanted a lightweight markup syntax for entering the details of upcoming JUG meetings. Textile is exactly that, and is also used for entering content into the very useful JUGEvents system produced by JUG Padova for the Java User Group community at large.</description>
+    </item>
+    
+    <item>
+      <title>the manifesto for software craftsmanship</title>
+      <link>https://www.mattstine.com/2009/03/15/the-manifesto-for-software-craftsmanship/</link>
+      <pubDate>Sun, 15 Mar 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2009/03/15/the-manifesto-for-software-craftsmanship/</guid>
+      <description>So as I&amp;rsquo;m sitting here thumbing through my InfoQ feed on Google Reader, I come across the following posting: Software Craftsmanship Manifesto: A Call to Arms. It seems that a group of &amp;ldquo;programming patriots&amp;rdquo; has struck again (see the Manifesto for Agile Software Development - circa 2001), complete with a &amp;ldquo;founding document&amp;rdquo; look and feel. Clicking through the source link, one finds the following:
+ As aspiring Software Craftsmen we are raising the bar of professional software development by practicing it and helping others learn the craft.</description>
+    </item>
+    
+    <item>
+      <title>grailsdojo ajax file upload</title>
+      <link>https://www.mattstine.com/2009/03/13/grailsdojo-ajax-file-upload/</link>
+      <pubDate>Fri, 13 Mar 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2009/03/13/grailsdojo-ajax-file-upload/</guid>
+      <description>I&amp;rsquo;m currently working on a Grails application with a requirement for uploading product images, which are subsequently resized into thumbnails of various sizes for different shopping screens. Since it took a bit of doing to get this done, I thought I&amp;rsquo;d post my solution here in case anyone could benefit from it.
+First, to set the stage, I&amp;rsquo;ve upgraded the application all the way to the newly released Grails 1.1.</description>
+    </item>
+    
+  </channel>
+</rss>

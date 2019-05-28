@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ajax on Matt Stine</title>
+    <link>https://www.mattstine.com/categories/ajax/</link>
+    <description>Recent content in Ajax on Matt Stine</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Matt Stine</copyright>
+    <lastBuildDate>Sat, 25 Apr 2009 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.mattstine.com/categories/ajax/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>grails prototype scriptaculous persistent grid sorting goodness</title>
+      <link>https://www.mattstine.com/2009/04/25/grails-prototype-scriptaculous-persistent-grid-sorting-goodness/</link>
+      <pubDate>Sat, 25 Apr 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2009/04/25/grails-prototype-scriptaculous-persistent-grid-sorting-goodness/</guid>
+      <description>Ever wanted to do drag-n-drop sorting of a grid of images on a page and persist it? Here&amp;rsquo;s my solution using Grails, Prototype, and Script.aculo.us.
+Basically what prompted this was the need for my wife to be able to sort the various product images that she had on a screen at any given time in any way that she pleased, and it had to be easy to work with. What follows is by no means a complete solution to this problem, but it represents where I am in the development process and may be useful to you, my hapless reader.</description>
+    </item>
+    
+    <item>
+      <title>ajax integration guide for 2008 jeremy grelle</title>
+      <link>https://www.mattstine.com/2007/12/14/ajax-integration-guide-for-2008-jeremy-grelle/</link>
+      <pubDate>Fri, 14 Dec 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2007/12/14/ajax-integration-guide-for-2008-jeremy-grelle/</guid>
+      <description>This talk looked really exciting going in. Jeremy is a member of the Spring Web Products team and the lead of Spring Faces, as well as a member of the JSF 2.0 Expert Group. He describes himself as the resident Ajax freak at SpringSource. Jeremy began by discussing the current Ajax landscape, highlighting what he believes are the important features a successful framework must deliver, and then identifying the frameworks he considers to be the cream of the crop.</description>
+    </item>
+    
+    <item>
+      <title>thursday was slow</title>
+      <link>https://www.mattstine.com/2007/05/11/thursday-was-slow/</link>
+      <pubDate>Fri, 11 May 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2007/05/11/thursday-was-slow/</guid>
+      <description>for me, not for JavaOne. Of course I was a good little programmer and used the schedule builder to sign up for all of my sessions. I edited them a bit after the first two keynotes. Even then, I had one lone session scheduled for Thursday morning (that wasn&amp;rsquo;t really directly applicable to my work, it just looked interesting), and then two sessions in the afternoon, the first starting at 4:10.</description>
+    </item>
+    
+    <item>
+      <title>wednesday was ajax day</title>
+      <link>https://www.mattstine.com/2007/05/10/wednesday-was-ajax-day/</link>
+      <pubDate>Thu, 10 May 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2007/05/10/wednesday-was-ajax-day/</guid>
+      <description>Not officially, but nearly every session I attended had something to do with AJAX:
+ Creating Amazing Web Interfaces with Ajax
+ jMaki: Web 2.0 App Building Made Easy
+ Fast, Beautiful, Easy: Pick Three - Building Web User Interfaces in the Java Programming Language with Google Web Toolkit
+ Killer JavaScript Technology Frameworks for Java Platform Developers: An Exploration of Prototype, Script.aculo.us, and Rico
+  I have to say that I was rather impressed by what I saw.</description>
+    </item>
+    
+  </channel>
+</rss>

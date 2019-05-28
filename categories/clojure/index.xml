@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Clojure on Matt Stine</title>
+    <link>https://www.mattstine.com/categories/clojure/</link>
+    <description>Recent content in Clojure on Matt Stine</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Matt Stine</copyright>
+    <lastBuildDate>Wed, 29 May 2013 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.mattstine.com/categories/clojure/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>clojure on cloud foundry</title>
+      <link>https://www.mattstine.com/2013/05/29/clojure-on-cloud-foundry/</link>
+      <pubDate>Wed, 29 May 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2013/05/29/clojure-on-cloud-foundry/</guid>
+      <description>I was inspired by Brian McClain&amp;rsquo;s post on bringing Haskell to Cloud Foundry using Cloud Foundry v2 buildpacks, so I decided to go on a buildpack journey of my own. Since Clojure is the language I most enjoying &amp;ldquo;toying around with,&amp;rdquo; I thought I&amp;rsquo;d try to deploy a simple Clojure web application using the Heroku Clojure Buildpack.
+To reiterate some of the coolness around buildpacks, they are what allows a PaaS like Cloud Foundry or Heroku to support various runtimes without first building that support into the core platform.</description>
+    </item>
+    
+    <item>
+      <title>functional programming blog aggregator in the works</title>
+      <link>https://www.mattstine.com/2009/04/30/functional-programming-blog-aggregator-in-the-works/</link>
+      <pubDate>Thu, 30 Apr 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2009/04/30/functional-programming-blog-aggregator-in-the-works/</guid>
+      <description>So I&amp;rsquo;m in the midst of planning my next toy project, specifically with an aim to build something for the cloud, be it Google App Engine, Mor.ph, EC2, etc. (that part is still up for grabs). What I&amp;rsquo;d like to do is an opt-in blog aggregation site focused around functional programming. It would be very similar to what Glen Smith has done with groovyblogs.org. Groovyblogs is currently my number one referral site and is generating about 20% of the traffic for this blog.</description>
+    </item>
+    
+    <item>
+      <title>hello clojure</title>
+      <link>https://www.mattstine.com/2009/04/24/hello-clojure/</link>
+      <pubDate>Fri, 24 Apr 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2009/04/24/hello-clojure/</guid>
+      <description>; Hello World! (defn hello name)
+(hello &amp;quot;World!&amp;quot;)  </description>
+    </item>
+    
+    <item>
+      <title>lotypart deux</title>
+      <link>https://www.mattstine.com/2009/04/06/lotypart-deux/</link>
+      <pubDate>Mon, 06 Apr 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2009/04/06/lotypart-deux/</guid>
+      <description>A few days ago I pontificated on my need to choose a new &amp;ldquo;Language of the Year.&amp;rdquo; Right now I&amp;rsquo;m attempting to choose between Scala and Clojure. If nothing else, I&amp;rsquo;ve learned from this exercise that asking the community for feedback is a GOOD thing. Your comments have been very helpful.
+To summarize:
+ As far as the polls go, Scala is in the lead by a margin of 4 to 2.</description>
+    </item>
+    
+  </channel>
+</rss>

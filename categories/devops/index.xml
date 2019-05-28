@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Devops on Matt Stine</title>
+    <link>https://www.mattstine.com/categories/devops/</link>
+    <description>Recent content in Devops on Matt Stine</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Matt Stine</copyright>
+    <lastBuildDate>Wed, 29 May 2013 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.mattstine.com/categories/devops/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>into the crucible</title>
+      <link>https://www.mattstine.com/2013/05/29/into-the-crucible/</link>
+      <pubDate>Wed, 29 May 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2013/05/29/into-the-crucible/</guid>
+      <description>Wow&amp;hellip;it seems I only post to this blog toward the end of May. Well, that all changes now. You see, as of June 3, 2013, this blog is going to become one of many aspects of my new &amp;ldquo;day job.&amp;rdquo; On Monday, I start my life as a Community Engineer with Cloud Foundry by Pivotal. What&amp;rsquo;s a Community Engineer? Quite honestly, I&amp;rsquo;m not completely sure of the answer to that question yet.</description>
+    </item>
+    
+  </channel>
+</rss>

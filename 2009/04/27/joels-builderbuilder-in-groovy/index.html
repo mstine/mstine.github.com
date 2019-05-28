@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme" content="hugo-academic">
+  <meta name="generator" content="Hugo 0.46" />
+  <meta name="author" content="Matt Stine">
+  <meta name="description" content="Global CTO - Architecture">
+
+  <link rel="stylesheet" href="/css/highlight.min.css">
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/css/academicons.min.css">
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,700|Merriweather|Roboto+Mono">
+  <link rel="stylesheet" href="/css/hugo-academic.css">
+  
+
+  <link rel="alternate" href="https://www.mattstine.com/index.xml" type="application/rss+xml" title="Matt Stine">
+  <link rel="feed" href="https://www.mattstine.com/index.xml" type="application/rss+xml" title="Matt Stine">
+
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
+
+  <link rel="canonical" href="https://www.mattstine.com/2009/04/27/joels-builderbuilder-in-groovy/">
+
+  
+
+  <title>joels builderbuilder in groovy | Matt Stine</title>
+
+</head>
+<body id="top">
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target=".navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">Matt Stine</a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse" id="#navbar-collapse-1">
+
+      
+      <ul class="nav navbar-nav navbar-right">
+        
+        <li class="nav-item"><a href="/#top">Home</a></li>
+        
+        <li class="nav-item"><a href="/#publications">Publications</a></li>
+        
+        <li class="nav-item"><a href="/#posts">Posts</a></li>
+        
+        <li class="nav-item"><a href="/#videos">Videos</a></li>
+        
+        <li class="nav-item"><a href="/#articles">Articles</a></li>
+        
+        <li class="nav-item"><a href="/#interviews">Interviews</a></li>
+        
+        <li class="nav-item"><a href="/#upcoming">Appearances</a></li>
+        
+        <li class="nav-item"><a href="/#contact">Contact</a></li>
+        
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+<div class="container">
+
+  <article class="article" itemscope itemtype="http://schema.org/Article">
+
+    
+
+    <h1 itemprop="name">joels builderbuilder in groovy</h1>
+
+    
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    <time datetime="2009-04-27 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+      Mon, Apr 27, 2009
+    </time>
+  </span>
+
+  
+
+  
+  
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.mattstine.com%2f2009%2f04%2f27%2fjoels-builderbuilder-in-groovy%2f"
+         target="_blank">
+        <i class="fa fa-facebook"></i>
+      </a>
+    </li>
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=joels%20builderbuilder%20in%20groovy&amp;url=https%3a%2f%2fwww.mattstine.com%2f2009%2f04%2f27%2fjoels-builderbuilder-in-groovy%2f"
+         target="_blank">
+        <i class="fa fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fwww.mattstine.com%2f2009%2f04%2f27%2fjoels-builderbuilder-in-groovy%2f&amp;title=joels%20builderbuilder%20in%20groovy"
+         target="_blank">
+        <i class="fa fa-linkedin"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fwww.mattstine.com%2f2009%2f04%2f27%2fjoels-builderbuilder-in-groovy%2f&amp;title=joels%20builderbuilder%20in%20groovy"
+         target="_blank">
+        <i class="fa fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=joels%20builderbuilder%20in%20groovy&amp;body=https%3a%2f%2fwww.mattstine.com%2f2009%2f04%2f27%2fjoels-builderbuilder-in-groovy%2f">
+        <i class="fa fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+
+    <div class="article-style" itemprop="articleBody">
+      <p><a href="http://joelneely.wordpress.com/">Joel Neely</a> started <a href="http://joelneely.wordpress.com/2009/04/25/builderbuilder-the-agenda/">a series</a> <a href="http://joelneely.wordpress.com/2009/04/27/builderbuilder-the-task/">of posts</a> over the weekend detailing a proposed exploration of what Functional Programming means &ldquo;to me as a practicing OO software developer?&rdquo; The task at hand is to look at the generation of Data Transfer Objects which include a static inner class that functions as a builder. Since I&rsquo;m exploring both Clojure and Scala right now, Joel has asked me to play along.</p>
+
+<p>After reading the task definition today, I couldn&rsquo;t resist taking a crack at the problem in Groovy, especially since tackling a Builder DSL is not something I&rsquo;ve gone after before.</p>
+
+<p>So, here&rsquo;s how I&rsquo;ll use my DTOBuilder to produce the output Joel described:</p>
+
+<pre><code class="language-java">def bldr = new DtoBuilder()
+
+println bldr.build {
+	packageName 'edu.bogusu.registration'
+	name 'Student'
+	field(name:'id', type:'String')
+	field(name:'firstName', type:'String')
+	field(name:'lastName', type:'String')
+	field(name:'hoursEarned', type:'int')
+	field(name:'gpa', type:'float')
+}
+</code></pre>
+
+<p>Pretty concise, eh? <a href="http://github.com/mstine/BuilderBuilder/blob/1008235f88177910eb94af165ade3aedae2955a3/src/DtoBuilder.groovy">Check out the implementation of it at GitHub</a>. I&rsquo;ll be posting all of my code related to this series at this location (and hopefully Joel will join in as well).</p>
+
+<p>One thing you&rsquo;ll notice is that I&rsquo;m still operating primarily in OO style. My next task is to refactor this code, still written in Groovy, but using as much functional-style as I can squeeze out of the language. Until next time&hellip;</p>
+
+    </div>
+
+  </article>
+
+  <nav>
+  <ul class="pager">
+    
+    <li class="previous"><a href="https://www.mattstine.com/2009/04/25/grails-prototype-scriptaculous-persistent-grid-sorting-goodness/"><span
+      aria-hidden="true">&larr;</span> grails prototype scriptaculous persistent grid sorting goodness</a></li>
+    
+
+    
+    <li class="next"><a href="https://www.mattstine.com/2009/04/30/functional-programming-blog-aggregator-in-the-works/">functional programming blog aggregator in the works <span
+      aria-hidden="true">&rarr;</span></a></li>
+    
+  </ul>
+</nav>
+
+  
+<section id="comments">
+  <div id="disqus_thread">
+    <div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "seekingsimplicity" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+  </div>
+</section>
+
+
+
+</div>
+<footer class="site-footer">
+  <div class="container">
+    <p class="powered-by">
+
+      &copy; 2018 Matt Stine &middot; 
+
+      Powered by the <a href="https://github.com/gcushen/hugo-academic" target="_blank">Academic
+      theme</a> for <a href="http://gohugo.io" target="_blank">Hugo</a>.
+
+      <span class="pull-right" aria-hidden="true">
+        <a href="#" id="back_to_top">
+          <span class="button_icon">
+            <i class="fa fa-chevron-up fa-2x"></i>
+          </span>
+        </a>
+      </span>
+
+    </p>
+  </div>
+</footer>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/TweenMax.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/ScrollToPlugin.min.js"></script>
+    <script src="/js/jquery-1.12.3.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/hugo-academic.js"></script>
+    
+
+    
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-8534802-1', 'auto');
+        ga('send', 'pageview');
+
+         
+        var links = document.querySelectorAll('a');
+        Array.prototype.map.call(links, function(item) {
+            if (item.host != document.location.host) {
+                item.addEventListener('click', function() {
+                    var action = item.getAttribute('data-action') || 'follow';
+                    ga('send', 'event', 'outbound', action, item.href);
+                });
+            }
+        });
+    </script>
+    
+
+    
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.3.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
+    
+    
+
+  </body>
+</html>
+

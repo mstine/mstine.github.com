@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications on Matt Stine</title>
+    <link>https://www.mattstine.com/publication/</link>
+    <description>Recent content in Publications on Matt Stine</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Matt Stine</copyright>
+    <lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.mattstine.com/publication/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Learning Path: Cloud Native Architecture Brick and Mortar Pattern Language</title>
+      <link>https://www.mattstine.com/publication/lp-cna-bam-pl/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/publication/lp-cna-bam-pl/</guid>
+      <description>What you’ll learn—and how you can apply it
+ Understand what pattern languages are, their history, and their use in defining new systems Discover what the Brick and Mortar pattern language is and how it was developed Learn how the Brick and Mortar language can explain the power of cloud architecture  This learning path is for you because…
+ You&amp;rsquo;re a software architect or senior developer working on medium-to-large scale enterprise systems and want to learn the Brick and Mortar pattern language You&amp;rsquo;re an experienced application architect, lead engineer, or senior developer building medium-to-large scale enterprise applications, and you need to start leveraging cloud infrastructure for your solutions You&amp;rsquo;re an experienced application architect, lead engineer, or senior developer building medium-to-large scale enterprise applications, and you want to understand how to create systems optimized for DevOps and Continuous Delivery practices You&amp;rsquo;re an experienced application architect, lead engineer, or senior developer building medium-to-large scale enterprise applications, and you need to start migrating your existing applications to cloud native architectures  </description>
+    </item>
+    
+    <item>
+      <title>Learning Path: Cloud Native Architecture Patterns Fundamentals</title>
+      <link>https://www.mattstine.com/publication/lp-cna-fundmentals/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/publication/lp-cna-fundmentals/</guid>
+      <description>What you’ll learn—and how you can apply it
+ What DevOps is and what are its uses What Continuous Delivery is and its usability and testability How DevOps, Continuous Delivery, and Cloud Infrastructure are tied together How to articulate the high-level narrative of cloud-native architecture and understand why it is important to your business How to articulate the paradigm shift involved in cloud-native architectural thinking  This learning path is for you because…</description>
+    </item>
+    
+    <item>
+      <title>Secure Hybrid Banking Reference Architectures for Cloud-Native Applications</title>
+      <link>https://www.mattstine.com/publication/shb-refarch-cna/</link>
+      <pubDate>Wed, 01 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/publication/shb-refarch-cna/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Migrating to Cloud Native Application Architectures</title>
+      <link>https://www.mattstine.com/publication/migrating-to-cloud-native/</link>
+      <pubDate>Fri, 20 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/publication/migrating-to-cloud-native/</guid>
+      <description>Author Matt Stine also examines the cultural, organizational, and technical changes necessary to migrate traditional monolithic applications and service-oriented architectures to cloud-native architectures. You’ll also find a Migration Cookbook, with recipes for decomposing monolithic applications into microservices, implementing fault-tolerant patterns, and performing automated testing of cloud-native services.
+This report discusses application architectures that include:
+ The Twelve-Factor App: a collection of cloud-native app architecture patterns Microservices: independently deployable services that do one thing well Self-Service Agile Infrastructure: platforms for rapid, repeatable, and consistent provisioning of app environments and backing services API-based Collaboration: published and versioned APIs that allow interaction between services in a cloud-native app architecture Anti-Fragility: systems that get stronger when subjected to stress  </description>
+    </item>
+    
+  </channel>
+</rss>

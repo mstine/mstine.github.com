@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gwt on Matt Stine</title>
+    <link>https://www.mattstine.com/categories/gwt/</link>
+    <description>Recent content in Gwt on Matt Stine</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Matt Stine</copyright>
+    <lastBuildDate>Thu, 10 May 2007 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.mattstine.com/categories/gwt/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>wednesday was ajax day</title>
+      <link>https://www.mattstine.com/2007/05/10/wednesday-was-ajax-day/</link>
+      <pubDate>Thu, 10 May 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2007/05/10/wednesday-was-ajax-day/</guid>
+      <description>Not officially, but nearly every session I attended had something to do with AJAX:
+ Creating Amazing Web Interfaces with Ajax
+ jMaki: Web 2.0 App Building Made Easy
+ Fast, Beautiful, Easy: Pick Three - Building Web User Interfaces in the Java Programming Language with Google Web Toolkit
+ Killer JavaScript Technology Frameworks for Java Platform Developers: An Exploration of Prototype, Script.aculo.us, and Rico
+  I have to say that I was rather impressed by what I saw.</description>
+    </item>
+    
+  </channel>
+</rss>

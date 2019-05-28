@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Validation on Matt Stine</title>
+    <link>https://www.mattstine.com/categories/validation/</link>
+    <description>Recent content in Validation on Matt Stine</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Matt Stine</copyright>
+    <lastBuildDate>Wed, 27 Jun 2007 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.mattstine.com/categories/validation/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>how to implement form level validation in jsf</title>
+      <link>https://www.mattstine.com/2007/06/27/how-to-implement-form-level-validation-in-jsf/</link>
+      <pubDate>Wed, 27 Jun 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2007/06/27/how-to-implement-form-level-validation-in-jsf/</guid>
+      <description>Recently I was faced with the challenge of implementing form-level (or page-level) validation in a JSF-based application. What I mean by form-level validation is the need to evaluate a subset of a form&amp;rsquo;s fields as a unit, rather than simply validating each field in isolation. An example of this type of validation can be found on a user registration form where one has to select a password in one text field, and then retype the same password in another text field for confirmation.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jug on Matt Stine</title>
+    <link>https://www.mattstine.com/categories/jug/</link>
+    <description>Recent content in Jug on Matt Stine</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Matt Stine</copyright>
+    <lastBuildDate>Fri, 28 May 2010 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.mattstine.com/categories/jug/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>announcing nosql summer memphis</title>
+      <link>https://www.mattstine.com/2010/05/28/announcing-nosql-summer-memphis/</link>
+      <pubDate>Fri, 28 May 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2010/05/28/announcing-nosql-summer-memphis/</guid>
+      <description>I recently stumbled across the NOSQL Summer website via my friend Alex Miller&amp;rsquo;s blog. The idea is to setup a summer reading club focused around databases and distributed systems. Groups will gather &amp;ldquo;worldwide&amp;rdquo; to discuss various papers and the hopefully submit the substance of their discussions back to the NOSQL Summer website in the form of annotated papers.
+This sounded like a great idea to me, so I decided that we&amp;rsquo;d co-locate a NOSQL Summer discussion with our monthly Memphis JUG meetings.</description>
+    </item>
+    
+    <item>
+      <title>im speaking at the march memphis jug meeting</title>
+      <link>https://www.mattstine.com/2009/03/13/im-speaking-at-the-march-memphis-jug-meeting/</link>
+      <pubDate>Fri, 13 Mar 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2009/03/13/im-speaking-at-the-march-memphis-jug-meeting/</guid>
+      <description>I learned a great deal about JMS from Mark Richards at last weekend&amp;rsquo;s NFJS Gateway Software Symposium, and I thought I&amp;rsquo;d share it with the Memphis Java community. Take a look at http://www.memphisjug.org for details!</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Homes on Matt Stine</title>
+    <link>https://www.mattstine.com/home/</link>
+    <description>Recent content in Homes on Matt Stine</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Matt Stine</copyright>
+    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.mattstine.com/home/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://www.mattstine.com/home/about/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/home/about/</guid>
+      <description>Biography Matt Stine is an 19 year veteran of the enterprise IT industry, with seven of those years spent as a consulting solutions architect for multiple Fortune 500 companies, as well as the not-for-profit St. Jude Children&amp;rsquo;s Research Hospital. He is the author of Migrating to Cloud-Native Application Architectures from O&amp;rsquo;Reilly, and the host of the Software Architecture Radio podcast.
+Matt spends much of his time thinking about lean/agile software development methodologies, DevOps, architectural principles/patterns/practices, and programming paradigms, in an attempt to find the perfect storm of techniques that will allow corporate IT organizations to not only function like startup companies, but also create software that delights users while maintaining a high degree of conceptual integrity.</description>
+    </item>
+    
+    <item>
+      <title>Selected Publications</title>
+      <link>https://www.mattstine.com/home/publications_selected/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/home/publications_selected/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recent Publications</title>
+      <link>https://www.mattstine.com/home/publications/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/home/publications/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recent Posts</title>
+      <link>https://www.mattstine.com/home/posts/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/home/posts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Videos</title>
+      <link>https://www.mattstine.com/home/videos/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/home/videos/</guid>
+      <description>Featured:    Full Keynote Available on Safari          Archives:  The Patterns of App Replatforming (Built to Adapt @ SpringOne Platform 2017) Serverless? Not so FaaS! (2017 Devoxx UK) Resilient Architecture (Voxxed Days Belgrade 2017) Why Cloud-Native Enterprise Security Matters (2017 O&amp;rsquo;Reilly Security Keynote) A Microservices Journey at JPMorgan Chase Resilient Architecture (2017 Devoxx Poland) Give Me That Old-Time Pattern Language - Preview (2017 O&amp;rsquo;Reilly SACON Keynote) Give Me That Old-Time Pattern Language - Full (2017 O&amp;rsquo;Reilly SACON Keynote) Serverless?</description>
+    </item>
+    
+    <item>
+      <title>Articles</title>
+      <link>https://www.mattstine.com/home/articles/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/home/articles/</guid>
+      <description>What’s Your Decomposition Strategy? Ian Malcolm on Software Development On Orchestrated Microservices Build self-healing distributed systems with Spring Cloud Leave the Campground Cleaner On Gaelyks and Golden Hammers Executable Specifications: Automating Your Requirements Document Is the Apple JVM an &amp;ldquo;Extra Feature?&amp;rdquo; Automation for the People (because Everybody Doing It Manually Hurts) Build Scripts? We Don&amp;rsquo;t Need No Stinkin&amp;rsquo; Build Scripts! Failed Metric, Failed Build? Yes You Kanban! Modular Agile: Loosely coupled, highly cohesive ceremonies Think You&amp;rsquo;re &amp;ldquo;Doing Kanban?</description>
+    </item>
+    
+    <item>
+      <title>Interviews</title>
+      <link>https://www.mattstine.com/home/interviews/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/home/interviews/</guid>
+      <description> Software Development and Business Value: Connecting the Dots (Pivotal Insights Podcast) Matt Stine on Cloud-Native Architecture (The O&amp;rsquo;Reilly Programming Podcast) Defining Cloud Native: A Panel Discussion Is your application architecture prepared for microservices? - TechBeacon Episode 036: Metaphors and Microservices with Matt Stine (Greater Than Code) Capgemini&amp;rsquo;s &amp;ldquo;The Cloud Choice Podcast&amp;rdquo;: The State of the Market Pivotal with Matt Stine (Code Monkey Talks) A Chat About Microservices With Matt Stine (All Things Pivotal) Revisiting Microservices With Matt Stine (Pivotal Perspectives) TNS Analysts #43: Pivotal’s Matt Stine on Cloud-Native Application Architectures Cloud Native Architectures - a Conversation with Matt Stine (InfoQ)  </description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>https://www.mattstine.com/home/projects/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/home/projects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Upcoming Appearances</title>
+      <link>https://www.mattstine.com/home/appearances/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/home/appearances/</guid>
+      <description>No Fluff Just Stuff Boston, MA March 8-10, 2019
+ SpringOne Tour London, UK March 18-19, 2019
+ SpringOne Tour Amsterdam, Netherlands March 21-22, 2019
+ SpringOne Tour Johannesburg, South Africa April 8-9, 2019
+ SpringOne Tour Cape Town, South Africa April 11-12, 2019
+ Great International Developer Summit Bangalore, India April 22-26, 2019
+ No Fluff Just Stuff Salt Lake City, UT May 3-4, 2019
+ Software Design &amp;amp; Development London, UK May 20-24, 2019</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://www.mattstine.com/home/contact/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/home/contact/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

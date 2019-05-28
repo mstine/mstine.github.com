@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Coffee on Matt Stine</title>
+    <link>https://www.mattstine.com/categories/coffee/</link>
+    <description>Recent content in Coffee on Matt Stine</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Matt Stine</copyright>
+    <lastBuildDate>Fri, 22 Jun 2007 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.mattstine.com/categories/coffee/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>the grove coffee house rocks</title>
+      <link>https://www.mattstine.com/2007/06/22/the-grove-coffee-house-rocks/</link>
+      <pubDate>Fri, 22 Jun 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2007/06/22/the-grove-coffee-house-rocks/</guid>
+      <description>It&amp;rsquo;s Friday night, and what am I doing but coding. My wife&amp;rsquo;s night out is spent at the scrapbook store working on her latest layouts - mine is at my new favorite coffee shop, working on open source. I discovered this place on a date with Wendy a couple of months ago. The nice thing about it is the distinctly Christian atmosphere. A good friend of mine and I meet here on Friday mornings for accountability.</description>
+    </item>
+    
+  </channel>
+</rss>

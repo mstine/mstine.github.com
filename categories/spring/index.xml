@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Spring on Matt Stine</title>
+    <link>https://www.mattstine.com/categories/spring/</link>
+    <description>Recent content in Spring on Matt Stine</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Matt Stine</copyright>
+    <lastBuildDate>Wed, 18 Feb 2015 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.mattstine.com/categories/spring/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>cloud native app arch training</title>
+      <link>https://www.mattstine.com/2015/02/18/cloud-native-app-arch-training/</link>
+      <pubDate>Wed, 18 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2015/02/18/cloud-native-app-arch-training/</guid>
+      <description>I&amp;#8217;m offering a two-day, intensive, hands-on training course at the upcoming O&amp;#8217;Reilly Software Architecture Conference in Boston, MS. The class is entitled Cloud-Native Application Architectures with Spring and Cloud Foundry. In this class you will have the opportunity to implement an easy-to-understand storefront system (complete with product search, details, reviews, and recommendations) as a cloud-native architecture using Spring and Cloud Foundry. In addition, you&amp;#8217;ll get hands-on exposure to the Netflix OSS family of technologies.</description>
+    </item>
+    
+    <item>
+      <title>the state of the art in dependency injection rod johnson</title>
+      <link>https://www.mattstine.com/2007/12/15/the-state-of-the-art-in-dependency-injection-rod-johnson/</link>
+      <pubDate>Sat, 15 Dec 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2007/12/15/the-state-of-the-art-in-dependency-injection-rod-johnson/</guid>
+      <description>This was a truly fascinating talk. If you ever wanted to learn the entire history and landscape of dependency injection (DI), this was your opportunity. I really didn&amp;rsquo;t realize how deep of a topic DI really is.
+According to Rod, DI had its beginnings in 2002, in the Interface 21 Framework that was born from his seminal work, Expert One-on-One J2EE Design and Development. In the beginning, DI was done solely through setter injection (SI), with external metadata (usually in XML).</description>
+    </item>
+    
+    <item>
+      <title>ajax integration guide for 2008 jeremy grelle</title>
+      <link>https://www.mattstine.com/2007/12/14/ajax-integration-guide-for-2008-jeremy-grelle/</link>
+      <pubDate>Fri, 14 Dec 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2007/12/14/ajax-integration-guide-for-2008-jeremy-grelle/</guid>
+      <description>This talk looked really exciting going in. Jeremy is a member of the Spring Web Products team and the lead of Spring Faces, as well as a member of the JSF 2.0 Expert Group. He describes himself as the resident Ajax freak at SpringSource. Jeremy began by discussing the current Ajax landscape, highlighting what he believes are the important features a successful framework must deliver, and then identifying the frameworks he considers to be the cream of the crop.</description>
+    </item>
+    
+    <item>
+      <title>whats new in spring 25 juergen hoeller</title>
+      <link>https://www.mattstine.com/2007/12/14/whats-new-in-spring-25-juergen-hoeller/</link>
+      <pubDate>Fri, 14 Dec 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2007/12/14/whats-new-in-spring-25-juergen-hoeller/</guid>
+      <description>This was my second talk of TSE 2007. I have to admit I chose it by process of elimination - none of the second session talks particularly jumped out and grabbed me like Chris Richardson&amp;rsquo;s talk.
+Juergen is the project lead for the Spring Framework, so he was the obvious choice to give this talk. Juergen split it up into three sections:
+ Platforms Annotation Configuration AspectJ Support To break down part one as quickly as possible, Spring supports virtually EVERYTHING.</description>
+    </item>
+    
+  </channel>
+</rss>

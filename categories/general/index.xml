@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>General on Matt Stine</title>
+    <link>https://www.mattstine.com/categories/general/</link>
+    <description>Recent content in General on Matt Stine</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Matt Stine</copyright>
+    <lastBuildDate>Sun, 02 Jan 2011 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.mattstine.com/categories/general/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>2010 in review the automated analysis</title>
+      <link>https://www.mattstine.com/2011/01/02/2010-in-review-the-automated-analysis/</link>
+      <pubDate>Sun, 02 Jan 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2011/01/02/2010-in-review-the-automated-analysis/</guid>
+      <description>The stats helper monkeys at WordPress.com mulled over how this blog did in 2010, and here&amp;rsquo;s a high level summary of its overall blog health:
+The Blog-Health-o-Meter™ reads Fresher than ever.
+Crunchy numbers A helper monkey made this abstract painting, inspired by your stats.
+A Boeing 747-400 passenger jet can hold 416 passengers. This blog was viewed about 6,600 times in 2010. That&amp;rsquo;s about 16 full 747s.
+In 2010, there were 15 new posts, growing the total archive of this blog to 115 posts.</description>
+    </item>
+    
+    <item>
+      <title>my ipod is on rice</title>
+      <link>https://www.mattstine.com/2009/03/13/my-ipod-is-on-rice/</link>
+      <pubDate>Fri, 13 Mar 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2009/03/13/my-ipod-is-on-rice/</guid>
+      <description>Let me set the stage for you. I&amp;rsquo;m driving home happily listening to Ted Neward discuss the merits of Scala on the Javaworld podcast. As I pull into the driveway I see my wife waving frantically in the window. As geek brain struggles to process this, home brain kicks into gear. She needs me in the house now! I jump out of the car and slam the door shut, leaving all of the belongings I typically carry in the house.</description>
+    </item>
+    
+    <item>
+      <title>its been a long time</title>
+      <link>https://www.mattstine.com/2009/03/12/its-been-a-long-time/</link>
+      <pubDate>Thu, 12 Mar 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2009/03/12/its-been-a-long-time/</guid>
+      <description>&amp;hellip;since I actively spent any time blogging. What you don&amp;rsquo;t know is that it has been a long time since I&amp;rsquo;ve done any writing whatsoever. The last two posts on this blog revolved around the birth of my first son, Grant Dawson, on May 16, 2009. This was one of several events that took place almost a year ago that sent me directly into a whirlwind of activity that found me barely keeping my head above water.</description>
+    </item>
+    
+    <item>
+      <title>introducing grant dawson stine</title>
+      <link>https://www.mattstine.com/2008/05/18/introducing-grant-dawson-stine/</link>
+      <pubDate>Sun, 18 May 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2008/05/18/introducing-grant-dawson-stine/</guid>
+      <description>So I haven&amp;rsquo;t blogged in quite awhile. I&amp;rsquo;ve been rather busy - here&amp;rsquo;s one VERY important reason why. Grant was born Friday, May 16, 2008, weighing in at 9 pounds 4 ounces and 22 inches long. Mom and baby are doing wonderfully, but as you can see, Dad is in a bit of shock!</description>
+    </item>
+    
+    <item>
+      <title>greetings from san francisco</title>
+      <link>https://www.mattstine.com/2007/05/05/greetings-from-san-francisco/</link>
+      <pubDate>Sat, 05 May 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2007/05/05/greetings-from-san-francisco/</guid>
+      <description>This is the view from my quaint little hotel room at the Hotel Nikko in downtown San Francisco, California. I arrived here after a long morning of travel. First ~4 hours of flight from Memphis, TN to San Francisco International, followed by traversing the airport maze to find the BART (Bay Area Rapid Transit) train station. Once I found the right station, it was another 15 minutes of waiting on a train followed by a 40 minute train ride.</description>
+    </item>
+    
+    <item>
+      <title>welcome</title>
+      <link>https://www.mattstine.com/2007/04/30/welcome/</link>
+      <pubDate>Mon, 30 Apr 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2007/04/30/welcome/</guid>
+      <description>I plan to start posting here on Saturday, May 5, 2007. Look for photos, videos, and session synopses, as well as miscellaneous banter about JavaOne 2007 in San Francisco, CA!</description>
+    </item>
+    
+    <item>
+      <title>i made raibles blog</title>
+      <link>https://www.mattstine.com/2006/07/25/i-made-raibles-blog/</link>
+      <pubDate>Tue, 25 Jul 2006 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2006/07/25/i-made-raibles-blog/</guid>
+      <description>Apparently Matt Raible thought my JSF modifications to the AppFuse-Compass tutorial were good enough to merit a mention on his blog: AppFuse Videos updated for 1.9.3. Check out the bottom of the entry.
+Compass really is a nice tool - I was able to provide search capabilities for an app I&amp;rsquo;m working on right now with about 2 days worth of work (having never worked w/ Compass before), and man is it fast!</description>
+    </item>
+    
+  </channel>
+</rss>

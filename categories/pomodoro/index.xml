@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pomodoro on Matt Stine</title>
+    <link>https://www.mattstine.com/categories/pomodoro/</link>
+    <description>Recent content in Pomodoro on Matt Stine</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Matt Stine</copyright>
+    <lastBuildDate>Wed, 04 Nov 2009 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.mattstine.com/categories/pomodoro/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>pomodoro the first iteration</title>
+      <link>https://www.mattstine.com/2009/11/04/pomodoro-the-first-iteration/</link>
+      <pubDate>Wed, 04 Nov 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2009/11/04/pomodoro-the-first-iteration/</guid>
+      <description>I spent about an hour last night reading through Francesco Cirillo&amp;rsquo;s e-book The Pomodoro Technique. Up until this point I knew the basics of the technique, but I really wanted to drill down and get the details. I won&amp;rsquo;t explain those here - visit http://www.pomodorotechnique.com/ to get the lowdown. What I want to talk about is my experience applying the technique this morning.
+I managed to complete two Pomodoros. Each of the Pomodoros was filled with internal interruptions of various kinds.</description>
+    </item>
+    
+  </channel>
+</rss>

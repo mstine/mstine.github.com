@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Functional Programming on Matt Stine</title>
+    <link>https://www.mattstine.com/categories/functional-programming/</link>
+    <description>Recent content in Functional Programming on Matt Stine</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Matt Stine</copyright>
+    <lastBuildDate>Fri, 09 Oct 2009 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.mattstine.com/categories/functional-programming/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>making java groovier with lambdaj</title>
+      <link>https://www.mattstine.com/2009/10/09/making-java-groovier-with-lambdaj/</link>
+      <pubDate>Fri, 09 Oct 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2009/10/09/making-java-groovier-with-lambdaj/</guid>
+      <description>I spent the better part of yesterday tracing my way through the codebase for a large-scale enterprise application that my team is building right now, and I happened upon the following piece of code:
+//...imports excluded for clarity public class BusinessActivityBinMetaClassHelper { //... public static List&amp;lt;Long&amp;gt; getSrmMetaClassIdListJava(List&amp;lt;BusinessActivityBinMetaClass&amp;gt; businessActivityBinMetaClassList) { List&amp;lt;Long&amp;gt; srmMetaClassIdList = new ArrayList&amp;lt;Long?(); if(businessActivityBinMetaClassList != null) { for(BusinessActivityBinMetaClass businessActivityBinMetaClass : businessActivityBinMetaClassList) { if(businessActivityBinMetaClass.getSrmMetaClass() != null &amp;amp;&amp;amp; businessActivityBinMetaClass.getSrmMetaClass().getSrmMetaClassId() != null) { srmMetaClassIdList.</description>
+    </item>
+    
+    <item>
+      <title>functional programming blog aggregator in the works</title>
+      <link>https://www.mattstine.com/2009/04/30/functional-programming-blog-aggregator-in-the-works/</link>
+      <pubDate>Thu, 30 Apr 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2009/04/30/functional-programming-blog-aggregator-in-the-works/</guid>
+      <description>So I&amp;rsquo;m in the midst of planning my next toy project, specifically with an aim to build something for the cloud, be it Google App Engine, Mor.ph, EC2, etc. (that part is still up for grabs). What I&amp;rsquo;d like to do is an opt-in blog aggregation site focused around functional programming. It would be very similar to what Glen Smith has done with groovyblogs.org. Groovyblogs is currently my number one referral site and is generating about 20% of the traffic for this blog.</description>
+    </item>
+    
+    <item>
+      <title>joels builderbuilder in groovy</title>
+      <link>https://www.mattstine.com/2009/04/27/joels-builderbuilder-in-groovy/</link>
+      <pubDate>Mon, 27 Apr 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2009/04/27/joels-builderbuilder-in-groovy/</guid>
+      <description>Joel Neely started a series of posts over the weekend detailing a proposed exploration of what Functional Programming means &amp;ldquo;to me as a practicing OO software developer?&amp;rdquo; The task at hand is to look at the generation of Data Transfer Objects which include a static inner class that functions as a builder. Since I&amp;rsquo;m exploring both Clojure and Scala right now, Joel has asked me to play along.
+After reading the task definition today, I couldn&amp;rsquo;t resist taking a crack at the problem in Groovy, especially since tackling a Builder DSL is not something I&amp;rsquo;ve gone after before.</description>
+    </item>
+    
+  </channel>
+</rss>

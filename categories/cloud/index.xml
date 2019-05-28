@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cloud on Matt Stine</title>
+    <link>https://www.mattstine.com/categories/cloud/</link>
+    <description>Recent content in Cloud on Matt Stine</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Matt Stine</copyright>
+    <lastBuildDate>Sun, 14 May 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.mattstine.com/categories/cloud/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Upcoming Cloud Native Architecture Training on O&#39;Reilly&#39;s Safari</title>
+      <link>https://www.mattstine.com/2017/05/14/upcoming-cloud-native-architecture-training-on-oreillys-safari/</link>
+      <pubDate>Sun, 14 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2017/05/14/upcoming-cloud-native-architecture-training-on-oreillys-safari/</guid>
+      <description>I&amp;#8217;m offering online training in Cloud Native Architecture via O&amp;#8217;Reilly&amp;#8217;s amazing Safari platform. Several dates still have openings:
+   September 6-7, 2017: 12:00pm - 4:00pm EDT
+  September 13-14, 2017: 12:00pm - 4:00pm EDT
+  October 4-5, 2017: 12:00pm - 4:00pm EDT
+   More dates will be announced soon.
+ Designed for software architects and senior developers working on medium-to-large scale enterprise systems, this two-day, hands-on course will introduce you to the cloud native architectural pattern language and give you practice applying it.</description>
+    </item>
+    
+    <item>
+      <title>cloud native app arch training</title>
+      <link>https://www.mattstine.com/2015/02/18/cloud-native-app-arch-training/</link>
+      <pubDate>Wed, 18 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2015/02/18/cloud-native-app-arch-training/</guid>
+      <description>I&amp;#8217;m offering a two-day, intensive, hands-on training course at the upcoming O&amp;#8217;Reilly Software Architecture Conference in Boston, MS. The class is entitled Cloud-Native Application Architectures with Spring and Cloud Foundry. In this class you will have the opportunity to implement an easy-to-understand storefront system (complete with product search, details, reviews, and recommendations) as a cloud-native architecture using Spring and Cloud Foundry. In addition, you&amp;#8217;ll get hands-on exposure to the Netflix OSS family of technologies.</description>
+    </item>
+    
+    <item>
+      <title>bosh and cloud api compatibility</title>
+      <link>https://www.mattstine.com/2013/08/02/bosh-and-cloud-api-compatibility/</link>
+      <pubDate>Fri, 02 Aug 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2013/08/02/bosh-and-cloud-api-compatibility/</guid>
+      <description>The gauntlet has again been dropped in the world of cloud interoperability. The dueling factions include those asserting that competitors to Amazon&amp;rsquo;s web services (principally OpenStack) must adopt AWS&amp;rsquo;s API&amp;rsquo;s in order to remain viable, and those that believe such &amp;ldquo;API cloning&amp;rdquo; will do nothing more than stunt innovation. If you were to ask me, I&amp;rsquo;d say that we&amp;rsquo;ve seen this play out before. Remember the &amp;ldquo;Clone Wars&amp;rdquo; that began in the late 1980&amp;rsquo;s and that persisted for the better part of two decades?</description>
+    </item>
+    
+    <item>
+      <title>blue green deployments on cloudfoundry</title>
+      <link>https://www.mattstine.com/2013/07/10/blue-green-deployments-on-cloudfoundry/</link>
+      <pubDate>Wed, 10 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2013/07/10/blue-green-deployments-on-cloudfoundry/</guid>
+      <description>One of the great things about Cloud Foundry is that it is a great enabler. Tall words. But what do they mean? Essentially, Cloud Foundry (and any other well-designed PaaS) enables us to do things as developers and operators that would be extremely difficult in a traditional deployment environments. One particularly valuable area of enablement is our new found ability to practice Continous Delivery, meaning that we continuously prove our ability to deliver working software by continuously treating each code commit to a system as if it could be deployed to a production environment.</description>
+    </item>
+    
+    <item>
+      <title>into the crucible</title>
+      <link>https://www.mattstine.com/2013/05/29/into-the-crucible/</link>
+      <pubDate>Wed, 29 May 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2013/05/29/into-the-crucible/</guid>
+      <description>Wow&amp;hellip;it seems I only post to this blog toward the end of May. Well, that all changes now. You see, as of June 3, 2013, this blog is going to become one of many aspects of my new &amp;ldquo;day job.&amp;rdquo; On Monday, I start my life as a Community Engineer with Cloud Foundry by Pivotal. What&amp;rsquo;s a Community Engineer? Quite honestly, I&amp;rsquo;m not completely sure of the answer to that question yet.</description>
+    </item>
+    
+    <item>
+      <title>announcing nosql summer memphis</title>
+      <link>https://www.mattstine.com/2010/05/28/announcing-nosql-summer-memphis/</link>
+      <pubDate>Fri, 28 May 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2010/05/28/announcing-nosql-summer-memphis/</guid>
+      <description>I recently stumbled across the NOSQL Summer website via my friend Alex Miller&amp;rsquo;s blog. The idea is to setup a summer reading club focused around databases and distributed systems. Groups will gather &amp;ldquo;worldwide&amp;rdquo; to discuss various papers and the hopefully submit the substance of their discussions back to the NOSQL Summer website in the form of annotated papers.
+This sounded like a great idea to me, so I decided that we&amp;rsquo;d co-locate a NOSQL Summer discussion with our monthly Memphis JUG meetings.</description>
+    </item>
+    
+    <item>
+      <title>deploying grails to morph appspace communityone 2009 lightning talk</title>
+      <link>https://www.mattstine.com/2009/06/01/deploying-grails-to-morph-appspace-communityone-2009-lightning-talk/</link>
+      <pubDate>Mon, 01 Jun 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.mattstine.com/2009/06/01/deploying-grails-to-morph-appspace-communityone-2009-lightning-talk/</guid>
+      <description>I gave two lightning talks at CommunityOne today, the first of which described deploying Grails applications to Morph AppSpace.
+For the uninitiated, Grails is a Ruby on Rails inspired full stack web development framework which brings &amp;ldquo;convention over configuration&amp;rdquo; and &amp;ldquo;DRY&amp;rdquo; into the Java web development arena. Unlike Rails, it is not an effort from scratch, but rather stands on the shoulders of proven giants in the Java world like the Spring framework and Hibernate.</description>
+    </item>
+    
+  </channel>
+</rss>

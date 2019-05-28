@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Abouts on Matt Stine</title>
+    <link>http://www.mattstine.com/about/</link>
+    <description>Recent content in Abouts on Matt Stine</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Matt Stine</copyright>
+    <lastBuildDate>Sat, 20 Jun 2015 14:02:37 +0200</lastBuildDate>
+    <atom:link href="/about/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>About</title>
+      <link>http://www.mattstine.com/about/</link>
+      <pubDate>Sat, 20 Jun 2015 14:02:37 +0200</pubDate>
+      
+      <guid>http://www.mattstine.com/about/</guid>
+      <description>&lt;p&gt;Matt is a technical product manager at Pivotal. He is a 15 year veteran of the enterprise IT industry, with experience spanning numerous business domains. He is the author of recently published Migrating to Cloud-Native Application Architectures from O&amp;rsquo;Reilly, available as a free e-book download.&lt;/p&gt;
+
+&lt;p&gt;Matt is obsessed with the idea that enterprise IT “doesn’t have to suck,” and spends much of his time thinking about lean/agile software development methodologies, DevOps, architectural principles/patterns/practices, and programming paradigms, in an attempt to find the perfect storm of techniques that will allow corporate IT departments to not only function like startup companies, but also create software that delights users while maintaining a high degree of conceptual integrity. His current focus is driving Pivotal’s solutions around supporting microservices architectures with Cloud Foundry and Spring.&lt;/p&gt;
+
+&lt;p&gt;Matt has spoken at conferences ranging from JavaOne to OSCON to YOW!, is a five-year member of the No Fluff Just Stuff tour, and serves as Technical Editor of NFJS the Magazine. Matt is also the founder and past president of the Memphis Java User Group.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
