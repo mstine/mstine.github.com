@@ -1,33 +1,46 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Bookreviews on Matt Stine</title>
+    <title>bookreviews | Matt Stine</title>
     <link>https://www.mattstine.com/categories/bookreviews/</link>
-    <description>Recent content in Bookreviews on Matt Stine</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2018 Matt Stine</copyright>
-    <lastBuildDate>Thu, 06 May 2010 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://www.mattstine.com/categories/bookreviews/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="https://www.mattstine.com/categories/bookreviews/index.xml" rel="self" type="application/rss+xml" />
+    <description>bookreviews</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Matt Stine</copyright><lastBuildDate>Thu, 06 May 2010 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>bookreviews</title>
+      <link>https://www.mattstine.com/categories/bookreviews/</link>
+    </image>
     
     <item>
       <title>first thoughts on seven languages in seven weeks</title>
       <link>https://www.mattstine.com/2010/05/06/first-thoughts-on-seven-languages-in-seven-weeks/</link>
       <pubDate>Thu, 06 May 2010 00:00:00 +0000</pubDate>
-      
       <guid>https://www.mattstine.com/2010/05/06/first-thoughts-on-seven-languages-in-seven-weeks/</guid>
-      <description>I recently started reading the beta copy of Bruce Tate&amp;rsquo;s Seven Languages in Seven Weeks from the Pragmatic Bookshelf. While I&amp;rsquo;m certainly NOT on pace to actually complete the book in seven weeks, I have been steadily plodding along. Reading this book takes me back to my days as an undergraduate computer science student at the University of Mississippi. As with most CS programs, we were all required to take a &amp;ldquo;Survey of Programming Languages&amp;rdquo; course toward the end of the curriculum.</description>
+      <description>&lt;p&gt;I recently started reading the beta copy of Bruce Tate&#39;s &lt;a href=&#34;http://pragprog.com/titles/btlang/seven-languages-in-seven-weeks&#34;&gt;&lt;em&gt;Seven Languages in Seven Weeks&lt;/em&gt;&lt;/a&gt; from the Pragmatic Bookshelf. While I&#39;m certainly NOT on pace to actually complete the book in seven weeks, I have been steadily plodding along. Reading this book takes me back to my days as an undergraduate computer science student at the University of Mississippi. As with most CS programs, we were all required to take a &amp;ldquo;Survey of Programming Languages&amp;rdquo; course toward the end of the curriculum. Tate&#39;s book is very similiar to walking through this course, except:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Tate&#39;s text and suggested exercises are intensely practical, targeted at actually getting something useful done in the language.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The language selection is entirely relevant to today&#39;s practitioner. Chances are good that you&#39;ll use a language from this set in your day job sometime in the next decade. Ignoring that, chances are good that you&#39;ll use some language that is a &amp;ldquo;close cousin&amp;rdquo; of a language from this set.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Your thinking about programming in general will be challenged by each chapter. This is not a leisurely read. You cannot &amp;ldquo;coast&amp;rdquo; through this course.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;At present I&#39;m slowly working through the chapter devoted to Io. Io is a prototype-based language, close-cousins with Lua (of recent iPhone game development controversy) and JavaScript (can&#39;t think of a practical use for this guy&amp;hellip;umm&amp;hellip;oh wait!). I&#39;ve very much enjoyed Bruce&#39;s treatment of the language, with his descriptions of the feature being as &amp;ldquo;visual&amp;rdquo; as words can effectively be - who else could liken languages to popular movie characters and get away with it? Before working through Io, Bruce and I tackled Ruby together. Ruby is an old and unfortunately neglected friend of mine. We&#39;ve had our fun together doing a couple of small Rails applications, JUG talks and a (so far) unsuccessful trek into the world of OSGi, but unfortunately we haven&#39;t hit the big time in my day job. Working through this chapter really served to reignite my enthusiasm for the language, especially as it relates to the rich ecosystem of testing tools available in the Ruby and Rails communities.&lt;/p&gt;
+&lt;p&gt;In short, only two chapters in I&#39;d thoroughly recommend that you purchase this book. Like &lt;a href=&#34;http://oreilly.com/catalog/9780596100940&#34;&gt;&lt;em&gt;Beyond Java&lt;/em&gt;&lt;/a&gt; before it, Bruce has again challenged us to step outside of our comfort zone. If nothing else, you&#39;ve got seven kickstarts into learning your &amp;ldquo;Language of the Year.&amp;rdquo;&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>book review career 20 take control of your life</title>
       <link>https://www.mattstine.com/2009/06/17/book-review-career-20-take-control-of-your-life/</link>
       <pubDate>Wed, 17 Jun 2009 00:00:00 +0000</pubDate>
-      
       <guid>https://www.mattstine.com/2009/06/17/book-review-career-20-take-control-of-your-life/</guid>
-      <description>I&amp;rsquo;ve finally published my review of the EXCELLENT book by Jared Richardson and Matthew Bass at DZone. Check it out here: http://books.dzone.com/reviews/career-20-take-control-your.</description>
+      <description>&lt;p&gt;I&#39;ve finally published my review of the EXCELLENT book by Jared Richardson and Matthew Bass at DZone. Check it out here: &lt;a href=&#34;http://books.dzone.com/reviews/career-20-take-control-your&#34;&gt;&lt;a href=&#34;http://books.dzone.com/reviews/career-20-take-control-your&#34;&gt;http://books.dzone.com/reviews/career-20-take-control-your&lt;/a&gt;&lt;/a&gt;.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

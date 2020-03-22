@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Jms on Matt Stine</title>
+    <title>jms | Matt Stine</title>
     <link>https://www.mattstine.com/categories/jms/</link>
-    <description>Recent content in Jms on Matt Stine</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2018 Matt Stine</copyright>
-    <lastBuildDate>Fri, 13 Mar 2009 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://www.mattstine.com/categories/jms/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="https://www.mattstine.com/categories/jms/index.xml" rel="self" type="application/rss+xml" />
+    <description>jms</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Matt Stine</copyright><lastBuildDate>Fri, 13 Mar 2009 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>jms</title>
+      <link>https://www.mattstine.com/categories/jms/</link>
+    </image>
     
     <item>
       <title>im speaking at the march memphis jug meeting</title>
       <link>https://www.mattstine.com/2009/03/13/im-speaking-at-the-march-memphis-jug-meeting/</link>
       <pubDate>Fri, 13 Mar 2009 00:00:00 +0000</pubDate>
-      
       <guid>https://www.mattstine.com/2009/03/13/im-speaking-at-the-march-memphis-jug-meeting/</guid>
-      <description>I learned a great deal about JMS from Mark Richards at last weekend&amp;rsquo;s NFJS Gateway Software Symposium, and I thought I&amp;rsquo;d share it with the Memphis Java community. Take a look at http://www.memphisjug.org for details!</description>
+      <description>&lt;p&gt;I learned a great deal about JMS from Mark Richards at last weekend&#39;s NFJS Gateway Software Symposium, and I thought I&#39;d share it with the Memphis Java community. Take a look at &lt;a href=&#34;http://www.memphisjug.org&#34;&gt;&lt;a href=&#34;http://www.memphisjug.org&#34;&gt;http://www.memphisjug.org&lt;/a&gt;&lt;/a&gt; for details!&lt;/p&gt;
+</description>
     </item>
     
   </channel>

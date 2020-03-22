@@ -1,134 +1,305 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Agile on Matt Stine</title>
+    <title>agile | Matt Stine</title>
     <link>https://www.mattstine.com/categories/agile/</link>
-    <description>Recent content in Agile on Matt Stine</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2018 Matt Stine</copyright>
-    <lastBuildDate>Wed, 05 Jan 2011 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://www.mattstine.com/categories/agile/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="https://www.mattstine.com/categories/agile/index.xml" rel="self" type="application/rss+xml" />
+    <description>agile</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Matt Stine</copyright><lastBuildDate>Wed, 05 Jan 2011 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>agile</title>
+      <link>https://www.mattstine.com/categories/agile/</link>
+    </image>
     
     <item>
       <title>selenium conference 2011</title>
       <link>https://www.mattstine.com/2011/01/05/selenium-conference-2011/</link>
       <pubDate>Wed, 05 Jan 2011 00:00:00 +0000</pubDate>
-      
       <guid>https://www.mattstine.com/2011/01/05/selenium-conference-2011/</guid>
-      <description>I completed an interest survey for a potential Selenium-focused conference several weeks ago, and I&amp;rsquo;m excited to let you know that the &amp;ldquo;powers that be&amp;rdquo; have decided that the conference is going to happen! I have already submitted my &amp;ldquo;Executable Specifications: Automating Your Requirements Document with Geb and Spock&amp;rdquo; talk as a potential session. Whether it makes the conference program or not, I plan on attending the event. Here are the details:</description>
+      <description>&lt;p&gt;I completed an interest survey for a potential Selenium-focused conference several weeks ago, and I&#39;m excited to let you know that the &amp;ldquo;powers that be&amp;rdquo; have decided that the conference is going to happen! I have already submitted my &amp;ldquo;Executable Specifications: Automating Your Requirements Document with Geb and Spock&amp;rdquo; talk as a potential session. Whether it makes the conference program or not, I plan on attending the event. Here are the details:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://mattstine.files.wordpress.com/2011/01/selenium-conf-2011.png&#34; alt=&#34;Selenium Conference 2011&#34;&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Join members of the growing Selenium community for 3 jam-packed days of talks, workshops, lightning talks, and hack sessions. Hear speakers from around the world talk about the present and future of automated testing, share ideas with fellow Selenium developers, including Core Committers, and take part in shaping the future success of the Selenium project.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;When:&lt;/strong&gt; April 4-6, 2011
+&lt;strong&gt;Where:&lt;/strong&gt; Marines’ Memorial Club &amp;amp; Hotel, 609 Sutter St, San Francisco, CA 94102 USA
+&lt;strong&gt;Register now to be a speaker or sponsor. More details: &lt;a href=&#34;http://www.seleniumconf.com/&#34;&gt;&lt;a href=&#34;http://www.seleniumconf.com/&#34;&gt;http://www.seleniumconf.com/&lt;/a&gt;&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>agile zone roundup</title>
       <link>https://www.mattstine.com/2010/11/10/agile-zone-roundup/</link>
       <pubDate>Wed, 10 Nov 2010 00:00:00 +0000</pubDate>
-      
       <guid>https://www.mattstine.com/2010/11/10/agile-zone-roundup/</guid>
-      <description>I&amp;rsquo;ve been really quiet on this blog lately. There have been multiple reasons for that. I&amp;rsquo;ve been extremely busy preparing for conferences this Fall including SpringOne/2GX and The Rich Web Experience. I&amp;rsquo;ve also stayed busy writing for DZone. I have my first DZone Refcard coming out soon, which is focused on Web Driver/Selenium 2. I&amp;rsquo;ve also been writing my regular articles for Agile Zone. Here&amp;rsquo;s a roundup:
- Modular Agile: Loosely coupled, highly cohesive ceremonies</description>
+      <description>&lt;p&gt;I&#39;ve been really quiet on this blog lately. There have been multiple reasons for that. I&#39;ve been extremely busy preparing for conferences this Fall including SpringOne/2GX and The Rich Web Experience. I&#39;ve also stayed busy writing for DZone. I have my first DZone Refcard coming out soon, which is focused on Web Driver/Selenium 2. I&#39;ve also been writing my regular articles for Agile Zone. Here&#39;s a roundup:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://agile.dzone.com/articles/modular-agile-loosely-coupled&#34;&gt;Modular Agile: Loosely coupled, highly cohesive ceremonies&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://agile.dzone.com/articles/think-youre-doing-kanban-think&#34;&gt;	Think You&#39;re &amp;ldquo;Doing Kanban?&amp;rdquo; Think Again.&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://agile.dzone.com/articles/gaelyks-and-golden-hammers&#34;&gt;On Gaelyks and Golden Hammers&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://agile.dzone.com/articles/automation-people-because&#34;&gt;Automation for the People (because Everybody Doing It Manually Hurts) 	&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://agile.dzone.com/articles/build-scripts-we-dont-need-no&#34;&gt;Build Scripts? We Don&#39;t Need No Stinkin&amp;rsquo; Build Scripts!&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://agile.dzone.com/polls/automated-browser-testing&#34;&gt;Automated Browser Testing: What&#39;s in Your Toolkit?&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://agile.dzone.com/articles/selenese-or-not-test-seems-be&#34;&gt;To Selenese or not to Test? That Seems to be the Question.&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://agile.dzone.com/articles/apple-jvm-extra-feature&#34;&gt;Is the Apple JVM an &amp;ldquo;Extra Feature?&amp;quot;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
       <title>the seven wastes of software development</title>
       <link>https://www.mattstine.com/2010/11/10/the-seven-wastes-of-software-development/</link>
       <pubDate>Wed, 10 Nov 2010 00:00:00 +0000</pubDate>
-      
       <guid>https://www.mattstine.com/2010/11/10/the-seven-wastes-of-software-development/</guid>
-      <description>In late September I completed an eight-part article series for Agile Zone entitled &amp;ldquo;The Seven Wastes of Software Development.&amp;rdquo; This series discussed Mary and Tom Poppendieck&amp;rsquo;s mapping of Shigeo Shingo&amp;rsquo;s &amp;ldquo;Seven Wastes of Lean Manufacturing&amp;rdquo; into the software development world. This has been a very popular series, having been viewed a total of 57,887 times at this writing. Here&amp;rsquo;s a set of links to the series:
- The Seven Wastes of Software Development - Introduction Waste #1 - Partially Done Work Waste #2 - Extra Features Waste #3 - Relearning Waste #4 - Handoffs Waste #5 - Delays Waste #6 - Task Switching Waste #7 - Defects  </description>
+      <description>&lt;p&gt;In late September I completed an eight-part article series for Agile Zone entitled &amp;ldquo;The Seven Wastes of Software Development.&amp;rdquo; This series discussed Mary and Tom Poppendieck&#39;s mapping of Shigeo Shingo&#39;s &amp;ldquo;Seven Wastes of Lean Manufacturing&amp;rdquo; into the software development world. This has been a very popular series, having been viewed a total of 57,887 times at this writing. Here&#39;s a set of links to the series:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;http://agile.dzone.com/articles/seven-wastes-software&#34;&gt;The Seven Wastes of Software Development - Introduction&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;http://agile.dzone.com/articles/waste-1-partially-done-work&#34;&gt;Waste #1 - Partially Done Work&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;http://agile.dzone.com/articles/waste-2-extra-features&#34;&gt;Waste #2 - Extra Features&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;http://agile.dzone.com/articles/waste-3-relearning&#34;&gt;Waste #3 - Relearning&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;http://agile.dzone.com/articles/waste-4-handoffs&#34;&gt;Waste #4 - Handoffs&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;http://agile.dzone.com/articles/waste-5-delays&#34;&gt;Waste #5 - Delays&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;http://agile.dzone.com/articles/waste-6-task-switching&#34;&gt;Waste #6 - Task Switching&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;http://agile.dzone.com/articles/waste-7-defects&#34;&gt;Waste #7 - Defects&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
       <title>the agile guerilla series</title>
       <link>https://www.mattstine.com/2010/09/05/the-agile-guerilla-series/</link>
       <pubDate>Sun, 05 Sep 2010 00:00:00 +0000</pubDate>
-      
       <guid>https://www.mattstine.com/2010/09/05/the-agile-guerilla-series/</guid>
-      <description>I recently completed a series of articles for Agile Zone entitled &amp;ldquo;The Agile Guerilla.&amp;rdquo; Those of you that have seen me on the No Fluff Just Stuff tour this year may recognize a talk by the same name. They are one and the same concept: my attempt to reach the masses with strategies for introducing change, specifically moving to agility, into organizations from the grassroots level.
-Here&amp;rsquo;s a list of the complete set of articles for your convenience!</description>
+      <description>&lt;p&gt;I recently completed a series of articles for Agile Zone entitled &amp;ldquo;The Agile Guerilla.&amp;rdquo; Those of you that have seen me on the No Fluff Just Stuff tour this year may recognize a talk by the same name. They are one and the same concept: my attempt to reach the masses with strategies for introducing change, specifically moving to agility, into organizations from the grassroots level.&lt;/p&gt;
+&lt;p&gt;Here&#39;s a list of the complete set of articles for your convenience!&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://agile.dzone.com/articles/agile-guerilla&#34;&gt;The Agile Guerilla&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://agile.dzone.com/articles/show-dont-tell-persuade-dont&#34;&gt;Show (Don&#39;t Tell), Persuade (Don&#39;t Preach)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://agile.dzone.com/articles/going-guerilla-where-start&#34;&gt;Going Guerilla: Where to Start&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://agile.dzone.com/articles/guerillas-workflow&#34;&gt;The Guerilla&#39;s Workflow&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://agile.dzone.com/articles/guerilla-tdd&#34;&gt;Guerilla TDD &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://agile.dzone.com/articles/guerilla-continuous&#34;&gt;Guerilla Continous Integration&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://agile.dzone.com/articles/so-what-are-you-waiting-go&#34;&gt;So What Are You Waiting For? GO BANANAS!&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
       <title>more agile zone articles</title>
       <link>https://www.mattstine.com/2010/08/02/more-agile-zone-articles/</link>
       <pubDate>Mon, 02 Aug 2010 00:00:00 +0000</pubDate>
-      
       <guid>https://www.mattstine.com/2010/08/02/more-agile-zone-articles/</guid>
-      <description>Just to prove that I am writing, just not here, I thought I&amp;rsquo;d post another collection of links to my latest Agile Zone articles:
- Yes You Kanban!
- The Guerilla&amp;rsquo;s Workflow Feedback is the Key! Going Guerilla: Where to Start  In the near future you can look forward to a few more episodes of &amp;ldquo;The Agile Guerilla&amp;rdquo; series, as well as a brand new series I&amp;rsquo;ll be starting entitled &amp;ldquo;The Seven Wastes of Software Development.</description>
+      <description>&lt;p&gt;Just to prove that I am writing, just not here, I thought I&#39;d post another collection of links to my latest Agile Zone articles:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://java.dzone.com/articles/yes-you-kanban&#34;&gt;Yes You Kanban!&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://java.dzone.com/articles/guerillas-workflow&#34;&gt;The Guerilla&#39;s Workflow&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://java.dzone.com/articles/feedback-key&#34;&gt;Feedback is the Key!&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://java.dzone.com/articles/going-guerilla-where-start&#34;&gt;Going Guerilla: Where to Start&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In the near future you can look forward to a few more episodes of &amp;ldquo;The Agile Guerilla&amp;rdquo; series, as well as a brand new series I&#39;ll be starting entitled &amp;ldquo;The Seven Wastes of Software Development.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;Got any topics you want to hear more about? Post up in the comments and I&#39;ll see about covering them at Agile Zone in the coming weeks!&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>i&#39;m in the zone...agile zone</title>
       <link>https://www.mattstine.com/2010/07/20/im-in-the-zone-agile-zone/</link>
       <pubDate>Tue, 20 Jul 2010 00:00:00 +0000</pubDate>
-      
       <guid>https://www.mattstine.com/2010/07/20/im-in-the-zone-agile-zone/</guid>
-      <description>My apologies to my colleagues down the street at AutoZone, but I just had to do that. :-)
-I recently accepted the role of Agile Zone Leader at DZone.com. For the past few weeks I&amp;rsquo;ve been publishing a couple of articles a week on various agile development topics. I&amp;rsquo;m very happy to get the extra exposure and I hope that folks are getting some value out of my posts. On the downside, I have virtually zero time to write anything here, but on the upside I&amp;rsquo;m definitely writing more regularly.</description>
+      <description>&lt;p&gt;My apologies to my colleagues down the street at &lt;a href=&#34;http://www.autozone.com&#34;&gt;AutoZone&lt;/a&gt;, but I just had to do that. :-)&lt;/p&gt;
+&lt;p&gt;I recently accepted the role of Agile Zone Leader at &lt;a href=&#34;http://agile.dzone.com&#34;&gt;DZone.com&lt;/a&gt;. For the past few weeks I&#39;ve been publishing a couple of articles a week on various agile development topics. I&#39;m very happy to get the extra exposure and I hope that folks are getting some value out of my posts. On the downside, I have virtually zero time to write anything here, but on the upside I&#39;m definitely writing more regularly. Nothing like positive pressure to deliver!&lt;/p&gt;
+&lt;p&gt;Here are some links to my recent articles:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://agile.dzone.com/articles/you-are-your-softwares-immune&#34;&gt;You Are Your Software&#39;s Immune System!&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://agile.dzone.com/articles/interview-w-alan-shalloway&#34;&gt;Interview: Alan Shalloway on Lean Agile Software Development, Part One&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://agile.dzone.com/articles/interview-w-alan-shalloway&#34;&gt;Interview: Alan Shalloway on Lean Agile Software Development, Part Two&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://agile.dzone.com/articles/show-dont-tell-persuade-dont&#34;&gt;Show (Don&#39;t Tell), Persuade (Don&#39;t Preach)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://agile.dzone.com/articles/scrummaster-said-i-had&#34;&gt;But the ScrumMaster said I had to!&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://agile.dzone.com/articles/agile-guerilla&#34;&gt;The Agile Guerilla&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://agile.dzone.com/articles/use-stories-deliver&#34;&gt;Use Stories to Deliver Business Value&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Enjoy!&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>dont build software thats too smart</title>
       <link>https://www.mattstine.com/2010/06/03/dont-build-software-thats-too-smart/</link>
       <pubDate>Thu, 03 Jun 2010 00:00:00 +0000</pubDate>
-      
       <guid>https://www.mattstine.com/2010/06/03/dont-build-software-thats-too-smart/</guid>
-      <description>I had an extremely successful meeting with one of our clients yesterday. We were discussing how we wanted to go about migrating her laboratory from its current system (one that we built several years ago) to our new lab management platform. At some point during the discussion I made the statement, &amp;ldquo;We tried to make the previous system too smart! We&amp;rsquo;re not repeating that mistake this time.&amp;rdquo; Of course, she was in complete agreement with that principle.</description>
+      <description>&lt;p&gt;I had an extremely successful meeting with one of our clients yesterday. We were discussing how we wanted to go about migrating her laboratory from its current system (one that we built several years ago) to our new lab management platform. At some point during the discussion I made the statement, &amp;ldquo;We tried to make the previous system too smart! We&#39;re not repeating that mistake this time.&amp;rdquo; Of course, she was in complete agreement with that principle. I&#39;ve had similar interactions with our other clients that are making migrations (rather than encountering our system for the first time on this new version), and although I&#39;ve never explicitly stated the principle that way, similar sentiments have abounded.&lt;/p&gt;
+&lt;p&gt;What is too smart software? In our case, it was a system that attempted to encapsulate every single rule of &amp;ldquo;business&amp;rdquo; process that occurred within a given laboratory. Many times statements were flung around like &amp;ldquo;will it ALWAYS happen this way,&amp;rdquo; &amp;ldquo;what should we do if this happens?&amp;rdquo; etc., etc., etc. We tried to cover every single possibility, and we did an excellent job of preventing users from ever breaking their own rules. What we didn&#39;t realize (and we&#39;re not unique - this problem is RAMPANT) is that the rules CHANGE. Rules come, rules go. Sometimes the rule remains, but there are a few exceptional cases that must be dealt with. Our system simply couldn&#39;t deal with a world that worked this way - and thus, our system was completely unfit for the real world.&lt;/p&gt;
+&lt;p&gt;We set out with a different mission this time. If there&#39;s one overriding characteristic of SRM (Shared Resource Management) 2.0, it&#39;s the explicit assumption that the world will change continually. We don&#39;t attempt to tell you how you must use this system. We capture your data, we invoice for your services, we run your reports - but YOU, the user gets to decide how you&#39;ll interact with it. If your workflow changes, we change with you. Now the devil is in the details. It&#39;s taken roughly 20-30 man years worth of effort to build a system like this, and it hasn&#39;t been easy. But in the end, we&#39;re finding that those years were much better spent ENABLING our users rather than PREVENTING our users from getting things done.&lt;/p&gt;
+&lt;p&gt;I&#39;m not sure that I&#39;ve gotten my point across in this brief diatribe, so I&#39;ll attempt to sum it up here. If you&#39;re developing a system, figure out the 2 or 3 things that will make your users&amp;rsquo; lives AWESOME, and do those 2 or 3 things extremely well. Don&#39;t do the rest AT ALL. Don&#39;t build a system that attempts to be smarter than the knowledge expert using it - it&#39;s a means to your user&#39;s end, not an end in itself.&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>pomodoro the first iteration</title>
       <link>https://www.mattstine.com/2009/11/04/pomodoro-the-first-iteration/</link>
       <pubDate>Wed, 04 Nov 2009 00:00:00 +0000</pubDate>
-      
       <guid>https://www.mattstine.com/2009/11/04/pomodoro-the-first-iteration/</guid>
-      <description>I spent about an hour last night reading through Francesco Cirillo&amp;rsquo;s e-book The Pomodoro Technique. Up until this point I knew the basics of the technique, but I really wanted to drill down and get the details. I won&amp;rsquo;t explain those here - visit http://www.pomodorotechnique.com/ to get the lowdown. What I want to talk about is my experience applying the technique this morning.
-I managed to complete two Pomodoros. Each of the Pomodoros was filled with internal interruptions of various kinds.</description>
+      <description>&lt;p&gt;I spent about an hour last night reading through Francesco Cirillo&#39;s e-book &lt;em&gt;The Pomodoro Technique&lt;/em&gt;. Up until this point I knew the basics of the technique, but I really wanted to drill down and get the details. I won&#39;t explain those here - visit &lt;a href=&#34;http://www.pomodorotechnique.com/&#34;&gt;&lt;a href=&#34;http://www.pomodorotechnique.com/&#34;&gt;http://www.pomodorotechnique.com/&lt;/a&gt;&lt;/a&gt; to get the lowdown. What I want to talk about is my experience applying the technique this morning.&lt;/p&gt;
+&lt;p&gt;I managed to complete two Pomodoros. Each of the Pomodoros was filled with internal interruptions of various kinds. One of the first things that I observed was something that I already knew from yesterday&#39;s TADD post: I am definitely not used to focusing on one distinct task for any prolonged length of time. My mind was constantly bouncing around from idea to idea, almost as if my R-mode had a &amp;ldquo;memory leak.&amp;rdquo; My first Pomodoro was primarily a reading task - I used it for my daily Bible reading and meditation. This part of my day brings it&#39;s focus challenges anyway, as I&#39;m not doing anything tactile. I find its much easier to focus when I&#39;m typing or writing something. The Pomodoro offered no relief from this, save a plan for dealing with the interruptions as they came up. First, note down that one happened with an apostrophe, and second, write the todo item or idea down on my inventory. This definitely helped to refocus my mind on the work at hand, but I still wish I could find a way to prevent those streamer thoughts from landing in the first place.&lt;/p&gt;
+&lt;p&gt;The second thing that I observed was that my workspace is not at all setup to encourage focus. In recent months I&#39;ve stopped using task-focused desktops in OS X, something that Neil Ford recommends in &lt;em&gt;The Productive Programmer&lt;/em&gt;. I was reminded of this later in the day today reading &lt;a href=&#34;http://memeagora.blogspot.com/2009/11/productivity-pron.html&#34;&gt;his latest blog entry&lt;/a&gt;. I think it would be a good idea to use my first Pomodoro of the day to setup task-based desktops for each of the tasks on my TODO list. I could fire up all of the programs necessary and drop them on to a space. Since a lot of my work is focused on web-based applications, I think I&#39;ll probably use Fluid (&lt;a href=&#34;http://fluidapp.com/&#34;&gt;&lt;a href=&#34;http://fluidapp.com/&#34;&gt;http://fluidapp.com/&lt;/a&gt;&lt;/a&gt;) to create site specific browsers for the web applications that I need for each task. Another thing that I need to do is turn off the ringer on my phones and the new message notifications on Entourage. One tool that I did already have in my arsenal is Doodim, which blacks out everything except for the currently focused window on OS X. The only problem with Doodim (&lt;a href=&#34;http://www.lachoseinteractive.net/en/products/doodim/&#34;&gt;&lt;a href=&#34;http://www.lachoseinteractive.net/en/products/doodim/&#34;&gt;http://www.lachoseinteractive.net/en/products/doodim/&lt;/a&gt;&lt;/a&gt;) is that it doesn&#39;t work with external screens, so only my MacBook Pro&#39;s screen gets the benefits. I counteracted this by making sure that the window I was actively using was on the external screen and maximized, but this won&#39;t work for some tasks during which I might have multiple small windows to interact with.&lt;/p&gt;
+&lt;p&gt;The final thing that I observed is that I still definitely live in an interruption-based work environment. My third attempt to complete a Pomodoro was repeated three times, and none of these times did I make it without having to stop and actively handle an external interruption. The difference? My office door was open. My first two Pomodoros were completed with the office door closed and my &amp;ldquo;Ssshhh&amp;hellip;Genius at work!&amp;rdquo; sign on the door. This is going to be a tough one to handle. I don&#39;t want to keep my office door closed all day, for more reasons than one. First, I don&#39;t want to seem completely unapproachable. I&#39;m a manager these days, and a huge part of my job is being available for people. For me, some interruptions will always be OK. But how can I sort those out prior to them happening? This is something I&#39;ll be stewing on over the next couple of days. Second, my office turns into an absolute OVEN when the door is closed for too long. We have a really strange HVAC system that completely overreacts to small changes in the temperature. Unfortunately, it always seems to think I need to be slow cooked. ::SIGH::&lt;/p&gt;
+&lt;p&gt;So, there you have it. I&#39;ve learned a lot - I observed quite a view things about my work patterns and my environment, and will be working over the next few days to make changes to both to support better focus. If you have any comments or suggestions, please feel free to comment. Thanks!&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>test driven development worked for me</title>
       <link>https://www.mattstine.com/2009/10/03/test-driven-development-worked-for-me/</link>
       <pubDate>Sat, 03 Oct 2009 00:00:00 +0000</pubDate>
-      
       <guid>https://www.mattstine.com/2009/10/03/test-driven-development-worked-for-me/</guid>
-      <description>Our team got to spend a few days with Jared Richardson this week, talking tech leadership, agile, and automated testing. At some point during the opening day&amp;rsquo;s discussion, I related the story of how I initially got into Test Driven Development (TDD) and how it seriously ramped up my productivity and decreased my defect count.
-In early 2003, we were slowly dragging through development of the first version of our Shared Resource Management system.</description>
+      <description>&lt;p&gt;Our team got to spend a few days with Jared Richardson this week, talking tech leadership, agile, and automated testing. At some point during the opening day&#39;s discussion, I related the story of how I initially got into Test Driven Development (TDD) and how it seriously ramped up my productivity and decreased my defect count.&lt;/p&gt;
+&lt;p&gt;In early 2003, we were slowly dragging through development of the first version of our Shared Resource Management system. At the time our development model looked a little something like this:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Code until you run into an unimplemented dependency;&lt;/li&gt;
+&lt;li&gt;Repeat until one of the dependencies is checked in;&lt;/li&gt;
+&lt;li&gt;Big Bang Integration!&lt;/li&gt;
+&lt;li&gt;Debug, debug, debug&amp;hellip;&lt;/li&gt;
+&lt;li&gt;Repeat until something pseudo-demoable is ready.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;As you might imagine, this wasn&#39;t a very productive way to work, but unfortunately it was all most of us knew. At the time I thought we really needed to improve on our testing so that we could eliminate a lot of the defects that at the time I didn&#39;t realize were being caused by our development model. I asked my boss if I could start a QA effort and not too much later found the XP/Agile Universe conference that was held in August 2003. It was my hope that we could learn about how to properly test/QA our software there as there seemed to be a lot of talks about this &amp;ldquo;TDD&amp;rdquo; thing. I got approval to attend, and while down there I was immersed in this new culture of Extreme Programming (XP) and Agile.&lt;/p&gt;
+&lt;p&gt;At one point I ventured into a room that was setup like what many of us would call a SCRUM/Team room today, where a group of folks were all coding away on a system and making its &amp;ldquo;Fit&amp;rdquo; tests pass. I quickly paired up with a gentleman and we went to work. At some point Brian Marick came over and asked what we were working on. I fumbled through a description of the requirement and he then asked, &amp;ldquo;Well, where&#39;s your test?&amp;rdquo; I said that we didn&#39;t have one, and he then said something that at the time was very profound to me, &amp;ldquo;Well, you can&#39;t write any code until you have a failing test!&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;I spent most of my time waiting in the airport to return to Memphis reading Uncle Bob&#39;s &amp;ldquo;Agile Software Development: Principles, Patterns, and Practices.&amp;rdquo; Needless to say, I was fired up.&lt;/p&gt;
+&lt;p&gt;When I returned to work in the following weeks, I essentially tried two different tactics in parallel to share what I learned with my team.&lt;/p&gt;
+&lt;p&gt;First, I practiced what Jared calls &amp;ldquo;2x4 Development,&amp;rdquo; or, beating your team in the shins with a 2x4 until they start doing TDD, pair programming, continuous integration, etc. I even delivered my own version of the agile manifesto to the entire department, and the most profound comments I got out of that were &amp;ldquo;I can&#39;t ever imagine us paying two developers to sit at the same computer and work on the same code,&amp;rdquo; and &amp;ldquo;Well, who&#39;s going to test the test code?!?!&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;Needless to say, this didn&#39;t work very well. My second tactic was much more guerrilla in nature. I told the guy that I was working with that I didn&#39;t care what he did with the rest of his time, as long as he checked in his interfaces before he started to code. Now I had something to mock! I then proceeded to TDD all of my code. I advertised my productivity in terms of test cases passing with a little counter on my whiteboard. Development was fun again, as I could get instant feedback on how my code was working and I knew that it was interacting properly with its dependencies. Sure enough, when those big bang integrations happened, my code rarely seemed to be the source of the defects, and I quickly found myself getting pulled into other parts of the code to help develop since I had already gotten my typical assignment finished!&lt;/p&gt;
+&lt;p&gt;We delivered the section of the system that I developed using TDD much faster than any part that I had worked on up to that point (no hard numbers, but I have a pretty good memory of that time), and in addition, I wrote the CLEANEST code I had ever written up to that point.&lt;/p&gt;
+&lt;p&gt;So, while Jared wouldn&#39;t recommend you try TDD if the rest of your team isn&#39;t on board - you&#39;re never going to get someone who doesn&#39;t care about tests to fix one that they broke - this guerrilla tactic worked well for me and got me some recognition as a guy who could write good clean code fast! If I could go back to that point, I think I would have tried &lt;a href=&#34;http://www.jaredrichardson.net/blog/2005/11/03/&#34;&gt;Defect Driven Testing&lt;/a&gt; first or in addition to my GTDD.&lt;/p&gt;
+&lt;p&gt;So, how are you getting your team test infected?&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>career 20 toastmasters</title>
       <link>https://www.mattstine.com/2009/05/11/career-20-toastmasters/</link>
       <pubDate>Mon, 11 May 2009 00:00:00 +0000</pubDate>
-      
       <guid>https://www.mattstine.com/2009/05/11/career-20-toastmasters/</guid>
-      <description>I&amp;rsquo;m currently making my second trip through Jared Richardson&amp;rsquo;s excellent book Career 2.0: Take Control of Your Life. In the &amp;ldquo;Public Speaking&amp;rdquo; chapter, one of the recommended avenues for public speaking practice is Toastmasters. I first heard of Toastmasters&amp;hellip;you guessed it, on my first trip through the book. Shortly after returning home from NFJS St. Louis, I decided to see if I could find a local club. Lo and behold, a Toastmasters club already meets on the St.</description>
+      <description>&lt;p&gt;I&#39;m currently making my second trip through &lt;a href=&#34;http://agileartisans.com/main&#34;&gt;Jared Richardson&#39;s&lt;/a&gt; excellent book &lt;a href=&#34;http://www.lulu.com/content/5925115&#34;&gt;Career 2.0: Take Control of Your Life&lt;/a&gt;. In the &amp;ldquo;Public Speaking&amp;rdquo; chapter, one of the recommended avenues for public speaking practice is &lt;a href=&#34;http://www.toastmasters.org&#34;&gt;Toastmasters&lt;/a&gt;. I first heard of Toastmasters&amp;hellip;you guessed it, on my first trip through the book. Shortly after returning home from &lt;a href=&#34;http://www.nofluffjuststuff.com/conference/st_louis/2009/03/index.html&#34;&gt;NFJS St. Louis&lt;/a&gt;, I decided to see if I could find a local club. Lo and behold, a Toastmasters club already meets on the St. Jude Children&#39;s Research Hospital campus! I had no excuse but to check it out at this point.&lt;/p&gt;
+&lt;p&gt;For the uninitiated, Toastmasters is an organization focused on helping individuals hone their communication and leadership skills in a safe environment. This is accomplished primarily through three different avenues:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Serving in one of the meeting leadership roles, such as Toastmaster (the meeting facilitator);&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Giving a prepared speech/talk from the list of speech projects in the Toastmasters &amp;ldquo;coursework&amp;rdquo;;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Speaking extemporaneously on one of several &amp;ldquo;table topics,&amp;rdquo; which are speaking prompts provided during the meeting.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Participation in any of these avenues is immediately followed up with feedback from one or more people playing various &amp;ldquo;evaluator&amp;rdquo; roles. I couldn&#39;t help but see the parallels to agile software development!&lt;/p&gt;
+&lt;p&gt;I&#39;ve now attended three meetings, and at the last meeting I decided to join up. The St. Jude club is an extremely friendly group, and several of its members are very accomplished public speakers. You can definitely tell that the Toastmasters experience has helped them enhance their communications skills. I&#39;m looking forward to polishing my own.&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>lotypart deux</title>
       <link>https://www.mattstine.com/2009/04/06/lotypart-deux/</link>
       <pubDate>Mon, 06 Apr 2009 00:00:00 +0000</pubDate>
-      
       <guid>https://www.mattstine.com/2009/04/06/lotypart-deux/</guid>
-      <description>A few days ago I pontificated on my need to choose a new &amp;ldquo;Language of the Year.&amp;rdquo; Right now I&amp;rsquo;m attempting to choose between Scala and Clojure. If nothing else, I&amp;rsquo;ve learned from this exercise that asking the community for feedback is a GOOD thing. Your comments have been very helpful.
-To summarize:
- As far as the polls go, Scala is in the lead by a margin of 4 to 2.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;http://mattstine.files.wordpress.com/2009/04/scala_vs_clojure.jpg&#34; alt=&#34;scala_vs_clojure&#34;&gt;&lt;a href=&#34;http://mattstine.files.wordpress.com/2009/04/scala_vs_clojure.jpg2009/04/02/loty-time-again-scala-or-clojure&#34;&gt;A few days ago I pontificated&lt;/a&gt; on my need to choose a new &amp;ldquo;Language of the Year.&amp;rdquo; Right now I&#39;m attempting to choose between &lt;a href=&#34;http://www.scala-lang.org/&#34;&gt;Scala&lt;/a&gt; and &lt;a href=&#34;http://clojure.org/&#34;&gt;Clojure&lt;/a&gt;. If nothing else, I&#39;ve learned from this exercise that asking the community for feedback is a GOOD thing. Your comments have been very helpful.&lt;/p&gt;
+&lt;p&gt;To summarize:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;As far as the polls go, Scala is in the lead by a margin of 4 to 2.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Two of the Scala votes have been simple +1&#39;s, and two have provided a supporting argument.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Both Clojure voters have provided a supporting argument.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;So, to make this a bit more of a fair fight, I&#39;m only going to consider the &amp;ldquo;supported votes&amp;rdquo; at this point. This leads to the obvious result of a tie!&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;So, what to do?&lt;/p&gt;
+&lt;p&gt;The argument for using Scala is that it is a functional/OO hybrid, so it will be easier to slide into. Interestingly enough, the argument against using Scala is that it is a functional/OO hybrid, so it will be easier to slide back into OO/imperative habits! Clojure, being more of a purely functional language, will be harder to get into initially, but will force me to think functionally. Hmmm&amp;hellip;&lt;/p&gt;
+&lt;p&gt;So here&#39;s my idea. Let&#39;s do this the agile way. What I&#39;d like to do is complete a timeboxed spike (in terms of actual time spent learning the language, not calendar time - I&#39;m doing this in my spare time, and I&#39;ve got my wife, four kids, and three other side projects competing for my attention!) of roughly two weeks in each language. The first week of the spike would be spent getting comfortable with the syntax, reading articles/documentation/blogs/etc., writing &amp;ldquo;Hello, World!&amp;rdquo; etc. The second week of the spike would be spent solving the same problem in each language, preferably a problem sitting in the functional sweet spot.&lt;/p&gt;
+&lt;p&gt;How does this sound to everyone? And to follow up, does anyone have a suggested problem I might tackle? Cheers!&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>the developer iteration</title>
       <link>https://www.mattstine.com/2009/04/01/the-developer-iteration/</link>
       <pubDate>Wed, 01 Apr 2009 00:00:00 +0000</pubDate>
-      
       <guid>https://www.mattstine.com/2009/04/01/the-developer-iteration/</guid>
-      <description>I recently gave a 90 minute talk at work covering quite a bit of ground related to Agile Software Development. If I had to sum up agile development in one word, it would be FEEDBACK. Venkat Subramaniam and Andy Hunt give one of the best definitions of agile I&amp;rsquo;ve ever seen in their book, Practices of an Agile Developer:
- Agile development uses feedback to make constant adjustments in a highly collaborative environment.</description>
+      <description>&lt;p&gt;I recently gave a 90 minute talk at work covering quite a bit of ground related to Agile Software Development. If I had to sum up agile development in one word, it would be FEEDBACK. Venkat Subramaniam and Andy Hunt give one of the best definitions of agile I&#39;ve ever seen in their book, &lt;em&gt;Practices of an Agile Developer&lt;/em&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Agile development uses feedback to make constant adjustments in a highly collaborative environment.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Here&#39;s my graphical representation of this quote:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://mattstine.files.wordpress.com/2009/04/aws_fb_1012.jpg?w=300&#34; alt=&#34;Agile Feedback Loop&#34;&gt;&lt;/p&gt;
+&lt;p&gt;I decomposed this into an &amp;ldquo;ecosystem&amp;rdquo; of multiple feedback loops:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://mattstine.files.wordpress.com/2009/04/aws_fb_2013.jpg?w=300&#34; alt=&#34;Developer to Code&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://mattstine.files.wordpress.com/2009/04/aws_fb_3025.jpg?w=300&#34; alt=&#34;Developer to Developer&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://mattstine.files.wordpress.com/2009/04/aws_fb_4033.jpg?w=300&#34; alt=&#34;Team to Client&#34;&gt;&lt;/p&gt;
+&lt;p&gt;What I&#39;d like to focus on in this post is what I consider to be the heart of the &amp;ldquo;Developer to Code&amp;rdquo; feedback loop: &lt;strong&gt;The Developer Iteration&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;You see, iterations aren&#39;t just for teams. Indeed they are also for developers. So many times I have witnessed individuals struggling to participate fully in an agile project because when they return to their desks, for all intents and purposes, they are pretending to be a waterfall. They spend days analyzing a feature, code for days without sharing any code, test the happy path toward the end of the iteration, and attempt a big bang integration on the last day. I&#39;ll be the first to admit that I myself tried to code this way and had a couple of realizations after a short time:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Something felt completely unnatural about it, especially in the context of what we were trying to do as a team&amp;hellip;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;I was awfully miserable, especially at the end of the iteration.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;So, what does the developer iteration look like? It is essentially a microcosm of events that occur during a regular team iteration:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Look at your feature or task, and plan out what you have to do.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Break the work into small chunks, where each chunk leaves the system in a stable state, yet that much closer to the feature or task being complete.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Develop each chunk (preferably using Test-Driven Development), unit and integration testing your work along the way.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Check-in your code EVERY TIME you again arrive at a stable state.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;I&#39;ll give my definition of stability: A system with NO broken tests. How do we maintain stability? Here are several &amp;ldquo;smaller&amp;rdquo; steps that should immediately proceed your check-in step:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Run the tests on your development machine, fixing all broken ones until you reach 100% passing with the code you have.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Check out the latest code from your version control system, thereby integrating your team&#39;s changes with your own.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Run the tests AGAIN, fixing all broken ones until you reach 100% passing with the integrated code. At this point, your system is stable locally.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Check-in the code! Now the entire team has a stable, fully-integrated system.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;So, what&#39;s the point of all this? Look at how much feedback you&#39;re giving yourself along the way! Each time you stop and run the tests, you&#39;re getting feedback about the stability of your code. Not only that, but your constant striving for 100% stability greatly enhances your ability to refactor your code to keep it clean. You&#39;re able to constantly refine the code, creating smaller methods, more cohesive classes, and an overall simpler and better design combined with the confidence that your system is functionally equivalent to what you started with prior to refactoring.&lt;/p&gt;
+&lt;p&gt;Yet another benefit is an enhanced ability to timebox yourself. Working this way enhances your ability to plan to be &amp;ldquo;done&amp;rdquo; by the end of the day, as you&#39;re never very far from your next stable state. Go home with a stable system, and find a stable system when you get back in the morning. Doesn&#39;t that feel great? Even if you can&#39;t reach a stable state by the time you head home, there&#39;s always the throwaway option. Just revert your changes and go home with stable code. Try again with a fresh mind the next morning. Again, if you&#39;re working the developer iteration, you haven&#39;t written that much code since your last stable state anyway. :-)&lt;/p&gt;
+&lt;p&gt;Try it out. I&#39;m not a salesman. I&#39;m a satisfied customer.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

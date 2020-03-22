@@ -1,35 +1,41 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Office on Matt Stine</title>
+    <title>office | Matt Stine</title>
     <link>https://www.mattstine.com/categories/office/</link>
-    <description>Recent content in Office on Matt Stine</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2018 Matt Stine</copyright>
-    <lastBuildDate>Wed, 04 Nov 2009 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://www.mattstine.com/categories/office/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="https://www.mattstine.com/categories/office/index.xml" rel="self" type="application/rss+xml" />
+    <description>office</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Matt Stine</copyright><lastBuildDate>Wed, 04 Nov 2009 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>office</title>
+      <link>https://www.mattstine.com/categories/office/</link>
+    </image>
     
     <item>
       <title>pomodoro the first iteration</title>
       <link>https://www.mattstine.com/2009/11/04/pomodoro-the-first-iteration/</link>
       <pubDate>Wed, 04 Nov 2009 00:00:00 +0000</pubDate>
-      
       <guid>https://www.mattstine.com/2009/11/04/pomodoro-the-first-iteration/</guid>
-      <description>I spent about an hour last night reading through Francesco Cirillo&amp;rsquo;s e-book The Pomodoro Technique. Up until this point I knew the basics of the technique, but I really wanted to drill down and get the details. I won&amp;rsquo;t explain those here - visit http://www.pomodorotechnique.com/ to get the lowdown. What I want to talk about is my experience applying the technique this morning.
-I managed to complete two Pomodoros. Each of the Pomodoros was filled with internal interruptions of various kinds.</description>
+      <description>&lt;p&gt;I spent about an hour last night reading through Francesco Cirillo&#39;s e-book &lt;em&gt;The Pomodoro Technique&lt;/em&gt;. Up until this point I knew the basics of the technique, but I really wanted to drill down and get the details. I won&#39;t explain those here - visit &lt;a href=&#34;http://www.pomodorotechnique.com/&#34;&gt;&lt;a href=&#34;http://www.pomodorotechnique.com/&#34;&gt;http://www.pomodorotechnique.com/&lt;/a&gt;&lt;/a&gt; to get the lowdown. What I want to talk about is my experience applying the technique this morning.&lt;/p&gt;
+&lt;p&gt;I managed to complete two Pomodoros. Each of the Pomodoros was filled with internal interruptions of various kinds. One of the first things that I observed was something that I already knew from yesterday&#39;s TADD post: I am definitely not used to focusing on one distinct task for any prolonged length of time. My mind was constantly bouncing around from idea to idea, almost as if my R-mode had a &amp;ldquo;memory leak.&amp;rdquo; My first Pomodoro was primarily a reading task - I used it for my daily Bible reading and meditation. This part of my day brings it&#39;s focus challenges anyway, as I&#39;m not doing anything tactile. I find its much easier to focus when I&#39;m typing or writing something. The Pomodoro offered no relief from this, save a plan for dealing with the interruptions as they came up. First, note down that one happened with an apostrophe, and second, write the todo item or idea down on my inventory. This definitely helped to refocus my mind on the work at hand, but I still wish I could find a way to prevent those streamer thoughts from landing in the first place.&lt;/p&gt;
+&lt;p&gt;The second thing that I observed was that my workspace is not at all setup to encourage focus. In recent months I&#39;ve stopped using task-focused desktops in OS X, something that Neil Ford recommends in &lt;em&gt;The Productive Programmer&lt;/em&gt;. I was reminded of this later in the day today reading &lt;a href=&#34;http://memeagora.blogspot.com/2009/11/productivity-pron.html&#34;&gt;his latest blog entry&lt;/a&gt;. I think it would be a good idea to use my first Pomodoro of the day to setup task-based desktops for each of the tasks on my TODO list. I could fire up all of the programs necessary and drop them on to a space. Since a lot of my work is focused on web-based applications, I think I&#39;ll probably use Fluid (&lt;a href=&#34;http://fluidapp.com/&#34;&gt;&lt;a href=&#34;http://fluidapp.com/&#34;&gt;http://fluidapp.com/&lt;/a&gt;&lt;/a&gt;) to create site specific browsers for the web applications that I need for each task. Another thing that I need to do is turn off the ringer on my phones and the new message notifications on Entourage. One tool that I did already have in my arsenal is Doodim, which blacks out everything except for the currently focused window on OS X. The only problem with Doodim (&lt;a href=&#34;http://www.lachoseinteractive.net/en/products/doodim/&#34;&gt;&lt;a href=&#34;http://www.lachoseinteractive.net/en/products/doodim/&#34;&gt;http://www.lachoseinteractive.net/en/products/doodim/&lt;/a&gt;&lt;/a&gt;) is that it doesn&#39;t work with external screens, so only my MacBook Pro&#39;s screen gets the benefits. I counteracted this by making sure that the window I was actively using was on the external screen and maximized, but this won&#39;t work for some tasks during which I might have multiple small windows to interact with.&lt;/p&gt;
+&lt;p&gt;The final thing that I observed is that I still definitely live in an interruption-based work environment. My third attempt to complete a Pomodoro was repeated three times, and none of these times did I make it without having to stop and actively handle an external interruption. The difference? My office door was open. My first two Pomodoros were completed with the office door closed and my &amp;ldquo;Ssshhh&amp;hellip;Genius at work!&amp;rdquo; sign on the door. This is going to be a tough one to handle. I don&#39;t want to keep my office door closed all day, for more reasons than one. First, I don&#39;t want to seem completely unapproachable. I&#39;m a manager these days, and a huge part of my job is being available for people. For me, some interruptions will always be OK. But how can I sort those out prior to them happening? This is something I&#39;ll be stewing on over the next couple of days. Second, my office turns into an absolute OVEN when the door is closed for too long. We have a really strange HVAC system that completely overreacts to small changes in the temperature. Unfortunately, it always seems to think I need to be slow cooked. ::SIGH::&lt;/p&gt;
+&lt;p&gt;So, there you have it. I&#39;ve learned a lot - I observed quite a view things about my work patterns and my environment, and will be working over the next few days to make changes to both to support better focus. If you have any comments or suggestions, please feel free to comment. Thanks!&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>havent had much time to blog lately</title>
       <link>https://www.mattstine.com/2007/08/17/havent-had-much-time-to-blog-lately/</link>
       <pubDate>Fri, 17 Aug 2007 00:00:00 +0000</pubDate>
-      
       <guid>https://www.mattstine.com/2007/08/17/havent-had-much-time-to-blog-lately/</guid>
-      <description>&amp;hellip;.because we&amp;rsquo;ve been packing to move on top of all of our regular projects. St. Jude has nicely renovated a new building for us, so we developers are moving. This is where I&amp;rsquo;m headed on Monday:
-I&amp;rsquo;m both loving it and a little sad - I&amp;rsquo;ve been sitting in my desk for nearly my entire career as a software developer. I just know I&amp;rsquo;m going to park in the garage and come downstairs one morning to find my office gone.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;http://2.bp.blogspot.com/_Vo63LRwAZbk/RsYLERQ4WSI/AAAAAAAAAP0/Z6Sap8em5GY/s1600-h/DSCN0706.JPG&#34;&gt;&lt;img src=&#34;http://2.bp.blogspot.com/_Vo63LRwAZbk/RsYLERQ4WSI/AAAAAAAAAP0/Z6Sap8em5GY/s400/DSCN0706.JPG&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&amp;hellip;.because we&#39;ve been packing to move on top of all of our regular projects. St. Jude has nicely renovated a new building for us, so we developers are moving. This is where I&#39;m headed on Monday:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://1.bp.blogspot.com/_Vo63LRwAZbk/RsYMGBQ4WUI/AAAAAAAAAQE/jDsZtab8xBA/s1600-h/DSC_4433.JPG&#34;&gt;&lt;img src=&#34;http://1.bp.blogspot.com/_Vo63LRwAZbk/RsYMGBQ4WUI/AAAAAAAAAQE/jDsZtab8xBA/s400/DSC_4433.JPG&#34; alt=&#34;&#34;&gt;&lt;/a&gt;I&#39;m both loving it and a little sad - I&#39;ve been sitting in my desk for nearly my entire career as a software developer. I just know I&#39;m going to park in the garage and come downstairs one morning to find my office gone. :-)&lt;/p&gt;
+&lt;p&gt;[&lt;br&gt;
+](&lt;a href=&#34;http://picasa.google.com/blogger/&#34;&gt;http://picasa.google.com/blogger/&lt;/a&gt;)&lt;/p&gt;
+</description>
     </item>
     
   </channel>

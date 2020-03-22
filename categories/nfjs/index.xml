@@ -1,49 +1,96 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Nfjs on Matt Stine</title>
+    <title>nfjs | Matt Stine</title>
     <link>https://www.mattstine.com/categories/nfjs/</link>
-    <description>Recent content in Nfjs on Matt Stine</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2018 Matt Stine</copyright>
-    <lastBuildDate>Tue, 22 Jun 2010 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://www.mattstine.com/categories/nfjs/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="https://www.mattstine.com/categories/nfjs/index.xml" rel="self" type="application/rss+xml" />
+    <description>nfjs</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Matt Stine</copyright><lastBuildDate>Tue, 22 Jun 2010 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>nfjs</title>
+      <link>https://www.mattstine.com/categories/nfjs/</link>
+    </image>
     
     <item>
       <title>nfjs fall 2010 what do you want to learn</title>
       <link>https://www.mattstine.com/2010/06/22/nfjs-fall-2010-what-do-you-want-to-learn/</link>
       <pubDate>Tue, 22 Jun 2010 00:00:00 +0000</pubDate>
-      
       <guid>https://www.mattstine.com/2010/06/22/nfjs-fall-2010-what-do-you-want-to-learn/</guid>
-      <description>Hi everyone! I&amp;rsquo;m currently in the process of developing new talks for my Fall 2010 NFJS tour dates. While I don&amp;rsquo;t know yet where I&amp;rsquo;ll be speaking, I can tell you that I&amp;rsquo;ve registered availability for the following shows:
- Boston, MA
- Seattle, WA
- Atlanta, GA
- Minneapolis, MN
- Chicago, IL
- Denver, CO
-  So, if you&amp;rsquo;re in one of those cities and you&amp;rsquo;re thinking about attending NFJS when it comes your way (see here for the schedule), I&amp;rsquo;d like to know what you want to hear about assuming I come your way.</description>
+      <description>&lt;p&gt;Hi everyone! I&#39;m currently in the process of developing new talks for my Fall 2010 NFJS tour dates. While I don&#39;t know yet where I&#39;ll be speaking, I can tell you that I&#39;ve registered availability for the following shows:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Boston, MA&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Seattle, WA&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Atlanta, GA&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Minneapolis, MN&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Chicago, IL&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Denver, CO&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;So, if you&#39;re in one of those cities and you&#39;re thinking about attending NFJS when it comes your way (see &lt;a href=&#34;http://www.nofluffjuststuff.com&#34;&gt;here&lt;/a&gt; for the schedule), I&#39;d like to know what you want to hear about assuming I come your way.&lt;/p&gt;
+&lt;p&gt;To narrow down the potentials a bit, here are my personal areas of focus:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Agility/Lean/Kanban&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Native Mobile and Web Mobile Software Development (iPhone/iPad/Android)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Web Development in General (HTML5/CSS3/JavaScript)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Modularity and OSGi&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If there are any topics from these four areas that you&#39;d like to hear more about, please speak up in the comments section. And even if you&#39;re not in one of these cities, most of any talks I develop for the Fall will likely show up on the 2011 tour as well, so please speak up anyway!&lt;/p&gt;
+&lt;p&gt;Thanks in advance for your feedback!&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>career 20 toastmasters</title>
       <link>https://www.mattstine.com/2009/05/11/career-20-toastmasters/</link>
       <pubDate>Mon, 11 May 2009 00:00:00 +0000</pubDate>
-      
       <guid>https://www.mattstine.com/2009/05/11/career-20-toastmasters/</guid>
-      <description>I&amp;rsquo;m currently making my second trip through Jared Richardson&amp;rsquo;s excellent book Career 2.0: Take Control of Your Life. In the &amp;ldquo;Public Speaking&amp;rdquo; chapter, one of the recommended avenues for public speaking practice is Toastmasters. I first heard of Toastmasters&amp;hellip;you guessed it, on my first trip through the book. Shortly after returning home from NFJS St. Louis, I decided to see if I could find a local club. Lo and behold, a Toastmasters club already meets on the St.</description>
+      <description>&lt;p&gt;I&#39;m currently making my second trip through &lt;a href=&#34;http://agileartisans.com/main&#34;&gt;Jared Richardson&#39;s&lt;/a&gt; excellent book &lt;a href=&#34;http://www.lulu.com/content/5925115&#34;&gt;Career 2.0: Take Control of Your Life&lt;/a&gt;. In the &amp;ldquo;Public Speaking&amp;rdquo; chapter, one of the recommended avenues for public speaking practice is &lt;a href=&#34;http://www.toastmasters.org&#34;&gt;Toastmasters&lt;/a&gt;. I first heard of Toastmasters&amp;hellip;you guessed it, on my first trip through the book. Shortly after returning home from &lt;a href=&#34;http://www.nofluffjuststuff.com/conference/st_louis/2009/03/index.html&#34;&gt;NFJS St. Louis&lt;/a&gt;, I decided to see if I could find a local club. Lo and behold, a Toastmasters club already meets on the St. Jude Children&#39;s Research Hospital campus! I had no excuse but to check it out at this point.&lt;/p&gt;
+&lt;p&gt;For the uninitiated, Toastmasters is an organization focused on helping individuals hone their communication and leadership skills in a safe environment. This is accomplished primarily through three different avenues:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Serving in one of the meeting leadership roles, such as Toastmaster (the meeting facilitator);&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Giving a prepared speech/talk from the list of speech projects in the Toastmasters &amp;ldquo;coursework&amp;rdquo;;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Speaking extemporaneously on one of several &amp;ldquo;table topics,&amp;rdquo; which are speaking prompts provided during the meeting.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Participation in any of these avenues is immediately followed up with feedback from one or more people playing various &amp;ldquo;evaluator&amp;rdquo; roles. I couldn&#39;t help but see the parallels to agile software development!&lt;/p&gt;
+&lt;p&gt;I&#39;ve now attended three meetings, and at the last meeting I decided to join up. The St. Jude club is an extremely friendly group, and several of its members are very accomplished public speakers. You can definitely tell that the Toastmasters experience has helped them enhance their communications skills. I&#39;m looking forward to polishing my own.&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>on our way to the gateway software symposium</title>
       <link>https://www.mattstine.com/2008/02/08/on-our-way-to-the-gateway-software-symposium/</link>
       <pubDate>Fri, 08 Feb 2008 00:00:00 +0000</pubDate>
-      
       <guid>https://www.mattstine.com/2008/02/08/on-our-way-to-the-gateway-software-symposium/</guid>
-      <description>We&amp;rsquo;re taking most of our team to the St. Louis, Missouri, edition of the No Fluff Just Stuff 2008 tour. This will be my first actual NFJS event. I attended the Spring Experience in 2007, which was put on by the NFJS guys, so I expect this event in St. Louis to be great. Since we&amp;rsquo;re based in Memphis, St. Louis is only about a 4 1&amp;frasl;2 hour drive. We&amp;rsquo;re all going to pile in a van and road trip.</description>
+      <description>&lt;p&gt;We&#39;re taking most of our team to the St. Louis, Missouri, edition of the &lt;a href=&#34;http://www.nofluffjuststuff.com&#34;&gt;No Fluff Just Stuff&lt;/a&gt; 2008 tour. This will be my first actual NFJS event. I attended the &lt;a href=&#34;http://www.thespringexperience.com&#34;&gt;Spring Experience&lt;/a&gt; in 2007, which was put on by the NFJS guys, so I expect this event in St. Louis to be great. Since we&#39;re based in Memphis, St. Louis is only about a 4 1/2 hour drive. We&#39;re all going to pile in a van and road trip. It should be a great time.&lt;/p&gt;
+&lt;p&gt;I&#39;m going to have a hard time choosing sessions: Neal Ford, Scott Davis, David Geary, Jeff Brown, and Bryan Sletten all have sessions that I&#39;d like to attend, several of which are in conflict. I hope they do post-conference video delivery of these sessions just like they&#39;re doing for the Spring Experience.&lt;/p&gt;
+&lt;p&gt;If anyone&#39;s going to be there, let&#39;s do dinner one night and you can meet some of the St. Jude team.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

@@ -1,46 +1,69 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Dynamiclanguages on Matt Stine</title>
+    <title>dynamiclanguages | Matt Stine</title>
     <link>https://www.mattstine.com/categories/dynamiclanguages/</link>
-    <description>Recent content in Dynamiclanguages on Matt Stine</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2018 Matt Stine</copyright>
-    <lastBuildDate>Mon, 06 Apr 2009 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://www.mattstine.com/categories/dynamiclanguages/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="https://www.mattstine.com/categories/dynamiclanguages/index.xml" rel="self" type="application/rss+xml" />
+    <description>dynamiclanguages</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Matt Stine</copyright><lastBuildDate>Mon, 06 Apr 2009 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>dynamiclanguages</title>
+      <link>https://www.mattstine.com/categories/dynamiclanguages/</link>
+    </image>
     
     <item>
       <title>lotypart deux</title>
       <link>https://www.mattstine.com/2009/04/06/lotypart-deux/</link>
       <pubDate>Mon, 06 Apr 2009 00:00:00 +0000</pubDate>
-      
       <guid>https://www.mattstine.com/2009/04/06/lotypart-deux/</guid>
-      <description>A few days ago I pontificated on my need to choose a new &amp;ldquo;Language of the Year.&amp;rdquo; Right now I&amp;rsquo;m attempting to choose between Scala and Clojure. If nothing else, I&amp;rsquo;ve learned from this exercise that asking the community for feedback is a GOOD thing. Your comments have been very helpful.
-To summarize:
- As far as the polls go, Scala is in the lead by a margin of 4 to 2.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;http://mattstine.files.wordpress.com/2009/04/scala_vs_clojure.jpg&#34; alt=&#34;scala_vs_clojure&#34;&gt;&lt;a href=&#34;http://mattstine.files.wordpress.com/2009/04/scala_vs_clojure.jpg2009/04/02/loty-time-again-scala-or-clojure&#34;&gt;A few days ago I pontificated&lt;/a&gt; on my need to choose a new &amp;ldquo;Language of the Year.&amp;rdquo; Right now I&#39;m attempting to choose between &lt;a href=&#34;http://www.scala-lang.org/&#34;&gt;Scala&lt;/a&gt; and &lt;a href=&#34;http://clojure.org/&#34;&gt;Clojure&lt;/a&gt;. If nothing else, I&#39;ve learned from this exercise that asking the community for feedback is a GOOD thing. Your comments have been very helpful.&lt;/p&gt;
+&lt;p&gt;To summarize:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;As far as the polls go, Scala is in the lead by a margin of 4 to 2.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Two of the Scala votes have been simple +1&#39;s, and two have provided a supporting argument.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Both Clojure voters have provided a supporting argument.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;So, to make this a bit more of a fair fight, I&#39;m only going to consider the &amp;ldquo;supported votes&amp;rdquo; at this point. This leads to the obvious result of a tie!&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;So, what to do?&lt;/p&gt;
+&lt;p&gt;The argument for using Scala is that it is a functional/OO hybrid, so it will be easier to slide into. Interestingly enough, the argument against using Scala is that it is a functional/OO hybrid, so it will be easier to slide back into OO/imperative habits! Clojure, being more of a purely functional language, will be harder to get into initially, but will force me to think functionally. Hmmm&amp;hellip;&lt;/p&gt;
+&lt;p&gt;So here&#39;s my idea. Let&#39;s do this the agile way. What I&#39;d like to do is complete a timeboxed spike (in terms of actual time spent learning the language, not calendar time - I&#39;m doing this in my spare time, and I&#39;ve got my wife, four kids, and three other side projects competing for my attention!) of roughly two weeks in each language. The first week of the spike would be spent getting comfortable with the syntax, reading articles/documentation/blogs/etc., writing &amp;ldquo;Hello, World!&amp;rdquo; etc. The second week of the spike would be spent solving the same problem in each language, preferably a problem sitting in the functional sweet spot.&lt;/p&gt;
+&lt;p&gt;How does this sound to everyone? And to follow up, does anyone have a suggested problem I might tackle? Cheers!&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>loty time again scala or clojure</title>
       <link>https://www.mattstine.com/2009/04/02/loty-time-again-scala-or-clojure/</link>
       <pubDate>Thu, 02 Apr 2009 00:00:00 +0000</pubDate>
-      
       <guid>https://www.mattstine.com/2009/04/02/loty-time-again-scala-or-clojure/</guid>
-      <description>In 2007 I established several professional development goals (and later reported my progress on these), one of which was to learn Groovy and Grails. This goal stemmed from the continually referenced idea from The Pragmatic Programmer to &amp;ldquo;learn a new language every year.&amp;rdquo; This idea has become so ubiquitous that it even has it&amp;rsquo;s own four-letter acronym, LOTY (Language of the Year).
-Since establishing and reporting on these goals, I&amp;rsquo;ve had several things get in the way of fully realizing all of them.</description>
+      <description>&lt;p&gt;In 2007 &lt;a href=&#34;http://www.mattstine.com/2007/07/10/my-professional-development-goals-for-2007-2008/&#34;&gt;I established several professional development goals&lt;/a&gt; (&lt;a href=&#34;http://www.mattstine.com/2008/01/02/mid-year-review-my-professional-development-goals-for-2007-2008/&#34;&gt;and later reported my progress on these&lt;/a&gt;), one of which was to learn Groovy and Grails. This goal stemmed from the continually referenced idea from &lt;em&gt;The Pragmatic Programmer&lt;/em&gt; to &amp;ldquo;learn a new language every year.&amp;rdquo; This idea has become so ubiquitous that it even has it&#39;s own four-letter acronym, LOTY (Language of the Year).&lt;/p&gt;
+&lt;p&gt;Since establishing and reporting on these goals, I&#39;ve had several things get in the way of fully realizing all of them. However, I can safely say that in the last two years I have mastered enough Groovy and Grails that they no longer fit in the LOTY category. At this point they&#39;re really not showing my anything that is causing any paradigm shifts for me. They&#39;re comfortable. When I learn a new feature, it just seems to make sense, and nothing surprises me anymore. Languages like these aren&#39;t good LOTY candidates because one of the purposes of learning a LOTY is to challenge and change your ideas about programming. Groovy doesn&#39;t do this for me anymore. It&#39;s time to move on (not to say that I&#39;m dropping Groovy and Grails as a tool - I&#39;m using them more now than ever - they&#39;re just not a learning tool for me anymore).&lt;/p&gt;
+&lt;p&gt;So, at this point I want to delve into a language that attempts to tackle the concurrent/multicore programming challenge. I&#39;d like to stay on the JVM because I appreciate the benefits that it brings as a platform, so for now Erlang is out. The two leading candidates in the JVM/concurrent/multicore arena seem to be &lt;a href=&#34;http://www.scala-lang.org/&#34;&gt;Scala&lt;/a&gt; and &lt;a href=&#34;http://clojure.org/&#34;&gt;Clojure&lt;/a&gt;. An added benefit of both of these languages is that they support the functional paradigm, something I haven&#39;t really played with since my computer science education days and a very interesting language named Haskell.&lt;/p&gt;
+&lt;p&gt;Scala is a multiparadigm language, supporting both object-oriented and functional constructs. It is statically typed, yet offers very nice type inference. Clojure, on the other hand, is a functional Lisp derivative with almost no OO constructs that is dynamically typed. Both are designed to enable concurrent programming. Which one do I choose? I open the floor for comments.&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>it seems to be the year of the dynamicscripting language</title>
       <link>https://www.mattstine.com/2007/05/08/it-seems-to-be-the-year-of-the-dynamicscripting-language/</link>
       <pubDate>Tue, 08 May 2007 00:00:00 +0000</pubDate>
-      
       <guid>https://www.mattstine.com/2007/05/08/it-seems-to-be-the-year-of-the-dynamicscripting-language/</guid>
-      <description>It has been a whirlwind of a day. I&amp;rsquo;ve been to two keynotes (close to 5 hours of information there) and one technical session. Couple that information with what I heard at Java University yesterday, and you find many common themes. One that keeps coming up is the emerging trend of making other languages, particularly dynamic/scripting languages, first-class citizens on the JVM.
-According to Wikipedia, &amp;ldquo;Dynamic programming language is a term used broadly in computer science to describe a class of high level programming languages that execute at runtime many common behaviors that other languages might perform during compilation, if at all.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;http://picasaweb.google.com/matt.stine/SanFranciscoJavaOne2007/photo#5062324250889201762&#34;&gt;&lt;img src=&#34;http://lh6.google.com/image/matt.stine/RkD9FbgYqGI/AAAAAAAAALY/NEPT0IawaRY/s288/DSCN1113.JPG&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;It has been a whirlwind of a day. I&#39;ve been to two keynotes (close to 5 hours of information there) and one technical session. Couple that information with what I heard at Java University yesterday, and you find many common themes. One that keeps coming up is the emerging trend of making other languages, particularly dynamic/scripting languages, first-class citizens on the JVM.&lt;/p&gt;
+&lt;p&gt;According to Wikipedia, &amp;ldquo;Dynamic programming language is a term used broadly in computer science to describe a class of high level programming languages that execute at runtime many common behaviors that other languages might perform during compilation, if at all. These behaviors could include extension of the program, by adding new code, or by extending objects and definitions, or by modifying the type system, all during program execution. These behaviors can be emulated in nearly any language of sufficient complexity, but dynamic languages provide direct tools to make use of them.&amp;rdquo; This definition seems to fit quite nicely with what I&#39;ve heard the last two days. A couple of dynamic languages I&#39;ve heard A LOT about are Groovy and Ruby.&lt;/p&gt;
+&lt;p&gt;Yes, Ruby and its most popular framework, Ruby on Rails, have survived the initial hype. They are here to stay. Not only that, they seem poised to make a serious impact on the way we will do web application development over the next several years. Sun made a HUGE splash when they decided to hire the core developers of JRuby, the project which in its current pre-1.0 release already runs 98% of Ruby on Rails as a first-class citizen on the JVM. Not only that, you can now create a WAR file from a Ruby on Rails application and deploy it to any Java application server! I&#39;ll write more on this in another entry as I attended a full technical session on it.&lt;/p&gt;
+&lt;p&gt;If you&#39;re too uncomfortable getting away from Java, why not try Groovy? After all, it is a JSR (241). All of Java syntax is legal in Groovy, plus a lot more. Groovy is a dynamic scripting language like Ruby and also compiles to bytecode, making it a first-class citizen on the JVM. It has its own MVC framework, Grails (formerly Groovy on Rails), which is a direct competitor to Ruby on Rails. I&#39;ve already written on Groovy and Grails in an earlier entry.&lt;/p&gt;
+&lt;p&gt;I plan to attend some additional sessions focused on these dynamic languages, as it seems they will be really important in the years to come.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

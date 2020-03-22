@@ -1,35 +1,51 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Rails on Matt Stine</title>
+    <title>rails | Matt Stine</title>
     <link>https://www.mattstine.com/categories/rails/</link>
-    <description>Recent content in Rails on Matt Stine</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2018 Matt Stine</copyright>
-    <lastBuildDate>Fri, 11 May 2007 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://www.mattstine.com/categories/rails/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="https://www.mattstine.com/categories/rails/index.xml" rel="self" type="application/rss+xml" />
+    <description>rails</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Matt Stine</copyright><lastBuildDate>Fri, 11 May 2007 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>rails</title>
+      <link>https://www.mattstine.com/categories/rails/</link>
+    </image>
     
     <item>
       <title>and then it was over</title>
       <link>https://www.mattstine.com/2007/05/11/and-then-it-was-over/</link>
       <pubDate>Fri, 11 May 2007 00:00:00 +0000</pubDate>
-      
       <guid>https://www.mattstine.com/2007/05/11/and-then-it-was-over/</guid>
-      <description>I really enjoyed &amp;ldquo;The Toy Show&amp;rdquo; this morning. James Gosling went through a flurry of different demos from around the &amp;ldquo;cool&amp;rdquo; Java world. I was especially impressed with Project Wonderland (http://lg3d-wonderland.dev.java.net/), a virtual workplace environment, and with the real-time robotics demos. Unfortunately I was so sucked in that I didn&amp;rsquo;t get any good photos.
-If anything you could call this my day on the back end. I attended four sessions, two of which were focused on that.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;http://picasaweb.google.com/matt.stine/SanFranciscoJavaOne2007/photo#5063512122879158706&#34;&gt;&lt;img src=&#34;http://lh4.google.com/image/matt.stine/RkU1crgYqbI/AAAAAAAAAOI/fn4ypOF5zkQ/s288/DSCN1138.JPG&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I really enjoyed &amp;ldquo;The Toy Show&amp;rdquo; this morning. James Gosling went through a flurry of different demos from around the &amp;ldquo;cool&amp;rdquo; Java world. I was especially impressed with Project Wonderland (&lt;a href=&#34;http://lg3d-wonderland.dev.java.net/&#34;&gt;http://lg3d-wonderland.dev.java.net/&lt;/a&gt;), a virtual workplace environment, and with the real-time robotics demos. Unfortunately I was so sucked in that I didn&#39;t get any good photos.&lt;/p&gt;
+&lt;p&gt;If anything you could call this my day on the back end. I attended four sessions, two of which were focused on that.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Comparing the Developer Experience of Java EE 5.0, Ruby on Rails, and Grails: Lessons Learned from Developing One Application&lt;/li&gt;
+&lt;li&gt;Implementing Java EE Applications Using Enterprise JavaBeans (EJB) 3 Technology: Real-World Tips, Tricks, and New Design Patterns&lt;/li&gt;
+&lt;li&gt;The Top 10 Ways to Botch Enterprise Java Technology-Based Application Scalability and Reliability&lt;/li&gt;
+&lt;li&gt;Exploting JRuby: Building Domain-Specific Languages for the Java Virtual Machine&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I scheduled the first session because I thought it was be a good way to tie together all that I had learned about Grails and Rails and then compare it to my existing Java EE knowledge. As it turns out, the speaker believed that given tool support, the development experience wasn&#39;t all that different between the three. He then gave some performance comparisons, but I wasn&#39;t all that sure the analysis was very sound. Java EE came out way on top. I hadn&#39;t heard that it outperformed the others by quite as much as he showed. He made a rather dubious statement when he said that Grails and Rails weren&#39;t protected by standards. Groovy is a JSR and Grails just sits on top of it. If that isn&#39;t standard protection, then what is?&lt;/p&gt;
+&lt;p&gt;The EJB tips, tricks, and patterns session was quite nice. I learned a few nuances of the platform. The patterns part was the best. They first went through some of the design patterns from the EJB 2.x days and identified which ones were obsolete and which ones were still useful. They then provided several new design patterns. Unfortunately the slides for this talk were not yet available and I just don&#39;t feel like combing through my handwritten notes. Definitely check this one out online when it is posted.&lt;/p&gt;
+&lt;p&gt;Cameron Purdy&#39;s &amp;ldquo;Top 10&amp;rdquo; talk was both humorous and thought-provoking. I&#39;ll never do justice to it. Check it out when the video comes available.&lt;/p&gt;
+&lt;p&gt;The final session of the conference for me addressed a burning question I had in my mind since Monday - what in the world is a DSL? I heard it thrown around in the Grails and Ruby talks at Java University, but nobody ever defined the acronym. Domain Specific Language - that what it is! I mainly attended this talk because I thought there might be applications for DSL&#39;s in our work at St. Jude. A DSL is a custom language designed for a specific purpose. Ruby&#39;s Rake language for instrumenting application builds is an example. Rob Harrop gave an impressive demo of how he built two DSL&#39;s, one providing a simpler API for JMX, and another for corporate action entitlement calculations. While I can&#39;t think of a direct application for DSL&#39;s yet, I&#39;m not tossing out the possibility.&lt;/p&gt;
+&lt;p&gt;JavaOne was a great conference for me. If I didn&#39;t hate to leave my family for this long, I&#39;d love to attend every year. It&#39;s definitely drinking from a fire hydrant.&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>it seems to be the year of the dynamicscripting language</title>
       <link>https://www.mattstine.com/2007/05/08/it-seems-to-be-the-year-of-the-dynamicscripting-language/</link>
       <pubDate>Tue, 08 May 2007 00:00:00 +0000</pubDate>
-      
       <guid>https://www.mattstine.com/2007/05/08/it-seems-to-be-the-year-of-the-dynamicscripting-language/</guid>
-      <description>It has been a whirlwind of a day. I&amp;rsquo;ve been to two keynotes (close to 5 hours of information there) and one technical session. Couple that information with what I heard at Java University yesterday, and you find many common themes. One that keeps coming up is the emerging trend of making other languages, particularly dynamic/scripting languages, first-class citizens on the JVM.
-According to Wikipedia, &amp;ldquo;Dynamic programming language is a term used broadly in computer science to describe a class of high level programming languages that execute at runtime many common behaviors that other languages might perform during compilation, if at all.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;http://picasaweb.google.com/matt.stine/SanFranciscoJavaOne2007/photo#5062324250889201762&#34;&gt;&lt;img src=&#34;http://lh6.google.com/image/matt.stine/RkD9FbgYqGI/AAAAAAAAALY/NEPT0IawaRY/s288/DSCN1113.JPG&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;It has been a whirlwind of a day. I&#39;ve been to two keynotes (close to 5 hours of information there) and one technical session. Couple that information with what I heard at Java University yesterday, and you find many common themes. One that keeps coming up is the emerging trend of making other languages, particularly dynamic/scripting languages, first-class citizens on the JVM.&lt;/p&gt;
+&lt;p&gt;According to Wikipedia, &amp;ldquo;Dynamic programming language is a term used broadly in computer science to describe a class of high level programming languages that execute at runtime many common behaviors that other languages might perform during compilation, if at all. These behaviors could include extension of the program, by adding new code, or by extending objects and definitions, or by modifying the type system, all during program execution. These behaviors can be emulated in nearly any language of sufficient complexity, but dynamic languages provide direct tools to make use of them.&amp;rdquo; This definition seems to fit quite nicely with what I&#39;ve heard the last two days. A couple of dynamic languages I&#39;ve heard A LOT about are Groovy and Ruby.&lt;/p&gt;
+&lt;p&gt;Yes, Ruby and its most popular framework, Ruby on Rails, have survived the initial hype. They are here to stay. Not only that, they seem poised to make a serious impact on the way we will do web application development over the next several years. Sun made a HUGE splash when they decided to hire the core developers of JRuby, the project which in its current pre-1.0 release already runs 98% of Ruby on Rails as a first-class citizen on the JVM. Not only that, you can now create a WAR file from a Ruby on Rails application and deploy it to any Java application server! I&#39;ll write more on this in another entry as I attended a full technical session on it.&lt;/p&gt;
+&lt;p&gt;If you&#39;re too uncomfortable getting away from Java, why not try Groovy? After all, it is a JSR (241). All of Java syntax is legal in Groovy, plus a lot more. Groovy is a dynamic scripting language like Ruby and also compiles to bytecode, making it a first-class citizen on the JVM. It has its own MVC framework, Grails (formerly Groovy on Rails), which is a direct competitor to Ruby on Rails. I&#39;ve already written on Groovy and Grails in an earlier entry.&lt;/p&gt;
+&lt;p&gt;I plan to attend some additional sessions focused on these dynamic languages, as it seems they will be really important in the years to come.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

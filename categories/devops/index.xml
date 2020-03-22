@@ -1,24 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Devops on Matt Stine</title>
+    <title>devops | Matt Stine</title>
     <link>https://www.mattstine.com/categories/devops/</link>
-    <description>Recent content in Devops on Matt Stine</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2018 Matt Stine</copyright>
-    <lastBuildDate>Wed, 29 May 2013 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://www.mattstine.com/categories/devops/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="https://www.mattstine.com/categories/devops/index.xml" rel="self" type="application/rss+xml" />
+    <description>devops</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Matt Stine</copyright><lastBuildDate>Wed, 29 May 2013 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>devops</title>
+      <link>https://www.mattstine.com/categories/devops/</link>
+    </image>
     
     <item>
       <title>into the crucible</title>
       <link>https://www.mattstine.com/2013/05/29/into-the-crucible/</link>
       <pubDate>Wed, 29 May 2013 00:00:00 +0000</pubDate>
-      
       <guid>https://www.mattstine.com/2013/05/29/into-the-crucible/</guid>
-      <description>Wow&amp;hellip;it seems I only post to this blog toward the end of May. Well, that all changes now. You see, as of June 3, 2013, this blog is going to become one of many aspects of my new &amp;ldquo;day job.&amp;rdquo; On Monday, I start my life as a Community Engineer with Cloud Foundry by Pivotal. What&amp;rsquo;s a Community Engineer? Quite honestly, I&amp;rsquo;m not completely sure of the answer to that question yet.</description>
+      <description>&lt;p&gt;Wow&amp;hellip;it seems I only post to this blog toward the end of May. Well, that all changes now. You see, as of June 3, 2013, this blog is going to become one of many aspects of my new &amp;ldquo;day job.&amp;rdquo; On Monday, I start my life as a Community Engineer with &lt;a href=&#34;http://cloudfoundry.com&#34;&gt;Cloud Foundry&lt;/a&gt; by &lt;a href=&#34;http://goPivotal.com&#34;&gt;Pivotal&lt;/a&gt;. What&#39;s a Community Engineer? Quite honestly, I&#39;m not completely sure of the answer to that question yet. But given the many conversations I&#39;ve had over the past few weeks, it seemingly fits right in with the bridge-building roles I&#39;ve played many times over the course of my career. In this case, I have one foot squarely planted in the world of Cloud Foundry engineering, and one foot squarely planted out in the world with you guys and gals - the community. My job is to help you understand how we are quite literally seeking to &amp;ldquo;build a new platform for a new era.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;Of course, this is a journey that for me started a few years ago. In my previous life as a front-line development manager, I helped lead an agile transformation within my team with &amp;ldquo;ruthless automation&amp;rdquo; playing a central role in everything that our team did. However, it seemed that the better we &amp;ldquo;did agile,&amp;rdquo; the more pain we felt when dealing with those outside of our circle of control. It was only years later, after reading Eliyahu Goldratt&#39;s &lt;a href=&#34;http://en.wikipedia.org/wiki/The_Goal_(novel)&#34;&gt;The Goal&lt;/a&gt; and coming to an understanding of his &lt;a href=&#34;http://en.wikipedia.org/wiki/Theory_of_Constraints&#34;&gt;Theory of Constraints&lt;/a&gt;, that I realized what was happening. Our constraints had moved &amp;ldquo;out of the plant,&amp;rdquo; if you will, and landed in the world of operations. Even without this understanding, I developed a keen interest in this newly emerging topic called &amp;ldquo;DevOps&amp;rdquo; and began to explore the ideas emerging around agile operations and infrastructure as code. I started playing with tools like Puppet, Chef, and Vagrant, and taught sessions on all three of them at the Project Automation Experience in 2011.&lt;/p&gt;
+&lt;p&gt;You can read my &lt;a href=&#34;http://www.mattstine.com/2012/05/24/the-relaunch/&#34;&gt;last entry&lt;/a&gt; and find out that not much later I joined VMware as a Senior Consultant for its Cloud Application Platform. I was hired into that role based on my extensive background in enterprise Java and the Spring ecosystem, but it was nothing short of a staffing accident that I found myself thrust into a role on a virtualization platform provisioning team helping to build out a private self-service cloud! I was steadily getting carried further away from my role as an application architect, steadily becoming assimilated into that mysterious world of web operations that I knew so little about. These experiences, along with my continued reading and thinking about the worlds of DevOps, Lean, and Kanban, have quite literally changed the way I look at the world of software engineering (or as I prefer to think of it now, value delivery through product engineering that just so happens to involve software!). These experiences have formed around me a &lt;a href=&#34;http://en.wikipedia.org/wiki/Crucible&#34;&gt;crucible&lt;/a&gt;, melting me that I might be poured into a new professional mold.&lt;/p&gt;
+&lt;p&gt;So now it&#39;s time to plunge into the world of building the leading &lt;a href=&#34;http://wattersjames.com/2013/03/04/my-fork-you-shirt/&#34;&gt;open&lt;/a&gt; platform as a service, and to help YOU experience the &lt;a href=&#34;https://twitter.com/mstine/status/339570787914760195&#34;&gt;HUGE can of @cloudfoundry awesome&lt;/a&gt; that we at Pivotal are about to unleash on the world. Sound good to you? &lt;a href=&#34;http://blog.cloudfoundry.com/2013/05/16/want-to-contribute-to-cloud-foundry-come-on-in/&#34;&gt;Join us!&lt;/a&gt;&lt;/p&gt;
+</description>
     </item>
     
   </channel>

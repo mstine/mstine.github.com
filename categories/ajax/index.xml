@@ -1,57 +1,249 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ajax on Matt Stine</title>
+    <title>ajax | Matt Stine</title>
     <link>https://www.mattstine.com/categories/ajax/</link>
-    <description>Recent content in Ajax on Matt Stine</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2018 Matt Stine</copyright>
-    <lastBuildDate>Sat, 25 Apr 2009 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://www.mattstine.com/categories/ajax/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="https://www.mattstine.com/categories/ajax/index.xml" rel="self" type="application/rss+xml" />
+    <description>ajax</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Matt Stine</copyright><lastBuildDate>Sat, 25 Apr 2009 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>ajax</title>
+      <link>https://www.mattstine.com/categories/ajax/</link>
+    </image>
     
     <item>
       <title>grails prototype scriptaculous persistent grid sorting goodness</title>
       <link>https://www.mattstine.com/2009/04/25/grails-prototype-scriptaculous-persistent-grid-sorting-goodness/</link>
       <pubDate>Sat, 25 Apr 2009 00:00:00 +0000</pubDate>
-      
       <guid>https://www.mattstine.com/2009/04/25/grails-prototype-scriptaculous-persistent-grid-sorting-goodness/</guid>
-      <description>Ever wanted to do drag-n-drop sorting of a grid of images on a page and persist it? Here&amp;rsquo;s my solution using Grails, Prototype, and Script.aculo.us.
-Basically what prompted this was the need for my wife to be able to sort the various product images that she had on a screen at any given time in any way that she pleased, and it had to be easy to work with. What follows is by no means a complete solution to this problem, but it represents where I am in the development process and may be useful to you, my hapless reader.</description>
+      <description>&lt;p&gt;Ever wanted to do drag-n-drop sorting of a grid of images on a page and persist it? Here&#39;s my solution using Grails, Prototype, and Script.aculo.us.&lt;/p&gt;
+&lt;p&gt;Basically what prompted this was the need for my wife to be able to sort the various product images that she had on a screen at any given time in any way that she pleased, and it had to be easy to work with. What follows is by no means a complete solution to this problem, but it represents where I am in the development process and may be useful to you, my hapless reader.&lt;/p&gt;
+&lt;p&gt;Here&#39;s some GSP code which basically lays out a grid of product images, 3 wide by &lt;em&gt;n&lt;/em&gt; deep:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;div id=&amp;quot;productThumbContainer&amp;quot;&amp;gt;
+  &amp;lt;g:set var=&amp;quot;rowIndex&amp;quot; value=&amp;quot;${0}&amp;quot;/&amp;gt;
+&amp;lt;g:each in=&amp;quot;${products}&amp;quot; var=&amp;quot;product&amp;quot; status=&amp;quot;index&amp;quot;&amp;gt;
+  &amp;lt;g:if test=&amp;quot;${index % 3 == 0}&amp;quot;&amp;gt;
+    &amp;lt;div id=&amp;quot;productRow${rowIndex}&amp;quot; class=&amp;quot;span-20 last product-row&amp;quot;&amp;gt;
+  &amp;lt;/g:if&amp;gt;
+  &amp;lt;div id=&amp;quot;product_${product.id}&amp;quot; class=&amp;quot;span-6 product &amp;lt;g:if test=&amp;quot;${(index % 3 == 2) || ((products.size() - index) == 1)}&amp;quot;&amp;gt;last&amp;lt;/g:if&amp;gt;&amp;lt;g:else&amp;gt;append-1&amp;lt;/g:else&amp;gt;&amp;quot;&amp;gt;
+    &amp;lt;img src=&amp;quot;${resource(dir: grailsApplication.config.store.productImages.webPath, file: product?.thumbnailImage?.name)}&amp;quot; width=&amp;quot;230&amp;quot; class=&amp;quot;productImage&amp;quot;&amp;gt;
+    &amp;lt;h3&amp;gt;&amp;lt;g:link controller=&amp;quot;product&amp;quot; action=&amp;quot;show&amp;quot; id=&amp;quot;${product.id}&amp;quot;&amp;gt;${product.name}&amp;lt;/g:link&amp;gt;&amp;lt;/h3&amp;gt;
+  &amp;lt;/div&amp;gt;
+  &amp;lt;g:if test=&amp;quot;${(index % 3 == 2) || ((products.size() - index) == 1)}&amp;quot;&amp;gt;
+    &amp;lt;/div&amp;gt;
+    &amp;lt;g:set var=&amp;quot;rowIndex&amp;quot; value=&amp;quot;${rowIndex + 1}&amp;quot;/&amp;gt;
+  &amp;lt;/g:if&amp;gt;
+&amp;lt;/g:each&amp;gt;
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Now here&#39;s where the magic happens:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;document.observe(&#39;dom:loaded&#39;, function() {
+      var productRows = $$(&#39;.product-row&#39;);
+
+      var options = {
+        constraint: false,
+        overlap: &#39;horizontal&#39;,
+        containment: productRows,
+        dropOnEmpty: true,
+        tag: &#39;div&#39;,
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;date = &amp;quot;&amp;rdquo;
+};&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;      productRows.each(function(item) {
+        Sortable.create(item, options);
+      });
+
+      $(&#39;persistOrderingButton&#39;).observe(&#39;click&#39;, function(event) {
+          var sortString = &#39;&#39;;
+          productRows.each(function(row) {
+              sortString += &#39;&amp;amp;&#39;;
+              sortString += Sortable.serialize(row);
+          });
+          &amp;lt;g:remoteFunction action=&amp;quot;sortProducts&amp;quot; params=&amp;quot;sortString&amp;quot; update=&amp;quot;ajaxMessage&amp;quot; onSuccess=&amp;quot;\$(&#39;ajaxMessage&#39;).show()&amp;quot;/&amp;gt;
+      });
+});
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;What we&#39;ve got here is, failure to communicate&amp;hellip;oops, wrong synapse there&amp;hellip;what we&#39;ve got here is a Prototype selector that grabs everything with the class &amp;ldquo;.product-row.&amp;rdquo; It then takes these and creates a Scriptaculous Sortable for each of them, providing the object-literal &amp;ldquo;options.&amp;rdquo; Notice the &amp;ldquo;containment&amp;rdquo; option which allows you to drag products back and forth between the various rows.&lt;/p&gt;
+&lt;p&gt;Delving deeper into the magic is the callback function &amp;ldquo;updateRows.&amp;rdquo; This guy is my favorite Javascript creation in quite some time:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;function updateRows(list) {
+      var children = list.childElements();
+
+      if (children.size() &amp;lt; 3) {
+
+        //If I&#39;m the last row, who cares!
+        if (list.next() != null) {
+          var prevRow = list.previous();
+
+          if (prevRow != null) {
+            var lastChild = prevRow.childElements()[prevRow.childElements().size() - 1].remove();
+            list.insert({top:lastChild});
+            updateRows(prevRow);
+          } else {
+            var lastRow = list.up().childElements()[list.up().childElements().size() - 1];
+            var lastChild = lastRow.childElements()[lastRow.childElements().size() - 1].remove();
+            list.insert({top:lastChild});
+            updateRows(lastRow);
+          }
+        }
+      } else if (children.size() == 3) {
+        //Do nothing...gets me out of the recursion I hope!
+      } else {
+        var nextRow = list.next();
+        var lastChild = children[children.size() - 1].remove();
+
+        if (nextRow != null) {
+          nextRow.insert({top:lastChild});
+          updateRows(nextRow);
+        } else {
+          var topRow = list.up().childElements()[0];
+          topRow.insert({top:lastChild});
+          updateRows(topRow);
+        }
+      }
+
+      var i = 0;
+      Sortable.sequence(list).each(function(item) {
+        var productId = &#39;product_&#39; + item;
+        if (i &amp;lt; 2) {
+          $(productId).removeClassName(&#39;last&#39;);
+          $(productId).removeClassName(&#39;append-1&#39;);
+          $(productId).addClassName(&#39;append-1&#39;);
+        } else {
+          $(productId).removeClassName(&#39;last&#39;);
+          $(productId).removeClassName(&#39;append-1&#39;);
+          $(productId).addClassName(&#39;last&#39;);
+        }
+        i++;
+      });
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This function is organized around the fact that the only valid state for a grid of n-rows will be n-1 rows of 3 products, followed by one row of 1 &amp;lt;= numProducts &amp;lt;= 3. In most cases, if you drag a product from one row to another, you are violating that rule by creating a row with 2 products and a row with 4 products. This function solves the problem by recursively shifting the products down until reaching a stable state again.&lt;/p&gt;
+&lt;p&gt;There&#39;s a bit of noise there at the bottom of the function. I&#39;m using Blueprint CSS to do the layout for this application and I need to shift the various Blueprint classes around once everything is settled.&lt;/p&gt;
+&lt;p&gt;Finally, here&#39;s the persistence of the data when we click save:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;def sortProducts = {
+    TreeMap rowMap = new TreeMap()
+
+    params.each {key, value -&amp;gt;
+      def matcher = key =~ /productRow(.*)\[\]/
+      if (matcher.matches()) {
+        def rowId = matcher[0][1]
+        rowMap[rowId] = value
+      }
+    }
+
+    def productIds = []
+    rowMap.values().each { row -&amp;gt;
+      row.each {
+        productIds &amp;lt;&amp;lt; it.toLong()
+      }
+    }
+
+    shoppingService.saveSortOrder(productIds)
+
+    render(&amp;quot;Product sort order saved!&amp;quot;)
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;and the logic from shoppingService.saveSortOrder():&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;def saveSortOrder(def productIds) {
+    def productsToSort = Product.findAllByIdInList(productIds)
+
+    def productMap = [:]
+    def sortIndexList = []
+
+    productsToSort.each {
+      productMap[it.id] = it
+      sortIndexList &amp;lt;&amp;lt; it.sortIndex
+    }
+
+    sortIndexList.sort()
+    sortIndexList = sortIndexList.reverse()
+
+    productIds.each {
+      productMap[it].sortIndex = sortIndexList.pop()
+    }
+
+    productsToSort.each {
+      it.save()
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;You might wonder why this is so complex. What I haven&#39;t fully described is the way products are organized into a hierarchy of various categories. When you&#39;re sorting a screen, you&#39;re only sorting a subset of the products that are in that particular category. However, the sort order is maintained across the entire product set in the database. So, this logic basically just shifts around the existing sort indicies, placing them in their new relative order.&lt;/p&gt;
+&lt;p&gt;Anyway, I don&#39;t know how generally applicable this code is, but I had fun writing it and I hope you can get some use out of it. Cheers!&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>ajax integration guide for 2008 jeremy grelle</title>
       <link>https://www.mattstine.com/2007/12/14/ajax-integration-guide-for-2008-jeremy-grelle/</link>
       <pubDate>Fri, 14 Dec 2007 00:00:00 +0000</pubDate>
-      
       <guid>https://www.mattstine.com/2007/12/14/ajax-integration-guide-for-2008-jeremy-grelle/</guid>
-      <description>This talk looked really exciting going in. Jeremy is a member of the Spring Web Products team and the lead of Spring Faces, as well as a member of the JSF 2.0 Expert Group. He describes himself as the resident Ajax freak at SpringSource. Jeremy began by discussing the current Ajax landscape, highlighting what he believes are the important features a successful framework must deliver, and then identifying the frameworks he considers to be the cream of the crop.</description>
+      <description>&lt;p&gt;This talk looked really exciting going in. Jeremy is a member of the Spring Web Products team and the lead of Spring Faces, as well as a member of the JSF 2.0 Expert Group. He describes himself as the resident Ajax freak at SpringSource. Jeremy began by discussing the current Ajax landscape, highlighting what he believes are the important features a successful framework must deliver, and then identifying the frameworks he considers to be the cream of the crop. No surprises here on the list: Prototype/Scriptaculous, jQuery, YUI, Ext, and Dojo. He then gave a brief high-level overview of each framework - I really didn&#39;t learn anything new here, as I&#39;ve been following these frameworks for quite awhile. He mentioned the commonality that all of these frameworks are about more than asynchronous client-server communication - they&#39;re about improving your client-side code and user experience. See Dion&#39;s May 2007 comment that Ajax &amp;ldquo;was never about the acronym - it&#39;s about building killer websites.&amp;rdquo; What is good about all of these frameworks is that you can use all of them in an unobtrusive manner and progressively enhance your UI. This gives you the ability to only Ajaxify what you need and also get graceful degradation.&lt;/p&gt;
+&lt;p&gt;In the second portion of his talk, Jeremy talked about connecting to Spring. I was really hoping that the &amp;ldquo;goods&amp;rdquo; would be delivered here. He started by mentioning DWR, which I think is a really nice framework. It merited 2 slides and no demo (even though there was a slide mentioning a demo). I don&#39;t think Jeremy really cares for it or GWT, as he sort of lumped them together and didn&#39;t mention them again. I do appreciate his point that neither really allows you to harvest any existing controlling infrastructure that we may have built using Spring MVC or another framework.&lt;/p&gt;
+&lt;p&gt;Jeremy then moved into what he considers the better way to do it, which is the progressive enhancement I mentioned above. He took the existing Spring Booking MVC + Web Flow example application and ajaxified portions of it. He did this using an interesting combination of Apache Tiles, some Javascript &amp;ldquo;pseudo-AOP&amp;rdquo; he lifted from the SpringFaces project, and a bit of Dojo. It seemed to work really well, but it wasn&#39;t immediately clear how this type of technology was going to be made available to us as developers. He said something along the lines of &amp;ldquo;you don&#39;t have to be using JSF to use this Javascript, so we probably need to change the name to something else.&amp;rdquo; I hope they figure out soon so I can get my hands on it. :-)&lt;/p&gt;
+&lt;p&gt;He closed by briefly discussing REST&#39;s place in the future of Spring Web. The ideal scenario, according to Jeremy, is that we will be able to request different representations of the same resource. For example, we could request HTML for full page display or partial DOM updates, and JSON for intelligent widgets like the Dojo table.&lt;/p&gt;
+&lt;p&gt;It looks like a lot of exciting things will happen in 2008. I hope I don&#39;t have to wait too long.&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>thursday was slow</title>
       <link>https://www.mattstine.com/2007/05/11/thursday-was-slow/</link>
       <pubDate>Fri, 11 May 2007 00:00:00 +0000</pubDate>
-      
       <guid>https://www.mattstine.com/2007/05/11/thursday-was-slow/</guid>
-      <description>for me, not for JavaOne. Of course I was a good little programmer and used the schedule builder to sign up for all of my sessions. I edited them a bit after the first two keynotes. Even then, I had one lone session scheduled for Thursday morning (that wasn&amp;rsquo;t really directly applicable to my work, it just looked interesting), and then two sessions in the afternoon, the first starting at 4:10.</description>
+      <description>&lt;p&gt;for me, not for JavaOne. Of course I was a good little programmer and used the schedule builder to sign up for all of my sessions. I edited them a bit after the first two keynotes. Even then, I had one lone session scheduled for Thursday morning (that wasn&#39;t really directly applicable to my work, it just looked interesting), and then two sessions in the afternoon, the first starting at 4:10. I decided to skip out on the morning session and do a little shopping at Pier 39. The highlight was a &amp;ldquo;Bucket of Boat Trash&amp;rdquo; and clam chowder at the Bubba Gump Shrimp Company. And yes, we Ole Miss Rebels are represented as far out as the end of Pier 39:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://picasaweb.google.com/matt.stine/SanFranciscoJavaOne2007/photo#5063511710562298018&#34;&gt;&lt;img src=&#34;http://lh4.google.com/image/matt.stine/RkU1ErgYqKI/AAAAAAAAAMA/6BJ0mkhqgn8/s288/DSCN1117.JPG&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The two sessions that I attended were:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;RubyTooling: State of the Art&lt;/li&gt;
+&lt;li&gt;Using Ajax with POJC (Plain Old JavaServer Faces Components)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I attended the first session simply to get a little more detail on all of the hype surrounding Ruby tooling support in NetBeans 6. What I got was even more than I bargained for. The project leaders actually walked us through not only the features that were available, but how they were implemented. I had never really thought about the problems with providing code completion and refactoring with a dynamically-typed language. It was really cool to see the thought process that went into their solutions. I&#39;d love to hear a similar discussion from the JetBrains guys, as the Ruby support in IntelliJ IDEA is quite good as well.&lt;/p&gt;
+&lt;p&gt;For me the second session was the best of the conference for me up until that point, and arguably it still is after attending Friday&#39;s sessions. Craig McClanahan, of Struts fame, was the main speaker and was joined by his colleagues Matthew Bohm and Jayashri Visvanathan. What made this session so good for me was that they presented a problem - &amp;ldquo;How can I add Ajax behaviors to my JavaServer™ Faces technology based application, without throwing away my investment in existing component libraries?&amp;rdquo; - and then provided three different solutions to that problem - low, medium, and high level.&lt;/p&gt;
+&lt;p&gt;The low level consisted of simply using the HTML event pass-through attributes that are implemented by most standard JSF components (onClick, onBlur, etc.). One could use an existing JavaScript framework such as Dojo to send an XMLHttpRequest and then map that request to a Servlet or JSF handler using a technology such as Shale Remoting. The response could be sent back as JSON data which could then be transformed into the desired UI update.&lt;/p&gt;
+&lt;p&gt;The medium level consisted of actually extending existing JSF components and adding the desired Ajax behavior. Due to time constraints they didn&#39;t cover this solution in detail, but they did provide a link to a detailed discussion in the Java BluePrints catalog: &lt;a href=&#34;https://blueprints.dev.java.net/bpcatalog/ee5/ajax/extendingRenderFunctionality.html&#34;&gt;https://blueprints.dev.java.net/bpcatalog/ee5/ajax/extendingRenderFunctionality.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The high level solutions addressed the following needs (copied directly from the slides):&lt;/p&gt;
+&lt;p&gt;● Partial page submit—gather up a particular set of&lt;br&gt;
+input element values, and send them to a bit of server&lt;br&gt;
+side business logic&lt;br&gt;
+● Partial page refresh—the business logic needs to&lt;br&gt;
+refresh the content of one or more subtrees of the&lt;br&gt;
+client side DOM&lt;br&gt;
+● Synchronization—the benefits of synchronizing the&lt;br&gt;
+server side state&lt;br&gt;
+● Don’t repeat yourself (DRY)—reuse existing&lt;br&gt;
+components and renderers for partial page updates&lt;/p&gt;
+&lt;p&gt;To address these issues, the speakers highlighted two add-on frameworks:&lt;/p&gt;
+&lt;p&gt;● Ajax4JSF (&lt;a href=&#34;http://labs.jboss.com/portal/jbossajax4jsf&#34;&gt;http://labs.jboss.com/portal/jbossajax4jsf&lt;/a&gt;)&lt;br&gt;
+● Dynamic Faces (&lt;a href=&#34;https://jsf-extensions.dev.java.net/&#34;&gt;https://jsf-extensions.dev.java.net/&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;I was quite impressed with both of these frameworks. One of my colleagues is currently implementing Ajax behavior in a Facelets-based application using Ajax4JSF and he is quite happy with it. Dynamic Faces looked really awesome, especially its tooling support in NetBeans (actually I&#39;m quite impressed with the overall JSF support in NetBeans - I&#39;ll definitely be adding it to my tool belt). The highlight of the presentation was Matt&#39;s video of him building an entire currency trading application in 28 minutes - except it was &amp;ldquo;fast-played&amp;rdquo; to finish in 3 1/2 minutes and set to techno music. Matt wowed us with his dancing abilities while we watched true RAD. The crowd went wild!&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>wednesday was ajax day</title>
       <link>https://www.mattstine.com/2007/05/10/wednesday-was-ajax-day/</link>
       <pubDate>Thu, 10 May 2007 00:00:00 +0000</pubDate>
-      
       <guid>https://www.mattstine.com/2007/05/10/wednesday-was-ajax-day/</guid>
-      <description>Not officially, but nearly every session I attended had something to do with AJAX:
- Creating Amazing Web Interfaces with Ajax
- jMaki: Web 2.0 App Building Made Easy
- Fast, Beautiful, Easy: Pick Three - Building Web User Interfaces in the Java Programming Language with Google Web Toolkit
- Killer JavaScript Technology Frameworks for Java Platform Developers: An Exploration of Prototype, Script.aculo.us, and Rico
-  I have to say that I was rather impressed by what I saw.</description>
+      <description>&lt;p&gt;Not officially, but nearly every session I attended had something to do with AJAX:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Creating Amazing Web Interfaces with Ajax&lt;/li&gt;
+&lt;li&gt;jMaki: Web 2.0 App Building Made Easy&lt;/li&gt;
+&lt;li&gt;Fast, Beautiful, Easy: Pick Three - Building Web User Interfaces in the Java Programming Language with Google Web Toolkit&lt;/li&gt;
+&lt;li&gt;Killer JavaScript Technology Frameworks for Java Platform Developers: An Exploration of Prototype, Script.aculo.us, and Rico&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I have to say that I was rather impressed by what I saw.&lt;/p&gt;
+&lt;p&gt;The first talk was by Ben and Dion, the Ajaxian guys. It was an appropriate way to start, as they gave a quick history overview of Ajax. One nice point they made was that Ajax really isn&#39;t about the acronym - it never was - it&#39;s about building killer websites. Who cares what the actual technology behind it is. They discussed a couple of what they seemed to consider the better frameworks available - Dojo and ExtJS. They then explored some amazing up and coming features, including offline support and 2D client side graphics manipulation.&lt;/p&gt;
+&lt;p&gt;I was rather impressed with jMaki - in short it is a wrapper around many of the popular JavaScript frameworks available (Dojo, Yahoo UI, Script.aculo.us, Spry, Google), and makes them accessible to Java, PHP, and Ruby. It has excellent tool support in NetBeans and Eclipse. It provides protection from changes in the API&#39;s of all of these projects - you can mix and match frameworks and only be concerned about one API - jMaki&#39;s. It does the work of linking all of the widgets together and communicating amongst them and with the server side.&lt;/p&gt;
+&lt;p&gt;The GWT talk was easily my favorite of the day. I&#39;m extremely impressed with what these guys have done. I hadn&#39;t had much opportunity to look at GWT until now, and I really wish I had. I was initially skeptical about writing an entire application in Java and letting it generate HTML and JavaScript. I guess these guys knew that, because they&#39;re development philosophy addresses my concerns quite nicely:&lt;/p&gt;
+&lt;p&gt;To radically improve the web experience for&lt;br&gt;
+users by enabling developers to use existing&lt;br&gt;
+Java tools to build no-compromise AJAX for&lt;br&gt;
+any modern browser&lt;/p&gt;
+&lt;p&gt;From what I can see, they deliver on their mission. They&#39;ve optimized their code for speed and for browser specificity (e.g. from what I understand, if your client is using Firefox, you get Firefox optimized JavaScript, same for IE, etc.). You can use all of your favorite IDE features to build the code, including the debugger. I really want to try to make use of this toolkit in the near future.&lt;/p&gt;
+&lt;p&gt;The final talk was less informative for me, but only because I had experience with most of the technologies already. The killer part of this was how the speaker extended existing JSF components and added Script.aculo.us effects. It really made his version of Yahoo maps shine.&lt;/p&gt;
+&lt;p&gt;Ajax isn&#39;t going anywhere but up. I just left yet another Ajax/JSF session, which for me was the best session of the conference so far. In a later entry I&#39;ll tell you why.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Matt Stine</title>
+    <link>https://www.mattstine.com/authors/matt-stine/</link>
+      <atom:link href="https://www.mattstine.com/authors/matt-stine/index.xml" rel="self" type="application/rss+xml" />
+    <description>Matt Stine</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Matt Stine</copyright><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Matt Stine</title>
+      <link>https://www.mattstine.com/authors/matt-stine/</link>
+    </image>
+    
+    <item>
+      <title>Learning Path: Cloud Native Architecture Brick and Mortar Pattern Language</title>
+      <link>https://www.mattstine.com/publication/lp-cna-bam-pl/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://www.mattstine.com/publication/lp-cna-bam-pl/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;What you’ll learn—and how you can apply it&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Understand what pattern languages are, their history, and their use in defining new systems&lt;/li&gt;
+&lt;li&gt;Discover what the Brick and Mortar pattern language is and how it was developed&lt;/li&gt;
+&lt;li&gt;Learn how the Brick and Mortar language can explain the power of cloud architecture&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;This learning path is for you because…&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;You&#39;re a software architect or senior developer working on medium-to-large scale enterprise systems and want to learn the Brick and Mortar pattern language&lt;/li&gt;
+&lt;li&gt;You&#39;re an experienced application architect, lead engineer, or senior developer building medium-to-large scale enterprise applications, and you need to start leveraging cloud infrastructure for your solutions&lt;/li&gt;
+&lt;li&gt;You&#39;re an experienced application architect, lead engineer, or senior developer building medium-to-large scale enterprise applications, and you want to understand how to create systems optimized for DevOps and Continuous Delivery practices&lt;/li&gt;
+&lt;li&gt;You&#39;re an experienced application architect, lead engineer, or senior developer building medium-to-large scale enterprise applications, and you need to start migrating your existing applications to cloud native architectures&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Learning Path: Cloud Native Architecture Patterns Fundamentals</title>
+      <link>https://www.mattstine.com/publication/lp-cna-fundamentals/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://www.mattstine.com/publication/lp-cna-fundamentals/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;What you’ll learn—and how you can apply it&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;What DevOps is and what are its uses&lt;/li&gt;
+&lt;li&gt;What Continuous Delivery is and its usability and testability&lt;/li&gt;
+&lt;li&gt;How DevOps, Continuous Delivery, and Cloud Infrastructure are tied together&lt;/li&gt;
+&lt;li&gt;How to articulate the high-level narrative of cloud-native architecture and understand why it is important to your business&lt;/li&gt;
+&lt;li&gt;How to articulate the paradigm shift involved in cloud-native architectural thinking&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;This learning path is for you because…&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;You are an experienced application architect, lead engineer, or senior developer building medium- to large-scale enterprise applications and you need to begin integrating cloud infrastructure into your solutions&lt;/li&gt;
+&lt;li&gt;You want to understand how to create systems optimized for DevOps and Continuous Delivery (CD) environments&lt;/li&gt;
+&lt;li&gt;You need to begin migrating your existing applications to cloud-native architectures&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Secure Hybrid Banking Reference Architectures for Cloud-Native Applications</title>
+      <link>https://www.mattstine.com/publication/shb-refarch-cna/</link>
+      <pubDate>Wed, 01 Mar 2017 00:00:00 +0000</pubDate>
+      <guid>https://www.mattstine.com/publication/shb-refarch-cna/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Migrating to Cloud Native Application Architectures</title>
+      <link>https://www.mattstine.com/publication/migrating-to-cloud-native/</link>
+      <pubDate>Fri, 20 Feb 2015 00:00:00 +0000</pubDate>
+      <guid>https://www.mattstine.com/publication/migrating-to-cloud-native/</guid>
+      <description>&lt;p&gt;Author Matt Stine also examines the cultural, organizational, and technical changes necessary to migrate traditional monolithic applications and service-oriented architectures to cloud-native architectures. You’ll also find a Migration Cookbook, with recipes for decomposing monolithic applications into microservices, implementing fault-tolerant patterns, and performing automated testing of cloud-native services.&lt;/p&gt;
+&lt;p&gt;This report discusses application architectures that include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;The Twelve-Factor App:&lt;/strong&gt; a collection of cloud-native app architecture patterns&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Microservices:&lt;/strong&gt; independently deployable services that do one thing well&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Self-Service Agile Infrastructure:&lt;/strong&gt; platforms for rapid, repeatable, and consistent provisioning of app environments and backing services&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;API-based Collaboration:&lt;/strong&gt; published and versioned APIs that allow interaction between services in a cloud-native app architecture&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Anti-Fragility:&lt;/strong&gt; systems that get stronger when subjected to stress&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

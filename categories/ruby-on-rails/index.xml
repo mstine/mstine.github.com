@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ruby on Rails on Matt Stine</title>
+    <title>ruby on rails | Matt Stine</title>
     <link>https://www.mattstine.com/categories/ruby-on-rails/</link>
-    <description>Recent content in Ruby on Rails on Matt Stine</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2018 Matt Stine</copyright>
-    <lastBuildDate>Fri, 25 Jan 2008 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://www.mattstine.com/categories/ruby-on-rails/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="https://www.mattstine.com/categories/ruby-on-rails/index.xml" rel="self" type="application/rss+xml" />
+    <description>ruby on rails</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Matt Stine</copyright><lastBuildDate>Fri, 25 Jan 2008 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>ruby on rails</title>
+      <link>https://www.mattstine.com/categories/ruby-on-rails/</link>
+    </image>
     
     <item>
       <title>practical jruby on rails web 20 projects</title>
       <link>https://www.mattstine.com/2008/01/25/practical-jruby-on-rails-web-20-projects/</link>
       <pubDate>Fri, 25 Jan 2008 00:00:00 +0000</pubDate>
-      
       <guid>https://www.mattstine.com/2008/01/25/practical-jruby-on-rails-web-20-projects/</guid>
-      <description>Are Java&amp;rsquo;s days numbered as a web development technology? With buzzwords like Ruby, Rails, and Web 2.0 zipping around the web development community, one may begin to wonder. Could Java&amp;rsquo;s lifespan be extended by finding synergy between Java and Ruby? On the scene comes JRuby, the definitive implementation of Ruby for the JVM. In his new book from Apress, Ola Bini guides the reader through the development of four Web 2.</description>
+      <description>&lt;p&gt;Are Java&#39;s days numbered as a web development technology? With buzzwords like Ruby, Rails, and Web 2.0 zipping around the web development community, one may begin to wonder. Could Java&#39;s lifespan be extended by finding synergy between Java and Ruby? On the scene comes JRuby, the definitive implementation of Ruby for the JVM. In his new book from Apress, Ola Bini guides the reader through the development of four Web 2.0 projects using JRuby on Rails. I think that Bini does a masterful job of always using the right tool for the right job. &lt;a href=&#34;http://java.dzone.com/reviews/practical-jruby-rails-web-20-p&#34;&gt;Read my review for complete details.&lt;/a&gt;&lt;/p&gt;
+</description>
     </item>
     
   </channel>

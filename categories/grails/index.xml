@@ -1,131 +1,418 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Grails on Matt Stine</title>
+    <title>grails | Matt Stine</title>
     <link>https://www.mattstine.com/categories/grails/</link>
-    <description>Recent content in Grails on Matt Stine</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2018 Matt Stine</copyright>
-    <lastBuildDate>Tue, 10 Nov 2009 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://www.mattstine.com/categories/grails/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="https://www.mattstine.com/categories/grails/index.xml" rel="self" type="application/rss+xml" />
+    <description>grails</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Matt Stine</copyright><lastBuildDate>Tue, 10 Nov 2009 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>grails</title>
+      <link>https://www.mattstine.com/categories/grails/</link>
+    </image>
     
     <item>
       <title>securing grails plugin artifacts with filters</title>
       <link>https://www.mattstine.com/2009/11/10/securing-grails-plugin-artifacts-with-filters/</link>
       <pubDate>Tue, 10 Nov 2009 00:00:00 +0000</pubDate>
-      
       <guid>https://www.mattstine.com/2009/11/10/securing-grails-plugin-artifacts-with-filters/</guid>
-      <description>So you&amp;rsquo;ve just installed the handy dandy Spring Security plugin (http://grails.org/plugin/acegi), which makes it incredibly easy to secure entire Grails controllers and/or controller actions with annotations, such as the following:
-This is enabled by turning on controller annotations in your SecurityConfig.groovy file:
-So all is now good in our project. We can secure either controllers or actions with annotations, enabling us to declaratively setup security side-by-side with the code that we&amp;rsquo;re securing in a very straightforward manner.</description>
+      <description>&lt;p&gt;So you&#39;ve just installed the handy dandy Spring Security plugin (&lt;a href=&#34;http://grails.org/plugin/acegi&#34;&gt;http://grails.org/plugin/acegi&lt;/a&gt;), which makes it incredibly easy to secure entire Grails controllers and/or controller actions with annotations, such as the following:&lt;/p&gt;
+&lt;p&gt;This is enabled by turning on controller annotations in your SecurityConfig.groovy file:&lt;/p&gt;
+&lt;p&gt;So all is now good in our project. We can secure either controllers or actions with annotations, enabling us to declaratively setup security side-by-side with the code that we&#39;re securing in a very straightforward manner. You can continue developing your Grails applications with glee, fully assured that security is no longer an issue. But wait, one day you decide to install one of the many useful Grails plugins that add controller artifacts to your application. Lo and behold, you have no way to secure those controllers! Of course, you could descend into $USER_HOME/.grails/$GRAILS_VERSION/projects/projectName/plugins/pluginX and hack the source code for your individual instance of the plugin. This ought to work, but you&#39;re now rather constrained in that every time you update the plugin you&#39;ll need to remember to go make this manual change. That doesn&#39;t sound very agile at all, does it? OK, so how about forking the plugin? This is a little bit better, but now you have the burden of merging changes from the global plugin repository to yours every time a new release happens. This is better, but still a bit cumbersome. How about becoming a committer and adding it to the global source? Of course not. Not everyone will want to secure their plugins the same way you do, and you&#39;ve just introduced a rather unnecessary dependency on the Spring Security plugin. I say all this in an attempt to paint a grim picture. In reality, we&#39;re actually in very good shape. Grails Filters to the rescue!&lt;/p&gt;
+&lt;p&gt;All that you need to do is create a Grails filter that will match requests to the plugin artifact in question and then delegate to Spring Security for authorization. If they are authorized, you simply return true. If not, you can direct them to your login screen. It&#39;s this simple:&lt;/p&gt;
+&lt;p&gt;As you can see here, I&#39;ve secured both the Blurb plugin and the Settings plugin in this manner by requiring that the logged in user be in the ROLE_ADMIN role. Now as Glen Smith would say, that&#39;s a snack!&lt;/p&gt;
+&lt;p&gt;_&lt;strong&gt;Update:&lt;/strong&gt; &lt;a href=&#34;http://burtbeckwith.com/blog/&#34;&gt;Burt Beckwith&lt;/a&gt; enlightened me to an approach that will get this done without the use of filters that will also direct you to the requested URL after login rather than the main page. Unfortunately I&#39;ve never been able to track this down before. Just add the following to SecurityConfig.groovy:_&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>deploying grails to morph appspace communityone 2009 lightning talk</title>
       <link>https://www.mattstine.com/2009/06/01/deploying-grails-to-morph-appspace-communityone-2009-lightning-talk/</link>
       <pubDate>Mon, 01 Jun 2009 00:00:00 +0000</pubDate>
-      
       <guid>https://www.mattstine.com/2009/06/01/deploying-grails-to-morph-appspace-communityone-2009-lightning-talk/</guid>
-      <description>I gave two lightning talks at CommunityOne today, the first of which described deploying Grails applications to Morph AppSpace.
-For the uninitiated, Grails is a Ruby on Rails inspired full stack web development framework which brings &amp;ldquo;convention over configuration&amp;rdquo; and &amp;ldquo;DRY&amp;rdquo; into the Java web development arena. Unlike Rails, it is not an effort from scratch, but rather stands on the shoulders of proven giants in the Java world like the Spring framework and Hibernate.</description>
+      <description>&lt;p&gt;I gave two lightning talks at &lt;a href=&#34;http://developers.sun.com/events/communityone/2009/west/index.jsp&#34;&gt;CommunityOne&lt;/a&gt; today, the first of which described deploying &lt;a href=&#34;http://grails.org&#34;&gt;Grails&lt;/a&gt; applications to &lt;a href=&#34;http://mor.ph/products_appspace&#34;&gt;Morph AppSpace&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;For the uninitiated, Grails is a Ruby on Rails inspired full stack web development framework which brings &amp;ldquo;convention over configuration&amp;rdquo; and &amp;ldquo;DRY&amp;rdquo; into the Java web development arena. Unlike Rails, it is not an effort from scratch, but rather stands on the shoulders of proven giants in the Java world like the Spring framework and Hibernate. It does this using Groovy, the popular dynamic scripting language for the JVM, as a sort of &amp;ldquo;DSL for web development.&amp;rdquo; Find it at &lt;a href=&#34;http://grails.org&#34;&gt;&lt;a href=&#34;http://grails.org&#34;&gt;http://grails.org&lt;/a&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Morph AppSpace on the other hand is a fully-configured and managed environment for hosting web applications, and currently supports Java, Grails, Rails, and PHP applications. It is a &amp;ldquo;platform as a service&amp;rdquo; (PaaS) provider that abstracts away the details of Amazon EC2 and S3 technologies. Systems architecture, backups, monitoring, failover, scalability - all of this is handled by Morph. You simply develop and deploy your application - Morph does the rest. Find it at &lt;a href=&#34;http://mor.ph/products_appspace&#34;&gt;&lt;a href=&#34;http://mor.ph/products_appspace&#34;&gt;http://mor.ph/products_appspace&lt;/a&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;So to get going, visit &lt;a href=&#34;http://mor.ph&#34;&gt;&lt;a href=&#34;http://mor.ph&#34;&gt;http://mor.ph&lt;/a&gt;&lt;/a&gt; and sign up for a free developer account. Create yourself a Java application subscription, and pick your choice of database (MySQL or PostgreSQL). Create the database, and then download two very important files into the root directory of your Grails project: deployment.properties, which contains the metadata describing your application to the Morph AppSpace platform, and morph_deployer.jar, which contains the client API to the platform.&lt;/p&gt;
+&lt;p&gt;Next you&#39;ll need to install the &lt;a href=&#34;http://grails.org/plugin/morph-deploy&#34;&gt;Grails morph-deploy plugin&lt;/a&gt;. If you&#39;re using Grails 1.1, you&#39;ll need to checkout &lt;a href=&#34;https://svn.codehaus.org/grails-plugins/grails-morph-deploy/trunk/&#34;&gt;the trunk version from SVN&lt;/a&gt;, as the version in the plugin repository is not 1.1 ready. Install this plugin locally by running &amp;ldquo;grails install-plugin $PATH_TO_PLUGIN.&amp;rdquo; Next, you&#39;ll need to edit DataSource.groovy to contain the following:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;production {
+        dataSource {
+            driverClassName = &#39;com.mysql.jdbc.Driver&#39;
+            dbCreate = &amp;quot;update&amp;quot;
+            jndiName = &amp;quot;java:comp/env/jdbc/morph-ds&amp;quot;
+            dialect = &#39;org.hibernate.dialect.MySQLDialect&#39;
+        }
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Finally, run &amp;ldquo;grails war&amp;rdquo; to build the war file, and &amp;ldquo;grails deploy&amp;rdquo; to upload your application to the platform. Once the upload is complete, visit the management interface and check the logs to see that you&#39;ve successfully deployed. Once it&#39;s finished, click on the link to your application. Happy Grails on the cloud!&lt;/p&gt;
+&lt;p&gt;Here&#39;s the screencast from my talk. Enjoy!&lt;/p&gt;
+&lt;p&gt;[youtube=http://www.youtube.com/watch?v=JYPJ26-1YTM&amp;amp;hl;=en&amp;amp;fs;=1&amp;amp;border;=1]&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>grails paypal plugin update</title>
       <link>https://www.mattstine.com/2009/05/11/grails-paypal-plugin-update/</link>
       <pubDate>Mon, 11 May 2009 00:00:00 +0000</pubDate>
-      
       <guid>https://www.mattstine.com/2009/05/11/grails-paypal-plugin-update/</guid>
-      <description>Since I last posted on my fork of the Grails PayPal Plugin, I&amp;rsquo;ve been invited to be a committer on the Grails Plugins project at the Codehaus. I&amp;rsquo;ll be incorporating my changes into the SVN repository there and updating the documentation on the main Grails Plugins website. Look for these updates coming soon!!!</description>
+      <description>&lt;p&gt;Since I last posted on &lt;a href=&#34;http://www.mattstine.com/2009/05/02/ive-forked-the-grails-paypal-plugin/&#34;&gt;my fork of the Grails PayPal Plugin&lt;/a&gt;, I&#39;ve been invited to be a committer on the &lt;a href=&#34;http://xircles.codehaus.org/projects/grails-plugins&#34;&gt;Grails Plugins project at the Codehaus&lt;/a&gt;. I&#39;ll be incorporating my changes into the SVN repository there and updating the documentation on the main Grails Plugins website. Look for these updates coming soon!!!&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>ive forked the grails paypal plugin</title>
       <link>https://www.mattstine.com/2009/05/02/ive-forked-the-grails-paypal-plugin/</link>
       <pubDate>Sat, 02 May 2009 00:00:00 +0000</pubDate>
-      
       <guid>https://www.mattstine.com/2009/05/02/ive-forked-the-grails-paypal-plugin/</guid>
-      <description>I&amp;rsquo;m currently completing the finishing touches on a new e-commerce site for my wife&amp;rsquo;s stationary business. We decided a long time ago to use PayPal for all of the payment processing since we&amp;rsquo;ve had a great experience using it for our eBay selling. About a year ago Graeme Rocher polished off the last release of a PayPal plugin that is available in the Grails Plugin repository. It really is a very nice plugin, yet I had a couple of problems with it:</description>
+      <description>&lt;p&gt;I&#39;m currently completing the finishing touches on a new e-commerce site for my wife&#39;s stationary business. We decided a long time ago to use &lt;a href=&#34;http://www.paypal.com&#34;&gt;PayPal&lt;/a&gt; for all of the payment processing since we&#39;ve had a great experience using it for our eBay selling. About a year ago Graeme Rocher polished off the last release of a &lt;a href=&#34;http://grails.org/plugin/paypal&#34;&gt;PayPal plugin&lt;/a&gt; that is available in &lt;a href=&#34;http://grails.org/plugin/home&#34;&gt;the Grails Plugin repository&lt;/a&gt;. It really is a very nice plugin, yet I had a couple of problems with it:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;It is only capable of handling payments for one item transactions via &amp;ldquo;Buy Now&amp;rdquo; buttons. I want to upload an entire shopping cart full of multiple items.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;It currently won&#39;t handle shipping addresses. The site I&#39;m building allows the user to maintain a list of shipping addresses, and I&#39;d want to send the address information they choose along to PayPal.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Minor issue: needed to upgrade the plugin to Grails 1.1.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;So, I decided this evening to fork the plugin. I want to leverage all of the great work that has been done thus far (especially with the IPN processing part - superb stuff), but I have to add in these two functions and do the version upgrade. Interestingly enough I couldn&#39;t get the tests to run out of the box after the upgrade. No good developer likes to modify code without a stable running test suite, right? So what I ended up doing was creating a new Grails 1.1 plugin project and copying the original artifacts over. Once this was done all of the tests ran perfectly.&lt;/p&gt;
+&lt;p&gt;So, at this point I&#39;ve added function #1. You can now redirect to the &amp;ldquo;uploadCart&amp;rdquo; action. It assumes that you have already constructed a Payment object (now containing PaymentItems) and saved it, and then passed the transactionId along. I did this so that folks with multiple different ways of handling shopping carts could have some degree of flexibility - the onus is on you to map your cart to your Payment object correctly. The original functions implemented by Graeme are backward compatible, assuming only one PaymentItem in the Payment. I&#39;ve run all of the original tests and also did some manual functional testing by running the plugin app against my own PayPal Sandbox account. So far so good. Look for more updates as this evolves. Once I get something I&#39;m totally happy with I&#39;ll see about getting it pushed back into the main plugin repo.&lt;/p&gt;
+&lt;p&gt;Want to take a closer look? Visit &lt;a href=&#34;http://github.com/mstine/grails-paypal-plugin/tree/master&#34;&gt;&lt;a href=&#34;http://github.com/mstine/grails-paypal-plugin/tree/master&#34;&gt;http://github.com/mstine/grails-paypal-plugin/tree/master&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>grails prototype scriptaculous persistent grid sorting goodness</title>
       <link>https://www.mattstine.com/2009/04/25/grails-prototype-scriptaculous-persistent-grid-sorting-goodness/</link>
       <pubDate>Sat, 25 Apr 2009 00:00:00 +0000</pubDate>
-      
       <guid>https://www.mattstine.com/2009/04/25/grails-prototype-scriptaculous-persistent-grid-sorting-goodness/</guid>
-      <description>Ever wanted to do drag-n-drop sorting of a grid of images on a page and persist it? Here&amp;rsquo;s my solution using Grails, Prototype, and Script.aculo.us.
-Basically what prompted this was the need for my wife to be able to sort the various product images that she had on a screen at any given time in any way that she pleased, and it had to be easy to work with. What follows is by no means a complete solution to this problem, but it represents where I am in the development process and may be useful to you, my hapless reader.</description>
+      <description>&lt;p&gt;Ever wanted to do drag-n-drop sorting of a grid of images on a page and persist it? Here&#39;s my solution using Grails, Prototype, and Script.aculo.us.&lt;/p&gt;
+&lt;p&gt;Basically what prompted this was the need for my wife to be able to sort the various product images that she had on a screen at any given time in any way that she pleased, and it had to be easy to work with. What follows is by no means a complete solution to this problem, but it represents where I am in the development process and may be useful to you, my hapless reader.&lt;/p&gt;
+&lt;p&gt;Here&#39;s some GSP code which basically lays out a grid of product images, 3 wide by &lt;em&gt;n&lt;/em&gt; deep:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;div id=&amp;quot;productThumbContainer&amp;quot;&amp;gt;
+  &amp;lt;g:set var=&amp;quot;rowIndex&amp;quot; value=&amp;quot;${0}&amp;quot;/&amp;gt;
+&amp;lt;g:each in=&amp;quot;${products}&amp;quot; var=&amp;quot;product&amp;quot; status=&amp;quot;index&amp;quot;&amp;gt;
+  &amp;lt;g:if test=&amp;quot;${index % 3 == 0}&amp;quot;&amp;gt;
+    &amp;lt;div id=&amp;quot;productRow${rowIndex}&amp;quot; class=&amp;quot;span-20 last product-row&amp;quot;&amp;gt;
+  &amp;lt;/g:if&amp;gt;
+  &amp;lt;div id=&amp;quot;product_${product.id}&amp;quot; class=&amp;quot;span-6 product &amp;lt;g:if test=&amp;quot;${(index % 3 == 2) || ((products.size() - index) == 1)}&amp;quot;&amp;gt;last&amp;lt;/g:if&amp;gt;&amp;lt;g:else&amp;gt;append-1&amp;lt;/g:else&amp;gt;&amp;quot;&amp;gt;
+    &amp;lt;img src=&amp;quot;${resource(dir: grailsApplication.config.store.productImages.webPath, file: product?.thumbnailImage?.name)}&amp;quot; width=&amp;quot;230&amp;quot; class=&amp;quot;productImage&amp;quot;&amp;gt;
+    &amp;lt;h3&amp;gt;&amp;lt;g:link controller=&amp;quot;product&amp;quot; action=&amp;quot;show&amp;quot; id=&amp;quot;${product.id}&amp;quot;&amp;gt;${product.name}&amp;lt;/g:link&amp;gt;&amp;lt;/h3&amp;gt;
+  &amp;lt;/div&amp;gt;
+  &amp;lt;g:if test=&amp;quot;${(index % 3 == 2) || ((products.size() - index) == 1)}&amp;quot;&amp;gt;
+    &amp;lt;/div&amp;gt;
+    &amp;lt;g:set var=&amp;quot;rowIndex&amp;quot; value=&amp;quot;${rowIndex + 1}&amp;quot;/&amp;gt;
+  &amp;lt;/g:if&amp;gt;
+&amp;lt;/g:each&amp;gt;
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Now here&#39;s where the magic happens:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;document.observe(&#39;dom:loaded&#39;, function() {
+      var productRows = $$(&#39;.product-row&#39;);
+
+      var options = {
+        constraint: false,
+        overlap: &#39;horizontal&#39;,
+        containment: productRows,
+        dropOnEmpty: true,
+        tag: &#39;div&#39;,
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;date = &amp;quot;&amp;rdquo;
+};&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;      productRows.each(function(item) {
+        Sortable.create(item, options);
+      });
+
+      $(&#39;persistOrderingButton&#39;).observe(&#39;click&#39;, function(event) {
+          var sortString = &#39;&#39;;
+          productRows.each(function(row) {
+              sortString += &#39;&amp;amp;&#39;;
+              sortString += Sortable.serialize(row);
+          });
+          &amp;lt;g:remoteFunction action=&amp;quot;sortProducts&amp;quot; params=&amp;quot;sortString&amp;quot; update=&amp;quot;ajaxMessage&amp;quot; onSuccess=&amp;quot;\$(&#39;ajaxMessage&#39;).show()&amp;quot;/&amp;gt;
+      });
+});
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;What we&#39;ve got here is, failure to communicate&amp;hellip;oops, wrong synapse there&amp;hellip;what we&#39;ve got here is a Prototype selector that grabs everything with the class &amp;ldquo;.product-row.&amp;rdquo; It then takes these and creates a Scriptaculous Sortable for each of them, providing the object-literal &amp;ldquo;options.&amp;rdquo; Notice the &amp;ldquo;containment&amp;rdquo; option which allows you to drag products back and forth between the various rows.&lt;/p&gt;
+&lt;p&gt;Delving deeper into the magic is the callback function &amp;ldquo;updateRows.&amp;rdquo; This guy is my favorite Javascript creation in quite some time:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;function updateRows(list) {
+      var children = list.childElements();
+
+      if (children.size() &amp;lt; 3) {
+
+        //If I&#39;m the last row, who cares!
+        if (list.next() != null) {
+          var prevRow = list.previous();
+
+          if (prevRow != null) {
+            var lastChild = prevRow.childElements()[prevRow.childElements().size() - 1].remove();
+            list.insert({top:lastChild});
+            updateRows(prevRow);
+          } else {
+            var lastRow = list.up().childElements()[list.up().childElements().size() - 1];
+            var lastChild = lastRow.childElements()[lastRow.childElements().size() - 1].remove();
+            list.insert({top:lastChild});
+            updateRows(lastRow);
+          }
+        }
+      } else if (children.size() == 3) {
+        //Do nothing...gets me out of the recursion I hope!
+      } else {
+        var nextRow = list.next();
+        var lastChild = children[children.size() - 1].remove();
+
+        if (nextRow != null) {
+          nextRow.insert({top:lastChild});
+          updateRows(nextRow);
+        } else {
+          var topRow = list.up().childElements()[0];
+          topRow.insert({top:lastChild});
+          updateRows(topRow);
+        }
+      }
+
+      var i = 0;
+      Sortable.sequence(list).each(function(item) {
+        var productId = &#39;product_&#39; + item;
+        if (i &amp;lt; 2) {
+          $(productId).removeClassName(&#39;last&#39;);
+          $(productId).removeClassName(&#39;append-1&#39;);
+          $(productId).addClassName(&#39;append-1&#39;);
+        } else {
+          $(productId).removeClassName(&#39;last&#39;);
+          $(productId).removeClassName(&#39;append-1&#39;);
+          $(productId).addClassName(&#39;last&#39;);
+        }
+        i++;
+      });
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This function is organized around the fact that the only valid state for a grid of n-rows will be n-1 rows of 3 products, followed by one row of 1 &amp;lt;= numProducts &amp;lt;= 3. In most cases, if you drag a product from one row to another, you are violating that rule by creating a row with 2 products and a row with 4 products. This function solves the problem by recursively shifting the products down until reaching a stable state again.&lt;/p&gt;
+&lt;p&gt;There&#39;s a bit of noise there at the bottom of the function. I&#39;m using Blueprint CSS to do the layout for this application and I need to shift the various Blueprint classes around once everything is settled.&lt;/p&gt;
+&lt;p&gt;Finally, here&#39;s the persistence of the data when we click save:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;def sortProducts = {
+    TreeMap rowMap = new TreeMap()
+
+    params.each {key, value -&amp;gt;
+      def matcher = key =~ /productRow(.*)\[\]/
+      if (matcher.matches()) {
+        def rowId = matcher[0][1]
+        rowMap[rowId] = value
+      }
+    }
+
+    def productIds = []
+    rowMap.values().each { row -&amp;gt;
+      row.each {
+        productIds &amp;lt;&amp;lt; it.toLong()
+      }
+    }
+
+    shoppingService.saveSortOrder(productIds)
+
+    render(&amp;quot;Product sort order saved!&amp;quot;)
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;and the logic from shoppingService.saveSortOrder():&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;def saveSortOrder(def productIds) {
+    def productsToSort = Product.findAllByIdInList(productIds)
+
+    def productMap = [:]
+    def sortIndexList = []
+
+    productsToSort.each {
+      productMap[it.id] = it
+      sortIndexList &amp;lt;&amp;lt; it.sortIndex
+    }
+
+    sortIndexList.sort()
+    sortIndexList = sortIndexList.reverse()
+
+    productIds.each {
+      productMap[it].sortIndex = sortIndexList.pop()
+    }
+
+    productsToSort.each {
+      it.save()
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;You might wonder why this is so complex. What I haven&#39;t fully described is the way products are organized into a hierarchy of various categories. When you&#39;re sorting a screen, you&#39;re only sorting a subset of the products that are in that particular category. However, the sort order is maintained across the entire product set in the database. So, this logic basically just shifts around the existing sort indicies, placing them in their new relative order.&lt;/p&gt;
+&lt;p&gt;Anyway, I don&#39;t know how generally applicable this code is, but I had fun writing it and I hope you can get some use out of it. Cheers!&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>loty time again scala or clojure</title>
       <link>https://www.mattstine.com/2009/04/02/loty-time-again-scala-or-clojure/</link>
       <pubDate>Thu, 02 Apr 2009 00:00:00 +0000</pubDate>
-      
       <guid>https://www.mattstine.com/2009/04/02/loty-time-again-scala-or-clojure/</guid>
-      <description>In 2007 I established several professional development goals (and later reported my progress on these), one of which was to learn Groovy and Grails. This goal stemmed from the continually referenced idea from The Pragmatic Programmer to &amp;ldquo;learn a new language every year.&amp;rdquo; This idea has become so ubiquitous that it even has it&amp;rsquo;s own four-letter acronym, LOTY (Language of the Year).
-Since establishing and reporting on these goals, I&amp;rsquo;ve had several things get in the way of fully realizing all of them.</description>
+      <description>&lt;p&gt;In 2007 &lt;a href=&#34;http://www.mattstine.com/2007/07/10/my-professional-development-goals-for-2007-2008/&#34;&gt;I established several professional development goals&lt;/a&gt; (&lt;a href=&#34;http://www.mattstine.com/2008/01/02/mid-year-review-my-professional-development-goals-for-2007-2008/&#34;&gt;and later reported my progress on these&lt;/a&gt;), one of which was to learn Groovy and Grails. This goal stemmed from the continually referenced idea from &lt;em&gt;The Pragmatic Programmer&lt;/em&gt; to &amp;ldquo;learn a new language every year.&amp;rdquo; This idea has become so ubiquitous that it even has it&#39;s own four-letter acronym, LOTY (Language of the Year).&lt;/p&gt;
+&lt;p&gt;Since establishing and reporting on these goals, I&#39;ve had several things get in the way of fully realizing all of them. However, I can safely say that in the last two years I have mastered enough Groovy and Grails that they no longer fit in the LOTY category. At this point they&#39;re really not showing my anything that is causing any paradigm shifts for me. They&#39;re comfortable. When I learn a new feature, it just seems to make sense, and nothing surprises me anymore. Languages like these aren&#39;t good LOTY candidates because one of the purposes of learning a LOTY is to challenge and change your ideas about programming. Groovy doesn&#39;t do this for me anymore. It&#39;s time to move on (not to say that I&#39;m dropping Groovy and Grails as a tool - I&#39;m using them more now than ever - they&#39;re just not a learning tool for me anymore).&lt;/p&gt;
+&lt;p&gt;So, at this point I want to delve into a language that attempts to tackle the concurrent/multicore programming challenge. I&#39;d like to stay on the JVM because I appreciate the benefits that it brings as a platform, so for now Erlang is out. The two leading candidates in the JVM/concurrent/multicore arena seem to be &lt;a href=&#34;http://www.scala-lang.org/&#34;&gt;Scala&lt;/a&gt; and &lt;a href=&#34;http://clojure.org/&#34;&gt;Clojure&lt;/a&gt;. An added benefit of both of these languages is that they support the functional paradigm, something I haven&#39;t really played with since my computer science education days and a very interesting language named Haskell.&lt;/p&gt;
+&lt;p&gt;Scala is a multiparadigm language, supporting both object-oriented and functional constructs. It is statically typed, yet offers very nice type inference. Clojure, on the other hand, is a functional Lisp derivative with almost no OO constructs that is dynamically typed. Both are designed to enable concurrent programming. Which one do I choose? I open the floor for comments.&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>deploying grails with groovy</title>
       <link>https://www.mattstine.com/2009/03/29/deploying-grails-with-groovy/</link>
       <pubDate>Sun, 29 Mar 2009 00:00:00 +0000</pubDate>
-      
       <guid>https://www.mattstine.com/2009/03/29/deploying-grails-with-groovy/</guid>
-      <description>Interesting title, eh? Maybe this one will make it through Glen&amp;rsquo;s filter at GroovyBlogs.org.
-On to the meat. I&amp;rsquo;ve been steadily working on a couple of Grails applications, one being the website for the Memphis JUG, and another being the e-commerce site for my wife&amp;rsquo;s soon to be launched designer stationery business. Just like your average Grails developer, I&amp;rsquo;ve been happily coding away at 127.0.0.1 using the good old development Jetty+MySQL stack.</description>
+      <description>&lt;p&gt;Interesting title, eh? Maybe this one will make it through Glen&#39;s filter at &lt;a href=&#34;http://groovyblogs.org&#34;&gt;GroovyBlogs.org&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;On to the meat. I&#39;ve been steadily working on a couple of Grails applications, one being the website for the &lt;a href=&#34;http://www.memphisjug.org&#34;&gt;Memphis JUG&lt;/a&gt;, and another being the e-commerce site for my wife&#39;s soon to be launched designer stationery business. Just like your average Grails developer, I&#39;ve been happily coding away at 127.0.0.1 using the good old development Jetty+MySQL stack. Well, in the last week or so it&#39;s come time to actually deploy both of these applications into production. I started out last weekend with the Memphis JUG site. My first approach was to build the WAR file locally and then &amp;ldquo;scp&amp;rdquo; it up to the server.&lt;/p&gt;
+&lt;p&gt;YMMV, but the upload speed on my DSL connection is horrible! After doing this three or four times in one night, waiting 15-20 minutes for the WAR to upload each time (Grails WAR&#39;s are rather thick when carrying all of the dependencies along), I decided to myself, &amp;ldquo;There must be a better way to do this.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;Fast forward a week and here I sit working on the first &amp;ldquo;pre-production&amp;rdquo; release of my wife&#39;s store site. With quite a bit of time on my hands during these &amp;ldquo;dark and early&amp;rdquo; hours (a story for a later entry), I decided it was time for the experiment.&lt;/p&gt;
+&lt;p&gt;Each of these projects is hosted at GitHub, so the process that I mapped out in my mind looked like this:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Check out the latest code from GitHub&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Run &amp;ldquo;grails war&amp;rdquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Stop the Tomcat service (my hosting provider sets up Tomcat to run as a service)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Delete the remnants of the previous deployment from Tomcat&#39;s deployment directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Copy the new WAR file to Tomcat&#39;s deployment directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Start the Tomcat service&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;By the way, I forgot to mention that before doing all of this I moved the production data source definition from being locally defined to being a JNDI lookup within Tomcat. This posed its own challenge, which I&#39;ll blog about a bit later.&lt;/p&gt;
+&lt;p&gt;Anyway, back to the deployment. I though this would be an excellent opportunity to take &lt;a href=&#34;http://groovy.codehaus.org/Using+Ant+from+Groovy&#34;&gt;Groovy&#39;s Antbuilder&lt;/a&gt; out for a spin. Here&#39;s an example of what I put together:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;#!/usr/bin/env groovy
+
+def ant = new AntBuilder()
+
+//Update the codebase from GitHub
+ant.exec(executable:&#39;git&#39;, dir: &amp;quot;${PROJECT_DIR}&amp;quot;) {
+        arg(value:&#39;pull&#39;)
+}
+
+//Generate the WAR file using Ant
+ant.ant(dir:&#39;&amp;quot;${PROJECT_DIR}&amp;quot;&#39;, target: &#39;war&#39;)
+
+//Stop Tomcat
+ant.exec(executable:&#39;service&#39;) {
+        arg(line:&#39;tomcat6 stop&#39;)
+}
+
+//Delete the old webapp contents from Tomcat&#39;s deploy directory
+ant.delete(includeemptydirs:&#39;true&#39;, verbose:&#39;true&#39;) {
+        fileset(dir:&amp;quot;${CONTEXT_ROOT_DIR}&amp;quot;, includes:&#39;**/*&#39;)
+}
+
+//Copy the new WAR file to Tomcat&#39;s deploy directory
+ant.copy(file:&amp;quot;${WAR_FILE}&amp;quot;, tofile:&amp;quot;${CONTEXT_ROOT_DIR}/ROOT.war&amp;quot;)
+
+//Start Tomcat
+ant.exec(executable:&#39;service&#39;) {
+        arg(line:&#39;tomcat6 start&#39;)
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;As you can see, I have a few undefined Groovy constants in there. Let&#39;s just say I didn&#39;t want to expose ALL of the details of my server.&lt;/p&gt;
+&lt;p&gt;At any rate, it&#39;s pretty simple. One word of warning - if you&#39;re using Ehcache, make sure to add it to your ivy.xml dependencies, or the Ant build won&#39;t bring it in like running &amp;ldquo;grails war&amp;rdquo; will. I hope someone finds this simple script useful. Enjoy!&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>need a textile engine look no further than plextile</title>
       <link>https://www.mattstine.com/2009/03/26/need-a-textile-engine-look-no-further-than-plextile/</link>
       <pubDate>Thu, 26 Mar 2009 00:00:00 +0000</pubDate>
-      
       <guid>https://www.mattstine.com/2009/03/26/need-a-textile-engine-look-no-further-than-plextile/</guid>
-      <description>In finishing up the first release of JUG Nexus, the open source engine (http://github.com/mstine/jug-nexus/tree/master) behind the new Memphis JUG website, I needed to put a good Textile engine in place. I really don&amp;rsquo;t care for writing actual HTML in a content management system, and JUG Nexus being a lightweight CMS, I wanted a lightweight markup syntax for entering the details of upcoming JUG meetings. Textile is exactly that, and is also used for entering content into the very useful JUGEvents system produced by JUG Padova for the Java User Group community at large.</description>
+      <description>&lt;p&gt;In finishing up the first release of JUG Nexus, the open source engine (&lt;a href=&#34;http://github.com/mstine/jug-nexus/tree/master&#34;&gt;&lt;a href=&#34;http://github.com/mstine/jug-nexus/tree/master&#34;&gt;http://github.com/mstine/jug-nexus/tree/master&lt;/a&gt;&lt;/a&gt;) behind the new Memphis JUG website, I needed to put a good &lt;a href=&#34;http://www.textism.com/tools/textile/&#34;&gt;Textile&lt;/a&gt; engine in place. I really don&#39;t care for writing actual HTML in a content management system, and JUG Nexus being a lightweight CMS, I wanted a lightweight markup syntax for entering the details of upcoming JUG meetings. Textile is exactly that, and is also used for entering content into the very useful &lt;a href=&#34;http://jugevents.org&#34;&gt;JUGEvents&lt;/a&gt; system produced by &lt;a href=&#34;http://www.jugpadova.it/&#34;&gt;JUG Padova&lt;/a&gt; for the Java User Group community at large. I tried out several different engines, and none of them seemed to be very robust when it came to edge cases in the markup. For example, if I want to produce a hyperlink to a website, the textile format is the following:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;&amp;quot;Linked Text&amp;quot;:http://www.site.com&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;This syntax will result in the following HTML:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;a href=&amp;quot;http://www.site.com&amp;quot;&amp;gt;Linked Text&amp;lt;/a&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Unfortunately, if you have a bang (!) in your &amp;ldquo;Linked Text,&amp;rdquo; most of the Textile engines that I used would not recognize it as an HTML link. Plextile does!&lt;/p&gt;
+&lt;p&gt;The only drawback, however minimal, to using Plextile is that it does not come with a pre-packaged JAR file. You have to take the compiled code and JAR it yourself. Now, for free, I&#39;ll include how I integrated Plextile with Grails. Grails has a very nice codec feature that provides a facility to register encoders and decoders of textual data as methods on any object. Grails searches for classes following the convention &lt;code&gt;XCodec&lt;/code&gt; and dynamically registers &lt;code&gt;encodeAsX&lt;/code&gt; and &lt;code&gt;decodeX&lt;/code&gt; methods on &lt;code&gt;java.lang.Object&lt;/code&gt; so that any data can be encoded and decoded. Enter the &lt;code&gt;TextileCodec&lt;/code&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;import com.plink.plextile.TextParser
+
+class TextileCodec {
+
+   static encode = {str -&amp;gt;
+      new TextParser().parseTextile(str, true)
+   }
+
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Believe it or not, that&#39;s it! Here&#39;s the GSP template for rendering a JUG meeting:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;div class=&amp;quot;post&amp;quot;&amp;gt;
+  &amp;lt;h2&amp;gt;${event.title}&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;g:formatDate format=&amp;quot;EEEE, MMMM dd, yyyy&amp;quot; date=&amp;quot;${event.startTime}&amp;quot;/&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;g:formatDate format=&amp;quot;h:mm&amp;quot; date=&amp;quot;${event.startTime}&amp;quot;/&amp;gt;-&amp;lt;g:formatDate format=&amp;quot;h:mm a&amp;quot; date=&amp;quot;${event.endTime}&amp;quot;/&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;g:if test=&amp;quot;${!event.archived}&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;http://jugevents.org/jugevents/event/${event.jugEventsId}&amp;quot;&amp;gt;Click HERE to register!&amp;lt;/a&amp;gt;&amp;lt;/g:if&amp;gt;&amp;lt;/h2&amp;gt;
+  &amp;lt;div class=&amp;quot;entry&amp;quot;&amp;gt;
+    &amp;lt;h2 class=&amp;quot;title&amp;quot;&amp;gt;Speaker/Topic:&amp;lt;/h2&amp;gt;
+    &amp;lt;p&amp;gt;${event.description.encodeAsTextile()}&amp;lt;/p&amp;gt;
+    &amp;lt;h2 class=&amp;quot;title&amp;quot;&amp;gt;Location/Directions:&amp;lt;/h2&amp;gt;
+    &amp;lt;p&amp;gt;${event.location}&amp;lt;/p&amp;gt;
+    &amp;lt;p&amp;gt;${event.directions.encodeAsTextile()}&amp;lt;/p&amp;gt;
+  &amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Enjoy!&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>grails 10 released</title>
       <link>https://www.mattstine.com/2008/02/05/grails-10-released/</link>
       <pubDate>Tue, 05 Feb 2008 00:00:00 +0000</pubDate>
-      
       <guid>https://www.mattstine.com/2008/02/05/grails-10-released/</guid>
-      <description>Grails, by far my favorite of the JVM dynamic language frameworks, was released this morning, with a snazzy, new, &amp;ldquo;Web 2.0 style&amp;rdquo; website to boot. Congratulations Graeme and company on all of your hard work!</description>
+      <description>&lt;p&gt;&lt;a href=&#34;http://grails.org/Home&#34;&gt;Grails&lt;/a&gt;, by far my favorite of the JVM dynamic language frameworks, was released this morning, with a snazzy, new, &amp;ldquo;Web 2.0 style&amp;rdquo; website to boot. Congratulations Graeme and company on all of your hard work!&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>and then it was over</title>
       <link>https://www.mattstine.com/2007/05/11/and-then-it-was-over/</link>
       <pubDate>Fri, 11 May 2007 00:00:00 +0000</pubDate>
-      
       <guid>https://www.mattstine.com/2007/05/11/and-then-it-was-over/</guid>
-      <description>I really enjoyed &amp;ldquo;The Toy Show&amp;rdquo; this morning. James Gosling went through a flurry of different demos from around the &amp;ldquo;cool&amp;rdquo; Java world. I was especially impressed with Project Wonderland (http://lg3d-wonderland.dev.java.net/), a virtual workplace environment, and with the real-time robotics demos. Unfortunately I was so sucked in that I didn&amp;rsquo;t get any good photos.
-If anything you could call this my day on the back end. I attended four sessions, two of which were focused on that.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;http://picasaweb.google.com/matt.stine/SanFranciscoJavaOne2007/photo#5063512122879158706&#34;&gt;&lt;img src=&#34;http://lh4.google.com/image/matt.stine/RkU1crgYqbI/AAAAAAAAAOI/fn4ypOF5zkQ/s288/DSCN1138.JPG&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I really enjoyed &amp;ldquo;The Toy Show&amp;rdquo; this morning. James Gosling went through a flurry of different demos from around the &amp;ldquo;cool&amp;rdquo; Java world. I was especially impressed with Project Wonderland (&lt;a href=&#34;http://lg3d-wonderland.dev.java.net/&#34;&gt;http://lg3d-wonderland.dev.java.net/&lt;/a&gt;), a virtual workplace environment, and with the real-time robotics demos. Unfortunately I was so sucked in that I didn&#39;t get any good photos.&lt;/p&gt;
+&lt;p&gt;If anything you could call this my day on the back end. I attended four sessions, two of which were focused on that.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Comparing the Developer Experience of Java EE 5.0, Ruby on Rails, and Grails: Lessons Learned from Developing One Application&lt;/li&gt;
+&lt;li&gt;Implementing Java EE Applications Using Enterprise JavaBeans (EJB) 3 Technology: Real-World Tips, Tricks, and New Design Patterns&lt;/li&gt;
+&lt;li&gt;The Top 10 Ways to Botch Enterprise Java Technology-Based Application Scalability and Reliability&lt;/li&gt;
+&lt;li&gt;Exploting JRuby: Building Domain-Specific Languages for the Java Virtual Machine&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I scheduled the first session because I thought it was be a good way to tie together all that I had learned about Grails and Rails and then compare it to my existing Java EE knowledge. As it turns out, the speaker believed that given tool support, the development experience wasn&#39;t all that different between the three. He then gave some performance comparisons, but I wasn&#39;t all that sure the analysis was very sound. Java EE came out way on top. I hadn&#39;t heard that it outperformed the others by quite as much as he showed. He made a rather dubious statement when he said that Grails and Rails weren&#39;t protected by standards. Groovy is a JSR and Grails just sits on top of it. If that isn&#39;t standard protection, then what is?&lt;/p&gt;
+&lt;p&gt;The EJB tips, tricks, and patterns session was quite nice. I learned a few nuances of the platform. The patterns part was the best. They first went through some of the design patterns from the EJB 2.x days and identified which ones were obsolete and which ones were still useful. They then provided several new design patterns. Unfortunately the slides for this talk were not yet available and I just don&#39;t feel like combing through my handwritten notes. Definitely check this one out online when it is posted.&lt;/p&gt;
+&lt;p&gt;Cameron Purdy&#39;s &amp;ldquo;Top 10&amp;rdquo; talk was both humorous and thought-provoking. I&#39;ll never do justice to it. Check it out when the video comes available.&lt;/p&gt;
+&lt;p&gt;The final session of the conference for me addressed a burning question I had in my mind since Monday - what in the world is a DSL? I heard it thrown around in the Grails and Ruby talks at Java University, but nobody ever defined the acronym. Domain Specific Language - that what it is! I mainly attended this talk because I thought there might be applications for DSL&#39;s in our work at St. Jude. A DSL is a custom language designed for a specific purpose. Ruby&#39;s Rake language for instrumenting application builds is an example. Rob Harrop gave an impressive demo of how he built two DSL&#39;s, one providing a simpler API for JMX, and another for corporate action entitlement calculations. While I can&#39;t think of a direct application for DSL&#39;s yet, I&#39;m not tossing out the possibility.&lt;/p&gt;
+&lt;p&gt;JavaOne was a great conference for me. If I didn&#39;t hate to leave my family for this long, I&#39;d love to attend every year. It&#39;s definitely drinking from a fire hydrant.&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>it seems to be the year of the dynamicscripting language</title>
       <link>https://www.mattstine.com/2007/05/08/it-seems-to-be-the-year-of-the-dynamicscripting-language/</link>
       <pubDate>Tue, 08 May 2007 00:00:00 +0000</pubDate>
-      
       <guid>https://www.mattstine.com/2007/05/08/it-seems-to-be-the-year-of-the-dynamicscripting-language/</guid>
-      <description>It has been a whirlwind of a day. I&amp;rsquo;ve been to two keynotes (close to 5 hours of information there) and one technical session. Couple that information with what I heard at Java University yesterday, and you find many common themes. One that keeps coming up is the emerging trend of making other languages, particularly dynamic/scripting languages, first-class citizens on the JVM.
-According to Wikipedia, &amp;ldquo;Dynamic programming language is a term used broadly in computer science to describe a class of high level programming languages that execute at runtime many common behaviors that other languages might perform during compilation, if at all.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;http://picasaweb.google.com/matt.stine/SanFranciscoJavaOne2007/photo#5062324250889201762&#34;&gt;&lt;img src=&#34;http://lh6.google.com/image/matt.stine/RkD9FbgYqGI/AAAAAAAAALY/NEPT0IawaRY/s288/DSCN1113.JPG&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;It has been a whirlwind of a day. I&#39;ve been to two keynotes (close to 5 hours of information there) and one technical session. Couple that information with what I heard at Java University yesterday, and you find many common themes. One that keeps coming up is the emerging trend of making other languages, particularly dynamic/scripting languages, first-class citizens on the JVM.&lt;/p&gt;
+&lt;p&gt;According to Wikipedia, &amp;ldquo;Dynamic programming language is a term used broadly in computer science to describe a class of high level programming languages that execute at runtime many common behaviors that other languages might perform during compilation, if at all. These behaviors could include extension of the program, by adding new code, or by extending objects and definitions, or by modifying the type system, all during program execution. These behaviors can be emulated in nearly any language of sufficient complexity, but dynamic languages provide direct tools to make use of them.&amp;rdquo; This definition seems to fit quite nicely with what I&#39;ve heard the last two days. A couple of dynamic languages I&#39;ve heard A LOT about are Groovy and Ruby.&lt;/p&gt;
+&lt;p&gt;Yes, Ruby and its most popular framework, Ruby on Rails, have survived the initial hype. They are here to stay. Not only that, they seem poised to make a serious impact on the way we will do web application development over the next several years. Sun made a HUGE splash when they decided to hire the core developers of JRuby, the project which in its current pre-1.0 release already runs 98% of Ruby on Rails as a first-class citizen on the JVM. Not only that, you can now create a WAR file from a Ruby on Rails application and deploy it to any Java application server! I&#39;ll write more on this in another entry as I attended a full technical session on it.&lt;/p&gt;
+&lt;p&gt;If you&#39;re too uncomfortable getting away from Java, why not try Groovy? After all, it is a JSR (241). All of Java syntax is legal in Groovy, plus a lot more. Groovy is a dynamic scripting language like Ruby and also compiles to bytecode, making it a first-class citizen on the JVM. It has its own MVC framework, Grails (formerly Groovy on Rails), which is a direct competitor to Ruby on Rails. I&#39;ve already written on Groovy and Grails in an earlier entry.&lt;/p&gt;
+&lt;p&gt;I plan to attend some additional sessions focused on these dynamic languages, as it seems they will be really important in the years to come.&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>java university rapid web site development with groovy and grails</title>
       <link>https://www.mattstine.com/2007/05/07/java-university-rapid-web-site-development-with-groovy-and-grails/</link>
       <pubDate>Mon, 07 May 2007 00:00:00 +0000</pubDate>
-      
       <guid>https://www.mattstine.com/2007/05/07/java-university-rapid-web-site-development-with-groovy-and-grails/</guid>
-      <description>I&amp;rsquo;m currently sitting in this session - Graeme Rocher is the presenter. He is the creator of Grails, which is Groovy&amp;rsquo;s answer to the Ruby on Rails like development experience. He&amp;rsquo;s currently doing Q&amp;amp;A, so I thought I&amp;rsquo;d take the opportunity to write a short entry. So far this session is awesome! Graeme is a great presenter and has had the perfect balance of slides and live coding. Unfortunately they ran out of slides before I got to the presentation (more on the sometimes laughable logistics at JavaOne later), so I&amp;rsquo;m having trouble remember details to write about (they&amp;rsquo;ve promised to email me the slides).</description>
+      <description>&lt;p&gt;I&#39;m currently sitting in this session - Graeme Rocher is the presenter. He is the creator of Grails, which is Groovy&#39;s answer to the Ruby on Rails like development experience. He&#39;s currently doing Q&amp;amp;A, so I thought I&#39;d take the opportunity to write a short entry. So far this session is awesome! Graeme is a great presenter and has had the perfect balance of slides and live coding. Unfortunately they ran out of slides before I got to the presentation (more on the sometimes laughable logistics at JavaOne later), so I&#39;m having trouble remember details to write about (they&#39;ve promised to email me the slides). The first part of the session was an introduction to Groovy, Java&#39;s &amp;ldquo;scripting&amp;rdquo; language. I had NO IDEA just how cool and powerful Groovy was. I am especially impressed with its MetaClass concept, whereby you can override almost every behavior of the Java language that you can imagine - method calling, operator overloading, etc. Imagine being able to do AOP type things without using AOP. Not only that, it has all of my favorite pet features like &amp;ldquo;everything is an object,&amp;rdquo; closures, dynamic lists, etc. It&#39;s an OOP nuts dream. I&#39;ll write more later.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

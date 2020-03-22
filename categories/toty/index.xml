@@ -1,24 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Toty on Matt Stine</title>
+    <title>toty | Matt Stine</title>
     <link>https://www.mattstine.com/categories/toty/</link>
-    <description>Recent content in Toty on Matt Stine</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2018 Matt Stine</copyright>
-    <lastBuildDate>Thu, 30 Apr 2009 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://www.mattstine.com/categories/toty/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="https://www.mattstine.com/categories/toty/index.xml" rel="self" type="application/rss+xml" />
+    <description>toty</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Matt Stine</copyright><lastBuildDate>Thu, 30 Apr 2009 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>toty</title>
+      <link>https://www.mattstine.com/categories/toty/</link>
+    </image>
     
     <item>
       <title>functional programming blog aggregator in the works</title>
       <link>https://www.mattstine.com/2009/04/30/functional-programming-blog-aggregator-in-the-works/</link>
       <pubDate>Thu, 30 Apr 2009 00:00:00 +0000</pubDate>
-      
       <guid>https://www.mattstine.com/2009/04/30/functional-programming-blog-aggregator-in-the-works/</guid>
-      <description>So I&amp;rsquo;m in the midst of planning my next toy project, specifically with an aim to build something for the cloud, be it Google App Engine, Mor.ph, EC2, etc. (that part is still up for grabs). What I&amp;rsquo;d like to do is an opt-in blog aggregation site focused around functional programming. It would be very similar to what Glen Smith has done with groovyblogs.org. Groovyblogs is currently my number one referral site and is generating about 20% of the traffic for this blog.</description>
+      <description>&lt;p&gt;So I&#39;m in the midst of planning my next toy project, specifically with an aim to build something for the cloud, be it &lt;a href=&#34;http://code.google.com/appengine&#34;&gt;Google App Engine&lt;/a&gt;, &lt;a href=&#34;http://mor.ph&#34;&gt;Mor.ph&lt;/a&gt;, &lt;a href=&#34;http://aws.amazon.com/ec2/&#34;&gt;EC2&lt;/a&gt;, etc. (that part is still up for grabs). What I&#39;d like to do is an opt-in blog aggregation site focused around functional programming. It would be very similar to what &lt;a href=&#34;http://blogs.bytecode.com.au/glen/&#34;&gt;Glen Smith&lt;/a&gt; has done with &lt;a href=&#34;http://groovyblogs.org&#34;&gt;groovyblogs.org&lt;/a&gt;. Groovyblogs is currently my number one referral site and is generating about 20% of the traffic for this blog. I think it is a great way to find out what blogs are out there in a given space, and there doesn&#39;t seem to be an equivalent for the functional space. Since my LOTY interest is focused in the functional space, particularly around Scala and Clojure, and my TOTY interest is the cloud technologies out there, it seems like the perfect marriage.&lt;/p&gt;
+&lt;p&gt;So here&#39;s my question. Would you be interested in using such a site? As a reader, blogger, or both? Please sound off. Thanks!&lt;/p&gt;
+</description>
     </item>
     
   </channel>

@@ -1,82 +1,134 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Thespringexperience2007 on Matt Stine</title>
+    <title>thespringexperience2007 | Matt Stine</title>
     <link>https://www.mattstine.com/categories/thespringexperience2007/</link>
-    <description>Recent content in Thespringexperience2007 on Matt Stine</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2018 Matt Stine</copyright>
-    <lastBuildDate>Mon, 04 Feb 2008 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://www.mattstine.com/categories/thespringexperience2007/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="https://www.mattstine.com/categories/thespringexperience2007/index.xml" rel="self" type="application/rss+xml" />
+    <description>thespringexperience2007</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Matt Stine</copyright><lastBuildDate>Mon, 04 Feb 2008 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>thespringexperience2007</title>
+      <link>https://www.mattstine.com/categories/thespringexperience2007/</link>
+    </image>
     
     <item>
       <title>the spring experience 2007 videos on the way</title>
       <link>https://www.mattstine.com/2008/02/04/the-spring-experience-2007-videos-on-the-way/</link>
       <pubDate>Mon, 04 Feb 2008 00:00:00 +0000</pubDate>
-      
       <guid>https://www.mattstine.com/2008/02/04/the-spring-experience-2007-videos-on-the-way/</guid>
-      <description>I got an awesome email today&amp;hellip;
- We are happy to announce that the video/audio streaming from TSE 2007 will be available online the week of February 11th for you. You will have the opportunity to see/hear the TSE 2007 presentations you were not able to make at TSE 2007 due to all of the great sessions available per time period. We have captured the entire session length including any demos/live coding.</description>
+      <description>&lt;p&gt;I got an awesome email today&amp;hellip;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;We are happy to announce that the video/audio streaming from TSE 2007 will be available online the week of February 11th for you.  You will have the opportunity to see/hear the TSE 2007 presentations you were not able to make at TSE 2007 due to all of the great sessions available per time period.  We have captured the entire session length including any demos/live coding.  Please look for the email from us next Monday, February 11th with the details about viewing the session content online.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I&#39;m extremely excited about this. For two reasons:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;I didn&#39;t get to finish my reviews of the sessions that I attended. Now that it has been several weeks since the conference, I don&#39;t feel like my memory of them is good enough to do a fair review. Now I can do a refresh and write!&lt;/li&gt;
+&lt;li&gt;There were several sessions that I wanted to attend that I couldn&#39;t - now I get to attend&amp;hellip;and write!
+Look forward to some more reviews from The Spring Experience 2007 in the coming weeks!&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;/blockquote&gt;
+</description>
     </item>
     
     <item>
       <title>the state of the art in dependency injection rod johnson</title>
       <link>https://www.mattstine.com/2007/12/15/the-state-of-the-art-in-dependency-injection-rod-johnson/</link>
       <pubDate>Sat, 15 Dec 2007 00:00:00 +0000</pubDate>
-      
       <guid>https://www.mattstine.com/2007/12/15/the-state-of-the-art-in-dependency-injection-rod-johnson/</guid>
-      <description>This was a truly fascinating talk. If you ever wanted to learn the entire history and landscape of dependency injection (DI), this was your opportunity. I really didn&amp;rsquo;t realize how deep of a topic DI really is.
-According to Rod, DI had its beginnings in 2002, in the Interface 21 Framework that was born from his seminal work, Expert One-on-One J2EE Design and Development. In the beginning, DI was done solely through setter injection (SI), with external metadata (usually in XML).</description>
+      <description>&lt;p&gt;This was a truly fascinating talk. If you ever wanted to learn the entire history and landscape of dependency injection (DI), this was your opportunity. I really didn&#39;t realize how deep of a topic DI really is.&lt;/p&gt;
+&lt;p&gt;According to Rod, DI had its beginnings in 2002, in the Interface 21 Framework that was born from his seminal work, &lt;a href=&#34;http://www.amazon.com/Expert-One-One-Design-Development/dp/1861007841&#34;&gt;Expert One-on-One J2EE Design and Development&lt;/a&gt;. In the beginning, DI was done solely through setter injection (SI), with external metadata (usually in XML). 2003 gave us Spring 0.9, which had the same DI model, but added FactoryBeans for indirection and proxy-based AOP (enabling among other things, declarative transaction management). With Spring, DI was always just one enabler of a complete enterprise solution. Contrast that with &lt;a href=&#34;http://www.picocontainer.org/&#34;&gt;PicoContainer&lt;/a&gt;, also arriving on the scene in 2003, which was an ultra-lightweight DI-only container. PicoContainer brought us several innovations, including constructor injection, automatic resolution by type, and an attempt to dispense with external configuration.&lt;/p&gt;
+&lt;p&gt;Rod then discussed the Pros and Cons of Constructor Injection (CI). On the Pro side, we see that CI is great for immutable objects, can be used with existing code, enforces that the necessary dependencies are provided at object construction, and allows developers to dispense with methods like afterPropertiesSet(). On the Con side, there are no default arguments in Java, which forces us to ALWAYS provide all of the necessary dependencies, constructor overriding can be somewhat messy, and constructor argument names are not usually available through reflection, which forces us to depend on argument order for dependency resolution.&lt;/p&gt;
+&lt;p&gt;Spring 1.0, which arrived in late 2003, incorporated some of PicoContainer&#39;s innovation: CI, &amp;ldquo;Autowiring&amp;rdquo; by type and by name, as well as the ability to mix CI and SI. Here Rod reflected on Spring&#39;s pragmatic philosophy, whereby they are more than willing to incorporate the good ideas that others had first.&lt;/p&gt;
+&lt;p&gt;Spring 1.1 brought us method injection, a unique Spring feature, which solved the problem of long-lived managed objects which depend on short-lived objects. It also brought us Factory Methods. You now had the ability to create objects through invoking static factory methods or instance methods on other beans.&lt;/p&gt;
+&lt;p&gt;With the finalization of the &lt;a href=&#34;http://java.sun.com/products/ejb/docs.html&#34;&gt;EJB 3.0 standard&lt;/a&gt; in May 2006, several new ideas became available in the world of DI: annotation-based DI, annotations for callback methods (e.g. @PostConstruct), scanning for annotations without any external configuration needed for a deployment unit, and field injection (FI). These EJB standard brought with it a new philosophy - that annotations are a superior model and that externalization should be a second-class citizen. The Pros of this standard? One big one - no configuration is necessary for simple cases. The Cons? Rod listed several: resources could only be injected from JNDI, no CI, limited control over object lifecycle, unsuitability for fine-grained object graphs, effectively usable ONLY with annotations, as the XML configuration option is so verbose, and it isn&#39;t just DI - it brings along with it enforcement of many obsolete EJB concepts (such as bean instance pooling).&lt;/p&gt;
+&lt;p&gt;Spring 2.0 arrived in late 2005 with its own share of innovations: integration with &lt;a href=&#34;http://www.eclipse.org/aspectj/&#34;&gt;AspectJ&lt;/a&gt;, the ability to inject anything with an AspectJ aspect via @Configurable, namespaces to provide an XML-based DSL for external configuration, the @Required annotation, and pluggable scopes to manage the object lifecycle. About that same time, JBoss Seam introduced many strange ideas (that I didn&#39;t quite grasp from Rod&#39;s explanation): bijection, outjection, and subversion of control.&lt;/p&gt;
+&lt;p&gt;Some additional players on the field include Spring Java Config, which is a DSL for configuration in Java, &lt;a href=&#34;http://code.google.com/p/google-guice/&#34;&gt;Google Guice 1.0&lt;/a&gt;, and the &lt;a href=&#34;http://jcp.org/en/jsr/detail?id=299&#34;&gt;JSR-299 Web Beans spec&lt;/a&gt;, which Rod described as &amp;ldquo;blogware&amp;rdquo; in that there is currently no available implementation.&lt;/p&gt;
+&lt;p&gt;Finally we got to Spring 2.5, released last month. Rod didn&#39;t have his slides printed or available on the web (argh!), so about this time my hand was really hurting from taking furious notes, and I simply gave up. Fortunately, most of what Rod covered was redundant from some of the other sessions, so I&#39;ll have or will blog about it later. About the only thing I really don&#39;t have good notes on is Spring Java Config, which he discussed pretty extensively. If you want to learn more about it, check out &lt;a href=&#34;http://www.springframework.org/javaconfig&#34;&gt;&lt;a href=&#34;http://www.springframework.org/javaconfig&#34;&gt;http://www.springframework.org/javaconfig&lt;/a&gt;&lt;/a&gt;.&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>ajax integration guide for 2008 jeremy grelle</title>
       <link>https://www.mattstine.com/2007/12/14/ajax-integration-guide-for-2008-jeremy-grelle/</link>
       <pubDate>Fri, 14 Dec 2007 00:00:00 +0000</pubDate>
-      
       <guid>https://www.mattstine.com/2007/12/14/ajax-integration-guide-for-2008-jeremy-grelle/</guid>
-      <description>This talk looked really exciting going in. Jeremy is a member of the Spring Web Products team and the lead of Spring Faces, as well as a member of the JSF 2.0 Expert Group. He describes himself as the resident Ajax freak at SpringSource. Jeremy began by discussing the current Ajax landscape, highlighting what he believes are the important features a successful framework must deliver, and then identifying the frameworks he considers to be the cream of the crop.</description>
+      <description>&lt;p&gt;This talk looked really exciting going in. Jeremy is a member of the Spring Web Products team and the lead of Spring Faces, as well as a member of the JSF 2.0 Expert Group. He describes himself as the resident Ajax freak at SpringSource. Jeremy began by discussing the current Ajax landscape, highlighting what he believes are the important features a successful framework must deliver, and then identifying the frameworks he considers to be the cream of the crop. No surprises here on the list: Prototype/Scriptaculous, jQuery, YUI, Ext, and Dojo. He then gave a brief high-level overview of each framework - I really didn&#39;t learn anything new here, as I&#39;ve been following these frameworks for quite awhile. He mentioned the commonality that all of these frameworks are about more than asynchronous client-server communication - they&#39;re about improving your client-side code and user experience. See Dion&#39;s May 2007 comment that Ajax &amp;ldquo;was never about the acronym - it&#39;s about building killer websites.&amp;rdquo; What is good about all of these frameworks is that you can use all of them in an unobtrusive manner and progressively enhance your UI. This gives you the ability to only Ajaxify what you need and also get graceful degradation.&lt;/p&gt;
+&lt;p&gt;In the second portion of his talk, Jeremy talked about connecting to Spring. I was really hoping that the &amp;ldquo;goods&amp;rdquo; would be delivered here. He started by mentioning DWR, which I think is a really nice framework. It merited 2 slides and no demo (even though there was a slide mentioning a demo). I don&#39;t think Jeremy really cares for it or GWT, as he sort of lumped them together and didn&#39;t mention them again. I do appreciate his point that neither really allows you to harvest any existing controlling infrastructure that we may have built using Spring MVC or another framework.&lt;/p&gt;
+&lt;p&gt;Jeremy then moved into what he considers the better way to do it, which is the progressive enhancement I mentioned above. He took the existing Spring Booking MVC + Web Flow example application and ajaxified portions of it. He did this using an interesting combination of Apache Tiles, some Javascript &amp;ldquo;pseudo-AOP&amp;rdquo; he lifted from the SpringFaces project, and a bit of Dojo. It seemed to work really well, but it wasn&#39;t immediately clear how this type of technology was going to be made available to us as developers. He said something along the lines of &amp;ldquo;you don&#39;t have to be using JSF to use this Javascript, so we probably need to change the name to something else.&amp;rdquo; I hope they figure out soon so I can get my hands on it. :-)&lt;/p&gt;
+&lt;p&gt;He closed by briefly discussing REST&#39;s place in the future of Spring Web. The ideal scenario, according to Jeremy, is that we will be able to request different representations of the same resource. For example, we could request HTML for full page display or partial DOM updates, and JSON for intelligent widgets like the Dojo table.&lt;/p&gt;
+&lt;p&gt;It looks like a lot of exciting things will happen in 2008. I hope I don&#39;t have to wait too long.&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>whats new in spring 25 juergen hoeller</title>
       <link>https://www.mattstine.com/2007/12/14/whats-new-in-spring-25-juergen-hoeller/</link>
       <pubDate>Fri, 14 Dec 2007 00:00:00 +0000</pubDate>
-      
       <guid>https://www.mattstine.com/2007/12/14/whats-new-in-spring-25-juergen-hoeller/</guid>
-      <description>This was my second talk of TSE 2007. I have to admit I chose it by process of elimination - none of the second session talks particularly jumped out and grabbed me like Chris Richardson&amp;rsquo;s talk.
-Juergen is the project lead for the Spring Framework, so he was the obvious choice to give this talk. Juergen split it up into three sections:
- Platforms Annotation Configuration AspectJ Support To break down part one as quickly as possible, Spring supports virtually EVERYTHING.</description>
+      <description>&lt;p&gt;This was my second talk of TSE 2007. I have to admit I chose it by process of elimination - none of the second session talks particularly jumped out and grabbed me like Chris Richardson&#39;s talk.&lt;/p&gt;
+&lt;p&gt;Juergen is the project lead for the Spring Framework, so he was the obvious choice to give this talk. Juergen split it up into three sections:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Platforms&lt;/li&gt;
+&lt;li&gt;Annotation Configuration&lt;/li&gt;
+&lt;li&gt;AspectJ Support
+To break down part one as quickly as possible, Spring supports virtually EVERYTHING. You get JDK 1.4 all the way to Java 6, including all of the new API&#39;s in Java 6. It fully supports Java EE 5 while remaining backward compatible all the way to J2EE 1.3.  You can now deploy a Spring ApplicationContext as a RAR file, and you also get full JCA 1.5 support (if you want to know what that means, don&#39;t ask me :-)). Quite notable was the fact that they have worked with IBM to support WebSphere&#39;s proprietary transaction manager. Also interesting was Spring&#39;s continuing strong support for OSGi as an alternative enterprise runtime.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The annotation configuration part of the talk was quite fascinating. I&#39;m something of an annotations junkie - I have to be careful about that. At any rate, it was so good that I was interested enough to attend Juergen and Mark Fisher&#39;s later talk that was completely dedicated to the subject. I&#39;ll leave the details for my entry on that talk.&lt;/p&gt;
+&lt;p&gt;The final portion, on AspectJ support, was equally fascinating. The first new feature was the ability to advise specific beans by name rather than by type using AspectJ. This was made even sweeter by the fact that you can use pattern matching in your  definition.  Very exciting was the ability to do AspectJ load-time weaving, meaning you can use the power of AspectJ at runtime without involving the AspectJ compiler. Unfortunately, this isn&#39;t available across all appservers. I didn&#39;t get a chance to ask and comfirm, but it seems that JBoss (our primary appserver) does not support this. GlassFish, Weblogic, OC4J, and Tomcat were all mentioned as being able to handle it.&lt;/p&gt;
+&lt;p&gt;The most interesting part of this talk for me was the ability to annotate a class as @Configurable, and then do dependency injection on it even thought it isn&#39;t managed by Spring. You could do this in Spring 2.0, but you had to use the AspectJ compiler. Now, with load-time weaving, you can do this at runtime! I really could have used this recently when I wanted to inject a single dependency into a class that was really overkill to manage as a Spring bean. Since I&#39;m using Spring 2.5 in this project, I can go back and try this feature. Exciting!&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>enterprise java and the changing of the guard</title>
       <link>https://www.mattstine.com/2007/12/13/enterprise-java-and-the-changing-of-the-guard/</link>
       <pubDate>Thu, 13 Dec 2007 00:00:00 +0000</pubDate>
-      
       <guid>https://www.mattstine.com/2007/12/13/enterprise-java-and-the-changing-of-the-guard/</guid>
-      <description>Greetings from The Spring Experience 2007 in Hollywood, FL. So far this has been a great conference - I&amp;rsquo;m currently waiting for my third session of the day to start. As much as I enjoy all of the hype and eye candy at JavaOne, I really get a lot more out of these smaller conferences as you&amp;rsquo;re not running around stressed out trying to weave through thousands of geeks as you move from session to session (or more accurately, from session to queue!</description>
+      <description>&lt;p&gt;Greetings from &lt;a href=&#34;http://www.thespringexperience.com&#34;&gt;The Spring Experience 2007&lt;/a&gt; in Hollywood, FL. So far this has been a great conference - I&#39;m currently waiting for my third session of the day to start. As much as I enjoy all of the hype and eye candy at JavaOne, I really get a lot more out of these smaller conferences as you&#39;re not running around stressed out trying to weave through thousands of geeks as you move from session to session (or more accurately, from session to queue!).&lt;/p&gt;
+&lt;p&gt;I wanted to post a few insights that I gained from Rod Johnson&#39;s keynote last night (the title of this entry). The basis for Rod&#39;s presentation was a Gartner report entitled &amp;ldquo;&lt;a href=&#34;http://www.gartner.com/DisplayDocument?ref=g_search&amp;amp;id=525420&amp;amp;subref=simplesearch&#34;&gt;Trends in Platform Middleware: Disruption Is in Sight&lt;/a&gt;.&amp;rdquo; To summarize, there are many converging forces in the enterprise Java space that are causing or will probably cause a great deal of disruption in the way we develop enterprise Java applications. These forces include our collective experience with application servers, the rediscovery of object-oriented or POJO-based programming, open source innovation, non-Java challengers (.NET, RoR), the rise of SOA, and Rich Internet Applications. Rod sees a big movement from the &amp;ldquo;old guard,&amp;rdquo; which he described as the &amp;ldquo;J2EE Stovepipe Architecture&amp;rdquo; which was based primarily around the idea of distributed objects, to a world in which many of the highest volume Java applications don&#39;t even use a Java EE application server. An interesting point was the stagnation in job requirements for the big name application servers coupled with the BZ Research statistic that 64% of Java application developers are using Tomcat for production deployment. Yet another force for disruption is the emergence of OSGi, which allows developers to modularize applications and provides facilities for versioned components, fine-grained redeployment, and library conflict resolution - all features that Java EE currently does not and perhaps cannot address. Open source provides yet more disruption, as developers have become participants in rather than spectators of the development of Java enterprise solutions. Innovation is now primarily coming from the open source world. All of this culminated in the rather telegraphed conclusion that Rod (and also the Gartner report apparently) believes that Spring is uniquely positioned to provide the best value for ongoing Enterprise Java development in the face of the current trends. Of course, what would you expect him to say? :-) [&lt;br&gt;
+](&lt;a href=&#34;http://www.gartner.com/DisplayDocument?ref=g_search&amp;amp;id=525420&amp;amp;subref=simplesearch&#34;&gt;http://www.gartner.com/DisplayDocument?ref=g_search&amp;amp;id=525420&amp;amp;subref=simplesearch&lt;/a&gt;)&lt;br&gt;
+I do tend to agree with him. The pace at which Spring is innovating and addressing the Java enterprise pain points far outpaces the pace of the JCP. It just takes too long to design specs by committee. One of the more wise things that Spring does is to learn from and in most cases accommodate the changing landscape of Java EE and integrate the best features directly into the framework. I for one am glad to be developing applications with Spring, as it makes it very easy to do the things I want to do and write quality code that isn&#39;t directly dependent on an infrastructure framework. Generally, it stays out of my way.&lt;/p&gt;
+&lt;p&gt;More to come on the sessions I&#39;ve attended thus far.&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>improving application design with a rich domain model chris richardson</title>
       <link>https://www.mattstine.com/2007/12/13/improving-application-design-with-a-rich-domain-model-chris-richardson/</link>
       <pubDate>Thu, 13 Dec 2007 00:00:00 +0000</pubDate>
-      
       <guid>https://www.mattstine.com/2007/12/13/improving-application-design-with-a-rich-domain-model-chris-richardson/</guid>
-      <description>This was my very first session of the conference. I&amp;rsquo;ve really been looking forward to it. I became pretty excited about object-oriented programming when I first really learned it in my computer simulation course at Ole Miss. In that course we built discrete event simulation programs using collaborating Java threads. Each thread implemented an object from the domain model representing a particular simulation problem. Once I got into the &amp;ldquo;working world,&amp;rdquo; I found that the architecture described by Rod Johnson as the &amp;ldquo;J2EE stove pipe&amp;rdquo; had made my OO skills essentially unusable in the projects on which I was required to work on a day-to-day basis.</description>
+      <description>&lt;p&gt;This was my very first session of the conference. I&#39;ve really been looking forward to it. I became pretty excited about object-oriented programming when I first really learned it in my computer simulation course at Ole Miss. In that course we built discrete event simulation programs using collaborating Java threads. Each thread implemented an object from the domain model representing a particular simulation problem. Once I got into the &amp;ldquo;working world,&amp;rdquo; I found that the architecture described by Rod Johnson as the &amp;ldquo;J2EE stove pipe&amp;rdquo; had made my OO skills essentially unusable in the projects on which I was required to work on a day-to-day basis. My recent experiences developing in a more POJO-based style, particularly with JPA/Hibernate, have allowed me to get closer to my preferred OO-style, but the business logic still lived in the service-tier. My domain model was still essentially &amp;ldquo;anemic&amp;rdquo; to borrow from Martin Fowler.&lt;/p&gt;
+&lt;p&gt;When I read the description for this session I was elated! Finally I could see that someone was building real enterprise applications using object-oriented techniques! I&#39;ve never quite been able to articulate what I felt was wrong with the way we&#39;re building applications in my group. I was fortunate enough to have breakfast with Chris Richardson prior to the session, and he said that addressing my inability to articulate those problems was one of the goals of his talk. Awesome! On to the session&amp;hellip;&lt;/p&gt;
+&lt;p&gt;Chris began with a tour through his object-based programming experience, beginning in LISP, followed by C++ and then Java. Around 1999 he got into EJB programming, and described his experience as &amp;ldquo;Applications were still built from objects, but those objects were very different&amp;hellip;&amp;rdquo; Basically the EJB paradigm caused us to abandon object-oriented programming in favor of procedural programming. Why? Well, for all of the pros surrounding EJB, it made writing object-oriented code difficult, and in some cases, impossible. The EJB/procedural style works very well for simple business logic, but it doesn&#39;t scale well as business logic becomes more complex. The result is a few monolithic transactional classes containing hundreds to thousands of lines of code embedded in very long methods. Hence, the legacy of EJB (and I quote):&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Java is an object-oriented language, AND&amp;hellip;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Object-oriented design is a better way to tackle complexity, YET&amp;hellip;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Many complex enterprise Java applications are written in a procedural style&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Chris then moved on to discuss the rich domain model pattern, which is really nothing new at all. It&#39;s just good OO design. Most of your classes (or entities) correspond to real world concepts, and the business logic is spread amongst them. Classes are true objects: they contain state and behavior. The goal is to push as much business logic as possible down into the domain objects, which is exactly where it belongs. What do you get? Better maintainability, better testability, better reusability, and a better shared understanding of your domain. Not only that, but your code is quantifiably simpler! Who doesn&#39;t want that? The main drawback to this is that you have to have good OO design skills to make it happen - which is exactly what the EJB programming model has made scarce.&lt;/p&gt;
+&lt;p&gt;Chris followed this up by discussing the building blocks of domain models, concepts he derived from Eric Evans&amp;rsquo; book Domain Driven Design. In a nutshell, they are Entities, Value Objects, Aggregates, Services, Factories, and Repositories - the reader can get the book to find out what these are. Interesting notes for me include the fact that Repositories are nearly equivalent to DAO&#39;s, especially the way I typically implement them. The concept of a Service is far different from what I&#39;m used to. I &amp;ldquo;grew up&amp;rdquo; writing services according to the EJB Session Bean/Facade model, where essentially all of your business logic resides in service methods. Chris defined a service as a class implementing only logic that cannot be put in a single entity. They are actually quite thin!&lt;/p&gt;
+&lt;p&gt;Next came the discussion of frameworks and their role. In short, frameworks act as an enabler to rich domain models when used properly. Your domain model should be implemented purely as Plain Old Java Objects (POJO&#39;s) in that they don&#39;t implement any infrastructure interfaces or call infrastructure API&#39;s. The jury is still out on annotations - Chris argues that they still violate the POJO concept, I&#39;m not so sure. You then wire your model together using dependency injection, handle crosscutting concerns (transaction management, security, logging, etc.) with Aspect-Oriented Programming (AOP), and use object/relational mapping (ORM) for persistence. What you often run into as obstacles are that many of these frameworks, particularly web and ORM frameworks, force you to introduce &amp;ldquo;smells&amp;rdquo; into your code for the framework to use them. Examples include requirements for public default constructors and JavaBean-style setters.&lt;/p&gt;
+&lt;p&gt;Chris closed with an awesome discussion of common code smells and the refactorings used to eliminate them. I was most interested in Feature Envy, which is where you have methods that are far too interested in data belonging to other classes. This is very common in session facades, and the healing factor is to push that logic down into the appropriate domain classes. Another interesting smell was Primitive Obsession, where code uses built-in types (such as String and Integer) instead of application classes to represent state. The refactoring in this case is to introduce Value Objects, which are immutable, validated objects representing domain concepts (e.g. a shipping address).&lt;/p&gt;
+&lt;p&gt;Chris closed with the charge to begin refactoring our procedural designs into a rich domain model on MONDAY! Oh, how I can&#39;t wait to begin. Good job Chris!&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>pair programming with the official rod johnson bobblehead</title>
       <link>https://www.mattstine.com/2007/12/13/pair-programming-with-the-official-rod-johnson-bobblehead/</link>
       <pubDate>Thu, 13 Dec 2007 00:00:00 +0000</pubDate>
-      
       <guid>https://www.mattstine.com/2007/12/13/pair-programming-with-the-official-rod-johnson-bobblehead/</guid>
-      <description>As you can see, Rod really likes my Spring MVC configuration. :-)</description>
+      <description>&lt;p&gt;&lt;a href=&#34;http://3.bp.blogspot.com/_Vo63LRwAZbk/R2HoivNFFDI/AAAAAAAAAWg/Kp-khRPCwxU/s1600-h/rod_johnson_pairprog.jpg&#34;&gt;&lt;img src=&#34;http://3.bp.blogspot.com/_Vo63LRwAZbk/R2HoivNFFDI/AAAAAAAAAWg/Kp-khRPCwxU/s400/rod_johnson_pairprog.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;As you can see, Rod really likes my Spring MVC configuration. :-)&lt;/p&gt;
+</description>
     </item>
     
   </channel>

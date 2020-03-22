@@ -1,55 +1,15 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://www.mattstine.com/home/about/</loc>
-    <lastmod>2016-04-20T00:00:00+00:00</lastmod>
+    <loc>https://www.mattstine.com/publication_types/0/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.mattstine.com/home/publications_selected/</loc>
-    <lastmod>2016-04-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.mattstine.com/home/publications/</loc>
-    <lastmod>2016-04-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.mattstine.com/home/posts/</loc>
-    <lastmod>2016-04-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.mattstine.com/home/videos/</loc>
-    <lastmod>2016-04-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.mattstine.com/home/articles/</loc>
-    <lastmod>2016-04-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.mattstine.com/home/interviews/</loc>
-    <lastmod>2016-04-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.mattstine.com/home/projects/</loc>
-    <lastmod>2016-04-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.mattstine.com/home/appearances/</loc>
-    <lastmod>2016-04-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.mattstine.com/home/contact/</loc>
-    <lastmod>2016-04-20T00:00:00+00:00</lastmod>
+    <loc>https://www.mattstine.com/authors/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -58,8 +18,48 @@
   </url>
   
   <url>
-    <loc>https://www.mattstine.com/publication/lp-cna-fundmentals/</loc>
+    <loc>https://www.mattstine.com/publication/lp-cna-fundamentals/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.mattstine.com/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.mattstine.com/authors/matt-stine/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.mattstine.com/publication_types/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.mattstine.com/publication/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.mattstine.com/categories/architecture/</loc>
+    <lastmod>2017-05-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.mattstine.com/categories/</loc>
+    <lastmod>2017-05-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.mattstine.com/categories/cloud/</loc>
+    <lastmod>2017-05-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.mattstine.com/post/</loc>
+    <lastmod>2017-05-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -68,13 +68,23 @@
   </url>
   
   <url>
-    <loc>https://www.mattstine.com/publication/shb-refarch-cna/</loc>
+    <loc>https://www.mattstine.com/authors/ford-donald/</loc>
     <lastmod>2017-03-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.mattstine.com/about/</loc>
-    <lastmod>2015-06-20T14:02:37+02:00</lastmod>
+    <loc>https://www.mattstine.com/authors/guillermo-tantachuco/</loc>
+    <lastmod>2017-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.mattstine.com/authors/jared-ruckle/</loc>
+    <lastmod>2017-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.mattstine.com/publication/shb-refarch-cna/</loc>
+    <lastmod>2017-03-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -88,8 +98,28 @@
   </url>
   
   <url>
+    <loc>https://www.mattstine.com/categories/cloudfoundry/</loc>
+    <lastmod>2015-02-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.mattstine.com/categories/spring/</loc>
+    <lastmod>2015-02-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.mattstine.com/categories/golang/</loc>
+    <lastmod>2014-07-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.mattstine.com/2014/07/08/learning-to-go-part-i-interfaces/</loc>
     <lastmod>2014-07-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.mattstine.com/categories/microservices/</loc>
+    <lastmod>2014-07-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -108,7 +138,32 @@
   </url>
   
   <url>
+    <loc>https://www.mattstine.com/categories/solid/</loc>
+    <lastmod>2014-06-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.mattstine.com/categories/amazon/</loc>
+    <lastmod>2013-08-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.mattstine.com/categories/aws/</loc>
+    <lastmod>2013-08-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.mattstine.com/categories/bosh/</loc>
+    <lastmod>2013-08-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.mattstine.com/2013/08/02/bosh-and-cloud-api-compatibility/</loc>
+    <lastmod>2013-08-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.mattstine.com/categories/openstack/</loc>
     <lastmod>2013-08-02T00:00:00+00:00</lastmod>
   </url>
   
@@ -118,7 +173,22 @@
   </url>
   
   <url>
+    <loc>https://www.mattstine.com/categories/career-2-0/</loc>
+    <lastmod>2013-05-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.mattstine.com/categories/clojure/</loc>
+    <lastmod>2013-05-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.mattstine.com/2013/05/29/clojure-on-cloud-foundry/</loc>
+    <lastmod>2013-05-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.mattstine.com/categories/devops/</loc>
     <lastmod>2013-05-29T00:00:00+00:00</lastmod>
   </url>
   
@@ -133,8 +203,43 @@
   </url>
   
   <url>
+    <loc>https://www.mattstine.com/categories/writing/</loc>
+    <lastmod>2012-05-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.mattstine.com/categories/design/</loc>
+    <lastmod>2011-05-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.mattstine.com/2011/05/16/design-meeting-patternsantipatterns/</loc>
     <lastmod>2011-05-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.mattstine.com/categories/development/</loc>
+    <lastmod>2011-05-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.mattstine.com/categories/facilitation/</loc>
+    <lastmod>2011-05-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.mattstine.com/categories/meetings/</loc>
+    <lastmod>2011-05-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.mattstine.com/categories/work/</loc>
+    <lastmod>2011-05-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.mattstine.com/categories/agile/</loc>
+    <lastmod>2011-01-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -143,8 +248,23 @@
   </url>
   
   <url>
+    <loc>https://www.mattstine.com/categories/testing/</loc>
+    <lastmod>2011-01-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.mattstine.com/2011/01/02/2010-in-review-the-automated-analysis/</loc>
     <lastmod>2011-01-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.mattstine.com/categories/general/</loc>
+    <lastmod>2011-01-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.mattstine.com/categories/refcardz/</loc>
+    <lastmod>2010-11-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -183,6 +303,11 @@
   </url>
   
   <url>
+    <loc>https://www.mattstine.com/categories/nfjs/</loc>
+    <lastmod>2010-06-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.mattstine.com/2010/06/22/nfjs-fall-2010-what-do-you-want-to-learn/</loc>
     <lastmod>2010-06-22T00:00:00+00:00</lastmod>
   </url>
@@ -198,13 +323,43 @@
   </url>
   
   <url>
+    <loc>https://www.mattstine.com/categories/jug/</loc>
+    <lastmod>2010-05-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.mattstine.com/categories/nosql/</loc>
+    <lastmod>2010-05-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.mattstine.com/categories/bookreviews/</loc>
+    <lastmod>2010-05-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.mattstine.com/2010/05/06/first-thoughts-on-seven-languages-in-seven-weeks/</loc>
     <lastmod>2010-05-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
+    <loc>https://www.mattstine.com/categories/java/</loc>
+    <lastmod>2010-04-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.mattstine.com/categories/osgi/</loc>
+    <lastmod>2010-04-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.mattstine.com/2010/04/29/osgi-on-rails/</loc>
     <lastmod>2010-04-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.mattstine.com/categories/javaone2009/</loc>
+    <lastmod>2010-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -218,8 +373,28 @@
   </url>
   
   <url>
+    <loc>https://www.mattstine.com/categories/programming/</loc>
+    <lastmod>2010-02-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.mattstine.com/categories/loty/</loc>
+    <lastmod>2010-01-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.mattstine.com/2010/01/06/lotytoty-for-2010/</loc>
     <lastmod>2010-01-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.mattstine.com/categories/grails/</loc>
+    <lastmod>2009-11-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.mattstine.com/categories/groovy/</loc>
+    <lastmod>2009-11-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -228,8 +403,28 @@
   </url>
   
   <url>
+    <loc>https://www.mattstine.com/categories/goals/</loc>
+    <lastmod>2009-11-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.mattstine.com/categories/office/</loc>
+    <lastmod>2009-11-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.mattstine.com/categories/pomodoro/</loc>
+    <lastmod>2009-11-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.mattstine.com/2009/11/04/pomodoro-the-first-iteration/</loc>
     <lastmod>2009-11-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.mattstine.com/categories/funny/</loc>
+    <lastmod>2009-11-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -238,8 +433,23 @@
   </url>
   
   <url>
+    <loc>https://www.mattstine.com/categories/pragprowrimo/</loc>
+    <lastmod>2009-11-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.mattstine.com/categories/springone2gx2009/</loc>
+    <lastmod>2009-10-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.mattstine.com/2009/10/21/thoughts-so-far-on-springone2gx/</loc>
     <lastmod>2009-10-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.mattstine.com/categories/functional-programming/</loc>
+    <lastmod>2009-10-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -250,6 +460,11 @@
   <url>
     <loc>https://www.mattstine.com/2009/10/03/test-driven-development-worked-for-me/</loc>
     <lastmod>2009-10-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.mattstine.com/categories/family/</loc>
+    <lastmod>2009-06-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -318,6 +533,11 @@
   </url>
   
   <url>
+    <loc>https://www.mattstine.com/categories/career-2.0/</loc>
+    <lastmod>2009-05-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.mattstine.com/2009/05/11/career-20-toastmasters/</loc>
     <lastmod>2009-05-11T00:00:00+00:00</lastmod>
   </url>
@@ -325,6 +545,11 @@
   <url>
     <loc>https://www.mattstine.com/2009/05/11/grails-paypal-plugin-update/</loc>
     <lastmod>2009-05-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.mattstine.com/categories/codeproject/</loc>
+    <lastmod>2009-05-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -338,8 +563,23 @@
   </url>
   
   <url>
+    <loc>https://www.mattstine.com/categories/scala/</loc>
+    <lastmod>2009-04-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.mattstine.com/categories/toty/</loc>
+    <lastmod>2009-04-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.mattstine.com/2009/04/27/joels-builderbuilder-in-groovy/</loc>
     <lastmod>2009-04-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.mattstine.com/categories/ajax/</loc>
+    <lastmod>2009-04-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -353,6 +593,16 @@
   </url>
   
   <url>
+    <loc>https://www.mattstine.com/categories/prototype/</loc>
+    <lastmod>2009-04-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.mattstine.com/categories/scriptaculous/</loc>
+    <lastmod>2009-04-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.mattstine.com/2009/04/24/hello-clojure/</loc>
     <lastmod>2009-04-24T00:00:00+00:00</lastmod>
   </url>
@@ -360,6 +610,11 @@
   <url>
     <loc>https://www.mattstine.com/2009/04/24/latest-wordle/</loc>
     <lastmod>2009-04-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.mattstine.com/categories/dynamiclanguages/</loc>
+    <lastmod>2009-04-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -388,7 +643,17 @@
   </url>
   
   <url>
+    <loc>https://www.mattstine.com/categories/deployment/</loc>
+    <lastmod>2009-03-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.mattstine.com/2009/03/26/need-a-textile-engine-look-no-further-than-plextile/</loc>
+    <lastmod>2009-03-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.mattstine.com/categories/textile/</loc>
     <lastmod>2009-03-26T00:00:00+00:00</lastmod>
   </url>
   
@@ -404,6 +669,16 @@
   
   <url>
     <loc>https://www.mattstine.com/2009/03/13/im-speaking-at-the-march-memphis-jug-meeting/</loc>
+    <lastmod>2009-03-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.mattstine.com/categories/ipod/</loc>
+    <lastmod>2009-03-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.mattstine.com/categories/jms/</loc>
     <lastmod>2009-03-13T00:00:00+00:00</lastmod>
   </url>
   
@@ -453,7 +728,32 @@
   </url>
   
   <url>
+    <loc>https://www.mattstine.com/categories/thespringexperience2007/</loc>
+    <lastmod>2008-02-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.mattstine.com/categories/jruby/</loc>
+    <lastmod>2008-01-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.mattstine.com/2008/01/25/practical-jruby-on-rails-web-20-projects/</loc>
+    <lastmod>2008-01-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.mattstine.com/categories/ruby/</loc>
+    <lastmod>2008-01-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.mattstine.com/categories/ruby-on-rails/</loc>
+    <lastmod>2008-01-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.mattstine.com/categories/web-2.0/</loc>
     <lastmod>2008-01-25T00:00:00+00:00</lastmod>
   </url>
   
@@ -558,6 +858,21 @@
   </url>
   
   <url>
+    <loc>https://www.mattstine.com/categories/jsf/</loc>
+    <lastmod>2007-06-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.mattstine.com/categories/validation/</loc>
+    <lastmod>2007-06-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.mattstine.com/categories/coffee/</loc>
+    <lastmod>2007-06-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.mattstine.com/2007/06/22/the-grove-coffee-house-rocks/</loc>
     <lastmod>2007-06-22T00:00:00+00:00</lastmod>
   </url>
@@ -573,8 +888,43 @@
   </url>
   
   <url>
+    <loc>https://www.mattstine.com/categories/dsl/</loc>
+    <lastmod>2007-05-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.mattstine.com/categories/ejb3/</loc>
+    <lastmod>2007-05-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.mattstine.com/categories/netbeans/</loc>
+    <lastmod>2007-05-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.mattstine.com/categories/rails/</loc>
+    <lastmod>2007-05-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.mattstine.com/categories/restaurants/</loc>
+    <lastmod>2007-05-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.mattstine.com/2007/05/11/thursday-was-slow/</loc>
     <lastmod>2007-05-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.mattstine.com/categories/gwt/</loc>
+    <lastmod>2007-05-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.mattstine.com/categories/jmaki/</loc>
+    <lastmod>2007-05-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -588,12 +938,22 @@
   </url>
   
   <url>
+    <loc>https://www.mattstine.com/categories/scripting/</loc>
+    <lastmod>2007-05-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.mattstine.com/2007/05/07/java-university-developing-enterprise-applications-with-the-spring-framework/</loc>
     <lastmod>2007-05-07T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.mattstine.com/2007/05/07/java-university-rapid-web-site-development-with-groovy-and-grails/</loc>
+    <lastmod>2007-05-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.mattstine.com/categories/javauniversity/</loc>
     <lastmod>2007-05-07T00:00:00+00:00</lastmod>
   </url>
   
@@ -620,6 +980,11 @@
   <url>
     <loc>https://www.mattstine.com/2006/08/16/java-needs-closures/</loc>
     <lastmod>2006-08-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.mattstine.com/categories/developer/</loc>
+    <lastmod>2006-08-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -723,476 +1088,15 @@
   </url>
   
   <url>
-    <loc>https://www.mattstine.com/categories/agile/</loc>
-    <lastmod>2011-01-05T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <loc>https://www.mattstine.com/authors/admin/</loc>
   </url>
   
   <url>
-    <loc>https://www.mattstine.com/categories/ajax/</loc>
-    <lastmod>2009-04-25T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.mattstine.com/categories/amazon/</loc>
-    <lastmod>2013-08-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.mattstine.com/categories/architecture/</loc>
-    <lastmod>2017-05-14T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.mattstine.com/categories/aws/</loc>
-    <lastmod>2013-08-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.mattstine.com/categories/bookreviews/</loc>
-    <lastmod>2010-05-06T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.mattstine.com/categories/bosh/</loc>
-    <lastmod>2013-08-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.mattstine.com/categories/career-2-0/</loc>
-    <lastmod>2013-05-29T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.mattstine.com/categories/career-2.0/</loc>
-    <lastmod>2009-05-11T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.mattstine.com/categories/</loc>
-    <lastmod>2011-01-05T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.mattstine.com/categories/clojure/</loc>
-    <lastmod>2013-05-29T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.mattstine.com/categories/cloud/</loc>
-    <lastmod>2017-05-14T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.mattstine.com/categories/cloudfoundry/</loc>
-    <lastmod>2015-02-18T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.mattstine.com/categories/codeproject/</loc>
-    <lastmod>2009-05-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.mattstine.com/categories/coffee/</loc>
-    <lastmod>2007-06-22T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.mattstine.com/categories/deployment/</loc>
-    <lastmod>2009-03-29T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.mattstine.com/categories/design/</loc>
-    <lastmod>2011-05-16T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.mattstine.com/categories/developer/</loc>
-    <lastmod>2006-08-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.mattstine.com/categories/development/</loc>
-    <lastmod>2011-05-16T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.mattstine.com/categories/devops/</loc>
-    <lastmod>2013-05-29T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.mattstine.com/categories/dsl/</loc>
-    <lastmod>2007-05-11T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.mattstine.com/categories/dynamiclanguages/</loc>
-    <lastmod>2009-04-06T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.mattstine.com/categories/ejb3/</loc>
-    <lastmod>2007-05-11T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.mattstine.com/categories/facilitation/</loc>
-    <lastmod>2011-05-16T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.mattstine.com/categories/family/</loc>
-    <lastmod>2009-06-25T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.mattstine.com/categories/functional-programming/</loc>
-    <lastmod>2009-10-09T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.mattstine.com/categories/funny/</loc>
-    <lastmod>2009-11-03T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.mattstine.com/categories/general/</loc>
-    <lastmod>2011-01-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.mattstine.com/categories/goals/</loc>
-    <lastmod>2009-11-04T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.mattstine.com/categories/golang/</loc>
-    <lastmod>2014-07-08T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.mattstine.com/categories/grails/</loc>
-    <lastmod>2009-11-10T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.mattstine.com/categories/groovy/</loc>
-    <lastmod>2009-11-10T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.mattstine.com/categories/gwt/</loc>
-    <lastmod>2007-05-10T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.mattstine.com/home/</loc>
-    <lastmod>2016-04-20T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.mattstine.com/categories/ipod/</loc>
-    <lastmod>2009-03-13T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.mattstine.com/categories/java/</loc>
-    <lastmod>2010-04-29T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.mattstine.com/categories/javaone2009/</loc>
-    <lastmod>2010-04-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.mattstine.com/categories/javauniversity/</loc>
-    <lastmod>2007-05-07T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.mattstine.com/categories/jmaki/</loc>
-    <lastmod>2007-05-10T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.mattstine.com/categories/jms/</loc>
-    <lastmod>2009-03-13T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.mattstine.com/categories/jruby/</loc>
-    <lastmod>2008-01-25T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.mattstine.com/categories/jsf/</loc>
-    <lastmod>2007-06-27T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.mattstine.com/categories/jug/</loc>
-    <lastmod>2010-05-28T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.mattstine.com/categories/loty/</loc>
-    <lastmod>2010-01-06T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.mattstine.com/</loc>
-    <lastmod>2016-04-20T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.mattstine.com/categories/meetings/</loc>
-    <lastmod>2011-05-16T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.mattstine.com/categories/microservices/</loc>
-    <lastmod>2014-07-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.mattstine.com/categories/netbeans/</loc>
-    <lastmod>2007-05-11T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.mattstine.com/categories/nfjs/</loc>
-    <lastmod>2010-06-22T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.mattstine.com/categories/nosql/</loc>
-    <lastmod>2010-05-28T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.mattstine.com/categories/office/</loc>
-    <lastmod>2009-11-04T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.mattstine.com/categories/openstack/</loc>
-    <lastmod>2013-08-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.mattstine.com/categories/osgi/</loc>
-    <lastmod>2010-04-29T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.mattstine.com/categories/pomodoro/</loc>
-    <lastmod>2009-11-04T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.mattstine.com/post/</loc>
-    <lastmod>2017-05-14T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.mattstine.com/categories/pragprowrimo/</loc>
-    <lastmod>2009-11-03T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.mattstine.com/categories/programming/</loc>
-    <lastmod>2010-02-16T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.mattstine.com/categories/prototype/</loc>
-    <lastmod>2009-04-25T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.mattstine.com/publication/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.mattstine.com/categories/rails/</loc>
-    <lastmod>2007-05-11T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.mattstine.com/categories/refcardz/</loc>
-    <lastmod>2010-11-29T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.mattstine.com/categories/restaurants/</loc>
-    <lastmod>2007-05-11T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.mattstine.com/categories/ruby/</loc>
-    <lastmod>2008-01-25T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.mattstine.com/categories/ruby-on-rails/</loc>
-    <lastmod>2008-01-25T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.mattstine.com/categories/scala/</loc>
-    <lastmod>2009-04-30T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.mattstine.com/categories/scriptaculous/</loc>
-    <lastmod>2009-04-25T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.mattstine.com/categories/scripting/</loc>
-    <lastmod>2007-05-08T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.mattstine.com/categories/solid/</loc>
-    <lastmod>2014-06-30T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.mattstine.com/categories/spring/</loc>
-    <lastmod>2015-02-18T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.mattstine.com/categories/springone2gx2009/</loc>
-    <lastmod>2009-10-21T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <loc>https://www.mattstine.com/talk/</loc>
   </url>
   
   <url>
     <loc>https://www.mattstine.com/tags/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.mattstine.com/categories/testing/</loc>
-    <lastmod>2011-01-05T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.mattstine.com/categories/textile/</loc>
-    <lastmod>2009-03-26T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.mattstine.com/categories/thespringexperience2007/</loc>
-    <lastmod>2008-02-04T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.mattstine.com/categories/toty/</loc>
-    <lastmod>2009-04-30T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.mattstine.com/categories/validation/</loc>
-    <lastmod>2007-06-27T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.mattstine.com/categories/web-2.0/</loc>
-    <lastmod>2008-01-25T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.mattstine.com/categories/work/</loc>
-    <lastmod>2011-05-16T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.mattstine.com/categories/writing/</loc>
-    <lastmod>2012-05-24T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
 </urlset>

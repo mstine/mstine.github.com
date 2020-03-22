@@ -1,25 +1,176 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Prototype on Matt Stine</title>
+    <title>prototype | Matt Stine</title>
     <link>https://www.mattstine.com/categories/prototype/</link>
-    <description>Recent content in Prototype on Matt Stine</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2018 Matt Stine</copyright>
-    <lastBuildDate>Sat, 25 Apr 2009 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://www.mattstine.com/categories/prototype/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="https://www.mattstine.com/categories/prototype/index.xml" rel="self" type="application/rss+xml" />
+    <description>prototype</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Matt Stine</copyright><lastBuildDate>Sat, 25 Apr 2009 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>prototype</title>
+      <link>https://www.mattstine.com/categories/prototype/</link>
+    </image>
     
     <item>
       <title>grails prototype scriptaculous persistent grid sorting goodness</title>
       <link>https://www.mattstine.com/2009/04/25/grails-prototype-scriptaculous-persistent-grid-sorting-goodness/</link>
       <pubDate>Sat, 25 Apr 2009 00:00:00 +0000</pubDate>
-      
       <guid>https://www.mattstine.com/2009/04/25/grails-prototype-scriptaculous-persistent-grid-sorting-goodness/</guid>
-      <description>Ever wanted to do drag-n-drop sorting of a grid of images on a page and persist it? Here&amp;rsquo;s my solution using Grails, Prototype, and Script.aculo.us.
-Basically what prompted this was the need for my wife to be able to sort the various product images that she had on a screen at any given time in any way that she pleased, and it had to be easy to work with. What follows is by no means a complete solution to this problem, but it represents where I am in the development process and may be useful to you, my hapless reader.</description>
+      <description>&lt;p&gt;Ever wanted to do drag-n-drop sorting of a grid of images on a page and persist it? Here&#39;s my solution using Grails, Prototype, and Script.aculo.us.&lt;/p&gt;
+&lt;p&gt;Basically what prompted this was the need for my wife to be able to sort the various product images that she had on a screen at any given time in any way that she pleased, and it had to be easy to work with. What follows is by no means a complete solution to this problem, but it represents where I am in the development process and may be useful to you, my hapless reader.&lt;/p&gt;
+&lt;p&gt;Here&#39;s some GSP code which basically lays out a grid of product images, 3 wide by &lt;em&gt;n&lt;/em&gt; deep:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;div id=&amp;quot;productThumbContainer&amp;quot;&amp;gt;
+  &amp;lt;g:set var=&amp;quot;rowIndex&amp;quot; value=&amp;quot;${0}&amp;quot;/&amp;gt;
+&amp;lt;g:each in=&amp;quot;${products}&amp;quot; var=&amp;quot;product&amp;quot; status=&amp;quot;index&amp;quot;&amp;gt;
+  &amp;lt;g:if test=&amp;quot;${index % 3 == 0}&amp;quot;&amp;gt;
+    &amp;lt;div id=&amp;quot;productRow${rowIndex}&amp;quot; class=&amp;quot;span-20 last product-row&amp;quot;&amp;gt;
+  &amp;lt;/g:if&amp;gt;
+  &amp;lt;div id=&amp;quot;product_${product.id}&amp;quot; class=&amp;quot;span-6 product &amp;lt;g:if test=&amp;quot;${(index % 3 == 2) || ((products.size() - index) == 1)}&amp;quot;&amp;gt;last&amp;lt;/g:if&amp;gt;&amp;lt;g:else&amp;gt;append-1&amp;lt;/g:else&amp;gt;&amp;quot;&amp;gt;
+    &amp;lt;img src=&amp;quot;${resource(dir: grailsApplication.config.store.productImages.webPath, file: product?.thumbnailImage?.name)}&amp;quot; width=&amp;quot;230&amp;quot; class=&amp;quot;productImage&amp;quot;&amp;gt;
+    &amp;lt;h3&amp;gt;&amp;lt;g:link controller=&amp;quot;product&amp;quot; action=&amp;quot;show&amp;quot; id=&amp;quot;${product.id}&amp;quot;&amp;gt;${product.name}&amp;lt;/g:link&amp;gt;&amp;lt;/h3&amp;gt;
+  &amp;lt;/div&amp;gt;
+  &amp;lt;g:if test=&amp;quot;${(index % 3 == 2) || ((products.size() - index) == 1)}&amp;quot;&amp;gt;
+    &amp;lt;/div&amp;gt;
+    &amp;lt;g:set var=&amp;quot;rowIndex&amp;quot; value=&amp;quot;${rowIndex + 1}&amp;quot;/&amp;gt;
+  &amp;lt;/g:if&amp;gt;
+&amp;lt;/g:each&amp;gt;
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Now here&#39;s where the magic happens:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;document.observe(&#39;dom:loaded&#39;, function() {
+      var productRows = $$(&#39;.product-row&#39;);
+
+      var options = {
+        constraint: false,
+        overlap: &#39;horizontal&#39;,
+        containment: productRows,
+        dropOnEmpty: true,
+        tag: &#39;div&#39;,
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;date = &amp;quot;&amp;rdquo;
+};&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;      productRows.each(function(item) {
+        Sortable.create(item, options);
+      });
+
+      $(&#39;persistOrderingButton&#39;).observe(&#39;click&#39;, function(event) {
+          var sortString = &#39;&#39;;
+          productRows.each(function(row) {
+              sortString += &#39;&amp;amp;&#39;;
+              sortString += Sortable.serialize(row);
+          });
+          &amp;lt;g:remoteFunction action=&amp;quot;sortProducts&amp;quot; params=&amp;quot;sortString&amp;quot; update=&amp;quot;ajaxMessage&amp;quot; onSuccess=&amp;quot;\$(&#39;ajaxMessage&#39;).show()&amp;quot;/&amp;gt;
+      });
+});
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;What we&#39;ve got here is, failure to communicate&amp;hellip;oops, wrong synapse there&amp;hellip;what we&#39;ve got here is a Prototype selector that grabs everything with the class &amp;ldquo;.product-row.&amp;rdquo; It then takes these and creates a Scriptaculous Sortable for each of them, providing the object-literal &amp;ldquo;options.&amp;rdquo; Notice the &amp;ldquo;containment&amp;rdquo; option which allows you to drag products back and forth between the various rows.&lt;/p&gt;
+&lt;p&gt;Delving deeper into the magic is the callback function &amp;ldquo;updateRows.&amp;rdquo; This guy is my favorite Javascript creation in quite some time:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;function updateRows(list) {
+      var children = list.childElements();
+
+      if (children.size() &amp;lt; 3) {
+
+        //If I&#39;m the last row, who cares!
+        if (list.next() != null) {
+          var prevRow = list.previous();
+
+          if (prevRow != null) {
+            var lastChild = prevRow.childElements()[prevRow.childElements().size() - 1].remove();
+            list.insert({top:lastChild});
+            updateRows(prevRow);
+          } else {
+            var lastRow = list.up().childElements()[list.up().childElements().size() - 1];
+            var lastChild = lastRow.childElements()[lastRow.childElements().size() - 1].remove();
+            list.insert({top:lastChild});
+            updateRows(lastRow);
+          }
+        }
+      } else if (children.size() == 3) {
+        //Do nothing...gets me out of the recursion I hope!
+      } else {
+        var nextRow = list.next();
+        var lastChild = children[children.size() - 1].remove();
+
+        if (nextRow != null) {
+          nextRow.insert({top:lastChild});
+          updateRows(nextRow);
+        } else {
+          var topRow = list.up().childElements()[0];
+          topRow.insert({top:lastChild});
+          updateRows(topRow);
+        }
+      }
+
+      var i = 0;
+      Sortable.sequence(list).each(function(item) {
+        var productId = &#39;product_&#39; + item;
+        if (i &amp;lt; 2) {
+          $(productId).removeClassName(&#39;last&#39;);
+          $(productId).removeClassName(&#39;append-1&#39;);
+          $(productId).addClassName(&#39;append-1&#39;);
+        } else {
+          $(productId).removeClassName(&#39;last&#39;);
+          $(productId).removeClassName(&#39;append-1&#39;);
+          $(productId).addClassName(&#39;last&#39;);
+        }
+        i++;
+      });
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This function is organized around the fact that the only valid state for a grid of n-rows will be n-1 rows of 3 products, followed by one row of 1 &amp;lt;= numProducts &amp;lt;= 3. In most cases, if you drag a product from one row to another, you are violating that rule by creating a row with 2 products and a row with 4 products. This function solves the problem by recursively shifting the products down until reaching a stable state again.&lt;/p&gt;
+&lt;p&gt;There&#39;s a bit of noise there at the bottom of the function. I&#39;m using Blueprint CSS to do the layout for this application and I need to shift the various Blueprint classes around once everything is settled.&lt;/p&gt;
+&lt;p&gt;Finally, here&#39;s the persistence of the data when we click save:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;def sortProducts = {
+    TreeMap rowMap = new TreeMap()
+
+    params.each {key, value -&amp;gt;
+      def matcher = key =~ /productRow(.*)\[\]/
+      if (matcher.matches()) {
+        def rowId = matcher[0][1]
+        rowMap[rowId] = value
+      }
+    }
+
+    def productIds = []
+    rowMap.values().each { row -&amp;gt;
+      row.each {
+        productIds &amp;lt;&amp;lt; it.toLong()
+      }
+    }
+
+    shoppingService.saveSortOrder(productIds)
+
+    render(&amp;quot;Product sort order saved!&amp;quot;)
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;and the logic from shoppingService.saveSortOrder():&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;def saveSortOrder(def productIds) {
+    def productsToSort = Product.findAllByIdInList(productIds)
+
+    def productMap = [:]
+    def sortIndexList = []
+
+    productsToSort.each {
+      productMap[it.id] = it
+      sortIndexList &amp;lt;&amp;lt; it.sortIndex
+    }
+
+    sortIndexList.sort()
+    sortIndexList = sortIndexList.reverse()
+
+    productIds.each {
+      productMap[it].sortIndex = sortIndexList.pop()
+    }
+
+    productsToSort.each {
+      it.save()
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;You might wonder why this is so complex. What I haven&#39;t fully described is the way products are organized into a hierarchy of various categories. When you&#39;re sorting a screen, you&#39;re only sorting a subset of the products that are in that particular category. However, the sort order is maintained across the entire product set in the database. So, this logic basically just shifts around the existing sort indicies, placing them in their new relative order.&lt;/p&gt;
+&lt;p&gt;Anyway, I don&#39;t know how generally applicable this code is, but I had fun writing it and I hope you can get some use out of it. Cheers!&lt;/p&gt;
+</description>
     </item>
     
   </channel>

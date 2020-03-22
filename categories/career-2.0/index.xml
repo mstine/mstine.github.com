@@ -1,24 +1,38 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Career 2.0 on Matt Stine</title>
+    <title>Career 2.0 | Matt Stine</title>
     <link>https://www.mattstine.com/categories/career-2.0/</link>
-    <description>Recent content in Career 2.0 on Matt Stine</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2018 Matt Stine</copyright>
-    <lastBuildDate>Mon, 11 May 2009 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://www.mattstine.com/categories/career-2.0/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="https://www.mattstine.com/categories/career-2.0/index.xml" rel="self" type="application/rss+xml" />
+    <description>Career 2.0</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Matt Stine</copyright><lastBuildDate>Mon, 11 May 2009 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Career 2.0</title>
+      <link>https://www.mattstine.com/categories/career-2.0/</link>
+    </image>
     
     <item>
       <title>career 20 toastmasters</title>
       <link>https://www.mattstine.com/2009/05/11/career-20-toastmasters/</link>
       <pubDate>Mon, 11 May 2009 00:00:00 +0000</pubDate>
-      
       <guid>https://www.mattstine.com/2009/05/11/career-20-toastmasters/</guid>
-      <description>I&amp;rsquo;m currently making my second trip through Jared Richardson&amp;rsquo;s excellent book Career 2.0: Take Control of Your Life. In the &amp;ldquo;Public Speaking&amp;rdquo; chapter, one of the recommended avenues for public speaking practice is Toastmasters. I first heard of Toastmasters&amp;hellip;you guessed it, on my first trip through the book. Shortly after returning home from NFJS St. Louis, I decided to see if I could find a local club. Lo and behold, a Toastmasters club already meets on the St.</description>
+      <description>&lt;p&gt;I&#39;m currently making my second trip through &lt;a href=&#34;http://agileartisans.com/main&#34;&gt;Jared Richardson&#39;s&lt;/a&gt; excellent book &lt;a href=&#34;http://www.lulu.com/content/5925115&#34;&gt;Career 2.0: Take Control of Your Life&lt;/a&gt;. In the &amp;ldquo;Public Speaking&amp;rdquo; chapter, one of the recommended avenues for public speaking practice is &lt;a href=&#34;http://www.toastmasters.org&#34;&gt;Toastmasters&lt;/a&gt;. I first heard of Toastmasters&amp;hellip;you guessed it, on my first trip through the book. Shortly after returning home from &lt;a href=&#34;http://www.nofluffjuststuff.com/conference/st_louis/2009/03/index.html&#34;&gt;NFJS St. Louis&lt;/a&gt;, I decided to see if I could find a local club. Lo and behold, a Toastmasters club already meets on the St. Jude Children&#39;s Research Hospital campus! I had no excuse but to check it out at this point.&lt;/p&gt;
+&lt;p&gt;For the uninitiated, Toastmasters is an organization focused on helping individuals hone their communication and leadership skills in a safe environment. This is accomplished primarily through three different avenues:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Serving in one of the meeting leadership roles, such as Toastmaster (the meeting facilitator);&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Giving a prepared speech/talk from the list of speech projects in the Toastmasters &amp;ldquo;coursework&amp;rdquo;;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Speaking extemporaneously on one of several &amp;ldquo;table topics,&amp;rdquo; which are speaking prompts provided during the meeting.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Participation in any of these avenues is immediately followed up with feedback from one or more people playing various &amp;ldquo;evaluator&amp;rdquo; roles. I couldn&#39;t help but see the parallels to agile software development!&lt;/p&gt;
+&lt;p&gt;I&#39;ve now attended three meetings, and at the last meeting I decided to join up. The St. Jude club is an extremely friendly group, and several of its members are very accomplished public speakers. You can definitely tell that the Toastmasters experience has helped them enhance their communications skills. I&#39;m looking forward to polishing my own.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

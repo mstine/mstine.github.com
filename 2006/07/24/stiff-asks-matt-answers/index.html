@@ -1,301 +1,1084 @@
 <!DOCTYPE html>
 <html lang="en-us">
+
 <head>
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="theme" content="hugo-academic">
-  <meta name="generator" content="Hugo 0.46" />
-  <meta name="author" content="Matt Stine">
-  <meta name="description" content="Global CTO - Architecture">
+  <meta name="generator" content="Source Themes Academic 4.7.0">
 
-  <link rel="stylesheet" href="/css/highlight.min.css">
-  <link rel="stylesheet" href="/css/bootstrap.min.css">
-  <link rel="stylesheet" href="/css/font-awesome.min.css">
-  <link rel="stylesheet" href="/css/academicons.min.css">
-  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,700|Merriweather|Roboto+Mono">
-  <link rel="stylesheet" href="/css/hugo-academic.css">
   
 
-  <link rel="alternate" href="https://www.mattstine.com/index.xml" type="application/rss+xml" title="Matt Stine">
-  <link rel="feed" href="https://www.mattstine.com/index.xml" type="application/rss+xml" title="Matt Stine">
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
 
-  <link rel="icon" type="image/png" href="/img/icon.png">
-  <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
+  <meta name="author" content="Matt Stine">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="I found an interesting article this morning by way of Digg.com Programming: Stiff asks, great programmers answer. The author posed 5 questions to some of the more well-known programmers of today, and their answers made for very interesting reading. Not to say that I&#39;m a great programmer or anything, but I thought it might be a fun thought exercise to answer these questions myself. Here we go:
+How did you learn programming?">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://www.mattstine.com/2006/07/24/stiff-asks-matt-answers/">
+
+  
+
+
+  
+  
+  
+  <meta name="theme-color" content="#2962ff">
+  
+
+  
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.min.css" integrity="sha256-4w9DunooKSr3MFXHXWyFER38WmPdm361bQS/2KUWZbU=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.css" integrity="sha256-SHMGCYmST46SoyGgo4YR/9AlK1vf3ff84Aq9yK4hdqM=" crossorigin="anonymous">
+    
+
+    
+
+    
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js" integrity="sha256-Md1qLToewPeKjfAHU1zyPwOutccPAm5tahnaw7Osw0A=" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
+  
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.css">
+
+  
+
+
+
+
+  
+
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
 
   <link rel="canonical" href="https://www.mattstine.com/2006/07/24/stiff-asks-matt-answers/">
 
   
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="twitter:site" content="@mstine">
+  <meta property="twitter:creator" content="@mstine">
+  
+  <meta property="og:site_name" content="Matt Stine">
+  <meta property="og:url" content="https://www.mattstine.com/2006/07/24/stiff-asks-matt-answers/">
+  <meta property="og:title" content="stiff asks matt answers | Matt Stine">
+  <meta property="og:description" content="I found an interesting article this morning by way of Digg.com Programming: Stiff asks, great programmers answer. The author posed 5 questions to some of the more well-known programmers of today, and their answers made for very interesting reading. Not to say that I&#39;m a great programmer or anything, but I thought it might be a fun thought exercise to answer these questions myself. Here we go:
+How did you learn programming?"><meta property="og:image" content="img/map[gravatar:%!s(bool=false) shape:circle]">
+  <meta property="twitter:image" content="img/map[gravatar:%!s(bool=false) shape:circle]"><meta property="og:locale" content="en-us">
+  
+    
+      <meta property="article:published_time" content="2006-07-24T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2006-07-24T00:00:00&#43;00:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.mattstine.com/2006/07/24/stiff-asks-matt-answers/"
+  },
+  "headline": "stiff asks matt answers",
+  
+  "datePublished": "2006-07-24T00:00:00Z",
+  "dateModified": "2006-07-24T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Matt Stine"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Matt Stine",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "img/https://www.mattstine.com/"
+    }
+  },
+  "description": "I found an interesting article this morning by way of Digg.com Programming: Stiff asks, great programmers answer. The author posed 5 questions to some of the more well-known programmers of today, and their answers made for very interesting reading. Not to say that I'm a great programmer or anything, but I thought it might be a fun thought exercise to answer these questions myself. Here we go:\nHow did you learn programming?"
+}
+</script>
+
+  
+
+  
+
+
+  
+
+
+  
+
+
+
+
 
   <title>stiff asks matt answers | Matt Stine</title>
 
 </head>
-<body id="top">
 
-<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
   <div class="container">
 
     
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-              data-target=".navbar-collapse" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
+    <div class="d-none d-lg-inline-flex">
       <a class="navbar-brand" href="/">Matt Stine</a>
     </div>
+    
 
     
-    <div class="collapse navbar-collapse" id="#navbar-collapse-1">
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">Matt Stine</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
 
       
-      <ul class="nav navbar-nav navbar-right">
+      <ul class="navbar-nav d-md-inline-flex">
         
-        <li class="nav-item"><a href="/#top">Home</a></li>
+
         
-        <li class="nav-item"><a href="/#publications">Publications</a></li>
+
         
-        <li class="nav-item"><a href="/#posts">Posts</a></li>
         
-        <li class="nav-item"><a href="/#videos">Videos</a></li>
         
-        <li class="nav-item"><a href="/#articles">Articles</a></li>
+          
         
-        <li class="nav-item"><a href="/#interviews">Interviews</a></li>
+
         
-        <li class="nav-item"><a href="/#upcoming">Appearances</a></li>
         
-        <li class="nav-item"><a href="/#contact">Contact</a></li>
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#publications"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#posts"><span>Posts</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#videos"><span>Videos</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#articles"><span>Articles</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#interviews"><span>Interviews</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+      
+
         
       </ul>
-
     </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+
+      
+
+    </ul>
+
   </div>
 </nav>
 
-<div class="container">
 
-  <article class="article" itemscope itemtype="http://schema.org/Article">
+  <article class="article">
 
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>stiff asks matt answers</h1>
+
+  
+
+  
     
 
-    <h1 itemprop="name">stiff asks matt answers</h1>
-
-    
 
 <div class="article-metadata">
 
+  
+  
+
+  
   <span class="article-date">
-    <time datetime="2006-07-24 00:00:00 &#43;0000 UTC" itemprop="datePublished">
-      Mon, Jul 24, 2006
-    </time>
+    
+    
+      
+    
+    Jul 24, 2006
   </span>
+  
 
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    6 min read
+  </span>
   
 
   
   
-<div class="share-box" aria-hidden="true">
-  <ul class="share">
-    <li>
-      <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.mattstine.com%2f2006%2f07%2f24%2fstiff-asks-matt-answers%2f"
-         target="_blank">
-        <i class="fa fa-facebook"></i>
-      </a>
-    </li>
-    <li>
-      <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=stiff%20asks%20matt%20answers&amp;url=https%3a%2f%2fwww.mattstine.com%2f2006%2f07%2f24%2fstiff-asks-matt-answers%2f"
-         target="_blank">
-        <i class="fa fa-twitter"></i>
-      </a>
-    </li>
-    <li>
-      <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fwww.mattstine.com%2f2006%2f07%2f24%2fstiff-asks-matt-answers%2f&amp;title=stiff%20asks%20matt%20answers"
-         target="_blank">
-        <i class="fa fa-linkedin"></i>
-      </a>
-    </li>
-    <li>
-      <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fwww.mattstine.com%2f2006%2f07%2f24%2fstiff-asks-matt-answers%2f&amp;title=stiff%20asks%20matt%20answers"
-         target="_blank">
-        <i class="fa fa-weibo"></i>
-      </a>
-    </li>
-    <li>
-      <a class="email"
-         href="mailto:?subject=stiff%20asks%20matt%20answers&amp;body=https%3a%2f%2fwww.mattstine.com%2f2006%2f07%2f24%2fstiff-asks-matt-answers%2f">
-        <i class="fa fa-envelope"></i>
-      </a>
-    </li>
-  </ul>
-</div>
+  
 
-
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/categories/developer/">developer</a></span>
   
 
 </div>
 
+    
 
-    <div class="article-style" itemprop="articleBody">
-      <p>I found an interesting article this morning by way of <a href="http://digg.com/programming">Digg.com Programming</a>: <a href="http://sztywny.titaniumhosting.com/2006/07/23/stiff-asks-great-programmers-answers/">Stiff asks, great programmers answer</a>. The author posed 5 questions to some of the more well-known programmers of today, and their answers made for very interesting reading. Not to say that I&rsquo;m a great programmer or anything, but I thought it might be a fun thought exercise to answer these questions myself. Here we go:</p>
 
-<p><strong>How did you learn programming? Were any schools of any use? Or maybe you didn&rsquo;t even bother with attending any schools <img src="http://www.analienandastranger.com/wp-includes/images/smilies/icon_smile.gif" alt=":)" />  ?</strong></p>
 
+
+
+
+
+
+
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <p>I found an interesting article this morning by way of <a href="http://digg.com/programming">Digg.com Programming</a>: <a href="http://sztywny.titaniumhosting.com/2006/07/23/stiff-asks-great-programmers-answers/">Stiff asks, great programmers answer</a>. The author posed 5 questions to some of the more well-known programmers of today, and their answers made for very interesting reading. Not to say that I'm a great programmer or anything, but I thought it might be a fun thought exercise to answer these questions myself. Here we go:</p>
+<p><strong>How did you learn programming? Were any schools of any use? Or maybe you didn't even bother with attending any schools <img src="http://www.analienandastranger.com/wp-includes/images/smilies/icon_smile.gif" alt=":)">  ?</strong></p>
 <p>How did I learn programming? There have been several different stages of my development as a programmer. I started out copying BASIC programs from magazines into my Atari 800 and then modifying them to see what would happen. This progressed through the Commodore 64 and Apple II. In the 8th grade I earned the distinction of “Best Programmer,” not that that means very much - I figured out how to make the U.S. flag program run with only a handful of lines of code using loop and control structures vs. typing out the entire graphics display line by line.</p>
-
-<p>In High School I jumped to the exciting world of Quick Basic. I can&rsquo;t remember the exact name of the course I took, but it was not very far above the level of what I did in Middle School/Junior High, nor was it very far below the level of my intro-level course in College. As I recall, we spent a lot of time hacking the machines to see what we could do with them. Of course you couldn&rsquo;t do anything cool like change your class schedule ala Hackers.</p>
-
-<p>At some point I decided I would major in Computer Science at the University of Mississippi. I really enjoyed my time at Ole Miss, and I learned a lot - unfortunately, I also picked up a lot of bad programming habits. You ask were schools of any use? Definitely - one of my favorite professors secured me an internship at St. Jude, which led to my current and only full-time software development job. It wasn&rsquo;t until I started developing real code for real clients that I got truly serious about programming as a profession. It was then that I learned that hacking out quick and dirty scripts that worked most of the time and would get past a graduate assistant&rsquo;s grading wasn&rsquo;t what programming was all about. I think the turning point of my career was when I attended XP/Agile Universe in 2002. It was here that I really started to grasp agility, test-driven development, refactoring, and simple design - principles and practices that I consider essential to developing software of any magnitude.</p>
-
+<p>In High School I jumped to the exciting world of Quick Basic. I can't remember the exact name of the course I took, but it was not very far above the level of what I did in Middle School/Junior High, nor was it very far below the level of my intro-level course in College. As I recall, we spent a lot of time hacking the machines to see what we could do with them. Of course you couldn't do anything cool like change your class schedule ala Hackers.</p>
+<p>At some point I decided I would major in Computer Science at the University of Mississippi. I really enjoyed my time at Ole Miss, and I learned a lot - unfortunately, I also picked up a lot of bad programming habits. You ask were schools of any use? Definitely - one of my favorite professors secured me an internship at St. Jude, which led to my current and only full-time software development job. It wasn't until I started developing real code for real clients that I got truly serious about programming as a profession. It was then that I learned that hacking out quick and dirty scripts that worked most of the time and would get past a graduate assistant's grading wasn't what programming was all about. I think the turning point of my career was when I attended XP/Agile Universe in 2002. It was here that I really started to grasp agility, test-driven development, refactoring, and simple design - principles and practices that I consider essential to developing software of any magnitude.</p>
 <p><strong>What do you think is the most important skill every programmer should possess?</strong></p>
-
-<p>I&rsquo;ll answer this question very much like David Heinemeier Hansson answered the 10-100 times question below. I think the ability to quickly view a problem in the abstract and then mentally apply Occam&rsquo;s razor to it until you have what is needed for implementation is essential to programming. When I&rsquo;m not managing a project team/schedule - i.e. I&rsquo;m actually doing software development - I would consider this to be the core of what I do every day.</p>
-
+<p>I'll answer this question very much like David Heinemeier Hansson answered the 10-100 times question below. I think the ability to quickly view a problem in the abstract and then mentally apply Occam's razor to it until you have what is needed for implementation is essential to programming. When I'm not managing a project team/schedule - i.e. I'm actually doing software development - I would consider this to be the core of what I do every day.</p>
 <p><strong>Do you think mathematics and/or physics are important skills for a programmer? Why?</strong></p>
-
-<p>I can&rsquo;t remember ever using any of the physics I&rsquo;ve learned. Take that back, the concept of the electromagnetic field was useful when I was trying to understand Mass Spectrometry, which is at the heart of several of my clients&rsquo; work. Mathematics, on the other hand, is key. The concepts I learned in my discrete mathematics course seem to lie under the surface of many of the problems that I face. Even if I don&rsquo;t directly apply the mathematics on a day-to-day basis, the “way of thinking” that you develop when studying mathematics really sharpens you as a programmer in my opinion.</p>
-
+<p>I can't remember ever using any of the physics I've learned. Take that back, the concept of the electromagnetic field was useful when I was trying to understand Mass Spectrometry, which is at the heart of several of my clients&rsquo; work. Mathematics, on the other hand, is key. The concepts I learned in my discrete mathematics course seem to lie under the surface of many of the problems that I face. Even if I don't directly apply the mathematics on a day-to-day basis, the “way of thinking” that you develop when studying mathematics really sharpens you as a programmer in my opinion.</p>
 <p><strong>What do you think will be the next big thing in computer programming? X-oriented programming, Y language, quantum computers, etc?</strong></p>
-
-<p>Like many of those interviewed, I&rsquo;m not into fortune telling and/or hype. The next big thing always quickly becomes yesterday&rsquo;s news as we cut through the hype to the core value of what product/technique/practice X offers. We then integrate that core value into our regular day-to-day toolset and then go back to business as usual.</p>
-
+<p>Like many of those interviewed, I'm not into fortune telling and/or hype. The next big thing always quickly becomes yesterday's news as we cut through the hype to the core value of what product/technique/practice X offers. We then integrate that core value into our regular day-to-day toolset and then go back to business as usual.</p>
 <p><strong>If you had three months to learn one relatively new technology, which one would you choose?</strong></p>
-
-<p>THREE MONTHS?!?!? WOW! Although it isn&rsquo;t that new, it&rsquo;s still fairly new to me. I would spend the next three months learning everything I can about <a href="http://www.springframework.org/">the Spring framework</a>.</p>
-
+<p>THREE MONTHS?!?!? WOW! Although it isn't that new, it's still fairly new to me. I would spend the next three months learning everything I can about <a href="http://www.springframework.org/">the Spring framework</a>.</p>
 <p><strong>What do you think makes some programmers 10 or 100 times more productive than others?</strong></p>
-
-<p>This flies in the face of a lot of the agile methodologies out there, but I think solving as many problems as you can without interrupting any of your other team members will turn you into an uber-productive programmer. I taught myself 90% of what I know through self-study and independent troubleshooting. If every time you have an issue with your work you quickly run to someone on your team that “knows that software/technology/issue better,” you&rsquo;ll never advance past infancy as a programmer. Just like babies have to be spoon-fed, so do infant programmers. You have to learn how to feed yourself. The next time you have a problem in code that you&rsquo;re not familiar with, trace the execution, line-by-line. Understand for yourself how the program works. If you run across a technology or API that you&rsquo;re not familiar with, study the available resources related to it. “Google it” for crying out loud. The more you do this, the better you&rsquo;ll get at it. Soon you&rsquo;ll find yourself asking questions of your team members only about 5% of the time, and you&rsquo;ll become the most productive member of your team. Don&rsquo;t believe me? Give it a try.</p>
-
-<p><strong>What are your favorite tools (operating system, programming/scripting language, text editor, version control system, shell, database engine, other tools you can&rsquo;t live without) and why do you like them more than others?</strong></p>
-
-<p>My current tool set includes IntelliJ IDEA (as well as a smattering of Eclipse when I need it), <a href="http://www.appfuse.org/">AppFuse</a> - probably the best thing that has ever happened to J2EE development, Cygwin, Tomcat, and MySQL. If I&rsquo;m doing anything else in a text editor besides coding, vim is my friend. Wiki-wise we&rsquo;re very invested in Confluence - it rocks as a wiki. Of course I really can&rsquo;t live without Firefox - besides my IDE I probably spend more time there than anywhere else.</p>
-
+<p>This flies in the face of a lot of the agile methodologies out there, but I think solving as many problems as you can without interrupting any of your other team members will turn you into an uber-productive programmer. I taught myself 90% of what I know through self-study and independent troubleshooting. If every time you have an issue with your work you quickly run to someone on your team that “knows that software/technology/issue better,” you'll never advance past infancy as a programmer. Just like babies have to be spoon-fed, so do infant programmers. You have to learn how to feed yourself. The next time you have a problem in code that you're not familiar with, trace the execution, line-by-line. Understand for yourself how the program works. If you run across a technology or API that you're not familiar with, study the available resources related to it. “Google it” for crying out loud. The more you do this, the better you'll get at it. Soon you'll find yourself asking questions of your team members only about 5% of the time, and you'll become the most productive member of your team. Don't believe me? Give it a try.</p>
+<p><strong>What are your favorite tools (operating system, programming/scripting language, text editor, version control system, shell, database engine, other tools you can't live without) and why do you like them more than others?</strong></p>
+<p>My current tool set includes IntelliJ IDEA (as well as a smattering of Eclipse when I need it), <a href="http://www.appfuse.org/">AppFuse</a> - probably the best thing that has ever happened to J2EE development, Cygwin, Tomcat, and MySQL. If I'm doing anything else in a text editor besides coding, vim is my friend. Wiki-wise we're very invested in Confluence - it rocks as a wiki. Of course I really can't live without Firefox - besides my IDE I probably spend more time there than anywhere else.</p>
 <p><strong>What is your favorite book related to computer programming?</strong></p>
-
 <p>I think I have to call a tie here between <a href="http://www.amazon.com/gp/product/0135974445/sr=8-2/qid=1153761714/ref=pd_bbs_2/102-7769528-6502532?ie=UTF8">Agile Software Development, Principles, Patterns, and Practices</a> by Robert C. Martin and <a href="http://www.amazon.com/gp/product/0131016490/sr=1-1/qid=1153761786/ref=pd_bbs_1/102-7769528-6502532?ie=UTF8&amp;s=books">Test Driven Development: A Practical Guide</a> by David Astels.  Both of these books were instrumental in my development as a more agile developer.</p>
-
 <p><strong>What is your favorite book NOT related to computer programming?</strong></p>
-
 <p>This is an easy one - the Bible.  My main translation is the <a href="http://www.esv.org/">English Standard Version</a>.</p>
-
-<p>If I had to choose a book that wasn&rsquo;t the Bible, it would be <a href="http://www.livingwaters.com/Merchant2/merchant.mv?Screen=PROD&amp;Product_Code=102">The Way of the Master</a> by Ray Comfort.  This book literally changed my life.</p>
-
+<p>If I had to choose a book that wasn't the Bible, it would be <a href="http://www.livingwaters.com/Merchant2/merchant.mv?Screen=PROD&amp;Product_Code=102">The Way of the Master</a> by Ray Comfort.  This book literally changed my life.</p>
 <p><strong>What are your favorite music bands/performers/composers?</strong></p>
-
 <p>Right now my favorite artists include The David Crowder Band, Casting Crowns, and Todd Agnew.</p>
 
     </div>
 
-  </article>
-
-  <nav>
-  <ul class="pager">
-    
-    <li class="previous"><a href="https://www.mattstine.com/2005/11/16/abby-in-costume/"><span
-      aria-hidden="true">&larr;</span> abby in costume</a></li>
     
 
+
+
+
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
     
-    <li class="next"><a href="https://www.mattstine.com/2006/07/25/jfreechart-appfuse-integration/">jfreechart appfuse integration <span
-      aria-hidden="true">&rarr;</span></a></li>
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://www.mattstine.com/2006/07/24/stiff-asks-matt-answers/&amp;text=stiff%20asks%20matt%20answers" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://www.mattstine.com/2006/07/24/stiff-asks-matt-answers/&amp;t=stiff%20asks%20matt%20answers" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=stiff%20asks%20matt%20answers&amp;body=https://www.mattstine.com/2006/07/24/stiff-asks-matt-answers/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://www.mattstine.com/2006/07/24/stiff-asks-matt-answers/&amp;title=stiff%20asks%20matt%20answers" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://web.whatsapp.com/send?text=stiff%20asks%20matt%20answers%20https://www.mattstine.com/2006/07/24/stiff-asks-matt-answers/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://www.mattstine.com/2006/07/24/stiff-asks-matt-answers/&amp;title=stiff%20asks%20matt%20answers" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
     
   </ul>
-</nav>
+</div>
+
+
+
+
+
+
+
+
+
+
+
 
   
-<section id="comments">
-  <div id="disqus_thread">
-    <div id="disqus_thread"></div>
-<script>
-    var disqus_config = function () {
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_huaae452e3d7f432028deb0baa090376b4_1485163_270x270_fill_q90_lanczos_center.jpg" alt="Avatar">
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://www.mattstine.com/">Matt Stine</a></h5>
+      <h6 class="card-subtitle">Executive Director, Architecture</h6>
+      <p class="card-text">My research interests include distributed robotics, mobile computing and programmable matter.</p>
+      <ul class="network-icon" aria-hidden="true">
+  
     
     
     
-    };
-    (function() {
-        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
-            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
-            return;
-        }
-        var d = document, s = d.createElement('script'); s.async = true;
-        s.src = '//' + "seekingsimplicity" + '.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+      
+    
+    
+    
+    
+    
+    <li>
+      <a href="mailto:matt.stine@gmail.com" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/mstine" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/mstine" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
   </div>
-</section>
 
 
 
-</div>
-<footer class="site-footer">
-  <div class="container">
-    <p class="powered-by">
 
-      &copy; 2018 Matt Stine &middot; 
 
-      Powered by the <a href="https://github.com/gcushen/hugo-academic" target="_blank">Academic
-      theme</a> for <a href="http://gohugo.io" target="_blank">Hugo</a>.
 
-      <span class="pull-right" aria-hidden="true">
-        <a href="#" id="back_to_top">
-          <span class="button_icon">
-            <i class="fa fa-chevron-up fa-2x"></i>
-          </span>
-        </a>
-      </span>
 
-    </p>
+
+
+  
+  
+
+
+
   </div>
-</footer>
+</article>
 
-    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/TweenMax.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/ScrollToPlugin.min.js"></script>
-    <script src="/js/jquery-1.12.3.min.js"></script>
-    <script src="/js/bootstrap.min.js"></script>
-    <script src="/js/hugo-academic.js"></script>
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/highlight.min.js" integrity="sha256-1zu+3BnLYV9LdiY85uXMzii3bdrkelyp37e0ZyTAQh0=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/languages/r.min.js"></script>
+        
+      
+
     
 
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.js" integrity="sha256-EErZamuLefUnbMBQbsEqu1USa+btR2oIlCpBJbyD4/g=" crossorigin="anonymous"></script>
+    
+
+    
+    
+    <script>const code_highlighting = true;</script>
+    
+
+    
+    
+    
+    
+    
     
     <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-        ga('create', 'UA-8534802-1', 'auto');
-        ga('send', 'pageview');
-
-         
-        var links = document.querySelectorAll('a');
-        Array.prototype.map.call(links, function(item) {
-            if (item.host != document.location.host) {
-                item.addEventListener('click', function() {
-                    var action = item.getAttribute('data-action') || 'follow';
-                    ga('send', 'event', 'outbound', action, item.href);
-                });
-            }
-        });
+      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
     </script>
     
 
     
-    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.3.0/highlight.min.js"></script>
-    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
 
     
     
 
-  </body>
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.0630fec5958cb075a5a38f042b3ddde6.js"></script>
+
+    
+
+
+
+
+
+
+  
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    © 2020 Matt Stine &middot; 
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" class="back-to-top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
 </html>
-

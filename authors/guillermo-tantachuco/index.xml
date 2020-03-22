@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Guillermo Tantachuco | Matt Stine</title>
+    <link>https://www.mattstine.com/authors/guillermo-tantachuco/</link>
+      <atom:link href="https://www.mattstine.com/authors/guillermo-tantachuco/index.xml" rel="self" type="application/rss+xml" />
+    <description>Guillermo Tantachuco</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Matt Stine</copyright><lastBuildDate>Wed, 01 Mar 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Guillermo Tantachuco</title>
+      <link>https://www.mattstine.com/authors/guillermo-tantachuco/</link>
+    </image>
+    
+    <item>
+      <title>Secure Hybrid Banking Reference Architectures for Cloud-Native Applications</title>
+      <link>https://www.mattstine.com/publication/shb-refarch-cna/</link>
+      <pubDate>Wed, 01 Mar 2017 00:00:00 +0000</pubDate>
+      <guid>https://www.mattstine.com/publication/shb-refarch-cna/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

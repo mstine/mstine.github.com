@@ -1,163 +1,710 @@
 <!DOCTYPE html>
 <html lang="en-us">
+
 <head>
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="theme" content="hugo-academic">
-  <meta name="generator" content="Hugo 0.46" />
-  <meta name="author" content="Matt Stine">
-  <meta name="description" content="Global CTO - Architecture">
+  <meta name="generator" content="Source Themes Academic 4.7.0">
 
-  <link rel="stylesheet" href="/css/highlight.min.css">
-  <link rel="stylesheet" href="/css/bootstrap.min.css">
-  <link rel="stylesheet" href="/css/font-awesome.min.css">
-  <link rel="stylesheet" href="/css/academicons.min.css">
-  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,700|Merriweather|Roboto+Mono">
-  <link rel="stylesheet" href="/css/hugo-academic.css">
   
 
-  <link rel="alternate" href="https://www.mattstine.com/index.xml" type="application/rss+xml" title="Matt Stine">
-  <link rel="feed" href="https://www.mattstine.com/index.xml" type="application/rss+xml" title="Matt Stine">
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
 
-  <link rel="icon" type="image/png" href="/img/icon.png">
-  <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
+  <meta name="author" content="Matt Stine">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="I was inspired by Brian McClain&#39;s post on bringing Haskell to Cloud Foundry using Cloud Foundry v2 buildpacks, so I decided to go on a buildpack journey of my own. Since Clojure is the language I most enjoying &ldquo;toying around with,&rdquo; I thought I&#39;d try to deploy a simple Clojure web application using the Heroku Clojure Buildpack.
+To reiterate some of the coolness around buildpacks, they are what allows a PaaS like Cloud Foundry or Heroku to support various runtimes without first building that support into the core platform.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://www.mattstine.com/2013/05/29/clojure-on-cloud-foundry/">
+
+  
+
+
+  
+  
+  
+  <meta name="theme-color" content="#2962ff">
+  
+
+  
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.min.css" integrity="sha256-4w9DunooKSr3MFXHXWyFER38WmPdm361bQS/2KUWZbU=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.css" integrity="sha256-SHMGCYmST46SoyGgo4YR/9AlK1vf3ff84Aq9yK4hdqM=" crossorigin="anonymous">
+    
+
+    
+
+    
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js" integrity="sha256-Md1qLToewPeKjfAHU1zyPwOutccPAm5tahnaw7Osw0A=" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
+  
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.css">
+
+  
+
+
+
+
+  
+
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
 
   <link rel="canonical" href="https://www.mattstine.com/2013/05/29/clojure-on-cloud-foundry/">
 
   
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="twitter:site" content="@mstine">
+  <meta property="twitter:creator" content="@mstine">
+  
+  <meta property="og:site_name" content="Matt Stine">
+  <meta property="og:url" content="https://www.mattstine.com/2013/05/29/clojure-on-cloud-foundry/">
+  <meta property="og:title" content="clojure on cloud foundry | Matt Stine">
+  <meta property="og:description" content="I was inspired by Brian McClain&#39;s post on bringing Haskell to Cloud Foundry using Cloud Foundry v2 buildpacks, so I decided to go on a buildpack journey of my own. Since Clojure is the language I most enjoying &ldquo;toying around with,&rdquo; I thought I&#39;d try to deploy a simple Clojure web application using the Heroku Clojure Buildpack.
+To reiterate some of the coolness around buildpacks, they are what allows a PaaS like Cloud Foundry or Heroku to support various runtimes without first building that support into the core platform."><meta property="og:image" content="img/map[gravatar:%!s(bool=false) shape:circle]">
+  <meta property="twitter:image" content="img/map[gravatar:%!s(bool=false) shape:circle]"><meta property="og:locale" content="en-us">
+  
+    
+      <meta property="article:published_time" content="2013-05-29T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2013-05-29T00:00:00&#43;00:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.mattstine.com/2013/05/29/clojure-on-cloud-foundry/"
+  },
+  "headline": "clojure on cloud foundry",
+  
+  "datePublished": "2013-05-29T00:00:00Z",
+  "dateModified": "2013-05-29T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Matt Stine"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Matt Stine",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "img/https://www.mattstine.com/"
+    }
+  },
+  "description": "I was inspired by Brian McClain's post on bringing Haskell to Cloud Foundry using Cloud Foundry v2 buildpacks, so I decided to go on a buildpack journey of my own. Since Clojure is the language I most enjoying \u0026ldquo;toying around with,\u0026rdquo; I thought I'd try to deploy a simple Clojure web application using the Heroku Clojure Buildpack.\nTo reiterate some of the coolness around buildpacks, they are what allows a PaaS like Cloud Foundry or Heroku to support various runtimes without first building that support into the core platform."
+}
+</script>
+
+  
+
+  
+
+
+  
+
+
+  
+
+
+
+
 
   <title>clojure on cloud foundry | Matt Stine</title>
 
 </head>
-<body id="top">
 
-<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
   <div class="container">
 
     
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-              data-target=".navbar-collapse" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
+    <div class="d-none d-lg-inline-flex">
       <a class="navbar-brand" href="/">Matt Stine</a>
     </div>
+    
 
     
-    <div class="collapse navbar-collapse" id="#navbar-collapse-1">
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">Matt Stine</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
 
       
-      <ul class="nav navbar-nav navbar-right">
+      <ul class="navbar-nav d-md-inline-flex">
         
-        <li class="nav-item"><a href="/#top">Home</a></li>
+
         
-        <li class="nav-item"><a href="/#publications">Publications</a></li>
+
         
-        <li class="nav-item"><a href="/#posts">Posts</a></li>
         
-        <li class="nav-item"><a href="/#videos">Videos</a></li>
         
-        <li class="nav-item"><a href="/#articles">Articles</a></li>
+          
         
-        <li class="nav-item"><a href="/#interviews">Interviews</a></li>
+
         
-        <li class="nav-item"><a href="/#upcoming">Appearances</a></li>
         
-        <li class="nav-item"><a href="/#contact">Contact</a></li>
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#publications"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#posts"><span>Posts</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#videos"><span>Videos</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#articles"><span>Articles</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#interviews"><span>Interviews</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+      
+
         
       </ul>
-
     </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+
+      
+
+    </ul>
+
   </div>
 </nav>
 
-<div class="container">
 
-  <article class="article" itemscope itemtype="http://schema.org/Article">
+  <article class="article">
 
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>clojure on cloud foundry</h1>
+
+  
+
+  
     
 
-    <h1 itemprop="name">clojure on cloud foundry</h1>
-
-    
 
 <div class="article-metadata">
 
+  
+  
+
+  
   <span class="article-date">
-    <time datetime="2013-05-29 00:00:00 &#43;0000 UTC" itemprop="datePublished">
-      Wed, May 29, 2013
-    </time>
+    
+    
+      
+    
+    May 29, 2013
   </span>
+  
 
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    5 min read
+  </span>
   
 
   
   
-<div class="share-box" aria-hidden="true">
-  <ul class="share">
-    <li>
-      <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.mattstine.com%2f2013%2f05%2f29%2fclojure-on-cloud-foundry%2f"
-         target="_blank">
-        <i class="fa fa-facebook"></i>
-      </a>
-    </li>
-    <li>
-      <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=clojure%20on%20cloud%20foundry&amp;url=https%3a%2f%2fwww.mattstine.com%2f2013%2f05%2f29%2fclojure-on-cloud-foundry%2f"
-         target="_blank">
-        <i class="fa fa-twitter"></i>
-      </a>
-    </li>
-    <li>
-      <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fwww.mattstine.com%2f2013%2f05%2f29%2fclojure-on-cloud-foundry%2f&amp;title=clojure%20on%20cloud%20foundry"
-         target="_blank">
-        <i class="fa fa-linkedin"></i>
-      </a>
-    </li>
-    <li>
-      <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fwww.mattstine.com%2f2013%2f05%2f29%2fclojure-on-cloud-foundry%2f&amp;title=clojure%20on%20cloud%20foundry"
-         target="_blank">
-        <i class="fa fa-weibo"></i>
-      </a>
-    </li>
-    <li>
-      <a class="email"
-         href="mailto:?subject=clojure%20on%20cloud%20foundry&amp;body=https%3a%2f%2fwww.mattstine.com%2f2013%2f05%2f29%2fclojure-on-cloud-foundry%2f">
-        <i class="fa fa-envelope"></i>
-      </a>
-    </li>
-  </ul>
-</div>
+  
 
-
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/categories/cloudfoundry/">cloudfoundry</a>, <a href="/categories/clojure/">clojure</a></span>
   
 
 </div>
 
+    
 
-    <div class="article-style" itemprop="articleBody">
-      <p>I was inspired by Brian McClain&rsquo;s <a href="http://catdevrandom.me/blog/2013/05/16/buildpacks-in-cloud-foundry-v2/">post on bringing Haskell to Cloud Foundry</a> using Cloud Foundry v2 buildpacks, so I decided to go on a buildpack journey of my own. Since Clojure is the language I most enjoying &ldquo;toying around with,&rdquo; I thought I&rsquo;d try to deploy a simple Clojure web application using the <a href="https://github.com/mstine/heroku-buildpack-clojure">Heroku Clojure Buildpack</a>.</p>
 
-<p>To reiterate some of the coolness around buildpacks, they are what allows a PaaS like Cloud Foundry or Heroku to support various runtimes without first building that support into the core platform. If your favorite language or framework runtime isn&rsquo;t available, there&rsquo;s absolutely nothing stopping you from providing your own buildpack to support it. Stuff can get crazy &ndash; McClain has even <a href="https://twitter.com/BrianMMcClain/status/339479905974751232">hinted at bringing FORTRAN support to Cloud Foundry</a>.</p>
 
-<p>I decided for my experiment to build a VERY basic &ldquo;Hello World&rdquo; style application using <a href="https://github.com/ring-clojure/ring">Ring</a>, which is &ldquo;a Clojure web applications library inspired by Python&rsquo;s WSGI and Ruby&rsquo;s Rack.&rdquo; The easiest way to get started building Ring applications is to utilize the popular Clojure build tool <a href="http://github.com/technomancy/leiningen">Leiningen</a>.</p>
 
+
+
+
+
+
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <p>I was inspired by Brian McClain's <a href="http://catdevrandom.me/blog/2013/05/16/buildpacks-in-cloud-foundry-v2/">post on bringing Haskell to Cloud Foundry</a> using Cloud Foundry v2 buildpacks, so I decided to go on a buildpack journey of my own. Since Clojure is the language I most enjoying &ldquo;toying around with,&rdquo; I thought I'd try to deploy a simple Clojure web application using the <a href="https://github.com/mstine/heroku-buildpack-clojure">Heroku Clojure Buildpack</a>.</p>
+<p>To reiterate some of the coolness around buildpacks, they are what allows a PaaS like Cloud Foundry or Heroku to support various runtimes without first building that support into the core platform. If your favorite language or framework runtime isn't available, there's absolutely nothing stopping you from providing your own buildpack to support it. Stuff can get crazy &ndash; McClain has even <a href="https://twitter.com/BrianMMcClain/status/339479905974751232">hinted at bringing FORTRAN support to Cloud Foundry</a>.</p>
+<p>I decided for my experiment to build a VERY basic &ldquo;Hello World&rdquo; style application using <a href="https://github.com/ring-clojure/ring">Ring</a>, which is &ldquo;a Clojure web applications library inspired by Python's WSGI and Ruby's Rack.&rdquo; The easiest way to get started building Ring applications is to utilize the popular Clojure build tool <a href="http://github.com/technomancy/leiningen">Leiningen</a>.</p>
 <p>First I started by creating a new project:</p>
-
 <pre><code class="language-bash">$ lein new hello-cf
 $ cd hello-cf
 </code></pre>
-
 <p>The next task was to add the Ring dependencies to my <code>project.clj</code> file:</p>
-
 <pre><code class="language-clojure">(defproject hello-cf &quot;0.1.0-SNAPSHOT&quot;
   :min-lein-version &quot;2.0.0&quot;
   :description &quot;Hello Clojure on Cloud Foundry!&quot;
@@ -167,9 +714,7 @@ $ cd hello-cf
                  [ring/ring-core &quot;1.1.8&quot;]
                  [ring/ring-jetty-adapter &quot;1.1.8&quot;]])
 </code></pre>
-
 <p>Then it was time to create the Ring application itself, by editing <code>src/hello_cf/core.clj</code>:</p>
-
 <pre><code class="language-clojure">(ns hello-cf.core
   (:use [ring.adapter.jetty :only [run-jetty]]))
 
@@ -181,21 +726,15 @@ $ cd hello-cf
 (defn -main [port]
   (run-jetty handler {:port (Integer. port)}))
 </code></pre>
-
-<p>Let&rsquo;s break this down a bit. The <code>handler</code> function will handle any HTTP request that hits our application, and will return an &ldquo;OK&rdquo; response containing a pleasant message indicating that we&rsquo;ve succeeded. That&rsquo;s really about it. Our application is complete. We can test it out by running the following:</p>
-
+<p>Let's break this down a bit. The <code>handler</code> function will handle any HTTP request that hits our application, and will return an &ldquo;OK&rdquo; response containing a pleasant message indicating that we've succeeded. That's really about it. Our application is complete. We can test it out by running the following:</p>
 <pre><code class="language-bash">$ lein trampoline run -m hello-cf.core 8080
 2013-05-29 22:42:52.576:INFO:oejs.Server:jetty-7.6.1.v20120215
 2013-05-29 22:42:52.804:INFO:oejs.AbstractConnector:Started SelectChannelConnector@0.0.0.0:8080
 </code></pre>
-
-<p>Hitting <code>http://localhost:8080</code> in the browser confirms that we&rsquo;re well on our way. Now it&rsquo;s time to trying pushing the application to Cloud Foundry. As Brian stated in his blog, one of the stellar aspects of Cloud Foundry buildpacks is that they are approximately the same as Heroku buildpacks. Practically, this means that one <em>should</em> be able to utilize a Heroku buildpack on Cloud Foundry with minimal or no modifications. Let&rsquo;s put that theory to the test, shall we? Before we do, let&rsquo;s create a <code>Procfile</code> quickly to let the buildpack know what we want to run:</p>
-
+<p>Hitting <code>http://localhost:8080</code> in the browser confirms that we're well on our way. Now it's time to trying pushing the application to Cloud Foundry. As Brian stated in his blog, one of the stellar aspects of Cloud Foundry buildpacks is that they are approximately the same as Heroku buildpacks. Practically, this means that one <em>should</em> be able to utilize a Heroku buildpack on Cloud Foundry with minimal or no modifications. Let's put that theory to the test, shall we? Before we do, let's create a <code>Procfile</code> quickly to let the buildpack know what we want to run:</p>
 <pre><code>web: lein with-profile production trampoline run -m hello-cf.core $PORT
 </code></pre>
-
 <p>And on with the push:</p>
-
 <pre><code class="language-bash">cf push hello-cf --buildpack=git://github.com/heroku/heroku-buildpack-clojure.git
 Using manifest file manifest.yml
 
@@ -243,15 +782,11 @@ Staging in progress...
   0/1 instances: 1 flapping
 Application failed to start.
 </code></pre>
-
-<p>Drat. Let&rsquo;s take a quick look at the logs to see what may be awry:</p>
-
+<p>Drat. Let's take a quick look at the logs to see what may be awry:</p>
 <pre><code class="language-bash">Reading logs/stderr.log... OK
 /home/vcap/app/.lein/bin/lein: line 42: java: command not found
 </code></pre>
-
-<p>Ah-hah! Looks like the existing buildpack is making some assumptions about the structure of our application that no longer hold true on Cloud Foundry. So, I followed in Brian&rsquo;s footsteps and <a href="https://github.com/mstine/heroku-buildpack-clojure">forked away</a>. One small <a href="https://github.com/mstine/heroku-buildpack-clojure/commit/fd2c46cc23267fa2d808123d2fd58f4295da4b85">commit</a> looks like it ought to fix the problem. Let&rsquo;s give it another try:</p>
-
+<p>Ah-hah! Looks like the existing buildpack is making some assumptions about the structure of our application that no longer hold true on Cloud Foundry. So, I followed in Brian's footsteps and <a href="https://github.com/mstine/heroku-buildpack-clojure">forked away</a>. One small <a href="https://github.com/mstine/heroku-buildpack-clojure/commit/fd2c46cc23267fa2d808123d2fd58f4295da4b85">commit</a> looks like it ought to fix the problem. Let's give it another try:</p>
 <pre><code class="language-bash">cf push hello-cf --buildpack=git://github.com/mstine/heroku-buildpack-clojure.git
 Using manifest file manifest.yml
 
@@ -310,120 +845,369 @@ Staging in progress...
   1/1 instances: 1 running
 OK
 </code></pre>
-
 <p>BOOM!</p>
-
-<p>I quickly pointed my browser, and as yesterday&rsquo;s tweet indicates, success:</p>
-
-<p><blockquote class="twitter-tweet" data-partner="tweetdeck"><p>Yeah&hellip;that just happened. cc: <a href="https://twitter.com/cloudfoundry">@cloudfoundry</a> <a href="https://twitter.com/search?q=%23clojure&amp;src=hash">#clojure</a> <a href="https://twitter.com/search?q=%23buildpacks&amp;src=hash">#buildpacks</a> <a href="https://twitter.com/search?q=%23winning&amp;src=hash">#winning</a> <a href="http://t.co/9lJHqmWQPw">pic.twitter.com/9lJHqmWQPw</a></p>&mdash; Matt Stine (@mstine) <a href="https://twitter.com/mstine/statuses/339248683151417344">May 28, 2013</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></p>
-
-<p>Score another win for Cloud Foundry&rsquo;s buildpack support. I&rsquo;m now toying with the idea of doing something of a world tour of LISP on Cloud Foundry. My next candidate may be <a href="https://github.com/evhan/heroku-buildpack-chicken">Scheme</a>.</p>
+<p>I quickly pointed my browser, and as yesterday's tweet indicates, success:</p>
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p>Yeah...that just happened. cc: <a href="https://twitter.com/cloudfoundry">@cloudfoundry</a> <a href="https://twitter.com/search?q=%23clojure&amp;src=hash">#clojure</a> <a href="https://twitter.com/search?q=%23buildpacks&amp;src=hash">#buildpacks</a> <a href="https://twitter.com/search?q=%23winning&amp;src=hash">#winning</a> <a href="http://t.co/9lJHqmWQPw">pic.twitter.com/9lJHqmWQPw</a></p>&mdash; Matt Stine (@mstine) <a href="https://twitter.com/mstine/statuses/339248683151417344">May 28, 2013</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>  
+<p>Score another win for Cloud Foundry's buildpack support. I'm now toying with the idea of doing something of a world tour of LISP on Cloud Foundry. My next candidate may be <a href="https://github.com/evhan/heroku-buildpack-chicken">Scheme</a>.</p>
 
     </div>
 
-  </article>
-
-  <nav>
-  <ul class="pager">
-    
-    <li class="previous"><a href="https://www.mattstine.com/2013/05/29/into-the-crucible/"><span
-      aria-hidden="true">&larr;</span> into the crucible</a></li>
     
 
+
+
+
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
     
-    <li class="next"><a href="https://www.mattstine.com/2013/07/10/blue-green-deployments-on-cloudfoundry/">blue green deployments on cloudfoundry <span
-      aria-hidden="true">&rarr;</span></a></li>
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://www.mattstine.com/2013/05/29/clojure-on-cloud-foundry/&amp;text=clojure%20on%20cloud%20foundry" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://www.mattstine.com/2013/05/29/clojure-on-cloud-foundry/&amp;t=clojure%20on%20cloud%20foundry" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=clojure%20on%20cloud%20foundry&amp;body=https://www.mattstine.com/2013/05/29/clojure-on-cloud-foundry/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://www.mattstine.com/2013/05/29/clojure-on-cloud-foundry/&amp;title=clojure%20on%20cloud%20foundry" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://web.whatsapp.com/send?text=clojure%20on%20cloud%20foundry%20https://www.mattstine.com/2013/05/29/clojure-on-cloud-foundry/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://www.mattstine.com/2013/05/29/clojure-on-cloud-foundry/&amp;title=clojure%20on%20cloud%20foundry" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
     
   </ul>
-</nav>
+</div>
+
+
+
+
+
+
+
+
+
+
+
 
   
-<section id="comments">
-  <div id="disqus_thread">
-    <div id="disqus_thread"></div>
-<script>
-    var disqus_config = function () {
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_huaae452e3d7f432028deb0baa090376b4_1485163_270x270_fill_q90_lanczos_center.jpg" alt="Avatar">
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://www.mattstine.com/">Matt Stine</a></h5>
+      <h6 class="card-subtitle">Executive Director, Architecture</h6>
+      <p class="card-text">My research interests include distributed robotics, mobile computing and programmable matter.</p>
+      <ul class="network-icon" aria-hidden="true">
+  
     
     
     
-    };
-    (function() {
-        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
-            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
-            return;
-        }
-        var d = document, s = d.createElement('script'); s.async = true;
-        s.src = '//' + "seekingsimplicity" + '.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+      
+    
+    
+    
+    
+    
+    <li>
+      <a href="mailto:matt.stine@gmail.com" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/mstine" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/mstine" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
   </div>
-</section>
 
 
 
-</div>
-<footer class="site-footer">
-  <div class="container">
-    <p class="powered-by">
 
-      &copy; 2018 Matt Stine &middot; 
 
-      Powered by the <a href="https://github.com/gcushen/hugo-academic" target="_blank">Academic
-      theme</a> for <a href="http://gohugo.io" target="_blank">Hugo</a>.
 
-      <span class="pull-right" aria-hidden="true">
-        <a href="#" id="back_to_top">
-          <span class="button_icon">
-            <i class="fa fa-chevron-up fa-2x"></i>
-          </span>
-        </a>
-      </span>
 
-    </p>
+
+
+  
+  
+
+
+
   </div>
-</footer>
+</article>
 
-    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/TweenMax.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/ScrollToPlugin.min.js"></script>
-    <script src="/js/jquery-1.12.3.min.js"></script>
-    <script src="/js/bootstrap.min.js"></script>
-    <script src="/js/hugo-academic.js"></script>
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/highlight.min.js" integrity="sha256-1zu+3BnLYV9LdiY85uXMzii3bdrkelyp37e0ZyTAQh0=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/languages/r.min.js"></script>
+        
+      
+
     
 
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.js" integrity="sha256-EErZamuLefUnbMBQbsEqu1USa+btR2oIlCpBJbyD4/g=" crossorigin="anonymous"></script>
+    
+
+    
+    
+    <script>const code_highlighting = true;</script>
+    
+
+    
+    
+    
+    
+    
     
     <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-        ga('create', 'UA-8534802-1', 'auto');
-        ga('send', 'pageview');
-
-         
-        var links = document.querySelectorAll('a');
-        Array.prototype.map.call(links, function(item) {
-            if (item.host != document.location.host) {
-                item.addEventListener('click', function() {
-                    var action = item.getAttribute('data-action') || 'follow';
-                    ga('send', 'event', 'outbound', action, item.href);
-                });
-            }
-        });
+      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
     </script>
     
 
     
-    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.3.0/highlight.min.js"></script>
-    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
 
     
     
 
-  </body>
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.0630fec5958cb075a5a38f042b3ddde6.js"></script>
+
+    
+
+
+
+
+
+
+  
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    © 2020 Matt Stine &middot; 
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" class="back-to-top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
 </html>
-

@@ -1,134 +1,304 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Javaone2009 on Matt Stine</title>
+    <title>javaone2009 | Matt Stine</title>
     <link>https://www.mattstine.com/categories/javaone2009/</link>
-    <description>Recent content in Javaone2009 on Matt Stine</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2018 Matt Stine</copyright>
-    <lastBuildDate>Fri, 02 Apr 2010 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://www.mattstine.com/categories/javaone2009/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="https://www.mattstine.com/categories/javaone2009/index.xml" rel="self" type="application/rss+xml" />
+    <description>javaone2009</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Matt Stine</copyright><lastBuildDate>Fri, 02 Apr 2010 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>javaone2009</title>
+      <link>https://www.mattstine.com/categories/javaone2009/</link>
+    </image>
     
     <item>
       <title>jug leadership lessons learned on slideshare</title>
       <link>https://www.mattstine.com/2010/04/02/jug-leadership-lessons-learned-on-slideshare/</link>
       <pubDate>Fri, 02 Apr 2010 00:00:00 +0000</pubDate>
-      
       <guid>https://www.mattstine.com/2010/04/02/jug-leadership-lessons-learned-on-slideshare/</guid>
-      <description>I&amp;rsquo;ve been playing a bit with SlideShare today and I took the opportunity to upload the slides from my Java.net Community Corner interview with Kevin Farnham at JavaOne 2009. SlideShare has a nice feature that allows you to sync up the audio from an MP3 file with your slides, and since both were available, I thought I&amp;rsquo;d give it a try. The interface is extremely easy to use and I&amp;rsquo;m very happy with the outcome.</description>
+      <description>&lt;p&gt;I&#39;ve been playing a bit with &lt;a href=&#34;http://www.slideshare.net&#34;&gt;SlideShare&lt;/a&gt; today and I took the opportunity to upload the slides from my &lt;a href=&#34;http://weblogs.java.net/blog/2009/07/02/how-start-and-grow-jug-community-corner-2009-podcast&#34;&gt;Java.net Community Corner interview with Kevin Farnham at JavaOne 2009&lt;/a&gt;. SlideShare has a nice feature that allows you to sync up the audio from an MP3 file with your slides, and since both were available, I thought I&#39;d give it a try. The interface is extremely easy to use and I&#39;m very happy with the outcome.&lt;/p&gt;
+&lt;p&gt;This talk covers the various things I&#39;ve learned about leading a Java User Group over the past few years. I would say that these are definitely applicable to leading any type of user group, so even if you aren&#39;t a Java person, you might find some meat here. Enjoy!&lt;/p&gt;
+&lt;p&gt;[slideshare id=3622125&amp;amp;doc=jugleadershiplessonslearned-100402140624-phpapp02]&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>javaone brain dump resources from memphis jug meeting</title>
       <link>https://www.mattstine.com/2009/06/19/javaone-brain-dump-resources-from-memphis-jug-meeting/</link>
       <pubDate>Fri, 19 Jun 2009 00:00:00 +0000</pubDate>
-      
       <guid>https://www.mattstine.com/2009/06/19/javaone-brain-dump-resources-from-memphis-jug-meeting/</guid>
-      <description>I promised that I would post the links I mentioned in my talk last night at the Memphis JUG&amp;hellip;here they are:
-General Session Replays: http://java.sun.com/javaone/2009/general_sessions.jsp
-BlogTalkRadio: http://www.blogtalkradio.com/JavaOne
-JavaOne Minute: http://channelsun.sun.com/video/channel-you/javaone+minute/23867338001  Technical Sessions 2008-2009: http://developers.sun.com/learning/javaoneonline/ (Must be SDN Member - FREE!)
-The Da Vinci Machine Project: http://openjdk.java.net/projects/mlvm/  Groovy: http://groovy.codehaus.org
-Java.net Community Corner: http://wiki.java.net/bin/view/Javaone/CommunityCorner  JUGS Community: http://community.java.net/jugs/
-Scala: http://scala-lang.org
-SpringSource: http://www.springsource.com
-JUG-USA: https://jug-usa.dev.java.net/
-OpenSolaris: http://opensolaris.org
-Neal Ford: http://nealford.com (Can download his slides here)</description>
+      <description>&lt;p&gt;I promised that I would post the links I mentioned in my talk last night at the Memphis JUG&amp;hellip;here they are:&lt;/p&gt;
+&lt;p&gt;General Session Replays: &lt;a href=&#34;http://java.sun.com/javaone/2009/general_sessions.jsp&#34;&gt;&lt;a href=&#34;http://java.sun.com/javaone/2009/general_sessions.jsp&#34;&gt;http://java.sun.com/javaone/2009/general_sessions.jsp&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;BlogTalkRadio: &lt;a href=&#34;http://www.blogtalkradio.com/JavaOne&#34;&gt;&lt;a href=&#34;http://www.blogtalkradio.com/JavaOne&#34;&gt;http://www.blogtalkradio.com/JavaOne&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;JavaOne Minute: &lt;a href=&#34;http://channelsun.sun.com/video/channel-you/javaone+minute/23867338001&#34;&gt;&lt;a href=&#34;http://channelsun.sun.com/video/channel-you/javaone+minute/23867338001&#34;&gt;http://channelsun.sun.com/video/channel-you/javaone+minute/23867338001&lt;/a&gt;
+&lt;/a&gt;
+Technical Sessions 2008-2009: &lt;a href=&#34;http://developers.sun.com/learning/javaoneonline/&#34;&gt;&lt;a href=&#34;http://developers.sun.com/learning/javaoneonline/&#34;&gt;http://developers.sun.com/learning/javaoneonline/&lt;/a&gt;&lt;/a&gt; (Must be SDN Member - FREE!)&lt;/p&gt;
+&lt;p&gt;The Da Vinci Machine Project: &lt;a href=&#34;http://openjdk.java.net/projects/mlvm/&#34;&gt;&lt;a href=&#34;http://openjdk.java.net/projects/mlvm/&#34;&gt;http://openjdk.java.net/projects/mlvm/&lt;/a&gt;
+&lt;/a&gt;
+Groovy: &lt;a href=&#34;http://groovy.codehaus.org&#34;&gt;&lt;a href=&#34;http://groovy.codehaus.org&#34;&gt;http://groovy.codehaus.org&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Java.net Community Corner: &lt;a href=&#34;http://wiki.java.net/bin/view/Javaone/CommunityCorner&#34;&gt;&lt;a href=&#34;http://wiki.java.net/bin/view/Javaone/CommunityCorner&#34;&gt;http://wiki.java.net/bin/view/Javaone/CommunityCorner&lt;/a&gt;
+&lt;/a&gt;
+JUGS Community: &lt;a href=&#34;http://community.java.net/jugs/&#34;&gt;&lt;a href=&#34;http://community.java.net/jugs/&#34;&gt;http://community.java.net/jugs/&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Scala: &lt;a href=&#34;http://scala-lang.org&#34;&gt;&lt;a href=&#34;http://scala-lang.org&#34;&gt;http://scala-lang.org&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;SpringSource: &lt;a href=&#34;http://www.springsource.com&#34;&gt;&lt;a href=&#34;http://www.springsource.com&#34;&gt;http://www.springsource.com&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;JUG-USA: &lt;a href=&#34;https://jug-usa.dev.java.net/&#34;&gt;&lt;a href=&#34;https://jug-usa.dev.java.net/&#34;&gt;https://jug-usa.dev.java.net/&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;OpenSolaris: &lt;a href=&#34;http://opensolaris.org&#34;&gt;&lt;a href=&#34;http://opensolaris.org&#34;&gt;http://opensolaris.org&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Neal Ford: &lt;a href=&#34;http://nealford.com&#34;&gt;&lt;a href=&#34;http://nealford.com&#34;&gt;http://nealford.com&lt;/a&gt;&lt;/a&gt; (Can download his slides here)&lt;/p&gt;
+&lt;p&gt;Findbugs: &lt;a href=&#34;http://findbugs.sourceforge.net&#34;&gt;&lt;a href=&#34;http://findbugs.sourceforge.net&#34;&gt;http://findbugs.sourceforge.net&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Grails: &lt;a href=&#34;http://grails.org&#34;&gt;&lt;a href=&#34;http://grails.org&#34;&gt;http://grails.org&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Grails Podcast: &lt;a href=&#34;http://www.grailspodcast.com&#34;&gt;&lt;a href=&#34;http://www.grailspodcast.com&#34;&gt;http://www.grailspodcast.com&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;JavaFX: &lt;a href=&#34;http://javafx.com&#34;&gt;&lt;a href=&#34;http://javafx.com&#34;&gt;http://javafx.com&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Griffon: &lt;a href=&#34;http://griffon.codehaus.org&#34;&gt;&lt;a href=&#34;http://griffon.codehaus.org&#34;&gt;http://griffon.codehaus.org&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Java Store: &lt;a href=&#34;http://store.java.com&#34;&gt;&lt;a href=&#34;http://store.java.com&#34;&gt;http://store.java.com&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Jython: &lt;a href=&#34;http://jython.org&#34;&gt;&lt;a href=&#34;http://jython.org&#34;&gt;http://jython.org&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Clojure: &lt;a href=&#34;http://clojure.org&#34;&gt;&lt;a href=&#34;http://clojure.org&#34;&gt;http://clojure.org&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;JRuby: &lt;a href=&#34;http://jruby.codehaus.org&#34;&gt;&lt;a href=&#34;http://jruby.codehaus.org&#34;&gt;http://jruby.codehaus.org&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Sun Cloud: &lt;a href=&#34;http://cloud.sun.com&#34;&gt;&lt;a href=&#34;http://cloud.sun.com&#34;&gt;http://cloud.sun.com&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Project Kenai: &lt;a href=&#34;http://kenai.com&#34;&gt;&lt;a href=&#34;http://kenai.com&#34;&gt;http://kenai.com&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Zembly: &lt;a href=&#34;http://zembly.com&#34;&gt;&lt;a href=&#34;http://zembly.com&#34;&gt;http://zembly.com&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;NetBeans: &lt;a href=&#34;http://netbeans.org&#34;&gt;&lt;a href=&#34;http://netbeans.org&#34;&gt;http://netbeans.org&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>jug usa meeting with james gosling at javaone</title>
       <link>https://www.mattstine.com/2009/06/05/jug-usa-meeting-with-james-gosling-at-javaone/</link>
       <pubDate>Fri, 05 Jun 2009 00:00:00 +0000</pubDate>
-      
       <guid>https://www.mattstine.com/2009/06/05/jug-usa-meeting-with-james-gosling-at-javaone/</guid>
-      <description>On Wednesday morning, JUG-USA was fortunate enough to get about 45 minutes with the &amp;ldquo;Father of Java&amp;rdquo; himself, James Gosling. Each year at JavaOne, Sun distributes registration discount codes to interested JUG&amp;rsquo;s. The JUG with the most registrations using their code gets this meeting. JUG-USA&amp;rsquo;s founding allowed us to use a bit of strength in numbers to wrestle this crown from the bigger European JUG&amp;rsquo;s for the first time that I know of.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;http://mattstine.files.wordpress.com/2009/06/dscn0912.jpg?w=220&#34; alt=&#34;James Gosling&#34;&gt; On Wednesday morning, JUG-USA was fortunate enough to get about 45 minutes with the &amp;ldquo;Father of Java&amp;rdquo; himself, James Gosling. Each year at JavaOne, Sun distributes registration discount codes to interested JUG&#39;s. The JUG with the most registrations using their code gets this meeting. JUG-USA&#39;s founding allowed us to use a bit of strength in numbers to wrestle this crown from the bigger European JUG&#39;s for the first time that I know of.&lt;/p&gt;
+&lt;p&gt;The session was setup as an informal Q&amp;amp;A. I took furious notes on several of the questions that were most interesting to me, and I&#39;ll do my best to collate them into something intelligible here. &lt;em&gt;&lt;strong&gt;Note that where I use quotes it&#39;s mostly to set off his answers&amp;hellip;please don&#39;t take them as direct, but as paraphrases.&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;The first couple of questions surrounded web buzz. James sees Web 2.0 as &amp;ldquo;hype for folks who want to sell their books.&amp;rdquo; When asked about the semantic web, he says his feelings are mostly positive, but maybe its an answer searching for a question. He feels that some parts of it will never perform.&lt;/p&gt;
+&lt;p&gt;When asked about Scala, I was pleased to hear him say, &amp;ldquo;I like Scala a lot. They&#39;re doing some pretty nice stuff.&amp;rdquo; He talked about how functional languages lend themselves to proving properties of programs, which can then lead to automatic decomposition onto multiprocessor systems. He wishes that the Scala guys would focus more on this aspect. He also said that he fears that Scala is almost going down the Perl route of making things &amp;ldquo;too concise&amp;rdquo; and that it&#39;s still awfully hard for many programmers to &amp;ldquo;get&amp;rdquo; the functional stuff.&lt;/p&gt;
+&lt;p&gt;The next question was a rather predictable one - &amp;ldquo;James, now that you have the benefit of 14 years of experience with the Java language, is there anything you would have done differently?&amp;rdquo; Funny thing was the first thing out of his mouth was that the current AWT event model would have been one of the first things to go. Generics and closures were things he quickly mentioned that he wanted to have done, but he also said that there was quite a bit of arguing within the Java team about polishing for years vs. shipping the language. James said he felt like there was a certain window of opportunity out there that they needed to ship the language within to be successful (and it looks like they hit it). Continuing on down the list, James mentioned Eiffel-style precondtions and postconditions and type inferencing. He explained that the entire type system was designed to make C programmers comfortable, and at the time that was clearly the right decision. He state that at this point, the C/C++ comfort factor counts for nothing, and remarked that the casting syntax in Java is just &amp;ldquo;dumb.&amp;rdquo; A follow-up question surrounded whether or not primitives should be a part of the language. James called this a hard problem, asserting that a &amp;ldquo;uniform type model can lead to bumpy behavior or bad performance.&amp;rdquo; He said that the Scala specification gets around this with a dual object hierarchy (I need to look this up to see what he means.). He continued to talk about the definition of equality vs. identity, explaining that primitives can&#39;t have identity; in fact, they may never exist except as a figment of the compilers imagination, optimized away (my notes are fuzzy on this&amp;hellip;when I get the recording I&#39;ll clean this up).&lt;/p&gt;
+&lt;p&gt;The next question surrounded a statement that one attendee of the recent Google I/O conference heard, that threads are &amp;ldquo;deprecated&amp;rdquo; as a concurrency model. James immediately retorted that concurrency has very many ideas around it, and that it has been an active Ph.D. thesis generator for 30+ years. He mentioned competing models such as Actors in Scala and Erlang, and Communicating Sequential Processes (CSP) process algebra from Occam. He asserted that with CSP most people typically don&#39;t &amp;ldquo;think that way very well. People with Math degrees think it&#39;s cool, but everybody else is kind of like&amp;hellip;huh?&amp;rdquo; He stated that no data sharing between threads makes a lot of problems go away, but that often times casting problems that way can be intractable. A big quotable: &amp;ldquo;All of the different threading paradigms feel to me like whack-a-mole.&amp;rdquo; He closed the concurrency question by mentioning Guy Steele&#39;s work on Fortress, where they are doing automatic decomposition from functional constructs into multiple threads of execution, making all of this issue transparent to the programmer.&lt;/p&gt;
+&lt;p&gt;Since this is getting pretty long, I&#39;ll mention that James says he knows that Larry Ellison, Oracle CEO (and Sun &amp;ldquo;suitor&amp;rdquo;) has downloaded JavaFX and personally written apps with it, saying it is &amp;ldquo;pretty darn tasty!&amp;rdquo; (Again, don&#39;t take this as quoted&amp;hellip;it&#39;s definitely paraphrased).&lt;/p&gt;
+&lt;p&gt;Other quotables: &amp;ldquo;Android - it&#39;s hard to know what to think about it. It seems like a corner hobby project, chaos looking for a place to happen.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;The exception system was DESIGNED to be a complete PITA.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;All-in-all, a great time was had by all. Thanks James for your time, it was definitely fascinating hearing your thoughts on so may different areas of the Java landscape.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://mattstine.files.wordpress.com/2009/06/jug-usa-gosling-grouppic-900.jpg&#34; alt=&#34;JUG-USA with James Gosling&#34;&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>more connecting at javaone 2009</title>
       <link>https://www.mattstine.com/2009/06/04/more-connecting-at-javaone-2009/</link>
       <pubDate>Thu, 04 Jun 2009 00:00:00 +0000</pubDate>
-      
       <guid>https://www.mattstine.com/2009/06/04/more-connecting-at-javaone-2009/</guid>
-      <description>I happened to catch Guillaume LaForge&amp;rsquo;s tweet this morning about a &amp;ldquo;Groovy lunch&amp;rdquo; at JavaOne today. After our JUG-USA meeting with James Gosling(blog entry on this one to come), I made my way over to the &amp;ldquo;cafeteria&amp;rdquo; and found Guillaume, James Williams (of the Griffon team), and John Smart in exactly the location that Guillaume specified. We were shortly joined by Grails in Action (a.k.a. San Gria) co-author Glen Smith. Topics ranged from things we can do better with Groovy/Grails testing, the differences between the Groovy and other dynamic/scripting language communities, Groovy&amp;rsquo;s victory in the ScriptBowl, and none other than the differences in public transportation between the southeastern US and the Bay Area.</description>
+      <description>&lt;p&gt;I happened to catch &lt;a href=&#34;http://glaforge.free.fr/weblog/&#34;&gt;Guillaume LaForge&#39;s&lt;/a&gt; tweet this morning about a &amp;ldquo;Groovy lunch&amp;rdquo; at JavaOne today. After our JUG-USA meeting with &lt;a href=&#34;http://blogs.sun.com/jag/&#34;&gt;James Gosling&lt;/a&gt;(blog entry on this one to come), I made my way over to the &amp;ldquo;cafeteria&amp;rdquo; and found Guillaume, &lt;a href=&#34;http://jameswilliams.be/blog/entry/index&#34;&gt;James Williams (of the Griffon team)&lt;/a&gt;, and &lt;a href=&#34;http://weblogs.java.net/blog/johnsmart&#34;&gt;John Smart&lt;/a&gt; in exactly the location that Guillaume specified. We were shortly joined by Grails in Action (a.k.a. San Gria) co-author &lt;a href=&#34;http://blogs.bytecode.com.au/glen/&#34;&gt;Glen Smith&lt;/a&gt;. Topics ranged from things we can do better with Groovy/Grails testing, the differences between the Groovy and other dynamic/scripting language communities, Groovy&#39;s victory in the ScriptBowl, and none other than the differences in public transportation between the southeastern US and the Bay Area. I had a great time guys and will see you at the BOF.&lt;/p&gt;
+&lt;p&gt;I also finally got the chance to meet &lt;a href=&#34;http://dickwallsblog.blogspot.com/&#34;&gt;Dick Wall&lt;/a&gt; of the &lt;a href=&#34;http://javaposse.com&#34;&gt;Java Posse&lt;/a&gt;. Dick is just as great in person as he has sounded for the past couple of years on the podcast. Unfortunately our chat was ever so brief, focused around the language features Dick would like to see in future versions of Scala. We were quickly ushered over to the Java.net &amp;ldquo;presentation area&amp;rdquo; to participate in &lt;a href=&#34;http://weblogs.java.net/blog/joshy&#34;&gt;Josh Marinacci&#39;s&lt;/a&gt; JavaFX Q&amp;amp;A. Was also good meeting him and seeing the cool new UI controls in FX.&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>javaone 2009 script bowl</title>
       <link>https://www.mattstine.com/2009/06/03/javaone-2009-script-bowl/</link>
       <pubDate>Wed, 03 Jun 2009 00:00:00 +0000</pubDate>
-      
       <guid>https://www.mattstine.com/2009/06/03/javaone-2009-script-bowl/</guid>
-      <description>The JavaOne 2009 Script Bowl was quite a delight to watch. The players were Jython (Frank Wierzbecki), Groovy (Guillaume LaForge), Clojure (Rich Hickey), Scala (Dick Wall), and JRuby (Thomas Enebo). The event was divided into two rounds:
- Demonstrating Language Features
- Demonstrating Community Contributions
-  Each of the players focused on different angles during the language feature round. The Jython focus was squarely on the readability of the language.</description>
+      <description>&lt;p&gt;The JavaOne 2009 Script Bowl was quite a delight to watch. The players were Jython (Frank Wierzbecki), Groovy (Guillaume LaForge), Clojure (Rich Hickey), Scala (Dick Wall), and JRuby (Thomas Enebo). The event was divided into two rounds:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Demonstrating Language Features&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Demonstrating Community Contributions&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Each of the players focused on different angles during the language feature round. The Jython focus was squarely on the readability of the language. Frank&#39;s key quote was Python looks an awful lot like &amp;ldquo;executable pseudocode.&amp;rdquo; The Groovy focus was a subset of Guillaume&#39;s &amp;ldquo;What&#39;s new in Groovy 1.6&amp;rdquo; talk, and highlighted the new compile-time metaprogramming/AST transformations. Rich Hickey directly attacked concurrency using Clojure, demonstrating a multi-threaded &amp;ldquo;Life&amp;rdquo; demo that highlighted the power of software transactional memory.&lt;/p&gt;
+&lt;p&gt;I really enjoyed Dick&#39;s angle for Scala - demonstrating that most of the Java small language changes contained in Project Coin are already present in the Scala language and very useable! Thomas Enebo went straight for the WOW factor by showing how easily a Ruby DSL can be wrapped around existing Java libraries with JRuby to create a very compelling 3D game.&lt;/p&gt;
+&lt;p&gt;Next came the community round. This was actually the most impressive part of the whole session. Frank kicked off the Jython community focus by highlighting an &lt;a href=&#34;http://openendedgroup.com/field/wiki/OverviewBanners2&#34;&gt;interactive &amp;ldquo;art IDE&amp;rdquo; called Field&lt;/a&gt; that drives &lt;a href=&#34;http://processing.org/&#34;&gt;the Processing language&lt;/a&gt;. The chose Jython as the scripting language for the environment. Very neat.&lt;/p&gt;
+&lt;p&gt;The Groovy demo was something to behold. Guillaume started off by demonstrating SwingPad, an exploratory IDE for building Swing applications with Groovy. But the real treat was a very impressive Twitter+NASA Worldwind mashup built very concisely using Griffon. I really need to give Griffon a try.&lt;/p&gt;
+&lt;p&gt;Rich Hickey demonstrated the power of Clojure to build a data-driven, functional, template based website. It took an existing HTML template (with 0 code) and transformed it using &amp;ldquo;css-like&amp;rdquo; selectors provided by a &lt;a href=&#34;http://github.com/cgrand/enlive/tree/master&#34;&gt;enlive&lt;/a&gt;. Seemed a lot like what you can do with XSLT, but much cleaner.&lt;/p&gt;
+&lt;p&gt;Dick demonstrated scouchdb, a Scala library for interacting with CouchDB.&lt;/p&gt;
+&lt;p&gt;Thomas&amp;rsquo; focus was on just how big the Ruby community is, from developers, to conferences, to books, to IDE&#39;s, to libraries.&lt;/p&gt;
+&lt;p&gt;At the end of the session, the winner was decided by crowd noise, with Groovy winning the day and Scala coming in second. My take home from this session is that really all of these languages bring something very interesting and powerful to the table, and I hope all of them continue to succeed. Great job everyone!&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>jug leadership lessons learned javaone javanet community corner podcast</title>
       <link>https://www.mattstine.com/2009/06/03/jug-leadership-lessons-learned-javaone-javanet-community-corner-podcast/</link>
       <pubDate>Wed, 03 Jun 2009 00:00:00 +0000</pubDate>
-      
       <guid>https://www.mattstine.com/2009/06/03/jug-leadership-lessons-learned-javaone-javanet-community-corner-podcast/</guid>
-      <description>Here&amp;rsquo;s the link to my slides from my podcast Wednesday morning from the Java.net Community Corner: Download PDF.</description>
+      <description>&lt;p&gt;Here&#39;s the link to my slides from my podcast Wednesday morning from the Java.net Community Corner: &lt;a href=&#34;http://www.mattstine.com/wp-content/JUGLeadershipLessonsLearned.pdf&#34;&gt;Download PDF&lt;/a&gt;.&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>java technology on google app engine communityone 2009 lightning talk</title>
       <link>https://www.mattstine.com/2009/06/02/java-technology-on-google-app-engine-communityone-2009-lightning-talk/</link>
       <pubDate>Tue, 02 Jun 2009 00:00:00 +0000</pubDate>
-      
       <guid>https://www.mattstine.com/2009/06/02/java-technology-on-google-app-engine-communityone-2009-lightning-talk/</guid>
-      <description>My second lightning talk at Community One West 2009 revolved around the still relatively recent announcement that Java is now supported on Google&amp;rsquo;s App Engine.
-What exactly is Google App Engine? It&amp;rsquo;s none other than a way that you can run your Java technology-based applications on Google&amp;rsquo;s massive infrastructure.
-As far as the &amp;ldquo;Geekxecutive Summary,&amp;rdquo; Google has provided:
- A Java 6 Virtual Machine with a Class Whitelist. Not all classes in the standard JDK library are available.</description>
+      <description>&lt;p&gt;My second lightning talk at Community One West 2009 revolved around the still relatively recent announcement &lt;a href=&#34;http://code.google.com/appengine/docs/java/overview.html&#34;&gt;that Java is now supported on Google&#39;s App Engine&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;What exactly is &lt;a href=&#34;http://code.google.com/appengine&#34;&gt;Google App Engine&lt;/a&gt;? It&#39;s none other than a way that you can run your Java technology-based applications on Google&#39;s massive infrastructure.&lt;/p&gt;
+&lt;p&gt;As far as the &amp;ldquo;Geekxecutive Summary,&amp;rdquo; Google has provided:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://code.google.com/appengine/docs/java/runtime.html&#34;&gt;A Java 6 Virtual Machine&lt;/a&gt; with a &lt;a href=&#34;http://code.google.com/appengine/docs/java/jrewhitelist.html&#34;&gt;Class Whitelist&lt;/a&gt;. Not all classes in the standard JDK library are available. A notable missing member is the java.awt.* library, so if you&#39;re using that for image processing, find an alternative (see one later) before porting to the App Engine.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The Java Servlet Standard by way of the &lt;a href=&#34;http://www.mortbay.org/jetty/&#34;&gt;Jetty container&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://code.google.com/appengine/docs/java/runtime.html#The_Sandbox&#34;&gt;A secured sandbox environment&lt;/a&gt;, meaning 1) no spawned threads; 2) no arbitrary socket connections (you can use HTTP/HTTPS, see below); 3) No writing to the local filesystem - makes sense because you don&#39;t know where you are on any given request.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Several services are provided to you by Google as a Java developer:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://code.google.com/appengine/docs/java/datastore/&#34;&gt;The Datastore&lt;/a&gt; - a schemaless object datastore, with a query engine and atomic transactions. This is accessible via Java Data Objects (JDO) 2.3, Java Persistence API (JPA) 1.0, or Google&#39;s own low-level API&#39;s.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;A &lt;a href=&#34;http://code.google.com/appengine/docs/java/memcache/&#34;&gt;Memcache&lt;/a&gt; service for caching whatever objects you like, accessible via JCache JSR 107.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://code.google.com/appengine/docs/java/urlfetch/&#34;&gt;A URL fetch service&lt;/a&gt; for accessing data on other systems, accessible via java.net.URLConnection.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://code.google.com/appengine/docs/java/mail/&#34;&gt;A Mail (JavaMail) service&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://code.google.com/appengine/docs/java/images/&#34;&gt;An Image processing service&lt;/a&gt;, a likely candidate for replacing AWT for image processing. Be careful, it binds you to Google&#39;s services. You may want to write a wrapper for it.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://code.google.com/appengine/docs/java/users/&#34;&gt;Google Accounts for authentication&lt;/a&gt;. Should you leverage this, anyone with a Google account can authenticate into your app.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The nice thing about Google&#39;s services is that where possible they always provided a way in through standards-based Java API&#39;s.&lt;/p&gt;
+&lt;p&gt;Now, on to tools:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://code.google.com/appengine/docs/java/tools/ant.html&#34;&gt;An Apache Ant component&lt;/a&gt; for your automated build process.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://code.google.com/appengine/docs/java/tools/eclipse.html&#34;&gt;A very nice plugin&lt;/a&gt; for the Eclipse IDE.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://code.google.com/appengine/docs/java/gettingstarted/installing.html&#34;&gt;The App Engine SDK&lt;/a&gt; - Java API&#39;s into all of Google&#39;s services.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://code.google.com/appengine/docs/java/tools/devserver.html&#34;&gt;A Development Server&lt;/a&gt; so that you can run a simulated Google environment on your local machine.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://code.google.com/appengine/docs/java/tools/uploadinganapp.html&#34;&gt;AppCfg&lt;/a&gt; for command-line interaction with the App Engine platform.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Probably the most significant piece to this puzzle is the fact that Google is not simply supporting Java the language, but Java the platform. It&#39;s a standard JVM, so other languages running on the JVM will happily run on Google App Engine as well. At this writing, I knew of the following languages that are known to run:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Java&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Groovy (and Grails as of 1.1.1)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;JRuby&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Scala&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Clojure&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Beanshell&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;JavaScript (Rhino)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Jython&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Here&#39;s the screencast from my talk. Enjoy!&lt;/p&gt;
+&lt;p&gt;[youtube=http://www.youtube.com/watch?v=hotbwYStwH8&amp;amp;hl;=en&amp;amp;fs;=1]&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>reactions from javaone 2009 opening keynote</title>
       <link>https://www.mattstine.com/2009/06/02/reactions-from-javaone-2009-opening-keynote/</link>
       <pubDate>Tue, 02 Jun 2009 00:00:00 +0000</pubDate>
-      
       <guid>https://www.mattstine.com/2009/06/02/reactions-from-javaone-2009-opening-keynote/</guid>
-      <description>The morning session opened with a HUGE elephant under the rug - &amp;ldquo;Where is Oracle?&amp;rdquo; There&amp;rsquo;s no booth in the Pavilion - super strange.
-Things kicked off very slowly. Jonathan Schwartz, Sun CEO, for all of his ponytail excellence, wasn&amp;rsquo;t exactly inspiring a great deal of excitement in the crowd. In fact, the loudest applause from the audience was initially for the tech support guy who fixed the projection for one of the demos.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;http://picasaweb.google.com/sunahouston2/JavaOne2009#5344645971163695266&#34;&gt;&lt;img src=&#34;http://mattstine.files.wordpress.com/2009/06/j1-2009-keynote-ellison-mcnealy-stage880.jpg?w=223&#34; alt=&#34;Photo by Aaron Houston&#34;&gt;&lt;/a&gt;The morning session opened with a HUGE elephant under the rug - &amp;ldquo;Where is Oracle?&amp;rdquo; There&#39;s no booth in the Pavilion - super strange.&lt;/p&gt;
+&lt;p&gt;Things kicked off very slowly. Jonathan Schwartz, Sun CEO, for all of his ponytail excellence, wasn&#39;t exactly inspiring a great deal of excitement in the crowd. In fact, the loudest applause from the audience was initially for the tech support guy who fixed the projection for one of the demos.&lt;/p&gt;
+&lt;p&gt;Thankfully things eventually got moving. Verizon and Sun announced a very exciting partnership whereby Verizon will expose their network elements to Java developers. Things like presence, location, friends and family lists, mobile-to-mobile lists - all of these will now be accessible to the developer. These specs will come out on July 27. This announcement is very exciting as it means that Verizon phones will now be a very powerful platform for Java mobile development.&lt;/p&gt;
+&lt;p&gt;The JavaFX demos were really cool. They demoed one of the new LG XCanvas series of TV&#39;s, which actually run JavaFX on the TV itself. Processors and video codecs actually live within the TV, and the TV is connected to the network. Live, on-demand, interactive content is now available directly on the set, and it&#39;s very smooth. It seems that JavaFX continues to be the center of innovation within Sun. This continued with a demo of the new JavaFX visual authoring tool. This was very impressive. JavaFX apps are now possible with absolutely no coding, which makes them extremely accessible to content designers. Visual assets can be dragged and dropped onto the stage, animation can be built by recording drag motions, no compile-build-deploy cycle. Another great features was visual wiring of component properties to UI controls. Very smooth. And apps can be deployed directly to the Java App Store via the tool.&lt;/p&gt;
+&lt;p&gt;Funny, this was the big oops of the keynote. Nandini Ramani leaked the &amp;ldquo;liveness&amp;rdquo; of the app store before the official announcement. Nandini - &amp;ldquo;And you can deploy directly to the App Store.&amp;rdquo; Jonathan - &amp;ldquo;We haven&#39;t launched the App Store yet.&amp;rdquo; OOPS.&lt;/p&gt;
+&lt;p&gt;But the App Store was immediately announced next. &lt;a href=&#34;http://store.java.com&#34;&gt;http://store.java.com&lt;/a&gt; is now in private beta, and I quickly registered and got an invite. I was playing with the App Store in the following session and downloaded two applications. Extremely like the iPhone App Store for Java. You can now distribute your Java applications directly to billions of consumers with Java-enabled devices. At this point it only supports free applications, as they have left it up to the community to provide feedback on how money should be collected. Nice move. Very impressive. This could be a game changer for the Java platform if it&#39;s used correctly.&lt;/p&gt;
+&lt;p&gt;FINALLY the elephant came out, but it took Scott McNealy coming on stage to get it done. It was very interesting how Jonathan Schwartz unceremoniously left the stage. Scott thanked him twice for his stewardship of the company - it was a very obvious yet implicit changing of the guard. Funny that they should decide to introduce Larry Ellison, CEO Oracle, via a great amount of cheesy images (Java flying on the sail to Larry&#39;s yacht, etc.) At the end, while no promises were made, Larry said that we should look to the past to see what the future will hold and expect more of the same. &amp;ldquo;I don&#39;t expect any significant changes.&amp;rdquo; I hope that holds true. The audience very properly gave Scott a standing ovation as he left the stage, a nice gesture to a guy that has continually kept Sun on the cutting edge of technology.&lt;/p&gt;
+&lt;p&gt;All in all, it was a bittersweet keynote, but I&#39;m cautiously optimistic about the future of the platform. Our landscape is continually changing, and the future is uncertain. If everyone&#39;s being transparent, however, good things are still to come.&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>connecting with people at javaone</title>
       <link>https://www.mattstine.com/2009/06/01/connecting-with-people-at-javaone/</link>
       <pubDate>Mon, 01 Jun 2009 00:00:00 +0000</pubDate>
-      
       <guid>https://www.mattstine.com/2009/06/01/connecting-with-people-at-javaone/</guid>
-      <description>So far one of the greatest things about JavaOne for me has been the opportunity to connect face-to-face with so many people that I&amp;rsquo;ve only communicated with digitally. I&amp;rsquo;ve also been able to catch up with folks that I&amp;rsquo;ve run into through other conferences, the JUG, and work:
- Finally met Aaron Houston and Mark DeHart from Sun JUG Programs. These guys have supported the Memphis JUG from the very beginning and have kept us supplied with tons of cool swag, as well as a Sun SPOT that continues to be a hit.</description>
+      <description>&lt;p&gt;So far one of the greatest things about JavaOne for me has been the opportunity to connect face-to-face with so many people that I&#39;ve only communicated with digitally. I&#39;ve also been able to catch up with folks that I&#39;ve run into through other conferences, the JUG, and work:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Finally met Aaron Houston and Mark DeHart from &lt;a href=&#34;http://java.sun.com/community/usergroups/index.jsp&#34;&gt;Sun JUG Programs&lt;/a&gt;. These guys have supported the Memphis JUG from the very beginning and have kept us supplied with tons of cool swag, as well as a Sun SPOT that continues to be a hit. Great guys.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Briefly chatted with &lt;a href=&#34;http://weblogs.java.net/blog/caroljmcdonald/&#34;&gt;Carol McDonald &lt;/a&gt;from Sun. She was our very first JUG speaker and also had an extremely stressful encounter with our then new projector.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Got to catch up with &lt;a href=&#34;http://blog.springsource.com/author/keithd/&#34;&gt;Keith Donald&lt;/a&gt; of SpringSource on what he&#39;s been up to with Spring and what we&#39;ve been up to with our SRM project. Keith joined us for a week long consulting engagement earlier this year and fit in like another member of the team. He and Oleg Zhurakousky covered the JUG meeting that week as well and we had our largest attendance ever.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Finally met &lt;a href=&#34;http://weblogs.java.net/blog/van_riper/&#34;&gt;Van Riper&lt;/a&gt;, the man behind JUG-USA.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Had a great dinner conversation with Abdel Remani, student JUG leader from California State University, Chico.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Got to catch up with &lt;a href=&#34;http://www.linkedin.com/in/davidgbooth&#34;&gt;Dave Booth&lt;/a&gt;, formerly the JUG program guy from JetBrains, now with GravityGears.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Briefly chatted with &lt;a href=&#34;http://www.linkedin.com/pub/wayne-fay/4/326/193&#34;&gt;Wayne Fay&lt;/a&gt;, one of our former JUG members now working in San Francisco.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;All in all it has been wonderful getting to connect with all of these folks, put faces to names, and share updates. Come to JavaOne. You get to meet neat folks!&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>deploying grails to morph appspace communityone 2009 lightning talk</title>
       <link>https://www.mattstine.com/2009/06/01/deploying-grails-to-morph-appspace-communityone-2009-lightning-talk/</link>
       <pubDate>Mon, 01 Jun 2009 00:00:00 +0000</pubDate>
-      
       <guid>https://www.mattstine.com/2009/06/01/deploying-grails-to-morph-appspace-communityone-2009-lightning-talk/</guid>
-      <description>I gave two lightning talks at CommunityOne today, the first of which described deploying Grails applications to Morph AppSpace.
-For the uninitiated, Grails is a Ruby on Rails inspired full stack web development framework which brings &amp;ldquo;convention over configuration&amp;rdquo; and &amp;ldquo;DRY&amp;rdquo; into the Java web development arena. Unlike Rails, it is not an effort from scratch, but rather stands on the shoulders of proven giants in the Java world like the Spring framework and Hibernate.</description>
+      <description>&lt;p&gt;I gave two lightning talks at &lt;a href=&#34;http://developers.sun.com/events/communityone/2009/west/index.jsp&#34;&gt;CommunityOne&lt;/a&gt; today, the first of which described deploying &lt;a href=&#34;http://grails.org&#34;&gt;Grails&lt;/a&gt; applications to &lt;a href=&#34;http://mor.ph/products_appspace&#34;&gt;Morph AppSpace&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;For the uninitiated, Grails is a Ruby on Rails inspired full stack web development framework which brings &amp;ldquo;convention over configuration&amp;rdquo; and &amp;ldquo;DRY&amp;rdquo; into the Java web development arena. Unlike Rails, it is not an effort from scratch, but rather stands on the shoulders of proven giants in the Java world like the Spring framework and Hibernate. It does this using Groovy, the popular dynamic scripting language for the JVM, as a sort of &amp;ldquo;DSL for web development.&amp;rdquo; Find it at &lt;a href=&#34;http://grails.org&#34;&gt;&lt;a href=&#34;http://grails.org&#34;&gt;http://grails.org&lt;/a&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Morph AppSpace on the other hand is a fully-configured and managed environment for hosting web applications, and currently supports Java, Grails, Rails, and PHP applications. It is a &amp;ldquo;platform as a service&amp;rdquo; (PaaS) provider that abstracts away the details of Amazon EC2 and S3 technologies. Systems architecture, backups, monitoring, failover, scalability - all of this is handled by Morph. You simply develop and deploy your application - Morph does the rest. Find it at &lt;a href=&#34;http://mor.ph/products_appspace&#34;&gt;&lt;a href=&#34;http://mor.ph/products_appspace&#34;&gt;http://mor.ph/products_appspace&lt;/a&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;So to get going, visit &lt;a href=&#34;http://mor.ph&#34;&gt;&lt;a href=&#34;http://mor.ph&#34;&gt;http://mor.ph&lt;/a&gt;&lt;/a&gt; and sign up for a free developer account. Create yourself a Java application subscription, and pick your choice of database (MySQL or PostgreSQL). Create the database, and then download two very important files into the root directory of your Grails project: deployment.properties, which contains the metadata describing your application to the Morph AppSpace platform, and morph_deployer.jar, which contains the client API to the platform.&lt;/p&gt;
+&lt;p&gt;Next you&#39;ll need to install the &lt;a href=&#34;http://grails.org/plugin/morph-deploy&#34;&gt;Grails morph-deploy plugin&lt;/a&gt;. If you&#39;re using Grails 1.1, you&#39;ll need to checkout &lt;a href=&#34;https://svn.codehaus.org/grails-plugins/grails-morph-deploy/trunk/&#34;&gt;the trunk version from SVN&lt;/a&gt;, as the version in the plugin repository is not 1.1 ready. Install this plugin locally by running &amp;ldquo;grails install-plugin $PATH_TO_PLUGIN.&amp;rdquo; Next, you&#39;ll need to edit DataSource.groovy to contain the following:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;production {
+        dataSource {
+            driverClassName = &#39;com.mysql.jdbc.Driver&#39;
+            dbCreate = &amp;quot;update&amp;quot;
+            jndiName = &amp;quot;java:comp/env/jdbc/morph-ds&amp;quot;
+            dialect = &#39;org.hibernate.dialect.MySQLDialect&#39;
+        }
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Finally, run &amp;ldquo;grails war&amp;rdquo; to build the war file, and &amp;ldquo;grails deploy&amp;rdquo; to upload your application to the platform. Once the upload is complete, visit the management interface and check the logs to see that you&#39;ve successfully deployed. Once it&#39;s finished, click on the link to your application. Happy Grails on the cloud!&lt;/p&gt;
+&lt;p&gt;Here&#39;s the screencast from my talk. Enjoy!&lt;/p&gt;
+&lt;p&gt;[youtube=http://www.youtube.com/watch?v=JYPJ26-1YTM&amp;amp;hl;=en&amp;amp;fs;=1&amp;amp;border;=1]&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>on the ground in san francisco</title>
       <link>https://www.mattstine.com/2009/06/01/on-the-ground-in-san-francisco/</link>
       <pubDate>Mon, 01 Jun 2009 00:00:00 +0000</pubDate>
-      
       <guid>https://www.mattstine.com/2009/06/01/on-the-ground-in-san-francisco/</guid>
-      <description>&amp;hellip;for my second trip to JavaOne. This is going to be an extremely busy week.
-Just as a quick update to those who thought I have fallen off of the face of the earth, I&amp;rsquo;ve been very busy these past few weeks finishing up a lot of loose ends. First off, May is a busy month for our family. With Mother&amp;rsquo;s Day, Wendy&amp;rsquo;s 30th Birthday, and Grant&amp;rsquo;s 1st Birthday, we&amp;rsquo;ve been doing quite a lot as a family.</description>
+      <description>&lt;p&gt;&amp;hellip;for my second trip to JavaOne. This is going to be an extremely busy week.&lt;/p&gt;
+&lt;p&gt;Just as a quick update to those who thought I have fallen off of the face of the earth, I&#39;ve been very busy these past few weeks finishing up a lot of loose ends. First off, May is a busy month for our family. With Mother&#39;s Day, Wendy&#39;s 30th Birthday, and Grant&#39;s 1st Birthday, we&#39;ve been doing quite a lot as a family. Second, I&#39;ve been scrambling to finish off Wendy&#39;s stationery store site, and I&#39;m pleased to announce that &lt;a href=&#34;http://www.duckduckgoosedesigns.com&#34;&gt;&lt;a href=&#34;http://www.duckduckgoosedesigns.com&#34;&gt;http://www.duckduckgoosedesigns.com&lt;/a&gt;&lt;/a&gt; went into production on Memorial Day!&lt;/p&gt;
+&lt;p&gt;Last of all, I&#39;ve been putting the finishing touches on my two lightning talks for Community One and my Java.net Community Corner podcast. In fact, I recorded the last demo video for my Google App Engine talk as I sat here in the Intercontinental Hotel.&lt;/p&gt;
+&lt;p&gt;At any rate, I&#39;ve got a packed schedule ahead, full of technical sessions, BOF&#39;s, meetups, parties, etc. It&#39;s the ultimate geek vacation. Stay tuned as I blog my way through. You can also pickup my Twitter feed for up-to-the-minute news. ;-)&lt;/p&gt;
+</description>
     </item>
     
   </channel>

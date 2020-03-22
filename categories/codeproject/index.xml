@@ -1,114 +1,569 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Codeproject on Matt Stine</title>
+    <title>CodeProject | Matt Stine</title>
     <link>https://www.mattstine.com/categories/codeproject/</link>
-    <description>Recent content in Codeproject on Matt Stine</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2018 Matt Stine</copyright>
-    <lastBuildDate>Sat, 02 May 2009 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://www.mattstine.com/categories/codeproject/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="https://www.mattstine.com/categories/codeproject/index.xml" rel="self" type="application/rss+xml" />
+    <description>CodeProject</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Matt Stine</copyright><lastBuildDate>Sat, 02 May 2009 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>CodeProject</title>
+      <link>https://www.mattstine.com/categories/codeproject/</link>
+    </image>
     
     <item>
       <title>ive forked the grails paypal plugin</title>
       <link>https://www.mattstine.com/2009/05/02/ive-forked-the-grails-paypal-plugin/</link>
       <pubDate>Sat, 02 May 2009 00:00:00 +0000</pubDate>
-      
       <guid>https://www.mattstine.com/2009/05/02/ive-forked-the-grails-paypal-plugin/</guid>
-      <description>I&amp;rsquo;m currently completing the finishing touches on a new e-commerce site for my wife&amp;rsquo;s stationary business. We decided a long time ago to use PayPal for all of the payment processing since we&amp;rsquo;ve had a great experience using it for our eBay selling. About a year ago Graeme Rocher polished off the last release of a PayPal plugin that is available in the Grails Plugin repository. It really is a very nice plugin, yet I had a couple of problems with it:</description>
+      <description>&lt;p&gt;I&#39;m currently completing the finishing touches on a new e-commerce site for my wife&#39;s stationary business. We decided a long time ago to use &lt;a href=&#34;http://www.paypal.com&#34;&gt;PayPal&lt;/a&gt; for all of the payment processing since we&#39;ve had a great experience using it for our eBay selling. About a year ago Graeme Rocher polished off the last release of a &lt;a href=&#34;http://grails.org/plugin/paypal&#34;&gt;PayPal plugin&lt;/a&gt; that is available in &lt;a href=&#34;http://grails.org/plugin/home&#34;&gt;the Grails Plugin repository&lt;/a&gt;. It really is a very nice plugin, yet I had a couple of problems with it:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;It is only capable of handling payments for one item transactions via &amp;ldquo;Buy Now&amp;rdquo; buttons. I want to upload an entire shopping cart full of multiple items.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;It currently won&#39;t handle shipping addresses. The site I&#39;m building allows the user to maintain a list of shipping addresses, and I&#39;d want to send the address information they choose along to PayPal.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Minor issue: needed to upgrade the plugin to Grails 1.1.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;So, I decided this evening to fork the plugin. I want to leverage all of the great work that has been done thus far (especially with the IPN processing part - superb stuff), but I have to add in these two functions and do the version upgrade. Interestingly enough I couldn&#39;t get the tests to run out of the box after the upgrade. No good developer likes to modify code without a stable running test suite, right? So what I ended up doing was creating a new Grails 1.1 plugin project and copying the original artifacts over. Once this was done all of the tests ran perfectly.&lt;/p&gt;
+&lt;p&gt;So, at this point I&#39;ve added function #1. You can now redirect to the &amp;ldquo;uploadCart&amp;rdquo; action. It assumes that you have already constructed a Payment object (now containing PaymentItems) and saved it, and then passed the transactionId along. I did this so that folks with multiple different ways of handling shopping carts could have some degree of flexibility - the onus is on you to map your cart to your Payment object correctly. The original functions implemented by Graeme are backward compatible, assuming only one PaymentItem in the Payment. I&#39;ve run all of the original tests and also did some manual functional testing by running the plugin app against my own PayPal Sandbox account. So far so good. Look for more updates as this evolves. Once I get something I&#39;m totally happy with I&#39;ll see about getting it pushed back into the main plugin repo.&lt;/p&gt;
+&lt;p&gt;Want to take a closer look? Visit &lt;a href=&#34;http://github.com/mstine/grails-paypal-plugin/tree/master&#34;&gt;&lt;a href=&#34;http://github.com/mstine/grails-paypal-plugin/tree/master&#34;&gt;http://github.com/mstine/grails-paypal-plugin/tree/master&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>grails prototype scriptaculous persistent grid sorting goodness</title>
       <link>https://www.mattstine.com/2009/04/25/grails-prototype-scriptaculous-persistent-grid-sorting-goodness/</link>
       <pubDate>Sat, 25 Apr 2009 00:00:00 +0000</pubDate>
-      
       <guid>https://www.mattstine.com/2009/04/25/grails-prototype-scriptaculous-persistent-grid-sorting-goodness/</guid>
-      <description>Ever wanted to do drag-n-drop sorting of a grid of images on a page and persist it? Here&amp;rsquo;s my solution using Grails, Prototype, and Script.aculo.us.
-Basically what prompted this was the need for my wife to be able to sort the various product images that she had on a screen at any given time in any way that she pleased, and it had to be easy to work with. What follows is by no means a complete solution to this problem, but it represents where I am in the development process and may be useful to you, my hapless reader.</description>
+      <description>&lt;p&gt;Ever wanted to do drag-n-drop sorting of a grid of images on a page and persist it? Here&#39;s my solution using Grails, Prototype, and Script.aculo.us.&lt;/p&gt;
+&lt;p&gt;Basically what prompted this was the need for my wife to be able to sort the various product images that she had on a screen at any given time in any way that she pleased, and it had to be easy to work with. What follows is by no means a complete solution to this problem, but it represents where I am in the development process and may be useful to you, my hapless reader.&lt;/p&gt;
+&lt;p&gt;Here&#39;s some GSP code which basically lays out a grid of product images, 3 wide by &lt;em&gt;n&lt;/em&gt; deep:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;div id=&amp;quot;productThumbContainer&amp;quot;&amp;gt;
+  &amp;lt;g:set var=&amp;quot;rowIndex&amp;quot; value=&amp;quot;${0}&amp;quot;/&amp;gt;
+&amp;lt;g:each in=&amp;quot;${products}&amp;quot; var=&amp;quot;product&amp;quot; status=&amp;quot;index&amp;quot;&amp;gt;
+  &amp;lt;g:if test=&amp;quot;${index % 3 == 0}&amp;quot;&amp;gt;
+    &amp;lt;div id=&amp;quot;productRow${rowIndex}&amp;quot; class=&amp;quot;span-20 last product-row&amp;quot;&amp;gt;
+  &amp;lt;/g:if&amp;gt;
+  &amp;lt;div id=&amp;quot;product_${product.id}&amp;quot; class=&amp;quot;span-6 product &amp;lt;g:if test=&amp;quot;${(index % 3 == 2) || ((products.size() - index) == 1)}&amp;quot;&amp;gt;last&amp;lt;/g:if&amp;gt;&amp;lt;g:else&amp;gt;append-1&amp;lt;/g:else&amp;gt;&amp;quot;&amp;gt;
+    &amp;lt;img src=&amp;quot;${resource(dir: grailsApplication.config.store.productImages.webPath, file: product?.thumbnailImage?.name)}&amp;quot; width=&amp;quot;230&amp;quot; class=&amp;quot;productImage&amp;quot;&amp;gt;
+    &amp;lt;h3&amp;gt;&amp;lt;g:link controller=&amp;quot;product&amp;quot; action=&amp;quot;show&amp;quot; id=&amp;quot;${product.id}&amp;quot;&amp;gt;${product.name}&amp;lt;/g:link&amp;gt;&amp;lt;/h3&amp;gt;
+  &amp;lt;/div&amp;gt;
+  &amp;lt;g:if test=&amp;quot;${(index % 3 == 2) || ((products.size() - index) == 1)}&amp;quot;&amp;gt;
+    &amp;lt;/div&amp;gt;
+    &amp;lt;g:set var=&amp;quot;rowIndex&amp;quot; value=&amp;quot;${rowIndex + 1}&amp;quot;/&amp;gt;
+  &amp;lt;/g:if&amp;gt;
+&amp;lt;/g:each&amp;gt;
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Now here&#39;s where the magic happens:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;document.observe(&#39;dom:loaded&#39;, function() {
+      var productRows = $$(&#39;.product-row&#39;);
+
+      var options = {
+        constraint: false,
+        overlap: &#39;horizontal&#39;,
+        containment: productRows,
+        dropOnEmpty: true,
+        tag: &#39;div&#39;,
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;date = &amp;quot;&amp;rdquo;
+};&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;      productRows.each(function(item) {
+        Sortable.create(item, options);
+      });
+
+      $(&#39;persistOrderingButton&#39;).observe(&#39;click&#39;, function(event) {
+          var sortString = &#39;&#39;;
+          productRows.each(function(row) {
+              sortString += &#39;&amp;amp;&#39;;
+              sortString += Sortable.serialize(row);
+          });
+          &amp;lt;g:remoteFunction action=&amp;quot;sortProducts&amp;quot; params=&amp;quot;sortString&amp;quot; update=&amp;quot;ajaxMessage&amp;quot; onSuccess=&amp;quot;\$(&#39;ajaxMessage&#39;).show()&amp;quot;/&amp;gt;
+      });
+});
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;What we&#39;ve got here is, failure to communicate&amp;hellip;oops, wrong synapse there&amp;hellip;what we&#39;ve got here is a Prototype selector that grabs everything with the class &amp;ldquo;.product-row.&amp;rdquo; It then takes these and creates a Scriptaculous Sortable for each of them, providing the object-literal &amp;ldquo;options.&amp;rdquo; Notice the &amp;ldquo;containment&amp;rdquo; option which allows you to drag products back and forth between the various rows.&lt;/p&gt;
+&lt;p&gt;Delving deeper into the magic is the callback function &amp;ldquo;updateRows.&amp;rdquo; This guy is my favorite Javascript creation in quite some time:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;function updateRows(list) {
+      var children = list.childElements();
+
+      if (children.size() &amp;lt; 3) {
+
+        //If I&#39;m the last row, who cares!
+        if (list.next() != null) {
+          var prevRow = list.previous();
+
+          if (prevRow != null) {
+            var lastChild = prevRow.childElements()[prevRow.childElements().size() - 1].remove();
+            list.insert({top:lastChild});
+            updateRows(prevRow);
+          } else {
+            var lastRow = list.up().childElements()[list.up().childElements().size() - 1];
+            var lastChild = lastRow.childElements()[lastRow.childElements().size() - 1].remove();
+            list.insert({top:lastChild});
+            updateRows(lastRow);
+          }
+        }
+      } else if (children.size() == 3) {
+        //Do nothing...gets me out of the recursion I hope!
+      } else {
+        var nextRow = list.next();
+        var lastChild = children[children.size() - 1].remove();
+
+        if (nextRow != null) {
+          nextRow.insert({top:lastChild});
+          updateRows(nextRow);
+        } else {
+          var topRow = list.up().childElements()[0];
+          topRow.insert({top:lastChild});
+          updateRows(topRow);
+        }
+      }
+
+      var i = 0;
+      Sortable.sequence(list).each(function(item) {
+        var productId = &#39;product_&#39; + item;
+        if (i &amp;lt; 2) {
+          $(productId).removeClassName(&#39;last&#39;);
+          $(productId).removeClassName(&#39;append-1&#39;);
+          $(productId).addClassName(&#39;append-1&#39;);
+        } else {
+          $(productId).removeClassName(&#39;last&#39;);
+          $(productId).removeClassName(&#39;append-1&#39;);
+          $(productId).addClassName(&#39;last&#39;);
+        }
+        i++;
+      });
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This function is organized around the fact that the only valid state for a grid of n-rows will be n-1 rows of 3 products, followed by one row of 1 &amp;lt;= numProducts &amp;lt;= 3. In most cases, if you drag a product from one row to another, you are violating that rule by creating a row with 2 products and a row with 4 products. This function solves the problem by recursively shifting the products down until reaching a stable state again.&lt;/p&gt;
+&lt;p&gt;There&#39;s a bit of noise there at the bottom of the function. I&#39;m using Blueprint CSS to do the layout for this application and I need to shift the various Blueprint classes around once everything is settled.&lt;/p&gt;
+&lt;p&gt;Finally, here&#39;s the persistence of the data when we click save:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;def sortProducts = {
+    TreeMap rowMap = new TreeMap()
+
+    params.each {key, value -&amp;gt;
+      def matcher = key =~ /productRow(.*)\[\]/
+      if (matcher.matches()) {
+        def rowId = matcher[0][1]
+        rowMap[rowId] = value
+      }
+    }
+
+    def productIds = []
+    rowMap.values().each { row -&amp;gt;
+      row.each {
+        productIds &amp;lt;&amp;lt; it.toLong()
+      }
+    }
+
+    shoppingService.saveSortOrder(productIds)
+
+    render(&amp;quot;Product sort order saved!&amp;quot;)
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;and the logic from shoppingService.saveSortOrder():&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;def saveSortOrder(def productIds) {
+    def productsToSort = Product.findAllByIdInList(productIds)
+
+    def productMap = [:]
+    def sortIndexList = []
+
+    productsToSort.each {
+      productMap[it.id] = it
+      sortIndexList &amp;lt;&amp;lt; it.sortIndex
+    }
+
+    sortIndexList.sort()
+    sortIndexList = sortIndexList.reverse()
+
+    productIds.each {
+      productMap[it].sortIndex = sortIndexList.pop()
+    }
+
+    productsToSort.each {
+      it.save()
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;You might wonder why this is so complex. What I haven&#39;t fully described is the way products are organized into a hierarchy of various categories. When you&#39;re sorting a screen, you&#39;re only sorting a subset of the products that are in that particular category. However, the sort order is maintained across the entire product set in the database. So, this logic basically just shifts around the existing sort indicies, placing them in their new relative order.&lt;/p&gt;
+&lt;p&gt;Anyway, I don&#39;t know how generally applicable this code is, but I had fun writing it and I hope you can get some use out of it. Cheers!&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>groovy post to a url</title>
       <link>https://www.mattstine.com/2009/04/25/groovy-post-to-a-url/</link>
       <pubDate>Sat, 25 Apr 2009 00:00:00 +0000</pubDate>
-      
       <guid>https://www.mattstine.com/2009/04/25/groovy-post-to-a-url/</guid>
-      <description>If you&amp;rsquo;ve ever worked with the brilliant Recaptcha service, you&amp;rsquo;ll know that their REST API requires an HTTP POST rather than a GET. As I had only used GET requests thus far, I googled around and found a pretty easy solution:
-private def evaluateCaptcha(def remoteIp, def challenge, def response) { def config = recaptchaService.getRecaptchaConfig() def urlString = &amp;quot;http://api-verify.recaptcha.net/verify&amp;quot; def queryString = &amp;quot;privatekey=${config.recaptcha.privateKey}&amp;amp;remoteip=${remoteIp}&amp;amp;challenge=${challenge}&amp;amp;response=${URLEncoder.encode(response)}&amp;quot; def url = new URL(urlString) def connection = url.</description>
+      <description>&lt;p&gt;If you&#39;ve ever worked with the brilliant &lt;a href=&#34;http://recaptcha.net/&#34;&gt;Recaptcha&lt;/a&gt; service, you&#39;ll know that their REST API requires an HTTP POST rather than a GET. As I had only used GET requests thus far, I googled around and found a pretty easy solution:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;private def evaluateCaptcha(def remoteIp, def challenge, def response) {
+    def config = recaptchaService.getRecaptchaConfig()
+
+    def urlString = &amp;quot;http://api-verify.recaptcha.net/verify&amp;quot;
+    def queryString = &amp;quot;privatekey=${config.recaptcha.privateKey}&amp;amp;remoteip=${remoteIp}&amp;amp;challenge=${challenge}&amp;amp;response=${URLEncoder.encode(response)}&amp;quot;
+
+    def url = new URL(urlString)
+    def connection = url.openConnection()
+    connection.setRequestMethod(&amp;quot;POST&amp;quot;)
+    connection.doOutput = true
+
+    def writer = new OutputStreamWriter(connection.outputStream)
+    writer.write(queryString)
+    writer.flush()
+    writer.close()
+    connection.connect()
+
+    def recaptchaResponse = connection.content.text
+    log.debug(recaptchaResponse)
+
+    recaptchaResponse.startsWith(&amp;quot;true&amp;quot;)
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;I have to credit &lt;a href=&#34;http://www.fiascode.com/programming/putting-google-finance-to-rest-with-groovy/&#34;&gt;Justin Spradlin&lt;/a&gt; for the code that ultimately got me here. Consider this a +1.&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>lotypart deux</title>
       <link>https://www.mattstine.com/2009/04/06/lotypart-deux/</link>
       <pubDate>Mon, 06 Apr 2009 00:00:00 +0000</pubDate>
-      
       <guid>https://www.mattstine.com/2009/04/06/lotypart-deux/</guid>
-      <description>A few days ago I pontificated on my need to choose a new &amp;ldquo;Language of the Year.&amp;rdquo; Right now I&amp;rsquo;m attempting to choose between Scala and Clojure. If nothing else, I&amp;rsquo;ve learned from this exercise that asking the community for feedback is a GOOD thing. Your comments have been very helpful.
-To summarize:
- As far as the polls go, Scala is in the lead by a margin of 4 to 2.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;http://mattstine.files.wordpress.com/2009/04/scala_vs_clojure.jpg&#34; alt=&#34;scala_vs_clojure&#34;&gt;&lt;a href=&#34;http://mattstine.files.wordpress.com/2009/04/scala_vs_clojure.jpg2009/04/02/loty-time-again-scala-or-clojure&#34;&gt;A few days ago I pontificated&lt;/a&gt; on my need to choose a new &amp;ldquo;Language of the Year.&amp;rdquo; Right now I&#39;m attempting to choose between &lt;a href=&#34;http://www.scala-lang.org/&#34;&gt;Scala&lt;/a&gt; and &lt;a href=&#34;http://clojure.org/&#34;&gt;Clojure&lt;/a&gt;. If nothing else, I&#39;ve learned from this exercise that asking the community for feedback is a GOOD thing. Your comments have been very helpful.&lt;/p&gt;
+&lt;p&gt;To summarize:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;As far as the polls go, Scala is in the lead by a margin of 4 to 2.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Two of the Scala votes have been simple +1&#39;s, and two have provided a supporting argument.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Both Clojure voters have provided a supporting argument.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;So, to make this a bit more of a fair fight, I&#39;m only going to consider the &amp;ldquo;supported votes&amp;rdquo; at this point. This leads to the obvious result of a tie!&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;So, what to do?&lt;/p&gt;
+&lt;p&gt;The argument for using Scala is that it is a functional/OO hybrid, so it will be easier to slide into. Interestingly enough, the argument against using Scala is that it is a functional/OO hybrid, so it will be easier to slide back into OO/imperative habits! Clojure, being more of a purely functional language, will be harder to get into initially, but will force me to think functionally. Hmmm&amp;hellip;&lt;/p&gt;
+&lt;p&gt;So here&#39;s my idea. Let&#39;s do this the agile way. What I&#39;d like to do is complete a timeboxed spike (in terms of actual time spent learning the language, not calendar time - I&#39;m doing this in my spare time, and I&#39;ve got my wife, four kids, and three other side projects competing for my attention!) of roughly two weeks in each language. The first week of the spike would be spent getting comfortable with the syntax, reading articles/documentation/blogs/etc., writing &amp;ldquo;Hello, World!&amp;rdquo; etc. The second week of the spike would be spent solving the same problem in each language, preferably a problem sitting in the functional sweet spot.&lt;/p&gt;
+&lt;p&gt;How does this sound to everyone? And to follow up, does anyone have a suggested problem I might tackle? Cheers!&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>loty time again scala or clojure</title>
       <link>https://www.mattstine.com/2009/04/02/loty-time-again-scala-or-clojure/</link>
       <pubDate>Thu, 02 Apr 2009 00:00:00 +0000</pubDate>
-      
       <guid>https://www.mattstine.com/2009/04/02/loty-time-again-scala-or-clojure/</guid>
-      <description>In 2007 I established several professional development goals (and later reported my progress on these), one of which was to learn Groovy and Grails. This goal stemmed from the continually referenced idea from The Pragmatic Programmer to &amp;ldquo;learn a new language every year.&amp;rdquo; This idea has become so ubiquitous that it even has it&amp;rsquo;s own four-letter acronym, LOTY (Language of the Year).
-Since establishing and reporting on these goals, I&amp;rsquo;ve had several things get in the way of fully realizing all of them.</description>
+      <description>&lt;p&gt;In 2007 &lt;a href=&#34;http://www.mattstine.com/2007/07/10/my-professional-development-goals-for-2007-2008/&#34;&gt;I established several professional development goals&lt;/a&gt; (&lt;a href=&#34;http://www.mattstine.com/2008/01/02/mid-year-review-my-professional-development-goals-for-2007-2008/&#34;&gt;and later reported my progress on these&lt;/a&gt;), one of which was to learn Groovy and Grails. This goal stemmed from the continually referenced idea from &lt;em&gt;The Pragmatic Programmer&lt;/em&gt; to &amp;ldquo;learn a new language every year.&amp;rdquo; This idea has become so ubiquitous that it even has it&#39;s own four-letter acronym, LOTY (Language of the Year).&lt;/p&gt;
+&lt;p&gt;Since establishing and reporting on these goals, I&#39;ve had several things get in the way of fully realizing all of them. However, I can safely say that in the last two years I have mastered enough Groovy and Grails that they no longer fit in the LOTY category. At this point they&#39;re really not showing my anything that is causing any paradigm shifts for me. They&#39;re comfortable. When I learn a new feature, it just seems to make sense, and nothing surprises me anymore. Languages like these aren&#39;t good LOTY candidates because one of the purposes of learning a LOTY is to challenge and change your ideas about programming. Groovy doesn&#39;t do this for me anymore. It&#39;s time to move on (not to say that I&#39;m dropping Groovy and Grails as a tool - I&#39;m using them more now than ever - they&#39;re just not a learning tool for me anymore).&lt;/p&gt;
+&lt;p&gt;So, at this point I want to delve into a language that attempts to tackle the concurrent/multicore programming challenge. I&#39;d like to stay on the JVM because I appreciate the benefits that it brings as a platform, so for now Erlang is out. The two leading candidates in the JVM/concurrent/multicore arena seem to be &lt;a href=&#34;http://www.scala-lang.org/&#34;&gt;Scala&lt;/a&gt; and &lt;a href=&#34;http://clojure.org/&#34;&gt;Clojure&lt;/a&gt;. An added benefit of both of these languages is that they support the functional paradigm, something I haven&#39;t really played with since my computer science education days and a very interesting language named Haskell.&lt;/p&gt;
+&lt;p&gt;Scala is a multiparadigm language, supporting both object-oriented and functional constructs. It is statically typed, yet offers very nice type inference. Clojure, on the other hand, is a functional Lisp derivative with almost no OO constructs that is dynamically typed. Both are designed to enable concurrent programming. Which one do I choose? I open the floor for comments.&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>the developer iteration</title>
       <link>https://www.mattstine.com/2009/04/01/the-developer-iteration/</link>
       <pubDate>Wed, 01 Apr 2009 00:00:00 +0000</pubDate>
-      
       <guid>https://www.mattstine.com/2009/04/01/the-developer-iteration/</guid>
-      <description>I recently gave a 90 minute talk at work covering quite a bit of ground related to Agile Software Development. If I had to sum up agile development in one word, it would be FEEDBACK. Venkat Subramaniam and Andy Hunt give one of the best definitions of agile I&amp;rsquo;ve ever seen in their book, Practices of an Agile Developer:
- Agile development uses feedback to make constant adjustments in a highly collaborative environment.</description>
+      <description>&lt;p&gt;I recently gave a 90 minute talk at work covering quite a bit of ground related to Agile Software Development. If I had to sum up agile development in one word, it would be FEEDBACK. Venkat Subramaniam and Andy Hunt give one of the best definitions of agile I&#39;ve ever seen in their book, &lt;em&gt;Practices of an Agile Developer&lt;/em&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Agile development uses feedback to make constant adjustments in a highly collaborative environment.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Here&#39;s my graphical representation of this quote:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://mattstine.files.wordpress.com/2009/04/aws_fb_1012.jpg?w=300&#34; alt=&#34;Agile Feedback Loop&#34;&gt;&lt;/p&gt;
+&lt;p&gt;I decomposed this into an &amp;ldquo;ecosystem&amp;rdquo; of multiple feedback loops:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://mattstine.files.wordpress.com/2009/04/aws_fb_2013.jpg?w=300&#34; alt=&#34;Developer to Code&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://mattstine.files.wordpress.com/2009/04/aws_fb_3025.jpg?w=300&#34; alt=&#34;Developer to Developer&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://mattstine.files.wordpress.com/2009/04/aws_fb_4033.jpg?w=300&#34; alt=&#34;Team to Client&#34;&gt;&lt;/p&gt;
+&lt;p&gt;What I&#39;d like to focus on in this post is what I consider to be the heart of the &amp;ldquo;Developer to Code&amp;rdquo; feedback loop: &lt;strong&gt;The Developer Iteration&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;You see, iterations aren&#39;t just for teams. Indeed they are also for developers. So many times I have witnessed individuals struggling to participate fully in an agile project because when they return to their desks, for all intents and purposes, they are pretending to be a waterfall. They spend days analyzing a feature, code for days without sharing any code, test the happy path toward the end of the iteration, and attempt a big bang integration on the last day. I&#39;ll be the first to admit that I myself tried to code this way and had a couple of realizations after a short time:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Something felt completely unnatural about it, especially in the context of what we were trying to do as a team&amp;hellip;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;I was awfully miserable, especially at the end of the iteration.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;So, what does the developer iteration look like? It is essentially a microcosm of events that occur during a regular team iteration:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Look at your feature or task, and plan out what you have to do.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Break the work into small chunks, where each chunk leaves the system in a stable state, yet that much closer to the feature or task being complete.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Develop each chunk (preferably using Test-Driven Development), unit and integration testing your work along the way.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Check-in your code EVERY TIME you again arrive at a stable state.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;I&#39;ll give my definition of stability: A system with NO broken tests. How do we maintain stability? Here are several &amp;ldquo;smaller&amp;rdquo; steps that should immediately proceed your check-in step:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Run the tests on your development machine, fixing all broken ones until you reach 100% passing with the code you have.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Check out the latest code from your version control system, thereby integrating your team&#39;s changes with your own.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Run the tests AGAIN, fixing all broken ones until you reach 100% passing with the integrated code. At this point, your system is stable locally.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Check-in the code! Now the entire team has a stable, fully-integrated system.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;So, what&#39;s the point of all this? Look at how much feedback you&#39;re giving yourself along the way! Each time you stop and run the tests, you&#39;re getting feedback about the stability of your code. Not only that, but your constant striving for 100% stability greatly enhances your ability to refactor your code to keep it clean. You&#39;re able to constantly refine the code, creating smaller methods, more cohesive classes, and an overall simpler and better design combined with the confidence that your system is functionally equivalent to what you started with prior to refactoring.&lt;/p&gt;
+&lt;p&gt;Yet another benefit is an enhanced ability to timebox yourself. Working this way enhances your ability to plan to be &amp;ldquo;done&amp;rdquo; by the end of the day, as you&#39;re never very far from your next stable state. Go home with a stable system, and find a stable system when you get back in the morning. Doesn&#39;t that feel great? Even if you can&#39;t reach a stable state by the time you head home, there&#39;s always the throwaway option. Just revert your changes and go home with stable code. Try again with a fresh mind the next morning. Again, if you&#39;re working the developer iteration, you haven&#39;t written that much code since your last stable state anyway. :-)&lt;/p&gt;
+&lt;p&gt;Try it out. I&#39;m not a salesman. I&#39;m a satisfied customer.&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>deploying grails with groovy</title>
       <link>https://www.mattstine.com/2009/03/29/deploying-grails-with-groovy/</link>
       <pubDate>Sun, 29 Mar 2009 00:00:00 +0000</pubDate>
-      
       <guid>https://www.mattstine.com/2009/03/29/deploying-grails-with-groovy/</guid>
-      <description>Interesting title, eh? Maybe this one will make it through Glen&amp;rsquo;s filter at GroovyBlogs.org.
-On to the meat. I&amp;rsquo;ve been steadily working on a couple of Grails applications, one being the website for the Memphis JUG, and another being the e-commerce site for my wife&amp;rsquo;s soon to be launched designer stationery business. Just like your average Grails developer, I&amp;rsquo;ve been happily coding away at 127.0.0.1 using the good old development Jetty+MySQL stack.</description>
+      <description>&lt;p&gt;Interesting title, eh? Maybe this one will make it through Glen&#39;s filter at &lt;a href=&#34;http://groovyblogs.org&#34;&gt;GroovyBlogs.org&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;On to the meat. I&#39;ve been steadily working on a couple of Grails applications, one being the website for the &lt;a href=&#34;http://www.memphisjug.org&#34;&gt;Memphis JUG&lt;/a&gt;, and another being the e-commerce site for my wife&#39;s soon to be launched designer stationery business. Just like your average Grails developer, I&#39;ve been happily coding away at 127.0.0.1 using the good old development Jetty+MySQL stack. Well, in the last week or so it&#39;s come time to actually deploy both of these applications into production. I started out last weekend with the Memphis JUG site. My first approach was to build the WAR file locally and then &amp;ldquo;scp&amp;rdquo; it up to the server.&lt;/p&gt;
+&lt;p&gt;YMMV, but the upload speed on my DSL connection is horrible! After doing this three or four times in one night, waiting 15-20 minutes for the WAR to upload each time (Grails WAR&#39;s are rather thick when carrying all of the dependencies along), I decided to myself, &amp;ldquo;There must be a better way to do this.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;Fast forward a week and here I sit working on the first &amp;ldquo;pre-production&amp;rdquo; release of my wife&#39;s store site. With quite a bit of time on my hands during these &amp;ldquo;dark and early&amp;rdquo; hours (a story for a later entry), I decided it was time for the experiment.&lt;/p&gt;
+&lt;p&gt;Each of these projects is hosted at GitHub, so the process that I mapped out in my mind looked like this:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Check out the latest code from GitHub&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Run &amp;ldquo;grails war&amp;rdquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Stop the Tomcat service (my hosting provider sets up Tomcat to run as a service)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Delete the remnants of the previous deployment from Tomcat&#39;s deployment directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Copy the new WAR file to Tomcat&#39;s deployment directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Start the Tomcat service&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;By the way, I forgot to mention that before doing all of this I moved the production data source definition from being locally defined to being a JNDI lookup within Tomcat. This posed its own challenge, which I&#39;ll blog about a bit later.&lt;/p&gt;
+&lt;p&gt;Anyway, back to the deployment. I though this would be an excellent opportunity to take &lt;a href=&#34;http://groovy.codehaus.org/Using+Ant+from+Groovy&#34;&gt;Groovy&#39;s Antbuilder&lt;/a&gt; out for a spin. Here&#39;s an example of what I put together:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;#!/usr/bin/env groovy
+
+def ant = new AntBuilder()
+
+//Update the codebase from GitHub
+ant.exec(executable:&#39;git&#39;, dir: &amp;quot;${PROJECT_DIR}&amp;quot;) {
+        arg(value:&#39;pull&#39;)
+}
+
+//Generate the WAR file using Ant
+ant.ant(dir:&#39;&amp;quot;${PROJECT_DIR}&amp;quot;&#39;, target: &#39;war&#39;)
+
+//Stop Tomcat
+ant.exec(executable:&#39;service&#39;) {
+        arg(line:&#39;tomcat6 stop&#39;)
+}
+
+//Delete the old webapp contents from Tomcat&#39;s deploy directory
+ant.delete(includeemptydirs:&#39;true&#39;, verbose:&#39;true&#39;) {
+        fileset(dir:&amp;quot;${CONTEXT_ROOT_DIR}&amp;quot;, includes:&#39;**/*&#39;)
+}
+
+//Copy the new WAR file to Tomcat&#39;s deploy directory
+ant.copy(file:&amp;quot;${WAR_FILE}&amp;quot;, tofile:&amp;quot;${CONTEXT_ROOT_DIR}/ROOT.war&amp;quot;)
+
+//Start Tomcat
+ant.exec(executable:&#39;service&#39;) {
+        arg(line:&#39;tomcat6 start&#39;)
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;As you can see, I have a few undefined Groovy constants in there. Let&#39;s just say I didn&#39;t want to expose ALL of the details of my server.&lt;/p&gt;
+&lt;p&gt;At any rate, it&#39;s pretty simple. One word of warning - if you&#39;re using Ehcache, make sure to add it to your ivy.xml dependencies, or the Ant build won&#39;t bring it in like running &amp;ldquo;grails war&amp;rdquo; will. I hope someone finds this simple script useful. Enjoy!&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>need a textile engine look no further than plextile</title>
       <link>https://www.mattstine.com/2009/03/26/need-a-textile-engine-look-no-further-than-plextile/</link>
       <pubDate>Thu, 26 Mar 2009 00:00:00 +0000</pubDate>
-      
       <guid>https://www.mattstine.com/2009/03/26/need-a-textile-engine-look-no-further-than-plextile/</guid>
-      <description>In finishing up the first release of JUG Nexus, the open source engine (http://github.com/mstine/jug-nexus/tree/master) behind the new Memphis JUG website, I needed to put a good Textile engine in place. I really don&amp;rsquo;t care for writing actual HTML in a content management system, and JUG Nexus being a lightweight CMS, I wanted a lightweight markup syntax for entering the details of upcoming JUG meetings. Textile is exactly that, and is also used for entering content into the very useful JUGEvents system produced by JUG Padova for the Java User Group community at large.</description>
+      <description>&lt;p&gt;In finishing up the first release of JUG Nexus, the open source engine (&lt;a href=&#34;http://github.com/mstine/jug-nexus/tree/master&#34;&gt;&lt;a href=&#34;http://github.com/mstine/jug-nexus/tree/master&#34;&gt;http://github.com/mstine/jug-nexus/tree/master&lt;/a&gt;&lt;/a&gt;) behind the new Memphis JUG website, I needed to put a good &lt;a href=&#34;http://www.textism.com/tools/textile/&#34;&gt;Textile&lt;/a&gt; engine in place. I really don&#39;t care for writing actual HTML in a content management system, and JUG Nexus being a lightweight CMS, I wanted a lightweight markup syntax for entering the details of upcoming JUG meetings. Textile is exactly that, and is also used for entering content into the very useful &lt;a href=&#34;http://jugevents.org&#34;&gt;JUGEvents&lt;/a&gt; system produced by &lt;a href=&#34;http://www.jugpadova.it/&#34;&gt;JUG Padova&lt;/a&gt; for the Java User Group community at large. I tried out several different engines, and none of them seemed to be very robust when it came to edge cases in the markup. For example, if I want to produce a hyperlink to a website, the textile format is the following:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;&amp;quot;Linked Text&amp;quot;:http://www.site.com&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;This syntax will result in the following HTML:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;a href=&amp;quot;http://www.site.com&amp;quot;&amp;gt;Linked Text&amp;lt;/a&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Unfortunately, if you have a bang (!) in your &amp;ldquo;Linked Text,&amp;rdquo; most of the Textile engines that I used would not recognize it as an HTML link. Plextile does!&lt;/p&gt;
+&lt;p&gt;The only drawback, however minimal, to using Plextile is that it does not come with a pre-packaged JAR file. You have to take the compiled code and JAR it yourself. Now, for free, I&#39;ll include how I integrated Plextile with Grails. Grails has a very nice codec feature that provides a facility to register encoders and decoders of textual data as methods on any object. Grails searches for classes following the convention &lt;code&gt;XCodec&lt;/code&gt; and dynamically registers &lt;code&gt;encodeAsX&lt;/code&gt; and &lt;code&gt;decodeX&lt;/code&gt; methods on &lt;code&gt;java.lang.Object&lt;/code&gt; so that any data can be encoded and decoded. Enter the &lt;code&gt;TextileCodec&lt;/code&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;import com.plink.plextile.TextParser
+
+class TextileCodec {
+
+   static encode = {str -&amp;gt;
+      new TextParser().parseTextile(str, true)
+   }
+
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Believe it or not, that&#39;s it! Here&#39;s the GSP template for rendering a JUG meeting:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;div class=&amp;quot;post&amp;quot;&amp;gt;
+  &amp;lt;h2&amp;gt;${event.title}&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;g:formatDate format=&amp;quot;EEEE, MMMM dd, yyyy&amp;quot; date=&amp;quot;${event.startTime}&amp;quot;/&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;g:formatDate format=&amp;quot;h:mm&amp;quot; date=&amp;quot;${event.startTime}&amp;quot;/&amp;gt;-&amp;lt;g:formatDate format=&amp;quot;h:mm a&amp;quot; date=&amp;quot;${event.endTime}&amp;quot;/&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;g:if test=&amp;quot;${!event.archived}&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;http://jugevents.org/jugevents/event/${event.jugEventsId}&amp;quot;&amp;gt;Click HERE to register!&amp;lt;/a&amp;gt;&amp;lt;/g:if&amp;gt;&amp;lt;/h2&amp;gt;
+  &amp;lt;div class=&amp;quot;entry&amp;quot;&amp;gt;
+    &amp;lt;h2 class=&amp;quot;title&amp;quot;&amp;gt;Speaker/Topic:&amp;lt;/h2&amp;gt;
+    &amp;lt;p&amp;gt;${event.description.encodeAsTextile()}&amp;lt;/p&amp;gt;
+    &amp;lt;h2 class=&amp;quot;title&amp;quot;&amp;gt;Location/Directions:&amp;lt;/h2&amp;gt;
+    &amp;lt;p&amp;gt;${event.location}&amp;lt;/p&amp;gt;
+    &amp;lt;p&amp;gt;${event.directions.encodeAsTextile()}&amp;lt;/p&amp;gt;
+  &amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Enjoy!&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>the manifesto for software craftsmanship</title>
       <link>https://www.mattstine.com/2009/03/15/the-manifesto-for-software-craftsmanship/</link>
       <pubDate>Sun, 15 Mar 2009 00:00:00 +0000</pubDate>
-      
       <guid>https://www.mattstine.com/2009/03/15/the-manifesto-for-software-craftsmanship/</guid>
-      <description>So as I&amp;rsquo;m sitting here thumbing through my InfoQ feed on Google Reader, I come across the following posting: Software Craftsmanship Manifesto: A Call to Arms. It seems that a group of &amp;ldquo;programming patriots&amp;rdquo; has struck again (see the Manifesto for Agile Software Development - circa 2001), complete with a &amp;ldquo;founding document&amp;rdquo; look and feel. Clicking through the source link, one finds the following:
- As aspiring Software Craftsmen we are raising the bar of professional software development by practicing it and helping others learn the craft.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;http://5386.openphoto.net&#34;&gt;&lt;img src=&#34;http://openphoto.net/cgi-bin/image?image_id=5386&#34; alt=&#34;&#34;&gt;&lt;/a&gt;So as I&#39;m sitting here thumbing through my &lt;a href=&#34;http://www.infoq.com&#34;&gt;InfoQ&lt;/a&gt; feed on &lt;a href=&#34;http://www.google.com/reader&#34;&gt;Google Reader&lt;/a&gt;, I come across the following posting: &lt;a href=&#34;http://www.infoq.com/news/2009/03/software_craftsmanship&#34;&gt;Software Craftsmanship Manifesto: A Call to Arms&lt;/a&gt;. It seems that a group of &amp;ldquo;programming patriots&amp;rdquo; has struck again (see the &lt;a href=&#34;http://agilemanifesto.org&#34;&gt;Manifesto for Agile Software Development&lt;/a&gt; - circa 2001), complete with a &amp;ldquo;founding document&amp;rdquo; look and feel. Clicking through &lt;a href=&#34;http://manifesto.softwarecraftsmanship.org/&#34;&gt;the source link&lt;/a&gt;, one finds the following:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;As aspiring Software Craftsmen we are raising the bar of professional software development by practicing it and helping others learn the craft. Through this work we have come to value:&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Not only working software, but also well-crafted software&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Not only responding to change, but also steadily adding value&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Not only individuals and interactions, but also a community of professionals&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Not only customer collaboration,but also productive partnerships&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;That is, in pursuit of the items on the left we have found the items on the right to be indispensable.&lt;/p&gt;
+&lt;p&gt;© 2009, the undersigned. this statement may be freely copied in any form, but only in its entirety through this notice.&lt;/p&gt;
+&lt;p&gt;You can&#39;t even imagine my excitement in reading this. This statement of values is something that I have been trying to get across without having the needed words for quite some time.&lt;/p&gt;
+&lt;p&gt;The motivation, says the InfoQ article, is right on target:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The members of the manifesto group answered two key questions: “How will it help solve the problems of crap code?” and “What will motivate &amp;ldquo;The developer just churning out code&amp;rdquo; to become a craftsman?” - the distinction is between the developer who is just getting it done vs the one getting it done right.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I have felt for a long time that the elements of craftsmanship are something sorely missing from our field. We, as programmers, are often so consumed with getting the job done that we do often neglect getting it done right. In our haste to move on to the next exciting project and/or technology, we neglect the tenets of simple design, test-driven development, merciless refactoring, clean code, etc. We&#39;re often quite satisfied with the &amp;ldquo;hacky solution here&amp;rdquo; and the &amp;ldquo;quick and dirty solution there.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;Quite frankly, I&#39;ve had enough of that. I&#39;m not satisfied when the contractor building my house cuts corners. I&#39;m quite irritable when my mechanic does a less than thorough job with my car. Why should I expect my clients to settle for software built like that?&lt;/p&gt;
+&lt;p&gt;So, to make this a practical rant, I thought I&#39;d share a couple of the things that we&#39;re doing in our team to move us in the right direction:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;First of all, we started a weekly &amp;ldquo;brown bag lunch/workshop,&amp;rdquo; inspired by Andy Hunt and Venkat Subramaniam&#39;s discussion in &lt;a href=&#34;http://pragprog.com/titles/pad/practices-of-an-agile-developer&#34;&gt;Practices of an Agile Developer&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Second, we selected books to read as a team that will point us in the right direction. Our first two titles were &lt;a href=&#34;http://pragprog.com/titles/tpp/the-pragmatic-programmer&#34;&gt;The Pragmatic Programmer: From Journeyman to Master&lt;/a&gt; (see, there&#39;s craftsmanship right away!) and &lt;a href=&#34;http://www.pearsonhighered.com/educator/academic/product/1,3110,0132350882,00.html&#34;&gt;Clean Code: A Handbook of Agile Software Craftsmanship&lt;/a&gt; (sense a pattern yet?).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Third, we make a point of our weekly discussions to look at ways we can integrate the principles and practices that we&#39;re learning into our daily work. An example: We&#39;re working to integrate peer code review into our development process. The principles, patterns, and practices that we&#39;re picking up from Clean Code will be informing us as we review code and look for possible improvements.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;So, with that said, tonight I became a signatory of the manifesto. &lt;a href=&#34;http://manifesto.softwarecraftsmanship.org/sign/new&#34;&gt;Why don&#39;t you join me and fight the fight against crappy code!&lt;/a&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>grailsdojo ajax file upload</title>
       <link>https://www.mattstine.com/2009/03/13/grailsdojo-ajax-file-upload/</link>
       <pubDate>Fri, 13 Mar 2009 00:00:00 +0000</pubDate>
-      
       <guid>https://www.mattstine.com/2009/03/13/grailsdojo-ajax-file-upload/</guid>
-      <description>I&amp;rsquo;m currently working on a Grails application with a requirement for uploading product images, which are subsequently resized into thumbnails of various sizes for different shopping screens. Since it took a bit of doing to get this done, I thought I&amp;rsquo;d post my solution here in case anyone could benefit from it.
-First, to set the stage, I&amp;rsquo;ve upgraded the application all the way to the newly released Grails 1.1.</description>
+      <description>&lt;p&gt;I&#39;m currently working on a &lt;a href=&#34;http://grails.org/&#34;&gt;Grails&lt;/a&gt; application with a requirement for uploading product images, which are subsequently resized into thumbnails of various sizes for different shopping screens. Since it took a bit of doing to get this done, I thought I&#39;d post my solution here in case anyone could benefit from it.&lt;/p&gt;
+&lt;p&gt;First, to set the stage, I&#39;ve upgraded the application all the way to the newly released &lt;a href=&#34;http://www.springsource.org/node/1107&#34;&gt;Grails 1.1&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;To start off, I naively attempted to use the built-in Prototype library to do the upload with a simple &lt;code&gt;&amp;lt;g:submitRemote/&amp;gt;&lt;/code&gt; tag. You might have guessed that this didn&#39;t work at all. Continuing to learn the hard way (without reading the manual I might add), I submitted this as a bug to the Grails project. Graeme ever so politely informed me that this was known and expected behavior, as Prototype doesn&#39;t support such a thing. However, it was Graeme that also tipped me off to try Dojo.&lt;/p&gt;
+&lt;p&gt;So, continuing down this path, I proceeded to install the Grails Dojo plugin. Once this is done, a &lt;code&gt;&amp;lt;g:javascript library=&amp;quot;dojo&amp;quot;/&amp;amp;gt&lt;/code&gt; is supposedly all that is required to convert your Ajax calls from Prototype to Dojo. This turned out to not be the case for me, with Javascript errors popping up all over the place, not the least of which was that dojo.js seemed to be installed in an unexpected location via the plugin. The hacker in me simply copied this to the expected location and moved along. However, as I attempted to work with Dojo&#39;s file upload support, I discovered that the version of Dojo shipped with the plugin seemed at first glance to be way behind. Frustrated by this, I went ahead and stripped the Dojo plugin out and installed &lt;a href=&#34;http://download.dojotoolkit.org/release-1.2.3/dojo.js&#34;&gt;the latest version available (at this writing 1.2.3)&lt;/a&gt;, and set about to develop my solution.&lt;/p&gt;
+&lt;p&gt;Here goes:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;1. Add the necessary Dojo dependencies to your GSP:&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;script type=&amp;quot;text/javascript&amp;quot; src=&amp;quot;${createLinkTo(dir: &#39;js/dojo&#39;, file: &#39;dojo.js&#39;)}&amp;quot;
+   djConfig=&amp;quot;parseOnLoad:true, isDebug:true&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+&amp;lt;g:javascript&amp;gt;
+   dojo.require(&amp;quot;dojo.io.iframe&amp;quot;);
+&amp;lt;/g:javascript&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;2. Write a function using dojo.io.iframe to send the form:&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;function submitForm() {
+   dojo.io.iframe.send({
+      form: &#39;uploadProductImageForm&#39;,
+      load: function (data) {
+         dojo.byId(&#39;productImage&#39;).innerHTML = data;
+      }
+   });
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;3. Create the file upload form:&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;g:form name=&amp;quot;uploadProductImageForm&amp;quot; method=&amp;quot;post&amp;quot; action=&amp;quot;uploadProductImage&amp;quot; enctype=&amp;quot;multipart/form-data&amp;quot;&amp;gt;
+   &amp;lt;input type=&amp;quot;hidden&amp;quot; name=&amp;quot;id&amp;quot; value=&amp;quot;${productInstance?.id}&amp;quot;/&amp;gt;
+   &amp;lt;input type=&amp;quot;file&amp;quot; name=&amp;quot;newProductImage&amp;quot;/&amp;gt;
+   &amp;lt;span class=&amp;quot;button&amp;quot;&amp;gt;&amp;lt;input class=&amp;quot;add&amp;quot; type=&amp;quot;button&amp;quot; name=&amp;quot;uploadImage&amp;quot; value=&amp;quot;Upload Image&amp;quot; onclick=&amp;quot;submitForm()&amp;quot;/&amp;gt;&amp;lt;/span&amp;gt;
+&amp;lt;/g:form&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;4. Create the controller method:&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;def uploadProductImage = {
+   def f = request.getFile(&#39;newProductImage&#39;)
+   if (!f.empty) {
+
+   def imagePath = grailsApplication.config.store.productImages.location
+
+   //Create unique name for this image set based on current timestamp
+   def name = &amp;quot;image&amp;quot; + new Date().getTime()
+
+   //Store the file
+   def file = new File(&amp;quot;${imagePath}/${originalFilename}&amp;quot;)
+   f.transferTo(file)
+
+   //Do some image processing (resizing, etc.)
+   ...
+
+   //Dojo requires returning the result nested in an HTML document containing a body and textarea tag. Do this with
+   //Groovy&#39;s built-in MarkupBuilder
+
+   def writer = new StringWriter()
+   def xml = new MarkupBuilder(writer)
+
+   xml.html {
+     body {
+       textarea {
+         img(src: resource(dir: grailsApplication.config.store.productImages.webPath, file: product.mediumImage.name), width: &#39;250&#39;)
+       }
+     }
+   }
+
+   render writer.toString()
+   }
+   else {
+      flash.message = &#39;file cannot be empty&#39;
+      redirect(action: show)
+   }
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;And there you have it. Let me know what you think of this solution. It definitely works for me. You will notice that I didn&#39;t include an upload progress bar - I&#39;ll be doing this in a future iteration of the project. Cheers!&lt;/p&gt;
+</description>
     </item>
     
   </channel>

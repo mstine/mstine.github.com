@@ -1,83 +1,126 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>General on Matt Stine</title>
+    <title>general | Matt Stine</title>
     <link>https://www.mattstine.com/categories/general/</link>
-    <description>Recent content in General on Matt Stine</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2018 Matt Stine</copyright>
-    <lastBuildDate>Sun, 02 Jan 2011 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://www.mattstine.com/categories/general/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="https://www.mattstine.com/categories/general/index.xml" rel="self" type="application/rss+xml" />
+    <description>general</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Matt Stine</copyright><lastBuildDate>Sun, 02 Jan 2011 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>general</title>
+      <link>https://www.mattstine.com/categories/general/</link>
+    </image>
     
     <item>
       <title>2010 in review the automated analysis</title>
       <link>https://www.mattstine.com/2011/01/02/2010-in-review-the-automated-analysis/</link>
       <pubDate>Sun, 02 Jan 2011 00:00:00 +0000</pubDate>
-      
       <guid>https://www.mattstine.com/2011/01/02/2010-in-review-the-automated-analysis/</guid>
-      <description>The stats helper monkeys at WordPress.com mulled over how this blog did in 2010, and here&amp;rsquo;s a high level summary of its overall blog health:
-The Blog-Health-o-Meter™ reads Fresher than ever.
-Crunchy numbers A helper monkey made this abstract painting, inspired by your stats.
-A Boeing 747-400 passenger jet can hold 416 passengers. This blog was viewed about 6,600 times in 2010. That&amp;rsquo;s about 16 full 747s.
-In 2010, there were 15 new posts, growing the total archive of this blog to 115 posts.</description>
+      <description>&lt;p&gt;The stats helper monkeys at WordPress.com mulled over how this blog did in 2010, and here&#39;s a high level summary of its overall blog health:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://s0.wp.com/i/annual-recap/meter-healthy3.gif&#34; alt=&#34;Healthy blog!&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The &lt;em&gt;Blog-Health-o-Meter™&lt;/em&gt; reads Fresher than ever.&lt;/p&gt;
+&lt;h2 id=&#34;crunchy-numbers&#34;&gt;Crunchy numbers&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;http://s0.wp.com/i/annual-recap/abstract-stats-1.png&#34; alt=&#34;Featured image&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;A helper monkey made this abstract painting, inspired by your stats.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;A Boeing 747-400 passenger jet can hold 416 passengers.  This blog was viewed about &lt;strong&gt;6,600&lt;/strong&gt; times in 2010.  That&#39;s about 16 full 747s.&lt;/p&gt;
+&lt;p&gt;In 2010, there were &lt;strong&gt;15&lt;/strong&gt; new posts, growing the total archive of this blog to 115 posts. There were &lt;strong&gt;24&lt;/strong&gt; pictures uploaded, taking up a total of 979kb. That&#39;s about 2 pictures per month.&lt;/p&gt;
+&lt;p&gt;The busiest day of the year was June 4th with &lt;strong&gt;139&lt;/strong&gt; views. The most popular post that day was &lt;a href=&#34;http://mattstine.com/2010/06/03/dont-build-software-thats-too-smart/&#34;&gt;Don&#39;t build software that&#39;s TOO smart!&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;where-did-they-come-from&#34;&gt;Where did they come from?&lt;/h2&gt;
+&lt;p&gt;The top referring sites in 2010 were &lt;strong&gt;agile.dzone.com&lt;/strong&gt;, &lt;strong&gt;java.dzone.com&lt;/strong&gt;, &lt;strong&gt;twitter.com&lt;/strong&gt;, &lt;strong&gt;Google Reader&lt;/strong&gt;, and &lt;strong&gt;javablogs.com&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Some visitors came searching, mostly for &lt;strong&gt;matt stine&lt;/strong&gt;, &lt;strong&gt;groovy http post&lt;/strong&gt;, &lt;strong&gt;groovy post&lt;/strong&gt;, &lt;strong&gt;groovy url post&lt;/strong&gt;, and &lt;strong&gt;groovy url encode&lt;/strong&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;attractions-in-2010&#34;&gt;Attractions in 2010&lt;/h2&gt;
+&lt;p&gt;These are the posts and pages that got the most views in 2010.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://mattstine.com/2010/06/03/dont-build-software-thats-too-smart/&#34;&gt;Don&#39;t build software that&#39;s TOO smart!&lt;/a&gt; June 2010 1 comment&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://mattstine.com/2009/04/25/groovy-post-to-a-url/&#34;&gt;Groovy: Post to a URL&lt;/a&gt; April 2009 4 comments&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://mattstine.com/resume/&#34;&gt;Resume&lt;/a&gt; March 2009&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://mattstine.com/2009/03/29/deploying-grails-with-groovy/&#34;&gt;Deploying Grails with Groovy&lt;/a&gt; March 2009&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://mattstine.com/2009/04/02/loty-time-again-scala-or-clojure/&#34;&gt;LOTY Time Again: Scala or Clojure?!?!&lt;/a&gt; April 2009 17 comments&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</description>
     </item>
     
     <item>
       <title>my ipod is on rice</title>
       <link>https://www.mattstine.com/2009/03/13/my-ipod-is-on-rice/</link>
       <pubDate>Fri, 13 Mar 2009 00:00:00 +0000</pubDate>
-      
       <guid>https://www.mattstine.com/2009/03/13/my-ipod-is-on-rice/</guid>
-      <description>Let me set the stage for you. I&amp;rsquo;m driving home happily listening to Ted Neward discuss the merits of Scala on the Javaworld podcast. As I pull into the driveway I see my wife waving frantically in the window. As geek brain struggles to process this, home brain kicks into gear. She needs me in the house now! I jump out of the car and slam the door shut, leaving all of the belongings I typically carry in the house.</description>
+      <description>&lt;p&gt;Let me set the stage for you. I&#39;m driving home happily listening to Ted Neward discuss the merits of Scala on the Javaworld podcast. As I pull into the driveway I see my wife waving frantically in the window. As geek brain struggles to process this, home brain kicks into gear. She needs me in the house now! I jump out of the car and slam the door shut, leaving all of the belongings I typically carry in the house.&lt;/p&gt;
+&lt;p&gt;I enter the house to find that a wasp has some how gotten in and is terrorizing the family. What ensues is roughly 15 minutes of wasp hunting. Wasp dead - end of story. Or so I thought.&lt;/p&gt;
+&lt;p&gt;As I&#39;m driving my iPod (attached to the iTrip FM transmitter/charger) typically sits in my lap (for some reason I get the least FM interference that way). What I didn&#39;t notice in my hasty departure from the vehicle is that my iPod nano flew out of the vehicle and was hanging by the iTrip cable. Unaware of this, I slammed the door on the cable and walked away.&lt;/p&gt;
+&lt;p&gt;This in and of itself wasn&#39;t a huge problem. Leaving it that way for approximately 24 hours - most of which included rather steady rainfall - was.&lt;/p&gt;
+&lt;p&gt;So, a quick Google search finds that the consensus approach seems to be sticking the iPod in a cup of dry rice to soak up the moisture. So there you have it - my iPod is on rice. I hope it works. Stay tuned.&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>its been a long time</title>
       <link>https://www.mattstine.com/2009/03/12/its-been-a-long-time/</link>
       <pubDate>Thu, 12 Mar 2009 00:00:00 +0000</pubDate>
-      
       <guid>https://www.mattstine.com/2009/03/12/its-been-a-long-time/</guid>
-      <description>&amp;hellip;since I actively spent any time blogging. What you don&amp;rsquo;t know is that it has been a long time since I&amp;rsquo;ve done any writing whatsoever. The last two posts on this blog revolved around the birth of my first son, Grant Dawson, on May 16, 2009. This was one of several events that took place almost a year ago that sent me directly into a whirlwind of activity that found me barely keeping my head above water.</description>
+      <description>&lt;p&gt;&amp;hellip;since I actively spent any time blogging. What you don&#39;t know is that it has been a long time since I&#39;ve done any writing whatsoever. The last two posts on this blog revolved around the birth of my first son, Grant Dawson, on May 16, 2009. This was one of several events that took place almost a year ago that sent me directly into a whirlwind of activity that found me barely keeping my head above water.&lt;/p&gt;
+&lt;p&gt;It was also about this time that I found myself newly promoted into front-line management. The team that I entered first in 2000 as a Bioinformatics Intern during my last summer as an undergraduate, and then as a Software Engineer/Web Developer I following graduation in 2001, was now mine to lead. After doing this job now for nearly a year, I can safely say that my career as a developer has both prepared me for this role and left me completely bankrupt when faced with the responsibilities that are now mine. More on this to come.&lt;/p&gt;
+&lt;p&gt;Another event that transpired in May was the sale of our first home. It had been on the market since March, and we &amp;ldquo;paused&amp;rdquo; the showings as Grant&#39;s arrival became imminent. It was near the end of May that we received both our first and our last post-Grant showing phone call. I remarked to Wendy - &amp;ldquo;these folks are going to buy the house.&amp;rdquo; And buy it they did. Unfortunately for us, we had no idea whatsoever where we were going to move. What ensued was a chaotic whirlwind of house hunting which ended with us making an offer on a house that wasn&#39;t even on the market. And that&#39;s the house I&#39;m sitting in while I write this first entry of 2009. Ask me to tell you the story sometime - it&#39;s a good one.&lt;/p&gt;
+&lt;p&gt;So, why I&#39;m I here? Why not just leave the blogging task. After all, isn&#39;t blogging passe at this point?&lt;/p&gt;
+&lt;p&gt;I credit my return to the blogosphere to an incredible book by Jared Richardson and Matthew Bass - &lt;a href=&#34;http://www.lulu.com/content/5925115&#34;&gt;Career 2.0: Take Control of Your Life&lt;/a&gt;. The basic premise of this book is to &amp;ldquo;Actively manage your career.&amp;rdquo; One of the ways by which the authors share how to do this is writing - sharing what you know with the community at-large. Of course what they shared was no surprise to me. I already knew all too well the career benefits associated with blogging. What I needed was a proverbial &amp;ldquo;kick in the pants.&amp;rdquo; And that&#39;s what Career 2.0 did for me. If you&#39;re in the software industry - take that back, I don&#39;t care what industry you&#39;re in (these principles are transcendent) - do yourself a favor and read this book. It will change something about your life, guaranteed.&lt;/p&gt;
+&lt;p&gt;So, with that, let&#39;s start the conversation again. I&#39;m looking forward to where it might lead. Cheers!&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>introducing grant dawson stine</title>
       <link>https://www.mattstine.com/2008/05/18/introducing-grant-dawson-stine/</link>
       <pubDate>Sun, 18 May 2008 00:00:00 +0000</pubDate>
-      
       <guid>https://www.mattstine.com/2008/05/18/introducing-grant-dawson-stine/</guid>
-      <description>So I haven&amp;rsquo;t blogged in quite awhile. I&amp;rsquo;ve been rather busy - here&amp;rsquo;s one VERY important reason why. Grant was born Friday, May 16, 2008, weighing in at 9 pounds 4 ounces and 22 inches long. Mom and baby are doing wonderfully, but as you can see, Dad is in a bit of shock!</description>
+      <description>&lt;p&gt;So I haven&#39;t blogged in quite awhile. I&#39;ve been rather busy - here&#39;s one VERY important reason why. Grant was born Friday, May 16, 2008, weighing in at 9 pounds 4 ounces and 22 inches long. Mom and baby are doing wonderfully, but as you can see, Dad is in a bit of shock!&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://4.bp.blogspot.com/_Vo63LRwAZbk/SDCAMcjQJGI/AAAAAAAAAfA/5LZWAyRyOfs/s1600-h/P5160099.jpg&#34;&gt;&lt;img src=&#34;http://4.bp.blogspot.com/_Vo63LRwAZbk/SDCAMcjQJGI/AAAAAAAAAfA/5LZWAyRyOfs/s400/P5160099.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://1.bp.blogspot.com/_Vo63LRwAZbk/SDCAMsjQJHI/AAAAAAAAAfI/5frhZqimCJM/s1600-h/P5160126.jpg&#34;&gt;&lt;img src=&#34;http://1.bp.blogspot.com/_Vo63LRwAZbk/SDCAMsjQJHI/AAAAAAAAAfI/5frhZqimCJM/s400/P5160126.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>greetings from san francisco</title>
       <link>https://www.mattstine.com/2007/05/05/greetings-from-san-francisco/</link>
       <pubDate>Sat, 05 May 2007 00:00:00 +0000</pubDate>
-      
       <guid>https://www.mattstine.com/2007/05/05/greetings-from-san-francisco/</guid>
-      <description>This is the view from my quaint little hotel room at the Hotel Nikko in downtown San Francisco, California. I arrived here after a long morning of travel. First ~4 hours of flight from Memphis, TN to San Francisco International, followed by traversing the airport maze to find the BART (Bay Area Rapid Transit) train station. Once I found the right station, it was another 15 minutes of waiting on a train followed by a 40 minute train ride.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;http://picasaweb.google.com/matt.stine/SanFranciscoJavaOne2007/photo#5061188923529143090&#34;&gt;&lt;img src=&#34;http://lh3.google.com/image/matt.stine/Rjz0grgYozI/AAAAAAAAAAs/tgIAHcd27AE/s288/DSCN0998.JPG&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This is the view from my quaint little hotel room at the Hotel Nikko in downtown San Francisco, California. I arrived here after a long morning of travel. First ~4 hours of flight from Memphis, TN to San Francisco International, followed by traversing the airport maze to find the BART (Bay Area Rapid Transit) train station. Once I found the right station, it was another 15 minutes of waiting on a train followed by a 40 minute train ride. Almost home? Not quite. As I ride the escalator out of the subway, I realize just what a country boy I am. There are literally hundreds of people crawling around on the streets, and here I am, toting a large rolling suitcase, a laptop, and a backpack, and looking totally clueless! Where is my hotel? I was definitely a prime target for predators just looking to make a quick buck. Within seconds I heard, &amp;ldquo;Where you looking to go? I&#39;ve got a map.&amp;rdquo; I quickly responds with &amp;ldquo;I&#39;ve got it, thanks.&amp;rdquo; Of course, I didn&#39;t have it. But I didn&#39;t have 20 bucks for the guy either! Not a few more steps up the sidewalk I&#39;m confronted by Indian monks wanting to share their religion with me. I did have a nice conversation with this guy and got him to take one of my pocket Gospels of John (thank you Pocket Testament League!). Finally a nice family pointed me in the right direction. I figured out that if you look like you&#39;re on a mission and you know what you&#39;re doing, people don&#39;t come up to you, so I put on my best serious face and headed for the Hotel Nikko. Now here I am, and from my window I&#39;ve got a nice view of the pool area which is surrounded by an interesting looking rock garden:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://picasaweb.google.com/matt.stine/SanFranciscoJavaOne2007/photo#5061188992248619858&#34;&gt;&lt;img src=&#34;http://lh3.google.com/image/matt.stine/Rjz0krgYo1I/AAAAAAAAAA8/G7sMo_WekFc/s288/DSCN1000.JPG&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I also can see what looks like a potentially good Thai restaurant on the corner:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://picasaweb.google.com/matt.stine/SanFranciscoJavaOne2007/photo#5061188940709012290&#34;&gt;&lt;img src=&#34;http://lh3.google.com/image/matt.stine/Rjz0hrgYo0I/AAAAAAAAAA0/poC9lBKXNDw/s288/DSCN0999.JPG&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The reviews on Google Maps look promising!&lt;/p&gt;
+&lt;p&gt;On a final note for this entry, I desperately miss my family. Our goodbye at Memphis International was tear-filled, especially by Wendy. I haven&#39;t been this far away from them in a LOOOOONG time. In fact, Abby was only about 10 months old the last time I went on a business trip without them. Isabella and Ali Kate weren&#39;t even conceived yet! I managed to get a web camera for the trip, so I&#39;m going to send them a video message every day. Check your email sweetheart! I love you all SO MUCH!&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>welcome</title>
       <link>https://www.mattstine.com/2007/04/30/welcome/</link>
       <pubDate>Mon, 30 Apr 2007 00:00:00 +0000</pubDate>
-      
       <guid>https://www.mattstine.com/2007/04/30/welcome/</guid>
-      <description>I plan to start posting here on Saturday, May 5, 2007. Look for photos, videos, and session synopses, as well as miscellaneous banter about JavaOne 2007 in San Francisco, CA!</description>
+      <description>&lt;p&gt;I plan to start posting here on Saturday, May 5, 2007. Look for photos, videos, and session synopses, as well as miscellaneous banter about JavaOne 2007 in San Francisco, CA!&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>i made raibles blog</title>
       <link>https://www.mattstine.com/2006/07/25/i-made-raibles-blog/</link>
       <pubDate>Tue, 25 Jul 2006 00:00:00 +0000</pubDate>
-      
       <guid>https://www.mattstine.com/2006/07/25/i-made-raibles-blog/</guid>
-      <description>Apparently Matt Raible thought my JSF modifications to the AppFuse-Compass tutorial were good enough to merit a mention on his blog: AppFuse Videos updated for 1.9.3. Check out the bottom of the entry.
-Compass really is a nice tool - I was able to provide search capabilities for an app I&amp;rsquo;m working on right now with about 2 days worth of work (having never worked w/ Compass before), and man is it fast!</description>
+      <description>&lt;p&gt;Apparently Matt Raible thought my JSF modifications to the AppFuse-Compass tutorial were good enough to merit a mention on his blog: &lt;a href=&#34;http://raibledesigns.com/page/rd?entry=appfuse_videos_updated_for_1&#34;&gt;AppFuse Videos updated for 1.9.3&lt;/a&gt;.  Check out the bottom of the entry.&lt;/p&gt;
+&lt;p&gt;Compass really is a nice tool - I was able to provide search capabilities for an app I&#39;m working on right now with about 2 days worth of work (having never worked w/ Compass before), and man is it fast! I can&#39;t get a search to exceed 1.5 seconds!&lt;/p&gt;
+</description>
     </item>
     
   </channel>
