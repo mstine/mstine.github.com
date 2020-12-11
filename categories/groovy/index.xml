@@ -5,9 +5,9 @@
     <link>https://www.mattstine.com/categories/groovy/</link>
       <atom:link href="https://www.mattstine.com/categories/groovy/index.xml" rel="self" type="application/rss+xml" />
     <description>groovy</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Matt Stine</copyright><lastBuildDate>Tue, 10 Nov 2009 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2020 Matt Stine</copyright><lastBuildDate>Tue, 10 Nov 2009 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <url>https://www.mattstine.com/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
       <title>groovy</title>
       <link>https://www.mattstine.com/categories/groovy/</link>
     </image>
@@ -17,12 +17,12 @@
       <link>https://www.mattstine.com/2009/11/10/securing-grails-plugin-artifacts-with-filters/</link>
       <pubDate>Tue, 10 Nov 2009 00:00:00 +0000</pubDate>
       <guid>https://www.mattstine.com/2009/11/10/securing-grails-plugin-artifacts-with-filters/</guid>
-      <description>&lt;p&gt;So you&#39;ve just installed the handy dandy Spring Security plugin (&lt;a href=&#34;http://grails.org/plugin/acegi&#34;&gt;http://grails.org/plugin/acegi&lt;/a&gt;), which makes it incredibly easy to secure entire Grails controllers and/or controller actions with annotations, such as the following:&lt;/p&gt;
+      <description>&lt;p&gt;So you&amp;rsquo;ve just installed the handy dandy Spring Security plugin (&lt;a href=&#34;http://grails.org/plugin/acegi),&#34;&gt;http://grails.org/plugin/acegi),&lt;/a&gt; which makes it incredibly easy to secure entire Grails controllers and/or controller actions with annotations, such as the following:&lt;/p&gt;
 &lt;p&gt;This is enabled by turning on controller annotations in your SecurityConfig.groovy file:&lt;/p&gt;
-&lt;p&gt;So all is now good in our project. We can secure either controllers or actions with annotations, enabling us to declaratively setup security side-by-side with the code that we&#39;re securing in a very straightforward manner. You can continue developing your Grails applications with glee, fully assured that security is no longer an issue. But wait, one day you decide to install one of the many useful Grails plugins that add controller artifacts to your application. Lo and behold, you have no way to secure those controllers! Of course, you could descend into $USER_HOME/.grails/$GRAILS_VERSION/projects/projectName/plugins/pluginX and hack the source code for your individual instance of the plugin. This ought to work, but you&#39;re now rather constrained in that every time you update the plugin you&#39;ll need to remember to go make this manual change. That doesn&#39;t sound very agile at all, does it? OK, so how about forking the plugin? This is a little bit better, but now you have the burden of merging changes from the global plugin repository to yours every time a new release happens. This is better, but still a bit cumbersome. How about becoming a committer and adding it to the global source? Of course not. Not everyone will want to secure their plugins the same way you do, and you&#39;ve just introduced a rather unnecessary dependency on the Spring Security plugin. I say all this in an attempt to paint a grim picture. In reality, we&#39;re actually in very good shape. Grails Filters to the rescue!&lt;/p&gt;
-&lt;p&gt;All that you need to do is create a Grails filter that will match requests to the plugin artifact in question and then delegate to Spring Security for authorization. If they are authorized, you simply return true. If not, you can direct them to your login screen. It&#39;s this simple:&lt;/p&gt;
-&lt;p&gt;As you can see here, I&#39;ve secured both the Blurb plugin and the Settings plugin in this manner by requiring that the logged in user be in the ROLE_ADMIN role. Now as Glen Smith would say, that&#39;s a snack!&lt;/p&gt;
-&lt;p&gt;_&lt;strong&gt;Update:&lt;/strong&gt; &lt;a href=&#34;http://burtbeckwith.com/blog/&#34;&gt;Burt Beckwith&lt;/a&gt; enlightened me to an approach that will get this done without the use of filters that will also direct you to the requested URL after login rather than the main page. Unfortunately I&#39;ve never been able to track this down before. Just add the following to SecurityConfig.groovy:_&lt;/p&gt;
+&lt;p&gt;So all is now good in our project. We can secure either controllers or actions with annotations, enabling us to declaratively setup security side-by-side with the code that we&amp;rsquo;re securing in a very straightforward manner. You can continue developing your Grails applications with glee, fully assured that security is no longer an issue. But wait, one day you decide to install one of the many useful Grails plugins that add controller artifacts to your application. Lo and behold, you have no way to secure those controllers! Of course, you could descend into $USER_HOME/.grails/$GRAILS_VERSION/projects/projectName/plugins/pluginX and hack the source code for your individual instance of the plugin. This ought to work, but you&amp;rsquo;re now rather constrained in that every time you update the plugin you&amp;rsquo;ll need to remember to go make this manual change. That doesn&amp;rsquo;t sound very agile at all, does it? OK, so how about forking the plugin? This is a little bit better, but now you have the burden of merging changes from the global plugin repository to yours every time a new release happens. This is better, but still a bit cumbersome. How about becoming a committer and adding it to the global source? Of course not. Not everyone will want to secure their plugins the same way you do, and you&amp;rsquo;ve just introduced a rather unnecessary dependency on the Spring Security plugin. I say all this in an attempt to paint a grim picture. In reality, we&amp;rsquo;re actually in very good shape. Grails Filters to the rescue!&lt;/p&gt;
+&lt;p&gt;All that you need to do is create a Grails filter that will match requests to the plugin artifact in question and then delegate to Spring Security for authorization. If they are authorized, you simply return true. If not, you can direct them to your login screen. It&amp;rsquo;s this simple:&lt;/p&gt;
+&lt;p&gt;As you can see here, I&amp;rsquo;ve secured both the Blurb plugin and the Settings plugin in this manner by requiring that the logged in user be in the ROLE_ADMIN role. Now as Glen Smith would say, that&amp;rsquo;s a snack!&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Update:&lt;/strong&gt; &lt;a href=&#34;http://burtbeckwith.com/blog/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Burt Beckwith&lt;/a&gt; enlightened me to an approach that will get this done without the use of filters that will also direct you to the requested URL after login rather than the main page. Unfortunately I&amp;rsquo;ve never been able to track this down before. Just add the following to SecurityConfig.groovy:&lt;/em&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -52,7 +52,7 @@ public class BusinessActivityBinMetaClassHelper {
 //...
 }
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;As I read this code, I thought &amp;ldquo;This just SCREAMS a need for Groovy&#39;s closure iterators.&amp;rdquo; So, last night I quickly hacked out fully-equivalent Groovy version of the code:&lt;/p&gt;
+&lt;p&gt;As I read this code, I thought &amp;ldquo;This just SCREAMS a need for Groovy&amp;rsquo;s closure iterators.&amp;rdquo; So, last night I quickly hacked out fully-equivalent Groovy version of the code:&lt;/p&gt;
 &lt;p&gt;{% codeblock lang:java %}
 class GroovyExample {&lt;/p&gt;
 &lt;p&gt;static def getSrmMetaClassIdListGroovy(def businessActivityBinMetaClassList) {
@@ -63,25 +63,25 @@ businessActivityBinMetaClassList?.collect { it?.srmMetaClass?.srmMetaClassId }.f
 &lt;p&gt;Whew! Much nicer. What did we get out of this? Well&amp;hellip;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;Groovy&#39;s dynamic typing cleaned up all of the unnecessary type declarations - the only static typing is where we return an empty ArrayList of Longs if the argument to our method is null (a bit of odd behavior, but required to make this code equivalent to the parent Java code.&lt;/p&gt;
+&lt;p&gt;Groovy&amp;rsquo;s dynamic typing cleaned up all of the unnecessary type declarations - the only static typing is where we return an empty ArrayList of Longs if the argument to our method is null (a bit of odd behavior, but required to make this code equivalent to the parent Java code.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;We were saved 4 painful null checks by the use of Groovy&#39;s null safe dereferencing operator (?.) and the simplified ternary operator otherwise affectionately known as the &amp;ldquo;Elvis Operator&amp;rdquo; (?:).&lt;/p&gt;
+&lt;p&gt;We were saved 4 painful null checks by the use of Groovy&amp;rsquo;s null safe dereferencing operator (?.) and the simplified ternary operator otherwise affectionately known as the &amp;ldquo;Elvis Operator&amp;rdquo; (?:).&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Using Groovy&#39;s collect method, we were able to transform the original list into a list containing Long values by passing in a closure that pulls out the property value of interest.&lt;/p&gt;
+&lt;p&gt;Using Groovy&amp;rsquo;s collect method, we were able to transform the original list into a list containing Long values by passing in a closure that pulls out the property value of interest.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Because we&#39;re using null safe dereferencing, we are actually inserting nulls into our list if any of the dereferencing fails. Therefore, Groovy&#39;s findAll Collection filtering method comes to the rescue. We simply provide it with a closure that returns true for all of the values we want to keep - in this case, &amp;ldquo;it != null.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;Because we&amp;rsquo;re using null safe dereferencing, we are actually inserting nulls into our list if any of the dereferencing fails. Therefore, Groovy&amp;rsquo;s findAll Collection filtering method comes to the rescue. We simply provide it with a closure that returns true for all of the values we want to keep - in this case, &amp;ldquo;it != null.&amp;rdquo;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Perhaps most importantly, we&#39;ve shorted our code from 11 lines (including whitespace lines for clarity) to ONE LINE that much more clearly expresses the intent of the code.&lt;/p&gt;
+&lt;p&gt;Perhaps most importantly, we&amp;rsquo;ve shorted our code from 11 lines (including whitespace lines for clarity) to ONE LINE that much more clearly expresses the intent of the code.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Great - why don&#39;t we just rewrite the entire application is Groovy? Well, hold on just a minute. At the time we started this application, as much as some of us loved Groovy, we just didn&#39;t have enough Groovy mindshare to go there yet. On top of that, we were already experimenting with several new architectural ideas and technologies, and Groovy would have added yet one more risk to the puzzle. I say all this to acknowledge that sometimes you just can&#39;t move to another language for one reason or another, regardless of how attractive its features may be.&lt;/p&gt;
-&lt;p&gt;But let&#39;s take a queue from the &lt;em&gt;Pragmatic Programmer&lt;/em&gt; and explore the LOTY (Language of the Year) concept one more time. One of the reasons that you&#39;re encouraged to learn new languages is to change the way you program in your main language. You may learn Groovy, Scala, Clojure, Ruby, etc., etc., etc. and never use them in your day job - and yet the experience of coding in a new language with new constructs and idioms will necessarily change the way you THINK about programming in every other language.&lt;/p&gt;
-&lt;p&gt;So, let&#39;s think about the possibility of coding something that is much more similar to the Groovy version and yet stick with regular Java code. Fortunately, there are several libraries out there that bring much of the flavor and power of Groovy&#39;s closure iterators to Java. I&#39;d like to focus in on one of them, LambdaJ (&lt;a href=&#34;http://code.google.com/p/lambdaj/&#34;&gt;&lt;a href=&#34;http://code.google.com/p/lambdaj/&#34;&gt;http://code.google.com/p/lambdaj/&lt;/a&gt;&lt;/a&gt;).&lt;/p&gt;
-&lt;p&gt;LambdaJ provides constructs that allow us to &amp;ldquo;&amp;hellip;manipulate collections in a pseudo-functional and statically typed way.&amp;rdquo; Let&#39;s take a look at this example implementing using LambdaJ:&lt;/p&gt;
+&lt;p&gt;Great - why don&amp;rsquo;t we just rewrite the entire application is Groovy? Well, hold on just a minute. At the time we started this application, as much as some of us loved Groovy, we just didn&amp;rsquo;t have enough Groovy mindshare to go there yet. On top of that, we were already experimenting with several new architectural ideas and technologies, and Groovy would have added yet one more risk to the puzzle. I say all this to acknowledge that sometimes you just can&amp;rsquo;t move to another language for one reason or another, regardless of how attractive its features may be.&lt;/p&gt;
+&lt;p&gt;But let&amp;rsquo;s take a queue from the &lt;em&gt;Pragmatic Programmer&lt;/em&gt; and explore the LOTY (Language of the Year) concept one more time. One of the reasons that you&amp;rsquo;re encouraged to learn new languages is to change the way you program in your main language. You may learn Groovy, Scala, Clojure, Ruby, etc., etc., etc. and never use them in your day job - and yet the experience of coding in a new language with new constructs and idioms will necessarily change the way you THINK about programming in every other language.&lt;/p&gt;
+&lt;p&gt;So, let&amp;rsquo;s think about the possibility of coding something that is much more similar to the Groovy version and yet stick with regular Java code. Fortunately, there are several libraries out there that bring much of the flavor and power of Groovy&amp;rsquo;s closure iterators to Java. I&amp;rsquo;d like to focus in on one of them, LambdaJ (&lt;a href=&#34;http://code.google.com/p/lambdaj/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://code.google.com/p/lambdaj/&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;LambdaJ provides constructs that allow us to &amp;ldquo;&amp;hellip;manipulate collections in a pseudo-functional and statically typed way.&amp;rdquo; Let&amp;rsquo;s take a look at this example implementing using LambdaJ:&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-java&#34;&gt;//...some imports excluded for clarity
 import ch.lambdaj.function.convert.Converter
 import static ch.lambdaj.Lambda.*
@@ -101,24 +101,24 @@ public class BusinessActivityBinMetaClassHelper {
    }
 }
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Not quite as nice as the Groovy code - we got A LOT out of the null-safe dereference and Elvis operators. However, our overall intent is still a bit clearer. Let&#39;s analyze:&lt;/p&gt;
+&lt;p&gt;Not quite as nice as the Groovy code - we got A LOT out of the null-safe dereference and Elvis operators. However, our overall intent is still a bit clearer. Let&amp;rsquo;s analyze:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;First we need to implement one of LambdaJ&#39;s Converters. A Converter is nothing more than a generic Interface that defines one method: T convert(F from), where F is the type we&#39;re converting from and T is the type we&#39;re converting to. In this case, we want to convert an object of type BusinessActivityBinMetaClass to an object of type Long. Our implementation determines how this conversion takes place, in this case by extracting the id property from its child.&lt;/p&gt;
+&lt;p&gt;First we need to implement one of LambdaJ&amp;rsquo;s Converters. A Converter is nothing more than a generic Interface that defines one method: T convert(F from), where F is the type we&amp;rsquo;re converting from and T is the type we&amp;rsquo;re converting to. In this case, we want to convert an object of type BusinessActivityBinMetaClass to an object of type Long. Our implementation determines how this conversion takes place, in this case by extracting the id property from its child.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Next, after statically importing the methods of ch.lambdaj.Lambda, we call the convert method, passing it our List and our newly implemented Converter. This gives us the equivalent of Groovy&#39;s collect method, with the Converter taking the place of the closure.&lt;/p&gt;
+&lt;p&gt;Next, after statically importing the methods of ch.lambdaj.Lambda, we call the convert method, passing it our List and our newly implemented Converter. This gives us the equivalent of Groovy&amp;rsquo;s collect method, with the Converter taking the place of the closure.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;We&#39;re still shoving nulls into our List with this implementation, so we further filter our list using LambdaJ&#39;s &amp;ldquo;filter&amp;rdquo; method, passing it the list returned by &amp;ldquo;filter,&amp;rdquo; and a &lt;a href=&#34;http://code.google.com/p/hamcrest/&#34;&gt;Hamcrest&lt;/a&gt; matcher that returns only notNullValue()&amp;lsquo;s.&lt;/p&gt;
+&lt;p&gt;We&amp;rsquo;re still shoving nulls into our List with this implementation, so we further filter our list using LambdaJ&amp;rsquo;s &amp;ldquo;filter&amp;rdquo; method, passing it the list returned by &amp;ldquo;filter,&amp;rdquo; and a &lt;a href=&#34;http://code.google.com/p/hamcrest/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hamcrest&lt;/a&gt; matcher that returns only notNullValue()&amp;rsquo;s.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Finally, we use our old friend the ternary operator to return the empty ArrayList of Long values if our method argument is null.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;If you don&#39;t count the Converter implementation, we&#39;ve gotten ourselves down to 2 lines of code (1 if you don&#39;t mind long lines). In this case I implemented IdExtractor as a named inner class - you could do this with an anonymous inner class and it would look a lot more like a closure, but the added noise of all of the null checking made the undesirable for me. Perhaps if your code has less noise (or guarantees that values aren&#39;t null), that would be a better approach.&lt;/p&gt;
+&lt;p&gt;If you don&amp;rsquo;t count the Converter implementation, we&amp;rsquo;ve gotten ourselves down to 2 lines of code (1 if you don&amp;rsquo;t mind long lines). In this case I implemented IdExtractor as a named inner class - you could do this with an anonymous inner class and it would look a lot more like a closure, but the added noise of all of the null checking made the undesirable for me. Perhaps if your code has less noise (or guarantees that values aren&amp;rsquo;t null), that would be a better approach.&lt;/p&gt;
 &lt;p&gt;Another alternative is to make IdExtractor a top-level class that, if general enough, could be reused throughout the codebase. The benefit of this is that you now have a nice code unit rather than a battery of static methods in a utility class, and unit testing becomes much more clean and elegant.&lt;/p&gt;
-&lt;p&gt;So, we&#39;ve still made some progress and made our code a bit more Groovy. I encourage you to explore LambdaJ&#39;s feature set and see how it might make your code a bit more concise with clearer intent. And just to stir up a little controversy, look what would have happened in Java 7 had the null safe dereference and Elvis operator&#39;s made &lt;a href=&#34;http://blogs.sun.com/darcy/entry/project_coin_final_five&#34;&gt;the Project Coin cut&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;So, we&amp;rsquo;ve still made some progress and made our code a bit more Groovy. I encourage you to explore LambdaJ&amp;rsquo;s feature set and see how it might make your code a bit more concise with clearer intent. And just to stir up a little controversy, look what would have happened in Java 7 had the null safe dereference and Elvis operator&amp;rsquo;s made &lt;a href=&#34;http://blogs.sun.com/darcy/entry/project_coin_final_five&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;the Project Coin cut&lt;/a&gt;:&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-java&#34;&gt;//...some imports excluded for clarity
 import ch.lambdaj.function.convert.Converter
 import static ch.lambdaj.Lambda.*
@@ -143,21 +143,21 @@ public class BusinessActivityBinMetaClassHelper {
       <link>https://www.mattstine.com/2009/05/02/ive-forked-the-grails-paypal-plugin/</link>
       <pubDate>Sat, 02 May 2009 00:00:00 +0000</pubDate>
       <guid>https://www.mattstine.com/2009/05/02/ive-forked-the-grails-paypal-plugin/</guid>
-      <description>&lt;p&gt;I&#39;m currently completing the finishing touches on a new e-commerce site for my wife&#39;s stationary business. We decided a long time ago to use &lt;a href=&#34;http://www.paypal.com&#34;&gt;PayPal&lt;/a&gt; for all of the payment processing since we&#39;ve had a great experience using it for our eBay selling. About a year ago Graeme Rocher polished off the last release of a &lt;a href=&#34;http://grails.org/plugin/paypal&#34;&gt;PayPal plugin&lt;/a&gt; that is available in &lt;a href=&#34;http://grails.org/plugin/home&#34;&gt;the Grails Plugin repository&lt;/a&gt;. It really is a very nice plugin, yet I had a couple of problems with it:&lt;/p&gt;
+      <description>&lt;p&gt;I&amp;rsquo;m currently completing the finishing touches on a new e-commerce site for my wife&amp;rsquo;s stationary business. We decided a long time ago to use &lt;a href=&#34;http://www.paypal.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PayPal&lt;/a&gt; for all of the payment processing since we&amp;rsquo;ve had a great experience using it for our eBay selling. About a year ago Graeme Rocher polished off the last release of a &lt;a href=&#34;http://grails.org/plugin/paypal&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PayPal plugin&lt;/a&gt; that is available in &lt;a href=&#34;http://grails.org/plugin/home&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;the Grails Plugin repository&lt;/a&gt;. It really is a very nice plugin, yet I had a couple of problems with it:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;It is only capable of handling payments for one item transactions via &amp;ldquo;Buy Now&amp;rdquo; buttons. I want to upload an entire shopping cart full of multiple items.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;It currently won&#39;t handle shipping addresses. The site I&#39;m building allows the user to maintain a list of shipping addresses, and I&#39;d want to send the address information they choose along to PayPal.&lt;/p&gt;
+&lt;p&gt;It currently won&amp;rsquo;t handle shipping addresses. The site I&amp;rsquo;m building allows the user to maintain a list of shipping addresses, and I&amp;rsquo;d want to send the address information they choose along to PayPal.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Minor issue: needed to upgrade the plugin to Grails 1.1.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;So, I decided this evening to fork the plugin. I want to leverage all of the great work that has been done thus far (especially with the IPN processing part - superb stuff), but I have to add in these two functions and do the version upgrade. Interestingly enough I couldn&#39;t get the tests to run out of the box after the upgrade. No good developer likes to modify code without a stable running test suite, right? So what I ended up doing was creating a new Grails 1.1 plugin project and copying the original artifacts over. Once this was done all of the tests ran perfectly.&lt;/p&gt;
-&lt;p&gt;So, at this point I&#39;ve added function #1. You can now redirect to the &amp;ldquo;uploadCart&amp;rdquo; action. It assumes that you have already constructed a Payment object (now containing PaymentItems) and saved it, and then passed the transactionId along. I did this so that folks with multiple different ways of handling shopping carts could have some degree of flexibility - the onus is on you to map your cart to your Payment object correctly. The original functions implemented by Graeme are backward compatible, assuming only one PaymentItem in the Payment. I&#39;ve run all of the original tests and also did some manual functional testing by running the plugin app against my own PayPal Sandbox account. So far so good. Look for more updates as this evolves. Once I get something I&#39;m totally happy with I&#39;ll see about getting it pushed back into the main plugin repo.&lt;/p&gt;
-&lt;p&gt;Want to take a closer look? Visit &lt;a href=&#34;http://github.com/mstine/grails-paypal-plugin/tree/master&#34;&gt;&lt;a href=&#34;http://github.com/mstine/grails-paypal-plugin/tree/master&#34;&gt;http://github.com/mstine/grails-paypal-plugin/tree/master&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;So, I decided this evening to fork the plugin. I want to leverage all of the great work that has been done thus far (especially with the IPN processing part - superb stuff), but I have to add in these two functions and do the version upgrade. Interestingly enough I couldn&amp;rsquo;t get the tests to run out of the box after the upgrade. No good developer likes to modify code without a stable running test suite, right? So what I ended up doing was creating a new Grails 1.1 plugin project and copying the original artifacts over. Once this was done all of the tests ran perfectly.&lt;/p&gt;
+&lt;p&gt;So, at this point I&amp;rsquo;ve added function #1. You can now redirect to the &amp;ldquo;uploadCart&amp;rdquo; action. It assumes that you have already constructed a Payment object (now containing PaymentItems) and saved it, and then passed the transactionId along. I did this so that folks with multiple different ways of handling shopping carts could have some degree of flexibility - the onus is on you to map your cart to your Payment object correctly. The original functions implemented by Graeme are backward compatible, assuming only one PaymentItem in the Payment. I&amp;rsquo;ve run all of the original tests and also did some manual functional testing by running the plugin app against my own PayPal Sandbox account. So far so good. Look for more updates as this evolves. Once I get something I&amp;rsquo;m totally happy with I&amp;rsquo;ll see about getting it pushed back into the main plugin repo.&lt;/p&gt;
+&lt;p&gt;Want to take a closer look? Visit &lt;a href=&#34;http://github.com/mstine/grails-paypal-plugin/tree/master&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://github.com/mstine/grails-paypal-plugin/tree/master&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -166,9 +166,9 @@ public class BusinessActivityBinMetaClassHelper {
       <link>https://www.mattstine.com/2009/04/27/joels-builderbuilder-in-groovy/</link>
       <pubDate>Mon, 27 Apr 2009 00:00:00 +0000</pubDate>
       <guid>https://www.mattstine.com/2009/04/27/joels-builderbuilder-in-groovy/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://joelneely.wordpress.com/&#34;&gt;Joel Neely&lt;/a&gt; started &lt;a href=&#34;http://joelneely.wordpress.com/2009/04/25/builderbuilder-the-agenda/&#34;&gt;a series&lt;/a&gt; &lt;a href=&#34;http://joelneely.wordpress.com/2009/04/27/builderbuilder-the-task/&#34;&gt;of posts&lt;/a&gt; over the weekend detailing a proposed exploration of what Functional Programming means &amp;ldquo;to me as a practicing OO software developer?&amp;rdquo; The task at hand is to look at the generation of Data Transfer Objects which include a static inner class that functions as a builder. Since I&#39;m exploring both Clojure and Scala right now, Joel has asked me to play along.&lt;/p&gt;
-&lt;p&gt;After reading the task definition today, I couldn&#39;t resist taking a crack at the problem in Groovy, especially since tackling a Builder DSL is not something I&#39;ve gone after before.&lt;/p&gt;
-&lt;p&gt;So, here&#39;s how I&#39;ll use my DTOBuilder to produce the output Joel described:&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;http://joelneely.wordpress.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Joel Neely&lt;/a&gt; started &lt;a href=&#34;http://joelneely.wordpress.com/2009/04/25/builderbuilder-the-agenda/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;a series&lt;/a&gt; &lt;a href=&#34;http://joelneely.wordpress.com/2009/04/27/builderbuilder-the-task/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;of posts&lt;/a&gt; over the weekend detailing a proposed exploration of what Functional Programming means &amp;ldquo;to me as a practicing OO software developer?&amp;rdquo; The task at hand is to look at the generation of Data Transfer Objects which include a static inner class that functions as a builder. Since I&amp;rsquo;m exploring both Clojure and Scala right now, Joel has asked me to play along.&lt;/p&gt;
+&lt;p&gt;After reading the task definition today, I couldn&amp;rsquo;t resist taking a crack at the problem in Groovy, especially since tackling a Builder DSL is not something I&amp;rsquo;ve gone after before.&lt;/p&gt;
+&lt;p&gt;So, here&amp;rsquo;s how I&amp;rsquo;ll use my DTOBuilder to produce the output Joel described:&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-java&#34;&gt;def bldr = new DtoBuilder()
 
 println bldr.build {
@@ -181,8 +181,8 @@ println bldr.build {
 	field(name:&#39;gpa&#39;, type:&#39;float&#39;)
 }
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Pretty concise, eh? &lt;a href=&#34;http://github.com/mstine/BuilderBuilder/blob/1008235f88177910eb94af165ade3aedae2955a3/src/DtoBuilder.groovy&#34;&gt;Check out the implementation of it at GitHub&lt;/a&gt;. I&#39;ll be posting all of my code related to this series at this location (and hopefully Joel will join in as well).&lt;/p&gt;
-&lt;p&gt;One thing you&#39;ll notice is that I&#39;m still operating primarily in OO style. My next task is to refactor this code, still written in Groovy, but using as much functional-style as I can squeeze out of the language. Until next time&amp;hellip;&lt;/p&gt;
+&lt;p&gt;Pretty concise, eh? &lt;a href=&#34;http://github.com/mstine/BuilderBuilder/blob/1008235f88177910eb94af165ade3aedae2955a3/src/DtoBuilder.groovy&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Check out the implementation of it at GitHub&lt;/a&gt;. I&amp;rsquo;ll be posting all of my code related to this series at this location (and hopefully Joel will join in as well).&lt;/p&gt;
+&lt;p&gt;One thing you&amp;rsquo;ll notice is that I&amp;rsquo;m still operating primarily in OO style. My next task is to refactor this code, still written in Groovy, but using as much functional-style as I can squeeze out of the language. Until next time&amp;hellip;&lt;/p&gt;
 </description>
     </item>
     
@@ -191,9 +191,9 @@ println bldr.build {
       <link>https://www.mattstine.com/2009/04/25/grails-prototype-scriptaculous-persistent-grid-sorting-goodness/</link>
       <pubDate>Sat, 25 Apr 2009 00:00:00 +0000</pubDate>
       <guid>https://www.mattstine.com/2009/04/25/grails-prototype-scriptaculous-persistent-grid-sorting-goodness/</guid>
-      <description>&lt;p&gt;Ever wanted to do drag-n-drop sorting of a grid of images on a page and persist it? Here&#39;s my solution using Grails, Prototype, and Script.aculo.us.&lt;/p&gt;
+      <description>&lt;p&gt;Ever wanted to do drag-n-drop sorting of a grid of images on a page and persist it? Here&amp;rsquo;s my solution using Grails, Prototype, and Script.aculo.us.&lt;/p&gt;
 &lt;p&gt;Basically what prompted this was the need for my wife to be able to sort the various product images that she had on a screen at any given time in any way that she pleased, and it had to be easy to work with. What follows is by no means a complete solution to this problem, but it represents where I am in the development process and may be useful to you, my hapless reader.&lt;/p&gt;
-&lt;p&gt;Here&#39;s some GSP code which basically lays out a grid of product images, 3 wide by &lt;em&gt;n&lt;/em&gt; deep:&lt;/p&gt;
+&lt;p&gt;Here&amp;rsquo;s some GSP code which basically lays out a grid of product images, 3 wide by &lt;em&gt;n&lt;/em&gt; deep:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;&amp;lt;div id=&amp;quot;productThumbContainer&amp;quot;&amp;gt;
   &amp;lt;g:set var=&amp;quot;rowIndex&amp;quot; value=&amp;quot;${0}&amp;quot;/&amp;gt;
 &amp;lt;g:each in=&amp;quot;${products}&amp;quot; var=&amp;quot;product&amp;quot; status=&amp;quot;index&amp;quot;&amp;gt;
@@ -211,7 +211,7 @@ println bldr.build {
 &amp;lt;/g:each&amp;gt;
 &amp;lt;/div&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Now here&#39;s where the magic happens:&lt;/p&gt;
+&lt;p&gt;Now here&amp;rsquo;s where the magic happens:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;document.observe(&#39;dom:loaded&#39;, function() {
       var productRows = $$(&#39;.product-row&#39;);
 
@@ -222,7 +222,7 @@ println bldr.build {
         dropOnEmpty: true,
         tag: &#39;div&#39;,
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;date = &amp;quot;&amp;rdquo;
+&lt;p&gt;date = &amp;quot;&amp;quot;
 };&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;      productRows.each(function(item) {
         Sortable.create(item, options);
@@ -238,7 +238,7 @@ println bldr.build {
       });
 });
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;What we&#39;ve got here is, failure to communicate&amp;hellip;oops, wrong synapse there&amp;hellip;what we&#39;ve got here is a Prototype selector that grabs everything with the class &amp;ldquo;.product-row.&amp;rdquo; It then takes these and creates a Scriptaculous Sortable for each of them, providing the object-literal &amp;ldquo;options.&amp;rdquo; Notice the &amp;ldquo;containment&amp;rdquo; option which allows you to drag products back and forth between the various rows.&lt;/p&gt;
+&lt;p&gt;What we&amp;rsquo;ve got here is, failure to communicate&amp;hellip;oops, wrong synapse there&amp;hellip;what we&amp;rsquo;ve got here is a Prototype selector that grabs everything with the class &amp;ldquo;.product-row.&amp;rdquo; It then takes these and creates a Scriptaculous Sortable for each of them, providing the object-literal &amp;ldquo;options.&amp;rdquo; Notice the &amp;ldquo;containment&amp;rdquo; option which allows you to drag products back and forth between the various rows.&lt;/p&gt;
 &lt;p&gt;Delving deeper into the magic is the callback function &amp;ldquo;updateRows.&amp;rdquo; This guy is my favorite Javascript creation in quite some time:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;function updateRows(list) {
       var children = list.childElements();
@@ -293,8 +293,8 @@ println bldr.build {
 }
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;This function is organized around the fact that the only valid state for a grid of n-rows will be n-1 rows of 3 products, followed by one row of 1 &amp;lt;= numProducts &amp;lt;= 3. In most cases, if you drag a product from one row to another, you are violating that rule by creating a row with 2 products and a row with 4 products. This function solves the problem by recursively shifting the products down until reaching a stable state again.&lt;/p&gt;
-&lt;p&gt;There&#39;s a bit of noise there at the bottom of the function. I&#39;m using Blueprint CSS to do the layout for this application and I need to shift the various Blueprint classes around once everything is settled.&lt;/p&gt;
-&lt;p&gt;Finally, here&#39;s the persistence of the data when we click save:&lt;/p&gt;
+&lt;p&gt;There&amp;rsquo;s a bit of noise there at the bottom of the function. I&amp;rsquo;m using Blueprint CSS to do the layout for this application and I need to shift the various Blueprint classes around once everything is settled.&lt;/p&gt;
+&lt;p&gt;Finally, here&amp;rsquo;s the persistence of the data when we click save:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;def sortProducts = {
     TreeMap rowMap = new TreeMap()
 
@@ -342,8 +342,8 @@ println bldr.build {
     }
 }
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;You might wonder why this is so complex. What I haven&#39;t fully described is the way products are organized into a hierarchy of various categories. When you&#39;re sorting a screen, you&#39;re only sorting a subset of the products that are in that particular category. However, the sort order is maintained across the entire product set in the database. So, this logic basically just shifts around the existing sort indicies, placing them in their new relative order.&lt;/p&gt;
-&lt;p&gt;Anyway, I don&#39;t know how generally applicable this code is, but I had fun writing it and I hope you can get some use out of it. Cheers!&lt;/p&gt;
+&lt;p&gt;You might wonder why this is so complex. What I haven&amp;rsquo;t fully described is the way products are organized into a hierarchy of various categories. When you&amp;rsquo;re sorting a screen, you&amp;rsquo;re only sorting a subset of the products that are in that particular category. However, the sort order is maintained across the entire product set in the database. So, this logic basically just shifts around the existing sort indicies, placing them in their new relative order.&lt;/p&gt;
+&lt;p&gt;Anyway, I don&amp;rsquo;t know how generally applicable this code is, but I had fun writing it and I hope you can get some use out of it. Cheers!&lt;/p&gt;
 </description>
     </item>
     
@@ -352,7 +352,7 @@ println bldr.build {
       <link>https://www.mattstine.com/2009/04/25/groovy-post-to-a-url/</link>
       <pubDate>Sat, 25 Apr 2009 00:00:00 +0000</pubDate>
       <guid>https://www.mattstine.com/2009/04/25/groovy-post-to-a-url/</guid>
-      <description>&lt;p&gt;If you&#39;ve ever worked with the brilliant &lt;a href=&#34;http://recaptcha.net/&#34;&gt;Recaptcha&lt;/a&gt; service, you&#39;ll know that their REST API requires an HTTP POST rather than a GET. As I had only used GET requests thus far, I googled around and found a pretty easy solution:&lt;/p&gt;
+      <description>&lt;p&gt;If you&amp;rsquo;ve ever worked with the brilliant &lt;a href=&#34;http://recaptcha.net/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Recaptcha&lt;/a&gt; service, you&amp;rsquo;ll know that their REST API requires an HTTP POST rather than a GET. As I had only used GET requests thus far, I googled around and found a pretty easy solution:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;private def evaluateCaptcha(def remoteIp, def challenge, def response) {
     def config = recaptchaService.getRecaptchaConfig()
 
@@ -376,7 +376,7 @@ println bldr.build {
     recaptchaResponse.startsWith(&amp;quot;true&amp;quot;)
 }
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;I have to credit &lt;a href=&#34;http://www.fiascode.com/programming/putting-google-finance-to-rest-with-groovy/&#34;&gt;Justin Spradlin&lt;/a&gt; for the code that ultimately got me here. Consider this a +1.&lt;/p&gt;
+&lt;p&gt;I have to credit &lt;a href=&#34;http://www.fiascode.com/programming/putting-google-finance-to-rest-with-groovy/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Justin Spradlin&lt;/a&gt; for the code that ultimately got me here. Consider this a +1.&lt;/p&gt;
 </description>
     </item>
     
@@ -385,9 +385,9 @@ println bldr.build {
       <link>https://www.mattstine.com/2009/04/02/loty-time-again-scala-or-clojure/</link>
       <pubDate>Thu, 02 Apr 2009 00:00:00 +0000</pubDate>
       <guid>https://www.mattstine.com/2009/04/02/loty-time-again-scala-or-clojure/</guid>
-      <description>&lt;p&gt;In 2007 &lt;a href=&#34;http://www.mattstine.com/2007/07/10/my-professional-development-goals-for-2007-2008/&#34;&gt;I established several professional development goals&lt;/a&gt; (&lt;a href=&#34;http://www.mattstine.com/2008/01/02/mid-year-review-my-professional-development-goals-for-2007-2008/&#34;&gt;and later reported my progress on these&lt;/a&gt;), one of which was to learn Groovy and Grails. This goal stemmed from the continually referenced idea from &lt;em&gt;The Pragmatic Programmer&lt;/em&gt; to &amp;ldquo;learn a new language every year.&amp;rdquo; This idea has become so ubiquitous that it even has it&#39;s own four-letter acronym, LOTY (Language of the Year).&lt;/p&gt;
-&lt;p&gt;Since establishing and reporting on these goals, I&#39;ve had several things get in the way of fully realizing all of them. However, I can safely say that in the last two years I have mastered enough Groovy and Grails that they no longer fit in the LOTY category. At this point they&#39;re really not showing my anything that is causing any paradigm shifts for me. They&#39;re comfortable. When I learn a new feature, it just seems to make sense, and nothing surprises me anymore. Languages like these aren&#39;t good LOTY candidates because one of the purposes of learning a LOTY is to challenge and change your ideas about programming. Groovy doesn&#39;t do this for me anymore. It&#39;s time to move on (not to say that I&#39;m dropping Groovy and Grails as a tool - I&#39;m using them more now than ever - they&#39;re just not a learning tool for me anymore).&lt;/p&gt;
-&lt;p&gt;So, at this point I want to delve into a language that attempts to tackle the concurrent/multicore programming challenge. I&#39;d like to stay on the JVM because I appreciate the benefits that it brings as a platform, so for now Erlang is out. The two leading candidates in the JVM/concurrent/multicore arena seem to be &lt;a href=&#34;http://www.scala-lang.org/&#34;&gt;Scala&lt;/a&gt; and &lt;a href=&#34;http://clojure.org/&#34;&gt;Clojure&lt;/a&gt;. An added benefit of both of these languages is that they support the functional paradigm, something I haven&#39;t really played with since my computer science education days and a very interesting language named Haskell.&lt;/p&gt;
+      <description>&lt;p&gt;In 2007 &lt;a href=&#34;http://www.mattstine.com/2007/07/10/my-professional-development-goals-for-2007-2008/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;I established several professional development goals&lt;/a&gt; (&lt;a href=&#34;http://www.mattstine.com/2008/01/02/mid-year-review-my-professional-development-goals-for-2007-2008/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;and later reported my progress on these&lt;/a&gt;), one of which was to learn Groovy and Grails. This goal stemmed from the continually referenced idea from &lt;em&gt;The Pragmatic Programmer&lt;/em&gt; to &amp;ldquo;learn a new language every year.&amp;rdquo; This idea has become so ubiquitous that it even has it&amp;rsquo;s own four-letter acronym, LOTY (Language of the Year).&lt;/p&gt;
+&lt;p&gt;Since establishing and reporting on these goals, I&amp;rsquo;ve had several things get in the way of fully realizing all of them. However, I can safely say that in the last two years I have mastered enough Groovy and Grails that they no longer fit in the LOTY category. At this point they&amp;rsquo;re really not showing my anything that is causing any paradigm shifts for me. They&amp;rsquo;re comfortable. When I learn a new feature, it just seems to make sense, and nothing surprises me anymore. Languages like these aren&amp;rsquo;t good LOTY candidates because one of the purposes of learning a LOTY is to challenge and change your ideas about programming. Groovy doesn&amp;rsquo;t do this for me anymore. It&amp;rsquo;s time to move on (not to say that I&amp;rsquo;m dropping Groovy and Grails as a tool - I&amp;rsquo;m using them more now than ever - they&amp;rsquo;re just not a learning tool for me anymore).&lt;/p&gt;
+&lt;p&gt;So, at this point I want to delve into a language that attempts to tackle the concurrent/multicore programming challenge. I&amp;rsquo;d like to stay on the JVM because I appreciate the benefits that it brings as a platform, so for now Erlang is out. The two leading candidates in the JVM/concurrent/multicore arena seem to be &lt;a href=&#34;http://www.scala-lang.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Scala&lt;/a&gt; and &lt;a href=&#34;http://clojure.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Clojure&lt;/a&gt;. An added benefit of both of these languages is that they support the functional paradigm, something I haven&amp;rsquo;t really played with since my computer science education days and a very interesting language named Haskell.&lt;/p&gt;
 &lt;p&gt;Scala is a multiparadigm language, supporting both object-oriented and functional constructs. It is statically typed, yet offers very nice type inference. Clojure, on the other hand, is a functional Lisp derivative with almost no OO constructs that is dynamically typed. Both are designed to enable concurrent programming. Which one do I choose? I open the floor for comments.&lt;/p&gt;
 </description>
     </item>
@@ -397,10 +397,10 @@ println bldr.build {
       <link>https://www.mattstine.com/2009/03/29/deploying-grails-with-groovy/</link>
       <pubDate>Sun, 29 Mar 2009 00:00:00 +0000</pubDate>
       <guid>https://www.mattstine.com/2009/03/29/deploying-grails-with-groovy/</guid>
-      <description>&lt;p&gt;Interesting title, eh? Maybe this one will make it through Glen&#39;s filter at &lt;a href=&#34;http://groovyblogs.org&#34;&gt;GroovyBlogs.org&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;On to the meat. I&#39;ve been steadily working on a couple of Grails applications, one being the website for the &lt;a href=&#34;http://www.memphisjug.org&#34;&gt;Memphis JUG&lt;/a&gt;, and another being the e-commerce site for my wife&#39;s soon to be launched designer stationery business. Just like your average Grails developer, I&#39;ve been happily coding away at 127.0.0.1 using the good old development Jetty+MySQL stack. Well, in the last week or so it&#39;s come time to actually deploy both of these applications into production. I started out last weekend with the Memphis JUG site. My first approach was to build the WAR file locally and then &amp;ldquo;scp&amp;rdquo; it up to the server.&lt;/p&gt;
-&lt;p&gt;YMMV, but the upload speed on my DSL connection is horrible! After doing this three or four times in one night, waiting 15-20 minutes for the WAR to upload each time (Grails WAR&#39;s are rather thick when carrying all of the dependencies along), I decided to myself, &amp;ldquo;There must be a better way to do this.&amp;rdquo;&lt;/p&gt;
-&lt;p&gt;Fast forward a week and here I sit working on the first &amp;ldquo;pre-production&amp;rdquo; release of my wife&#39;s store site. With quite a bit of time on my hands during these &amp;ldquo;dark and early&amp;rdquo; hours (a story for a later entry), I decided it was time for the experiment.&lt;/p&gt;
+      <description>&lt;p&gt;Interesting title, eh? Maybe this one will make it through Glen&amp;rsquo;s filter at &lt;a href=&#34;http://groovyblogs.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GroovyBlogs.org&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;On to the meat. I&amp;rsquo;ve been steadily working on a couple of Grails applications, one being the website for the &lt;a href=&#34;http://www.memphisjug.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Memphis JUG&lt;/a&gt;, and another being the e-commerce site for my wife&amp;rsquo;s soon to be launched designer stationery business. Just like your average Grails developer, I&amp;rsquo;ve been happily coding away at 127.0.0.1 using the good old development Jetty+MySQL stack. Well, in the last week or so it&amp;rsquo;s come time to actually deploy both of these applications into production. I started out last weekend with the Memphis JUG site. My first approach was to build the WAR file locally and then &amp;ldquo;scp&amp;rdquo; it up to the server.&lt;/p&gt;
+&lt;p&gt;YMMV, but the upload speed on my DSL connection is horrible! After doing this three or four times in one night, waiting 15-20 minutes for the WAR to upload each time (Grails WAR&amp;rsquo;s are rather thick when carrying all of the dependencies along), I decided to myself, &amp;ldquo;There must be a better way to do this.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;Fast forward a week and here I sit working on the first &amp;ldquo;pre-production&amp;rdquo; release of my wife&amp;rsquo;s store site. With quite a bit of time on my hands during these &amp;ldquo;dark and early&amp;rdquo; hours (a story for a later entry), I decided it was time for the experiment.&lt;/p&gt;
 &lt;p&gt;Each of these projects is hosted at GitHub, so the process that I mapped out in my mind looked like this:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
@@ -413,17 +413,17 @@ println bldr.build {
 &lt;p&gt;Stop the Tomcat service (my hosting provider sets up Tomcat to run as a service)&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Delete the remnants of the previous deployment from Tomcat&#39;s deployment directory&lt;/p&gt;
+&lt;p&gt;Delete the remnants of the previous deployment from Tomcat&amp;rsquo;s deployment directory&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Copy the new WAR file to Tomcat&#39;s deployment directory&lt;/p&gt;
+&lt;p&gt;Copy the new WAR file to Tomcat&amp;rsquo;s deployment directory&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Start the Tomcat service&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;By the way, I forgot to mention that before doing all of this I moved the production data source definition from being locally defined to being a JNDI lookup within Tomcat. This posed its own challenge, which I&#39;ll blog about a bit later.&lt;/p&gt;
-&lt;p&gt;Anyway, back to the deployment. I though this would be an excellent opportunity to take &lt;a href=&#34;http://groovy.codehaus.org/Using+Ant+from+Groovy&#34;&gt;Groovy&#39;s Antbuilder&lt;/a&gt; out for a spin. Here&#39;s an example of what I put together:&lt;/p&gt;
+&lt;p&gt;By the way, I forgot to mention that before doing all of this I moved the production data source definition from being locally defined to being a JNDI lookup within Tomcat. This posed its own challenge, which I&amp;rsquo;ll blog about a bit later.&lt;/p&gt;
+&lt;p&gt;Anyway, back to the deployment. I though this would be an excellent opportunity to take &lt;a href=&#34;http://groovy.codehaus.org/Using&amp;#43;Ant&amp;#43;from&amp;#43;Groovy&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Groovy&amp;rsquo;s Antbuilder&lt;/a&gt; out for a spin. Here&amp;rsquo;s an example of what I put together:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;#!/usr/bin/env groovy
 
 def ant = new AntBuilder()
@@ -454,8 +454,8 @@ ant.exec(executable:&#39;service&#39;) {
         arg(line:&#39;tomcat6 start&#39;)
 }
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;As you can see, I have a few undefined Groovy constants in there. Let&#39;s just say I didn&#39;t want to expose ALL of the details of my server.&lt;/p&gt;
-&lt;p&gt;At any rate, it&#39;s pretty simple. One word of warning - if you&#39;re using Ehcache, make sure to add it to your ivy.xml dependencies, or the Ant build won&#39;t bring it in like running &amp;ldquo;grails war&amp;rdquo; will. I hope someone finds this simple script useful. Enjoy!&lt;/p&gt;
+&lt;p&gt;As you can see, I have a few undefined Groovy constants in there. Let&amp;rsquo;s just say I didn&amp;rsquo;t want to expose ALL of the details of my server.&lt;/p&gt;
+&lt;p&gt;At any rate, it&amp;rsquo;s pretty simple. One word of warning - if you&amp;rsquo;re using Ehcache, make sure to add it to your ivy.xml dependencies, or the Ant build won&amp;rsquo;t bring it in like running &amp;ldquo;grails war&amp;rdquo; will. I hope someone finds this simple script useful. Enjoy!&lt;/p&gt;
 </description>
     </item>
     
@@ -464,13 +464,13 @@ ant.exec(executable:&#39;service&#39;) {
       <link>https://www.mattstine.com/2009/03/26/need-a-textile-engine-look-no-further-than-plextile/</link>
       <pubDate>Thu, 26 Mar 2009 00:00:00 +0000</pubDate>
       <guid>https://www.mattstine.com/2009/03/26/need-a-textile-engine-look-no-further-than-plextile/</guid>
-      <description>&lt;p&gt;In finishing up the first release of JUG Nexus, the open source engine (&lt;a href=&#34;http://github.com/mstine/jug-nexus/tree/master&#34;&gt;&lt;a href=&#34;http://github.com/mstine/jug-nexus/tree/master&#34;&gt;http://github.com/mstine/jug-nexus/tree/master&lt;/a&gt;&lt;/a&gt;) behind the new Memphis JUG website, I needed to put a good &lt;a href=&#34;http://www.textism.com/tools/textile/&#34;&gt;Textile&lt;/a&gt; engine in place. I really don&#39;t care for writing actual HTML in a content management system, and JUG Nexus being a lightweight CMS, I wanted a lightweight markup syntax for entering the details of upcoming JUG meetings. Textile is exactly that, and is also used for entering content into the very useful &lt;a href=&#34;http://jugevents.org&#34;&gt;JUGEvents&lt;/a&gt; system produced by &lt;a href=&#34;http://www.jugpadova.it/&#34;&gt;JUG Padova&lt;/a&gt; for the Java User Group community at large. I tried out several different engines, and none of them seemed to be very robust when it came to edge cases in the markup. For example, if I want to produce a hyperlink to a website, the textile format is the following:&lt;/p&gt;
+      <description>&lt;p&gt;In finishing up the first release of JUG Nexus, the open source engine (&lt;a href=&#34;http://github.com/mstine/jug-nexus/tree/master&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://github.com/mstine/jug-nexus/tree/master&lt;/a&gt;) behind the new Memphis JUG website, I needed to put a good &lt;a href=&#34;http://www.textism.com/tools/textile/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Textile&lt;/a&gt; engine in place. I really don&amp;rsquo;t care for writing actual HTML in a content management system, and JUG Nexus being a lightweight CMS, I wanted a lightweight markup syntax for entering the details of upcoming JUG meetings. Textile is exactly that, and is also used for entering content into the very useful &lt;a href=&#34;http://jugevents.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;JUGEvents&lt;/a&gt; system produced by &lt;a href=&#34;http://www.jugpadova.it/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;JUG Padova&lt;/a&gt; for the Java User Group community at large. I tried out several different engines, and none of them seemed to be very robust when it came to edge cases in the markup. For example, if I want to produce a hyperlink to a website, the textile format is the following:&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;&amp;quot;Linked Text&amp;quot;:http://www.site.com&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;This syntax will result in the following HTML:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;&amp;lt;a href=&amp;quot;http://www.site.com&amp;quot;&amp;gt;Linked Text&amp;lt;/a&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Unfortunately, if you have a bang (!) in your &amp;ldquo;Linked Text,&amp;rdquo; most of the Textile engines that I used would not recognize it as an HTML link. Plextile does!&lt;/p&gt;
-&lt;p&gt;The only drawback, however minimal, to using Plextile is that it does not come with a pre-packaged JAR file. You have to take the compiled code and JAR it yourself. Now, for free, I&#39;ll include how I integrated Plextile with Grails. Grails has a very nice codec feature that provides a facility to register encoders and decoders of textual data as methods on any object. Grails searches for classes following the convention &lt;code&gt;XCodec&lt;/code&gt; and dynamically registers &lt;code&gt;encodeAsX&lt;/code&gt; and &lt;code&gt;decodeX&lt;/code&gt; methods on &lt;code&gt;java.lang.Object&lt;/code&gt; so that any data can be encoded and decoded. Enter the &lt;code&gt;TextileCodec&lt;/code&gt;:&lt;/p&gt;
+&lt;p&gt;The only drawback, however minimal, to using Plextile is that it does not come with a pre-packaged JAR file. You have to take the compiled code and JAR it yourself. Now, for free, I&amp;rsquo;ll include how I integrated Plextile with Grails. Grails has a very nice codec feature that provides a facility to register encoders and decoders of textual data as methods on any object. Grails searches for classes following the convention &lt;code&gt;XCodec&lt;/code&gt; and dynamically registers &lt;code&gt;encodeAsX&lt;/code&gt; and &lt;code&gt;decodeX&lt;/code&gt; methods on &lt;code&gt;java.lang.Object&lt;/code&gt; so that any data can be encoded and decoded. Enter the &lt;code&gt;TextileCodec&lt;/code&gt;:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;import com.plink.plextile.TextParser
 
 class TextileCodec {
@@ -481,7 +481,7 @@ class TextileCodec {
 
 }
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Believe it or not, that&#39;s it! Here&#39;s the GSP template for rendering a JUG meeting:&lt;/p&gt;
+&lt;p&gt;Believe it or not, that&amp;rsquo;s it! Here&amp;rsquo;s the GSP template for rendering a JUG meeting:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;&amp;lt;div class=&amp;quot;post&amp;quot;&amp;gt;
   &amp;lt;h2&amp;gt;${event.title}&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;g:formatDate format=&amp;quot;EEEE, MMMM dd, yyyy&amp;quot; date=&amp;quot;${event.startTime}&amp;quot;/&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;g:formatDate format=&amp;quot;h:mm&amp;quot; date=&amp;quot;${event.startTime}&amp;quot;/&amp;gt;-&amp;lt;g:formatDate format=&amp;quot;h:mm a&amp;quot; date=&amp;quot;${event.endTime}&amp;quot;/&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;g:if test=&amp;quot;${!event.archived}&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;http://jugevents.org/jugevents/event/${event.jugEventsId}&amp;quot;&amp;gt;Click HERE to register!&amp;lt;/a&amp;gt;&amp;lt;/g:if&amp;gt;&amp;lt;/h2&amp;gt;
   &amp;lt;div class=&amp;quot;entry&amp;quot;&amp;gt;
@@ -502,7 +502,7 @@ class TextileCodec {
       <link>https://www.mattstine.com/2008/02/05/grails-10-released/</link>
       <pubDate>Tue, 05 Feb 2008 00:00:00 +0000</pubDate>
       <guid>https://www.mattstine.com/2008/02/05/grails-10-released/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://grails.org/Home&#34;&gt;Grails&lt;/a&gt;, by far my favorite of the JVM dynamic language frameworks, was released this morning, with a snazzy, new, &amp;ldquo;Web 2.0 style&amp;rdquo; website to boot. Congratulations Graeme and company on all of your hard work!&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;http://grails.org/Home&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Grails&lt;/a&gt;, by far my favorite of the JVM dynamic language frameworks, was released this morning, with a snazzy, new, &amp;ldquo;Web 2.0 style&amp;rdquo; website to boot. Congratulations Graeme and company on all of your hard work!&lt;/p&gt;
 </description>
     </item>
     
@@ -511,8 +511,8 @@ class TextileCodec {
       <link>https://www.mattstine.com/2007/05/11/and-then-it-was-over/</link>
       <pubDate>Fri, 11 May 2007 00:00:00 +0000</pubDate>
       <guid>https://www.mattstine.com/2007/05/11/and-then-it-was-over/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://picasaweb.google.com/matt.stine/SanFranciscoJavaOne2007/photo#5063512122879158706&#34;&gt;&lt;img src=&#34;http://lh4.google.com/image/matt.stine/RkU1crgYqbI/AAAAAAAAAOI/fn4ypOF5zkQ/s288/DSCN1138.JPG&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;I really enjoyed &amp;ldquo;The Toy Show&amp;rdquo; this morning. James Gosling went through a flurry of different demos from around the &amp;ldquo;cool&amp;rdquo; Java world. I was especially impressed with Project Wonderland (&lt;a href=&#34;http://lg3d-wonderland.dev.java.net/&#34;&gt;http://lg3d-wonderland.dev.java.net/&lt;/a&gt;), a virtual workplace environment, and with the real-time robotics demos. Unfortunately I was so sucked in that I didn&#39;t get any good photos.&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;http://picasaweb.google.com/matt.stine/SanFranciscoJavaOne2007/photo#5063512122879158706&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;http://lh4.google.com/image/matt.stine/RkU1crgYqbI/AAAAAAAAAOI/fn4ypOF5zkQ/s288/DSCN1138.JPG&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I really enjoyed &amp;ldquo;The Toy Show&amp;rdquo; this morning. James Gosling went through a flurry of different demos from around the &amp;ldquo;cool&amp;rdquo; Java world. I was especially impressed with Project Wonderland (&lt;a href=&#34;http://lg3d-wonderland.dev.java.net/),&#34;&gt;http://lg3d-wonderland.dev.java.net/),&lt;/a&gt; a virtual workplace environment, and with the real-time robotics demos. Unfortunately I was so sucked in that I didn&amp;rsquo;t get any good photos.&lt;/p&gt;
 &lt;p&gt;If anything you could call this my day on the back end. I attended four sessions, two of which were focused on that.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Comparing the Developer Experience of Java EE 5.0, Ruby on Rails, and Grails: Lessons Learned from Developing One Application&lt;/li&gt;
@@ -520,11 +520,11 @@ class TextileCodec {
 &lt;li&gt;The Top 10 Ways to Botch Enterprise Java Technology-Based Application Scalability and Reliability&lt;/li&gt;
 &lt;li&gt;Exploting JRuby: Building Domain-Specific Languages for the Java Virtual Machine&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;I scheduled the first session because I thought it was be a good way to tie together all that I had learned about Grails and Rails and then compare it to my existing Java EE knowledge. As it turns out, the speaker believed that given tool support, the development experience wasn&#39;t all that different between the three. He then gave some performance comparisons, but I wasn&#39;t all that sure the analysis was very sound. Java EE came out way on top. I hadn&#39;t heard that it outperformed the others by quite as much as he showed. He made a rather dubious statement when he said that Grails and Rails weren&#39;t protected by standards. Groovy is a JSR and Grails just sits on top of it. If that isn&#39;t standard protection, then what is?&lt;/p&gt;
-&lt;p&gt;The EJB tips, tricks, and patterns session was quite nice. I learned a few nuances of the platform. The patterns part was the best. They first went through some of the design patterns from the EJB 2.x days and identified which ones were obsolete and which ones were still useful. They then provided several new design patterns. Unfortunately the slides for this talk were not yet available and I just don&#39;t feel like combing through my handwritten notes. Definitely check this one out online when it is posted.&lt;/p&gt;
-&lt;p&gt;Cameron Purdy&#39;s &amp;ldquo;Top 10&amp;rdquo; talk was both humorous and thought-provoking. I&#39;ll never do justice to it. Check it out when the video comes available.&lt;/p&gt;
-&lt;p&gt;The final session of the conference for me addressed a burning question I had in my mind since Monday - what in the world is a DSL? I heard it thrown around in the Grails and Ruby talks at Java University, but nobody ever defined the acronym. Domain Specific Language - that what it is! I mainly attended this talk because I thought there might be applications for DSL&#39;s in our work at St. Jude. A DSL is a custom language designed for a specific purpose. Ruby&#39;s Rake language for instrumenting application builds is an example. Rob Harrop gave an impressive demo of how he built two DSL&#39;s, one providing a simpler API for JMX, and another for corporate action entitlement calculations. While I can&#39;t think of a direct application for DSL&#39;s yet, I&#39;m not tossing out the possibility.&lt;/p&gt;
-&lt;p&gt;JavaOne was a great conference for me. If I didn&#39;t hate to leave my family for this long, I&#39;d love to attend every year. It&#39;s definitely drinking from a fire hydrant.&lt;/p&gt;
+&lt;p&gt;I scheduled the first session because I thought it was be a good way to tie together all that I had learned about Grails and Rails and then compare it to my existing Java EE knowledge. As it turns out, the speaker believed that given tool support, the development experience wasn&amp;rsquo;t all that different between the three. He then gave some performance comparisons, but I wasn&amp;rsquo;t all that sure the analysis was very sound. Java EE came out way on top. I hadn&amp;rsquo;t heard that it outperformed the others by quite as much as he showed. He made a rather dubious statement when he said that Grails and Rails weren&amp;rsquo;t protected by standards. Groovy is a JSR and Grails just sits on top of it. If that isn&amp;rsquo;t standard protection, then what is?&lt;/p&gt;
+&lt;p&gt;The EJB tips, tricks, and patterns session was quite nice. I learned a few nuances of the platform. The patterns part was the best. They first went through some of the design patterns from the EJB 2.x days and identified which ones were obsolete and which ones were still useful. They then provided several new design patterns. Unfortunately the slides for this talk were not yet available and I just don&amp;rsquo;t feel like combing through my handwritten notes. Definitely check this one out online when it is posted.&lt;/p&gt;
+&lt;p&gt;Cameron Purdy&amp;rsquo;s &amp;ldquo;Top 10&amp;rdquo; talk was both humorous and thought-provoking. I&amp;rsquo;ll never do justice to it. Check it out when the video comes available.&lt;/p&gt;
+&lt;p&gt;The final session of the conference for me addressed a burning question I had in my mind since Monday - what in the world is a DSL? I heard it thrown around in the Grails and Ruby talks at Java University, but nobody ever defined the acronym. Domain Specific Language - that what it is! I mainly attended this talk because I thought there might be applications for DSL&amp;rsquo;s in our work at St. Jude. A DSL is a custom language designed for a specific purpose. Ruby&amp;rsquo;s Rake language for instrumenting application builds is an example. Rob Harrop gave an impressive demo of how he built two DSL&amp;rsquo;s, one providing a simpler API for JMX, and another for corporate action entitlement calculations. While I can&amp;rsquo;t think of a direct application for DSL&amp;rsquo;s yet, I&amp;rsquo;m not tossing out the possibility.&lt;/p&gt;
+&lt;p&gt;JavaOne was a great conference for me. If I didn&amp;rsquo;t hate to leave my family for this long, I&amp;rsquo;d love to attend every year. It&amp;rsquo;s definitely drinking from a fire hydrant.&lt;/p&gt;
 </description>
     </item>
     
@@ -533,11 +533,11 @@ class TextileCodec {
       <link>https://www.mattstine.com/2007/05/08/it-seems-to-be-the-year-of-the-dynamicscripting-language/</link>
       <pubDate>Tue, 08 May 2007 00:00:00 +0000</pubDate>
       <guid>https://www.mattstine.com/2007/05/08/it-seems-to-be-the-year-of-the-dynamicscripting-language/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://picasaweb.google.com/matt.stine/SanFranciscoJavaOne2007/photo#5062324250889201762&#34;&gt;&lt;img src=&#34;http://lh6.google.com/image/matt.stine/RkD9FbgYqGI/AAAAAAAAALY/NEPT0IawaRY/s288/DSCN1113.JPG&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;It has been a whirlwind of a day. I&#39;ve been to two keynotes (close to 5 hours of information there) and one technical session. Couple that information with what I heard at Java University yesterday, and you find many common themes. One that keeps coming up is the emerging trend of making other languages, particularly dynamic/scripting languages, first-class citizens on the JVM.&lt;/p&gt;
-&lt;p&gt;According to Wikipedia, &amp;ldquo;Dynamic programming language is a term used broadly in computer science to describe a class of high level programming languages that execute at runtime many common behaviors that other languages might perform during compilation, if at all. These behaviors could include extension of the program, by adding new code, or by extending objects and definitions, or by modifying the type system, all during program execution. These behaviors can be emulated in nearly any language of sufficient complexity, but dynamic languages provide direct tools to make use of them.&amp;rdquo; This definition seems to fit quite nicely with what I&#39;ve heard the last two days. A couple of dynamic languages I&#39;ve heard A LOT about are Groovy and Ruby.&lt;/p&gt;
-&lt;p&gt;Yes, Ruby and its most popular framework, Ruby on Rails, have survived the initial hype. They are here to stay. Not only that, they seem poised to make a serious impact on the way we will do web application development over the next several years. Sun made a HUGE splash when they decided to hire the core developers of JRuby, the project which in its current pre-1.0 release already runs 98% of Ruby on Rails as a first-class citizen on the JVM. Not only that, you can now create a WAR file from a Ruby on Rails application and deploy it to any Java application server! I&#39;ll write more on this in another entry as I attended a full technical session on it.&lt;/p&gt;
-&lt;p&gt;If you&#39;re too uncomfortable getting away from Java, why not try Groovy? After all, it is a JSR (241). All of Java syntax is legal in Groovy, plus a lot more. Groovy is a dynamic scripting language like Ruby and also compiles to bytecode, making it a first-class citizen on the JVM. It has its own MVC framework, Grails (formerly Groovy on Rails), which is a direct competitor to Ruby on Rails. I&#39;ve already written on Groovy and Grails in an earlier entry.&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;http://picasaweb.google.com/matt.stine/SanFranciscoJavaOne2007/photo#5062324250889201762&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;http://lh6.google.com/image/matt.stine/RkD9FbgYqGI/AAAAAAAAALY/NEPT0IawaRY/s288/DSCN1113.JPG&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;It has been a whirlwind of a day. I&amp;rsquo;ve been to two keynotes (close to 5 hours of information there) and one technical session. Couple that information with what I heard at Java University yesterday, and you find many common themes. One that keeps coming up is the emerging trend of making other languages, particularly dynamic/scripting languages, first-class citizens on the JVM.&lt;/p&gt;
+&lt;p&gt;According to Wikipedia, &amp;ldquo;Dynamic programming language is a term used broadly in computer science to describe a class of high level programming languages that execute at runtime many common behaviors that other languages might perform during compilation, if at all. These behaviors could include extension of the program, by adding new code, or by extending objects and definitions, or by modifying the type system, all during program execution. These behaviors can be emulated in nearly any language of sufficient complexity, but dynamic languages provide direct tools to make use of them.&amp;rdquo; This definition seems to fit quite nicely with what I&amp;rsquo;ve heard the last two days. A couple of dynamic languages I&amp;rsquo;ve heard A LOT about are Groovy and Ruby.&lt;/p&gt;
+&lt;p&gt;Yes, Ruby and its most popular framework, Ruby on Rails, have survived the initial hype. They are here to stay. Not only that, they seem poised to make a serious impact on the way we will do web application development over the next several years. Sun made a HUGE splash when they decided to hire the core developers of JRuby, the project which in its current pre-1.0 release already runs 98% of Ruby on Rails as a first-class citizen on the JVM. Not only that, you can now create a WAR file from a Ruby on Rails application and deploy it to any Java application server! I&amp;rsquo;ll write more on this in another entry as I attended a full technical session on it.&lt;/p&gt;
+&lt;p&gt;If you&amp;rsquo;re too uncomfortable getting away from Java, why not try Groovy? After all, it is a JSR (241). All of Java syntax is legal in Groovy, plus a lot more. Groovy is a dynamic scripting language like Ruby and also compiles to bytecode, making it a first-class citizen on the JVM. It has its own MVC framework, Grails (formerly Groovy on Rails), which is a direct competitor to Ruby on Rails. I&amp;rsquo;ve already written on Groovy and Grails in an earlier entry.&lt;/p&gt;
 &lt;p&gt;I plan to attend some additional sessions focused on these dynamic languages, as it seems they will be really important in the years to come.&lt;/p&gt;
 </description>
     </item>
@@ -547,7 +547,7 @@ class TextileCodec {
       <link>https://www.mattstine.com/2007/05/07/java-university-rapid-web-site-development-with-groovy-and-grails/</link>
       <pubDate>Mon, 07 May 2007 00:00:00 +0000</pubDate>
       <guid>https://www.mattstine.com/2007/05/07/java-university-rapid-web-site-development-with-groovy-and-grails/</guid>
-      <description>&lt;p&gt;I&#39;m currently sitting in this session - Graeme Rocher is the presenter. He is the creator of Grails, which is Groovy&#39;s answer to the Ruby on Rails like development experience. He&#39;s currently doing Q&amp;amp;A, so I thought I&#39;d take the opportunity to write a short entry. So far this session is awesome! Graeme is a great presenter and has had the perfect balance of slides and live coding. Unfortunately they ran out of slides before I got to the presentation (more on the sometimes laughable logistics at JavaOne later), so I&#39;m having trouble remember details to write about (they&#39;ve promised to email me the slides). The first part of the session was an introduction to Groovy, Java&#39;s &amp;ldquo;scripting&amp;rdquo; language. I had NO IDEA just how cool and powerful Groovy was. I am especially impressed with its MetaClass concept, whereby you can override almost every behavior of the Java language that you can imagine - method calling, operator overloading, etc. Imagine being able to do AOP type things without using AOP. Not only that, it has all of my favorite pet features like &amp;ldquo;everything is an object,&amp;rdquo; closures, dynamic lists, etc. It&#39;s an OOP nuts dream. I&#39;ll write more later.&lt;/p&gt;
+      <description>&lt;p&gt;I&amp;rsquo;m currently sitting in this session - Graeme Rocher is the presenter. He is the creator of Grails, which is Groovy&amp;rsquo;s answer to the Ruby on Rails like development experience. He&amp;rsquo;s currently doing Q&amp;amp;A, so I thought I&amp;rsquo;d take the opportunity to write a short entry. So far this session is awesome! Graeme is a great presenter and has had the perfect balance of slides and live coding. Unfortunately they ran out of slides before I got to the presentation (more on the sometimes laughable logistics at JavaOne later), so I&amp;rsquo;m having trouble remember details to write about (they&amp;rsquo;ve promised to email me the slides). The first part of the session was an introduction to Groovy, Java&amp;rsquo;s &amp;ldquo;scripting&amp;rdquo; language. I had NO IDEA just how cool and powerful Groovy was. I am especially impressed with its MetaClass concept, whereby you can override almost every behavior of the Java language that you can imagine - method calling, operator overloading, etc. Imagine being able to do AOP type things without using AOP. Not only that, it has all of my favorite pet features like &amp;ldquo;everything is an object,&amp;rdquo; closures, dynamic lists, etc. It&amp;rsquo;s an OOP nuts dream. I&amp;rsquo;ll write more later.&lt;/p&gt;
 </description>
     </item>
     

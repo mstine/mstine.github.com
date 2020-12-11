@@ -1,13 +1,19 @@
-<!DOCTYPE html>
-<html lang="en-us">
+<!DOCTYPE html><html lang="en-us" >
 
 <head>
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="Source Themes Academic 4.7.0">
+  
+  
+  
+  <meta name="generator" content="Wowchemy 5.0.0-beta.1 for Hugo">
+  
 
+  
+
+  
   
 
   
@@ -21,20 +27,35 @@
   
   
 
-  <meta name="author" content="Matt Stine">
+  
 
   
   
   
     
   
-  <meta name="description" content="The gauntlet has again been dropped in the world of cloud interoperability. The dueling factions include those asserting that competitors to Amazon&#39;s web services (principally OpenStack) must adopt AWS&#39;s API&#39;s in order to remain viable, and those that believe such &ldquo;API cloning&rdquo; will do nothing more than stunt innovation. If you were to ask me, I&#39;d say that we&#39;ve seen this play out before. Remember the &ldquo;Clone Wars&rdquo; that began in the late 1980&#39;s and that persisted for the better part of two decades?">
+  <meta name="description" content="The gauntlet has again been dropped in the world of cloud interoperability. The dueling factions include those asserting that competitors to Amazon&rsquo;s web services (principally OpenStack) must adopt AWS&rsquo;s API&rsquo;s in order to remain viable, and those that believe such &ldquo;API cloning&rdquo; will do nothing more than stunt innovation. If you were to ask me, I&rsquo;d say that we&rsquo;ve seen this play out before. Remember the &ldquo;Clone Wars&rdquo; that began in the late 1980&rsquo;s and that persisted for the better part of two decades?">
 
   
   <link rel="alternate" hreflang="en-us" href="https://www.mattstine.com/2013/08/02/bosh-and-cloud-api-compatibility/">
 
   
 
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
 
   
   
@@ -50,8 +71,8 @@
   
   
     
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.min.css" integrity="sha256-4w9DunooKSr3MFXHXWyFER38WmPdm361bQS/2KUWZbU=" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha256-FMvZuGapsJLjouA6k7Eo2lusoAX9i0ShlWFG6qt7SLc=" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
 
     
@@ -63,14 +84,14 @@
       
       
         
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/github.min.css" crossorigin="anonymous" title="hl-light" disabled>
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css" crossorigin="anonymous" title="hl-light" disabled>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark">
         
       
     
 
     
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.css" integrity="sha256-SHMGCYmST46SoyGgo4YR/9AlK1vf3ff84Aq9yK4hdqM=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.css" integrity="sha512-1xoFisiGdy9nvho8EgXuXvnpR5GAMSjFwp40gSRE3NwdUdIMIKuPa7bqoUhLD0O/5tPNhteAsE5XyyMi5reQVA==" crossorigin="anonymous">
     
 
     
@@ -153,7 +174,14 @@
       
 
       
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js" integrity="sha256-Md1qLToewPeKjfAHU1zyPwOutccPAm5tahnaw7Osw0A=" crossorigin="anonymous" async></script>
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.2.2/lazysizes.min.js" integrity="sha512-TmDwFLhg3UA4ZG0Eb4MIyT1O1Mb+Oww5kFG0uHqXsdbyZz9DcvYQhKpGgNkamAI6h2lGGZq2X8ftOJvF/XjTUg==" crossorigin="anonymous" async></script>
       
     
       
@@ -186,20 +214,31 @@
 
       
     
+      
+
+      
+      
+
+      
+    
 
   
 
   
   
   
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=B612+Mono:400,700%7COrbitron:400,700&display=swap">
+    
+      
+      
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=B612+Mono:400,700%7COrbitron:400,700&display=swap">
+    
   
 
   
   
   
   
-  <link rel="stylesheet" href="/css/academic.css">
+  <link rel="stylesheet" href="/css/wowchemy.min.d5ef981b95a68d26416bcd7b52d59939.css">
 
   
 
@@ -208,15 +247,22 @@
 
   
 
+  
+
+
+  
+  
 
   
 
   <link rel="manifest" href="/index.webmanifest">
-  <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
-  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
+  <link rel="icon" type="image/png" href="/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_192x192_fill_lanczos_center_2.png">
 
   <link rel="canonical" href="https://www.mattstine.com/2013/08/02/bosh-and-cloud-api-compatibility/">
 
+  
+  
   
   
   
@@ -234,8 +280,8 @@
   <meta property="og:site_name" content="Matt Stine">
   <meta property="og:url" content="https://www.mattstine.com/2013/08/02/bosh-and-cloud-api-compatibility/">
   <meta property="og:title" content="bosh and cloud api compatibility | Matt Stine">
-  <meta property="og:description" content="The gauntlet has again been dropped in the world of cloud interoperability. The dueling factions include those asserting that competitors to Amazon&#39;s web services (principally OpenStack) must adopt AWS&#39;s API&#39;s in order to remain viable, and those that believe such &ldquo;API cloning&rdquo; will do nothing more than stunt innovation. If you were to ask me, I&#39;d say that we&#39;ve seen this play out before. Remember the &ldquo;Clone Wars&rdquo; that began in the late 1980&#39;s and that persisted for the better part of two decades?"><meta property="og:image" content="img/map[gravatar:%!s(bool=false) shape:circle]">
-  <meta property="twitter:image" content="img/map[gravatar:%!s(bool=false) shape:circle]"><meta property="og:locale" content="en-us">
+  <meta property="og:description" content="The gauntlet has again been dropped in the world of cloud interoperability. The dueling factions include those asserting that competitors to Amazon&rsquo;s web services (principally OpenStack) must adopt AWS&rsquo;s API&rsquo;s in order to remain viable, and those that believe such &ldquo;API cloning&rdquo; will do nothing more than stunt innovation. If you were to ask me, I&rsquo;d say that we&rsquo;ve seen this play out before. Remember the &ldquo;Clone Wars&rdquo; that began in the late 1980&rsquo;s and that persisted for the better part of two decades?"><meta property="og:image" content="https://www.mattstine.com/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png">
+  <meta property="twitter:image" content="https://www.mattstine.com/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
   
     
       <meta property="article:published_time" content="2013-08-02T00:00:00&#43;00:00">
@@ -258,8 +304,6 @@
 
 
 
-
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -273,20 +317,15 @@
   "datePublished": "2013-08-02T00:00:00Z",
   "dateModified": "2013-08-02T00:00:00Z",
   
-  "author": {
-    "@type": "Person",
-    "name": "Matt Stine"
-  },
-  
   "publisher": {
     "@type": "Organization",
     "name": "Matt Stine",
     "logo": {
       "@type": "ImageObject",
-      "url": "img/https://www.mattstine.com/"
+      "url": "https://www.mattstine.com/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_192x192_fill_lanczos_center_2.png"
     }
   },
-  "description": "The gauntlet has again been dropped in the world of cloud interoperability. The dueling factions include those asserting that competitors to Amazon's web services (principally OpenStack) must adopt AWS's API's in order to remain viable, and those that believe such \u0026ldquo;API cloning\u0026rdquo; will do nothing more than stunt innovation. If you were to ask me, I'd say that we've seen this play out before. Remember the \u0026ldquo;Clone Wars\u0026rdquo; that began in the late 1980's and that persisted for the better part of two decades?"
+  "description": "The gauntlet has again been dropped in the world of cloud interoperability. The dueling factions include those asserting that competitors to Amazon\u0026rsquo;s web services (principally OpenStack) must adopt AWS\u0026rsquo;s API\u0026rsquo;s in order to remain viable, and those that believe such \u0026ldquo;API cloning\u0026rdquo; will do nothing more than stunt innovation. If you were to ask me, I\u0026rsquo;d say that we\u0026rsquo;ve seen this play out before. Remember the \u0026ldquo;Clone Wars\u0026rdquo; that began in the late 1980\u0026rsquo;s and that persisted for the better part of two decades?"
 }
 </script>
 
@@ -308,7 +347,15 @@
 
 </head>
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="dark">
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper dark ">
+
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.js"></script>
 
   <aside class="search-results" id="search">
   <div class="container">
@@ -326,7 +373,7 @@
       <div id="search-box">
         
         <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
-        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control">
         
       </div>
 
@@ -342,7 +389,13 @@
 </aside>
 
 
-  
+  <div class="page-header">
+    
+
+
+
+
+
 
 
 
@@ -389,16 +442,24 @@
         
 
         
+
         
         
         
         
+
         
           
+            
+            
           
           
             
-          
+            
+            
+              
+            
+            
           
         
 
@@ -418,16 +479,24 @@
         
 
         
+
         
         
         
         
+
         
           
+            
+            
           
           
             
-          
+            
+            
+              
+            
+            
           
         
 
@@ -447,16 +516,24 @@
         
 
         
+
         
         
         
         
+
         
           
+            
+            
           
           
             
-          
+            
+            
+              
+            
+            
           
         
 
@@ -476,16 +553,24 @@
         
 
         
+
         
         
         
         
+
         
           
+            
+            
           
           
             
-          
+            
+            
+              
+            
+            
           
         
 
@@ -505,16 +590,24 @@
         
 
         
+
         
         
         
         
+
         
           
+            
+            
           
           
             
-          
+            
+            
+              
+            
+            
           
         
 
@@ -534,16 +627,24 @@
         
 
         
+
         
         
         
         
+
         
           
+            
+            
           
           
             
-          
+            
+            
+              
+            
+            
           
         
 
@@ -563,16 +664,24 @@
         
 
         
+
         
         
         
         
+
         
           
+            
+            
           
           
             
-          
+            
+            
+              
+            
+            
           
         
 
@@ -592,16 +701,24 @@
         
 
         
+
         
         
         
         
+
         
           
+            
+            
           
           
             
-          
+            
+            
+              
+            
+            
           
         
 
@@ -620,14 +737,29 @@
 
     <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
       
+      
       <li class="nav-item">
-        <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
       </li>
       
 
       
-      <li class="nav-item">
-        <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+      
+      <li class="nav-item dropdown theme-dropdown">
+        <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+          <i class="fas fa-moon" aria-hidden="true"></i>
+        </a>
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item js-set-theme-light">
+            <span>Light</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-dark">
+            <span>Dark</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-auto">
+            <span>Automatic</span>
+          </a>
+        </div>
       </li>
       
 
@@ -639,7 +771,10 @@
 </nav>
 
 
-  <article class="article">
+  </div>
+
+  <div class="page-body">
+    <article class="article">
 
   
 
@@ -695,6 +830,8 @@
   
   
   
+  
+  
 
   
   
@@ -728,20 +865,20 @@
   <div class="article-container">
 
     <div class="article-style">
-      <p>The gauntlet has again been dropped in the world of cloud interoperability. The dueling factions include those asserting that competitors to Amazon's web services (principally OpenStack) must adopt AWS's API's in order to remain viable, and those that believe such &ldquo;API cloning&rdquo; will do nothing more than stunt innovation. If you were to ask me, I'd say that we've seen this play out before. Remember the &ldquo;Clone Wars&rdquo; that began in the late 1980's and that persisted for the better part of two decades? A huge cast of competitors battled for the title of &ldquo;best PC that's not manufactured by IBM.&rdquo; How did that play out? For a relatively short period of time, having the best PC &ldquo;designed for Microsoft Windows,&rdquo; along with the leanest supply chain (see Dell), paved a golden path to victory. And then Steve Jobs returns to Apple, and now better than 50% of the laptops running in the Starbucks in which I'm writing this blog have a shiny white fruit on their lids. As it turns out, &ldquo;going your own way&rdquo; can work out awfully well.</p>
-<p>But that's not the angle I want to take in this discussion. Let's dig deeper into what the two sides have to say.</p>
-<p>The battle was first renewed with Cloud Scaling CTO Randy Bias&rsquo; <a href="http://www.cloudscaling.com/blog/cloud-computing/openstack-aws">Open Letter to the OpenStack Community</a>. Randy adopts the position that full-compatibility with the AWS API's is necessary for OpenStack's survival. The gist of his argument is that Amazon currently dominates public cloud, supporting this via a comparison between Amazon's and Rackspace's growth rates since 2009, and that they also &ldquo;control the innovation curve&rdquo; as they push &ldquo;new features into production at a breathtaking pace.&rdquo; Furthermore, he asserts that any hope for survival with respect to competing cloud platforms is limited to the hybrid cloud space, providing enterprises with the capability to seamlessly migrate workloads between the public cloud and private, on-premises clouds. Therefore, OpenStack must adopt API compatibility with AWS in order to become the enterprise choice for hybrid cloud.</p>
-<p>A few days later, Rackspace's &ldquo;Startup Liaison Officer&rdquo; Robert Scoble responded with his own <a href="https://plus.google.com/+Scobleizer/posts/HQ7Wi4WCQse">Open Letter</a>. Scoble makes some interesting counterpoints, most notably the argument that customers don't adopt cloud platforms because of API compatibility with Amazon, but because of the promise of a &ldquo;10x improvement&rdquo; to their own business. In order to provide such improvements, cloud platform competitors must not shackle themselves to a &ldquo;de facto standard&rdquo; API, but rather must focus their limited resources on driving those 10x improvements in infrastructure capability.</p>
-<p>So by now you must be wondering, whose side am I on? I'm on the side of innovation. But that doesn't necessarily put me in either camp. I think the end goals of both parties are things that we want:</p>
+      <p>The gauntlet has again been dropped in the world of cloud interoperability. The dueling factions include those asserting that competitors to Amazon&rsquo;s web services (principally OpenStack) must adopt AWS&rsquo;s API&rsquo;s in order to remain viable, and those that believe such &ldquo;API cloning&rdquo; will do nothing more than stunt innovation. If you were to ask me, I&rsquo;d say that we&rsquo;ve seen this play out before. Remember the &ldquo;Clone Wars&rdquo; that began in the late 1980&rsquo;s and that persisted for the better part of two decades? A huge cast of competitors battled for the title of &ldquo;best PC that&rsquo;s not manufactured by IBM.&rdquo; How did that play out? For a relatively short period of time, having the best PC &ldquo;designed for Microsoft Windows,&rdquo; along with the leanest supply chain (see Dell), paved a golden path to victory. And then Steve Jobs returns to Apple, and now better than 50% of the laptops running in the Starbucks in which I&rsquo;m writing this blog have a shiny white fruit on their lids. As it turns out, &ldquo;going your own way&rdquo; can work out awfully well.</p>
+<p>But that&rsquo;s not the angle I want to take in this discussion. Let&rsquo;s dig deeper into what the two sides have to say.</p>
+<p>The battle was first renewed with Cloud Scaling CTO Randy Bias' <a href="http://www.cloudscaling.com/blog/cloud-computing/openstack-aws" target="_blank" rel="noopener">Open Letter to the OpenStack Community</a>. Randy adopts the position that full-compatibility with the AWS API&rsquo;s is necessary for OpenStack&rsquo;s survival. The gist of his argument is that Amazon currently dominates public cloud, supporting this via a comparison between Amazon&rsquo;s and Rackspace&rsquo;s growth rates since 2009, and that they also &ldquo;control the innovation curve&rdquo; as they push &ldquo;new features into production at a breathtaking pace.&rdquo; Furthermore, he asserts that any hope for survival with respect to competing cloud platforms is limited to the hybrid cloud space, providing enterprises with the capability to seamlessly migrate workloads between the public cloud and private, on-premises clouds. Therefore, OpenStack must adopt API compatibility with AWS in order to become the enterprise choice for hybrid cloud.</p>
+<p>A few days later, Rackspace&rsquo;s &ldquo;Startup Liaison Officer&rdquo; Robert Scoble responded with his own <a href="https://plus.google.com/&#43;Scobleizer/posts/HQ7Wi4WCQse" target="_blank" rel="noopener">Open Letter</a>. Scoble makes some interesting counterpoints, most notably the argument that customers don&rsquo;t adopt cloud platforms because of API compatibility with Amazon, but because of the promise of a &ldquo;10x improvement&rdquo; to their own business. In order to provide such improvements, cloud platform competitors must not shackle themselves to a &ldquo;de facto standard&rdquo; API, but rather must focus their limited resources on driving those 10x improvements in infrastructure capability.</p>
+<p>So by now you must be wondering, whose side am I on? I&rsquo;m on the side of innovation. But that doesn&rsquo;t necessarily put me in either camp. I think the end goals of both parties are things that we want:</p>
 <ul>
 <li><strong>Freedom:</strong> the ability to migrate workloads between cloud infrastructure providers without needing to significantly alter the behavior of the workload itself.</li>
-<li><strong>Innovation:</strong> the ability to realize capabilities that don't exist today that will solve emerging problems (particularly those related to the explosion of generated and archived data).</li>
+<li><strong>Innovation:</strong> the ability to realize capabilities that don&rsquo;t exist today that will solve emerging problems (particularly those related to the explosion of generated and archived data).</li>
 </ul>
-<p>Spending development cycles on API compatibility will certainly slow anyone's ability to innovate. And what is API compatibility anyway? I believe that much of the concern rests on the large investment many enterprises have (or believe they will need to create) in bespoke automation written to a particular vendor's API. Having recently left a large-scale project that generated thousands of lines of such automation to drive consumption of a particular vendor's infrastucture platform, and that was in the near term planning to migrate to another platform, I can tell you that this concern is very real. But simply stating that &ldquo;your existing code will work when you target our API&rdquo; does not compatibility make. As Amazon continues to deploy new features at their breathtaking pace, how will OpenStack and other platforms keep up?</p>
-<p>For API compatibility to be <em>real</em>, a &ldquo;technology compatibility kit&rdquo; (TCK) is needed. For those in the Java world, TCK's are near and dear. Java itself is not a particular implementation, but a standard API that invites competing implementations and innovation. But for any competing implementation to call itself &ldquo;Java,&rdquo; it must pass the tests contained within the TCK. An AWS TCK is really the only true way to ensure API compatibility. But I think it's hard to argue that Amazon has any real business interest in creating and sharing one.</p>
+<p>Spending development cycles on API compatibility will certainly slow anyone&rsquo;s ability to innovate. And what is API compatibility anyway? I believe that much of the concern rests on the large investment many enterprises have (or believe they will need to create) in bespoke automation written to a particular vendor&rsquo;s API. Having recently left a large-scale project that generated thousands of lines of such automation to drive consumption of a particular vendor&rsquo;s infrastucture platform, and that was in the near term planning to migrate to another platform, I can tell you that this concern is very real. But simply stating that &ldquo;your existing code will work when you target our API&rdquo; does not compatibility make. As Amazon continues to deploy new features at their breathtaking pace, how will OpenStack and other platforms keep up?</p>
+<p>For API compatibility to be <em>real</em>, a &ldquo;technology compatibility kit&rdquo; (TCK) is needed. For those in the Java world, TCK&rsquo;s are near and dear. Java itself is not a particular implementation, but a standard API that invites competing implementations and innovation. But for any competing implementation to call itself &ldquo;Java,&rdquo; it must pass the tests contained within the TCK. An AWS TCK is really the only true way to ensure API compatibility. But I think it&rsquo;s hard to argue that Amazon has any real business interest in creating and sharing one.</p>
 <p>There is another way. Perhaps we should stop creating bespoke automation and rally around a common standard toolkit for managing large-scale cloud application deployments. This toolkit could provide mechanisms for configuration management, orchestration, health management, and rolling upgrades. It could further, as part of its architecture, build an adapter layer between its core components and the underlying infrastructure provider. Plugins could then be developed to provide the toolkit with the ability to manage all of the common infrastructure providers.</p>
-<p>Enter BOSH and it's Cloud Provider Interface (CPI) layer. BOSH was initially developed as the means of deploying and managing the Cloud Foundry PaaS platform, but it's much more generally applicable. BOSH can today deploy any distributed system, <em>unchanged</em>, to any of several popular IaaS providers: VMware vSphere, VMware vCloud Director, Amazon Web Services, and OpenStack. Heresy you say! Not so. Just ask Colin Humphreys of CloudCredo, who recently <a href="http://blog.cloudfoundry.com/2013/04/30/uk-charity-raises-record-donations-powered-by-cloud-foundry">described their wildly successful deployment</a> of Cloud Foundry to a hybrid composition of vSphere and AWS-based clouds. He recently presented a technical deep dive in Pivotal's offices in which he made the statement (paraphrasing) &ldquo;I took the same Cloud Foundry bits that were running on AWS and deployed them unchanged to vSphere using BOSH.&rdquo; As anyone can tell, this isn't just theory, it's production.</p>
-<p>So how then does BOSH make this happen? A trip <a href="https://github.com/cloudfoundry/bosh/blob/master/bosh_cpi/lib/cloud.rb">into the code</a> for the BOSH CPI &ldquo;interface&rdquo; will show a list of core infrastructure capabilities that BOSH requires:</p>
+<p>Enter BOSH and it&rsquo;s Cloud Provider Interface (CPI) layer. BOSH was initially developed as the means of deploying and managing the Cloud Foundry PaaS platform, but it&rsquo;s much more generally applicable. BOSH can today deploy any distributed system, <em>unchanged</em>, to any of several popular IaaS providers: VMware vSphere, VMware vCloud Director, Amazon Web Services, and OpenStack. Heresy you say! Not so. Just ask Colin Humphreys of CloudCredo, who recently <a href="http://blog.cloudfoundry.com/2013/04/30/uk-charity-raises-record-donations-powered-by-cloud-foundry" target="_blank" rel="noopener">described their wildly successful deployment</a> of Cloud Foundry to a hybrid composition of vSphere and AWS-based clouds. He recently presented a technical deep dive in Pivotal&rsquo;s offices in which he made the statement (paraphrasing) &ldquo;I took the same Cloud Foundry bits that were running on AWS and deployed them unchanged to vSphere using BOSH.&rdquo; As anyone can tell, this isn&rsquo;t just theory, it&rsquo;s production.</p>
+<p>So how then does BOSH make this happen? A trip <a href="https://github.com/cloudfoundry/bosh/blob/master/bosh_cpi/lib/cloud.rb" target="_blank" rel="noopener">into the code</a> for the BOSH CPI &ldquo;interface&rdquo; will show a list of core infrastructure capabilities that BOSH requires:</p>
 <ul>
 <li><code>current_vm_id</code></li>
 <li><code>create_stemcell</code></li>
@@ -761,13 +898,13 @@
 <li><code>get_disks</code></li>
 </ul>
 <p>All interactions between BOSH and the underlying infrastructure provider pass through these core methods. As long as a CPI exists that exposes these capabilities to BOSH, BOSH can deploy and manage the lifecycle of Cloud Foundry (or any other distributed system described by a BOSH release) on an infrastructure provider.</p>
-<p>So how hard is it to provide the CPI's for both AWS and OpenStack? If you choose simple metrics like number of classes (NOC) and lines of code (LOC), not that hard.</p>
+<p>So how hard is it to provide the CPI&rsquo;s for both AWS and OpenStack? If you choose simple metrics like number of classes (NOC) and lines of code (LOC), not that hard.</p>
 <p>You can find the CPI implementations at these links:</p>
 <ul>
-<li><a href="https://github.com/cloudfoundry/bosh/tree/master/bosh_aws_cpi"><a href="https://github.com/cloudfoundry/bosh/tree/master/bosh_aws_cpi">https://github.com/cloudfoundry/bosh/tree/master/bosh_aws_cpi</a></a></li>
-<li><a href="https://github.com/cloudfoundry/bosh/tree/master/bosh_openstack_cpi"><a href="https://github.com/cloudfoundry/bosh/tree/master/bosh_openstack_cpi">https://github.com/cloudfoundry/bosh/tree/master/bosh_openstack_cpi</a></a></li>
+<li><a href="https://github.com/cloudfoundry/bosh/tree/master/bosh_aws_cpi" target="_blank" rel="noopener">https://github.com/cloudfoundry/bosh/tree/master/bosh_aws_cpi</a></li>
+<li><a href="https://github.com/cloudfoundry/bosh/tree/master/bosh_openstack_cpi" target="_blank" rel="noopener">https://github.com/cloudfoundry/bosh/tree/master/bosh_openstack_cpi</a></li>
 </ul>
-<p>First we'll generate the metrics for AWS:</p>
+<p>First we&rsquo;ll generate the metrics for AWS:</p>
 <pre><code class="language-bash">$ find ./bosh_aws_cpi/lib -name &quot;*.rb&quot; -exec wc -l {} \;
        2 ./bosh_aws_cpi/lib/bosh_aws_cpi.rb
       68 ./bosh_aws_cpi/lib/cloud/aws/aki_picker.rb
@@ -787,11 +924,11 @@
       44 ./bosh_aws_cpi/lib/cloud/aws/vip_network.rb
       43 ./bosh_aws_cpi/lib/cloud/aws.rb
 </code></pre>
-<p>We'll also want the total LOC:</p>
+<p>We&rsquo;ll also want the total LOC:</p>
 <pre><code class="language-bash">$ find ./bosh_aws_cpi/lib -name &quot;*.rb&quot; -exec wc -l {} \; | awk '{ sum += $1 } END { print sum }'
 1629
 </code></pre>
-<p>And now let's do the same for OpenStack:</p>
+<p>And now let&rsquo;s do the same for OpenStack:</p>
 <pre><code class="language-bash">$ find ./bosh_openstack_cpi/lib -name &quot;*.rb&quot; -exec wc -l {} \;
        4 ./bosh_openstack_cpi/lib/bosh_openstack_cpi.rb
      867 ./bosh_openstack_cpi/lib/cloud/openstack/cloud.rb
@@ -812,20 +949,20 @@ $ find ./bosh_openstack_cpi/lib -name &quot;*.rb&quot; -exec wc -l {} \; | awk '
 <thead>
 <tr>
 <th>CPI</th>
-<th align="right">Number of Classes (NOC)</th>
-<th align="right">Lines of Code (LOC)</th>
+<th style="text-align:right">Number of Classes (NOC)</th>
+<th style="text-align:right">Lines of Code (LOC)</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>Amazon AWS</td>
-<td align="right">17</td>
-<td align="right">1629</td>
+<td style="text-align:right">17</td>
+<td style="text-align:right">1629</td>
 </tr>
 <tr>
 <td>OpenStack</td>
-<td align="right">11</td>
-<td align="right">1373</td>
+<td style="text-align:right">11</td>
+<td style="text-align:right">1373</td>
 </tr>
 <tr>
 <td><br/></td>
@@ -834,18 +971,19 @@ $ find ./bosh_openstack_cpi/lib -name &quot;*.rb&quot; -exec wc -l {} \; | awk '
 </tr>
 </tbody>
 </table>
-<p>Let's make a couple of points about these metrics. First of all, the two CPI's do not use a common foundation. The AWS CPI uses the <a href="http://aws.amazon.com/sdkforruby">AWS SDK for Ruby</a> while the OpenStack CPI uses <a href="http://fog.io">Fog</a>. Fog could also have been used as the foundation for the AWS CPI, but the CPI authors presumably thought it better to stick with the toolkit provided by Amazon. This is a minor point, however, as both of these toolkits essentially provide simple wrappers around the infrastructure providers&rsquo; REST API's. It's doubtful that using a common API wrapper for both CPI's would have substantially changed the metrics presented here.</p>
-<p>Second, obviously NOC and LOC are rather naive metrics. It's incredibly possible to write terse code that is opaque, buggy, and hard to maintain or enhance. In fact, according to Code Climate, both of the top-level implementation classes for these CPI's have quite a lot of room for improvement:</p>
+<p>Let&rsquo;s make a couple of points about these metrics. First of all, the two CPI&rsquo;s do not use a common foundation. The AWS CPI uses the <a href="http://aws.amazon.com/sdkforruby" target="_blank" rel="noopener">AWS SDK for Ruby</a> while the OpenStack CPI uses <a href="http://fog.io" target="_blank" rel="noopener">Fog</a>. Fog could also have been used as the foundation for the AWS CPI, but the CPI authors presumably thought it better to stick with the toolkit provided by Amazon. This is a minor point, however, as both of these toolkits essentially provide simple wrappers around the infrastructure providers' REST API&rsquo;s. It&rsquo;s doubtful that using a common API wrapper for both CPI&rsquo;s would have substantially changed the metrics presented here.</p>
+<p>Second, obviously NOC and LOC are rather naive metrics. It&rsquo;s incredibly possible to write terse code that is opaque, buggy, and hard to maintain or enhance. In fact, according to Code Climate, both of the top-level implementation classes for these CPI&rsquo;s have quite a lot of room for improvement:</p>
 <ul>
-<li><a href="https://codeclimate.com/github/cloudfoundry/bosh/Bosh::AwsCloud::Cloud"><a href="https://codeclimate.com/github/cloudfoundry/bosh/Bosh::AwsCloud::Cloud">https://codeclimate.com/github/cloudfoundry/bosh/Bosh::AwsCloud::Cloud</a></a></li>
-<li><a href="https://codeclimate.com/github/cloudfoundry/bosh/Bosh::OpenStackCloud::Cloud"><a href="https://codeclimate.com/github/cloudfoundry/bosh/Bosh::OpenStackCloud::Cloud">https://codeclimate.com/github/cloudfoundry/bosh/Bosh::OpenStackCloud::Cloud</a></a></li>
+<li><a href="https://codeclimate.com/github/cloudfoundry/bosh/Bosh::AwsCloud::Cloud" target="_blank" rel="noopener">https://codeclimate.com/github/cloudfoundry/bosh/Bosh::AwsCloud::Cloud</a></li>
+<li><a href="https://codeclimate.com/github/cloudfoundry/bosh/Bosh::OpenStackCloud::Cloud" target="_blank" rel="noopener">https://codeclimate.com/github/cloudfoundry/bosh/Bosh::OpenStackCloud::Cloud</a></li>
 </ul>
 <p>With that said, it is rather amazing that one could encapuslate all of the infrastructure-specific implementation necessary to deploy and manage a distributed system as powerful as Cloud Foundry in <em>less than twenty classes and 1700 lines of code</em>.</p>
-<p>So, to summarize where we've been, while there's an impressive war of words out there regarding API compatibility with Amazon AWS, Cloud Foundry and BOSH don't necessarily need to take sides. If OpenStack chooses to embrace the AWS API's, the BOSH AWS CPI will be there waiting. However, if OpenStack chooses to follow in the footsteps of Apple and take the road less traveled, the OpenStack CPI is ready and waiting to evolve with it. Should Google Compute Engine or Microsoft's Azure gain a foodhold on the innovation curve, they are presumably a relatively simple CPI away from joining the BOSH ecosystem. So if you really want &ldquo;cloud freedom,&rdquo; BOSH is leading the charge.</p>
+<p>So, to summarize where we&rsquo;ve been, while there&rsquo;s an impressive war of words out there regarding API compatibility with Amazon AWS, Cloud Foundry and BOSH don&rsquo;t necessarily need to take sides. If OpenStack chooses to embrace the AWS API&rsquo;s, the BOSH AWS CPI will be there waiting. However, if OpenStack chooses to follow in the footsteps of Apple and take the road less traveled, the OpenStack CPI is ready and waiting to evolve with it. Should Google Compute Engine or Microsoft&rsquo;s Azure gain a foodhold on the innovation curve, they are presumably a relatively simple CPI away from joining the BOSH ecosystem. So if you really want &ldquo;cloud freedom,&rdquo; BOSH is leading the charge.</p>
 
     </div>
 
     
+
 
 
 
@@ -947,11 +1085,8 @@ $ find ./bosh_openstack_cpi/lib -name &quot;*.rb&quot; -exec wc -l {} \; | awk '
 
 
 
-
   
-
-
-
+  
 
 
 
@@ -965,12 +1100,12 @@ $ find ./bosh_openstack_cpi/lib -name &quot;*.rb&quot; -exec wc -l {} \; | awk '
   <div class="media author-card content-widget-hr">
     
       
-      <img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_huaae452e3d7f432028deb0baa090376b4_1485163_270x270_fill_q90_lanczos_center.jpg" alt="Avatar">
+      <a href="https://www.mattstine.com/"><img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_huaae452e3d7f432028deb0baa090376b4_1485163_270x270_fill_q90_lanczos_center.jpg" alt=""></a>
     
 
     <div class="media-body">
-      <h5 class="card-title"><a href="https://www.mattstine.com/">Matt Stine</a></h5>
-      <h6 class="card-subtitle">Executive Director, Architecture</h6>
+      <h5 class="card-title"><a href="https://www.mattstine.com/"></a></h5>
+      <h6 class="card-subtitle">Executive Director, Software Engineering</h6>
       <p class="card-text">My research interests lean/agile software development methodologies, DevOps, architectural principles/patterns/practices, and programming paradigms.</p>
       <ul class="network-icon" aria-hidden="true">
   
@@ -1053,31 +1188,103 @@ $ find ./bosh_openstack_cpi/lib -name &quot;*.rb&quot; -exec wc -l {} \; | awk '
 
 
 
-  
-  
+
+
+
+
+
+
 
 
 
   </div>
 </article>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    © 2020 Matt Stine
+  </p>
+
+  
+  
+
+
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+    Published with
+    <a href="https://wowchemy.com" target="_blank" rel="noopener">Wowchemy</a>  —
+    the free, <a href="https://github.com/wowchemy/wowchemy-hugo-modules" target="_blank" rel="noopener">
+    open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
 
       
 
     
     
     
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+
+      
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      
+
       <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/instant.page/5.1.0/instantpage.min.js" integrity="sha512-1+qUtKoh9XZW7j+6LhRMAyOrgSQKenQ4mluTR+cvxXjP1Z54RxZuzstR/H9kgPXQsVB8IW7DMDFUJpzLjvhGSQ==" crossorigin="anonymous"></script>
 
       
 
       
         
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/highlight.min.js" integrity="sha256-1zu+3BnLYV9LdiY85uXMzii3bdrkelyp37e0ZyTAQh0=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/highlight.min.js" integrity="sha512-TDKKr+IvoqZnPzc3l35hdjpHD0m+b2EC2SrLEgKDRWpxf2rFCxemkgvJ5kfU48ip+Y+m2XVKyOCD85ybtlZDmw==" crossorigin="anonymous"></script>
         
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/languages/r.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/r.min.js"></script>
         
       
 
@@ -1085,7 +1292,7 @@ $ find ./bosh_openstack_cpi/lib -name &quot;*.rb&quot; -exec wc -l {} \; | awk '
 
     
     
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.js" integrity="sha256-EErZamuLefUnbMBQbsEqu1USa+btR2oIlCpBJbyD4/g=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.js" integrity="sha512-SeiQaaDh73yrb56sTW/RgVdi/mMqNeM2oBwubFHagc5BkixSpP1fvqF47mKzPGWYSSy4RwbBunrJBQ4Co8fRWA==" crossorigin="anonymous"></script>
     
 
     
@@ -1106,7 +1313,8 @@ $ find ./bosh_openstack_cpi/lib -name &quot;*.rb&quot; -exec wc -l {} \; | awk '
         'post': "Posts",
         'project': "Projects",
         'publication' : "Publications",
-        'talk' : "Talks"
+        'talk' : "Talks",
+        'slides' : "Slides"
         };
     </script>
     
@@ -1140,6 +1348,13 @@ $ find ./bosh_openstack_cpi/lib -name &quot;*.rb&quot; -exec wc -l {} \; | awk '
 
     
     
+    
+
+    
+    
+
+    
+    
 
     
     
@@ -1155,7 +1370,7 @@ $ find ./bosh_openstack_cpi/lib -name &quot;*.rb&quot; -exec wc -l {} \; | awk '
     
     
     
-    <script src="/js/academic.min.0630fec5958cb075a5a38f042b3ddde6.js"></script>
+    <script src="/js/wowchemy.min.ffabb05383f1b16d83e7181a605e644c.js"></script>
 
     
 
@@ -1163,60 +1378,6 @@ $ find ./bosh_openstack_cpi/lib -name &quot;*.rb&quot; -exec wc -l {} \; | awk '
 
 
 
-
-  
-  
-  <div class="container">
-    <footer class="site-footer">
-  
-
-  <p class="powered-by">
-    © 2020 Matt Stine &middot; 
-
-    Powered by the
-    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
-    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
-
-    
-    <span class="float-right" aria-hidden="true">
-      <a href="#" class="back-to-top">
-        <span class="button_icon">
-          <i class="fas fa-chevron-up fa-2x"></i>
-        </span>
-      </a>
-    </span>
-    
-  </p>
-</footer>
-
-  </div>
-  
-
-  
-<div id="modal" class="modal fade" role="dialog">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title">Cite</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <pre><code class="tex hljs"></code></pre>
-      </div>
-      <div class="modal-footer">
-        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
-          <i class="fas fa-copy"></i> Copy
-        </a>
-        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
-          <i class="fas fa-download"></i> Download
-        </a>
-        <div id="modal-error"></div>
-      </div>
-    </div>
-  </div>
-</div>
 
 </body>
 </html>

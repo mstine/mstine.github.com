@@ -5,9 +5,9 @@
     <link>https://www.mattstine.com/categories/jug/</link>
       <atom:link href="https://www.mattstine.com/categories/jug/index.xml" rel="self" type="application/rss+xml" />
     <description>jug</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Matt Stine</copyright><lastBuildDate>Fri, 28 May 2010 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2020 Matt Stine</copyright><lastBuildDate>Fri, 28 May 2010 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <url>https://www.mattstine.com/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
       <title>jug</title>
       <link>https://www.mattstine.com/categories/jug/</link>
     </image>
@@ -17,10 +17,10 @@
       <link>https://www.mattstine.com/2010/05/28/announcing-nosql-summer-memphis/</link>
       <pubDate>Fri, 28 May 2010 00:00:00 +0000</pubDate>
       <guid>https://www.mattstine.com/2010/05/28/announcing-nosql-summer-memphis/</guid>
-      <description>&lt;p&gt;I recently stumbled across the &lt;a href=&#34;http://nosqlsummer.org/&#34;&gt;NOSQL Summer&lt;/a&gt; website via my friend Alex Miller&#39;s &lt;a href=&#34;http://tech.puredanger.com/2010/05/25/nosql-summer-st-louis/&#34;&gt;blog&lt;/a&gt;. The idea is to setup a summer reading club focused around databases and distributed systems. Groups will gather &amp;ldquo;worldwide&amp;rdquo; to discuss various papers and the hopefully submit the substance of their discussions back to the NOSQL Summer website in the form of annotated papers.&lt;/p&gt;
-&lt;p&gt;This sounded like a great idea to me, so I decided that we&#39;d co-locate a NOSQL Summer discussion with our monthly Memphis JUG meetings. You can find the details of our NOSQL meetings at &lt;a href=&#34;http://nosqlsummer.org/city/memphis&#34;&gt;&lt;a href=&#34;http://nosqlsummer.org/city/memphis&#34;&gt;http://nosqlsummer.org/city/memphis&lt;/a&gt;&lt;/a&gt;. We&#39;ll start at 5:30 and run until 6:15-6:30. If you&#39;re interested in these discussions, come on out to Southwest TN Community College on June 24th (even if you&#39;re not a Java type!).&lt;/p&gt;
-&lt;p&gt;Our first paper will be &lt;a href=&#34;http://nosqlsummer.org/paper/end-of-architectural-era&#34;&gt;The End of an Architectural Era (It&#39;s Time for a Complete Rewrite)&lt;/a&gt;. Please read it before the meeting and come prepared to mindshare.&lt;/p&gt;
-&lt;p&gt;If there&#39;s enough interest in these discussions, we could start having a lunch time discussion at a centrally located restaurant halfway between each JUG meeting. We can discuss this at our first meeting in June. I hope to see you there!&lt;/p&gt;
+      <description>&lt;p&gt;I recently stumbled across the &lt;a href=&#34;http://nosqlsummer.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;NOSQL Summer&lt;/a&gt; website via my friend Alex Miller&amp;rsquo;s &lt;a href=&#34;http://tech.puredanger.com/2010/05/25/nosql-summer-st-louis/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;blog&lt;/a&gt;. The idea is to setup a summer reading club focused around databases and distributed systems. Groups will gather &amp;ldquo;worldwide&amp;rdquo; to discuss various papers and the hopefully submit the substance of their discussions back to the NOSQL Summer website in the form of annotated papers.&lt;/p&gt;
+&lt;p&gt;This sounded like a great idea to me, so I decided that we&amp;rsquo;d co-locate a NOSQL Summer discussion with our monthly Memphis JUG meetings. You can find the details of our NOSQL meetings at &lt;a href=&#34;http://nosqlsummer.org/city/memphis&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://nosqlsummer.org/city/memphis&lt;/a&gt;. We&amp;rsquo;ll start at 5:30 and run until 6:15-6:30. If you&amp;rsquo;re interested in these discussions, come on out to Southwest TN Community College on June 24th (even if you&amp;rsquo;re not a Java type!).&lt;/p&gt;
+&lt;p&gt;Our first paper will be &lt;a href=&#34;http://nosqlsummer.org/paper/end-of-architectural-era&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;The End of an Architectural Era (It&amp;rsquo;s Time for a Complete Rewrite)&lt;/a&gt;. Please read it before the meeting and come prepared to mindshare.&lt;/p&gt;
+&lt;p&gt;If there&amp;rsquo;s enough interest in these discussions, we could start having a lunch time discussion at a centrally located restaurant halfway between each JUG meeting. We can discuss this at our first meeting in June. I hope to see you there!&lt;/p&gt;
 </description>
     </item>
     
@@ -29,7 +29,7 @@
       <link>https://www.mattstine.com/2009/03/13/im-speaking-at-the-march-memphis-jug-meeting/</link>
       <pubDate>Fri, 13 Mar 2009 00:00:00 +0000</pubDate>
       <guid>https://www.mattstine.com/2009/03/13/im-speaking-at-the-march-memphis-jug-meeting/</guid>
-      <description>&lt;p&gt;I learned a great deal about JMS from Mark Richards at last weekend&#39;s NFJS Gateway Software Symposium, and I thought I&#39;d share it with the Memphis Java community. Take a look at &lt;a href=&#34;http://www.memphisjug.org&#34;&gt;&lt;a href=&#34;http://www.memphisjug.org&#34;&gt;http://www.memphisjug.org&lt;/a&gt;&lt;/a&gt; for details!&lt;/p&gt;
+      <description>&lt;p&gt;I learned a great deal about JMS from Mark Richards at last weekend&amp;rsquo;s NFJS Gateway Software Symposium, and I thought I&amp;rsquo;d share it with the Memphis Java community. Take a look at &lt;a href=&#34;http://www.memphisjug.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://www.memphisjug.org&lt;/a&gt; for details!&lt;/p&gt;
 </description>
     </item>
     

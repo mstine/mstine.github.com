@@ -1,13 +1,19 @@
-<!DOCTYPE html>
-<html lang="en-us">
+<!DOCTYPE html><html lang="en-us" >
 
 <head>
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="Source Themes Academic 4.7.0">
+  
+  
+  
+  <meta name="generator" content="Wowchemy 5.0.0-beta.1 for Hugo">
+  
 
+  
+
+  
   
 
   
@@ -21,7 +27,7 @@
   
   
 
-  <meta name="author" content="Matt Stine">
+  
 
   
   
@@ -29,13 +35,28 @@
     
   
   <meta name="description" content="This article was originally published in the April 2014 issue of NFJS the Magazine.
- This article begins an introductory series on the Go programming language. Go is a language optimized for large-scale software engineering and is rapidly becoming the language of choice for building cloud services. It does this in a very interesting way, optimizing for simplicity rather than complexity and taking a &#8220;less is exponentially more&#8221; approach.">
+ This article begins an introductory series on the Go programming language. Go is a language optimized for large-scale software engineering and is rapidly becoming the language of choice for building cloud services. It does this in a very interesting way, optimizing for simplicity rather than complexity and taking a “less is exponentially more” approach.">
 
   
   <link rel="alternate" hreflang="en-us" href="https://www.mattstine.com/2014/07/08/learning-to-go-part-i-interfaces/">
 
   
 
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
 
   
   
@@ -51,8 +72,8 @@
   
   
     
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.min.css" integrity="sha256-4w9DunooKSr3MFXHXWyFER38WmPdm361bQS/2KUWZbU=" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha256-FMvZuGapsJLjouA6k7Eo2lusoAX9i0ShlWFG6qt7SLc=" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
 
     
@@ -64,14 +85,14 @@
       
       
         
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/github.min.css" crossorigin="anonymous" title="hl-light" disabled>
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css" crossorigin="anonymous" title="hl-light" disabled>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark">
         
       
     
 
     
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.css" integrity="sha256-SHMGCYmST46SoyGgo4YR/9AlK1vf3ff84Aq9yK4hdqM=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.css" integrity="sha512-1xoFisiGdy9nvho8EgXuXvnpR5GAMSjFwp40gSRE3NwdUdIMIKuPa7bqoUhLD0O/5tPNhteAsE5XyyMi5reQVA==" crossorigin="anonymous">
     
 
     
@@ -154,7 +175,14 @@
       
 
       
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js" integrity="sha256-Md1qLToewPeKjfAHU1zyPwOutccPAm5tahnaw7Osw0A=" crossorigin="anonymous" async></script>
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.2.2/lazysizes.min.js" integrity="sha512-TmDwFLhg3UA4ZG0Eb4MIyT1O1Mb+Oww5kFG0uHqXsdbyZz9DcvYQhKpGgNkamAI6h2lGGZq2X8ftOJvF/XjTUg==" crossorigin="anonymous" async></script>
       
     
       
@@ -187,20 +215,31 @@
 
       
     
+      
+
+      
+      
+
+      
+    
 
   
 
   
   
   
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=B612+Mono:400,700%7COrbitron:400,700&display=swap">
+    
+      
+      
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=B612+Mono:400,700%7COrbitron:400,700&display=swap">
+    
   
 
   
   
   
   
-  <link rel="stylesheet" href="/css/academic.css">
+  <link rel="stylesheet" href="/css/wowchemy.min.d5ef981b95a68d26416bcd7b52d59939.css">
 
   
 
@@ -209,15 +248,22 @@
 
   
 
+  
+
+
+  
+  
 
   
 
   <link rel="manifest" href="/index.webmanifest">
-  <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
-  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
+  <link rel="icon" type="image/png" href="/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_192x192_fill_lanczos_center_2.png">
 
   <link rel="canonical" href="https://www.mattstine.com/2014/07/08/learning-to-go-part-i-interfaces/">
 
+  
+  
   
   
   
@@ -236,8 +282,8 @@
   <meta property="og:url" content="https://www.mattstine.com/2014/07/08/learning-to-go-part-i-interfaces/">
   <meta property="og:title" content="learning to go part i interfaces | Matt Stine">
   <meta property="og:description" content="This article was originally published in the April 2014 issue of NFJS the Magazine.
- This article begins an introductory series on the Go programming language. Go is a language optimized for large-scale software engineering and is rapidly becoming the language of choice for building cloud services. It does this in a very interesting way, optimizing for simplicity rather than complexity and taking a &#8220;less is exponentially more&#8221; approach."><meta property="og:image" content="img/map[gravatar:%!s(bool=false) shape:circle]">
-  <meta property="twitter:image" content="img/map[gravatar:%!s(bool=false) shape:circle]"><meta property="og:locale" content="en-us">
+ This article begins an introductory series on the Go programming language. Go is a language optimized for large-scale software engineering and is rapidly becoming the language of choice for building cloud services. It does this in a very interesting way, optimizing for simplicity rather than complexity and taking a “less is exponentially more” approach."><meta property="og:image" content="https://www.mattstine.com/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png">
+  <meta property="twitter:image" content="https://www.mattstine.com/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
   
     
       <meta property="article:published_time" content="2014-07-08T00:00:00&#43;00:00">
@@ -260,8 +306,6 @@
 
 
 
-
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -275,20 +319,15 @@
   "datePublished": "2014-07-08T00:00:00Z",
   "dateModified": "2014-07-08T00:00:00Z",
   
-  "author": {
-    "@type": "Person",
-    "name": "Matt Stine"
-  },
-  
   "publisher": {
     "@type": "Organization",
     "name": "Matt Stine",
     "logo": {
       "@type": "ImageObject",
-      "url": "img/https://www.mattstine.com/"
+      "url": "https://www.mattstine.com/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_192x192_fill_lanczos_center_2.png"
     }
   },
-  "description": "This article was originally published in the April 2014 issue of NFJS the Magazine.\n This article begins an introductory series on the Go programming language. Go is a language optimized for large-scale software engineering and is rapidly becoming the language of choice for building cloud services. It does this in a very interesting way, optimizing for simplicity rather than complexity and taking a \u0026#8220;less is exponentially more\u0026#8221; approach."
+  "description": "This article was originally published in the April 2014 issue of NFJS the Magazine.\n This article begins an introductory series on the Go programming language. Go is a language optimized for large-scale software engineering and is rapidly becoming the language of choice for building cloud services. It does this in a very interesting way, optimizing for simplicity rather than complexity and taking a “less is exponentially more” approach."
 }
 </script>
 
@@ -310,7 +349,15 @@
 
 </head>
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="dark">
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper dark ">
+
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.js"></script>
 
   <aside class="search-results" id="search">
   <div class="container">
@@ -328,7 +375,7 @@
       <div id="search-box">
         
         <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
-        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control">
         
       </div>
 
@@ -344,7 +391,13 @@
 </aside>
 
 
-  
+  <div class="page-header">
+    
+
+
+
+
+
 
 
 
@@ -391,16 +444,24 @@
         
 
         
+
         
         
         
         
+
         
           
+            
+            
           
           
             
-          
+            
+            
+              
+            
+            
           
         
 
@@ -420,16 +481,24 @@
         
 
         
+
         
         
         
         
+
         
           
+            
+            
           
           
             
-          
+            
+            
+              
+            
+            
           
         
 
@@ -449,16 +518,24 @@
         
 
         
+
         
         
         
         
+
         
           
+            
+            
           
           
             
-          
+            
+            
+              
+            
+            
           
         
 
@@ -478,16 +555,24 @@
         
 
         
+
         
         
         
         
+
         
           
+            
+            
           
           
             
-          
+            
+            
+              
+            
+            
           
         
 
@@ -507,16 +592,24 @@
         
 
         
+
         
         
         
         
+
         
           
+            
+            
           
           
             
-          
+            
+            
+              
+            
+            
           
         
 
@@ -536,16 +629,24 @@
         
 
         
+
         
         
         
         
+
         
           
+            
+            
           
           
             
-          
+            
+            
+              
+            
+            
           
         
 
@@ -565,16 +666,24 @@
         
 
         
+
         
         
         
         
+
         
           
+            
+            
           
           
             
-          
+            
+            
+              
+            
+            
           
         
 
@@ -594,16 +703,24 @@
         
 
         
+
         
         
         
         
+
         
           
+            
+            
           
           
             
-          
+            
+            
+              
+            
+            
           
         
 
@@ -622,14 +739,29 @@
 
     <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
       
+      
       <li class="nav-item">
-        <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
       </li>
       
 
       
-      <li class="nav-item">
-        <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+      
+      <li class="nav-item dropdown theme-dropdown">
+        <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+          <i class="fas fa-moon" aria-hidden="true"></i>
+        </a>
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item js-set-theme-light">
+            <span>Light</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-dark">
+            <span>Dark</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-auto">
+            <span>Automatic</span>
+          </a>
+        </div>
       </li>
       
 
@@ -641,7 +773,10 @@
 </nav>
 
 
-  <article class="article">
+  </div>
+
+  <div class="page-body">
+    <article class="article">
 
   
 
@@ -697,6 +832,8 @@
   
   
   
+  
+  
 
   
   
@@ -738,7 +875,7 @@
 <div class="paragraph">
 <p>This article begins an introductory series on the <a href="http://golang.org">Go programming language</a>.
 Go is a language optimized for large-scale software engineering and is rapidly becoming the language of choice for building cloud services.
-It does this in a very interesting way, optimizing for simplicity rather than complexity and taking a &#8220;less is exponentially more&#8221; approach.</p>
+It does this in a very interesting way, optimizing for simplicity rather than complexity and taking a “less is exponentially more” approach.</p>
 </div>
 <div class="paragraph">
 <p>Three ways in which this really stands out are:</p>
@@ -749,7 +886,7 @@ It does this in a very interesting way, optimizing for simplicity rather than co
 <p>A pragmatic approach to component design (through implicitly satisfied interfaces)</p>
 </li>
 <li>
-<p>The need to forget much of what you&#8217;ve learned about object-oriented programming (and to prefer composition over inheritance)</p>
+<p>The need to forget much of what you’ve learned about object-oriented programming (and to prefer composition over inheritance)</p>
 </li>
 <li>
 <p>A concurrency model that mere mortals can use to great effect (via goroutines and channels)</p>
@@ -757,11 +894,11 @@ It does this in a very interesting way, optimizing for simplicity rather than co
 </ul>
 </div>
 <div class="paragraph">
-<p>Overall, it&#8217;s a language with the productivity of a dynamically-typed, interpreted language with the safety and efficiency found in a statically-typed, compiled language.</p>
+<p>Overall, it’s a language with the productivity of a dynamically-typed, interpreted language with the safety and efficiency found in a statically-typed, compiled language.</p>
 </div>
 <div class="paragraph">
 <p>This series will focus on learning Go from the perspective of Java developers.
-We&#8217;ll begin with design ideas informed by Go&#8217;s primary method of abstraction: interfaces.</p>
+We’ll begin with design ideas informed by Go’s primary method of abstraction: interfaces.</p>
 </div>
 </blockquote>
 </div>
@@ -779,12 +916,12 @@ This allows us to define a hierarchy of types that inherit characteristics and b
 <div class="paragraph">
 <p>But what if I told you that classes were unnecessary? This may seem like heresy, but we already know it.
 JavaScript has the feel of an OO language, but it does not have classes at all.
-In fact, it utilizes what&#8217;s called <em>prototype-based programming</em> <a href="#PBP">[PBP]</a>.
+In fact, it utilizes what’s called <em>prototype-based programming</em> <a href="#PBP">[PBP]</a>.
 With prototype-based programming, we achieve reuse by cloning existing objects that serve as <em>prototypes</em>.</p>
 </div>
 <div class="paragraph">
-<p>Those of us that have surfed the wave of <em>functional programming</em> have discovered that it&#8217;s indeed possible to structure large programs around a very basic set of types (sets, lists, maps, etc.), along with a large collection of behaviors, or <em>functions</em>, that can operate on those types.
-In these languages, we don&#8217;t really see anything resembling an object!</p>
+<p>Those of us that have surfed the wave of <em>functional programming</em> have discovered that it’s indeed possible to structure large programs around a very basic set of types (sets, lists, maps, etc.), along with a large collection of behaviors, or <em>functions</em>, that can operate on those types.
+In these languages, we don’t really see anything resembling an object!</p>
 </div>
 <div class="paragraph">
 <p>The Go programming language is somewhat unique in that it offers many OO-like constructs, but does not offer either classes or prototypes. But it is also not correct to refer to it as a functional language <em>per se</em>.</p>
@@ -796,23 +933,23 @@ In these languages, we don&#8217;t really see anything resembling an object!</p>
 <div class="sectionbody">
 <div class="paragraph">
 <p>While the Java programming language has always included a type system featuring inheritance, it has long been considered best practice to favor composition over inheritance.
-When Joshua Bloch, now Chief Java Architect at Google and then Distinguished Engineer at Sun Microsystems, wrote his seminal work <em>Effective Java</em> <a href="#EJ">[EJ]</a>, he included as Item #16: &#8220;Favor composition over inheritance.&#8221;</p>
+When Joshua Bloch, now Chief Java Architect at Google and then Distinguished Engineer at Sun Microsystems, wrote his seminal work <em>Effective Java</em> <a href="#EJ">[EJ]</a>, he included as Item #16: “Favor composition over inheritance.”</p>
 </div>
 <div class="paragraph">
 <p>When we use inheritance, we must be careful to implement subclasses such that they are in an <em>is-a</em> relationship with their parents.
 In other words, any context that expects an instance of the parent type should also work well with an instance of the subtype.
 We call this <em>substitutabilty</em>, which is expressed well by the Liskov Substitution Principle <a href="#LSP">[LSP]</a>.
-When we don&#8217;t follow this principle, we usually end up creating a lot of code that uses type checking to implement special behaviors.
-In doing so, we create fragile systems that don&#8217;t abide by the Open-Closed Principle <a href="#OCP">[OCP]</a>.</p>
+When we don’t follow this principle, we usually end up creating a lot of code that uses type checking to implement special behaviors.
+In doing so, we create fragile systems that don’t abide by the Open-Closed Principle <a href="#OCP">[OCP]</a>.</p>
 </div>
 <div class="paragraph">
 <p>When we instead utilize composition, we build classes that are in a <em>has-a</em> relationship with their components.
-If we&#8217;d like to encapsulate the relationship between a class and its components, we can apply <em>delegation</em>, forwarding method calls to the underlying component.
+If we’d like to encapsulate the relationship between a class and its components, we can apply <em>delegation</em>, forwarding method calls to the underlying component.
 This makes it appear as if our object <em>is-a</em> instance of another type in terms of behavior, without the problems associated with inheritance-based reuse.</p>
 </div>
 <div class="paragraph">
 <p>The Go programming language also emphasizes composition over inheritance, in that it does not even provide inheritance as a language construct! Instead, it provides the ability to use composition at the type and behavior level.
-Let&#8217;s see how.</p>
+Let’s see how.</p>
 </div>
 </div>
 </div>
@@ -821,9 +958,9 @@ Let&#8217;s see how.</p>
 <div class="sectionbody">
 <div class="paragraph">
 <p>In Go we can define composite data types using <em class="term">structs</em>.
-You may be familiar with structs if you&#8217;ve spent any time programming in C.
+You may be familiar with structs if you’ve spent any time programming in C.
 Structs are simply a sequence of fields, each of which has a name and a type.
-If you take a look at <a href="#pstruct">A <code>Point</code> struct</a>, you&#8217;ll see that we&#8217;ve defined a struct representing a point in Cartesian space.</p>
+If you take a look at <a href="#pstruct">A <code>Point</code> struct</a>, you’ll see that we’ve defined a struct representing a point in Cartesian space.</p>
 </div>
 <div id="pstruct" class="listingblock">
 <div class="title">A <code>Point</code> struct</div>
@@ -836,32 +973,32 @@ If you take a look at <a href="#pstruct">A <code>Point</code> struct</a>, you&#8
 <div class="paragraph">
 <p>New Go types are defined using the <code>type</code> keyword.
 We give our type the name <code>Point</code>.
-It&#8217;s important to note that we&#8217;ve used uppercase here.
+It’s important to note that we’ve used uppercase here.
 Visibility in Go is determined by the case of an identifier.
 All code in Go is defined within a package.
-If you&#8217;d like your types and functions to be visible beyond the confines of your package, you need to <em>export</em> them by starting them with an uppercase letter.
+If you’d like your types and functions to be visible beyond the confines of your package, you need to <em>export</em> them by starting them with an uppercase letter.
 If you use a lowercase letter or underscore (<code>_</code>), they will be <em>unexported</em>, roughly equivalent to the Java concept of <code>private</code>.</p>
 </div>
 <div class="paragraph">
-<p>You&#8217;ll quickly notice that we&#8217;ve defined two fields in our struct, <code>X</code> and <code>Y</code>, both of which take on the type <code>float64</code>, representing a 64-bit floating-point number.</p>
+<p>You’ll quickly notice that we’ve defined two fields in our struct, <code>X</code> and <code>Y</code>, both of which take on the type <code>float64</code>, representing a 64-bit floating-point number.</p>
 </div>
 <div class="admonitionblock note">
 <table>
-<tr>
+<tbody><tr>
 <td class="icon">
 <div class="title">Note</div>
 </td>
 <td class="content">
-Unlike Java, Go places the type declarations <em>after</em> the field names (the same applies when declaring function arguments) - you&#8217;ll get used to this eventually!
+Unlike Java, Go places the type declarations <em>after</em> the field names (the same applies when declaring function arguments) - you’ll get used to this eventually!
 </td>
 </tr>
-</table>
+</tbody></table>
 </div>
 <del>The keen observer will also note the case of the field names.
 Just as case matters when dealing with type visibility beyond package boundaries, case also matters when dealing with field visibility beyond struct boundaries.
 Because both <code>X</code> and <code>Y</code> are uppercase, they are exported from the struct.
 Had they been <code>x</code> and <code>y</code>, they would be unexported, and therefore only visible within the struct.
-To find out how we'll deal with that, hold on until the next section!</del>
+To find out how we&#39;ll deal with that, hold on until the next section!</del>
 <div class="paragraph">
 <p><strong><em>Update (2014-07-09):</em></strong> <em>My understanding of this point <a href="http://www.reddit.com/r/golang/comments/2a5aui/learning_to_go_part_i_interfaces/cis9bm8">was corrected</a> on Reddit. Case only affects visibility with respect to packages, so <code>x</code> and <code>y</code> would also be accessible to any code within the package enclosing the struct. See <a href="http://play.golang.org/p/ySlG9K5yfN">this example</a>.</em></p>
 </div>
@@ -877,26 +1014,26 @@ To find out how we'll deal with that, hold on until the next section!</del>
 </div>
 <div class="paragraph">
 <p>We prefixed our call to <code>new</code> with an asterisk (<code>*</code>) in order to dereference the pointer returned by <code>new</code>.
-Yes, that&#8217;s right, Go has pointers.
-With that said, there&#8217;s no pointer arithmetic, so they&#8217;re not quite as scary as what we find in languages like C and C++.
+Yes, that’s right, Go has pointers.
+With that said, there’s no pointer arithmetic, so they’re not quite as scary as what we find in languages like C and C++.
 They almost represent a happy medium between C and Java.</p>
 </div>
 <div class="admonitionblock note">
 <table>
-<tr>
+<tbody><tr>
 <td class="icon">
 <div class="title">Note</div>
 </td>
 <td class="content">
-You also don&#8217;t have to worry about freeing memory! Go is a garbage collected language.
+You also don’t have to worry about freeing memory! Go is a garbage collected language.
 </td>
 </tr>
-</table>
+</tbody></table>
 </div>
 <div class="paragraph">
 <p>Built-in types in Go start <em>zeroed</em>, rather than <code>nil</code>.
 In the case of <code>float64</code>, they take on the value <code>0</code>.
-It&#8217;s good practice for our types to start zeroed as well, and we get that for free here.
+It’s good practice for our types to start zeroed as well, and we get that for free here.
 Our newly initialized <code>Point</code> represents the Cartesian coordinate <em>(0,0)</em>. The next two statements move our <code>Point</code> to <em>(1,2)</em>.</p>
 </div>
 <div class="paragraph">
@@ -914,7 +1051,7 @@ If we actually want a pointer to it, we need to prefix the literal with an amper
 </div>
 <div class="admonitionblock note">
 <table>
-<tr>
+<tbody><tr>
 <td class="icon">
 <div class="title">Note</div>
 </td>
@@ -922,7 +1059,7 @@ If we actually want a pointer to it, we need to prefix the literal with an amper
 It is generally considered idiomatic Go to prefer the composite literal style to using <code>new</code>.
 </td>
 </tr>
-</table>
+</tbody></table>
 </div>
 <div class="paragraph">
 <p>Enough about structs, on to methods!</p>
@@ -952,7 +1089,7 @@ We call <code>Translate</code> in <a href="#trans-in">Calling <code>Translate</c
 <div class="title">Calling <code>Translate</code></div>
 <div class="content">
 <pre class="highlight"><code class="language-go" data-lang="go">	q := p.Translate(5, 5)
-	fmt.Printf("Translated %v to %v\n", p, q)</code></pre>
+	fmt.Printf(&#34;Translated %v to %v\n&#34;, p, q)</code></pre>
 </div>
 </div>
 <div id="trans-out" class="listingblock">
@@ -963,8 +1100,8 @@ Translated {1 2} to {6 7}</code></pre>
 </div>
 </div>
 <div class="paragraph">
-<p>Because we&#8217;re not operating on a pointer to a <code>Point</code>, there&#8217;s no way for us to affect the existing instance.
-If we couple this with unexported fields, we&#8217;d have completely controlled access to a <code>Point</code> instance&#8217;s fields.</p>
+<p>Because we’re not operating on a pointer to a <code>Point</code>, there’s no way for us to affect the existing instance.
+If we couple this with unexported fields, we’d have completely controlled access to a <code>Point</code> instance’s fields.</p>
 </div>
 <div class="paragraph">
 <p>If we want to mutate a <code>Point</code>, we need our method to use a pointer as the receiver argument rather than a value.
@@ -981,14 +1118,14 @@ We do this in <a href="#pointer">Method for translating a <code>Point</code> via
 </div>
 <div class="paragraph">
 <p>As you can see, rather than creating a new <code>Point</code> and returning it, this method returns no value and directly mutates the <code>Point</code> referred to by the pointer passed in as a receiver.
-Notice that Go conveniently dereferences the pointer automatically when using the dot (<code>.</code>) operator to access fields. We call this method on a pointer to a <code>Point</code> in <a href="#transp-in">Calling <code>TranslatePointer</code></a> (with output in <a href="#transp-out">Output of calling <code>TranslatePointer</code></a>), again using an ampersand (<code>&amp;</code>) to tell Go we&#8217;d like a pointer to a <code>Point</code>, not a <code>Point</code> value.</p>
+Notice that Go conveniently dereferences the pointer automatically when using the dot (<code>.</code>) operator to access fields. We call this method on a pointer to a <code>Point</code> in <a href="#transp-in">Calling <code>TranslatePointer</code></a> (with output in <a href="#transp-out">Output of calling <code>TranslatePointer</code></a>), again using an ampersand (<code>&amp;</code>) to tell Go we’d like a pointer to a <code>Point</code>, not a <code>Point</code> value.</p>
 </div>
 <div id="transp-in" class="listingblock">
 <div class="title">Calling <code>TranslatePointer</code></div>
 <div class="content">
 <pre class="highlight"><code class="language-go" data-lang="go">	qP := &amp;point.Point{X: 1, Y: 2}
 	qP.TranslatePointer(5, 5)
-	fmt.Printf("Translated using pointer to %v\n", qP)</code></pre>
+	fmt.Printf(&#34;Translated using pointer to %v\n&#34;, qP)</code></pre>
 </div>
 </div>
 <div id="transp-out" class="listingblock">
@@ -999,7 +1136,7 @@ Translated using pointer to &amp;{6 7}</code></pre>
 </div>
 </div>
 <div class="paragraph">
-<p>Now that we have the capability to create types with associated methods, let&#8217;s look at how we can compose new composite types from existing ones.</p>
+<p>Now that we have the capability to create types with associated methods, let’s look at how we can compose new composite types from existing ones.</p>
 </div>
 </div>
 </div>
@@ -1007,7 +1144,7 @@ Translated using pointer to &amp;{6 7}</code></pre>
 <h2 id="_type_composition_with_structs">Type composition with structs</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Let&#8217;s imagine that we&#8217;d like to extend the concept of <code>Point</code> and add the notion of color.
+<p>Let’s imagine that we’d like to extend the concept of <code>Point</code> and add the notion of color.
 If we were working in Java, we might do the following:</p>
 </div>
 <div id="pcolor" class="listingblock">
@@ -1020,7 +1157,7 @@ If we were working in Java, we might do the following:</p>
 </div>
 </div>
 <div class="paragraph">
-<p>Since Go doesn&#8217;t have the concept of classes or inheritance, we need to work with structs to accomplish our goal.
+<p>Since Go doesn’t have the concept of classes or inheritance, we need to work with structs to accomplish our goal.
 We can compose a type called <code>ColorPoint</code> by <em>embedding</em> the <code>Point</code> type and then adding the additional field representing color (<a href="#pembed">Embedding <code>Point</code> into <code>ColorPoint</code></a>).</p>
 </div>
 <div id="pembed" class="listingblock">
@@ -1040,8 +1177,8 @@ type ColorPoint struct {
 </div>
 <div class="paragraph">
 <p>First note the use of the <code>const</code> keyword.
-We&#8217;re defining a set of integer constants to represent our colors.
-This is the closest approximation that Go has to an enumerated type (such as Java&#8217;s <code>enum</code>) and is usually more that sufficient.
+We’re defining a set of integer constants to represent our colors.
+This is the closest approximation that Go has to an enumerated type (such as Java’s <code>enum</code>) and is usually more that sufficient.
 The predeclared identifier <code>iota</code> represents successive untyped integer constants.
 It is reset to <code>0</code> whenever <code>const</code> appears again in the source.
 This has the effect in our code of setting <code>BLUE</code> to <code>0</code>, <code>RED</code> to <code>1</code>, and <code>GREEN</code> to <code>2</code>.</p>
@@ -1049,15 +1186,15 @@ This has the effect in our code of setting <code>BLUE</code> to <code>0</code>, 
 <div class="paragraph">
 <p>Next we define our <code>ColorPoint</code> type as a <code>struct</code>.
 We embed <code>Point</code> as an exported field also called <code>Point</code>, and we define an additional exported field called <code>Color</code> that is typed as an <code>int</code>.
-Now, in <a href="#color-in">Creating and printing a <code>ColorPoint</code></a>, we&#8217;ll create an instance of <code>ColorPoint</code>, and then we&#8217;ll print out both the previously defined <code>Point</code> instance as well as the <code>ColorPoint</code> instance (results in <a href="#color-out">Output of creating and printing a <code>ColorPoint</code></a>).</p>
+Now, in <a href="#color-in">Creating and printing a <code>ColorPoint</code></a>, we’ll create an instance of <code>ColorPoint</code>, and then we’ll print out both the previously defined <code>Point</code> instance as well as the <code>ColorPoint</code> instance (results in <a href="#color-out">Output of creating and printing a <code>ColorPoint</code></a>).</p>
 </div>
 <div id="color-in" class="listingblock">
 <div class="title">Creating and printing a <code>ColorPoint</code></div>
 <div class="content">
 <pre class="highlight"><code class="language-go" data-lang="go">	r := point.ColorPoint{Point: point.Point{X: 1, Y: 4}, Color: point.BLUE}
 
-	fmt.Printf("Point: %v\n", p)
-	fmt.Printf("Color Point: %v\n", r)</code></pre>
+	fmt.Printf(&#34;Point: %v\n&#34;, p)
+	fmt.Printf(&#34;Color Point: %v\n&#34;, r)</code></pre>
 </div>
 </div>
 <div id="color-out" class="listingblock">
@@ -1069,15 +1206,15 @@ Color Point: {{1 4} 0}</code></pre>
 </div>
 </div>
 <div class="paragraph">
-<p>We&#8217;ve now successfully created a composite type, but we&#8217;re missing something. Let&#8217;s press on.</p>
+<p>We’ve now successfully created a composite type, but we’re missing something. Let’s press on.</p>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_houston_we_have_a_problem">Houston, we have a problem&#8230;&#8203;</h2>
+<h2 id="_houston_we_have_a_problem">Houston, we have a problem…​</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Here&#8217;s a summary of our problem:</p>
+<p>Here’s a summary of our problem:</p>
 </div>
 <div class="ulist">
 <ul>
@@ -1091,7 +1228,7 @@ Color Point: {{1 4} 0}</code></pre>
 <p><code>ColorPoint</code>s are like <code>Point</code>s, but they are definitely not <code>Point</code>s since Go does not have inheritance.</p>
 </li>
 <li>
-<p>That said, we&#8217;d like to be able to write methods that can interoperate between them. What do we do?</p>
+<p>That said, we’d like to be able to write methods that can interoperate between them. What do we do?</p>
 </li>
 </ul>
 </div>
@@ -1101,7 +1238,7 @@ As a reminder, the formula can be found in <a href="#e-formula">Euclidean distan
 </div>
 <div id="e-formula" class="imageblock">
 <div class="content">
-<img src="/images/distance_formula.png" alt="distance formula">
+<img src="/images/distance_formula.png" alt="distance formula"/>
 </div>
 <div class="title">Figure 1. Euclidean distance formula</div>
 </div>
@@ -1117,7 +1254,7 @@ So how do we implement a method that will allow us to compute this formula in su
 <div class="paragraph">
 <p>Fortunately Go contributes a very powerful version of <em>interfaces</em> to the abstraction conversation.
 Go interfaces describe groups of behaviors in the form of method signatures that implementors of the interface must implement.
-So far this doesn&#8217;t sound unlike Java interfaces. Let&#8217;s take a look at two Go interfaces in <a href="#interfaces"><code>Positioner</code> and <code>Distancer</code> interfaces</a>.</p>
+So far this doesn’t sound unlike Java interfaces. Let’s take a look at two Go interfaces in <a href="#interfaces"><code>Positioner</code> and <code>Distancer</code> interfaces</a>.</p>
 </div>
 <div id="interfaces" class="listingblock">
 <div class="title"><code>Positioner</code> and <code>Distancer</code> interfaces</div>
@@ -1132,19 +1269,19 @@ type Distancer interface {
 </div>
 </div>
 <div class="paragraph">
-<p>Notice that <code>interface</code>s are themselves types. This is important, because it allows us to define function and method signatures that accept interfaces as arguments. <code>Positioner</code>'s <code>Coordinates()</code> method should provide us the position of any implementor in terms of a <code>Point</code>. <code>Distancer</code>'s <code>DistanceTo()</code> method will calculate the distance between any implementor and a <code>Positioner</code>.</p>
+<p>Notice that <code>interface</code>s are themselves types. This is important, because it allows us to define function and method signatures that accept interfaces as arguments. <code>Positioner</code>&#39;s <code>Coordinates()</code> method should provide us the position of any implementor in terms of a <code>Point</code>. <code>Distancer</code>&#39;s <code>DistanceTo()</code> method will calculate the distance between any implementor and a <code>Positioner</code>.</p>
 </div>
 <div class="admonitionblock note">
 <table>
-<tr>
+<tbody><tr>
 <td class="icon">
 <div class="title">Note</div>
 </td>
 <td class="content">
-It is idiomatic in Go for interface names to be suffixed with &#8220;-er.&#8221;
+It is idiomatic in Go for interface names to be suffixed with “-er.”
 </td>
 </tr>
-</table>
+</tbody></table>
 </div>
 <div class="paragraph">
 <p>However, unlike Java interfaces, where we might write:</p>
@@ -1158,11 +1295,11 @@ It is idiomatic in Go for interface names to be suffixed with &#8220;-er.&#8221;
 </div>
 <div class="paragraph">
 <p>Go does not have an <code>implements</code> keyword.
-In fact, if you think about the way we&#8217;ve defined structs and methods so far, the only place in which we indicated any attachment between a struct and a method is in the method signature itself, in the form of the receiver parameter.
+In fact, if you think about the way we’ve defined structs and methods so far, the only place in which we indicated any attachment between a struct and a method is in the method signature itself, in the form of the receiver parameter.
 So how does this work in Go?</p>
 </div>
 <div class="paragraph">
-<p>Let&#8217;s talk about how interfaces are <em>satsified</em>.</p>
+<p>Let’s talk about how interfaces are <em>satsified</em>.</p>
 </div>
 <div class="paragraph">
 <p>In languages like Java, an interfaces is satisfied <em>explicitly</em>.
@@ -1177,10 +1314,10 @@ For a type to implement an interface, it simply needs to implement all of the me
 When we use a type in the context of an interface (e.g. we pass a type into a function that expects an interface as one of its arguments), the compiler will check to see if that type satisfies the interface.</p>
 </div>
 <div class="paragraph">
-<p>Let&#8217;s see how this falls out in practice.</p>
+<p>Let’s see how this falls out in practice.</p>
 </div>
 <div class="paragraph">
-<p>First, let&#8217;s define a function that can calculate the distance between two <code>Positioner</code>s (<a href="#distance-between">Calculates the distance between two <code>Positioner</code>s</a>).</p>
+<p>First, let’s define a function that can calculate the distance between two <code>Positioner</code>s (<a href="#distance-between">Calculates the distance between two <code>Positioner</code>s</a>).</p>
 </div>
 <div id="distance-between" class="listingblock">
 <div class="title">Calculates the distance between two <code>Positioner</code>s</div>
@@ -1230,8 +1367,8 @@ func (cp ColorPoint) DistanceTo(pos Positioner) float64 {
 <div id="calculating-distance-in" class="listingblock">
 <div class="title">Calculating the distance between <code>Point</code> and <code>ColorPoint</code></div>
 <div class="content">
-<pre class="highlight"><code class="language-go" data-lang="go">	fmt.Printf("Dist b/w p and q = %v\n", p.DistanceTo(r))
-	fmt.Printf("Dist b/w q and p = %v\n", r.DistanceTo(p))</code></pre>
+<pre class="highlight"><code class="language-go" data-lang="go">	fmt.Printf(&#34;Dist b/w p and q = %v\n&#34;, p.DistanceTo(r))
+	fmt.Printf(&#34;Dist b/w q and p = %v\n&#34;, r.DistanceTo(p))</code></pre>
 </div>
 </div>
 <div id="calculating-distance-out" class="listingblock">
@@ -1243,10 +1380,10 @@ Dist b/w q and p = 2</code></pre>
 </div>
 </div>
 <div class="paragraph">
-<p>At first glance this may not seem so impressive, nor may it seem to be that great of an advantage over what&#8217;s available to us in Java.
+<p>At first glance this may not seem so impressive, nor may it seem to be that great of an advantage over what’s available to us in Java.
 The power, however, is hiding just under the surface.
 When we think about implementing an interface in Java, we usually are thinking in terms of taxonomy.
-Classes extend other classes, and as we&#8217;ve previously stated, that means that a child class ought to be substitutable for its parent <a href="#LSP">[LSP]</a>.
+Classes extend other classes, and as we’ve previously stated, that means that a child class ought to be substitutable for its parent <a href="#LSP">[LSP]</a>.
 When we implement an interface in Java, we are also usually thinking that the class <em>is a</em> version of that interface.
 We might have expressed our Cartesian coordinate taxonomy in Java as:</p>
 </div>
@@ -1267,9 +1404,9 @@ public class ColorPoint extends Point implements Coordinate {
 </div>
 <div class="paragraph">
 <p>When we do this, we soon hear ourselves talking about <code>Coordinate</code>s as things, not as groups of behaviors.
-Let&#8217;s contrast this with Go&#8217;s implicit satisfaction by adding an additional example.
-Perhaps our program&#8217;s purpose is to keep track of animals in a wildlife preserve.
-It&#8217;s quite natural that we&#8217;d have an <code>Animal</code> type, and that type would have some way of keeping track of the animal&#8217;s current location (<a href="#animal-struct"><code>Animal</code> struct</a>).</p>
+Let’s contrast this with Go’s implicit satisfaction by adding an additional example.
+Perhaps our program’s purpose is to keep track of animals in a wildlife preserve.
+It’s quite natural that we’d have an <code>Animal</code> type, and that type would have some way of keeping track of the animal’s current location (<a href="#animal-struct"><code>Animal</code> struct</a>).</p>
 </div>
 <div id="animal-struct" class="listingblock">
 <div class="title"><code>Animal</code> struct</div>
@@ -1300,15 +1437,15 @@ func (a Animal) DistanceTo(pos point.Positioner) float64 {
 </div>
 <div class="admonitionblock note">
 <table>
-<tr>
+<tbody><tr>
 <td class="icon">
 <div class="title">Note</div>
 </td>
 <td class="content">
-Because <code>distanceBetween()</code> was not exported from the <code>point</code> package, we cannot use it in the <code>animal</code> package. Sometimes you&#8217;ll run into this situation in Go, which prefers &#8220;dependency hygiene&#8221; over reuse.
+Because <code>distanceBetween()</code> was not exported from the <code>point</code> package, we cannot use it in the <code>animal</code> package. Sometimes you’ll run into this situation in Go, which prefers “dependency hygiene” over reuse.
 </td>
 </tr>
-</table>
+</tbody></table>
 </div>
 <div class="paragraph">
 <p>And now, we can perform our desired calculations (<a href="#animal-in">Mixing <code>Animal</code>s and <code>Point</code>s using interfaces</a>).
@@ -1317,11 +1454,11 @@ We now know the distance between our penguin and our original point <code>p</cod
 <div id="animal-in" class="listingblock">
 <div class="title">Mixing <code>Animal</code>s and <code>Point</code>s using interfaces</div>
 <div class="content">
-<pre class="highlight"><code class="language-go" data-lang="go">	penguin := animal.Animal{Name: "penguin", X: 1, Y: 1}
-	seal := animal.Animal{Name: "seal", X: 1, Y: 4}
+<pre class="highlight"><code class="language-go" data-lang="go">	penguin := animal.Animal{Name: &#34;penguin&#34;, X: 1, Y: 1}
+	seal := animal.Animal{Name: &#34;seal&#34;, X: 1, Y: 4}
 
-	fmt.Printf("Dist b/w penguin and seal = %v\n", penguin.DistanceTo(seal))
-	fmt.Printf("Dist b/w penguin and point = %v\n", penguin.DistanceTo(p))</code></pre>
+	fmt.Printf(&#34;Dist b/w penguin and seal = %v\n&#34;, penguin.DistanceTo(seal))
+	fmt.Printf(&#34;Dist b/w penguin and point = %v\n&#34;, penguin.DistanceTo(p))</code></pre>
 </div>
 </div>
 <div id="animal-out" class="listingblock">
@@ -1346,14 +1483,14 @@ And if we were implementing this program in Java, a naive translation would prob
 </div>
 <div class="paragraph">
 <p>So to summarize, Go interfaces allow us to use arbitrary types in contexts expecting a particular interface type, as long as the type in question implements all of the methods defined by that interface.
-Since interfaces are satisfied implicitly, we&#8217;re no longer pressured toward treating interfaces as part of a type taxonomy.
-Instead, we&#8217;re able to focus on them as groups of related behaviors.</p>
+Since interfaces are satisfied implicitly, we’re no longer pressured toward treating interfaces as part of a type taxonomy.
+Instead, we’re able to focus on them as groups of related behaviors.</p>
 </div>
 <div class="paragraph">
-<p>This may seem like a concept popularized by dynamic languages called &#8220;duck typing&#8221; <a href="#DT">[DT]</a>.
+<p>This may seem like a concept popularized by dynamic languages called “duck typing” <a href="#DT">[DT]</a>.
 In most cases, you call a method <em>blindly</em>, and allow the runtime dispatch system to determine if the object can <em>respond to</em> that method.
 While this is a similar concept, it is not a very good description of how Go works.
-Go actually employs &#8220;structural typing&#8221; <a href="#ST">[ST]</a>, which uses the compiler to determine interface satisfaction in a type safe manner.</p>
+Go actually employs “structural typing” <a href="#ST">[ST]</a>, which uses the compiler to determine interface satisfaction in a type safe manner.</p>
 </div>
 </div>
 </div>
@@ -1361,9 +1498,9 @@ Go actually employs &#8220;structural typing&#8221; <a href="#ST">[ST]</a>, whic
 <h2 id="_conclusion">Conclusion</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>I hope you&#8217;ve enjoyed this brief introduction to the Go programming language, as well as one of its most powerful features: interfaces.
-With interfaces we&#8217;re able to take a more pragmatic approach to component design, as we&#8217;re not forced to think in terms of taxonomies and deep type hierarchies.
-In the next installment we&#8217;ll explore Go&#8217;s approach to concurrency.
+<p>I hope you’ve enjoyed this brief introduction to the Go programming language, as well as one of its most powerful features: interfaces.
+With interfaces we’re able to take a more pragmatic approach to component design, as we’re not forced to think in terms of taxonomies and deep type hierarchies.
+In the next installment we’ll explore Go’s approach to concurrency.
 Until next time my fellow gophers!</p>
 </div>
 </div>
@@ -1399,6 +1536,7 @@ Until next time my fellow gophers!</p>
     </div>
 
     
+
 
 
 
@@ -1500,11 +1638,8 @@ Until next time my fellow gophers!</p>
 
 
 
-
   
-
-
-
+  
 
 
 
@@ -1518,12 +1653,12 @@ Until next time my fellow gophers!</p>
   <div class="media author-card content-widget-hr">
     
       
-      <img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_huaae452e3d7f432028deb0baa090376b4_1485163_270x270_fill_q90_lanczos_center.jpg" alt="Avatar">
+      <a href="https://www.mattstine.com/"><img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_huaae452e3d7f432028deb0baa090376b4_1485163_270x270_fill_q90_lanczos_center.jpg" alt=""></a>
     
 
     <div class="media-body">
-      <h5 class="card-title"><a href="https://www.mattstine.com/">Matt Stine</a></h5>
-      <h6 class="card-subtitle">Executive Director, Architecture</h6>
+      <h5 class="card-title"><a href="https://www.mattstine.com/"></a></h5>
+      <h6 class="card-subtitle">Executive Director, Software Engineering</h6>
       <p class="card-text">My research interests lean/agile software development methodologies, DevOps, architectural principles/patterns/practices, and programming paradigms.</p>
       <ul class="network-icon" aria-hidden="true">
   
@@ -1606,31 +1741,103 @@ Until next time my fellow gophers!</p>
 
 
 
-  
-  
+
+
+
+
+
+
 
 
 
   </div>
 </article>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    © 2020 Matt Stine
+  </p>
+
+  
+  
+
+
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+    Published with
+    <a href="https://wowchemy.com" target="_blank" rel="noopener">Wowchemy</a>  —
+    the free, <a href="https://github.com/wowchemy/wowchemy-hugo-modules" target="_blank" rel="noopener">
+    open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
 
       
 
     
     
     
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+
+      
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      
+
       <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/instant.page/5.1.0/instantpage.min.js" integrity="sha512-1+qUtKoh9XZW7j+6LhRMAyOrgSQKenQ4mluTR+cvxXjP1Z54RxZuzstR/H9kgPXQsVB8IW7DMDFUJpzLjvhGSQ==" crossorigin="anonymous"></script>
 
       
 
       
         
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/highlight.min.js" integrity="sha256-1zu+3BnLYV9LdiY85uXMzii3bdrkelyp37e0ZyTAQh0=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/highlight.min.js" integrity="sha512-TDKKr+IvoqZnPzc3l35hdjpHD0m+b2EC2SrLEgKDRWpxf2rFCxemkgvJ5kfU48ip+Y+m2XVKyOCD85ybtlZDmw==" crossorigin="anonymous"></script>
         
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/languages/r.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/r.min.js"></script>
         
       
 
@@ -1638,7 +1845,7 @@ Until next time my fellow gophers!</p>
 
     
     
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.js" integrity="sha256-EErZamuLefUnbMBQbsEqu1USa+btR2oIlCpBJbyD4/g=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.js" integrity="sha512-SeiQaaDh73yrb56sTW/RgVdi/mMqNeM2oBwubFHagc5BkixSpP1fvqF47mKzPGWYSSy4RwbBunrJBQ4Co8fRWA==" crossorigin="anonymous"></script>
     
 
     
@@ -1659,7 +1866,8 @@ Until next time my fellow gophers!</p>
         'post': "Posts",
         'project': "Projects",
         'publication' : "Publications",
-        'talk' : "Talks"
+        'talk' : "Talks",
+        'slides' : "Slides"
         };
     </script>
     
@@ -1693,6 +1901,13 @@ Until next time my fellow gophers!</p>
 
     
     
+    
+
+    
+    
+
+    
+    
 
     
     
@@ -1708,7 +1923,7 @@ Until next time my fellow gophers!</p>
     
     
     
-    <script src="/js/academic.min.0630fec5958cb075a5a38f042b3ddde6.js"></script>
+    <script src="/js/wowchemy.min.ffabb05383f1b16d83e7181a605e644c.js"></script>
 
     
 
@@ -1716,60 +1931,6 @@ Until next time my fellow gophers!</p>
 
 
 
-
-  
-  
-  <div class="container">
-    <footer class="site-footer">
-  
-
-  <p class="powered-by">
-    © 2020 Matt Stine &middot; 
-
-    Powered by the
-    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
-    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
-
-    
-    <span class="float-right" aria-hidden="true">
-      <a href="#" class="back-to-top">
-        <span class="button_icon">
-          <i class="fas fa-chevron-up fa-2x"></i>
-        </span>
-      </a>
-    </span>
-    
-  </p>
-</footer>
-
-  </div>
-  
-
-  
-<div id="modal" class="modal fade" role="dialog">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title">Cite</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <pre><code class="tex hljs"></code></pre>
-      </div>
-      <div class="modal-footer">
-        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
-          <i class="fas fa-copy"></i> Copy
-        </a>
-        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
-          <i class="fas fa-download"></i> Download
-        </a>
-        <div id="modal-error"></div>
-      </div>
-    </div>
-  </div>
-</div>
 
 </body>
 </html>

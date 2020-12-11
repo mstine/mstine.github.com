@@ -5,9 +5,9 @@
     <link>https://www.mattstine.com/categories/testing/</link>
       <atom:link href="https://www.mattstine.com/categories/testing/index.xml" rel="self" type="application/rss+xml" />
     <description>testing</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Matt Stine</copyright><lastBuildDate>Wed, 05 Jan 2011 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2020 Matt Stine</copyright><lastBuildDate>Wed, 05 Jan 2011 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <url>https://www.mattstine.com/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
       <title>testing</title>
       <link>https://www.mattstine.com/categories/testing/</link>
     </image>
@@ -17,14 +17,14 @@
       <link>https://www.mattstine.com/2011/01/05/selenium-conference-2011/</link>
       <pubDate>Wed, 05 Jan 2011 00:00:00 +0000</pubDate>
       <guid>https://www.mattstine.com/2011/01/05/selenium-conference-2011/</guid>
-      <description>&lt;p&gt;I completed an interest survey for a potential Selenium-focused conference several weeks ago, and I&#39;m excited to let you know that the &amp;ldquo;powers that be&amp;rdquo; have decided that the conference is going to happen! I have already submitted my &amp;ldquo;Executable Specifications: Automating Your Requirements Document with Geb and Spock&amp;rdquo; talk as a potential session. Whether it makes the conference program or not, I plan on attending the event. Here are the details:&lt;/p&gt;
+      <description>&lt;p&gt;I completed an interest survey for a potential Selenium-focused conference several weeks ago, and I&amp;rsquo;m excited to let you know that the &amp;ldquo;powers that be&amp;rdquo; have decided that the conference is going to happen! I have already submitted my &amp;ldquo;Executable Specifications: Automating Your Requirements Document with Geb and Spock&amp;rdquo; talk as a potential session. Whether it makes the conference program or not, I plan on attending the event. Here are the details:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;http://mattstine.files.wordpress.com/2011/01/selenium-conf-2011.png&#34; alt=&#34;Selenium Conference 2011&#34;&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Join members of the growing Selenium community for 3 jam-packed days of talks, workshops, lightning talks, and hack sessions. Hear speakers from around the world talk about the present and future of automated testing, share ideas with fellow Selenium developers, including Core Committers, and take part in shaping the future success of the Selenium project.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;When:&lt;/strong&gt; April 4-6, 2011
 &lt;strong&gt;Where:&lt;/strong&gt; Marines’ Memorial Club &amp;amp; Hotel, 609 Sutter St, San Francisco, CA 94102 USA
-&lt;strong&gt;Register now to be a speaker or sponsor. More details: &lt;a href=&#34;http://www.seleniumconf.com/&#34;&gt;&lt;a href=&#34;http://www.seleniumconf.com/&#34;&gt;http://www.seleniumconf.com/&lt;/a&gt;&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;strong&gt;Register now to be a speaker or sponsor. More details: &lt;a href=&#34;http://www.seleniumconf.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://www.seleniumconf.com/&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -33,8 +33,8 @@
       <link>https://www.mattstine.com/2010/11/29/selenium-2-0-refcard/</link>
       <pubDate>Mon, 29 Nov 2010 00:00:00 +0000</pubDate>
       <guid>https://www.mattstine.com/2010/11/29/selenium-2-0-refcard/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://refcardz.dzone.com/refcardz/getting-started-selenium-20?oid=hom31797&#34;&gt;&lt;img src=&#34;http://mattstine.files.wordpress.com/2010/11/31797.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;Today DZone released my first Refcard: &amp;ldquo;&lt;a href=&#34;http://refcardz.dzone.com/refcardz/getting-started-selenium-20?oid=hom31797&#34;&gt;Selenium 2.0: Using the WebDriver API to Create Robust User Acceptance Tests&lt;/a&gt;.&amp;rdquo; I have been interested in writing a Refcard for a long time but have never pulled the trigger. For whatever reason, I decided to jump on the bandwagon last month. Writing this card was quite a challenge, as it&#39;s difficult to boil down a big topic into only six pages while keeping it useful. Thus far the feedback from the community has been largely positive.&lt;/p&gt;
-&lt;p&gt;If you&#39;re looking for your next automated testing tool for browser-based user acceptance tests, download the card and let me know what you think!&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;http://refcardz.dzone.com/refcardz/getting-started-selenium-20?oid=hom31797&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;http://mattstine.files.wordpress.com/2010/11/31797.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;Today DZone released my first Refcard: &amp;ldquo;&lt;a href=&#34;http://refcardz.dzone.com/refcardz/getting-started-selenium-20?oid=hom31797&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Selenium 2.0: Using the WebDriver API to Create Robust User Acceptance Tests&lt;/a&gt;.&amp;rdquo; I have been interested in writing a Refcard for a long time but have never pulled the trigger. For whatever reason, I decided to jump on the bandwagon last month. Writing this card was quite a challenge, as it&amp;rsquo;s difficult to boil down a big topic into only six pages while keeping it useful. Thus far the feedback from the community has been largely positive.&lt;/p&gt;
+&lt;p&gt;If you&amp;rsquo;re looking for your next automated testing tool for browser-based user acceptance tests, download the card and let me know what you think!&lt;/p&gt;
 </description>
     </item>
     

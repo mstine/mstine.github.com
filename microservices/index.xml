@@ -5,9 +5,9 @@
     <link>https://www.mattstine.com/microservices/</link>
       <atom:link href="https://www.mattstine.com/microservices/index.xml" rel="self" type="application/rss+xml" />
     <description>Microservices Reading List</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Matt Stine</copyright><lastBuildDate>Wed, 02 Jul 2014 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2020 Matt Stine</copyright><lastBuildDate>Wed, 02 Jul 2014 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <url>https://www.mattstine.com/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
       <title>Microservices Reading List</title>
       <link>https://www.mattstine.com/microservices/</link>
     </image>

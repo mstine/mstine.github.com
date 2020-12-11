@@ -5,9 +5,9 @@
     <link>https://www.mattstine.com/categories/scala/</link>
       <atom:link href="https://www.mattstine.com/categories/scala/index.xml" rel="self" type="application/rss+xml" />
     <description>scala</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Matt Stine</copyright><lastBuildDate>Thu, 30 Apr 2009 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2020 Matt Stine</copyright><lastBuildDate>Thu, 30 Apr 2009 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <url>https://www.mattstine.com/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
       <title>scala</title>
       <link>https://www.mattstine.com/categories/scala/</link>
     </image>
@@ -17,8 +17,8 @@
       <link>https://www.mattstine.com/2009/04/30/functional-programming-blog-aggregator-in-the-works/</link>
       <pubDate>Thu, 30 Apr 2009 00:00:00 +0000</pubDate>
       <guid>https://www.mattstine.com/2009/04/30/functional-programming-blog-aggregator-in-the-works/</guid>
-      <description>&lt;p&gt;So I&#39;m in the midst of planning my next toy project, specifically with an aim to build something for the cloud, be it &lt;a href=&#34;http://code.google.com/appengine&#34;&gt;Google App Engine&lt;/a&gt;, &lt;a href=&#34;http://mor.ph&#34;&gt;Mor.ph&lt;/a&gt;, &lt;a href=&#34;http://aws.amazon.com/ec2/&#34;&gt;EC2&lt;/a&gt;, etc. (that part is still up for grabs). What I&#39;d like to do is an opt-in blog aggregation site focused around functional programming. It would be very similar to what &lt;a href=&#34;http://blogs.bytecode.com.au/glen/&#34;&gt;Glen Smith&lt;/a&gt; has done with &lt;a href=&#34;http://groovyblogs.org&#34;&gt;groovyblogs.org&lt;/a&gt;. Groovyblogs is currently my number one referral site and is generating about 20% of the traffic for this blog. I think it is a great way to find out what blogs are out there in a given space, and there doesn&#39;t seem to be an equivalent for the functional space. Since my LOTY interest is focused in the functional space, particularly around Scala and Clojure, and my TOTY interest is the cloud technologies out there, it seems like the perfect marriage.&lt;/p&gt;
-&lt;p&gt;So here&#39;s my question. Would you be interested in using such a site? As a reader, blogger, or both? Please sound off. Thanks!&lt;/p&gt;
+      <description>&lt;p&gt;So I&amp;rsquo;m in the midst of planning my next toy project, specifically with an aim to build something for the cloud, be it &lt;a href=&#34;http://code.google.com/appengine&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google App Engine&lt;/a&gt;, &lt;a href=&#34;http://mor.ph&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Mor.ph&lt;/a&gt;, &lt;a href=&#34;http://aws.amazon.com/ec2/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;EC2&lt;/a&gt;, etc. (that part is still up for grabs). What I&amp;rsquo;d like to do is an opt-in blog aggregation site focused around functional programming. It would be very similar to what &lt;a href=&#34;http://blogs.bytecode.com.au/glen/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Glen Smith&lt;/a&gt; has done with &lt;a href=&#34;http://groovyblogs.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;groovyblogs.org&lt;/a&gt;. Groovyblogs is currently my number one referral site and is generating about 20% of the traffic for this blog. I think it is a great way to find out what blogs are out there in a given space, and there doesn&amp;rsquo;t seem to be an equivalent for the functional space. Since my LOTY interest is focused in the functional space, particularly around Scala and Clojure, and my TOTY interest is the cloud technologies out there, it seems like the perfect marriage.&lt;/p&gt;
+&lt;p&gt;So here&amp;rsquo;s my question. Would you be interested in using such a site? As a reader, blogger, or both? Please sound off. Thanks!&lt;/p&gt;
 </description>
     </item>
     
@@ -27,25 +27,25 @@
       <link>https://www.mattstine.com/2009/04/06/lotypart-deux/</link>
       <pubDate>Mon, 06 Apr 2009 00:00:00 +0000</pubDate>
       <guid>https://www.mattstine.com/2009/04/06/lotypart-deux/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://mattstine.files.wordpress.com/2009/04/scala_vs_clojure.jpg&#34; alt=&#34;scala_vs_clojure&#34;&gt;&lt;a href=&#34;http://mattstine.files.wordpress.com/2009/04/scala_vs_clojure.jpg2009/04/02/loty-time-again-scala-or-clojure&#34;&gt;A few days ago I pontificated&lt;/a&gt; on my need to choose a new &amp;ldquo;Language of the Year.&amp;rdquo; Right now I&#39;m attempting to choose between &lt;a href=&#34;http://www.scala-lang.org/&#34;&gt;Scala&lt;/a&gt; and &lt;a href=&#34;http://clojure.org/&#34;&gt;Clojure&lt;/a&gt;. If nothing else, I&#39;ve learned from this exercise that asking the community for feedback is a GOOD thing. Your comments have been very helpful.&lt;/p&gt;
+      <description>&lt;p&gt;&lt;img src=&#34;http://mattstine.files.wordpress.com/2009/04/scala_vs_clojure.jpg&#34; alt=&#34;scala_vs_clojure&#34;&gt;&lt;a href=&#34;http://mattstine.files.wordpress.com/2009/04/scala_vs_clojure.jpg2009/04/02/loty-time-again-scala-or-clojure&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;A few days ago I pontificated&lt;/a&gt; on my need to choose a new &amp;ldquo;Language of the Year.&amp;rdquo; Right now I&amp;rsquo;m attempting to choose between &lt;a href=&#34;http://www.scala-lang.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Scala&lt;/a&gt; and &lt;a href=&#34;http://clojure.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Clojure&lt;/a&gt;. If nothing else, I&amp;rsquo;ve learned from this exercise that asking the community for feedback is a GOOD thing. Your comments have been very helpful.&lt;/p&gt;
 &lt;p&gt;To summarize:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;As far as the polls go, Scala is in the lead by a margin of 4 to 2.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Two of the Scala votes have been simple +1&#39;s, and two have provided a supporting argument.&lt;/p&gt;
+&lt;p&gt;Two of the Scala votes have been simple +1&amp;rsquo;s, and two have provided a supporting argument.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Both Clojure voters have provided a supporting argument.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;So, to make this a bit more of a fair fight, I&#39;m only going to consider the &amp;ldquo;supported votes&amp;rdquo; at this point. This leads to the obvious result of a tie!&lt;/p&gt;
+&lt;p&gt;So, to make this a bit more of a fair fight, I&amp;rsquo;m only going to consider the &amp;ldquo;supported votes&amp;rdquo; at this point. This leads to the obvious result of a tie!&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;So, what to do?&lt;/p&gt;
 &lt;p&gt;The argument for using Scala is that it is a functional/OO hybrid, so it will be easier to slide into. Interestingly enough, the argument against using Scala is that it is a functional/OO hybrid, so it will be easier to slide back into OO/imperative habits! Clojure, being more of a purely functional language, will be harder to get into initially, but will force me to think functionally. Hmmm&amp;hellip;&lt;/p&gt;
-&lt;p&gt;So here&#39;s my idea. Let&#39;s do this the agile way. What I&#39;d like to do is complete a timeboxed spike (in terms of actual time spent learning the language, not calendar time - I&#39;m doing this in my spare time, and I&#39;ve got my wife, four kids, and three other side projects competing for my attention!) of roughly two weeks in each language. The first week of the spike would be spent getting comfortable with the syntax, reading articles/documentation/blogs/etc., writing &amp;ldquo;Hello, World!&amp;rdquo; etc. The second week of the spike would be spent solving the same problem in each language, preferably a problem sitting in the functional sweet spot.&lt;/p&gt;
+&lt;p&gt;So here&amp;rsquo;s my idea. Let&amp;rsquo;s do this the agile way. What I&amp;rsquo;d like to do is complete a timeboxed spike (in terms of actual time spent learning the language, not calendar time - I&amp;rsquo;m doing this in my spare time, and I&amp;rsquo;ve got my wife, four kids, and three other side projects competing for my attention!) of roughly two weeks in each language. The first week of the spike would be spent getting comfortable with the syntax, reading articles/documentation/blogs/etc., writing &amp;ldquo;Hello, World!&amp;rdquo; etc. The second week of the spike would be spent solving the same problem in each language, preferably a problem sitting in the functional sweet spot.&lt;/p&gt;
 &lt;p&gt;How does this sound to everyone? And to follow up, does anyone have a suggested problem I might tackle? Cheers!&lt;/p&gt;
 </description>
     </item>

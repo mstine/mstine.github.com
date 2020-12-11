@@ -5,9 +5,9 @@
     <link>https://www.mattstine.com/categories/textile/</link>
       <atom:link href="https://www.mattstine.com/categories/textile/index.xml" rel="self" type="application/rss+xml" />
     <description>textile</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Matt Stine</copyright><lastBuildDate>Thu, 26 Mar 2009 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2020 Matt Stine</copyright><lastBuildDate>Thu, 26 Mar 2009 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <url>https://www.mattstine.com/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
       <title>textile</title>
       <link>https://www.mattstine.com/categories/textile/</link>
     </image>
@@ -17,13 +17,13 @@
       <link>https://www.mattstine.com/2009/03/26/need-a-textile-engine-look-no-further-than-plextile/</link>
       <pubDate>Thu, 26 Mar 2009 00:00:00 +0000</pubDate>
       <guid>https://www.mattstine.com/2009/03/26/need-a-textile-engine-look-no-further-than-plextile/</guid>
-      <description>&lt;p&gt;In finishing up the first release of JUG Nexus, the open source engine (&lt;a href=&#34;http://github.com/mstine/jug-nexus/tree/master&#34;&gt;&lt;a href=&#34;http://github.com/mstine/jug-nexus/tree/master&#34;&gt;http://github.com/mstine/jug-nexus/tree/master&lt;/a&gt;&lt;/a&gt;) behind the new Memphis JUG website, I needed to put a good &lt;a href=&#34;http://www.textism.com/tools/textile/&#34;&gt;Textile&lt;/a&gt; engine in place. I really don&#39;t care for writing actual HTML in a content management system, and JUG Nexus being a lightweight CMS, I wanted a lightweight markup syntax for entering the details of upcoming JUG meetings. Textile is exactly that, and is also used for entering content into the very useful &lt;a href=&#34;http://jugevents.org&#34;&gt;JUGEvents&lt;/a&gt; system produced by &lt;a href=&#34;http://www.jugpadova.it/&#34;&gt;JUG Padova&lt;/a&gt; for the Java User Group community at large. I tried out several different engines, and none of them seemed to be very robust when it came to edge cases in the markup. For example, if I want to produce a hyperlink to a website, the textile format is the following:&lt;/p&gt;
+      <description>&lt;p&gt;In finishing up the first release of JUG Nexus, the open source engine (&lt;a href=&#34;http://github.com/mstine/jug-nexus/tree/master&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://github.com/mstine/jug-nexus/tree/master&lt;/a&gt;) behind the new Memphis JUG website, I needed to put a good &lt;a href=&#34;http://www.textism.com/tools/textile/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Textile&lt;/a&gt; engine in place. I really don&amp;rsquo;t care for writing actual HTML in a content management system, and JUG Nexus being a lightweight CMS, I wanted a lightweight markup syntax for entering the details of upcoming JUG meetings. Textile is exactly that, and is also used for entering content into the very useful &lt;a href=&#34;http://jugevents.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;JUGEvents&lt;/a&gt; system produced by &lt;a href=&#34;http://www.jugpadova.it/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;JUG Padova&lt;/a&gt; for the Java User Group community at large. I tried out several different engines, and none of them seemed to be very robust when it came to edge cases in the markup. For example, if I want to produce a hyperlink to a website, the textile format is the following:&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;&amp;quot;Linked Text&amp;quot;:http://www.site.com&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;This syntax will result in the following HTML:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;&amp;lt;a href=&amp;quot;http://www.site.com&amp;quot;&amp;gt;Linked Text&amp;lt;/a&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Unfortunately, if you have a bang (!) in your &amp;ldquo;Linked Text,&amp;rdquo; most of the Textile engines that I used would not recognize it as an HTML link. Plextile does!&lt;/p&gt;
-&lt;p&gt;The only drawback, however minimal, to using Plextile is that it does not come with a pre-packaged JAR file. You have to take the compiled code and JAR it yourself. Now, for free, I&#39;ll include how I integrated Plextile with Grails. Grails has a very nice codec feature that provides a facility to register encoders and decoders of textual data as methods on any object. Grails searches for classes following the convention &lt;code&gt;XCodec&lt;/code&gt; and dynamically registers &lt;code&gt;encodeAsX&lt;/code&gt; and &lt;code&gt;decodeX&lt;/code&gt; methods on &lt;code&gt;java.lang.Object&lt;/code&gt; so that any data can be encoded and decoded. Enter the &lt;code&gt;TextileCodec&lt;/code&gt;:&lt;/p&gt;
+&lt;p&gt;The only drawback, however minimal, to using Plextile is that it does not come with a pre-packaged JAR file. You have to take the compiled code and JAR it yourself. Now, for free, I&amp;rsquo;ll include how I integrated Plextile with Grails. Grails has a very nice codec feature that provides a facility to register encoders and decoders of textual data as methods on any object. Grails searches for classes following the convention &lt;code&gt;XCodec&lt;/code&gt; and dynamically registers &lt;code&gt;encodeAsX&lt;/code&gt; and &lt;code&gt;decodeX&lt;/code&gt; methods on &lt;code&gt;java.lang.Object&lt;/code&gt; so that any data can be encoded and decoded. Enter the &lt;code&gt;TextileCodec&lt;/code&gt;:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;import com.plink.plextile.TextParser
 
 class TextileCodec {
@@ -34,7 +34,7 @@ class TextileCodec {
 
 }
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Believe it or not, that&#39;s it! Here&#39;s the GSP template for rendering a JUG meeting:&lt;/p&gt;
+&lt;p&gt;Believe it or not, that&amp;rsquo;s it! Here&amp;rsquo;s the GSP template for rendering a JUG meeting:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;&amp;lt;div class=&amp;quot;post&amp;quot;&amp;gt;
   &amp;lt;h2&amp;gt;${event.title}&amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;g:formatDate format=&amp;quot;EEEE, MMMM dd, yyyy&amp;quot; date=&amp;quot;${event.startTime}&amp;quot;/&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;g:formatDate format=&amp;quot;h:mm&amp;quot; date=&amp;quot;${event.startTime}&amp;quot;/&amp;gt;-&amp;lt;g:formatDate format=&amp;quot;h:mm a&amp;quot; date=&amp;quot;${event.endTime}&amp;quot;/&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;g:if test=&amp;quot;${!event.archived}&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;http://jugevents.org/jugevents/event/${event.jugEventsId}&amp;quot;&amp;gt;Click HERE to register!&amp;lt;/a&amp;gt;&amp;lt;/g:if&amp;gt;&amp;lt;/h2&amp;gt;
   &amp;lt;div class=&amp;quot;entry&amp;quot;&amp;gt;

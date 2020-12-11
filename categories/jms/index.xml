@@ -5,9 +5,9 @@
     <link>https://www.mattstine.com/categories/jms/</link>
       <atom:link href="https://www.mattstine.com/categories/jms/index.xml" rel="self" type="application/rss+xml" />
     <description>jms</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Matt Stine</copyright><lastBuildDate>Fri, 13 Mar 2009 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2020 Matt Stine</copyright><lastBuildDate>Fri, 13 Mar 2009 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <url>https://www.mattstine.com/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
       <title>jms</title>
       <link>https://www.mattstine.com/categories/jms/</link>
     </image>
@@ -17,7 +17,7 @@
       <link>https://www.mattstine.com/2009/03/13/im-speaking-at-the-march-memphis-jug-meeting/</link>
       <pubDate>Fri, 13 Mar 2009 00:00:00 +0000</pubDate>
       <guid>https://www.mattstine.com/2009/03/13/im-speaking-at-the-march-memphis-jug-meeting/</guid>
-      <description>&lt;p&gt;I learned a great deal about JMS from Mark Richards at last weekend&#39;s NFJS Gateway Software Symposium, and I thought I&#39;d share it with the Memphis Java community. Take a look at &lt;a href=&#34;http://www.memphisjug.org&#34;&gt;&lt;a href=&#34;http://www.memphisjug.org&#34;&gt;http://www.memphisjug.org&lt;/a&gt;&lt;/a&gt; for details!&lt;/p&gt;
+      <description>&lt;p&gt;I learned a great deal about JMS from Mark Richards at last weekend&amp;rsquo;s NFJS Gateway Software Symposium, and I thought I&amp;rsquo;d share it with the Memphis Java community. Take a look at &lt;a href=&#34;http://www.memphisjug.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://www.memphisjug.org&lt;/a&gt; for details!&lt;/p&gt;
 </description>
     </item>
     

@@ -5,9 +5,9 @@
     <link>https://www.mattstine.com/categories/solid/</link>
       <atom:link href="https://www.mattstine.com/categories/solid/index.xml" rel="self" type="application/rss+xml" />
     <description>SOLID</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Matt Stine</copyright><lastBuildDate>Mon, 30 Jun 2014 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2020 Matt Stine</copyright><lastBuildDate>Mon, 30 Jun 2014 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <url>https://www.mattstine.com/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
       <title>SOLID</title>
       <link>https://www.mattstine.com/categories/solid/</link>
     </image>
@@ -20,7 +20,7 @@
       <description>&lt;div class=&#34;quoteblock abstract&#34;&gt;
 &lt;blockquote&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;&lt;a href=&#34;http://martinfowler.com/articles/microservices.html&#34;&gt;Microservices&lt;/a&gt; are often described as small, loosely coupled applications that follow the UNIX philosophy of &amp;#8220;doing one thing well.&amp;#8221; They have also &lt;a href=&#34;http://www.infoq.com/articles/microservices-intro&#34;&gt;been related&lt;/a&gt; to the &lt;a href=&#34;http://en.wikipedia.org/wiki/Single_responsibility_principle&#34;&gt;Single Responsibility Principle&lt;/a&gt;, the first of the five principles making up &lt;a href=&#34;http://en.wikipedia.org/wiki/SOLID_(object-oriented_design)&#34;&gt;SOLID&lt;/a&gt;. A microservices-based architecture is typically constructed around a set of common patterns. This set of patterns is actually consistent with all of the SOLID principles when thought of at the architectural rather than the class/module level. In this article, we&amp;#8217;ll gain an understanding of each of the SOLID principles and how they relate to microservices.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://martinfowler.com/articles/microservices.html&#34;&gt;Microservices&lt;/a&gt; are often described as small, loosely coupled applications that follow the UNIX philosophy of “doing one thing well.” They have also &lt;a href=&#34;http://www.infoq.com/articles/microservices-intro&#34;&gt;been related&lt;/a&gt; to the &lt;a href=&#34;http://en.wikipedia.org/wiki/Single_responsibility_principle&#34;&gt;Single Responsibility Principle&lt;/a&gt;, the first of the five principles making up &lt;a href=&#34;http://en.wikipedia.org/wiki/SOLID_(object-oriented_design)&#34;&gt;SOLID&lt;/a&gt;. A microservices-based architecture is typically constructed around a set of common patterns. This set of patterns is actually consistent with all of the SOLID principles when thought of at the architectural rather than the class/module level. In this article, we’ll gain an understanding of each of the SOLID principles and how they relate to microservices.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/blockquote&gt;
 &lt;/div&gt;
@@ -29,7 +29,7 @@
 &lt;div class=&#34;sectionbody&#34;&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;I have spent a significant portion of the last three years speaking and writing about the SOLID principles of object-oriented design.
-I spent the first year teaching SOLID much as expressed by Robert C. &amp;#8220;Uncle Bob&amp;#8221; Martin in his foundational book, &lt;em&gt;&lt;a href=&#34;http://www.amazon.com/Software-Development-Principles-Patterns-Practices/dp/0135974445&#34;&gt;Agile Software Development: Principles, Patterns, and Practices&lt;/a&gt;&lt;/em&gt;.
+I spent the first year teaching SOLID much as expressed by Robert C. “Uncle Bob” Martin in his foundational book, &lt;em&gt;&lt;a href=&#34;http://www.amazon.com/Software-Development-Principles-Patterns-Practices/dp/0135974445&#34;&gt;Agile Software Development: Principles, Patterns, and Practices&lt;/a&gt;&lt;/em&gt;.
 About the same time I was embarking on a reintroduction to and exploration of functional programming, spending a significant amount of time with &lt;a href=&#34;http://clojure.org&#34;&gt;Clojure&lt;/a&gt;.
 Retraining my mind for functional thinking while simultaneously teaching the SOLID principles resulted in a perfect thought storm in my mind, resulting in the following question:&lt;/p&gt;
 &lt;/div&gt;
@@ -41,7 +41,7 @@ Retraining my mind for functional thinking while simultaneously teaching the SOL
 &lt;/blockquote&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;The thought journey that followed led me to start giving the talk entitled &amp;#8220;Functional SOLID&amp;#8221; on August 25, 2012.
+&lt;p&gt;The thought journey that followed led me to start giving the talk entitled “Functional SOLID” on August 25, 2012.
 That same month I began publishing a &lt;a href=&#34;https://nofluffjuststuff.com/m/article/functional_solid_part_1&#34;&gt;four-part&lt;/a&gt; &lt;a href=&#34;https://nofluffjuststuff.com/m/article/functional_solid_part_2&#34;&gt;series&lt;/a&gt; &lt;a href=&#34;https://nofluffjuststuff.com/m/article/functional_solid_part_3&#34;&gt;of&lt;/a&gt; &lt;a href=&#34;https://nofluffjuststuff.com/m/article/functional_solid_part_2&#34;&gt;articles&lt;/a&gt; by the same name.
 In both of these presentations of my ideas, I related a couple of foundational memes:&lt;/p&gt;
 &lt;/div&gt;
@@ -57,17 +57,17 @@ In both of these presentations of my ideas, I related a couple of foundational m
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;It is this second meme that provides the impetus for this particular article.
-At the conclusion of both presentations, I refer to Rich Hickey&amp;#8217;s seminal Strange Loop keynote, &lt;a href=&#34;http://www.infoq.com/presentations/Simple-Made-Easy&#34;&gt;&amp;#8220;Simple Made Easy&amp;#8221;&lt;/a&gt;.
+At the conclusion of both presentations, I refer to Rich Hickey’s seminal Strange Loop keynote, &lt;a href=&#34;http://www.infoq.com/presentations/Simple-Made-Easy&#34;&gt;“Simple Made Easy”&lt;/a&gt;.
 In his presentation, Hickey decries our continual conflation of the ideas of simplicity and ease by tracing the origins of both words:&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;ulist&#34;&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;Simple, from the Latin &lt;em&gt;simplex&lt;/em&gt;, meaning &amp;#8220;one fold or braid&amp;#8221; (opposed to &lt;em&gt;complex&lt;/em&gt;, meaning &amp;#8220;many folds or braids,&amp;#8221;) is an objective concept.
+&lt;p&gt;Simple, from the Latin &lt;em&gt;simplex&lt;/em&gt;, meaning “one fold or braid” (opposed to &lt;em&gt;complex&lt;/em&gt;, meaning “many folds or braids,”) is an objective concept.
 In software we can relate it to the degree of interleaving of concerns in software components.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Easy, from the Latin &lt;em&gt;adjacens&lt;/em&gt;, means &amp;#8220;to lie near.&amp;#8221; While &amp;#8220;hard&amp;#8221; does not trace to a root meaning &amp;#8220;to lie far,&amp;#8221; we can still understand that &amp;#8220;easy&amp;#8221; is a relative concept.
+&lt;p&gt;Easy, from the Latin &lt;em&gt;adjacens&lt;/em&gt;, means “to lie near.” While “hard” does not trace to a root meaning “to lie far,” we can still understand that “easy” is a relative concept.
 What lies near, or is easy to me, is not necessarily easy or near to you.
 In software we can relate it to the programming languages, paradigms, framweworks, technologies, etc. with which we are intimately familiar.&lt;/p&gt;
 &lt;/li&gt;
@@ -102,8 +102,8 @@ It often complects entities not in a true “is-a” relationship, which leads t
 &lt;/dl&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;As you can see, we&amp;#8217;ve now stated the principles independently of any programming-paradigm specific language.
-It is this restatement that cemented in my mind the idea that SOLID actually transcends all of software engineering&amp;#8201;&amp;#8212;&amp;#8201;software engineering principles that are &lt;em&gt;universally true&lt;/em&gt;, regardless of the context in which they are applied.
+&lt;p&gt;As you can see, we’ve now stated the principles independently of any programming-paradigm specific language.
+It is this restatement that cemented in my mind the idea that SOLID actually transcends all of software engineering — software engineering principles that are &lt;em&gt;universally true&lt;/em&gt;, regardless of the context in which they are applied.
 So, we can easily walk these principles up the abstraction ladder into the world of architecture.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -112,7 +112,7 @@ So, we can easily walk these principles up the abstraction ladder into the world
 &lt;h2 id=&#34;_microservices_introduced&#34;&gt;Microservices Introduced&lt;/h2&gt;
 &lt;div class=&#34;sectionbody&#34;&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;With businesses built around software now disrupting multiple industries that appeared to have stable leaders, the need has emerged for enterprises to create &amp;#8220;software factories&amp;#8221; built around the following principles:&lt;/p&gt;
+&lt;p&gt;With businesses built around software now disrupting multiple industries that appeared to have stable leaders, the need has emerged for enterprises to create “software factories” built around the following principles:&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;ulist&#34;&gt;
 &lt;ul&gt;
@@ -132,13 +132,13 @@ So, we can easily walk these principles up the abstraction ladder into the world
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;Infrastructure has taken the lead in adapting to meet these needs with the move to the cloud, and Platform as a Service (PaaS) has raised the level of abstraction to a focus on an ecosystem of applications and services.
-However, most applications are still developed as if we&amp;#8217;re living in the previous generation of both business and infrastructure: the monolithic application.
-Microservices&amp;#8201;&amp;#8212;&amp;#8201;small, loosely coupled applications that follow the Unix philosophy of &#34;doing one thing well&#34;&amp;#8201;&amp;#8212;&amp;#8201;represent the application development side of enabling rapid, iterative development, horizontal scale, polyglot clients, and continuous delivery.
+However, most applications are still developed as if we’re living in the previous generation of both business and infrastructure: the monolithic application.
+Microservices — small, loosely coupled applications that follow the Unix philosophy of &amp;#34;doing one thing well&amp;#34; — represent the application development side of enabling rapid, iterative development, horizontal scale, polyglot clients, and continuous delivery.
 They also enable us to scale application development and eliminate long term commitments to a single technology stack.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;I won&amp;#8217;t belabor the introduction to microservices anymore, as a wealth of reading is already available all over the web.
-As a jumping off point, I invite the reader to dive into James Lewis&#39; and Martin Fowler&amp;#8217;s &lt;a href=&#34;http://martinfowler.com/articles/microservices.html&#34;&gt;excellent coverage of the topic&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I won’t belabor the introduction to microservices anymore, as a wealth of reading is already available all over the web.
+As a jumping off point, I invite the reader to dive into James Lewis&amp;#39; and Martin Fowler’s &lt;a href=&#34;http://martinfowler.com/articles/microservices.html&#34;&gt;excellent coverage of the topic&lt;/a&gt;.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -146,14 +146,14 @@ As a jumping off point, I invite the reader to dive into James Lewis&#39; and Ma
 &lt;h2 id=&#34;_solid_microservices&#34;&gt;SOLID Microservices&lt;/h2&gt;
 &lt;div class=&#34;sectionbody&#34;&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Let&amp;#8217;s now get to the heart of the matter: how do the patterns associated with a microservices architecture overlap with the SOLID principles?
-Let&amp;#8217;s walk through each, briefly relating them in their natural context, and then swinging them into our microservices discussion.&lt;/p&gt;
+&lt;p&gt;Let’s now get to the heart of the matter: how do the patterns associated with a microservices architecture overlap with the SOLID principles?
+Let’s walk through each, briefly relating them in their natural context, and then swinging them into our microservices discussion.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;sect2&#34;&gt;
 &lt;h3 id=&#34;_single_responsibility_principle&#34;&gt;Single Responsibility Principle&lt;/h3&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;The Single Responsibility Principle (SRP) is stated by Martin as &amp;#8220;each software module should have one and only one reason to change&amp;#8221; &lt;a href=&#34;#SRP&#34;&gt;[SRP]&lt;/a&gt;.
-Of all of the SOLID principles, the SRP is the one I&amp;#8217;ve &lt;a href=&#34;http://byterot.blogspot.com/2014/04/reactive-cloud-actors-no-nonsense-microservice-beehive-restful-evolvable-web-events-orleans-framework.html&#34;&gt;most&lt;/a&gt; &lt;a href=&#34;http://www.slideshare.net/joshlong/microservices-with-spring-boot&#34;&gt;often&lt;/a&gt; &lt;a href=&#34;http://www.tigerteam.dk/2014/microservices-its-not-only-the-size-that-matters-its-also-how-you-use-them-part-4/&#34;&gt;seen&lt;/a&gt; cited in the context of microservices.&lt;/p&gt;
+&lt;p&gt;The Single Responsibility Principle (SRP) is stated by Martin as “each software module should have one and only one reason to change” &lt;a href=&#34;#SRP&#34;&gt;[SRP]&lt;/a&gt;.
+Of all of the SOLID principles, the SRP is the one I’ve &lt;a href=&#34;http://byterot.blogspot.com/2014/04/reactive-cloud-actors-no-nonsense-microservice-beehive-restful-evolvable-web-events-orleans-framework.html&#34;&gt;most&lt;/a&gt; &lt;a href=&#34;http://www.slideshare.net/joshlong/microservices-with-spring-boot&#34;&gt;often&lt;/a&gt; &lt;a href=&#34;http://www.tigerteam.dk/2014/microservices-its-not-only-the-size-that-matters-its-also-how-you-use-them-part-4/&#34;&gt;seen&lt;/a&gt; cited in the context of microservices.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;One common thread between how Martin relates SOLID and microservices is &lt;em&gt;change&lt;/em&gt;.
@@ -170,7 +170,7 @@ Effective continuous delivery is far more difficult, as the release management p
 If we instead separate architectural responsibilities into different microservices, we can decouple those change cycles, thus decreasing the risks associated with frequent deployments. Continuous delivery becomes more easily attainable.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;The most common technique I&amp;#8217;ve seen applied to decomposing a monolith into microservices is the &lt;a href=&#34;http://martinfowler.com/bliki/BoundedContext.html&#34;&gt;bounded context&lt;/a&gt; from &lt;a href=&#34;http://en.wikipedia.org/wiki/Domain-driven_design&#34;&gt;Domain-Driven Design&lt;/a&gt;.
+&lt;p&gt;The most common technique I’ve seen applied to decomposing a monolith into microservices is the &lt;a href=&#34;http://martinfowler.com/bliki/BoundedContext.html&#34;&gt;bounded context&lt;/a&gt; from &lt;a href=&#34;http://en.wikipedia.org/wiki/Domain-driven_design&#34;&gt;Domain-Driven Design&lt;/a&gt;.
 We identify discrete business capabilities, each of which owns and governs its own discrete segment of the overall data model for an organization.
 A microservice implements each business capability, encapsulating its data segment behind an often RESTful API.
 Overlaps between the capabilities (e.g. a shipping service and ordering service will both likely have the notion of customer, likely governed by a customer service) are realized by mappings in higher-order microservices or by utilizing hypermedia.&lt;/p&gt;
@@ -179,7 +179,7 @@ Overlaps between the capabilities (e.g. a shipping service and ordering service 
 &lt;div class=&#34;sect2&#34;&gt;
 &lt;h3 id=&#34;_open_closed_principle&#34;&gt;Open-Closed Principle&lt;/h3&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;The Open-Closed Principle (OCP), first coined by Bertrand Meyer &lt;a href=&#34;#OOSC&#34;&gt;[OOSC]&lt;/a&gt;, states that &amp;#8220;software entities should be open for extension, but closed for modification.&amp;#8221;
+&lt;p&gt;The Open-Closed Principle (OCP), first coined by Bertrand Meyer &lt;a href=&#34;#OOSC&#34;&gt;[OOSC]&lt;/a&gt;, states that “software entities should be open for extension, but closed for modification.”
 Again we relate this principle to change.
 We should be able to change what a module does as software requirements change, but we should be able to do so without modifying any existing, working code.&lt;/p&gt;
 &lt;/div&gt;
@@ -189,7 +189,7 @@ How can we change the behavior of a module without changing its code?
 The key is in how we define the facade of the module, thinking at the appropriate level of abstraction.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Let&amp;#8217;s draw an example from Java&amp;#8217;s standard library.
+&lt;p&gt;Let’s draw an example from Java’s standard library.
 What if my client code is provided an instance of &lt;code&gt;java.util.HashMap&lt;/code&gt;, and I instead want sorted keys?
 I would need to not only provide an instance of &lt;code&gt;java.util.TreeMap&lt;/code&gt; to my client, but I would also need to change all of the existing references.
 If I instead refer to the map abstraction as &lt;code&gt;java.util.Map&lt;/code&gt; (a Java interface), then I can provide my client with the new &lt;code&gt;Map&lt;/code&gt; type without changing any code.
@@ -210,37 +210,37 @@ This enables us to both experiment with and utilize various data stores in advan
 &lt;div class=&#34;sect2&#34;&gt;
 &lt;h3 id=&#34;_liskov_substitution_principle&#34;&gt;Liskov Substitution Principle&lt;/h3&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;The Liskov Substitution Principle (LSP) was born the same year as Meyer&amp;#8217;s OCP, written down by Barbara Liskov.
-The LSP is concerned with types and subtypes, focused on the idea that &amp;#8220;subtypes must be substitutable for their base types.&amp;#8221;
+&lt;p&gt;The Liskov Substitution Principle (LSP) was born the same year as Meyer’s OCP, written down by Barbara Liskov.
+The LSP is concerned with types and subtypes, focused on the idea that “subtypes must be substitutable for their base types.”
 In object-oriented terms, drawing again from the Java language, if a class &lt;code&gt;extends&lt;/code&gt; from a parent class or &lt;code&gt;implements&lt;/code&gt; a parent interface, we should be able to use that class in the context of any code expecting an instance of the parent.
 If at any time that code context exhibits aberrant behavior, we have violated the LSP with our class.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Extending the idea of object-oriented inheritance to logical architecture is a bit of a stretch, but let&amp;#8217;s give it a try.
-We&amp;#8217;ll start by again considering the microservice&amp;#8217;s facade, or its API.
-From the client&amp;#8217;s perspective, the API represents the &amp;#8220;base type&amp;#8221; for our microservice.
-So long as any microservice we swap in properly fulfills this API, we can say it&amp;#8217;s consistent with the LSP.&lt;/p&gt;
+&lt;p&gt;Extending the idea of object-oriented inheritance to logical architecture is a bit of a stretch, but let’s give it a try.
+We’ll start by again considering the microservice’s facade, or its API.
+From the client’s perspective, the API represents the “base type” for our microservice.
+So long as any microservice we swap in properly fulfills this API, we can say it’s consistent with the LSP.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;It&amp;#8217;s unlikely that we&amp;#8217;ll often substitute different implementations of the same API at runtime, and it&amp;#8217;s unclear to me what a child microservice might look like.
+&lt;p&gt;It’s unlikely that we’ll often substitute different implementations of the same API at runtime, and it’s unclear to me what a child microservice might look like.
 However, consider the case of services that implement the same API, but that must implement different business rules or policies given the legal jurisdiction governing the data.
 Further, consider that regulatory compliance dicates that those services actually are deployed and run in the same geographic location governed by that legal jurisdiction.
 We could implement each instance of this API as a separate microservice and deploy each of them in the appropriate geography.
-From the client&amp;#8217;s perspective, the substitution would be transparent (thus abiding by the LSP), and the &amp;#8220;polymorphic&amp;#8221; substitution could be performed by another higher-order microservice or global site-selection mechanism.&lt;/p&gt;
+From the client’s perspective, the substitution would be transparent (thus abiding by the LSP), and the “polymorphic” substitution could be performed by another higher-order microservice or global site-selection mechanism.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;sect2&#34;&gt;
 &lt;h3 id=&#34;_interface_segregation_principle&#34;&gt;Interface Segregation Principle&lt;/h3&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;The Interface Segregation Principle (ISP) is stated in Martin&amp;#8217;s book as &amp;#8220;clients should not be forced to depend on methods they do not use.&amp;#8221;
-Martin introduces the concept of so-called &amp;#8220;fat interfaces,&amp;#8221; or interfaces whose method set is not cohesive.
+&lt;p&gt;The Interface Segregation Principle (ISP) is stated in Martin’s book as “clients should not be forced to depend on methods they do not use.”
+Martin introduces the concept of so-called “fat interfaces,” or interfaces whose method set is not cohesive.
 One can divide their method sets into multiple groups, each group serving a different set of interested clients.
 The primary reason for seeking to separate these groups into different modules is to prevent change driven by one set of clients from affecting other distinct groups of clients.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;API&amp;#8217;s implemented via monolithic architectures cannot abide by the ISP.
+&lt;p&gt;API’s implemented via monolithic architectures cannot abide by the ISP.
 Adding or improving capabilities to serve one group of clients must involve minimally a redeployment of all of the capabilities affecting all clients.
-More likely, a lengthy regression test phase will also be required, as we must ensure that these additional or improved capabilities have not damaged the system&amp;#8217;s other capabilities.&lt;/p&gt;
+More likely, a lengthy regression test phase will also be required, as we must ensure that these additional or improved capabilities have not damaged the system’s other capabilities.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;Microservices, when designed well around bounded contexts, also abide by the ISP, as we enforce a hard boundary between interfaces by separating them into discrete, independently deployable units.&lt;/p&gt;
@@ -249,12 +249,12 @@ More likely, a lengthy regression test phase will also be required, as we must e
 &lt;div class=&#34;sect2&#34;&gt;
 &lt;h3 id=&#34;_dependency_inversion_principle&#34;&gt;Dependency Inversion Principle&lt;/h3&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;The Dependency Inversion Principle (DIP) tells us that &amp;#8220;abstractions should not depend upon details. Details should depend upon abstractions.&amp;#8221;
-Stated another way, &amp;#8220;high-level modules should not depend on low-level modules.&amp;#8221;
+&lt;p&gt;The Dependency Inversion Principle (DIP) tells us that “abstractions should not depend upon details. Details should depend upon abstractions.”
+Stated another way, “high-level modules should not depend on low-level modules.”
 Our abstractions, or higher-level modules, are what codify the important business knowledge inherent in a body of software, whereas our details, or lower-level modules, represent the mechanical recipes for carrying them out.
-One of the promises of the other principles is the ability to &amp;#8220;swap out&amp;#8221; the details beneath the abstractions when it becomes advantageous.
+One of the promises of the other principles is the ability to “swap out” the details beneath the abstractions when it becomes advantageous.
 However, when our higher-level modules have direct dependency on our lower-level modules, swapping out details often causes the abstraction itself to have to change.
-&amp;#8220;Absurd&amp;#8221; is Uncle Bob&amp;#8217;s description of this situation.&lt;/p&gt;
+“Absurd” is Uncle Bob’s description of this situation.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;The DIP typically deals with this scenario by defining &lt;em&gt;service interfaces&lt;/em&gt; for each module.
@@ -285,8 +285,8 @@ It plays a multi-faceted role in serving the diverse clients (i.e. disparate mob
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;The important thing to note is that the &amp;#8220;API&amp;#8221; defined by the API Gateway is owned by the client in much the same way as the &lt;em&gt;service interface&lt;/em&gt; is owned by a higher-level module. In this way, we invert the dependency between clients and the microservices themselves.
-Consult &lt;a href=&#34;http://techblog.netflix.com/2013/01/optimizing-netflix-api.html&#34;&gt;&amp;#8220;Optimizing the Netflix API&amp;#8221;&lt;/a&gt; for a fantastic example of this architectural pattern.&lt;/p&gt;
+&lt;p&gt;The important thing to note is that the “API” defined by the API Gateway is owned by the client in much the same way as the &lt;em&gt;service interface&lt;/em&gt; is owned by a higher-level module. In this way, we invert the dependency between clients and the microservices themselves.
+Consult &lt;a href=&#34;http://techblog.netflix.com/2013/01/optimizing-netflix-api.html&#34;&gt;“Optimizing the Netflix API”&lt;/a&gt; for a fantastic example of this architectural pattern.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -299,7 +299,7 @@ Consult &lt;a href=&#34;http://techblog.netflix.com/2013/01/optimizing-netflix-a
 Microservices &lt;a href=&#34;http://highscalability.com/blog/2014/4/8/microservices-not-a-free-lunch.html&#34;&gt;are not easy&lt;/a&gt;, but they are simple.
 One of the reasons for their simplicity is what I see as their strong compatibility with the SOLID principles, not only of object-oriented design, but of all of software engineering.
 By resisting the temptation to interleave distinct business capabilities, we retain the ability to develop and deploy them in an agile manner.
-I hope you&amp;#8217;ve found some value in this article, and I even hope you&amp;#8217;ve found some things with which you disagree.
+I hope you’ve found some value in this article, and I even hope you’ve found some things with which you disagree.
 Please sound off in the blogosphere, the Twitterverse, or wherever suits your fancy.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
@@ -316,7 +316,7 @@ Please sound off in the blogosphere, the Twitterverse, or wherever suits your fa
 &lt;p&gt;&lt;a id=&#34;OOSC&#34;&gt;&lt;/a&gt;[OOSC] Meyer, Bertrand (1988). &lt;em&gt;Object-Oriented Software Construction&lt;/em&gt;.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;a id=&#34;SRP&#34;&gt;&lt;/a&gt;[SRP] Martin, Robert C. &amp;#8220;The Single Responsibility Principle.&amp;#8221; &lt;a href=&#34;http://blog.8thlight.com/uncle-bob/2014/05/08/SingleReponsibilityPrinciple.html&#34; class=&#34;bare&#34;&gt;http://blog.8thlight.com/uncle-bob/2014/05/08/SingleReponsibilityPrinciple.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a id=&#34;SRP&#34;&gt;&lt;/a&gt;[SRP] Martin, Robert C. “The Single Responsibility Principle.” &lt;a href=&#34;http://blog.8thlight.com/uncle-bob/2014/05/08/SingleReponsibilityPrinciple.html&#34; class=&#34;bare&#34;&gt;http://blog.8thlight.com/uncle-bob/2014/05/08/SingleReponsibilityPrinciple.html&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;

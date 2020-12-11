@@ -5,9 +5,9 @@
     <link>https://www.mattstine.com/categories/golang/</link>
       <atom:link href="https://www.mattstine.com/categories/golang/index.xml" rel="self" type="application/rss+xml" />
     <description>golang</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Matt Stine</copyright><lastBuildDate>Tue, 08 Jul 2014 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2020 Matt Stine</copyright><lastBuildDate>Tue, 08 Jul 2014 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <url>https://www.mattstine.com/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
       <title>golang</title>
       <link>https://www.mattstine.com/categories/golang/</link>
     </image>
@@ -25,7 +25,7 @@
 &lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;This article begins an introductory series on the &lt;a href=&#34;http://golang.org&#34;&gt;Go programming language&lt;/a&gt;.
 Go is a language optimized for large-scale software engineering and is rapidly becoming the language of choice for building cloud services.
-It does this in a very interesting way, optimizing for simplicity rather than complexity and taking a &amp;#8220;less is exponentially more&amp;#8221; approach.&lt;/p&gt;
+It does this in a very interesting way, optimizing for simplicity rather than complexity and taking a “less is exponentially more” approach.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;Three ways in which this really stands out are:&lt;/p&gt;
@@ -36,7 +36,7 @@ It does this in a very interesting way, optimizing for simplicity rather than co
 &lt;p&gt;A pragmatic approach to component design (through implicitly satisfied interfaces)&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;The need to forget much of what you&amp;#8217;ve learned about object-oriented programming (and to prefer composition over inheritance)&lt;/p&gt;
+&lt;p&gt;The need to forget much of what you’ve learned about object-oriented programming (and to prefer composition over inheritance)&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;A concurrency model that mere mortals can use to great effect (via goroutines and channels)&lt;/p&gt;
@@ -44,11 +44,11 @@ It does this in a very interesting way, optimizing for simplicity rather than co
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Overall, it&amp;#8217;s a language with the productivity of a dynamically-typed, interpreted language with the safety and efficiency found in a statically-typed, compiled language.&lt;/p&gt;
+&lt;p&gt;Overall, it’s a language with the productivity of a dynamically-typed, interpreted language with the safety and efficiency found in a statically-typed, compiled language.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;This series will focus on learning Go from the perspective of Java developers.
-We&amp;#8217;ll begin with design ideas informed by Go&amp;#8217;s primary method of abstraction: interfaces.&lt;/p&gt;
+We’ll begin with design ideas informed by Go’s primary method of abstraction: interfaces.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/blockquote&gt;
 &lt;/div&gt;
@@ -66,12 +66,12 @@ This allows us to define a hierarchy of types that inherit characteristics and b
 &lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;But what if I told you that classes were unnecessary? This may seem like heresy, but we already know it.
 JavaScript has the feel of an OO language, but it does not have classes at all.
-In fact, it utilizes what&amp;#8217;s called &lt;em&gt;prototype-based programming&lt;/em&gt; &lt;a href=&#34;#PBP&#34;&gt;[PBP]&lt;/a&gt;.
+In fact, it utilizes what’s called &lt;em&gt;prototype-based programming&lt;/em&gt; &lt;a href=&#34;#PBP&#34;&gt;[PBP]&lt;/a&gt;.
 With prototype-based programming, we achieve reuse by cloning existing objects that serve as &lt;em&gt;prototypes&lt;/em&gt;.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Those of us that have surfed the wave of &lt;em&gt;functional programming&lt;/em&gt; have discovered that it&amp;#8217;s indeed possible to structure large programs around a very basic set of types (sets, lists, maps, etc.), along with a large collection of behaviors, or &lt;em&gt;functions&lt;/em&gt;, that can operate on those types.
-In these languages, we don&amp;#8217;t really see anything resembling an object!&lt;/p&gt;
+&lt;p&gt;Those of us that have surfed the wave of &lt;em&gt;functional programming&lt;/em&gt; have discovered that it’s indeed possible to structure large programs around a very basic set of types (sets, lists, maps, etc.), along with a large collection of behaviors, or &lt;em&gt;functions&lt;/em&gt;, that can operate on those types.
+In these languages, we don’t really see anything resembling an object!&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;The Go programming language is somewhat unique in that it offers many OO-like constructs, but does not offer either classes or prototypes. But it is also not correct to refer to it as a functional language &lt;em&gt;per se&lt;/em&gt;.&lt;/p&gt;
@@ -83,23 +83,23 @@ In these languages, we don&amp;#8217;t really see anything resembling an object!
 &lt;div class=&#34;sectionbody&#34;&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;While the Java programming language has always included a type system featuring inheritance, it has long been considered best practice to favor composition over inheritance.
-When Joshua Bloch, now Chief Java Architect at Google and then Distinguished Engineer at Sun Microsystems, wrote his seminal work &lt;em&gt;Effective Java&lt;/em&gt; &lt;a href=&#34;#EJ&#34;&gt;[EJ]&lt;/a&gt;, he included as Item #16: &amp;#8220;Favor composition over inheritance.&amp;#8221;&lt;/p&gt;
+When Joshua Bloch, now Chief Java Architect at Google and then Distinguished Engineer at Sun Microsystems, wrote his seminal work &lt;em&gt;Effective Java&lt;/em&gt; &lt;a href=&#34;#EJ&#34;&gt;[EJ]&lt;/a&gt;, he included as Item #16: “Favor composition over inheritance.”&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;When we use inheritance, we must be careful to implement subclasses such that they are in an &lt;em&gt;is-a&lt;/em&gt; relationship with their parents.
 In other words, any context that expects an instance of the parent type should also work well with an instance of the subtype.
 We call this &lt;em&gt;substitutabilty&lt;/em&gt;, which is expressed well by the Liskov Substitution Principle &lt;a href=&#34;#LSP&#34;&gt;[LSP]&lt;/a&gt;.
-When we don&amp;#8217;t follow this principle, we usually end up creating a lot of code that uses type checking to implement special behaviors.
-In doing so, we create fragile systems that don&amp;#8217;t abide by the Open-Closed Principle &lt;a href=&#34;#OCP&#34;&gt;[OCP]&lt;/a&gt;.&lt;/p&gt;
+When we don’t follow this principle, we usually end up creating a lot of code that uses type checking to implement special behaviors.
+In doing so, we create fragile systems that don’t abide by the Open-Closed Principle &lt;a href=&#34;#OCP&#34;&gt;[OCP]&lt;/a&gt;.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;When we instead utilize composition, we build classes that are in a &lt;em&gt;has-a&lt;/em&gt; relationship with their components.
-If we&amp;#8217;d like to encapsulate the relationship between a class and its components, we can apply &lt;em&gt;delegation&lt;/em&gt;, forwarding method calls to the underlying component.
+If we’d like to encapsulate the relationship between a class and its components, we can apply &lt;em&gt;delegation&lt;/em&gt;, forwarding method calls to the underlying component.
 This makes it appear as if our object &lt;em&gt;is-a&lt;/em&gt; instance of another type in terms of behavior, without the problems associated with inheritance-based reuse.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;The Go programming language also emphasizes composition over inheritance, in that it does not even provide inheritance as a language construct! Instead, it provides the ability to use composition at the type and behavior level.
-Let&amp;#8217;s see how.&lt;/p&gt;
+Let’s see how.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -108,9 +108,9 @@ Let&amp;#8217;s see how.&lt;/p&gt;
 &lt;div class=&#34;sectionbody&#34;&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;In Go we can define composite data types using &lt;em class=&#34;term&#34;&gt;structs&lt;/em&gt;.
-You may be familiar with structs if you&amp;#8217;ve spent any time programming in C.
+You may be familiar with structs if you’ve spent any time programming in C.
 Structs are simply a sequence of fields, each of which has a name and a type.
-If you take a look at &lt;a href=&#34;#pstruct&#34;&gt;A &lt;code&gt;Point&lt;/code&gt; struct&lt;/a&gt;, you&amp;#8217;ll see that we&amp;#8217;ve defined a struct representing a point in Cartesian space.&lt;/p&gt;
+If you take a look at &lt;a href=&#34;#pstruct&#34;&gt;A &lt;code&gt;Point&lt;/code&gt; struct&lt;/a&gt;, you’ll see that we’ve defined a struct representing a point in Cartesian space.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;pstruct&#34; class=&#34;listingblock&#34;&gt;
 &lt;div class=&#34;title&#34;&gt;A &lt;code&gt;Point&lt;/code&gt; struct&lt;/div&gt;
@@ -123,32 +123,32 @@ If you take a look at &lt;a href=&#34;#pstruct&#34;&gt;A &lt;code&gt;Point&lt;/c
 &lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;New Go types are defined using the &lt;code&gt;type&lt;/code&gt; keyword.
 We give our type the name &lt;code&gt;Point&lt;/code&gt;.
-It&amp;#8217;s important to note that we&amp;#8217;ve used uppercase here.
+It’s important to note that we’ve used uppercase here.
 Visibility in Go is determined by the case of an identifier.
 All code in Go is defined within a package.
-If you&amp;#8217;d like your types and functions to be visible beyond the confines of your package, you need to &lt;em&gt;export&lt;/em&gt; them by starting them with an uppercase letter.
+If you’d like your types and functions to be visible beyond the confines of your package, you need to &lt;em&gt;export&lt;/em&gt; them by starting them with an uppercase letter.
 If you use a lowercase letter or underscore (&lt;code&gt;_&lt;/code&gt;), they will be &lt;em&gt;unexported&lt;/em&gt;, roughly equivalent to the Java concept of &lt;code&gt;private&lt;/code&gt;.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;You&amp;#8217;ll quickly notice that we&amp;#8217;ve defined two fields in our struct, &lt;code&gt;X&lt;/code&gt; and &lt;code&gt;Y&lt;/code&gt;, both of which take on the type &lt;code&gt;float64&lt;/code&gt;, representing a 64-bit floating-point number.&lt;/p&gt;
+&lt;p&gt;You’ll quickly notice that we’ve defined two fields in our struct, &lt;code&gt;X&lt;/code&gt; and &lt;code&gt;Y&lt;/code&gt;, both of which take on the type &lt;code&gt;float64&lt;/code&gt;, representing a 64-bit floating-point number.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;admonitionblock note&#34;&gt;
 &lt;table&gt;
-&lt;tr&gt;
+&lt;tbody&gt;&lt;tr&gt;
 &lt;td class=&#34;icon&#34;&gt;
 &lt;div class=&#34;title&#34;&gt;Note&lt;/div&gt;
 &lt;/td&gt;
 &lt;td class=&#34;content&#34;&gt;
-Unlike Java, Go places the type declarations &lt;em&gt;after&lt;/em&gt; the field names (the same applies when declaring function arguments) - you&amp;#8217;ll get used to this eventually!
+Unlike Java, Go places the type declarations &lt;em&gt;after&lt;/em&gt; the field names (the same applies when declaring function arguments) - you’ll get used to this eventually!
 &lt;/td&gt;
 &lt;/tr&gt;
-&lt;/table&gt;
+&lt;/tbody&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;del&gt;The keen observer will also note the case of the field names.
 Just as case matters when dealing with type visibility beyond package boundaries, case also matters when dealing with field visibility beyond struct boundaries.
 Because both &lt;code&gt;X&lt;/code&gt; and &lt;code&gt;Y&lt;/code&gt; are uppercase, they are exported from the struct.
 Had they been &lt;code&gt;x&lt;/code&gt; and &lt;code&gt;y&lt;/code&gt;, they would be unexported, and therefore only visible within the struct.
-To find out how we&#39;ll deal with that, hold on until the next section!&lt;/del&gt;
+To find out how we&amp;#39;ll deal with that, hold on until the next section!&lt;/del&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;Update (2014-07-09):&lt;/em&gt;&lt;/strong&gt; &lt;em&gt;My understanding of this point &lt;a href=&#34;http://www.reddit.com/r/golang/comments/2a5aui/learning_to_go_part_i_interfaces/cis9bm8&#34;&gt;was corrected&lt;/a&gt; on Reddit. Case only affects visibility with respect to packages, so &lt;code&gt;x&lt;/code&gt; and &lt;code&gt;y&lt;/code&gt; would also be accessible to any code within the package enclosing the struct. See &lt;a href=&#34;http://play.golang.org/p/ySlG9K5yfN&#34;&gt;this example&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
 &lt;/div&gt;
@@ -164,26 +164,26 @@ To find out how we&#39;ll deal with that, hold on until the next section!&lt;/de
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;We prefixed our call to &lt;code&gt;new&lt;/code&gt; with an asterisk (&lt;code&gt;*&lt;/code&gt;) in order to dereference the pointer returned by &lt;code&gt;new&lt;/code&gt;.
-Yes, that&amp;#8217;s right, Go has pointers.
-With that said, there&amp;#8217;s no pointer arithmetic, so they&amp;#8217;re not quite as scary as what we find in languages like C and C++.
+Yes, that’s right, Go has pointers.
+With that said, there’s no pointer arithmetic, so they’re not quite as scary as what we find in languages like C and C++.
 They almost represent a happy medium between C and Java.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;admonitionblock note&#34;&gt;
 &lt;table&gt;
-&lt;tr&gt;
+&lt;tbody&gt;&lt;tr&gt;
 &lt;td class=&#34;icon&#34;&gt;
 &lt;div class=&#34;title&#34;&gt;Note&lt;/div&gt;
 &lt;/td&gt;
 &lt;td class=&#34;content&#34;&gt;
-You also don&amp;#8217;t have to worry about freeing memory! Go is a garbage collected language.
+You also don’t have to worry about freeing memory! Go is a garbage collected language.
 &lt;/td&gt;
 &lt;/tr&gt;
-&lt;/table&gt;
+&lt;/tbody&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;Built-in types in Go start &lt;em&gt;zeroed&lt;/em&gt;, rather than &lt;code&gt;nil&lt;/code&gt;.
 In the case of &lt;code&gt;float64&lt;/code&gt;, they take on the value &lt;code&gt;0&lt;/code&gt;.
-It&amp;#8217;s good practice for our types to start zeroed as well, and we get that for free here.
+It’s good practice for our types to start zeroed as well, and we get that for free here.
 Our newly initialized &lt;code&gt;Point&lt;/code&gt; represents the Cartesian coordinate &lt;em&gt;(0,0)&lt;/em&gt;. The next two statements move our &lt;code&gt;Point&lt;/code&gt; to &lt;em&gt;(1,2)&lt;/em&gt;.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
@@ -201,7 +201,7 @@ If we actually want a pointer to it, we need to prefix the literal with an amper
 &lt;/div&gt;
 &lt;div class=&#34;admonitionblock note&#34;&gt;
 &lt;table&gt;
-&lt;tr&gt;
+&lt;tbody&gt;&lt;tr&gt;
 &lt;td class=&#34;icon&#34;&gt;
 &lt;div class=&#34;title&#34;&gt;Note&lt;/div&gt;
 &lt;/td&gt;
@@ -209,7 +209,7 @@ If we actually want a pointer to it, we need to prefix the literal with an amper
 It is generally considered idiomatic Go to prefer the composite literal style to using &lt;code&gt;new&lt;/code&gt;.
 &lt;/td&gt;
 &lt;/tr&gt;
-&lt;/table&gt;
+&lt;/tbody&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;Enough about structs, on to methods!&lt;/p&gt;
@@ -239,7 +239,7 @@ We call &lt;code&gt;Translate&lt;/code&gt; in &lt;a href=&#34;#trans-in&#34;&gt;
 &lt;div class=&#34;title&#34;&gt;Calling &lt;code&gt;Translate&lt;/code&gt;&lt;/div&gt;
 &lt;div class=&#34;content&#34;&gt;
 &lt;pre class=&#34;highlight&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;	q := p.Translate(5, 5)
-	fmt.Printf(&#34;Translated %v to %v\n&#34;, p, q)&lt;/code&gt;&lt;/pre&gt;
+	fmt.Printf(&amp;#34;Translated %v to %v\n&amp;#34;, p, q)&lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div id=&#34;trans-out&#34; class=&#34;listingblock&#34;&gt;
@@ -250,8 +250,8 @@ Translated {1 2} to {6 7}&lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Because we&amp;#8217;re not operating on a pointer to a &lt;code&gt;Point&lt;/code&gt;, there&amp;#8217;s no way for us to affect the existing instance.
-If we couple this with unexported fields, we&amp;#8217;d have completely controlled access to a &lt;code&gt;Point&lt;/code&gt; instance&amp;#8217;s fields.&lt;/p&gt;
+&lt;p&gt;Because we’re not operating on a pointer to a &lt;code&gt;Point&lt;/code&gt;, there’s no way for us to affect the existing instance.
+If we couple this with unexported fields, we’d have completely controlled access to a &lt;code&gt;Point&lt;/code&gt; instance’s fields.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;If we want to mutate a &lt;code&gt;Point&lt;/code&gt;, we need our method to use a pointer as the receiver argument rather than a value.
@@ -268,14 +268,14 @@ We do this in &lt;a href=&#34;#pointer&#34;&gt;Method for translating a &lt;code
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;As you can see, rather than creating a new &lt;code&gt;Point&lt;/code&gt; and returning it, this method returns no value and directly mutates the &lt;code&gt;Point&lt;/code&gt; referred to by the pointer passed in as a receiver.
-Notice that Go conveniently dereferences the pointer automatically when using the dot (&lt;code&gt;.&lt;/code&gt;) operator to access fields. We call this method on a pointer to a &lt;code&gt;Point&lt;/code&gt; in &lt;a href=&#34;#transp-in&#34;&gt;Calling &lt;code&gt;TranslatePointer&lt;/code&gt;&lt;/a&gt; (with output in &lt;a href=&#34;#transp-out&#34;&gt;Output of calling &lt;code&gt;TranslatePointer&lt;/code&gt;&lt;/a&gt;), again using an ampersand (&lt;code&gt;&amp;amp;&lt;/code&gt;) to tell Go we&amp;#8217;d like a pointer to a &lt;code&gt;Point&lt;/code&gt;, not a &lt;code&gt;Point&lt;/code&gt; value.&lt;/p&gt;
+Notice that Go conveniently dereferences the pointer automatically when using the dot (&lt;code&gt;.&lt;/code&gt;) operator to access fields. We call this method on a pointer to a &lt;code&gt;Point&lt;/code&gt; in &lt;a href=&#34;#transp-in&#34;&gt;Calling &lt;code&gt;TranslatePointer&lt;/code&gt;&lt;/a&gt; (with output in &lt;a href=&#34;#transp-out&#34;&gt;Output of calling &lt;code&gt;TranslatePointer&lt;/code&gt;&lt;/a&gt;), again using an ampersand (&lt;code&gt;&amp;amp;&lt;/code&gt;) to tell Go we’d like a pointer to a &lt;code&gt;Point&lt;/code&gt;, not a &lt;code&gt;Point&lt;/code&gt; value.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;transp-in&#34; class=&#34;listingblock&#34;&gt;
 &lt;div class=&#34;title&#34;&gt;Calling &lt;code&gt;TranslatePointer&lt;/code&gt;&lt;/div&gt;
 &lt;div class=&#34;content&#34;&gt;
 &lt;pre class=&#34;highlight&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;	qP := &amp;amp;point.Point{X: 1, Y: 2}
 	qP.TranslatePointer(5, 5)
-	fmt.Printf(&#34;Translated using pointer to %v\n&#34;, qP)&lt;/code&gt;&lt;/pre&gt;
+	fmt.Printf(&amp;#34;Translated using pointer to %v\n&amp;#34;, qP)&lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div id=&#34;transp-out&#34; class=&#34;listingblock&#34;&gt;
@@ -286,7 +286,7 @@ Translated using pointer to &amp;amp;{6 7}&lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Now that we have the capability to create types with associated methods, let&amp;#8217;s look at how we can compose new composite types from existing ones.&lt;/p&gt;
+&lt;p&gt;Now that we have the capability to create types with associated methods, let’s look at how we can compose new composite types from existing ones.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -294,7 +294,7 @@ Translated using pointer to &amp;amp;{6 7}&lt;/code&gt;&lt;/pre&gt;
 &lt;h2 id=&#34;_type_composition_with_structs&#34;&gt;Type composition with structs&lt;/h2&gt;
 &lt;div class=&#34;sectionbody&#34;&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Let&amp;#8217;s imagine that we&amp;#8217;d like to extend the concept of &lt;code&gt;Point&lt;/code&gt; and add the notion of color.
+&lt;p&gt;Let’s imagine that we’d like to extend the concept of &lt;code&gt;Point&lt;/code&gt; and add the notion of color.
 If we were working in Java, we might do the following:&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;pcolor&#34; class=&#34;listingblock&#34;&gt;
@@ -307,7 +307,7 @@ If we were working in Java, we might do the following:&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Since Go doesn&amp;#8217;t have the concept of classes or inheritance, we need to work with structs to accomplish our goal.
+&lt;p&gt;Since Go doesn’t have the concept of classes or inheritance, we need to work with structs to accomplish our goal.
 We can compose a type called &lt;code&gt;ColorPoint&lt;/code&gt; by &lt;em&gt;embedding&lt;/em&gt; the &lt;code&gt;Point&lt;/code&gt; type and then adding the additional field representing color (&lt;a href=&#34;#pembed&#34;&gt;Embedding &lt;code&gt;Point&lt;/code&gt; into &lt;code&gt;ColorPoint&lt;/code&gt;&lt;/a&gt;).&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;pembed&#34; class=&#34;listingblock&#34;&gt;
@@ -327,8 +327,8 @@ type ColorPoint struct {
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;First note the use of the &lt;code&gt;const&lt;/code&gt; keyword.
-We&amp;#8217;re defining a set of integer constants to represent our colors.
-This is the closest approximation that Go has to an enumerated type (such as Java&amp;#8217;s &lt;code&gt;enum&lt;/code&gt;) and is usually more that sufficient.
+We’re defining a set of integer constants to represent our colors.
+This is the closest approximation that Go has to an enumerated type (such as Java’s &lt;code&gt;enum&lt;/code&gt;) and is usually more that sufficient.
 The predeclared identifier &lt;code&gt;iota&lt;/code&gt; represents successive untyped integer constants.
 It is reset to &lt;code&gt;0&lt;/code&gt; whenever &lt;code&gt;const&lt;/code&gt; appears again in the source.
 This has the effect in our code of setting &lt;code&gt;BLUE&lt;/code&gt; to &lt;code&gt;0&lt;/code&gt;, &lt;code&gt;RED&lt;/code&gt; to &lt;code&gt;1&lt;/code&gt;, and &lt;code&gt;GREEN&lt;/code&gt; to &lt;code&gt;2&lt;/code&gt;.&lt;/p&gt;
@@ -336,15 +336,15 @@ This has the effect in our code of setting &lt;code&gt;BLUE&lt;/code&gt; to &lt;
 &lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;Next we define our &lt;code&gt;ColorPoint&lt;/code&gt; type as a &lt;code&gt;struct&lt;/code&gt;.
 We embed &lt;code&gt;Point&lt;/code&gt; as an exported field also called &lt;code&gt;Point&lt;/code&gt;, and we define an additional exported field called &lt;code&gt;Color&lt;/code&gt; that is typed as an &lt;code&gt;int&lt;/code&gt;.
-Now, in &lt;a href=&#34;#color-in&#34;&gt;Creating and printing a &lt;code&gt;ColorPoint&lt;/code&gt;&lt;/a&gt;, we&amp;#8217;ll create an instance of &lt;code&gt;ColorPoint&lt;/code&gt;, and then we&amp;#8217;ll print out both the previously defined &lt;code&gt;Point&lt;/code&gt; instance as well as the &lt;code&gt;ColorPoint&lt;/code&gt; instance (results in &lt;a href=&#34;#color-out&#34;&gt;Output of creating and printing a &lt;code&gt;ColorPoint&lt;/code&gt;&lt;/a&gt;).&lt;/p&gt;
+Now, in &lt;a href=&#34;#color-in&#34;&gt;Creating and printing a &lt;code&gt;ColorPoint&lt;/code&gt;&lt;/a&gt;, we’ll create an instance of &lt;code&gt;ColorPoint&lt;/code&gt;, and then we’ll print out both the previously defined &lt;code&gt;Point&lt;/code&gt; instance as well as the &lt;code&gt;ColorPoint&lt;/code&gt; instance (results in &lt;a href=&#34;#color-out&#34;&gt;Output of creating and printing a &lt;code&gt;ColorPoint&lt;/code&gt;&lt;/a&gt;).&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;color-in&#34; class=&#34;listingblock&#34;&gt;
 &lt;div class=&#34;title&#34;&gt;Creating and printing a &lt;code&gt;ColorPoint&lt;/code&gt;&lt;/div&gt;
 &lt;div class=&#34;content&#34;&gt;
 &lt;pre class=&#34;highlight&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;	r := point.ColorPoint{Point: point.Point{X: 1, Y: 4}, Color: point.BLUE}
 
-	fmt.Printf(&#34;Point: %v\n&#34;, p)
-	fmt.Printf(&#34;Color Point: %v\n&#34;, r)&lt;/code&gt;&lt;/pre&gt;
+	fmt.Printf(&amp;#34;Point: %v\n&amp;#34;, p)
+	fmt.Printf(&amp;#34;Color Point: %v\n&amp;#34;, r)&lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div id=&#34;color-out&#34; class=&#34;listingblock&#34;&gt;
@@ -356,15 +356,15 @@ Color Point: {{1 4} 0}&lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;We&amp;#8217;ve now successfully created a composite type, but we&amp;#8217;re missing something. Let&amp;#8217;s press on.&lt;/p&gt;
+&lt;p&gt;We’ve now successfully created a composite type, but we’re missing something. Let’s press on.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_houston_we_have_a_problem&#34;&gt;Houston, we have a problem&amp;#8230;&amp;#8203;&lt;/h2&gt;
+&lt;h2 id=&#34;_houston_we_have_a_problem&#34;&gt;Houston, we have a problem…​&lt;/h2&gt;
 &lt;div class=&#34;sectionbody&#34;&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Here&amp;#8217;s a summary of our problem:&lt;/p&gt;
+&lt;p&gt;Here’s a summary of our problem:&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;ulist&#34;&gt;
 &lt;ul&gt;
@@ -378,7 +378,7 @@ Color Point: {{1 4} 0}&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;code&gt;ColorPoint&lt;/code&gt;s are like &lt;code&gt;Point&lt;/code&gt;s, but they are definitely not &lt;code&gt;Point&lt;/code&gt;s since Go does not have inheritance.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;That said, we&amp;#8217;d like to be able to write methods that can interoperate between them. What do we do?&lt;/p&gt;
+&lt;p&gt;That said, we’d like to be able to write methods that can interoperate between them. What do we do?&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
@@ -388,7 +388,7 @@ As a reminder, the formula can be found in &lt;a href=&#34;#e-formula&#34;&gt;Eu
 &lt;/div&gt;
 &lt;div id=&#34;e-formula&#34; class=&#34;imageblock&#34;&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;img src=&#34;https://www.mattstine.com/images/distance_formula.png&#34; alt=&#34;distance formula&#34;&gt;
+&lt;img src=&#34;https://www.mattstine.com/images/distance_formula.png&#34; alt=&#34;distance formula&#34;/&gt;
 &lt;/div&gt;
 &lt;div class=&#34;title&#34;&gt;Figure 1. Euclidean distance formula&lt;/div&gt;
 &lt;/div&gt;
@@ -404,7 +404,7 @@ So how do we implement a method that will allow us to compute this formula in su
 &lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;Fortunately Go contributes a very powerful version of &lt;em&gt;interfaces&lt;/em&gt; to the abstraction conversation.
 Go interfaces describe groups of behaviors in the form of method signatures that implementors of the interface must implement.
-So far this doesn&amp;#8217;t sound unlike Java interfaces. Let&amp;#8217;s take a look at two Go interfaces in &lt;a href=&#34;#interfaces&#34;&gt;&lt;code&gt;Positioner&lt;/code&gt; and &lt;code&gt;Distancer&lt;/code&gt; interfaces&lt;/a&gt;.&lt;/p&gt;
+So far this doesn’t sound unlike Java interfaces. Let’s take a look at two Go interfaces in &lt;a href=&#34;#interfaces&#34;&gt;&lt;code&gt;Positioner&lt;/code&gt; and &lt;code&gt;Distancer&lt;/code&gt; interfaces&lt;/a&gt;.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;interfaces&#34; class=&#34;listingblock&#34;&gt;
 &lt;div class=&#34;title&#34;&gt;&lt;code&gt;Positioner&lt;/code&gt; and &lt;code&gt;Distancer&lt;/code&gt; interfaces&lt;/div&gt;
@@ -419,19 +419,19 @@ type Distancer interface {
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Notice that &lt;code&gt;interface&lt;/code&gt;s are themselves types. This is important, because it allows us to define function and method signatures that accept interfaces as arguments. &lt;code&gt;Positioner&lt;/code&gt;&#39;s &lt;code&gt;Coordinates()&lt;/code&gt; method should provide us the position of any implementor in terms of a &lt;code&gt;Point&lt;/code&gt;. &lt;code&gt;Distancer&lt;/code&gt;&#39;s &lt;code&gt;DistanceTo()&lt;/code&gt; method will calculate the distance between any implementor and a &lt;code&gt;Positioner&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Notice that &lt;code&gt;interface&lt;/code&gt;s are themselves types. This is important, because it allows us to define function and method signatures that accept interfaces as arguments. &lt;code&gt;Positioner&lt;/code&gt;&amp;#39;s &lt;code&gt;Coordinates()&lt;/code&gt; method should provide us the position of any implementor in terms of a &lt;code&gt;Point&lt;/code&gt;. &lt;code&gt;Distancer&lt;/code&gt;&amp;#39;s &lt;code&gt;DistanceTo()&lt;/code&gt; method will calculate the distance between any implementor and a &lt;code&gt;Positioner&lt;/code&gt;.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;admonitionblock note&#34;&gt;
 &lt;table&gt;
-&lt;tr&gt;
+&lt;tbody&gt;&lt;tr&gt;
 &lt;td class=&#34;icon&#34;&gt;
 &lt;div class=&#34;title&#34;&gt;Note&lt;/div&gt;
 &lt;/td&gt;
 &lt;td class=&#34;content&#34;&gt;
-It is idiomatic in Go for interface names to be suffixed with &amp;#8220;-er.&amp;#8221;
+It is idiomatic in Go for interface names to be suffixed with “-er.”
 &lt;/td&gt;
 &lt;/tr&gt;
-&lt;/table&gt;
+&lt;/tbody&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;However, unlike Java interfaces, where we might write:&lt;/p&gt;
@@ -445,11 +445,11 @@ It is idiomatic in Go for interface names to be suffixed with &amp;#8220;-er.&am
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;Go does not have an &lt;code&gt;implements&lt;/code&gt; keyword.
-In fact, if you think about the way we&amp;#8217;ve defined structs and methods so far, the only place in which we indicated any attachment between a struct and a method is in the method signature itself, in the form of the receiver parameter.
+In fact, if you think about the way we’ve defined structs and methods so far, the only place in which we indicated any attachment between a struct and a method is in the method signature itself, in the form of the receiver parameter.
 So how does this work in Go?&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Let&amp;#8217;s talk about how interfaces are &lt;em&gt;satsified&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Let’s talk about how interfaces are &lt;em&gt;satsified&lt;/em&gt;.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;In languages like Java, an interfaces is satisfied &lt;em&gt;explicitly&lt;/em&gt;.
@@ -464,10 +464,10 @@ For a type to implement an interface, it simply needs to implement all of the me
 When we use a type in the context of an interface (e.g. we pass a type into a function that expects an interface as one of its arguments), the compiler will check to see if that type satisfies the interface.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;Let&amp;#8217;s see how this falls out in practice.&lt;/p&gt;
+&lt;p&gt;Let’s see how this falls out in practice.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;First, let&amp;#8217;s define a function that can calculate the distance between two &lt;code&gt;Positioner&lt;/code&gt;s (&lt;a href=&#34;#distance-between&#34;&gt;Calculates the distance between two &lt;code&gt;Positioner&lt;/code&gt;s&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;First, let’s define a function that can calculate the distance between two &lt;code&gt;Positioner&lt;/code&gt;s (&lt;a href=&#34;#distance-between&#34;&gt;Calculates the distance between two &lt;code&gt;Positioner&lt;/code&gt;s&lt;/a&gt;).&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;distance-between&#34; class=&#34;listingblock&#34;&gt;
 &lt;div class=&#34;title&#34;&gt;Calculates the distance between two &lt;code&gt;Positioner&lt;/code&gt;s&lt;/div&gt;
@@ -517,8 +517,8 @@ func (cp ColorPoint) DistanceTo(pos Positioner) float64 {
 &lt;div id=&#34;calculating-distance-in&#34; class=&#34;listingblock&#34;&gt;
 &lt;div class=&#34;title&#34;&gt;Calculating the distance between &lt;code&gt;Point&lt;/code&gt; and &lt;code&gt;ColorPoint&lt;/code&gt;&lt;/div&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;pre class=&#34;highlight&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;	fmt.Printf(&#34;Dist b/w p and q = %v\n&#34;, p.DistanceTo(r))
-	fmt.Printf(&#34;Dist b/w q and p = %v\n&#34;, r.DistanceTo(p))&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;highlight&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;	fmt.Printf(&amp;#34;Dist b/w p and q = %v\n&amp;#34;, p.DistanceTo(r))
+	fmt.Printf(&amp;#34;Dist b/w q and p = %v\n&amp;#34;, r.DistanceTo(p))&lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div id=&#34;calculating-distance-out&#34; class=&#34;listingblock&#34;&gt;
@@ -530,10 +530,10 @@ Dist b/w q and p = 2&lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;At first glance this may not seem so impressive, nor may it seem to be that great of an advantage over what&amp;#8217;s available to us in Java.
+&lt;p&gt;At first glance this may not seem so impressive, nor may it seem to be that great of an advantage over what’s available to us in Java.
 The power, however, is hiding just under the surface.
 When we think about implementing an interface in Java, we usually are thinking in terms of taxonomy.
-Classes extend other classes, and as we&amp;#8217;ve previously stated, that means that a child class ought to be substitutable for its parent &lt;a href=&#34;#LSP&#34;&gt;[LSP]&lt;/a&gt;.
+Classes extend other classes, and as we’ve previously stated, that means that a child class ought to be substitutable for its parent &lt;a href=&#34;#LSP&#34;&gt;[LSP]&lt;/a&gt;.
 When we implement an interface in Java, we are also usually thinking that the class &lt;em&gt;is a&lt;/em&gt; version of that interface.
 We might have expressed our Cartesian coordinate taxonomy in Java as:&lt;/p&gt;
 &lt;/div&gt;
@@ -554,9 +554,9 @@ public class ColorPoint extends Point implements Coordinate {
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;When we do this, we soon hear ourselves talking about &lt;code&gt;Coordinate&lt;/code&gt;s as things, not as groups of behaviors.
-Let&amp;#8217;s contrast this with Go&amp;#8217;s implicit satisfaction by adding an additional example.
-Perhaps our program&amp;#8217;s purpose is to keep track of animals in a wildlife preserve.
-It&amp;#8217;s quite natural that we&amp;#8217;d have an &lt;code&gt;Animal&lt;/code&gt; type, and that type would have some way of keeping track of the animal&amp;#8217;s current location (&lt;a href=&#34;#animal-struct&#34;&gt;&lt;code&gt;Animal&lt;/code&gt; struct&lt;/a&gt;).&lt;/p&gt;
+Let’s contrast this with Go’s implicit satisfaction by adding an additional example.
+Perhaps our program’s purpose is to keep track of animals in a wildlife preserve.
+It’s quite natural that we’d have an &lt;code&gt;Animal&lt;/code&gt; type, and that type would have some way of keeping track of the animal’s current location (&lt;a href=&#34;#animal-struct&#34;&gt;&lt;code&gt;Animal&lt;/code&gt; struct&lt;/a&gt;).&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;animal-struct&#34; class=&#34;listingblock&#34;&gt;
 &lt;div class=&#34;title&#34;&gt;&lt;code&gt;Animal&lt;/code&gt; struct&lt;/div&gt;
@@ -587,15 +587,15 @@ func (a Animal) DistanceTo(pos point.Positioner) float64 {
 &lt;/div&gt;
 &lt;div class=&#34;admonitionblock note&#34;&gt;
 &lt;table&gt;
-&lt;tr&gt;
+&lt;tbody&gt;&lt;tr&gt;
 &lt;td class=&#34;icon&#34;&gt;
 &lt;div class=&#34;title&#34;&gt;Note&lt;/div&gt;
 &lt;/td&gt;
 &lt;td class=&#34;content&#34;&gt;
-Because &lt;code&gt;distanceBetween()&lt;/code&gt; was not exported from the &lt;code&gt;point&lt;/code&gt; package, we cannot use it in the &lt;code&gt;animal&lt;/code&gt; package. Sometimes you&amp;#8217;ll run into this situation in Go, which prefers &amp;#8220;dependency hygiene&amp;#8221; over reuse.
+Because &lt;code&gt;distanceBetween()&lt;/code&gt; was not exported from the &lt;code&gt;point&lt;/code&gt; package, we cannot use it in the &lt;code&gt;animal&lt;/code&gt; package. Sometimes you’ll run into this situation in Go, which prefers “dependency hygiene” over reuse.
 &lt;/td&gt;
 &lt;/tr&gt;
-&lt;/table&gt;
+&lt;/tbody&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;And now, we can perform our desired calculations (&lt;a href=&#34;#animal-in&#34;&gt;Mixing &lt;code&gt;Animal&lt;/code&gt;s and &lt;code&gt;Point&lt;/code&gt;s using interfaces&lt;/a&gt;).
@@ -604,11 +604,11 @@ We now know the distance between our penguin and our original point &lt;code&gt;
 &lt;div id=&#34;animal-in&#34; class=&#34;listingblock&#34;&gt;
 &lt;div class=&#34;title&#34;&gt;Mixing &lt;code&gt;Animal&lt;/code&gt;s and &lt;code&gt;Point&lt;/code&gt;s using interfaces&lt;/div&gt;
 &lt;div class=&#34;content&#34;&gt;
-&lt;pre class=&#34;highlight&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;	penguin := animal.Animal{Name: &#34;penguin&#34;, X: 1, Y: 1}
-	seal := animal.Animal{Name: &#34;seal&#34;, X: 1, Y: 4}
+&lt;pre class=&#34;highlight&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;	penguin := animal.Animal{Name: &amp;#34;penguin&amp;#34;, X: 1, Y: 1}
+	seal := animal.Animal{Name: &amp;#34;seal&amp;#34;, X: 1, Y: 4}
 
-	fmt.Printf(&#34;Dist b/w penguin and seal = %v\n&#34;, penguin.DistanceTo(seal))
-	fmt.Printf(&#34;Dist b/w penguin and point = %v\n&#34;, penguin.DistanceTo(p))&lt;/code&gt;&lt;/pre&gt;
+	fmt.Printf(&amp;#34;Dist b/w penguin and seal = %v\n&amp;#34;, penguin.DistanceTo(seal))
+	fmt.Printf(&amp;#34;Dist b/w penguin and point = %v\n&amp;#34;, penguin.DistanceTo(p))&lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div id=&#34;animal-out&#34; class=&#34;listingblock&#34;&gt;
@@ -633,14 +633,14 @@ And if we were implementing this program in Java, a naive translation would prob
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
 &lt;p&gt;So to summarize, Go interfaces allow us to use arbitrary types in contexts expecting a particular interface type, as long as the type in question implements all of the methods defined by that interface.
-Since interfaces are satisfied implicitly, we&amp;#8217;re no longer pressured toward treating interfaces as part of a type taxonomy.
-Instead, we&amp;#8217;re able to focus on them as groups of related behaviors.&lt;/p&gt;
+Since interfaces are satisfied implicitly, we’re no longer pressured toward treating interfaces as part of a type taxonomy.
+Instead, we’re able to focus on them as groups of related behaviors.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;This may seem like a concept popularized by dynamic languages called &amp;#8220;duck typing&amp;#8221; &lt;a href=&#34;#DT&#34;&gt;[DT]&lt;/a&gt;.
+&lt;p&gt;This may seem like a concept popularized by dynamic languages called “duck typing” &lt;a href=&#34;#DT&#34;&gt;[DT]&lt;/a&gt;.
 In most cases, you call a method &lt;em&gt;blindly&lt;/em&gt;, and allow the runtime dispatch system to determine if the object can &lt;em&gt;respond to&lt;/em&gt; that method.
 While this is a similar concept, it is not a very good description of how Go works.
-Go actually employs &amp;#8220;structural typing&amp;#8221; &lt;a href=&#34;#ST&#34;&gt;[ST]&lt;/a&gt;, which uses the compiler to determine interface satisfaction in a type safe manner.&lt;/p&gt;
+Go actually employs “structural typing” &lt;a href=&#34;#ST&#34;&gt;[ST]&lt;/a&gt;, which uses the compiler to determine interface satisfaction in a type safe manner.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -648,9 +648,9 @@ Go actually employs &amp;#8220;structural typing&amp;#8221; &lt;a href=&#34;#ST&
 &lt;h2 id=&#34;_conclusion&#34;&gt;Conclusion&lt;/h2&gt;
 &lt;div class=&#34;sectionbody&#34;&gt;
 &lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;I hope you&amp;#8217;ve enjoyed this brief introduction to the Go programming language, as well as one of its most powerful features: interfaces.
-With interfaces we&amp;#8217;re able to take a more pragmatic approach to component design, as we&amp;#8217;re not forced to think in terms of taxonomies and deep type hierarchies.
-In the next installment we&amp;#8217;ll explore Go&amp;#8217;s approach to concurrency.
+&lt;p&gt;I hope you’ve enjoyed this brief introduction to the Go programming language, as well as one of its most powerful features: interfaces.
+With interfaces we’re able to take a more pragmatic approach to component design, as we’re not forced to think in terms of taxonomies and deep type hierarchies.
+In the next installment we’ll explore Go’s approach to concurrency.
 Until next time my fellow gophers!&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;

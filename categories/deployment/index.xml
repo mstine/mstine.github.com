@@ -5,9 +5,9 @@
     <link>https://www.mattstine.com/categories/deployment/</link>
       <atom:link href="https://www.mattstine.com/categories/deployment/index.xml" rel="self" type="application/rss+xml" />
     <description>deployment</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Matt Stine</copyright><lastBuildDate>Sun, 29 Mar 2009 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2020 Matt Stine</copyright><lastBuildDate>Sun, 29 Mar 2009 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <url>https://www.mattstine.com/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
       <title>deployment</title>
       <link>https://www.mattstine.com/categories/deployment/</link>
     </image>
@@ -17,10 +17,10 @@
       <link>https://www.mattstine.com/2009/03/29/deploying-grails-with-groovy/</link>
       <pubDate>Sun, 29 Mar 2009 00:00:00 +0000</pubDate>
       <guid>https://www.mattstine.com/2009/03/29/deploying-grails-with-groovy/</guid>
-      <description>&lt;p&gt;Interesting title, eh? Maybe this one will make it through Glen&#39;s filter at &lt;a href=&#34;http://groovyblogs.org&#34;&gt;GroovyBlogs.org&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;On to the meat. I&#39;ve been steadily working on a couple of Grails applications, one being the website for the &lt;a href=&#34;http://www.memphisjug.org&#34;&gt;Memphis JUG&lt;/a&gt;, and another being the e-commerce site for my wife&#39;s soon to be launched designer stationery business. Just like your average Grails developer, I&#39;ve been happily coding away at 127.0.0.1 using the good old development Jetty+MySQL stack. Well, in the last week or so it&#39;s come time to actually deploy both of these applications into production. I started out last weekend with the Memphis JUG site. My first approach was to build the WAR file locally and then &amp;ldquo;scp&amp;rdquo; it up to the server.&lt;/p&gt;
-&lt;p&gt;YMMV, but the upload speed on my DSL connection is horrible! After doing this three or four times in one night, waiting 15-20 minutes for the WAR to upload each time (Grails WAR&#39;s are rather thick when carrying all of the dependencies along), I decided to myself, &amp;ldquo;There must be a better way to do this.&amp;rdquo;&lt;/p&gt;
-&lt;p&gt;Fast forward a week and here I sit working on the first &amp;ldquo;pre-production&amp;rdquo; release of my wife&#39;s store site. With quite a bit of time on my hands during these &amp;ldquo;dark and early&amp;rdquo; hours (a story for a later entry), I decided it was time for the experiment.&lt;/p&gt;
+      <description>&lt;p&gt;Interesting title, eh? Maybe this one will make it through Glen&amp;rsquo;s filter at &lt;a href=&#34;http://groovyblogs.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GroovyBlogs.org&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;On to the meat. I&amp;rsquo;ve been steadily working on a couple of Grails applications, one being the website for the &lt;a href=&#34;http://www.memphisjug.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Memphis JUG&lt;/a&gt;, and another being the e-commerce site for my wife&amp;rsquo;s soon to be launched designer stationery business. Just like your average Grails developer, I&amp;rsquo;ve been happily coding away at 127.0.0.1 using the good old development Jetty+MySQL stack. Well, in the last week or so it&amp;rsquo;s come time to actually deploy both of these applications into production. I started out last weekend with the Memphis JUG site. My first approach was to build the WAR file locally and then &amp;ldquo;scp&amp;rdquo; it up to the server.&lt;/p&gt;
+&lt;p&gt;YMMV, but the upload speed on my DSL connection is horrible! After doing this three or four times in one night, waiting 15-20 minutes for the WAR to upload each time (Grails WAR&amp;rsquo;s are rather thick when carrying all of the dependencies along), I decided to myself, &amp;ldquo;There must be a better way to do this.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;Fast forward a week and here I sit working on the first &amp;ldquo;pre-production&amp;rdquo; release of my wife&amp;rsquo;s store site. With quite a bit of time on my hands during these &amp;ldquo;dark and early&amp;rdquo; hours (a story for a later entry), I decided it was time for the experiment.&lt;/p&gt;
 &lt;p&gt;Each of these projects is hosted at GitHub, so the process that I mapped out in my mind looked like this:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
@@ -33,17 +33,17 @@
 &lt;p&gt;Stop the Tomcat service (my hosting provider sets up Tomcat to run as a service)&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Delete the remnants of the previous deployment from Tomcat&#39;s deployment directory&lt;/p&gt;
+&lt;p&gt;Delete the remnants of the previous deployment from Tomcat&amp;rsquo;s deployment directory&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Copy the new WAR file to Tomcat&#39;s deployment directory&lt;/p&gt;
+&lt;p&gt;Copy the new WAR file to Tomcat&amp;rsquo;s deployment directory&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Start the Tomcat service&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;By the way, I forgot to mention that before doing all of this I moved the production data source definition from being locally defined to being a JNDI lookup within Tomcat. This posed its own challenge, which I&#39;ll blog about a bit later.&lt;/p&gt;
-&lt;p&gt;Anyway, back to the deployment. I though this would be an excellent opportunity to take &lt;a href=&#34;http://groovy.codehaus.org/Using+Ant+from+Groovy&#34;&gt;Groovy&#39;s Antbuilder&lt;/a&gt; out for a spin. Here&#39;s an example of what I put together:&lt;/p&gt;
+&lt;p&gt;By the way, I forgot to mention that before doing all of this I moved the production data source definition from being locally defined to being a JNDI lookup within Tomcat. This posed its own challenge, which I&amp;rsquo;ll blog about a bit later.&lt;/p&gt;
+&lt;p&gt;Anyway, back to the deployment. I though this would be an excellent opportunity to take &lt;a href=&#34;http://groovy.codehaus.org/Using&amp;#43;Ant&amp;#43;from&amp;#43;Groovy&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Groovy&amp;rsquo;s Antbuilder&lt;/a&gt; out for a spin. Here&amp;rsquo;s an example of what I put together:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;#!/usr/bin/env groovy
 
 def ant = new AntBuilder()
@@ -74,8 +74,8 @@ ant.exec(executable:&#39;service&#39;) {
         arg(line:&#39;tomcat6 start&#39;)
 }
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;As you can see, I have a few undefined Groovy constants in there. Let&#39;s just say I didn&#39;t want to expose ALL of the details of my server.&lt;/p&gt;
-&lt;p&gt;At any rate, it&#39;s pretty simple. One word of warning - if you&#39;re using Ehcache, make sure to add it to your ivy.xml dependencies, or the Ant build won&#39;t bring it in like running &amp;ldquo;grails war&amp;rdquo; will. I hope someone finds this simple script useful. Enjoy!&lt;/p&gt;
+&lt;p&gt;As you can see, I have a few undefined Groovy constants in there. Let&amp;rsquo;s just say I didn&amp;rsquo;t want to expose ALL of the details of my server.&lt;/p&gt;
+&lt;p&gt;At any rate, it&amp;rsquo;s pretty simple. One word of warning - if you&amp;rsquo;re using Ehcache, make sure to add it to your ivy.xml dependencies, or the Ant build won&amp;rsquo;t bring it in like running &amp;ldquo;grails war&amp;rdquo; will. I hope someone finds this simple script useful. Enjoy!&lt;/p&gt;
 </description>
     </item>
     

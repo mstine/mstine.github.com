@@ -5,9 +5,9 @@
     <link>https://www.mattstine.com/publication_types/0/</link>
       <atom:link href="https://www.mattstine.com/publication_types/0/index.xml" rel="self" type="application/rss+xml" />
     <description>0</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Matt Stine</copyright><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2020 Matt Stine</copyright><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <url>https://www.mattstine.com/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
       <title>0</title>
       <link>https://www.mattstine.com/publication_types/0/</link>
     </image>
@@ -25,10 +25,10 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;This learning path is for you because…&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;You&#39;re a software architect or senior developer working on medium-to-large scale enterprise systems and want to learn the Brick and Mortar pattern language&lt;/li&gt;
-&lt;li&gt;You&#39;re an experienced application architect, lead engineer, or senior developer building medium-to-large scale enterprise applications, and you need to start leveraging cloud infrastructure for your solutions&lt;/li&gt;
-&lt;li&gt;You&#39;re an experienced application architect, lead engineer, or senior developer building medium-to-large scale enterprise applications, and you want to understand how to create systems optimized for DevOps and Continuous Delivery practices&lt;/li&gt;
-&lt;li&gt;You&#39;re an experienced application architect, lead engineer, or senior developer building medium-to-large scale enterprise applications, and you need to start migrating your existing applications to cloud native architectures&lt;/li&gt;
+&lt;li&gt;You&amp;rsquo;re a software architect or senior developer working on medium-to-large scale enterprise systems and want to learn the Brick and Mortar pattern language&lt;/li&gt;
+&lt;li&gt;You&amp;rsquo;re an experienced application architect, lead engineer, or senior developer building medium-to-large scale enterprise applications, and you need to start leveraging cloud infrastructure for your solutions&lt;/li&gt;
+&lt;li&gt;You&amp;rsquo;re an experienced application architect, lead engineer, or senior developer building medium-to-large scale enterprise applications, and you want to understand how to create systems optimized for DevOps and Continuous Delivery practices&lt;/li&gt;
+&lt;li&gt;You&amp;rsquo;re an experienced application architect, lead engineer, or senior developer building medium-to-large scale enterprise applications, and you need to start migrating your existing applications to cloud native architectures&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
